@@ -1,0 +1,4 @@
+# model weights are never committed - see README.md
+*
+!README.md
+!.gitignore
