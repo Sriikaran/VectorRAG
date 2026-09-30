@@ -1,0 +1,634 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_022",
+ "page_number": 3,
+ "source_page_hash": "158672dc0922091b7507e6bc2aacca18f32c5efbaa672cd9060f11380d0b7c76",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:59 AM\nFeatures\n\nThe Enterprise Service CashPointPaymentCreateNotification supports the transfer of individual and multiple payments in a\nmessage. Payment information sent to FI-CA via the Enterprise Service is made persistent in FI-CA and leads to the posting of the\npayment and the clearing of the related open item provided you have configured the clearing control accordingly in FI-CA.\n\nIf a payment cannot be posted directly, this payment receives the status Posting not successful, repetition planned.\nYou can read the status of a payment in the Monitor for External Cash Desk Services.\n\nThe system automatically creates a reconciliation key or reuses a relevant reconciliation key for the posting. The syntax of the\nreconciliation key corresponds to the form EXCYYMMTT, whereby EXC is a fixe prefix, YY signifies the current year, MM the current\nmonth, and DD the current day. The nnn places receive a sequential numbering from O01 to 999. If a reconciliation key cannot be\nreused on the same day, the system calls the reconciliation key with the next number.\n\nEnterprise Service CashPointPaymentCreateNotification\n\nDefinition\n\nTransfers payment information from an external cash desk to Contract Accounts Receivable and Payable .\n\nStructure\n\nType Definition\nCashPointReferencelD\nCashPointOfficeReferencelD\nPaymenttTransactionID\nCashPointPaymentGroupReferencelD\nPaymentAmount\n\nValueDate\nOnAccountIndicator\nPayerParty\nPayerContractAccountID\nDebtorParty\nPaymentExplanation\nChequePayment\n\nPaymentCardPayment\n\nPostalOrderPayment\n\nName\n\nID of the cash desk\n\nID of the branch\n\nID of payment\n\nID of grouping key\n\nAmount of payment to be posted\nValue date of payment\n\nPayment on account indicator\nBusiness partner ID of payer\nContract account ID of payer\nBusiness partner ID of customer\nPayment use\n\nCheck information\n\nPayment card information\n\nPostal order information\n",
+ "cleaned_text": "Features\n\nThe Enterprise Service CashPointPaymentCreateNotification supports the transfer of individual and multiple payments in a message. Payment information sent to FI-CA via the Enterprise Service is made persistent in FI-CA and leads to the posting of the payment and the clearing of the related open item provided you have configured the clearing control accordingly in FI-CA. If a payment cannot be posted directly, this payment receives the status Posting not successful, repetition planned. You can read the status of a payment in the Monitor for External Cash Desk Services. The system automatically creates a reconciliation key or reuses a relevant reconciliation key for the posting. The syntax of the reconciliation key corresponds to the form EXCYYMMTT, whereby EXC is a fixe prefix, YY signifies the current year, MM the current month, and DD the current day. The nnn places receive a sequential numbering from O01 to 999. If a reconciliation key cannot be reused on the same day, the system calls the reconciliation key with the next number.\n\nEnterprise Service CashPointPaymentCreateNotification\n\nDefinition\n\nTransfers payment information from an external cash desk to Contract Accounts Receivable and Payable .\n\nStructure\n\nType Definition\n\nCashPointReferencelD\n\nCashPointOfficeReferencelD\n\nPaymenttTransactionID\n\nCashPointPaymentGroupReferencelD\n\nPaymentAmount\n\nValueDate\n\nOnAccountIndicator PayerParty\n\nPayerContractAccountID\n\nDebtorParty\n\nPaymentExplanation\n\nChequePayment\n\nPaymentCardPayment\n\nPostalOrderPayment\n\nName\n\nID of the cash desk\n\nID of the branch\n\nID of payment ID of grouping key Amount of payment to be posted Value date of payment Payment on account indicator Business partner ID of payer Contract account ID of payer Business partner ID of customer Payment use\n\nCheck information\n\nPayment card information\n\nPostal order information",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:59 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_022_p003_b000",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    127,
+    361,
+    172
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_009"
+  },
+  {
+   "block_id": "doc_022_p003_b001",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    259,
+    2477,
+    977
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The Enterprise Service CashPointPaymentCreateNotification supports the transfer of individual and multiple payments in a message. Payment information sent to FI-CA via the Enterprise Service is made persistent in FI-CA and leads to the posting of the payment and the clearing of the related open item provided you have configured the clearing control accordingly in FI-CA. If a payment cannot be posted directly, this payment receives the status Posting not successful, repetition planned. You can read the status of a payment in the Monitor for External Cash Desk Services. The system automatically creates a reconciliation key or reuses a relevant reconciliation key for the posting. The syntax of the reconciliation key corresponds to the form EXCYYMMTT, whereby EXC is a fixe prefix, YY signifies the current year, MM the current month, and DD the current day. The nnn places receive a sequential numbering from O01 to 999. If a reconciliation key cannot be reused on the same day, the system calls the reconciliation key with the next number.",
+   "section_id": "doc_022_sec_009"
+  },
+  {
+   "block_id": "doc_022_p003_b002",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    128,
+    1126,
+    2177,
+    1202
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [],
+   "text": "Enterprise Service CashPointPaymentCreateNotification",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_010"
+  },
+  {
+   "block_id": "doc_022_p003_b003",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    1303,
+    393,
+    1348
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_011"
+  },
+  {
+   "block_id": "doc_022_p003_b004",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    1435,
+    2057,
+    1473
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Transfers payment information from an external cash desk to Contract Accounts Receivable and Payable .",
+   "section_id": "doc_022_sec_011"
+  },
+  {
+   "block_id": "doc_022_p003_b005",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    124,
+    1585,
+    391,
+    1631
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Structure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_012"
+  },
+  {
+   "block_id": "doc_022_p003_b006",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    147,
+    1743,
+    407,
+    1779
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Type Definition",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_013"
+  },
+  {
+   "block_id": "doc_022_p003_b007",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    148,
+    1848,
+    537,
+    1877
+   ],
+   "ocr_confidence": 92.1,
+   "flags": [],
+   "text": "CashPointReferencelD",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_014"
+  },
+  {
+   "block_id": "doc_022_p003_b008",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    148,
+    1954,
+    640,
+    1982
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [],
+   "text": "CashPointOfficeReferencelD",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_015"
+  },
+  {
+   "block_id": "doc_022_p003_b009",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    149,
+    2059,
+    541,
+    2094
+   ],
+   "ocr_confidence": 42.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "PaymenttTransactionID",
+   "section_id": "doc_022_sec_015"
+  },
+  {
+   "block_id": "doc_022_p003_b010",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    148,
+    2164,
+    800,
+    2199
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [],
+   "text": "CashPointPaymentGroupReferencelD",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_016"
+  },
+  {
+   "block_id": "doc_022_p003_b011",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    149,
+    2272,
+    440,
+    2307
+   ],
+   "ocr_confidence": 91.9,
+   "flags": [],
+   "text": "PaymentAmount",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_017"
+  },
+  {
+   "block_id": "doc_022_p003_b012",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    147,
+    2378,
+    323,
+    2406
+   ],
+   "ocr_confidence": 91.1,
+   "flags": [],
+   "text": "ValueDate",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_018"
+  },
+  {
+   "block_id": "doc_022_p003_b013",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    148,
+    2482,
+    498,
+    2623
+   ],
+   "ocr_confidence": 73.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "OnAccountIndicator PayerParty",
+   "section_id": "doc_022_sec_018"
+  },
+  {
+   "block_id": "doc_022_p003_b014",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    149,
+    2692,
+    579,
+    2728
+   ],
+   "ocr_confidence": 84.3,
+   "flags": [],
+   "text": "PayerContractAccountID",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_019"
+  },
+  {
+   "block_id": "doc_022_p003_b015",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    149,
+    2802,
+    360,
+    2837
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [],
+   "text": "DebtorParty",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_020"
+  },
+  {
+   "block_id": "doc_022_p003_b016",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    149,
+    2907,
+    504,
+    2942
+   ],
+   "ocr_confidence": 87.3,
+   "flags": [],
+   "text": "PaymentExplanation",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_021"
+  },
+  {
+   "block_id": "doc_022_p003_b017",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    148,
+    3011,
+    434,
+    3047
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [],
+   "text": "ChequePayment",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_022"
+  },
+  {
+   "block_id": "doc_022_p003_b018",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    149,
+    3116,
+    538,
+    3152
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [],
+   "text": "PaymentCardPayment",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_023"
+  },
+  {
+   "block_id": "doc_022_p003_b019",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    149,
+    3225,
+    508,
+    3260
+   ],
+   "ocr_confidence": 91.7,
+   "flags": [],
+   "text": "PostalOrderPayment",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_024"
+  },
+  {
+   "block_id": "doc_022_p003_b020",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    851,
+    1743,
+    951,
+    1771
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Name",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_025"
+  },
+  {
+   "block_id": "doc_022_p003_b021",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    852,
+    1848,
+    1167,
+    1876
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "ID of the cash desk",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_026"
+  },
+  {
+   "block_id": "doc_022_p003_b022",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    852,
+    1954,
+    1116,
+    1982
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "ID of the branch",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_027"
+  },
+  {
+   "block_id": "doc_022_p003_b023",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    850,
+    2059,
+    1402,
+    2941
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "ID of payment ID of grouping key Amount of payment to be posted Value date of payment Payment on account indicator Business partner ID of payer Contract account ID of payer Business partner ID of customer Payment use",
+   "section_id": "doc_022_sec_027"
+  },
+  {
+   "block_id": "doc_022_p003_b024",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    851,
+    3011,
+    1159,
+    3039
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Check information",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_028"
+  },
+  {
+   "block_id": "doc_022_p003_b025",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    852,
+    3117,
+    1287,
+    3151
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Payment card information",
+   "section_id": "doc_022_sec_028"
+  },
+  {
+   "block_id": "doc_022_p003_b026",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    852,
+    3225,
+    1257,
+    3253
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Postal order information",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_029"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Processing Incoming Payments from External Cash Desks",
+  "source_pdf": "22.pdf",
+  "reference_pdf": "22_Processing_Incoming_Payments_from_External_Cash_Desks.pdf",
+  "category": "Payments & Clearing",
+  "m2c_relevance": "Relevant to real-time external payment and reversal scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "158672dc0922091b7507e6bc2aacca18f32c5efbaa672cd9060f11380d0b7c76"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:44Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Processing Incoming Payments from External Cash Desks",
+  "Transferring Payments",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_022_sec_009",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_010",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_011",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_012",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_013",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_014",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_015",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_016",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_017",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_018",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_019",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_020",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_021",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_022",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_023",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_024",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_025",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_026",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_027",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_028",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_029",
+   "role": "starts_here"
+  }
+ ]
+}

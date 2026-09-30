@@ -1,0 +1,400 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 66,
+ "source_page_hash": "0e88aefd7607f80acab4ca755d0a2b1ba3c052170c26ef7d0dcaf73b9d96dfe9",
+ "is_cover_page": false,
+ "title": "Validations",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nMeter readings are put aside for later processing.\n\ne Estimate\n\ne Print correction order\n\ne Validation information\ne Control meter reading order\n\nIf the control meter reading is plausible, the implausible meter reading result is replaced by an estimated result. This estimation is\nbased on the control meter reading.\n\nValidations\n\nUse\nValidations are carried out during the entry and correction of meter reading results.\n\nThere are dependent and independent validations:\n\ne Independent validations check the meter reading result from one register only.\n\ne Dependent validations, check related registers together.\n\nIndependent Validation\n\nDuring independent validation, the meter reading result of exactly one register is checked. Validations can be fixed or variable.\nFixed independent validations are performed automatically by the system. Variable independent validations are performed\naccording to the settings in Customizing for SAP Utilities under |)}}Device Management \u00bb Meter Reading \u00bb Validiatons\n\nIndependent Validations\n\nFixed Validations\n\ne Previous Meter Reading Implausible\n\nThe system perfoms validation based on the previous meter reading results. The system first checks whether the result\nfrom the previous meter reading is plausible. If it is not, the current meter reading result cannot be given the status\n\"Plausible\". The result of the previous meter reading must first be corrected so it can be used as a basis for the other\nchecks.\n\ne Fixed value deviation check\n\nDuring reconnection of an inactive or disconnected installation, and during device installation after certification, for\nexample, the system checks whether any consumption took place and whether the consumption is below the maximum\npermissible deviation. You define this in Customizing for SAP Utilities under |}}Device Management \u00bb Meter Reading\nValidations J Independent|Validations \u2018\u00bb Parameters for FVD Validation for Devices Not Allocated to Installations\n\ne Check Resetting Register\n",
+ "cleaned_text": "Meter readings are put aside for later processing.\n\n- Estimate\n\n- Print correction order\n\n- Validation information\n\n- Control meter reading order\n\nIf the control meter reading is plausible, the implausible meter reading result is replaced by an estimated result. This estimation is based on the control meter reading.\n\nValidations\n\nUse\n\nValidations are carried out during the entry and correction of meter reading results. There are dependent and independent validations:\n\n- Independent validations check the meter reading result from one register only.\n\n- Dependent validations, check related registers together.\n\nIndependent Validation During independent validation, the meter reading result of exactly one register is checked. Validations can be fixed or variable. Fixed independent validations are performed automatically by the system. Variable independent validations are performed according to the settings in Customizing for SAP Utilities under |)}}Device Management \u00bb Meter Reading \u00bb Validiatons Independent Validations\n\nFixed Validations\n\n- Previous Meter Reading Implausible The system perfoms validation based on the previous meter reading results. The system first checks whether the result from the previous meter reading is plausible. If it is not, the current meter reading result cannot be given the status \"Plausible\". The result of the previous meter reading must first be corrected so it can be used as a basis for the other\n\nchecks.\n\n- Fixed value deviation check During reconnection of an inactive or disconnected installation, and during device installation after certification, for\n\nexample, the system checks whether any consumption took place and whether the consumption is below the maximum permissible deviation. You define this in Customizing for SAP Utilities under |}}Device Management \u00bb Meter Reading Validations J Independent|Validations \u2018\u00bb Parameters for FVD Validation for Devices Not Allocated to Installations\n\n- Check Resetting Register",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p066_b000",
+   "type": "paragraph",
+   "page_number": 66,
+   "bbox": [
+    125,
+    134,
+    1011,
+    172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Meter readings are put aside for later processing.",
+   "section_id": "doc_006_sec_153"
+  },
+  {
+   "block_id": "doc_006_p066_b001",
+   "type": "list",
+   "page_number": 66,
+   "bbox": [
+    207,
+    257,
+    762,
+    642
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Estimate"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Print correction order"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Validation information"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Control meter reading order"
+    }
+   ],
+   "section_id": "doc_006_sec_153"
+  },
+  {
+   "block_id": "doc_006_p066_b002",
+   "type": "paragraph",
+   "page_number": 66,
+   "bbox": [
+    124,
+    726,
+    2465,
+    826
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "If the control meter reading is plausible, the implausible meter reading result is replaced by an estimated result. This estimation is based on the control meter reading.",
+   "section_id": "doc_006_sec_153"
+  },
+  {
+   "block_id": "doc_006_p066_b003",
+   "type": "heading",
+   "page_number": 66,
+   "bbox": [
+    124,
+    975,
+    520,
+    1036
+   ],
+   "ocr_confidence": 92.1,
+   "flags": [],
+   "text": "Validations",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_154"
+  },
+  {
+   "block_id": "doc_006_p066_b004",
+   "type": "heading",
+   "page_number": 66,
+   "bbox": [
+    124,
+    1124,
+    191,
+    1153
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Use",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_155"
+  },
+  {
+   "block_id": "doc_006_p066_b005",
+   "type": "paragraph",
+   "page_number": 66,
+   "bbox": [
+    122,
+    1245,
+    1629,
+    1407
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Validations are carried out during the entry and correction of meter reading results. There are dependent and independent validations:",
+   "section_id": "doc_006_sec_155"
+  },
+  {
+   "block_id": "doc_006_p066_b006",
+   "type": "list",
+   "page_number": 66,
+   "bbox": [
+    207,
+    1491,
+    1674,
+    1631
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Independent validations check the meter reading result from one register only."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Dependent validations, check related registers together."
+    }
+   ],
+   "section_id": "doc_006_sec_155"
+  },
+  {
+   "block_id": "doc_006_p066_b007",
+   "type": "paragraph",
+   "page_number": 66,
+   "bbox": [
+    123,
+    1776,
+    2395,
+    2157
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Independent Validation During independent validation, the meter reading result of exactly one register is checked. Validations can be fixed or variable. Fixed independent validations are performed automatically by the system. Variable independent validations are performed according to the settings in Customizing for SAP Utilities under |)}}Device Management \u00bb Meter Reading \u00bb Validiatons Independent Validations",
+   "section_id": "doc_006_sec_155"
+  },
+  {
+   "block_id": "doc_006_p066_b008",
+   "type": "heading",
+   "page_number": 66,
+   "bbox": [
+    126,
+    2269,
+    594,
+    2314
+   ],
+   "ocr_confidence": 92.1,
+   "flags": [],
+   "text": "Fixed Validations",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_156"
+  },
+  {
+   "block_id": "doc_006_p066_b009",
+   "type": "list",
+   "page_number": 66,
+   "bbox": [
+    207,
+    2398,
+    2410,
+    2666
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Previous Meter Reading Implausible The system perfoms validation based on the previous meter reading results. The system first checks whether the result from the previous meter reading is plausible. If it is not, the current meter reading result cannot be given the status \"Plausible\". The result of the previous meter reading must first be corrected so it can be used as a basis for the other"
+    }
+   ],
+   "section_id": "doc_006_sec_156"
+  },
+  {
+   "block_id": "doc_006_p066_b010",
+   "type": "paragraph",
+   "page_number": 66,
+   "bbox": [
+    255,
+    2690,
+    389,
+    2721
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "checks.",
+   "section_id": "doc_006_sec_156"
+  },
+  {
+   "block_id": "doc_006_p066_b011",
+   "type": "list",
+   "page_number": 66,
+   "bbox": [
+    207,
+    2792,
+    2338,
+    2935
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Fixed value deviation check During reconnection of an inactive or disconnected installation, and during device installation after certification, for"
+    }
+   ],
+   "section_id": "doc_006_sec_156"
+  },
+  {
+   "block_id": "doc_006_p066_b012",
+   "type": "paragraph",
+   "page_number": 66,
+   "bbox": [
+    254,
+    2960,
+    2418,
+    3126
+   ],
+   "ocr_confidence": 89.7,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "example, the system checks whether any consumption took place and whether the consumption is below the maximum permissible deviation. You define this in Customizing for SAP Utilities under |}}Device Management \u00bb Meter Reading Validations J Independent|Validations \u2018\u00bb Parameters for FVD Validation for Devices Not Allocated to Installations",
+   "section_id": "doc_006_sec_156"
+  },
+  {
+   "block_id": "doc_006_p066_b013",
+   "type": "list",
+   "page_number": 66,
+   "bbox": [
+    207,
+    3186,
+    711,
+    3224
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Check Resetting Register"
+    }
+   ],
+   "section_id": "doc_006_sec_156"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "0e88aefd7607f80acab4ca755d0a2b1ba3c052170c26ef7d0dcaf73b9d96dfe9"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Correction of Implausible Meter Reading Results",
+  "Activities",
+  "Correction Screen"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_153",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_154",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_155",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_156",
+   "role": "starts_here"
+  }
+ ]
+}

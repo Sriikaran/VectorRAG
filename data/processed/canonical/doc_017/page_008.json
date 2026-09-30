@@ -1,0 +1,420 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_017",
+ "page_number": 8,
+ "source_page_hash": "b22a42114383cfab5b24fe8afeca1976f943a2b6f018e06b8cb6e3e9391d632e",
+ "is_cover_page": false,
+ "title": "Logging of Changes to Contract Account",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nfe)\n\ne\u00ab\u00b0 Example\n\nFor automatic payment clearing, you specify that a payment on account is always assigned to the account holder.\n\nLogging of Changes to Contract Account\n\nUse\n\nChanges to fields of the contract account are logged. The changes can be displayed in the dialog maintenance of the contract\n\naccount. It also contains information about who created a contract account when, and who made the last change.\n\nKey Features\n\nIn the menu, choose the transaction Extras and then choose the desired menu entry in the following table.\n\nMenu Entry\n\nCreation Data\n\nAccount Changes\n\nField Changes\n\nThe system displays the following:\n\nWho created a contract account when and last changed it\n\nThere is a difference here between general and business-partner-\nspecific data.\n\nAll the changes to an account.\n\nDuring execution, the system offers a selection list of all fields that\nhave previously been changed on the account. In addition, the\n\nsystem displays cross-business-partner and business-partner-\nspecific details regarding the creation data of the account, and\nadditional data on business partners.\n\nBy selecting individual fields, you can select the change data. After\nconfirming the entries, a list of all the changes appears, specifying\nthe person who made them and the date of the change.\n\nChanges to the field on which the cursor is positioned.\n\nAfter choosing this function, a list with the changes made to this\n\nfield appears, specifying the person who made them and the date\nof the change.\n\nNo change documents are written for process locks. You can display the history for the display locks from the dialog for the locks\n\nAutomatic Master Data Transfer\n\nUse\n\nYou use this function to transfer the contract account master data from legacy or operational systems.\n\nCaatitrac\n",
+ "cleaned_text": "fe) e\u00ab\u00b0 Example For automatic payment clearing, you specify that a payment on account is always assigned to the account holder.\n\nLogging of Changes to Contract Account\n\nUse\n\nChanges to fields of the contract account are logged. The changes can be displayed in the dialog maintenance of the contract account. It also contains information about who created a contract account when, and who made the last change.\n\nKey Features\n\nIn the menu, choose the transaction Extras and then choose the desired menu entry in the following table.\n\nMenu Entry\n\nCreation Data\n\nAccount Changes\n\nField Changes\n\nThe system displays the following:\n\nWho created a contract account when and last changed it There is a difference here between general and business-partner-specific data. All the changes to an account. During execution, the system offers a selection list of all fields that have previously been changed on the account. In addition, the system displays cross-business-partner and business-partner-specific details regarding the creation data of the account, and additional data on business partners. By selecting individual fields, you can select the change data. After confirming the entries, a list of all the changes appears, specifying the person who made them and the date of the change. Changes to the field on which the cursor is positioned. After choosing this function, a list with the changes made to this field appears, specifying the person who made them and the date of the change.\n\nNo change documents are written for process locks. You can display the history for the display locks from the dialog for the locks\n\nAutomatic Master Data Transfer\n\nUse\n\nYou use this function to transfer the contract account master data from legacy or operational systems.\n\nCaatitrac",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_017_p008_b000",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    151,
+    146,
+    2202,
+    271
+   ],
+   "ocr_confidence": 89.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "fe) e\u00ab\u00b0 Example For automatic payment clearing, you specify that a payment on account is always assigned to the account holder.",
+   "section_id": "doc_017_sec_036"
+  },
+  {
+   "block_id": "doc_017_p008_b001",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    128,
+    452,
+    1592,
+    529
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Logging of Changes to Contract Account",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_037"
+  },
+  {
+   "block_id": "doc_017_p008_b002",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    125,
+    633,
+    225,
+    678
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_038"
+  },
+  {
+   "block_id": "doc_017_p008_b003",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    123,
+    762,
+    2388,
+    865
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Changes to fields of the contract account are logged. The changes can be displayed in the dialog maintenance of the contract account. It also contains information about who created a contract account when, and who made the last change.",
+   "section_id": "doc_017_sec_038"
+  },
+  {
+   "block_id": "doc_017_p008_b004",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    126,
+    978,
+    480,
+    1034
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Key Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_039"
+  },
+  {
+   "block_id": "doc_017_p008_b005",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    125,
+    1107,
+    2040,
+    1145
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "In the menu, choose the transaction Extras and then choose the desired menu entry in the following table.",
+   "section_id": "doc_017_sec_039"
+  },
+  {
+   "block_id": "doc_017_p008_b006",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    149,
+    1254,
+    347,
+    1288
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Menu Entry",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_040"
+  },
+  {
+   "block_id": "doc_017_p008_b007",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    149,
+    1359,
+    386,
+    1387
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Creation Data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_041"
+  },
+  {
+   "block_id": "doc_017_p008_b008",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    148,
+    1622,
+    451,
+    1657
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Account Changes",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_042"
+  },
+  {
+   "block_id": "doc_017_p008_b009",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    149,
+    2269,
+    389,
+    2304
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Field Changes",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_043"
+  },
+  {
+   "block_id": "doc_017_p008_b010",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    1331,
+    1254,
+    1923,
+    1288
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The system displays the following:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_044"
+  },
+  {
+   "block_id": "doc_017_p008_b011",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    1330,
+    1359,
+    2446,
+    2514
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Who created a contract account when and last changed it There is a difference here between general and business-partner-specific data. All the changes to an account. During execution, the system offers a selection list of all fields that have previously been changed on the account. In addition, the system displays cross-business-partner and business-partner-specific details regarding the creation data of the account, and additional data on business partners. By selecting individual fields, you can select the change data. After confirming the entries, a list of all the changes appears, specifying the person who made them and the date of the change. Changes to the field on which the cursor is positioned. After choosing this function, a list with the changes made to this field appears, specifying the person who made them and the date of the change.",
+   "section_id": "doc_017_sec_044"
+  },
+  {
+   "block_id": "doc_017_p008_b012",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    125,
+    2625,
+    2449,
+    2662
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "No change documents are written for process locks. You can display the history for the display locks from the dialog for the locks",
+   "section_id": "doc_017_sec_044"
+  },
+  {
+   "block_id": "doc_017_p008_b013",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    124,
+    2812,
+    1283,
+    2873
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Automatic Master Data Transfer",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_045"
+  },
+  {
+   "block_id": "doc_017_p008_b014",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    125,
+    2988,
+    225,
+    3033
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_046"
+  },
+  {
+   "block_id": "doc_017_p008_b015",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    123,
+    3121,
+    1978,
+    3158
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You use this function to transfer the contract account master data from legacy or operational systems.",
+   "section_id": "doc_017_sec_046"
+  },
+  {
+   "block_id": "doc_017_p008_b016",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    126,
+    3271,
+    360,
+    3300
+   ],
+   "ocr_confidence": 0.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Caatitrac",
+   "section_id": "doc_017_sec_046"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Accounts Overview",
+  "source_pdf": "17.pdf",
+  "reference_pdf": "17_Contract_Accounts_Overview.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Use to connect utility invoicing to receivables, payments and dunning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "b22a42114383cfab5b24fe8afeca1976f943a2b6f018e06b8cb6e3e9391d632e"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Accounts Overview",
+  "Link: Contract Account - Business Partner",
+  "Activities"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_017_sec_036",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_017_sec_037",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_038",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_039",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_040",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_041",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_042",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_043",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_044",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_045",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_046",
+   "role": "starts_here"
+  }
+ ]
+}

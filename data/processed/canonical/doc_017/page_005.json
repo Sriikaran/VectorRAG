@@ -1,0 +1,458 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_017",
+ "page_number": 5,
+ "source_page_hash": "4d6110ca6b23c483b15e65c9e2fa3d3887188a2ab61abfcf6efd371f129e23f0",
+ "is_cover_page": false,
+ "title": "Tab: Group Box",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nThe control options available include those mentioned below.\n\nTab: Group Box\n\nGeneral DataCross-Partner Data\n\nGeneral DataAccount Management Data\n\nYou can specify:\n\nThe key under which the contract account is managed in the SAP\nsystem and under which it may have been managed in a previous\nsystem\n\ne Whether this business partner is an affiliated company, by\nspecifying the unique key for the trading partner\n\ne That the account is flagged for deletion\n\nIf there is no dependent data, the account is deleted when\nthe archiving program is run.\n\ne What role a business partner has for the contract account\n\n(account relationship), when multiple business partners are\nassigned to the contract account\n\nYou can only assign one business partner as the owner of\nthe account.\n\ne Which authorization group that a contract account belongs\nto, so that it can only be edited by people with the\ncorresponding authorization\n\ne That postings can no longer be made with reference to\nbusiness-partner-related data (posting lock at the level of\nthe contract account)\n\nIn this way, you can specify that no documents can be\nentered, cleared, reversed, or reset. You can also choose\n\nbetween a posting lock and a clearing lock. If you have set a\nlock, the open items of a locked contract account are\ndesignated with an icon and cannot be set to active.\n\ne That all items posted to the account receive a clearing\nrestriction\n\nThis has the effect that these items can only be cleared by\nspecific business transactions (for example, year-end\nsettlement in a utilities company)\n\ne The tolerance limits that apply to outstanding payments\ne The underlying clearing category for clearing postings\n\ne The planning group that the business partner belongs to\nand how many additional days are taken into consideration\nbefore an open item is paid (cash management)\n\ne That an interest key applies at contract account level\n\nThis is used in interest calculations to determine interest\nfrequency, amount limits and transfer and tolerance days\nas long as no other interest key has been defined at a more\nspecific level.\n",
+ "cleaned_text": "The control options available include those mentioned below.\n\nTab: Group Box\n\nGeneral DataCross-Partner Data\n\nGeneral DataAccount Management Data\n\nYou can specify:\n\nThe key under which the contract account is managed in the SAP system and under which it may have been managed in a previous system\n\n- Whether this business partner is an affiliated company, by specifying the unique key for the trading partner\n\n- That the account is flagged for deletion If there is no dependent data, the account is deleted when\n\nthe archiving program is run.\n\n- What role a business partner has for the contract account (account relationship), when multiple business partners are\n\nassigned to the contract account You can only assign one business partner as the owner of the account.\n\n- Which authorization group that a contract account belongs to, so that it can only be edited by people with the corresponding authorization\n\n- That postings can no longer be made with reference to business-partner-related data (posting lock at the level of\n\nthe contract account) In this way, you can specify that no documents can be entered, cleared, reversed, or reset. You can also choose between a posting lock and a clearing lock. If you have set a lock, the open items of a locked contract account are designated with an icon and cannot be set to active.\n\n- That all items posted to the account receive a clearing restriction\n\nThis has the effect that these items can only be cleared by specific business transactions (for example, year-end settlement in a utilities company)\n\n- The tolerance limits that apply to outstanding payments\n\n- The underlying clearing category for clearing postings\n\n- The planning group that the business partner belongs to and how many additional days are taken into consideration before an open item is paid (cash management)\n\n- That an interest key applies at contract account level\n\nThis is used in interest calculations to determine interest\n\nfrequency, amount limits and transfer and tolerance days as long as no other interest key has been defined at a more specific level.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_017_p005_b000",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    134,
+    1228,
+    172
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The control options available include those mentioned below.",
+   "section_id": "doc_017_sec_022"
+  },
+  {
+   "block_id": "doc_017_p005_b001",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    147,
+    281,
+    409,
+    316
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Tab: Group Box",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_023"
+  },
+  {
+   "block_id": "doc_017_p005_b002",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    149,
+    386,
+    707,
+    415
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "General DataCross-Partner Data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_024"
+  },
+  {
+   "block_id": "doc_017_p005_b003",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    149,
+    609,
+    845,
+    644
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "text": "General DataAccount Management Data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_025"
+  },
+  {
+   "block_id": "doc_017_p005_b004",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    1331,
+    282,
+    1607,
+    316
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "You can specify:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_026"
+  },
+  {
+   "block_id": "doc_017_p005_b005",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    1331,
+    386,
+    2423,
+    540
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The key under which the contract account is managed in the SAP system and under which it may have been managed in a previous system",
+   "section_id": "doc_017_sec_026"
+  },
+  {
+   "block_id": "doc_017_p005_b006",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    1416,
+    646,
+    2434,
+    930
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Whether this business partner is an affiliated company, by specifying the unique key for the trading partner"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That the account is flagged for deletion If there is no dependent data, the account is deleted when"
+    }
+   ],
+   "section_id": "doc_017_sec_026"
+  },
+  {
+   "block_id": "doc_017_p005_b007",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    1462,
+    955,
+    1944,
+    990
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "the archiving program is run.",
+   "section_id": "doc_017_sec_026"
+  },
+  {
+   "block_id": "doc_017_p005_b008",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    1416,
+    1050,
+    2462,
+    1144
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "What role a business partner has for the contract account (account relationship), when multiple business partners are"
+    }
+   ],
+   "section_id": "doc_017_sec_026"
+  },
+  {
+   "block_id": "doc_017_p005_b009",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    1462,
+    1165,
+    2420,
+    1347
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "assigned to the contract account You can only assign one business partner as the owner of the account.",
+   "section_id": "doc_017_sec_026"
+  },
+  {
+   "block_id": "doc_017_p005_b010",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    1416,
+    1414,
+    2454,
+    1722
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Which authorization group that a contract account belongs to, so that it can only be edited by people with the corresponding authorization"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That postings can no longer be made with reference to business-partner-related data (posting lock at the level of"
+    }
+   ],
+   "section_id": "doc_017_sec_026"
+  },
+  {
+   "block_id": "doc_017_p005_b011",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    1462,
+    1747,
+    2457,
+    2110
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "the contract account) In this way, you can specify that no documents can be entered, cleared, reversed, or reset. You can also choose between a posting lock and a clearing lock. If you have set a lock, the open items of a locked contract account are designated with an icon and cannot be set to active.",
+   "section_id": "doc_017_sec_026"
+  },
+  {
+   "block_id": "doc_017_p005_b012",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    1416,
+    2170,
+    2369,
+    2257
+   ],
+   "ocr_confidence": 84.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That all items posted to the account receive a clearing restriction"
+    }
+   ],
+   "section_id": "doc_017_sec_026"
+  },
+  {
+   "block_id": "doc_017_p005_b013",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    1463,
+    2324,
+    2436,
+    2478
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "This has the effect that these items can only be cleared by specific business transactions (for example, year-end settlement in a utilities company)",
+   "section_id": "doc_017_sec_026"
+  },
+  {
+   "block_id": "doc_017_p005_b014",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    1416,
+    2538,
+    2448,
+    2974
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The tolerance limits that apply to outstanding payments"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The underlying clearing category for clearing postings"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The planning group that the business partner belongs to and how many additional days are taken into consideration before an open item is paid (cash management)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That an interest key applies at contract account level"
+    }
+   ],
+   "section_id": "doc_017_sec_026"
+  },
+  {
+   "block_id": "doc_017_p005_b015",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    1463,
+    3034,
+    2414,
+    3062
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "This is used in interest calculations to determine interest",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_027"
+  },
+  {
+   "block_id": "doc_017_p005_b016",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    1462,
+    3093,
+    2450,
+    3246
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "frequency, amount limits and transfer and tolerance days as long as no other interest key has been defined at a more specific level.",
+   "section_id": "doc_017_sec_027"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Accounts Overview",
+  "source_pdf": "17.pdf",
+  "reference_pdf": "17_Contract_Accounts_Overview.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Use to connect utility invoicing to receivables, payments and dunning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "4d6110ca6b23c483b15e65c9e2fa3d3887188a2ab61abfcf6efd371f129e23f0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Accounts Overview",
+  "Controlling Specifications in Contract Accounts",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_017_sec_022",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_017_sec_023",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_024",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_025",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_026",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_027",
+   "role": "starts_here"
+  }
+ ]
+}

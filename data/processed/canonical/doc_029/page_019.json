@@ -1,0 +1,345 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_029",
+ "page_number": 19,
+ "source_page_hash": "f964b83763e58ead15fb50f5f4aba7a5d8f08fd36c4489b2058b027456fa6196",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:19 AM\nPrerequisites\n\nYou have to enter a disconnection in the system before you can enter a reconnection.\n\nFeatures\n\nYou enter a reconnection in the same manner as entry of a disconnection. (|#Customer service \u00bb Process execution\nDisconnection/reconnection \u00bb Change disconnection document)\n\nActivities\n\nReconnections are usually entered using the Change disconnection document transaction. However, you can also enter a\n\nreconnection as a workflow step.\n\n1 Note\n\nThe optionally generated service order is confirmed directly in Service Management. You can also branch to Service\nManagement directly from the reconnection entry.\n\nMonitoring Disconnection and Reconnection Activities\n\nUse\n\nYou can execute the Monitoring for Disconnection/Reconnection Orders report, which allows you to search for disconnection or\nreconnection orders, monitor their status and access all corresponding screens (for example, object information, work order\ninformation) related to these orders .\n\nActivities\n\n1. Access the corresponding screen by way of the SAP Easy Access menu ( |+UtilitiesIndustry >\u00bb CustomerService\nProcessExecution \u00bb Disconnection/ Reconnection \u00bb Monitor Disconnection Orders 3 ).\n\n2. Specify the selection criteria for the orders you wish to monitor.\n\n3. Choose the Execute button to run the monitoring report.\n\nFor more information on the selection criteria, refer to the corresponding report documentation, which you can access from the\n\nselection screen.\n\nIf you are working in an advanced metering infrastructure (AMI) environment and are disconnecting or reconnecting AMI devices\n(such as advanced meters or smart meters), you can monitor the status of the disconnection or reconnection request and all\nmessages made between the system and the meter data unification and synchronization (MDUS) system. For more information,\n\nsee AMI Monitoring .\n\nRescheduling of Disconnection and Reconnection Orders\n",
+ "cleaned_text": "Prerequisites You have to enter a disconnection in the system before you can enter a reconnection.\n\nFeatures\n\nYou enter a reconnection in the same manner as entry of a disconnection. (|#Customer service \u00bb Process execution Disconnection/reconnection \u00bb Change disconnection document) Activities Reconnections are usually entered using the Change disconnection document transaction. However, you can also enter a reconnection as a workflow step.\n\nNote The optionally generated service order is confirmed directly in Service Management. You can also branch to Service Management directly from the reconnection entry.\n\nMonitoring Disconnection and Reconnection Activities\n\nUse\n\nYou can execute the Monitoring for Disconnection/Reconnection Orders report, which allows you to search for disconnection or reconnection orders, monitor their status and access all corresponding screens (for example, object information, work order information) related to these orders .\n\nActivities\n\n1 Access the corresponding screen by way of the SAP Easy Access menu ( |+UtilitiesIndustry >\u00bb CustomerService ProcessExecution \u00bb Disconnection/ Reconnection \u00bb Monitor Disconnection Orders 3 ).\n\n2 Specify the selection criteria for the orders you wish to monitor.\n\n3 Choose the Execute button to run the monitoring report.\n\nFor more information on the selection criteria, refer to the corresponding report documentation, which you can access from the selection screen.\n\nIf you are working in an advanced metering infrastructure (AMI) environment and are disconnecting or reconnecting AMI devices (such as advanced meters or smart meters), you can monitor the status of the disconnection or reconnection request and all messages made between the system and the meter data unification and synchronization (MDUS) system. For more information, see AMI Monitoring .\n\nRescheduling of Disconnection and Reconnection Orders",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:19 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1014,
+    310,
+    1052
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_029_p019_b000",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    123,
+    135,
+    1657,
+    294
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Prerequisites You have to enter a disconnection in the system before you can enter a reconnection.",
+   "section_id": "doc_029_sec_067"
+  },
+  {
+   "block_id": "doc_029_p019_b001",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    125,
+    378,
+    276,
+    408
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Features",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_029_sec_067"
+  },
+  {
+   "block_id": "doc_029_p019_b002",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    123,
+    498,
+    2325,
+    908
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You enter a reconnection in the same manner as entry of a disconnection. (|#Customer service \u00bb Process execution Disconnection/reconnection \u00bb Change disconnection document) Activities Reconnections are usually entered using the Change disconnection document transaction. However, you can also enter a reconnection as a workflow step.",
+   "section_id": "doc_029_sec_067"
+  },
+  {
+   "block_id": "doc_029_p019_b003",
+   "type": "note",
+   "page_number": 19,
+   "bbox": [
+    151,
+    1014,
+    2241,
+    1236
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "label": "Note",
+   "text": "Note The optionally generated service order is confirmed directly in Service Management. You can also branch to Service Management directly from the reconnection entry.",
+   "section_id": "doc_029_sec_067"
+  },
+  {
+   "block_id": "doc_029_p019_b004",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    128,
+    1419,
+    2089,
+    1494
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Monitoring Disconnection and Reconnection Activities",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_068"
+  },
+  {
+   "block_id": "doc_029_p019_b005",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    125,
+    1598,
+    225,
+    1644
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_069"
+  },
+  {
+   "block_id": "doc_029_p019_b006",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    123,
+    1727,
+    2460,
+    1893
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "You can execute the Monitoring for Disconnection/Reconnection Orders report, which allows you to search for disconnection or reconnection orders, monitor their status and access all corresponding screens (for example, object information, work order information) related to these orders .",
+   "section_id": "doc_029_sec_069"
+  },
+  {
+   "block_id": "doc_029_p019_b007",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    123,
+    2005,
+    383,
+    2051
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_070"
+  },
+  {
+   "block_id": "doc_029_p019_b008",
+   "type": "list",
+   "page_number": 19,
+   "bbox": [
+    211,
+    2134,
+    2275,
+    2442
+   ],
+   "ocr_confidence": 90.6,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Access the corresponding screen by way of the SAP Easy Access menu ( |+UtilitiesIndustry >\u00bb CustomerService ProcessExecution \u00bb Disconnection/ Reconnection \u00bb Monitor Disconnection Orders 3 )."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Specify the selection criteria for the orders you wish to monitor."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Choose the Execute button to run the monitoring report."
+    }
+   ],
+   "section_id": "doc_029_sec_070"
+  },
+  {
+   "block_id": "doc_029_p019_b009",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    123,
+    2526,
+    2426,
+    2622
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "For more information on the selection criteria, refer to the corresponding report documentation, which you can access from the selection screen.",
+   "section_id": "doc_029_sec_070"
+  },
+  {
+   "block_id": "doc_029_p019_b010",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    123,
+    2851,
+    2451,
+    3081
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "If you are working in an advanced metering infrastructure (AMI) environment and are disconnecting or reconnecting AMI devices (such as advanced meters or smart meters), you can monitor the status of the disconnection or reconnection request and all messages made between the system and the meter data unification and synchronization (MDUS) system. For more information, see AMI Monitoring .",
+   "section_id": "doc_029_sec_070"
+  },
+  {
+   "block_id": "doc_029_p019_b011",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    128,
+    3225,
+    2186,
+    3300
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Rescheduling of Disconnection and Reconnection Orders",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_071"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Disconnection/Reconnection of a Utility Installation",
+  "source_pdf": "29.pdf",
+  "reference_pdf": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+  "category": "Disconnection & Reconnection",
+  "m2c_relevance": "Connects overdue debt/dunning to service actions while preserving the distinction between delinquency and disconnect eligibility.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "f964b83763e58ead15fb50f5f4aba7a5d8f08fd36c4489b2058b027456fa6196"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:48Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Disconnection/Reconnection of a Utility Installation",
+  "Reconnection Entry"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_029_sec_067",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_029_sec_068",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_069",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_070",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_071",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,361 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 7,
+ "source_page_hash": "29c43a8f32e74270534a45ecd1357f1353eaa642d11ef2129f3fc317fb022c7f",
+ "is_cover_page": false,
+ "title": "Customer Change",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\n\nWhen a contract change without invoicing is performed, the contracts are ended with a move-out, and new contracts created with\na move-in.\n\nWhen the move-out is created, the latest billing document for the transfer contract is adjusted for reversal whenever possible, and\n\na new billing document is created with a contract change. This billing document usually has bill amount zero and is never invoiced.\nNo new meter readings are recorded either. Instead, the last billed meter readings when the move-in was created are copied.\n\nWhen the move-in is created, the open items in the transfer contract are reposted to the target contract determined by the move-\n\nin (depending on the Customizing settings). This is only possible within the same company code. Items that have already been\npaid are not reposted. Security deposits can be transfered.\n\nCustomer Change\n\nUse\n\nYou use the customer change function to transfer the utilities contracts for a contract account, including any resulting receivables,\nbetween business partners.\n\nThis can for example be necessary when merging business partners.\n\nThe following functions are possible:\n\ne Create customer change\ne Process customer change subsequently\ne Reverse customer change\n\ne Transfer post open items due to customer change\n\nIntegration\n\nYou can access the customer change function under {SAP Utilities Customer Service's Process Execution  Move-In/Out\nand then the menu option |}Other \u00bb Create / Cancel Customer Change\n\nPrerequisites\nBefore you can a execute customer change, the contracts to be transferred must have been invoiced at least once.\n\nIf you also want to transfer budget billing plans, the budget billing plan items must all be open. If necessary, you must reset all\n\nclearings and set the accrued receivables to payments on account. Therefore, we recommend that you execute the customer\nchange as close as possible to the last bill in order to avoid this preparatory work.\n\nCustomizing\n\nYou define customer change reasons in Customizing for SAP Utilities under {+Customer Service \u00bb Process Execution \u00bb Move-\nIn/Out 5 Define Reasons for Customer Change\n\nYou can also choose whether or not the following objects are also transferred during the customer change:\n",
+ "cleaned_text": "When a contract change without invoicing is performed, the contracts are ended with a move-out, and new contracts created with a move-in. When the move-out is created, the latest billing document for the transfer contract is adjusted for reversal whenever possible, and a new billing document is created with a contract change. This billing document usually has bill amount zero and is never invoiced. No new meter readings are recorded either. Instead, the last billed meter readings when the move-in was created are copied. When the move-in is created, the open items in the transfer contract are reposted to the target contract determined by the move-in (depending on the Customizing settings). This is only possible within the same company code. Items that have already been paid are not reposted. Security deposits can be transfered.\n\nCustomer Change\n\nUse\n\nYou use the customer change function to transfer the utilities contracts for a contract account, including any resulting receivables, between business partners. This can for example be necessary when merging business partners. The following functions are possible:\n\n- Create customer change\n\n- Process customer change subsequently\n\n- Reverse customer change\n\n- Transfer post open items due to customer change\n\nIntegration\n\nYou can access the customer change function under {SAP Utilities | Customer Service's Process Execution Move-In/Out\n\nand then the menu option |}Other \u00bb Create / Cancel Customer Change\n\nPrerequisites\n\nBefore you can a execute customer change, the contracts to be transferred must have been invoiced at least once. If you also want to transfer budget billing plans, the budget billing plan items must all be open. If necessary, you must reset all clearings and set the accrued receivables to payments on account. Therefore, we recommend that you execute the customer change as close as possible to the last bill in order to avoid this preparatory work.\n\nCustomizing\n\nYou define customer change reasons in Customizing for SAP Utilities under {+Customer Service \u00bb Process Execution \u00bb Move- In/Out 5 Define Reasons for Customer Change You can also choose whether or not the following objects are also transferred during the customer change:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p007_b000",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    123,
+    135,
+    2472,
+    731
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "When a contract change without invoicing is performed, the contracts are ended with a move-out, and new contracts created with a move-in. When the move-out is created, the latest billing document for the transfer contract is adjusted for reversal whenever possible, and a new billing document is created with a contract change. This billing document usually has bill amount zero and is never invoiced. No new meter readings are recorded either. Instead, the last billed meter readings when the move-in was created are copied. When the move-in is created, the open items in the transfer contract are reposted to the target contract determined by the move-in (depending on the Customizing settings). This is only possible within the same company code. Items that have already been paid are not reposted. Security deposits can be transfered.",
+   "section_id": "doc_002_sec_021"
+  },
+  {
+   "block_id": "doc_002_p007_b001",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    125,
+    880,
+    779,
+    956
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Customer Change",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_022"
+  },
+  {
+   "block_id": "doc_002_p007_b002",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    125,
+    1056,
+    225,
+    1101
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_023"
+  },
+  {
+   "block_id": "doc_002_p007_b003",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    1189,
+    2479,
+    1536
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You use the customer change function to transfer the utilities contracts for a contract account, including any resulting receivables, between business partners. This can for example be necessary when merging business partners. The following functions are possible:",
+   "section_id": "doc_002_sec_023"
+  },
+  {
+   "block_id": "doc_002_p007_b004",
+   "type": "list",
+   "page_number": 7,
+   "bbox": [
+    207,
+    1619,
+    1155,
+    1963
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create customer change"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Process customer change subsequently"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Reverse customer change"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Transfer post open items due to customer change"
+    }
+   ],
+   "section_id": "doc_002_sec_023"
+  },
+  {
+   "block_id": "doc_002_p007_b005",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    127,
+    2075,
+    431,
+    2131
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_024"
+  },
+  {
+   "block_id": "doc_002_p007_b006",
+   "type": "table",
+   "page_number": 7,
+   "bbox": [
+    122,
+    2207,
+    2390,
+    2245
+   ],
+   "ocr_confidence": 83.0,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    122,
+    1406
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "You can access the customer change function under {SAP Utilities",
+     "Customer Service's Process Execution Move-In/Out"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "You can access the customer change function under {SAP Utilities",
+     "Customer Service's Process Execution Move-In/Out"
+    ]
+   ],
+   "section_id": "doc_002_sec_024"
+  },
+  {
+   "block_id": "doc_002_p007_b007",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    123,
+    2266,
+    1429,
+    2312
+   ],
+   "ocr_confidence": 80.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "and then the menu option |}Other \u00bb Create / Cancel Customer Change",
+   "section_id": "doc_002_sec_024"
+  },
+  {
+   "block_id": "doc_002_p007_b008",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    126,
+    2420,
+    492,
+    2476
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_025"
+  },
+  {
+   "block_id": "doc_002_p007_b009",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    123,
+    2552,
+    2386,
+    2840
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Before you can a execute customer change, the contracts to be transferred must have been invoiced at least once. If you also want to transfer budget billing plans, the budget billing plan items must all be open. If necessary, you must reset all clearings and set the accrued receivables to payments on account. Therefore, we recommend that you execute the customer change as close as possible to the last bill in order to avoid this preparatory work.",
+   "section_id": "doc_002_sec_025"
+  },
+  {
+   "block_id": "doc_002_p007_b010",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    123,
+    2923,
+    357,
+    2961
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Customizing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_026"
+  },
+  {
+   "block_id": "doc_002_p007_b011",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    3041,
+    2409,
+    3270
+   ],
+   "ocr_confidence": 90.2,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "You define customer change reasons in Customizing for SAP Utilities under {+Customer Service \u00bb Process Execution \u00bb Move- In/Out 5 Define Reasons for Customer Change You can also choose whether or not the following objects are also transferred during the customer change:",
+   "section_id": "doc_002_sec_026"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "29c43a8f32e74270534a45ecd1357f1353eaa642d11ef2129f3fc317fb022c7f"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Contract Change without Invoicing",
+  "Prerequisites"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_021",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_002_sec_022",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_023",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_024",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_025",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_026",
+   "role": "starts_here"
+  }
+ ]
+}

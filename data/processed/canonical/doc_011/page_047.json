@@ -1,0 +1,406 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 47,
+ "source_page_hash": "1f1699797f8f63fb9b6f8cf19520172cf28acc8ddad7df9b15f36ad00d01ed36",
+ "is_cover_page": false,
+ "title": "More Information",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nTo ensure simulation is as accurate as possible, note the following:\n\ne If you archive profile values quickly (short residence time) they are no longer available for simulation of billing for time-of-\nuse rates. This reduces the accuracy of the simulation.\n\ne Enter the period consumption for interval meters during move-in.\ne Inthe time-of-use interface, use a consumption pattern (and a synthetic profile) that best suits the customer.\n\ne If you create a contract in a vacant status period, for example, with the owner of a rented apartment, we recommend that\nyou implement BAd| ISU_FASTEDM TOU SIMULATION, method DETERMINE CONTRACTS.\n\nMore Information\n\nFor more detailed information about the simulation process flow, see the system documentation TOU Simulation, which you can\naccess from a link in the description of the field Consumption Pattern (F1 Help) in the time-of-use interface.\n\nConsumption Billing Based on Profile Values in an External\nSystem\n\nUse\n\nWithin an advanced metering infrastructure, consumption profiles are managed in an external meter data unification and\nsynchronization (MDUS) system. This involves a considerable volume of data, in particular for residential customers. Such\ngranularity of data is not necessary for consumption billing in the SAP system. You can use the time-of-use interface to import\naggregated profile values into the SAP system so that they can be processed by the rate.\n\nPrerequisites\n\ne The business function Advanced Metering Infrastructure 2 (ISU AMI_2) is active.\n\ne You are familiar with the basics of billing (see Contract Billing) and the advanced metering structure (see Advanced\n\nMetering Infrastructure).\n\nBasic Functions\n\ne The formula algorithm and the profile values are stored in the external system. In the SAP system they are only known as\nthe formula ID (including input and output parameters) and the profile header.\n\ne The time-of-use interface is the basis for profile value aggregation. Here you determine which periods (for example,\nweekday 08:00-17:59) and which formula to use to aggregate the profile values.\n\ne The profile values are aggregated in the MDUS system as part of an MDUS request and imported into the SAP system so\nthat the billing order can be billed. The data is exchanged using enterprise services.\n\ne During the MDUS request and during billing, all billing-relevant data is used to analyze the billing order. The order can only\nbe billed if the billing-relevant data has not been changed.\n\nThe following figure shows the connections between the systems:\n",
+ "cleaned_text": "To ensure simulation is as accurate as possible, note the following:\n\n- If you archive profile values quickly (short residence time) they are no longer available for simulation of billing for time-of-use rates. This reduces the accuracy of the simulation.\n\n- Enter the period consumption for interval meters during move-in.\n\n- Inthe time-of-use interface, use a consumption pattern (and a synthetic profile) that best suits the customer.\n\n- If you create a contract in a vacant status period, for example, with the owner of a rented apartment, we recommend that you implement BAd| ISU_FASTEDM TOU SIMULATION, method DETERMINE CONTRACTS.\n\nMore Information\n\nFor more detailed information about the simulation process flow, see the system documentation TOU Simulation, which you can access from a link in the description of the field Consumption Pattern (F1 Help) in the time-of-use interface.\n\nConsumption Billing Based on Profile Values in an External\n\nSystem\n\nUse\n\nWithin an advanced metering infrastructure, consumption profiles are managed in an external meter data unification and synchronization (MDUS) system. This involves a considerable volume of data, in particular for residential customers. Such granularity of data is not necessary for consumption billing in the SAP system. You can use the time-of-use interface to import aggregated profile values into the SAP system so that they can be processed by the rate.\n\nPrerequisites\n\n- The business function Advanced Metering Infrastructure 2 (ISU AMI_2) is active.\n\n- You are familiar with the basics of billing (see Contract Billing) and the advanced metering structure (see Advanced Metering Infrastructure).\n\nBasic Functions\n\n- The formula algorithm and the profile values are stored in the external system. In the SAP system they are only known as the formula ID (including input and output parameters) and the profile header.\n\n- The time-of-use interface is the basis for profile value aggregation. Here you determine which periods (for example, weekday 08:00-17:59) and which formula to use to aggregate the profile values.\n\n- The profile values are aggregated in the MDUS system as part of an MDUS request and imported into the SAP system so that the billing order can be billed. The data is exchanged using enterprise services.\n\n- During the MDUS request and during billing, all billing-relevant data is used to analyze the billing order. The order can only be billed if the billing-relevant data has not been changed.\n\nThe following figure shows the connections between the systems:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p047_b000",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    122,
+    134,
+    1320,
+    172
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "To ensure simulation is as accurate as possible, note the following:",
+   "section_id": "doc_011_sec_139"
+  },
+  {
+   "block_id": "doc_011_p047_b001",
+   "type": "list",
+   "page_number": 47,
+   "bbox": [
+    207,
+    256,
+    2444,
+    737
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you archive profile values quickly (short residence time) they are no longer available for simulation of billing for time-of-use rates. This reduces the accuracy of the simulation."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Enter the period consumption for interval meters during move-in."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Inthe time-of-use interface, use a consumption pattern (and a synthetic profile) that best suits the customer."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you create a contract in a vacant status period, for example, with the owner of a rented apartment, we recommend that you implement BAd| ISU_FASTEDM TOU SIMULATION, method DETERMINE CONTRACTS."
+    }
+   ],
+   "section_id": "doc_011_sec_139"
+  },
+  {
+   "block_id": "doc_011_p047_b002",
+   "type": "heading",
+   "page_number": 47,
+   "bbox": [
+    124,
+    815,
+    447,
+    845
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "More Information",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_140"
+  },
+  {
+   "block_id": "doc_011_p047_b003",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    123,
+    939,
+    2445,
+    1044
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "For more detailed information about the simulation process flow, see the system documentation TOU Simulation, which you can access from a link in the description of the field Consumption Pattern (F1 Help) in the time-of-use interface.",
+   "section_id": "doc_011_sec_140"
+  },
+  {
+   "block_id": "doc_011_p047_b004",
+   "type": "heading",
+   "page_number": 47,
+   "bbox": [
+    125,
+    1185,
+    2233,
+    1261
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Consumption Billing Based on Profile Values in an External",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_141"
+  },
+  {
+   "block_id": "doc_011_p047_b005",
+   "type": "heading",
+   "page_number": 47,
+   "bbox": [
+    125,
+    1273,
+    392,
+    1350
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "System",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_142"
+  },
+  {
+   "block_id": "doc_011_p047_b006",
+   "type": "heading",
+   "page_number": 47,
+   "bbox": [
+    125,
+    1450,
+    225,
+    1496
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_143"
+  },
+  {
+   "block_id": "doc_011_p047_b007",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    122,
+    1583,
+    2399,
+    1808
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Within an advanced metering infrastructure, consumption profiles are managed in an external meter data unification and synchronization (MDUS) system. This involves a considerable volume of data, in particular for residential customers. Such granularity of data is not necessary for consumption billing in the SAP system. You can use the time-of-use interface to import aggregated profile values into the SAP system so that they can be processed by the rate.",
+   "section_id": "doc_011_sec_143"
+  },
+  {
+   "block_id": "doc_011_p047_b008",
+   "type": "heading",
+   "page_number": 47,
+   "bbox": [
+    126,
+    1920,
+    492,
+    1976
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_144"
+  },
+  {
+   "block_id": "doc_011_p047_b009",
+   "type": "list",
+   "page_number": 47,
+   "bbox": [
+    207,
+    2051,
+    2332,
+    2261
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The business function Advanced Metering Infrastructure 2 (ISU AMI_2) is active."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You are familiar with the basics of billing (see Contract Billing) and the advanced metering structure (see Advanced Metering Infrastructure)."
+    }
+   ],
+   "section_id": "doc_011_sec_144"
+  },
+  {
+   "block_id": "doc_011_p047_b010",
+   "type": "heading",
+   "page_number": 47,
+   "bbox": [
+    126,
+    2373,
+    564,
+    2418
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Basic Functions",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_145"
+  },
+  {
+   "block_id": "doc_011_p047_b011",
+   "type": "list",
+   "page_number": 47,
+   "bbox": [
+    207,
+    2503,
+    2450,
+    3103
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The formula algorithm and the profile values are stored in the external system. In the SAP system they are only known as the formula ID (including input and output parameters) and the profile header."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The time-of-use interface is the basis for profile value aggregation. Here you determine which periods (for example, weekday 08:00-17:59) and which formula to use to aggregate the profile values."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The profile values are aggregated in the MDUS system as part of an MDUS request and imported into the SAP system so that the billing order can be billed. The data is exchanged using enterprise services."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "During the MDUS request and during billing, all billing-relevant data is used to analyze the billing order. The order can only be billed if the billing-relevant data has not been changed."
+    }
+   ],
+   "section_id": "doc_011_sec_145"
+  },
+  {
+   "block_id": "doc_011_p047_b012",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    122,
+    3186,
+    1308,
+    3224
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The following figure shows the connections between the systems:",
+   "section_id": "doc_011_sec_145"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "1f1699797f8f63fb9b6f8cf19520172cf28acc8ddad7df9b15f36ad00d01ed36"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Annual Consumption Measured",
+  "Time-of-Use Simulation Rules"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_139",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_140",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_141",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_142",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_143",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_144",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_145",
+   "role": "starts_here"
+  }
+ ]
+}

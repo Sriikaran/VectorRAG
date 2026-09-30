@@ -1,0 +1,467 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 28,
+ "source_page_hash": "c5c8a6ce0da0b308875fa81d74192e673aca41d185642f4300a5f1ef82654c0b",
+ "is_cover_page": false,
+ "title": "Form of Address from Customer/Vendor to BP",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nSUPP          Vendors (ext. no. asgmnt) MKK           Contract Partner\n\n10. Assign the industries of the business partner to industries of the customer/vendor master record. In SAP Customizing,\nchoose |*Cross-Application Components > Master Data Synchronization \u00bb Customer/Vendor Integration > Business\nPartner Settings } Settings for Customer Integration \u00bb Field Assignment for Customer Integration \u00bb Assign Attributes\n\nAssign Industries\n\n11. Synchronize the customer (CUSTOMER) or vendor (VENDOR) with the business partner. This setting is needed for\nsynchronizing the customer or vendor, or both, with the business partner. Choose |}Cross-Application Components\nMaster Data Synchronization } Customer/Vendor Integration } Business Partner Settings } BAdI: Data Assignment of\n\nForm of Address from Customer/Vendor to BP\n\nHere you deselect the implementation CVI_MAP_TITLE_ DIRECT and you select CVI_MAP_BP_CATEGORY. The system\nasks you to create a transport request for transporting the change to your quality system and your live system.\n\nThese changes apply across the entire system.\n\nMaking Settings for the Postprocessing Office\n\nUse\n\nDuring error processing, the Postprocessing Office (PPO) replaces the application log. Using the PPO is optional; therefore, you\nhave to activate the PPO explicitly.\n\n\u201c4S Caution\n\nIf you do not activate the PPO, then errors during synchronization can lead to short dumps.\n\nProcedure\n\nMake the settings described below in your S/4HANA system. PPO Customizing relates to a software component and to specific\nbusiness processes. (The term \"business process\" has a specific meaning in the PPO.) To monitor postprocessing requests, on the\nSAP Easy Access screen, choose |\u00bbCross-Application Components \u00bb Postprocessing Office  Postprocessing Order Edit\n\nPostprocessing Order\n\n1. Set up the internal PPO software component AP-MD (Application Platform master data). To do so, in SAP Customizing,\nchoose |*Cross-Application Components > General Application Functions \u00bb Postprocessing Office \u00bb Display System\nSettings for the Postprocessing Office \u00a7 and select Software Components. The PPO needs this internal component in\norder to be able to differentiate postprocessing orders that were created by master data synchronization from\npostprocessing orders of other projects. In addition, all PPO Customizing settings are component-specific. Make the\nfollowing entries:\n\nSoftware                Editing                   Component             Title                         Display *)               Edit *)\n\nComponent             Transaction              Description\n\nAP-MD           MDS_PPO2        Application     Master Data       2                2\nplatform        Synchronization\n\nmaster data\n",
+ "cleaned_text": "SUPP | Vendors (ext. no. asgmnt) MKK | Contract Partner\n\n10 Assign the industries of the business partner to industries of the customer/vendor master record. In SAP Customizing, choose |*Cross-Application Components > Master Data Synchronization \u00bb Customer/Vendor Integration > Business Partner Settings } Settings for Customer Integration \u00bb Field Assignment for Customer Integration \u00bb Assign Attributes Assign Industries\n\n11 Synchronize the customer (CUSTOMER) or vendor (VENDOR) with the business partner. This setting is needed for synchronizing the customer or vendor, or both, with the business partner. Choose |}Cross-Application Components Master Data Synchronization } Customer/Vendor Integration } Business Partner Settings } BAdI: Data Assignment of\n\nForm of Address from Customer/Vendor to BP\n\nHere you deselect the implementation CVI_MAP_TITLE_ DIRECT and you select CVI_MAP_BP_CATEGORY. The system asks you to create a transport request for transporting the change to your quality system and your live system. These changes apply across the entire system.\n\nMaking Settings for the Postprocessing Office\n\nUse\n\nDuring error processing, the Postprocessing Office (PPO) replaces the application log. Using the PPO is optional; therefore, you have to activate the PPO explicitly.\n\nCaution If you do not activate the PPO, then errors during synchronization can lead to short dumps.\n\nProcedure\n\nMake the settings described below in your S/4HANA system. PPO Customizing relates to a software component and to specific business processes. (The term \"business process\" has a specific meaning in the PPO.) To monitor postprocessing requests, on the SAP Easy Access screen, choose |\u00bbCross-Application Components \u00bb Postprocessing Office Postprocessing Order Edit Postprocessing Order\n\n1 Set up the internal PPO software component AP-MD (Application Platform master data). To do so, in SAP Customizing, choose |*Cross-Application Components > General Application Functions \u00bb Postprocessing Office \u00bb Display System\n\nSettings for the Postprocessing Office \u00a7 and select Software Components. The PPO needs this internal component in order to be able to differentiate postprocessing orders that were created by master data synchronization from postprocessing orders of other projects. In addition, all PPO Customizing settings are component-specific. Make the following entries:\n\nSoftware | Editing | Component | Title | Display *) | Edit *)\n\nComponent | Transaction | Description\n\nAP-MD | MDS_PPO2 | Application | Master Data | 2 | 2\n\nplatform | Synchronization\n\nmaster data",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u201c4S",
+   "bbox": [
+    151,
+    1698,
+    415,
+    1742
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p028_b000",
+   "type": "table",
+   "page_number": 28,
+   "bbox": [
+    442,
+    154,
+    2369,
+    192
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    442,
+    907,
+    1995
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "SUPP",
+     "Vendors (ext. no. asgmnt) MKK",
+     "Contract Partner"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "SUPP",
+     "Vendors (ext. no. asgmnt) MKK",
+     "Contract Partner"
+    ]
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p028_b001",
+   "type": "list",
+   "page_number": 28,
+   "bbox": [
+    188,
+    374,
+    2462,
+    735
+   ],
+   "ocr_confidence": 90.4,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "10",
+     "text": "Assign the industries of the business partner to industries of the customer/vendor master record. In SAP Customizing, choose |*Cross-Application Components > Master Data Synchronization \u00bb Customer/Vendor Integration > Business Partner Settings } Settings for Customer Integration \u00bb Field Assignment for Customer Integration \u00bb Assign Attributes Assign Industries"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "11",
+     "text": "Synchronize the customer (CUSTOMER) or vendor (VENDOR) with the business partner. This setting is needed for synchronizing the customer or vendor, or both, with the business partner. Choose |}Cross-Application Components Master Data Synchronization } Customer/Vendor Integration } Business Partner Settings } BAdI: Data Assignment of"
+    }
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p028_b002",
+   "type": "heading",
+   "page_number": 28,
+   "bbox": [
+    256,
+    742,
+    1121,
+    773
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Form of Address from Customer/Vendor to BP",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_101"
+  },
+  {
+   "block_id": "doc_001_p028_b003",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    254,
+    832,
+    2454,
+    1040
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Here you deselect the implementation CVI_MAP_TITLE_ DIRECT and you select CVI_MAP_BP_CATEGORY. The system asks you to create a transport request for transporting the change to your quality system and your live system. These changes apply across the entire system.",
+   "section_id": "doc_001_sec_101"
+  },
+  {
+   "block_id": "doc_001_p028_b004",
+   "type": "heading",
+   "page_number": 28,
+   "bbox": [
+    128,
+    1188,
+    1779,
+    1265
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Making Settings for the Postprocessing Office",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_102"
+  },
+  {
+   "block_id": "doc_001_p028_b005",
+   "type": "heading",
+   "page_number": 28,
+   "bbox": [
+    125,
+    1365,
+    225,
+    1410
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_103"
+  },
+  {
+   "block_id": "doc_001_p028_b006",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    124,
+    1498,
+    2415,
+    1598
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "During error processing, the Postprocessing Office (PPO) replaces the application log. Using the PPO is optional; therefore, you have to activate the PPO explicitly.",
+   "section_id": "doc_001_sec_103"
+  },
+  {
+   "block_id": "doc_001_p028_b007",
+   "type": "note",
+   "page_number": 28,
+   "bbox": [
+    151,
+    1698,
+    1796,
+    1818
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Caution",
+   "text": "Caution If you do not activate the PPO, then errors during synchronization can lead to short dumps.",
+   "section_id": "doc_001_sec_103"
+  },
+  {
+   "block_id": "doc_001_p028_b008",
+   "type": "heading",
+   "page_number": 28,
+   "bbox": [
+    126,
+    1966,
+    409,
+    2012
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p028_b009",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    124,
+    2099,
+    2478,
+    2328
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Make the settings described below in your S/4HANA system. PPO Customizing relates to a software component and to specific business processes. (The term \"business process\" has a specific meaning in the PPO.) To monitor postprocessing requests, on the SAP Easy Access screen, choose |\u00bbCross-Application Components \u00bb Postprocessing Office Postprocessing Order Edit Postprocessing Order",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p028_b010",
+   "type": "list",
+   "page_number": 28,
+   "bbox": [
+    214,
+    2411,
+    2400,
+    2516
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Set up the internal PPO software component AP-MD (Application Platform master data). To do so, in SAP Customizing, choose |*Cross-Application Components > General Application Functions \u00bb Postprocessing Office \u00bb Display System"
+    }
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p028_b011",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    254,
+    2532,
+    2407,
+    2764
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "Settings for the Postprocessing Office \u00a7 and select Software Components. The PPO needs this internal component in order to be able to differentiate postprocessing orders that were created by master data synchronization from postprocessing orders of other projects. In addition, all PPO Customizing settings are component-specific. Make the following entries:",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p028_b012",
+   "type": "table",
+   "page_number": 28,
+   "bbox": [
+    279,
+    2885,
+    2245,
+    3149
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    279,
+    643,
+    1008,
+    1374,
+    1778,
+    2139
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Software",
+     "Editing",
+     "Component",
+     "Title",
+     "Display *)",
+     "Edit *)"
+    ],
+    [
+     "Component",
+     "Transaction",
+     "Description"
+    ],
+    [
+     "AP-MD",
+     "MDS_PPO2",
+     "Application",
+     "Master Data",
+     "2",
+     "2"
+    ],
+    [
+     "platform",
+     "Synchronization"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Software",
+     "Editing",
+     "Component",
+     "Title",
+     "Display *)",
+     "Edit *)"
+    ],
+    [
+     "Component",
+     "Transaction",
+     "Description"
+    ],
+    [
+     "AP-MD",
+     "MDS_PPO2",
+     "Application",
+     "Master Data",
+     "2",
+     "2"
+    ],
+    [
+     "platform",
+     "Synchronization"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p028_b013",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    1009,
+    3170,
+    1263,
+    3200
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "master data",
+   "section_id": "doc_001_sec_104"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59,
+  "body_stroke_median": 0.1334,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "c5c8a6ce0da0b308875fa81d74192e673aca41d185642f4300a5f1ef82654c0b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making Settings for Customer/Vendor Integration",
+  "Context"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_100",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_101",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_102",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_103",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_104",
+   "role": "starts_here"
+  }
+ ]
+}

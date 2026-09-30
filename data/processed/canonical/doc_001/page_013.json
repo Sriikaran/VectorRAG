@@ -1,0 +1,334 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 13,
+ "source_page_hash": "daef4e239b53769e57ea0c401c72aaecf2eb26d37410b36b869cb0a82f367b38",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nThe system executes only those follow-up actions that are actually selected.\n\nYou can influence the processing of the follow-up actions through Customizing.\n\ne You can specify in Customizing that a set of rules is active. The system considers only active sets of rules when\ndetermining follow-up actions.\n\ne For each follow-up action, you can configure whether it is already selected when you call up the follow-up actions, and\nwhether the user can change this selection.\n\ne For each follow-up action, you can specify the operating modes in which the system considers it. For example, it can be\nhelpful to allow the follow-up action \"Delete Bank Data from Business Partner\" only in delete mode.\n\nDepending on your Customizing settings, you can select the following follow-up actions:\n\ne Delete Bank Data from Business Partner or Delete Payment Card Data from Business Partner\n\nIf you select one of these follow-up actions, the deleted bank details/payment card are also deleted from the master data of\nthe business partner. The prerequisite is that this payment data is not used in any other object (for example, in a contract\naccount).\n\ne Remove Locks\nIf you select this follow-up action, the following locks are deleted in accordance with your Customizing settings:\no For contract accounts and industry objects:\n=\u00bb Payment locks for incoming and outgoing payments\n=\u00bb Dunning locks\no For items:\n=\u00bb Payment locks\n\n=\u00bb Dunning locks\n\n1   For these follow-up actions, the system only displays the follow-up actions that can be performed based\n\non your Customizing settings. When you save, the data is then changed in accordance with these follow-up\nactions.\n\ne Reverse Dunning Notices\n\nFor this follow-up action, the system displays the dunning notices that qualify for reversal according to Customizing. If you\nselect this follow-up action, all dunning notices displayed below it are reversed (including the dunning charges). If the\ncharges have already been cleared, the system creates a credit memo - provided this is set up in Customizing.\n\ne Reverse Returns\n\nFor this follow-up action, the system displays the returns that qualify for a reset according to Customizing. If you select this\nfollow-up action, the system reverses the creditworthiness entries and the charges of all returns that are displayed. If the\ncharges have already been cleared, the system creates a credit memo - provided this is set up in Customizing.\n\nIf a follow-up action that is displayed requires a reconciliation key for execution, the system displays an input field for it. If\nnecessary, the system creates the reconciliation keys that you specify in this field.\n",
+ "cleaned_text": "The system executes only those follow-up actions that are actually selected. You can influence the processing of the follow-up actions through Customizing.\n\n- You can specify in Customizing that a set of rules is active. The system considers only active sets of rules when determining follow-up actions.\n\n- For each follow-up action, you can configure whether it is already selected when you call up the follow-up actions, and whether the user can change this selection.\n\n- For each follow-up action, you can specify the operating modes in which the system considers it. For example, it can be helpful to allow the follow-up action \"Delete Bank Data from Business Partner\" only in delete mode.\n\nDepending on your Customizing settings, you can select the following follow-up actions:\n\n- Delete Bank Data from Business Partner or Delete Payment Card Data from Business Partner If you select one of these follow-up actions, the deleted bank details/payment card are also deleted from the master data of\n\nthe business partner. The prerequisite is that this payment data is not used in any other object (for example, in a contract account).\n\n- Remove Locks If you select this follow-up action, the following locks are deleted in accordance with your Customizing settings:\n\n- For contract accounts and industry objects: =\u00bb Payment locks for incoming and outgoing payments =\u00bb Dunning locks\n\n- For items: =\u00bb Payment locks =\u00bb Dunning locks 1 For these follow-up actions, the system only displays the follow-up actions that can be performed based\n\non your Customizing settings. When you save, the data is then changed in accordance with these follow-up actions.\n\n- Reverse Dunning Notices For this follow-up action, the system displays the dunning notices that qualify for reversal according to Customizing. If you\n\nselect this follow-up action, all dunning notices displayed below it are reversed (including the dunning charges). If the charges have already been cleared, the system creates a credit memo - provided this is set up in Customizing.\n\n- Reverse Returns For this follow-up action, the system displays the returns that qualify for a reset according to Customizing. If you select this\n\nfollow-up action, the system reverses the creditworthiness entries and the charges of all returns that are displayed. If the charges have already been cleared, the system creates a credit memo - provided this is set up in Customizing. If a follow-up action that is displayed requires a reconciliation key for execution, the system displays an input field for it. If necessary, the system creates the reconciliation keys that you specify in this field.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p013_b000",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    152,
+    134,
+    1582,
+    294
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The system executes only those follow-up actions that are actually selected. You can influence the processing of the follow-up actions through Customizing.",
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p013_b001",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    236,
+    377,
+    2427,
+    809
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can specify in Customizing that a set of rules is active. The system considers only active sets of rules when determining follow-up actions."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "For each follow-up action, you can configure whether it is already selected when you call up the follow-up actions, and whether the user can change this selection."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "For each follow-up action, you can specify the operating modes in which the system considers it. For example, it can be helpful to allow the follow-up action \"Delete Bank Data from Business Partner\" only in delete mode."
+    }
+   ],
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p013_b002",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    125,
+    959,
+    1708,
+    997
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Depending on your Customizing settings, you can select the following follow-up actions:",
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p013_b003",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    207,
+    1080,
+    2488,
+    1220
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Delete Bank Data from Business Partner or Delete Payment Card Data from Business Partner If you select one of these follow-up actions, the deleted bank details/payment card are also deleted from the master data of"
+    }
+   ],
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p013_b004",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    254,
+    1245,
+    2444,
+    1348
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "the business partner. The prerequisite is that this payment data is not used in any other object (for example, in a contract account).",
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p013_b005",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    207,
+    1413,
+    2481,
+    2287
+   ],
+   "ocr_confidence": 89.4,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Remove Locks If you select this follow-up action, the following locks are deleted in accordance with your Customizing settings:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "For contract accounts and industry objects: =\u00bb Payment locks for incoming and outgoing payments =\u00bb Dunning locks"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "For items: =\u00bb Payment locks =\u00bb Dunning locks 1 For these follow-up actions, the system only displays the follow-up actions that can be performed based"
+    }
+   ],
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p013_b006",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    517,
+    2309,
+    2440,
+    2405
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "on your Customizing settings. When you save, the data is then changed in accordance with these follow-up actions.",
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p013_b007",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    207,
+    2477,
+    2459,
+    2617
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Reverse Dunning Notices For this follow-up action, the system displays the dunning notices that qualify for reversal according to Customizing. If you"
+    }
+   ],
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p013_b008",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    254,
+    2641,
+    2367,
+    2741
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "select this follow-up action, all dunning notices displayed below it are reversed (including the dunning charges). If the charges have already been cleared, the system creates a credit memo - provided this is set up in Customizing.",
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p013_b009",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    207,
+    2809,
+    2478,
+    2948
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Reverse Returns For this follow-up action, the system displays the returns that qualify for a reset according to Customizing. If you select this"
+    }
+   ],
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p013_b010",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    124,
+    2973,
+    2432,
+    3260
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "follow-up action, the system reverses the creditworthiness entries and the charges of all returns that are displayed. If the charges have already been cleared, the system creates a credit memo - provided this is set up in Customizing. If a follow-up action that is displayed requires a reconciliation key for execution, the system displays an input field for it. If necessary, the system creates the reconciliation keys that you specify in this field.",
+   "section_id": "doc_001_sec_039"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "daef4e239b53769e57ea0c401c72aaecf2eb26d37410b36b869cb0a82f367b38"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:26Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Triggering Follow-Up Actions",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_039",
+   "role": "continues"
+  }
+ ]
+}

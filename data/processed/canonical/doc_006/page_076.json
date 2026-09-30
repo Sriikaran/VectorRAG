@@ -1,0 +1,436 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 76,
+ "source_page_hash": "c6b1d1cab6768d7e33d28b068e07eafc54590672d2d704304b2be86209060581",
+ "is_cover_page": false,
+ "title": "Check Company-Specific Starting Point",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nthe device information.\n\nYou can generally execute utilities billing using the quantity determination procedure Quantity Determination During Meter\nReading without making any additional adjustments. Analyze the company-specific starting point and read the notes under\n\nCheck Company-Specific Starting Point\n\nIntegration\n\nVisualization of Quantity Determination Information\n\nQuantity determination information is displayed in the following areas:\n\nMeter Reading\n\nThe following information is displayed on the user interfaces for meter reading data processing:\n\ne Quantity Determination Information\n\nShows whether the displayed consumption value is a final consumption or a provisional consumption.\n\ne Quantity Determination Status\nShows the status of the quantity determination.\no 1- Quantity Determination Not Necessary\n\u00a9 2- Quantity Determination Performed Successfully\n\no 3- Quantity Determination Trigger Generated\nDevice Management\n\nYou can display the quantity determination procedure using the transactions Change Rate Data (transaction EG70) and Display\nRate Data (transaction EG71).\n\nCustomer Service Processes\n\nIn the customer service processes (for example, move-in and move-out), the following information is displayed on the user\n\ninterfaces for meter reading data processing:\n\ne Consumption\ne Quantity Determination Information\n\ne Quantity Determination Status\n\nImplementation Considerations\n\nMake sure you take the following information into account before taking further steps in the changeover of the quantity\ndetermination procedure.\n\nCustomizing\n",
+ "cleaned_text": "the device information. You can generally execute utilities billing using the quantity determination procedure Quantity Determination During Meter Reading without making any additional adjustments. Analyze the company-specific starting point and read the notes under\n\nCheck Company-Specific Starting Point\n\nIntegration\n\nVisualization of Quantity Determination Information\n\nQuantity determination information is displayed in the following areas:\n\nMeter Reading\n\nThe following information is displayed on the user interfaces for meter reading data processing:\n\n- Quantity Determination Information Shows whether the displayed consumption value is a final consumption or a provisional consumption.\n\n- Quantity Determination Status Shows the status of the quantity determination.\n\n- 1- Quantity Determination Not Necessary \u00a9 2- Quantity Determination Performed Successfully\n\n- 3- Quantity Determination Trigger Generated\n\nDevice Management\n\nYou can display the quantity determination procedure using the transactions Change Rate Data (transaction EG70) and Display Rate Data (transaction EG71).\n\nCustomer Service Processes\n\nIn the customer service processes (for example, move-in and move-out), the following information is displayed on the user interfaces for meter reading data processing:\n\n- Consumption\n\n- Quantity Determination Information\n\n- Quantity Determination Status\n\nImplementation Considerations\n\nMake sure you take the following information into account before taking further steps in the changeover of the quantity determination procedure.\n\nCustomizing",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p076_b000",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    122,
+    135,
+    2365,
+    357
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "the device information. You can generally execute utilities billing using the quantity determination procedure Quantity Determination During Meter Reading without making any additional adjustments. Analyze the company-specific starting point and read the notes under",
+   "section_id": "doc_006_sec_195"
+  },
+  {
+   "block_id": "doc_006_p076_b001",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    123,
+    443,
+    841,
+    481
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Check Company-Specific Starting Point",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_195"
+  },
+  {
+   "block_id": "doc_006_p076_b002",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    127,
+    593,
+    431,
+    650
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_196"
+  },
+  {
+   "block_id": "doc_006_p076_b003",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    123,
+    722,
+    1095,
+    760
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Visualization of Quantity Determination Information",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_197"
+  },
+  {
+   "block_id": "doc_006_p076_b004",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    123,
+    847,
+    1393,
+    885
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Quantity determination information is displayed in the following areas:",
+   "section_id": "doc_006_sec_197"
+  },
+  {
+   "block_id": "doc_006_p076_b005",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    124,
+    969,
+    394,
+    1007
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Meter Reading",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_198"
+  },
+  {
+   "block_id": "doc_006_p076_b006",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    122,
+    1090,
+    1848,
+    1128
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The following information is displayed on the user interfaces for meter reading data processing:",
+   "section_id": "doc_006_sec_198"
+  },
+  {
+   "block_id": "doc_006_p076_b007",
+   "type": "list",
+   "page_number": 76,
+   "bbox": [
+    207,
+    1212,
+    2094,
+    1864
+   ],
+   "ocr_confidence": 93.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Quantity Determination Information Shows whether the displayed consumption value is a final consumption or a provisional consumption."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Quantity Determination Status Shows the status of the quantity determination."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "1- Quantity Determination Not Necessary \u00a9 2- Quantity Determination Performed Successfully"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "3- Quantity Determination Trigger Generated"
+    }
+   ],
+   "section_id": "doc_006_sec_198"
+  },
+  {
+   "block_id": "doc_006_p076_b008",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    124,
+    1952,
+    501,
+    1989
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Device Management",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_199"
+  },
+  {
+   "block_id": "doc_006_p076_b009",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    123,
+    2074,
+    2444,
+    2179
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "You can display the quantity determination procedure using the transactions Change Rate Data (transaction EG70) and Display Rate Data (transaction EG71).",
+   "section_id": "doc_006_sec_199"
+  },
+  {
+   "block_id": "doc_006_p076_b010",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    123,
+    2263,
+    656,
+    2294
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Customer Service Processes",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_200"
+  },
+  {
+   "block_id": "doc_006_p076_b011",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    124,
+    2385,
+    2335,
+    2488
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "In the customer service processes (for example, move-in and move-out), the following information is displayed on the user interfaces for meter reading data processing:",
+   "section_id": "doc_006_sec_200"
+  },
+  {
+   "block_id": "doc_006_p076_b012",
+   "type": "list",
+   "page_number": 76,
+   "bbox": [
+    207,
+    2572,
+    905,
+    2813
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Consumption"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Quantity Determination Information"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Quantity Determination Status"
+    }
+   ],
+   "section_id": "doc_006_sec_200"
+  },
+  {
+   "block_id": "doc_006_p076_b013",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    127,
+    2925,
+    1012,
+    2982
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Implementation Considerations",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_201"
+  },
+  {
+   "block_id": "doc_006_p076_b014",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    123,
+    3058,
+    2276,
+    3158
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Make sure you take the following information into account before taking further steps in the changeover of the quantity determination procedure.",
+   "section_id": "doc_006_sec_201"
+  },
+  {
+   "block_id": "doc_006_p076_b015",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    123,
+    3242,
+    357,
+    3280
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Customizing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_202"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "c6b1d1cab6768d7e33d28b068e07eafc54590672d2d704304b2be86209060581"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Quantity Determination",
+  "Process",
+  "Follow-On Processes"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_195",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_196",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_197",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_198",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_199",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_200",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_201",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_202",
+   "role": "starts_here"
+  }
+ ]
+}

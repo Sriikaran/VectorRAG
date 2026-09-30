@@ -1,0 +1,426 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 80,
+ "source_page_hash": "e0e2438eea6502790cf7b157ed8f876947aa07671b80e154196ebe86d47a6a4b",
+ "is_cover_page": false,
+ "title": "Controlling Specifications in Contract Accounts (IS-U)",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nControlling Specifications in Contract Accounts (IS-U)\n\nUse\n\nThere are a number of attributes in the contract account that are specific to IS-U. These can be divided into various areas:\n\nGeneral data, such as:\n\ne Indicator for additional bill\n\ne Transaction currency\ne Terms of payment\n\ne Account class\n\ne Settlement category\n\ne Account determination ID\n\ne Application form\n\ne Language\nDunning control:\n\ne Indicator for additional dunning notice\nPayment control, such as:\n\ne Automatic debit procedure\n\ne Number of automatic debits performed\ne Number of returned automatic debits\ne Indicator for recurring entry request\n\ne No payment form indicator\n\nFeatures\n\nSeveral business partners can be assigned to the contract account. There is always just one account holder. You cannot post to the\nother business partners.\n\nThe Business Object Repository (BOR) contains the following Business Application Programming Interface (BAPIs) for contract\naccounts:\n\ne BAPI_ISUACCOUNT_CREATERFROMDATA (creating a contract account)\ne BAPI_ ISUACCOUNT GETDETALIL (displaying a contract account)\n\ne BAPI ISUACCOUNT GETLIST (displaying a list of contract accounts)\n",
+ "cleaned_text": "Controlling Specifications in Contract Accounts (IS-U)\n\nUse\n\nThere are a number of attributes in the contract account that are specific to IS-U. These can be divided into various areas:\n\nGeneral data, such as:\n\n- Indicator for additional bill\n\n- Transaction currency\n\n- Terms of payment\n\n- Account class\n\n- Settlement category\n\n- Account determination ID\n\n- Application form\n\n- Language\n\nDunning control:\n\n- Indicator for additional dunning notice\n\nPayment control, such as:\n\n- Automatic debit procedure\n\n- Number of automatic debits performed\n\n- Number of returned automatic debits\n\n- Indicator for recurring entry request\n\n- No payment form indicator\n\nFeatures\n\nSeveral business partners can be assigned to the contract account. There is always just one account holder. You cannot post to the other business partners. The Business Object Repository (BOR) contains the following Business Application Programming Interface (BAPIs) for contract accounts:\n\n- BAPI_ISUACCOUNT_CREATERFROMDATA (creating a contract account)\n\n- BAPI_ ISUACCOUNT GETDETALIL (displaying a contract account)\n\n- BAPI ISUACCOUNT GETLIST (displaying a list of contract accounts)",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p080_b000",
+   "type": "heading",
+   "page_number": 80,
+   "bbox": [
+    125,
+    130,
+    2083,
+    207
+   ],
+   "ocr_confidence": 86.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Controlling Specifications in Contract Accounts (IS-U)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_313"
+  },
+  {
+   "block_id": "doc_001_p080_b001",
+   "type": "heading",
+   "page_number": 80,
+   "bbox": [
+    125,
+    307,
+    225,
+    353
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_314"
+  },
+  {
+   "block_id": "doc_001_p080_b002",
+   "type": "paragraph",
+   "page_number": 80,
+   "bbox": [
+    122,
+    440,
+    2321,
+    477
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "There are a number of attributes in the contract account that are specific to IS-U. These can be divided into various areas:",
+   "section_id": "doc_001_sec_314"
+  },
+  {
+   "block_id": "doc_001_p080_b003",
+   "type": "heading",
+   "page_number": 80,
+   "bbox": [
+    123,
+    561,
+    532,
+    596
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "General data, such as:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_315"
+  },
+  {
+   "block_id": "doc_001_p080_b004",
+   "type": "list",
+   "page_number": 80,
+   "bbox": [
+    207,
+    683,
+    728,
+    1460
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Indicator for additional bill"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Transaction currency"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Terms of payment"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Account class"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Settlement category"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Account determination ID"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Application form"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Language"
+    }
+   ],
+   "section_id": "doc_001_sec_315"
+  },
+  {
+   "block_id": "doc_001_p080_b005",
+   "type": "heading",
+   "page_number": 80,
+   "bbox": [
+    124,
+    1544,
+    431,
+    1582
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Dunning control:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_316"
+  },
+  {
+   "block_id": "doc_001_p080_b006",
+   "type": "list",
+   "page_number": 80,
+   "bbox": [
+    207,
+    1666,
+    947,
+    1703
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Indicator for additional dunning notice"
+    }
+   ],
+   "section_id": "doc_001_sec_316"
+  },
+  {
+   "block_id": "doc_001_p080_b007",
+   "type": "heading",
+   "page_number": 80,
+   "bbox": [
+    124,
+    1787,
+    602,
+    1825
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Payment control, such as:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_317"
+  },
+  {
+   "block_id": "doc_001_p080_b008",
+   "type": "list",
+   "page_number": 80,
+   "bbox": [
+    207,
+    1912,
+    968,
+    2377
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Automatic debit procedure"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Number of automatic debits performed"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Number of returned automatic debits"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Indicator for recurring entry request"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "No payment form indicator"
+    }
+   ],
+   "section_id": "doc_001_sec_317"
+  },
+  {
+   "block_id": "doc_001_p080_b009",
+   "type": "heading",
+   "page_number": 80,
+   "bbox": [
+    126,
+    2489,
+    361,
+    2534
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_318"
+  },
+  {
+   "block_id": "doc_001_p080_b010",
+   "type": "paragraph",
+   "page_number": 80,
+   "bbox": [
+    122,
+    2621,
+    2482,
+    2901
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Several business partners can be assigned to the contract account. There is always just one account holder. You cannot post to the other business partners. The Business Object Repository (BOR) contains the following Business Application Programming Interface (BAPIs) for contract accounts:",
+   "section_id": "doc_001_sec_318"
+  },
+  {
+   "block_id": "doc_001_p080_b011",
+   "type": "list",
+   "page_number": 80,
+   "bbox": [
+    207,
+    2994,
+    1579,
+    3250
+   ],
+   "ocr_confidence": 79.6,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "BAPI_ISUACCOUNT_CREATERFROMDATA (creating a contract account)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "BAPI_ ISUACCOUNT GETDETALIL (displaying a contract account)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "BAPI ISUACCOUNT GETLIST (displaying a list of contract accounts)"
+    }
+   ],
+   "section_id": "doc_001_sec_318"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.0976,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "e0e2438eea6502790cf7b157ed8f876947aa07671b80e154196ebe86d47a6a4b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Controlling Specifications in Contract Accounts (IS-U)"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_313",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_314",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_315",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_316",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_317",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_318",
+   "role": "starts_here"
+  }
+ ]
+}

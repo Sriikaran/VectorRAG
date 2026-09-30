@@ -1,0 +1,304 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 33,
+ "source_page_hash": "07633ee7807e6db1597d7733cbcc20fd81ff722368d4a1bbea8d7fd72236e4dc",
+ "is_cover_page": false,
+ "title": "More Information",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n4. Determination of consumption to 09 by multiplying with the billing factor:\n\n16,000 kWh * 1.5 = 24,000 kWh\n5. Determination of consumption per weighting unit:\n24,000 kWh : 400 = 60 kWh\n6. Extrapolation of fictitious consumption for period 09 to 01:\n60 kWh * 600 = 36,000 kWh\n7.7, Determination of the actual, new consumption for period P based on the quotient of the new and the old billing factor\n8. (36,000 kWh : 1.5)* 2 = 24,000 kWh* 2 = 48,000 kWh\n9. Determination of the meter reading difference for period O09 to O1 by dividing the consumption value by the billing factor:\n48,000 kWh: 2 = 24,000 kWh\n\n10. Determination of the meter reading difference for period 09 to O1 by dividing the consumption value by the conversion\nfactor (gas):\n\n24,000 kWh: 12 = 2,000 kWh\n\n11. Determination of the meter reading difference for period O9 to O01 by dividing the consumption value by the register factor:\n2,000 kWh: 10 = 200 kWh\n\n12. Determination of the expected meter reading for 01 by adding the meter reading difference for meter reading O09:\n\n800 kWh + 200 kWh = 1,000 kWh\n\nThe expected meter reading at time P is 1,000 kWh.\n\nThe billing factor effects the expected consumption. As a result of weighting distribution, the consumption value from the base\n\nperiod is transformed to the extrapolation period and given the value of the new billing factor. The new expected consumption\nvalue is then divided by the factors that are valid on the extrapolation date (register factor, conversion factors) in order to\ndetermine the expected meter reading values.\n\nDuring extrapolation, the conversion factors are determined on a key date (in the same way as the register factors). This means\nthat the conversion factors are defined for the extrapolation date (this is usually the planned meter reading date) in order to\n\ntransform the expected consumption value into an expected meter reading value. In billing, the entire billing period is analyzed for\nchanged conversion factors and is then valuated and prorated accordingly. This is not possible for extrapolation as the data is not\nyet available when extrapolation takes place.\n\nMore Information\n\nFor more information on valuating the billing period with gas factors, see the documentation for contract billing in the\nimplementation guide (IMG) under Special Functions -> Gas Billing.\n\nProration of Meter Readings\n\nProration is the division of a billing period due to data changes.\n",
+ "cleaned_text": "4 Determination of consumption to 09 by multiplying with the billing factor: 16,000 kWh * 1.5 = 24,000 kWh\n\n5 Determination of consumption per weighting unit: 24,000 kWh : 400 = 60 kWh\n\n6 Extrapolation of fictitious consumption for period 09 to 01: 60 kWh * 600 = 36,000 kWh\n\n7.7, Determination of the actual, new consumption for period P based on the quotient of the new and the old billing factor\n\n8 (36,000 kWh : 1.5)* 2 = 24,000 kWh* 2 = 48,000 kWh\n\n9 Determination of the meter reading difference for period O09 to O1 by dividing the consumption value by the billing factor: 48,000 kWh: 2 = 24,000 kWh\n\n10 Determination of the meter reading difference for period 09 to O1 by dividing the consumption value by the conversion factor (gas): 24,000 kWh: 12 = 2,000 kWh\n\n11 Determination of the meter reading difference for period O9 to O01 by dividing the consumption value by the register factor: 2,000 kWh: 10 = 200 kWh\n\n12 Determination of the expected meter reading for 01 by adding the meter reading difference for meter reading O09: 800 kWh + 200 kWh = 1,000 kWh\n\nThe expected meter reading at time P is 1,000 kWh.\n\nThe billing factor effects the expected consumption. As a result of weighting distribution, the consumption value from the base period is transformed to the extrapolation period and given the value of the new billing factor. The new expected consumption value is then divided by the factors that are valid on the extrapolation date (register factor, conversion factors) in order to determine the expected meter reading values. During extrapolation, the conversion factors are determined on a key date (in the same way as the register factors). This means that the conversion factors are defined for the extrapolation date (this is usually the planned meter reading date) in order to transform the expected consumption value into an expected meter reading value. In billing, the entire billing period is analyzed for changed conversion factors and is then valuated and prorated accordingly. This is not possible for extrapolation as the data is not yet available when extrapolation takes place.\n\nMore Information\n\nFor more information on valuating the billing period with gas factors, see the documentation for contract billing in the implementation guide (IMG) under Special Functions -> Gas Billing.\n\nProration of Meter Readings\n\nProration is the division of a billing period due to data changes.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p033_b000",
+   "type": "list",
+   "page_number": 33,
+   "bbox": [
+    211,
+    134,
+    1585,
+    681
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Determination of consumption to 09 by multiplying with the billing factor: 16,000 kWh * 1.5 = 24,000 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Determination of consumption per weighting unit: 24,000 kWh : 400 = 60 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "Extrapolation of fictitious consumption for period 09 to 01: 60 kWh * 600 = 36,000 kWh"
+    }
+   ],
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p033_b001",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    212,
+    749,
+    2482,
+    787
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "7.7, Determination of the actual, new consumption for period P based on the quotient of the new and the old billing factor",
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p033_b002",
+   "type": "list",
+   "page_number": 33,
+   "bbox": [
+    188,
+    845,
+    2462,
+    1769
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "8",
+     "text": "(36,000 kWh : 1.5)* 2 = 24,000 kWh* 2 = 48,000 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "9",
+     "text": "Determination of the meter reading difference for period O09 to O1 by dividing the consumption value by the billing factor: 48,000 kWh: 2 = 24,000 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "10",
+     "text": "Determination of the meter reading difference for period 09 to O1 by dividing the consumption value by the conversion factor (gas): 24,000 kWh: 12 = 2,000 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "11",
+     "text": "Determination of the meter reading difference for period O9 to O01 by dividing the consumption value by the register factor: 2,000 kWh: 10 = 200 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "12",
+     "text": "Determination of the expected meter reading for 01 by adding the meter reading difference for meter reading O09: 800 kWh + 200 kWh = 1,000 kWh"
+    }
+   ],
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p033_b003",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    122,
+    1856,
+    1063,
+    1894
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [],
+   "text": "The expected meter reading at time P is 1,000 kWh.",
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p033_b004",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    122,
+    2014,
+    2468,
+    2617
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The billing factor effects the expected consumption. As a result of weighting distribution, the consumption value from the base period is transformed to the extrapolation period and given the value of the new billing factor. The new expected consumption value is then divided by the factors that are valid on the extrapolation date (register factor, conversion factors) in order to determine the expected meter reading values. During extrapolation, the conversion factors are determined on a key date (in the same way as the register factors). This means that the conversion factors are defined for the extrapolation date (this is usually the planned meter reading date) in order to transform the expected consumption value into an expected meter reading value. In billing, the entire billing period is analyzed for changed conversion factors and is then valuated and prorated accordingly. This is not possible for extrapolation as the data is not yet available when extrapolation takes place.",
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p033_b005",
+   "type": "heading",
+   "page_number": 33,
+   "bbox": [
+    126,
+    2728,
+    611,
+    2773
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "More Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_048"
+  },
+  {
+   "block_id": "doc_006_p033_b006",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    124,
+    2861,
+    2242,
+    2962
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "For more information on valuating the billing period with gas factors, see the documentation for contract billing in the implementation guide (IMG) under Special Functions -> Gas Billing.",
+   "section_id": "doc_006_sec_048"
+  },
+  {
+   "block_id": "doc_006_p033_b007",
+   "type": "heading",
+   "page_number": 33,
+   "bbox": [
+    128,
+    3111,
+    1139,
+    3186
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Proration of Meter Readings",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_049"
+  },
+  {
+   "block_id": "doc_006_p033_b008",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    125,
+    3259,
+    1256,
+    3296
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Proration is the division of a billing period due to data changes.",
+   "section_id": "doc_006_sec_049"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "07633ee7807e6db1597d7733cbcc20fd81ff722368d4a1bbea8d7fd72236e4dc"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:34Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Extrapolation with Billing Factor",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_047",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_048",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_049",
+   "role": "starts_here"
+  }
+ ]
+}

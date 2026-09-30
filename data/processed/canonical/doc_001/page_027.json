@@ -1,0 +1,405 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 27,
+ "source_page_hash": "2d69f201b981d5759e2de594a8cd6560b1453d52f38f20ecad1843503bf06330",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nGrouping             Short Name           Account Group      Meaning                                  Same Numbers\nBPIN       Internal     VEND       Vendors (int. no. asgmnt)\nBPEX       External     SUPP       Vendors (ext. no. asgmnt) | X\n\no Check if the role category MKK with the name Contract Partner is entered in SAP Customizing under |}Cross-\nApplication Components } Master Data Synchronization 5 Customer/Vendor Integration \u00bb Business Partner\n\nSettings \u00bb Settings for Vendor Integration \u00bb Set BP Role Category for Direction BP to Vendor 3. This is needed for\nthe synchronization of vendors.\n\nMake sure that the required entry fields and entries for the SAP business partner (BP) and the vendor agree with\neach other. If they do not, then the system terminates the synchronization.\n\n9. Synchronize vendors (VENDOR) and business partners (BP).\n\ni Note\n\nThe following settings are relevant only if you want the system to automatically create a business partner when a vendor\nis created.\n\no Assign the attributes of a business partner grouping to an account group (vendor). In SAP Customizing choose\nCross-Application Components \u00bb Master Data Synchronization \u00bb Customer/Vendor Integration > Business\nPartner Settings \u00bb Settings for Vendor Integration \u00bb Field Assignment for Vendor Integration \u00bb Assign Keys\n\nDefine Number Assignment for Direction Vendor to BP 3. The following table shows example entries. In making\nyour own settings, use the attributes of the business partner grouping and account group you need.\n\n\u00abSe Example\n\nAccount Group       Short name                                  Grouping               Meaning                 Same Numbers\nVEND       Vendors (int. no. asgmnt)  BPIN       Internal\nSUPP       Vendors (ext. no. asgmnt) | BPEX       External     X\n\n\u00a9 Assign roles, in which the corresponding SAP business partner should be created, to the vendor account groups. In\nSAP Customizing, choose |}Cross-Application Components \u00bb Master Data Synchronization >\u00bb Customer/Vendor\nIntegration \u00bb Business Partner Settings \u00bb Settings for Vendor Integration \u00bb Define BP Role for Direction Vendor\nto BP \u201c). The following table shows example entries. In making your own settings, use the account groups and\npartner roles you need.\n\nee Example\n\nAccount Group                 Description                                   BP Role                         Description\nVEND          Vendors (int. no. asgmnt) FLVNQO         Vendor\nVEND          Vendors (int. no. asgmnt) | FLVNO1         Vendor\n\nVEND          Vendors (int. no. asgmnt) | MKK          Contract Partner\n",
+ "cleaned_text": "Grouping | Short Name | Account Group | Meaning | Same Numbers\n\nBPIN | Internal | VEND | Vendors (int. no. asgmnt)\n\nBPEX | External | SUPP | Vendors (ext. no. asgmnt) | X\n\n- Check if the role category MKK with the name Contract Partner is entered in SAP Customizing under |}Cross- Application Components } Master Data Synchronization 5 Customer/Vendor Integration \u00bb Business Partner Settings \u00bb Settings for Vendor Integration \u00bb Set BP Role Category for Direction BP to Vendor 3. This is needed for\n\nthe synchronization of vendors. Make sure that the required entry fields and entries for the SAP business partner (BP) and the vendor agree with each other. If they do not, then the system terminates the synchronization.\n\n9 Synchronize vendors (VENDOR) and business partners (BP). i Note The following settings are relevant only if you want the system to automatically create a business partner when a vendor is created.\n\n- Assign the attributes of a business partner grouping to an account group (vendor). In SAP Customizing choose Cross-Application Components \u00bb Master Data Synchronization \u00bb Customer/Vendor Integration > Business Partner Settings \u00bb Settings for Vendor Integration \u00bb Field Assignment for Vendor Integration \u00bb Assign Keys Define Number Assignment for Direction Vendor to BP 3. The following table shows example entries. In making\n\nyour own settings, use the attributes of the business partner grouping and account group you need. \u00abSe Example\n\nAccount Group | Short name | Grouping | Meaning | Same Numbers\n\nVEND | Vendors (int. no. asgmnt) BPIN | Internal\n\nSUPP | Vendors (ext. no. asgmnt) | BPEX | External | X\n\n\u00a9 Assign roles, in which the corresponding SAP business partner should be created, to the vendor account groups. In SAP Customizing, choose |}Cross-Application Components \u00bb Master Data Synchronization >\u00bb Customer/Vendor Integration \u00bb Business Partner Settings \u00bb Settings for Vendor Integration \u00bb Define BP Role for Direction Vendor to BP \u201c). The following table shows example entries. In making your own settings, use the account groups and partner roles you need. ee Example\n\nAccount Group | Description | BP Role | Description\n\nVEND | Vendors (int. no. asgmnt) FLVNQO | Vendor\n\nVEND | Vendors (int. no. asgmnt) | FLVNO1 | Vendor\n\nVEND | Vendors (int. no. asgmnt) | MKK | Contract Partner",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p027_b000",
+   "type": "table",
+   "page_number": 27,
+   "bbox": [
+    441,
+    191,
+    2400,
+    446
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    441,
+    792,
+    1150,
+    1497,
+    2134
+   ],
+   "headers": [
+    "Grouping",
+    "Short Name",
+    "Account Group",
+    "Meaning",
+    "Same Numbers"
+   ],
+   "rows": [
+    [
+     "BPIN",
+     "Internal",
+     "VEND",
+     "Vendors (int. no. asgmnt)"
+    ],
+    [
+     "BPEX",
+     "External",
+     "SUPP",
+     "Vendors (ext. no. asgmnt) | X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Grouping",
+     "Short Name",
+     "Account Group",
+     "Meaning",
+     "Same Numbers"
+    ],
+    [
+     "BPIN",
+     "Internal",
+     "VEND",
+     "Vendors (int. no. asgmnt)"
+    ],
+    [
+     "BPEX",
+     "External",
+     "SUPP",
+     "Vendors (ext. no. asgmnt) | X"
+    ]
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p027_b001",
+   "type": "list",
+   "page_number": 27,
+   "bbox": [
+    336,
+    632,
+    2485,
+    805
+   ],
+   "ocr_confidence": 90.5,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Check if the role category MKK with the name Contract Partner is entered in SAP Customizing under |}Cross- Application Components } Master Data Synchronization 5 Customer/Vendor Integration \u00bb Business Partner Settings \u00bb Settings for Vendor Integration \u00bb Set BP Role Category for Direction BP to Vendor 3. This is needed for"
+    }
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p027_b002",
+   "type": "paragraph",
+   "page_number": 27,
+   "bbox": [
+    385,
+    825,
+    2420,
+    1026
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "the synchronization of vendors. Make sure that the required entry fields and entries for the SAP business partner (BP) and the vendor agree with each other. If they do not, then the system terminates the synchronization.",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p027_b003",
+   "type": "list",
+   "page_number": 27,
+   "bbox": [
+    211,
+    1084,
+    2457,
+    1708
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "9",
+     "text": "Synchronize vendors (VENDOR) and business partners (BP). i Note The following settings are relevant only if you want the system to automatically create a business partner when a vendor is created."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Assign the attributes of a business partner grouping to an account group (vendor). In SAP Customizing choose Cross-Application Components \u00bb Master Data Synchronization \u00bb Customer/Vendor Integration > Business Partner Settings \u00bb Settings for Vendor Integration \u00bb Field Assignment for Vendor Integration \u00bb Assign Keys Define Number Assignment for Direction Vendor to BP 3. The following table shows example entries. In making"
+    }
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p027_b004",
+   "type": "paragraph",
+   "page_number": 27,
+   "bbox": [
+    384,
+    1728,
+    2185,
+    1899
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "your own settings, use the attributes of the business partner grouping and account group you need. \u00abSe Example",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p027_b005",
+   "type": "table",
+   "page_number": 27,
+   "bbox": [
+    440,
+    1985,
+    2400,
+    2243
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    440,
+    787,
+    1424,
+    1777,
+    2133
+   ],
+   "headers": [
+    "Account Group",
+    "Short name",
+    "Grouping",
+    "Meaning",
+    "Same Numbers"
+   ],
+   "rows": [
+    [
+     "VEND",
+     "Vendors (int. no. asgmnt) BPIN",
+     "Internal"
+    ],
+    [
+     "SUPP",
+     "Vendors (ext. no. asgmnt) | BPEX",
+     "External",
+     "X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Account Group",
+     "Short name",
+     "Grouping",
+     "Meaning",
+     "Same Numbers"
+    ],
+    [
+     "VEND",
+     "Vendors (int. no. asgmnt) BPIN",
+     "Internal"
+    ],
+    [
+     "SUPP",
+     "Vendors (ext. no. asgmnt) | BPEX",
+     "External",
+     "X"
+    ]
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p027_b006",
+   "type": "paragraph",
+   "page_number": 27,
+   "bbox": [
+    336,
+    2427,
+    2458,
+    2848
+   ],
+   "ocr_confidence": 91.7,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "\u00a9 Assign roles, in which the corresponding SAP business partner should be created, to the vendor account groups. In SAP Customizing, choose |}Cross-Application Components \u00bb Master Data Synchronization >\u00bb Customer/Vendor Integration \u00bb Business Partner Settings \u00bb Settings for Vendor Integration \u00bb Define BP Role for Direction Vendor to BP \u201c). The following table shows example entries. In making your own settings, use the account groups and partner roles you need. ee Example",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p027_b007",
+   "type": "table",
+   "page_number": 27,
+   "bbox": [
+    440,
+    2935,
+    2369,
+    3298
+   ],
+   "ocr_confidence": 91.5,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    440,
+    907,
+    1546,
+    1993
+   ],
+   "headers": [
+    "Account Group",
+    "Description",
+    "BP Role",
+    "Description"
+   ],
+   "rows": [
+    [
+     "VEND",
+     "Vendors (int. no. asgmnt) FLVNQO",
+     "Vendor"
+    ],
+    [
+     "VEND",
+     "Vendors (int. no. asgmnt) | FLVNO1",
+     "Vendor"
+    ],
+    [
+     "VEND",
+     "Vendors (int. no. asgmnt) | MKK",
+     "Contract Partner"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Account Group",
+     "Description",
+     "BP Role",
+     "Description"
+    ],
+    [
+     "VEND",
+     "Vendors (int. no. asgmnt) FLVNQO",
+     "Vendor"
+    ],
+    [
+     "VEND",
+     "Vendors (int. no. asgmnt) | FLVNO1",
+     "Vendor"
+    ],
+    [
+     "VEND",
+     "Vendors (int. no. asgmnt) | MKK",
+     "Contract Partner"
+    ]
+   ],
+   "section_id": "doc_001_sec_100"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "2d69f201b981d5759e2de594a8cd6560b1453d52f38f20ecad1843503bf06330"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making Settings for Customer/Vendor Integration",
+  "Context"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_100",
+   "role": "continues"
+  }
+ ]
+}

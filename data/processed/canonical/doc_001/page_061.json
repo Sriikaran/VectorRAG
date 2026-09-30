@@ -1,0 +1,378 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 61,
+ "source_page_hash": "f5b42e67693d512d8f7117ba55e7b1c4db16762466081c4442a4c5985b655818",
+ "is_cover_page": false,
+ "title": "Business partner creditworthiness",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nWhen you process clarification cases, there is no a function that automatically recognizes merged business partners.\n\nYou can enter the source business partner number in the following fields and evaluate the payment lot during processing:\n\ne External Business Partner Number (field BPEXT in the business partner table BUTOOO)\n\ne Contract Account Number in Legacy System (field VKONA in the contract account table FKKVK)\n\ne Reference Number of Business Partner in Contract Account (field EXVKO in the contract account table FKKVK)\nThe disadvantage of this procedure is that you can only enter and evaluate one number for each field.\nBusiness partner creditworthiness\n\nEvery business partner has creditworthiness data (defined in the Utilities Industry Menu under |)\u00bbBusiness Master Data\nBusiness Partner \u00bb Display/Change Creditworthiness 3 ). If necessary, this data can be transferred from the source to the target\nbusiness during business partner merging.\n\nCreditworthiness data is not transferred with the functions Customer Change (SAP Utilities) or Transfer Items . As a result, you\nmust manually transfer the source business partner\u2019s creditworthiness to the target business partner.\n\nAutomatically transferring data causes problems here because a separate decision has to be made in each case as to whether the\ncreditworthiness is transferred or not. A company that takes over an insolvent company, for example, does not necessarily want\nthe insolvent company\u2019s creditworthiness to be transferred.\n\nObjects and Enhancements in SAP Utilities\n\nDefinition\n\nIn addition to FI-CA objects, SAP Utilities also contains objects and enhancements that are dependent on the business partner and\n\nmust, therefore, be taken into consideration when business partners are merged.\n\nUse\n\nMaster data\n\nUtility contract\n\nIn a utility contract, you cannot change a business partner who was allocated using the contract account. As a result, you must end\nthe existing utility contracts before you can allocate another business partner to the utility contract.\n\nYou can use the customer change function to do this.\n\nOwner allocations\n\nEvery premise can be allocated to a business partner, who is then defined as the owner. All existing owner allocations for the\nbusiness partners to be merged must be allocated to a single business partner.\n\nDepending on the Customizing settings made under |}*SAP Utilities >\u00bb Customer Service \u00bb Process Execution \u00bb Owner Allocation\nDefine Tvne of Owner Allocation \u2122. vou must execute the following actions:\n",
+ "cleaned_text": "When you process clarification cases, there is no a function that automatically recognizes merged business partners. You can enter the source business partner number in the following fields and evaluate the payment lot during processing:\n\n- External Business Partner Number (field BPEXT in the business partner table BUTOOO)\n\n- Contract Account Number in Legacy System (field VKONA in the contract account table FKKVK)\n\n- Reference Number of Business Partner in Contract Account (field EXVKO in the contract account table FKKVK)\n\nThe disadvantage of this procedure is that you can only enter and evaluate one number for each field.\n\nBusiness partner creditworthiness\n\nEvery business partner has creditworthiness data (defined in the Utilities Industry Menu under |)\u00bbBusiness Master Data Business Partner \u00bb Display/Change Creditworthiness 3 ). If necessary, this data can be transferred from the source to the target business during business partner merging. Creditworthiness data is not transferred with the functions Customer Change (SAP Utilities) or Transfer Items . As a result, you must manually transfer the source business partner\u2019s creditworthiness to the target business partner. Automatically transferring data causes problems here because a separate decision has to be made in each case as to whether the creditworthiness is transferred or not. A company that takes over an insolvent company, for example, does not necessarily want the insolvent company\u2019s creditworthiness to be transferred.\n\nObjects and Enhancements in SAP Utilities\n\nDefinition\n\nIn addition to FI-CA objects, SAP Utilities also contains objects and enhancements that are dependent on the business partner and must, therefore, be taken into consideration when business partners are merged.\n\nUse\n\nMaster data\n\nUtility contract\n\nIn a utility contract, you cannot change a business partner who was allocated using the contract account. As a result, you must end the existing utility contracts before you can allocate another business partner to the utility contract. You can use the customer change function to do this.\n\nOwner allocations\n\nEvery premise can be allocated to a business partner, who is then defined as the owner. All existing owner allocations for the business partners to be merged must be allocated to a single business partner. Depending on the Customizing settings made under |}*SAP Utilities >\u00bb Customer Service \u00bb Process Execution \u00bb Owner Allocation Define Tvne of Owner Allocation \u2122. vou must execute the following actions:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p061_b000",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    123,
+    134,
+    2312,
+    294
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "When you process clarification cases, there is no a function that automatically recognizes merged business partners. You can enter the source business partner number in the following fields and evaluate the payment lot during processing:",
+   "section_id": "doc_001_sec_209"
+  },
+  {
+   "block_id": "doc_001_p061_b001",
+   "type": "list",
+   "page_number": 61,
+   "bbox": [
+    207,
+    377,
+    2262,
+    622
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "External Business Partner Number (field BPEXT in the business partner table BUTOOO)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Contract Account Number in Legacy System (field VKONA in the contract account table FKKVK)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Reference Number of Business Partner in Contract Account (field EXVKO in the contract account table FKKVK)"
+    }
+   ],
+   "section_id": "doc_001_sec_209"
+  },
+  {
+   "block_id": "doc_001_p061_b002",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    122,
+    706,
+    1953,
+    744
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The disadvantage of this procedure is that you can only enter and evaluate one number for each field.",
+   "section_id": "doc_001_sec_209"
+  },
+  {
+   "block_id": "doc_001_p061_b003",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    124,
+    828,
+    765,
+    865
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Business partner creditworthiness",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_210"
+  },
+  {
+   "block_id": "doc_001_p061_b004",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    122,
+    949,
+    2477,
+    1549
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Every business partner has creditworthiness data (defined in the Utilities Industry Menu under |)\u00bbBusiness Master Data Business Partner \u00bb Display/Change Creditworthiness 3 ). If necessary, this data can be transferred from the source to the target business during business partner merging. Creditworthiness data is not transferred with the functions Customer Change (SAP Utilities) or Transfer Items . As a result, you must manually transfer the source business partner\u2019s creditworthiness to the target business partner. Automatically transferring data causes problems here because a separate decision has to be made in each case as to whether the creditworthiness is transferred or not. A company that takes over an insolvent company, for example, does not necessarily want the insolvent company\u2019s creditworthiness to be transferred.",
+   "section_id": "doc_001_sec_210"
+  },
+  {
+   "block_id": "doc_001_p061_b005",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    125,
+    1694,
+    1673,
+    1770
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Objects and Enhancements in SAP Utilities",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_211"
+  },
+  {
+   "block_id": "doc_001_p061_b006",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    126,
+    1874,
+    393,
+    1919
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_212"
+  },
+  {
+   "block_id": "doc_001_p061_b007",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    124,
+    2004,
+    2484,
+    2107
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "In addition to FI-CA objects, SAP Utilities also contains objects and enhancements that are dependent on the business partner and must, therefore, be taken into consideration when business partners are merged.",
+   "section_id": "doc_001_sec_212"
+  },
+  {
+   "block_id": "doc_001_p061_b008",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    125,
+    2219,
+    225,
+    2264
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_213"
+  },
+  {
+   "block_id": "doc_001_p061_b009",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    124,
+    2349,
+    345,
+    2379
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Master data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_214"
+  },
+  {
+   "block_id": "doc_001_p061_b010",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    124,
+    2474,
+    403,
+    2511
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Utility contract",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_215"
+  },
+  {
+   "block_id": "doc_001_p061_b011",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    122,
+    2595,
+    2486,
+    2817
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "In a utility contract, you cannot change a business partner who was allocated using the contract account. As a result, you must end the existing utility contracts before you can allocate another business partner to the utility contract. You can use the customer change function to do this.",
+   "section_id": "doc_001_sec_215"
+  },
+  {
+   "block_id": "doc_001_p061_b012",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    123,
+    2900,
+    457,
+    2931
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Owner allocations",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_216"
+  },
+  {
+   "block_id": "doc_001_p061_b013",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    124,
+    3025,
+    2466,
+    3300
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "Every premise can be allocated to a business partner, who is then defined as the owner. All existing owner allocations for the business partners to be merged must be allocated to a single business partner. Depending on the Customizing settings made under |}*SAP Utilities >\u00bb Customer Service \u00bb Process Execution \u00bb Owner Allocation Define Tvne of Owner Allocation \u2122. vou must execute the following actions:",
+   "section_id": "doc_001_sec_216"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "f5b42e67693d512d8f7117ba55e7b1c4db16762466081c4442a4c5985b655818"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Objects in Contract Accounts Receivable and Payable",
+  "Use",
+  "Open Items"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_209",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_210",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_211",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_212",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_213",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_214",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_215",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_216",
+   "role": "starts_here"
+  }
+ ]
+}

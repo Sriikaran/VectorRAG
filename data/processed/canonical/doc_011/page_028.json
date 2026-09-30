@@ -1,0 +1,449 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 28,
+ "source_page_hash": "bbc73ce44f02cf88e1cabdc03a488c46895b60719f611cac392ce8cc146775a0",
+ "is_cover_page": false,
+ "title": "Define RTP Interface",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nLegend\n\nComponents in activation\nperiod\n\nComponent priority\n\nComponent activation\n\ntype\n\nDefine RTP Interface\n\nPrerequisites\n\nNot activated         |\n\nPrio high       f\n\nPrio medium        i\n\nPrio low\n\n\u00a5\ncomet     Activated\nComp 2     generally\nComp 3     Activated\nindividually\n\nRTP components must be defined in Customizing for SAP Utilities under\n\n(see RTP components).\n\nProcedure\n\nCreate RTP interface\n\nEnergy Data Management * Interface to RTP Billing\n\n1. In Customizing for SAP Utilities, choose |}/Energy Data Management \u00bb Interface to RTP Billing } Create RTP Interface %.\n\n2. Enter an ID in the RTP Interface field.\n\nIf vou want to use an existing RTP interface as a template vou can select it in the Template field.\n",
+ "cleaned_text": "Legend\n\nComponents in activation period\n\nComponent priority\n\nComponent activation type\n\nDefine RTP Interface\n\nPrerequisites\n\nNot activated | |\n\nPrio high | f\n\nPrio medium | i\n\nPrio low \u00a5\n\ncomet | Activated\n\nComp 2 | generally\n\nComp 3 | Activated\n\nindividually\n\nRTP components must be defined in Customizing for SAP Utilities under (see RTP components).\n\nProcedure\n\nCreate RTP interface\n\nEnergy Data Management * Interface to RTP Billing\n\n1 In Customizing for SAP Utilities, choose |}/Energy Data Management \u00bb Interface to RTP Billing } Create RTP Interface %.\n\n2 Enter an ID in the RTP Interface field. If vou want to use an existing RTP interface as a template vou can select it in the Template field.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p028_b000",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    239,
+    197,
+    479,
+    259
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Legend",
+   "section_id": "doc_011_sec_085"
+  },
+  {
+   "block_id": "doc_011_p028_b001",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    236,
+    443,
+    914,
+    575
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Components in activation period",
+   "section_id": "doc_011_sec_085"
+  },
+  {
+   "block_id": "doc_011_p028_b002",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    236,
+    923,
+    752,
+    982
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Component priority",
+   "section_id": "doc_011_sec_085"
+  },
+  {
+   "block_id": "doc_011_p028_b003",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    233,
+    1413,
+    821,
+    1544
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Component activation type",
+   "section_id": "doc_011_sec_085"
+  },
+  {
+   "block_id": "doc_011_p028_b004",
+   "type": "heading",
+   "page_number": 28,
+   "bbox": [
+    128,
+    2227,
+    870,
+    2287
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Define RTP Interface",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_086"
+  },
+  {
+   "block_id": "doc_011_p028_b005",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    126,
+    2407,
+    492,
+    2462
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Prerequisites",
+   "section_id": "doc_011_sec_086"
+  },
+  {
+   "block_id": "doc_011_p028_b006",
+   "type": "table",
+   "page_number": 28,
+   "bbox": [
+    1144,
+    644,
+    2019,
+    1081
+   ],
+   "ocr_confidence": 80.6,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    1144,
+    1173,
+    1742,
+    1844,
+    2015
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Not activated",
+     "|"
+    ],
+    [
+     "Prio high",
+     "f"
+    ],
+    [
+     "Prio medium",
+     "i"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Not activated",
+     "|"
+    ],
+    [
+     "Prio high",
+     "f"
+    ],
+    [
+     "Prio medium",
+     "i"
+    ]
+   ],
+   "section_id": "doc_011_sec_086"
+  },
+  {
+   "block_id": "doc_011_p028_b007",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    1144,
+    1137,
+    1765,
+    1252
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Prio low \u00a5",
+   "section_id": "doc_011_sec_086"
+  },
+  {
+   "block_id": "doc_011_p028_b008",
+   "type": "table",
+   "page_number": 28,
+   "bbox": [
+    1196,
+    1413,
+    1926,
+    1728
+   ],
+   "ocr_confidence": 85.1,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    1196,
+    1601
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "comet",
+     "Activated"
+    ],
+    [
+     "Comp 2",
+     "generally"
+    ],
+    [
+     "Comp 3",
+     "Activated"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "comet",
+     "Activated"
+    ],
+    [
+     "Comp 2",
+     "generally"
+    ],
+    [
+     "Comp 3",
+     "Activated"
+    ]
+   ],
+   "section_id": "doc_011_sec_086"
+  },
+  {
+   "block_id": "doc_011_p028_b009",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    1607,
+    1728,
+    2038,
+    1781
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "individually",
+   "section_id": "doc_011_sec_086"
+  },
+  {
+   "block_id": "doc_011_p028_b010",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    123,
+    2536,
+    1433,
+    2698
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "RTP components must be defined in Customizing for SAP Utilities under (see RTP components).",
+   "section_id": "doc_011_sec_086"
+  },
+  {
+   "block_id": "doc_011_p028_b011",
+   "type": "heading",
+   "page_number": 28,
+   "bbox": [
+    126,
+    2811,
+    409,
+    2856
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_087"
+  },
+  {
+   "block_id": "doc_011_p028_b012",
+   "type": "heading",
+   "page_number": 28,
+   "bbox": [
+    123,
+    2940,
+    511,
+    2970
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Create RTP interface",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_088"
+  },
+  {
+   "block_id": "doc_011_p028_b013",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    1478,
+    2532,
+    2436,
+    2578
+   ],
+   "ocr_confidence": 87.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Energy Data Management * Interface to RTP Billing",
+   "section_id": "doc_011_sec_088"
+  },
+  {
+   "block_id": "doc_011_p028_b014",
+   "type": "list",
+   "page_number": 28,
+   "bbox": [
+    212,
+    3060,
+    2452,
+    3300
+   ],
+   "ocr_confidence": 85.7,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "In Customizing for SAP Utilities, choose |}/Energy Data Management \u00bb Interface to RTP Billing } Create RTP Interface %."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter an ID in the RTP Interface field. If vou want to use an existing RTP interface as a template vou can select it in the Template field."
+    }
+   ],
+   "section_id": "doc_011_sec_088"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 75,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 88,
+   "page_hash": "bbc73ce44f02cf88e1cabdc03a488c46895b60719f611cac392ce8cc146775a0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Execution of Components",
+  "Time"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_085",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_086",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_087",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_088",
+   "role": "starts_here"
+  }
+ ]
+}

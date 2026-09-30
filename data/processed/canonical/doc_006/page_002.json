@@ -1,0 +1,515 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 2,
+ "source_page_hash": "7504ca5e98b83ef3d604a55f156c3b64feb2146e65347aecce48dd25dd6a4b85",
+ "is_cover_page": false,
+ "title": "Reading Meters",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nReading Meters\n\nPurpose\n\nYou can use this component to organize meter readings and meter reading results. Devices are either read periodically for periodic\nbilling or aperiodically, such as for control meter readings and readings at the time of device replacement, removal, or\ndisconnection.\n\nDevices can also be read for a certain activity, such as a move-in or a removal. In such cases, the meter reading is triggered directly\nby the activity, and not by the Meter Reading component.\n\nPeriodic Meter Reading Process\n\nPeriodic Meter Reading Process\n\nBilling Order\n5                                                            Meter Reading Entry +                                                                \u201d\n            Order Creation = \u2014\u2014>        Order Output        \u2014>              Validation                                                                                Billing\n\n;                      Correction of Meter\n\nDownload to                        Upload from Mobile                     Reading Result\n\nMobile Device                     Device / MDUS/ ...                            .\n                   Correction\n\nMDUS Request                   Market Communication               Estimation\n\nPrint Document                    Manual Entry\n\nRelease\nMeter Reading Order                                                     Meter Reading Result                                                        Billing Document\n\nFirst, the meter reading order is created and printed as a meter reading document or downloaded to an external entry system. The\nmeter reading results are either entered manually or uploaded. They are then validated and corrected, if necessary. The results are\n\nthen forwarded to the Contract Billing (IS-U-Bl) component.\n\nIntegration\n\nThe following Business Application Programming Interfaces (BAPI) are available in the Business Object Repository (BOR) for\nselecting meter reading orders and results:\n\ne MeterReadingDocument.GetList (select meter reading orders and results)\n\ne MeterReadingDocument.Upload (upload meter reading results)\n\nMore Information\n\nFor more information about BAPIs see the following documentation:\n\ne For general information, see the BAP! User Manual and the BAPI Program Manual\n",
+ "cleaned_text": "Reading Meters\n\nPurpose\n\nYou can use this component to organize meter readings and meter reading results. Devices are either read periodically for periodic billing or aperiodically, such as for control meter readings and readings at the time of device replacement, removal, or disconnection. Devices can also be read for a certain activity, such as a move-in or a removal. In such cases, the meter reading is triggered directly by the activity, and not by the Meter Reading component. Periodic Meter Reading Process Periodic Meter Reading Process\n\nBilling Order\n\n5 | Meter Reading Entry + | \u201d\n\nOrder Creation = \u2014\u2014> | Order Output | \u2014> | Validation | Billing\n\n; | Correction of Meter\n\nDownload to | Upload from Mobile | Reading Result\n\nMobile Device | Device / MDUS/ ... | .\n\nCorrection\n\nMDUS Request | Market Communication | Estimation\n\nPrint Document | Manual Entry\n\nRelease\n\nMeter Reading Order | Meter Reading Result | Billing Document\n\nFirst, the meter reading order is created and printed as a meter reading document or downloaded to an external entry system. The meter reading results are either entered manually or uploaded. They are then validated and corrected, if necessary. The results are then forwarded to the Contract Billing (IS-U-Bl) component.\n\nIntegration\n\nThe following Business Application Programming Interfaces (BAPI) are available in the Business Object Repository (BOR) for selecting meter reading orders and results:\n\n- MeterReadingDocument.GetList (select meter reading orders and results)\n\n- MeterReadingDocument.Upload (upload meter reading results)\n\nMore Information\n\nFor more information about BAPIs see the following documentation:\n\n- For general information, see the BAP! User Manual and the BAPI Program Manual",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    256,
+    689,
+    331
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Reading Meters",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_000"
+  },
+  {
+   "block_id": "doc_006_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    435,
+    352,
+    492
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Purpose",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_001"
+  },
+  {
+   "block_id": "doc_006_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    565,
+    2483,
+    1108
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You can use this component to organize meter readings and meter reading results. Devices are either read periodically for periodic billing or aperiodically, such as for control meter readings and readings at the time of device replacement, removal, or disconnection. Devices can also be read for a certain activity, such as a move-in or a removal. In such cases, the meter reading is triggered directly by the activity, and not by the Meter Reading component. Periodic Meter Reading Process Periodic Meter Reading Process",
+   "section_id": "doc_006_sec_001"
+  },
+  {
+   "block_id": "doc_006_p002_b003",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    394,
+    1310,
+    566,
+    1340
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Billing Order",
+   "section_id": "doc_006_sec_001"
+  },
+  {
+   "block_id": "doc_006_p002_b004",
+   "type": "table",
+   "page_number": 2,
+   "bbox": [
+    376,
+    1476,
+    2340,
+    1670
+   ],
+   "ocr_confidence": 78.4,
+   "flags": [
+    "low_confidence_words:7",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 10,
+   "column_starts": [
+    376,
+    542,
+    796,
+    1084,
+    1232,
+    1319,
+    1482,
+    1730,
+    1845,
+    2260
+   ],
+   "headers": [
+    "5",
+    "Meter Reading Entry +",
+    "\u201d"
+   ],
+   "rows": [
+    [
+     "Order Creation = \u2014\u2014>",
+     "Order Output",
+     "\u2014>",
+     "Validation",
+     "Billing"
+    ],
+    [
+     ";",
+     "Correction of Meter"
+    ],
+    [
+     "Download to",
+     "Upload from Mobile",
+     "Reading Result"
+    ],
+    [
+     "Mobile Device",
+     "Device / MDUS/ ...",
+     "."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "5",
+     "Meter Reading Entry +",
+     "\u201d"
+    ],
+    [
+     "Order Creation = \u2014\u2014>",
+     "Order Output",
+     "\u2014>",
+     "Validation",
+     "Billing"
+    ],
+    [
+     ";",
+     "Correction of Meter"
+    ],
+    [
+     "Download to",
+     "Upload from Mobile",
+     "Reading Result"
+    ],
+    [
+     "Mobile Device",
+     "Device / MDUS/ ...",
+     "."
+    ]
+   ],
+   "section_id": "doc_006_sec_001"
+  },
+  {
+   "block_id": "doc_006_p002_b005",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    1741,
+    1656,
+    1883,
+    1681
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Correction",
+   "section_id": "doc_006_sec_001"
+  },
+  {
+   "block_id": "doc_006_p002_b006",
+   "type": "table",
+   "page_number": 2,
+   "bbox": [
+    796,
+    1687,
+    1885,
+    1778
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    796,
+    1240,
+    1741
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MDUS Request",
+     "Market Communication",
+     "Estimation"
+    ],
+    [
+     "Print Document",
+     "Manual Entry"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MDUS Request",
+     "Market Communication",
+     "Estimation"
+    ],
+    [
+     "Print Document",
+     "Manual Entry"
+    ]
+   ],
+   "section_id": "doc_006_sec_001"
+  },
+  {
+   "block_id": "doc_006_p002_b007",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    1741,
+    1770,
+    1853,
+    1794
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Release",
+   "section_id": "doc_006_sec_001"
+  },
+  {
+   "block_id": "doc_006_p002_b008",
+   "type": "table",
+   "page_number": 2,
+   "bbox": [
+    332,
+    1955,
+    2419,
+    1994
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    332,
+    1238,
+    2185
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Meter Reading Order",
+     "Meter Reading Result",
+     "Billing Document"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Meter Reading Order",
+     "Meter Reading Result",
+     "Billing Document"
+    ]
+   ],
+   "section_id": "doc_006_sec_001"
+  },
+  {
+   "block_id": "doc_006_p002_b009",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    2102,
+    2478,
+    2265
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "First, the meter reading order is created and printed as a meter reading document or downloaded to an external entry system. The meter reading results are either entered manually or uploaded. They are then validated and corrected, if necessary. The results are then forwarded to the Contract Billing (IS-U-Bl) component.",
+   "section_id": "doc_006_sec_001"
+  },
+  {
+   "block_id": "doc_006_p002_b010",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    127,
+    2377,
+    431,
+    2434
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_002"
+  },
+  {
+   "block_id": "doc_006_p002_b011",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    2509,
+    2380,
+    2610
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "The following Business Application Programming Interfaces (BAPI) are available in the Business Object Repository (BOR) for selecting meter reading orders and results:",
+   "section_id": "doc_006_sec_002"
+  },
+  {
+   "block_id": "doc_006_p002_b012",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    2694,
+    1592,
+    2836
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MeterReadingDocument.GetList (select meter reading orders and results)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MeterReadingDocument.Upload (upload meter reading results)"
+    }
+   ],
+   "section_id": "doc_006_sec_002"
+  },
+  {
+   "block_id": "doc_006_p002_b013",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    2949,
+    611,
+    2994
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "More Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_003"
+  },
+  {
+   "block_id": "doc_006_p002_b014",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    125,
+    3078,
+    1352,
+    3116
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "For more information about BAPIs see the following documentation:",
+   "section_id": "doc_006_sec_003"
+  },
+  {
+   "block_id": "doc_006_p002_b015",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    3203,
+    1722,
+    3240
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "For general information, see the BAP! User Manual and the BAPI Program Manual"
+    }
+   ],
+   "section_id": "doc_006_sec_003"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "7504ca5e98b83ef3d604a55f156c3b64feb2146e65347aecce48dd25dd6a4b85"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_000",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_003",
+   "role": "starts_here"
+  }
+ ]
+}

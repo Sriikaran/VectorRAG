@@ -1,0 +1,397 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 57,
+ "source_page_hash": "1311efce3980e38d731ac98e4ee64a07c6f86ded54ceab4dbfbbddd8e6ab8c45",
+ "is_cover_page": false,
+ "title": "Time-of-Use Exceptions and Conditional Billing",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nTime-of-Use Exceptions and Conditional Billing\n\nUse\n\nThe on-going rollout of smart meters and the introduction of demand response programs provide an ideal environment for utility\ncompanies in an advanced metering infrastructure to improve their load balancing.\n\nContractually agreed participation of customers in demand response programs means that utility companies can use events to\nreact quickly to potential load fluctuations. Special time-of-use rates, which take event-driven dynamic elements into account,\noffer customers financial incentives to reduce their consumption in critical peak times or to shift their consumption to less critical\ntimes. Dynamic elements in the rate model can be, for example, critical peak prices within Critical Peak Pricing (CPP) or Peak\nTime Rebates (PTR).\n\nFeatures\n\nWith the processing of time-of-use exceptions and conditional billing, SAP IS-U supports utilities in using these advantages of an\nadvanced metering infrastructure. Demand response programs are mapped in SAP IS-U as time-of-use exception programs;\nevents that occur during demand response programs are referred to as time-of-use exceptions.\n\nTime-of-use exceptions are the dynamic elements. They can occur at any time and are typically short in duration (< 1 day).\nAlternative or additional billing rules need to be applied for the duration of a time-of-use exception. This is done using conditional\nbilling, which is an enhancement of SAP IS-U Billing. Conditional billing can also be used to bill critical peak prices during Critical\nPeak Pricing (CPP) or to clear peak-time rebates (PTR).\n\nThe following figure shows a normal time-of-use rate with time-of-use periods. The rate differentiates between on-peak and off-\npeak rates on weekdays and a normal rate on weekends and public holidays.\n\nOff-Peak Rt\n\nOn-Peak Rt\n\nWeekdays:\n19:00 \u2014 07:59:                 12ct\n08:00 \u2014 18:59:              30ct\nWeekend/Public Holidays:\nEntire Day:                 18ct\n\n26.07.\n\n3.39\n\nTime Series Data           Time-of-Use - 1       Time-of-Use - 1\n\n-o0 0300 9023-007 92:90 05 92] oT 92 98 Wd ot tse 14 0 eo Tee oda ee eon Se oe 98 so oe\n",
+ "cleaned_text": "Time-of-Use Exceptions and Conditional Billing\n\nUse\n\nThe on-going rollout of smart meters and the introduction of demand response programs provide an ideal environment for utility companies in an advanced metering infrastructure to improve their load balancing. Contractually agreed participation of customers in demand response programs means that utility companies can use events to react quickly to potential load fluctuations. Special time-of-use rates, which take event-driven dynamic elements into account, offer customers financial incentives to reduce their consumption in critical peak times or to shift their consumption to less critical times. Dynamic elements in the rate model can be, for example, critical peak prices within Critical Peak Pricing (CPP) or Peak Time Rebates (PTR).\n\nFeatures\n\nWith the processing of time-of-use exceptions and conditional billing, SAP IS-U supports utilities in using these advantages of an advanced metering infrastructure. Demand response programs are mapped in SAP IS-U as time-of-use exception programs; events that occur during demand response programs are referred to as time-of-use exceptions. Time-of-use exceptions are the dynamic elements. They can occur at any time and are typically short in duration (< 1 day). Alternative or additional billing rules need to be applied for the duration of a time-of-use exception. This is done using conditional billing, which is an enhancement of SAP IS-U Billing. Conditional billing can also be used to bill critical peak prices during Critical Peak Pricing (CPP) or to clear peak-time rebates (PTR). The following figure shows a normal time-of-use rate with time-of-use periods. The rate differentiates between on-peak and off-peak rates on weekdays and a normal rate on weekends and public holidays.\n\nOff-Peak Rt On-Peak Rt\n\nWeekdays:\n\n19:00 \u2014 07:59: | 12ct\n\n08:00 \u2014 18:59: | 30ct\n\nWeekend/Public Holidays:\n\nEntire Day: | 18ct\n\n26.07. 3.39\n\nTime Series Data | Time-of-Use - 1 | Time-of-Use - 1\n\n-o0 0300 9023-007 92:90 05 92] oT 92 98 Wd ot tse 14 0 eo Tee oda ee eon Se oe 98 so oe",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p057_b000",
+   "type": "heading",
+   "page_number": 57,
+   "bbox": [
+    123,
+    130,
+    1824,
+    207
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "text": "Time-of-Use Exceptions and Conditional Billing",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_185"
+  },
+  {
+   "block_id": "doc_011_p057_b001",
+   "type": "heading",
+   "page_number": 57,
+   "bbox": [
+    125,
+    307,
+    225,
+    353
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_186"
+  },
+  {
+   "block_id": "doc_011_p057_b002",
+   "type": "paragraph",
+   "page_number": 57,
+   "bbox": [
+    122,
+    440,
+    2467,
+    914
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The on-going rollout of smart meters and the introduction of demand response programs provide an ideal environment for utility companies in an advanced metering infrastructure to improve their load balancing. Contractually agreed participation of customers in demand response programs means that utility companies can use events to react quickly to potential load fluctuations. Special time-of-use rates, which take event-driven dynamic elements into account, offer customers financial incentives to reduce their consumption in critical peak times or to shift their consumption to less critical times. Dynamic elements in the rate model can be, for example, critical peak prices within Critical Peak Pricing (CPP) or Peak Time Rebates (PTR).",
+   "section_id": "doc_011_sec_186"
+  },
+  {
+   "block_id": "doc_011_p057_b003",
+   "type": "heading",
+   "page_number": 57,
+   "bbox": [
+    126,
+    1027,
+    361,
+    1072
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_187"
+  },
+  {
+   "block_id": "doc_011_p057_b004",
+   "type": "paragraph",
+   "page_number": 57,
+   "bbox": [
+    122,
+    1159,
+    2459,
+    1821
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "With the processing of time-of-use exceptions and conditional billing, SAP IS-U supports utilities in using these advantages of an advanced metering infrastructure. Demand response programs are mapped in SAP IS-U as time-of-use exception programs; events that occur during demand response programs are referred to as time-of-use exceptions. Time-of-use exceptions are the dynamic elements. They can occur at any time and are typically short in duration (< 1 day). Alternative or additional billing rules need to be applied for the duration of a time-of-use exception. This is done using conditional billing, which is an enhancement of SAP IS-U Billing. Conditional billing can also be used to bill critical peak prices during Critical Peak Pricing (CPP) or to clear peak-time rebates (PTR). The following figure shows a normal time-of-use rate with time-of-use periods. The rate differentiates between on-peak and off-peak rates on weekdays and a normal rate on weekends and public holidays.",
+   "section_id": "doc_011_sec_187"
+  },
+  {
+   "block_id": "doc_011_p057_b005",
+   "type": "paragraph",
+   "page_number": 57,
+   "bbox": [
+    1302,
+    2069,
+    1480,
+    2157
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Off-Peak Rt On-Peak Rt",
+   "section_id": "doc_011_sec_187"
+  },
+  {
+   "block_id": "doc_011_p057_b006",
+   "type": "paragraph",
+   "page_number": 57,
+   "bbox": [
+    203,
+    2320,
+    408,
+    2357
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Weekdays:",
+   "section_id": "doc_011_sec_187"
+  },
+  {
+   "block_id": "doc_011_p057_b007",
+   "type": "table",
+   "page_number": 57,
+   "bbox": [
+    203,
+    2367,
+    741,
+    2443
+   ],
+   "ocr_confidence": 81.9,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    203,
+    669
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "19:00 \u2014 07:59:",
+     "12ct"
+    ],
+    [
+     "08:00 \u2014 18:59:",
+     "30ct"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "19:00 \u2014 07:59:",
+     "12ct"
+    ],
+    [
+     "08:00 \u2014 18:59:",
+     "30ct"
+    ]
+   ],
+   "section_id": "doc_011_sec_187"
+  },
+  {
+   "block_id": "doc_011_p057_b008",
+   "type": "paragraph",
+   "page_number": 57,
+   "bbox": [
+    203,
+    2510,
+    692,
+    2547
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Weekend/Public Holidays:",
+   "section_id": "doc_011_sec_187"
+  },
+  {
+   "block_id": "doc_011_p057_b009",
+   "type": "table",
+   "page_number": 57,
+   "bbox": [
+    205,
+    2557,
+    741,
+    2594
+   ],
+   "ocr_confidence": 76.7,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    205,
+    669
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entire Day:",
+     "18ct"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entire Day:",
+     "18ct"
+    ]
+   ],
+   "section_id": "doc_011_sec_187"
+  },
+  {
+   "block_id": "doc_011_p057_b010",
+   "type": "paragraph",
+   "page_number": 57,
+   "bbox": [
+    1215,
+    3021,
+    1445,
+    3151
+   ],
+   "ocr_confidence": 53.6,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "26.07. 3.39",
+   "section_id": "doc_011_sec_187"
+  },
+  {
+   "block_id": "doc_011_p057_b011",
+   "type": "table",
+   "page_number": 57,
+   "bbox": [
+    205,
+    3230,
+    2241,
+    3289
+   ],
+   "ocr_confidence": 81.0,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    205,
+    719,
+    2038
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Time Series Data",
+     "Time-of-Use - 1",
+     "Time-of-Use - 1"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Time Series Data",
+     "Time-of-Use - 1",
+     "Time-of-Use - 1"
+    ]
+   ],
+   "section_id": "doc_011_sec_187"
+  },
+  {
+   "block_id": "doc_011_p057_b012",
+   "type": "fragment",
+   "page_number": 57,
+   "bbox": [
+    566,
+    3280,
+    2354,
+    3300
+   ],
+   "ocr_confidence": 34.0,
+   "flags": [
+    "low_confidence_words:22",
+    "in_graphic_region",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "-o0 0300 9023-007 92:90 05 92] oT 92 98 Wd ot tse 14 0 eo Tee oda ee eon Se oe 98 so oe",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_011_sec_187"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 89,
+   "page_hash": "1311efce3980e38d731ac98e4ee64a07c6f86ded54ceab4dbfbbddd8e6ab8c45"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Time-of-Use Exceptions and Conditional Billing"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_185",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_186",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_187",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,363 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 54,
+ "source_page_hash": "06b8d0a739d46b6c5a8d8c681debcd1704363dccc7209c348460ec6e30a68d94",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nThe meter reader number is used to identify the meter reader. It is used as a default value and can be stored in the\n\nschedule record of the meter reading. You can use the Meter Reader Number field to indicate that the actual meter reader\nis different from the default meter reader.\n\ne MRDATEFORBILLING (meter reading date)\nBilling occurs on this date, which is also the end of the billing period. The end of the billing period is determined.\ne MRTIMEFORBILLING (meter reading time)\ne ACTUALMRDATE (actual meter reading date)\ne ACTUALMRTIME (actual meter reading time)\ne MRDATEOFMAXIMUM (date of maximum reading)\ne MRTIMEOFMAXIMUM (Time of maximum reading)\ne SMORDER (service order number)\n\ne ACTIVE (active indicator)\n\nThere are two upload scenarios:\n\n1. Meter reading orders were already created and downloaded in IS-U.\n\nMeter readings are assigned to IS-U orders via the document number when they are uploaded. In this case you do not have\nto maintain the following fields:\n\no Article Number\no Device serial number\no Register Number\no Meter Reading Reason\n2. There are no meter reading orders in IS-U/CCS\n\nIn this case you have to specify the serial number and the register number to identify the device for which readings are to\nbe entered in IS-U/CCS.\n\nIf the serial number is not unique, you also have to provide the material number and device category. You also have to\nsupply the meter reading reason, a meter reading date and a meter reading.\n\nFor more information about IDocs see the following documentation:\n\ne For general information, see IDoc Interface/Electronic Data Interchange\n\ne For detailed information, see Using Documentation Toolss\n\nHere you determine which documentation you can display for a certain IDoc category.\n\nFeatures\n\nThe enhancements EDMMRRES are available for upload. You use this enhancement to manipulate meter readings after results\n\nhave been uploaded and before the readings are validated.\n",
+ "cleaned_text": "The meter reader number is used to identify the meter reader. It is used as a default value and can be stored in the schedule record of the meter reading. You can use the Meter Reader Number field to indicate that the actual meter reader is different from the default meter reader.\n\n- MRDATEFORBILLING (meter reading date) Billing occurs on this date, which is also the end of the billing period. The end of the billing period is determined.\n\n- MRTIMEFORBILLING (meter reading time)\n\n- ACTUALMRDATE (actual meter reading date)\n\n- ACTUALMRTIME (actual meter reading time)\n\n- MRDATEOFMAXIMUM (date of maximum reading)\n\n- MRTIMEOFMAXIMUM (Time of maximum reading)\n\n- SMORDER (service order number)\n\n- ACTIVE (active indicator)\n\nThere are two upload scenarios:\n\n1 Meter reading orders were already created and downloaded in IS-U. Meter readings are assigned to IS-U orders via the document number when they are uploaded. In this case you do not have\n\nto maintain the following fields:\n\n- Article Number\n\n- Device serial number\n\n- Register Number\n\n- Meter Reading Reason\n\n2 There are no meter reading orders in IS-U/CCS In this case you have to specify the serial number and the register number to identify the device for which readings are to be entered in IS-U/CCS. If the serial number is not unique, you also have to provide the material number and device category. You also have to\n\nsupply the meter reading reason, a meter reading date and a meter reading. For more information about IDocs see the following documentation:\n\n- For general information, see IDoc Interface/Electronic Data Interchange\n\n- For detailed information, see Using Documentation Toolss Here you determine which documentation you can display for a certain IDoc category.\n\nFeatures\n\nThe enhancements EDMMRRES are available for upload. You use this enhancement to manipulate meter readings after results have been uploaded and before the readings are validated.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p054_b000",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    254,
+    134,
+    2463,
+    289
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The meter reader number is used to identify the meter reader. It is used as a default value and can be stored in the schedule record of the meter reading. You can use the Meter Reader Number field to indicate that the actual meter reader is different from the default meter reader.",
+   "section_id": "doc_006_sec_108"
+  },
+  {
+   "block_id": "doc_006_p054_b001",
+   "type": "list",
+   "page_number": 54,
+   "bbox": [
+    207,
+    364,
+    2269,
+    1220
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MRDATEFORBILLING (meter reading date) Billing occurs on this date, which is also the end of the billing period. The end of the billing period is determined."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MRTIMEFORBILLING (meter reading time)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ACTUALMRDATE (actual meter reading date)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ACTUALMRTIME (actual meter reading time)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MRDATEOFMAXIMUM (date of maximum reading)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MRTIMEOFMAXIMUM (Time of maximum reading)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "SMORDER (service order number)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ACTIVE (active indicator)"
+    }
+   ],
+   "section_id": "doc_006_sec_108"
+  },
+  {
+   "block_id": "doc_006_p054_b002",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    122,
+    1304,
+    697,
+    1342
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "There are two upload scenarios:",
+   "section_id": "doc_006_sec_108"
+  },
+  {
+   "block_id": "doc_006_p054_b003",
+   "type": "list",
+   "page_number": 54,
+   "bbox": [
+    214,
+    1429,
+    2474,
+    1568
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Meter reading orders were already created and downloaded in IS-U. Meter readings are assigned to IS-U orders via the document number when they are uploaded. In this case you do not have"
+    }
+   ],
+   "section_id": "doc_006_sec_108"
+  },
+  {
+   "block_id": "doc_006_p054_b004",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    254,
+    1593,
+    817,
+    1631
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "to maintain the following fields:",
+   "section_id": "doc_006_sec_108"
+  },
+  {
+   "block_id": "doc_006_p054_b005",
+   "type": "list",
+   "page_number": 54,
+   "bbox": [
+    212,
+    1695,
+    2441,
+    2413
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Article Number"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Device serial number"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Register Number"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Meter Reading Reason"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "There are no meter reading orders in IS-U/CCS In this case you have to specify the serial number and the register number to identify the device for which readings are to be entered in IS-U/CCS. If the serial number is not unique, you also have to provide the material number and device category. You also have to"
+    }
+   ],
+   "section_id": "doc_006_sec_108"
+  },
+  {
+   "block_id": "doc_006_p054_b006",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    125,
+    2438,
+    1622,
+    2597
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "supply the meter reading reason, a meter reading date and a meter reading. For more information about IDocs see the following documentation:",
+   "section_id": "doc_006_sec_108"
+  },
+  {
+   "block_id": "doc_006_p054_b007",
+   "type": "list",
+   "page_number": 54,
+   "bbox": [
+    207,
+    2680,
+    1805,
+    2925
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "For general information, see IDoc Interface/Electronic Data Interchange"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "For detailed information, see Using Documentation Toolss Here you determine which documentation you can display for a certain IDoc category."
+    }
+   ],
+   "section_id": "doc_006_sec_108"
+  },
+  {
+   "block_id": "doc_006_p054_b008",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    126,
+    3037,
+    361,
+    3082
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_109"
+  },
+  {
+   "block_id": "doc_006_p054_b009",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    122,
+    3167,
+    2407,
+    3270
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The enhancements EDMMRRES are available for upload. You use this enhancement to manipulate meter readings after results have been uploaded and before the readings are validated.",
+   "section_id": "doc_006_sec_109"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "06b8d0a739d46b6c5a8d8c681debcd1704363dccc7209c348460ec6e30a68d94"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Upload",
+  "Usage"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_108",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_109",
+   "role": "starts_here"
+  }
+ ]
+}

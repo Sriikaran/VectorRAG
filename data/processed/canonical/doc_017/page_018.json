@@ -1,0 +1,118 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_017",
+ "page_number": 18,
+ "source_page_hash": "36b6b7bdd7cb50105e6f05656b52f9788a266362a1b4554621a0a2a3fe2f8600",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nYou can manage both interest-free loans and loans with a fixed interest rate. A repayment plan is created for repayment of a loan.\nYou can select the same due date lists as those for an installment plan. Each installment through to the last installment is of the\nsame amount. The installment includes an interest and repayment component. As with an annuity loan, interest is calculated on\nthe basis of the individual due dates of the installment. A small interest amount and a higher repayment amount are payable at\n\nevery due date. Note that once you have created the loan, you are no longer able to change either the amount or the due date of\nthe individual installments.\n\nWhen you create a loan, you have to specify parameters required for creating an installment plan (such as due date lists) and other\ndata such as net loan proceeds, interest rate etc. When creating a loan, you have to post a document with the net loan proceeds as\nwell as a repayment plan for the loan. This document comprises two line items, one of which contains the net loan proceeds and\n\nthe other a receivable in the same amount. If you have created a loan with interest, an interest document is also posted. Depending\non the due date of the repayment plan, this interest document contains its own line item with the interest amount for the due date.\n\nYou can group important control parameters as default values in a loan category. You can create several loan categories so that you\navoid having to manually enter fixed parameters for the most common loans over and over again. The parameters proposed by this\n\nloan category can be overwritten manually.\n\nYou can define an alternative recipient for the disbursement. You can also define an alternative contract account and if necessary,\nan alternative business partner. This would make sense if the disbursement were not being made to the customer who has been\ngiven the loan, but directly to the contract partner supplying the appliance or performing the service. The credit can also contain\nan explicit alternative payment method enforcing direct disbursement of the amount.\n\nAfter you have created and saved the loan, a letter can be sent to the customer. This letter is managed in the same form class as\nan installment plan letter.\n\nSettlement type 20D is used when distributing a payment between the source items in a loan plan (interest and repayment) in\nsettlement control.\n",
+ "cleaned_text": "You can manage both interest-free loans and loans with a fixed interest rate. A repayment plan is created for repayment of a loan. You can select the same due date lists as those for an installment plan. Each installment through to the last installment is of the same amount. The installment includes an interest and repayment component. As with an annuity loan, interest is calculated on the basis of the individual due dates of the installment. A small interest amount and a higher repayment amount are payable at every due date. Note that once you have created the loan, you are no longer able to change either the amount or the due date of the individual installments. When you create a loan, you have to specify parameters required for creating an installment plan (such as due date lists) and other data such as net loan proceeds, interest rate etc. When creating a loan, you have to post a document with the net loan proceeds as well as a repayment plan for the loan. This document comprises two line items, one of which contains the net loan proceeds and the other a receivable in the same amount. If you have created a loan with interest, an interest document is also posted. Depending on the due date of the repayment plan, this interest document contains its own line item with the interest amount for the due date. You can group important control parameters as default values in a loan category. You can create several loan categories so that you avoid having to manually enter fixed parameters for the most common loans over and over again. The parameters proposed by this loan category can be overwritten manually. You can define an alternative recipient for the disbursement. You can also define an alternative contract account and if necessary, an alternative business partner. This would make sense if the disbursement were not being made to the customer who has been given the loan, but directly to the contract partner supplying the appliance or performing the service. The credit can also contain an explicit alternative payment method enforcing direct disbursement of the amount. After you have created and saved the loan, a letter can be sent to the customer. This letter is managed in the same form class as an installment plan letter. Settlement type 20D is used when distributing a payment between the source items in a loan plan (interest and repayment) in settlement control.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_017_p018_b000",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    122,
+    134,
+    2487,
+    1786
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You can manage both interest-free loans and loans with a fixed interest rate. A repayment plan is created for repayment of a loan. You can select the same due date lists as those for an installment plan. Each installment through to the last installment is of the same amount. The installment includes an interest and repayment component. As with an annuity loan, interest is calculated on the basis of the individual due dates of the installment. A small interest amount and a higher repayment amount are payable at every due date. Note that once you have created the loan, you are no longer able to change either the amount or the due date of the individual installments. When you create a loan, you have to specify parameters required for creating an installment plan (such as due date lists) and other data such as net loan proceeds, interest rate etc. When creating a loan, you have to post a document with the net loan proceeds as well as a repayment plan for the loan. This document comprises two line items, one of which contains the net loan proceeds and the other a receivable in the same amount. If you have created a loan with interest, an interest document is also posted. Depending on the due date of the repayment plan, this interest document contains its own line item with the interest amount for the due date. You can group important control parameters as default values in a loan category. You can create several loan categories so that you avoid having to manually enter fixed parameters for the most common loans over and over again. The parameters proposed by this loan category can be overwritten manually. You can define an alternative recipient for the disbursement. You can also define an alternative contract account and if necessary, an alternative business partner. This would make sense if the disbursement were not being made to the customer who has been given the loan, but directly to the contract partner supplying the appliance or performing the service. The credit can also contain an explicit alternative payment method enforcing direct disbursement of the amount. After you have created and saved the loan, a letter can be sent to the customer. This letter is managed in the same form class as an installment plan letter. Settlement type 20D is used when distributing a payment between the source items in a loan plan (interest and repayment) in settlement control.",
+   "section_id": "doc_017_sec_102"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Accounts Overview",
+  "source_pdf": "17.pdf",
+  "reference_pdf": "17_Contract_Accounts_Overview.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Use to connect utility invoicing to receivables, payments and dunning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "36b6b7bdd7cb50105e6f05656b52f9788a266362a1b4554621a0a2a3fe2f8600"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Accounts Overview",
+  "Loans (IS-U)",
+  "Integration"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_017_sec_102",
+   "role": "continues"
+  }
+ ]
+}

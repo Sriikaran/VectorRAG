@@ -1,0 +1,287 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 13,
+ "source_page_hash": "18e9d4ba2b26743ca82afd70db6539564f48bf532f9568ef40022104a34f9805",
+ "is_cover_page": false,
+ "title": "Meter Reading Results or Period Value as a Basis for Extrapolation",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nConsumption 20    80   100        ?  kWh\n|_|}\nMR Reason \u00a3E     Z    T        T\n\n08                   02                01                               01\n\n60%        20%           100%\nWeighting Por. |--------------- |------------- |------------------------ |--------\n\nExample: Basis for Extrapolation\n\nThe period from O01 to O2 is not representative because it does not have the minimum weighting portion (only 20% rather than the\nrequired 50%). This means that this period alone cannot be used as a basis for extrapolation. The system goes back to the next\nmeter reading (08). The period from O1 to 08 is representative because it has a weighting portion of 20% + 60% = 80%. The\nperiod from 01 to 08 can be used as a basis for extrapolation.\n\nMeter Reading Results or Period Value as a Basis for Extrapolation\n\nThe system determines whether to use meter reading results or a selected period value as a basis for extrapolation in the following\nway:\n\nBased on the last correct meter reading results, the system goes back to the previous reading and runs through the following\nprocess:\n",
+ "cleaned_text": "Consumption | 20 | 80 | 100 | ? | kWh\n\n|_|}\n\nMR Reason | \u00a3E | Z | T | T\n\n08 | 02 | 01 | 01\n\n60% | 20% | 100%\n\nWeighting Por. |--------------- |------------- |------------------------ |-------- Example: Basis for Extrapolation The period from O01 to O2 is not representative because it does not have the minimum weighting portion (only 20% rather than the required 50%). This means that this period alone cannot be used as a basis for extrapolation. The system goes back to the next meter reading (08). The period from O1 to 08 is representative because it has a weighting portion of 20% + 60% = 80%. The period from 01 to 08 can be used as a basis for extrapolation.\n\nMeter Reading Results or Period Value as a Basis for Extrapolation\n\nThe system determines whether to use meter reading results or a selected period value as a basis for extrapolation in the following way: Based on the last correct meter reading results, the system goes back to the previous reading and runs through the following process:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p013_b000",
+   "type": "table",
+   "page_number": 13,
+   "bbox": [
+    172,
+    162,
+    2438,
+    242
+   ],
+   "ocr_confidence": 81.2,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    172,
+    692,
+    1084,
+    1394,
+    2093,
+    2294
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Consumption",
+     "20",
+     "80",
+     "100",
+     "?",
+     "kWh"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Consumption",
+     "20",
+     "80",
+     "100",
+     "?",
+     "kWh"
+    ]
+   ],
+   "section_id": "doc_006_sec_015"
+  },
+  {
+   "block_id": "doc_006_p013_b001",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    718,
+    258,
+    2345,
+    330
+   ],
+   "ocr_confidence": 34.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "|_|}",
+   "section_id": "doc_006_sec_015"
+  },
+  {
+   "block_id": "doc_006_p013_b002",
+   "type": "table",
+   "page_number": 13,
+   "bbox": [
+    173,
+    347,
+    2136,
+    583
+   ],
+   "ocr_confidence": 77.9,
+   "flags": [
+    "low_confidence_words:3",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 8,
+   "column_starts": [
+    173,
+    709,
+    888,
+    1109,
+    1261,
+    1460,
+    1727,
+    2092
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR Reason",
+     "\u00a3E",
+     "Z",
+     "T",
+     "T"
+    ],
+    [
+     "08",
+     "02",
+     "01",
+     "01"
+    ],
+    [
+     "60%",
+     "20%",
+     "100%"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR Reason",
+     "\u00a3E",
+     "Z",
+     "T",
+     "T"
+    ],
+    [
+     "08",
+     "02",
+     "01",
+     "01"
+    ],
+    [
+     "60%",
+     "20%",
+     "100%"
+    ]
+   ],
+   "section_id": "doc_006_sec_015"
+  },
+  {
+   "block_id": "doc_006_p013_b003",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    122,
+    618,
+    2474,
+    1090
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Weighting Por. |--------------- |------------- |------------------------ |-------- Example: Basis for Extrapolation The period from O01 to O2 is not representative because it does not have the minimum weighting portion (only 20% rather than the required 50%). This means that this period alone cannot be used as a basis for extrapolation. The system goes back to the next meter reading (08). The period from O1 to 08 is representative because it has a weighting portion of 20% + 60% = 80%. The period from 01 to 08 can be used as a basis for extrapolation.",
+   "section_id": "doc_006_sec_015"
+  },
+  {
+   "block_id": "doc_006_p013_b004",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    126,
+    1203,
+    1975,
+    1259
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Meter Reading Results or Period Value as a Basis for Extrapolation",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_016"
+  },
+  {
+   "block_id": "doc_006_p013_b005",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    122,
+    1335,
+    2486,
+    1619
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The system determines whether to use meter reading results or a selected period value as a basis for extrapolation in the following way: Based on the last correct meter reading results, the system goes back to the previous reading and runs through the following process:",
+   "section_id": "doc_006_sec_016"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 66,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "18e9d4ba2b26743ca82afd70db6539564f48bf532f9568ef40022104a34f9805"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Extrapolation",
+  "Determining Whether a Period is Representative"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_015",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_016",
+   "role": "starts_here"
+  }
+ ]
+}

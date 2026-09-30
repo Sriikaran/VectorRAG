@@ -1,0 +1,281 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 44,
+ "source_page_hash": "f60fe996a2a58c4c2b74d9b45c30f6bd5742c95f6ae6d328162d6a8334d50d21",
+ "is_cover_page": false,
+ "title": "Activities",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nDeleting business partners is only possible if the respective student information has no references to other applications. Please\nuse the reset programs in the following areas:\n\ne Sales and Distribution (Customer Master Data)\ne Purchasing (Vendor Master Data)\n\ne Cost Accounting (G/L Account Master Data)\n\ne Student Lifecycle Management (Student Master Data)\n\nActivities\n\nIf all applications that use business partners have reported that a business partner has no purpose and the residence period is\nexpired, then the system blocks the business partner, preventing access by dialog users and business processes. The write\nprogram of business partner archiving writes these business partners to an archive file and deletes them from the database.\n\nIf extracts containing the business partner were replicated for valuations in SAP BW/4HANA, the S/4HANA (ERP) System can\n\nsend data protection notifications to the BW/AHANA System so that you can also delete the personal data there (see SAP Notes\n2824456 wie and 2779751 we ).\n\nData destruction destroys personal data for a business partner only if the retention period configured in ILM Retention\nManagement has expired.\n\nYou can use SAP ILM to delete business partner data from the system after the expiration of a certain, possibly legally specified\ntimeframe.\n\nDealing with Personal Data Outside the Business Partner\n\nNot all personal data is assigned directly to a business partner. In these cases, you have to ensure that all data is archived or\ndeleted in time.\n\n\u201cSe Example\n\nData from payment lot items (or items from other incoming lots) is personal data, but it is not directly assigned to a business\npartner. The payer is also not always the person, whose items are being cleared by the payment. In order to prevent data from\npayment lot items from being displayed while a business partner is blocked, you have to delete the payment lot data at the\nright time.\n\nIf you block business partners after 2 years, then you also have to archive and delete payment lot data at the latest after 2\nyears.\n\nee Example\n\nTo improve performance, the payment list does not check whether the affected business partners are blocked. Therefore, you\nhave to delete or archive the payment run early.\n\nFor data that you do not have to retain and that you do not archive, separate deletion programs are available in the SAP menu\nunder |sPeriodic Processing Delete Data\n",
+ "cleaned_text": "Deleting business partners is only possible if the respective student information has no references to other applications. Please use the reset programs in the following areas:\n\n- Sales and Distribution (Customer Master Data)\n\n- Purchasing (Vendor Master Data)\n\n- Cost Accounting (G/L Account Master Data)\n\n- Student Lifecycle Management (Student Master Data)\n\nActivities\n\nIf all applications that use business partners have reported that a business partner has no purpose and the residence period is expired, then the system blocks the business partner, preventing access by dialog users and business processes. The write program of business partner archiving writes these business partners to an archive file and deletes them from the database. If extracts containing the business partner were replicated for valuations in SAP BW/4HANA, the S/4HANA (ERP) System can send data protection notifications to the BW/AHANA System so that you can also delete the personal data there (see SAP Notes 2824456 wie and 2779751 we ). Data destruction destroys personal data for a business partner only if the retention period configured in ILM Retention Management has expired. You can use SAP ILM to delete business partner data from the system after the expiration of a certain, possibly legally specified timeframe.\n\nDealing with Personal Data Outside the Business Partner\n\nNot all personal data is assigned directly to a business partner. In these cases, you have to ensure that all data is archived or deleted in time.\n\n\u201cSe Example Data from payment lot items (or items from other incoming lots) is personal data, but it is not directly assigned to a business partner. The payer is also not always the person, whose items are being cleared by the payment. In order to prevent data from payment lot items from being displayed while a business partner is blocked, you have to delete the payment lot data at the right time. If you block business partners after 2 years, then you also have to archive and delete payment lot data at the latest after 2 years.\n\nee Example To improve performance, the payment list does not check whether the affected business partners are blocked. Therefore, you have to delete or archive the payment run early.\n\nFor data that you do not have to retain and that you do not archive, separate deletion programs are available in the SAP menu under |sPeriodic Processing Delete Data",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p044_b000",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    124,
+    134,
+    2423,
+    235
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Deleting business partners is only possible if the respective student information has no references to other applications. Please use the reset programs in the following areas:",
+   "section_id": "doc_001_sec_144"
+  },
+  {
+   "block_id": "doc_001_p044_b001",
+   "type": "list",
+   "page_number": 44,
+   "bbox": [
+    207,
+    318,
+    1239,
+    665
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Sales and Distribution (Customer Master Data)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Purchasing (Vendor Master Data)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Cost Accounting (G/L Account Master Data)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Student Lifecycle Management (Student Master Data)"
+    }
+   ],
+   "section_id": "doc_001_sec_144"
+  },
+  {
+   "block_id": "doc_001_p044_b002",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    123,
+    777,
+    383,
+    822
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_145"
+  },
+  {
+   "block_id": "doc_001_p044_b003",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    122,
+    910,
+    2438,
+    1686
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "If all applications that use business partners have reported that a business partner has no purpose and the residence period is expired, then the system blocks the business partner, preventing access by dialog users and business processes. The write program of business partner archiving writes these business partners to an archive file and deletes them from the database. If extracts containing the business partner were replicated for valuations in SAP BW/4HANA, the S/4HANA (ERP) System can send data protection notifications to the BW/AHANA System so that you can also delete the personal data there (see SAP Notes 2824456 wie and 2779751 we ). Data destruction destroys personal data for a business partner only if the retention period configured in ILM Retention Management has expired. You can use SAP ILM to delete business partner data from the system after the expiration of a certain, possibly legally specified timeframe.",
+   "section_id": "doc_001_sec_145"
+  },
+  {
+   "block_id": "doc_001_p044_b004",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    128,
+    1838,
+    2176,
+    1915
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Dealing with Personal Data Outside the Business Partner",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_146"
+  },
+  {
+   "block_id": "doc_001_p044_b005",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    123,
+    1990,
+    2361,
+    2083
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Not all personal data is assigned directly to a business partner. In these cases, you have to ensure that all data is archived or deleted in time.",
+   "section_id": "doc_001_sec_146"
+  },
+  {
+   "block_id": "doc_001_p044_b006",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    151,
+    2186,
+    2416,
+    2685
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "\u201cSe Example Data from payment lot items (or items from other incoming lots) is personal data, but it is not directly assigned to a business partner. The payer is also not always the person, whose items are being cleared by the payment. In order to prevent data from payment lot items from being displayed while a business partner is blocked, you have to delete the payment lot data at the right time. If you block business partners after 2 years, then you also have to archive and delete payment lot data at the latest after 2 years.",
+   "section_id": "doc_001_sec_146"
+  },
+  {
+   "block_id": "doc_001_p044_b007",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    151,
+    2817,
+    2413,
+    3004
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "ee Example To improve performance, the payment list does not check whether the affected business partners are blocked. Therefore, you have to delete or archive the payment run early.",
+   "section_id": "doc_001_sec_146"
+  },
+  {
+   "block_id": "doc_001_p044_b008",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    124,
+    3124,
+    2383,
+    3224
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "For data that you do not have to retain and that you do not archive, separate deletion programs are available in the SAP menu under |sPeriodic Processing Delete Data",
+   "section_id": "doc_001_sec_146"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "f60fe996a2a58c4c2b74d9b45c30f6bd5742c95f6ae6d328162d6a8334d50d21"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Deleting Business Partners"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_144",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_145",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_146",
+   "role": "starts_here"
+  }
+ ]
+}

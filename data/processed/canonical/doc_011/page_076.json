@@ -1,0 +1,466 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 76,
+ "source_page_hash": "ae3ad8354313516ea9b14a29c9ce5bb79c30e7a4f1ae168f8f730eb8770cdf04",
+ "is_cover_page": false,
+ "title": "Archiving of Time-of-Use Exception Responses",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nYou can use the enhancement spot ISU_TOUEXCEPTRESP to define enhancements.\n\nArchiving of Time-of-Use Exception Responses\n\nUse\n\nYou can use archiving to store time-of-use (TOU) exception responses so that you can view and use them as required.\n\nPrerequisites\n\nThe possible prerequisites for the different archiving steps are described below in the detailed description for the individual\nprocess phases.\n\nFeatures\n\nThe process of archiving TOU exception responses consists of the following steps:\n\n1. Analysis of TOU exception responses with regard to potential archiving.\n2. Archiving the TOU exception responses selected in the first step.\n3. Deleting the TOU exception responses from the database on the basis of the previously created archive.\n\n4. Optional reloading of archived and deleted data.\n\n1 Note\n\nNote that you cannot reload individual TOU exception responses, but must always reload the entire archiving run. This\n\nprocedure should not normally be used and should be limited to severe problem cases (such as an incorrect retention\nperiod in Customizing).\n\n5. Optional reading of TOU exception responses from the archive and output in a list before the deletion process.\n1. Analysis of Archivability of TOU Exception Responses (report REAARCH_ANALYSE_EXRESP)\nProcess Flow\n\ne Selection:\n\nFirst you restrict the archiving volume. To do this, enter the contract or TOU exception program for which you want the TOU\nexception responses to be archived.\n\ne Determination of final date for archiving:\n\nThe retention period in days is defined for various documents in the system in Customizing for SAP Utilities under |Tools\n\nArchiving Define Retention Period for Archiving Objects \u201c). The system determines the final date for archiving from\nthis retention period. You can only archive documents whose existence exceeds the retention period defined in\nCustomizing. The system uses the retention period of archiving object ISU_BILL (billing document header) to determine\nthe final date for archiving TOU exception responses.\n\ne Determine the TOU exception responses:\n",
+ "cleaned_text": "You can use the enhancement spot ISU_TOUEXCEPTRESP to define enhancements.\n\nArchiving of Time-of-Use Exception Responses\n\nUse\n\nYou can use archiving to store time-of-use (TOU) exception responses so that you can view and use them as required.\n\nPrerequisites\n\nThe possible prerequisites for the different archiving steps are described below in the detailed description for the individual process phases.\n\nFeatures\n\nThe process of archiving TOU exception responses consists of the following steps:\n\n1 Analysis of TOU exception responses with regard to potential archiving.\n\n2 Archiving the TOU exception responses selected in the first step.\n\n3 Deleting the TOU exception responses from the database on the basis of the previously created archive.\n\n4 Optional reloading of archived and deleted data.\n\nNote Note that you cannot reload individual TOU exception responses, but must always reload the entire archiving run. This procedure should not normally be used and should be limited to severe problem cases (such as an incorrect retention period in Customizing).\n\n5 Optional reading of TOU exception responses from the archive and output in a list before the deletion process.\n\n1 Analysis of Archivability of TOU Exception Responses (report REAARCH_ANALYSE_EXRESP)\n\nProcess Flow\n\n- Selection: First you restrict the archiving volume. To do this, enter the contract or TOU exception program for which you want the TOU\n\nexception responses to be archived.\n\n- Determination of final date for archiving: The retention period in days is defined for various documents in the system in Customizing for SAP Utilities under |Tools Archiving Define Retention Period for Archiving Objects \u201c). The system determines the final date for archiving from\n\nthis retention period. You can only archive documents whose existence exceeds the retention period defined in Customizing. The system uses the retention period of archiving object ISU_BILL (billing document header) to determine the final date for archiving TOU exception responses.\n\n- Determine the TOU exception responses:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    1813,
+    442,
+    1850
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p076_b000",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    123,
+    136,
+    1656,
+    178
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "You can use the enhancement spot ISU_TOUEXCEPTRESP to define enhancements.",
+   "section_id": "doc_011_sec_255"
+  },
+  {
+   "block_id": "doc_011_p076_b001",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    124,
+    325,
+    1811,
+    401
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "Archiving of Time-of-Use Exception Responses",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_256"
+  },
+  {
+   "block_id": "doc_011_p076_b002",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    125,
+    501,
+    225,
+    546
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_257"
+  },
+  {
+   "block_id": "doc_011_p076_b003",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    123,
+    633,
+    2241,
+    672
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You can use archiving to store time-of-use (TOU) exception responses so that you can view and use them as required.",
+   "section_id": "doc_011_sec_257"
+  },
+  {
+   "block_id": "doc_011_p076_b004",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    126,
+    784,
+    492,
+    840
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_258"
+  },
+  {
+   "block_id": "doc_011_p076_b005",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    122,
+    913,
+    2346,
+    1016
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The possible prerequisites for the different archiving steps are described below in the detailed description for the individual process phases.",
+   "section_id": "doc_011_sec_258"
+  },
+  {
+   "block_id": "doc_011_p076_b006",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    126,
+    1129,
+    361,
+    1173
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_259"
+  },
+  {
+   "block_id": "doc_011_p076_b007",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    122,
+    1258,
+    1600,
+    1295
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The process of archiving TOU exception responses consists of the following steps:",
+   "section_id": "doc_011_sec_259"
+  },
+  {
+   "block_id": "doc_011_p076_b008",
+   "type": "list",
+   "page_number": 76,
+   "bbox": [
+    211,
+    1382,
+    2124,
+    1726
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Analysis of TOU exception responses with regard to potential archiving."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Archiving the TOU exception responses selected in the first step."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Deleting the TOU exception responses from the database on the basis of the previously created archive."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Optional reloading of archived and deleted data."
+    }
+   ],
+   "section_id": "doc_011_sec_259"
+  },
+  {
+   "block_id": "doc_011_p076_b009",
+   "type": "note",
+   "page_number": 76,
+   "bbox": [
+    282,
+    1813,
+    2410,
+    2055
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "label": "Note",
+   "text": "Note Note that you cannot reload individual TOU exception responses, but must always reload the entire archiving run. This procedure should not normally be used and should be limited to severe problem cases (such as an incorrect retention period in Customizing).",
+   "section_id": "doc_011_sec_259"
+  },
+  {
+   "block_id": "doc_011_p076_b010",
+   "type": "list",
+   "page_number": 76,
+   "bbox": [
+    123,
+    2155,
+    2238,
+    2314
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Optional reading of TOU exception responses from the archive and output in a list before the deletion process."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Analysis of Archivability of TOU Exception Responses (report REAARCH_ANALYSE_EXRESP)"
+    }
+   ],
+   "section_id": "doc_011_sec_259"
+  },
+  {
+   "block_id": "doc_011_p076_b011",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    124,
+    2398,
+    366,
+    2428
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Process Flow",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_260"
+  },
+  {
+   "block_id": "doc_011_p076_b012",
+   "type": "list",
+   "page_number": 76,
+   "bbox": [
+    207,
+    2519,
+    2474,
+    2662
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Selection: First you restrict the archiving volume. To do this, enter the contract or TOU exception program for which you want the TOU"
+    }
+   ],
+   "section_id": "doc_011_sec_260"
+  },
+  {
+   "block_id": "doc_011_p076_b013",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    255,
+    2687,
+    900,
+    2725
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "exception responses to be archived.",
+   "section_id": "doc_011_sec_260"
+  },
+  {
+   "block_id": "doc_011_p076_b014",
+   "type": "list",
+   "page_number": 76,
+   "bbox": [
+    207,
+    2789,
+    2463,
+    2996
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Determination of final date for archiving: The retention period in days is defined for various documents in the system in Customizing for SAP Utilities under |Tools Archiving Define Retention Period for Archiving Objects \u201c). The system determines the final date for archiving from"
+    }
+   ],
+   "section_id": "doc_011_sec_260"
+  },
+  {
+   "block_id": "doc_011_p076_b015",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    254,
+    3019,
+    2422,
+    3181
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "this retention period. You can only archive documents whose existence exceeds the retention period defined in Customizing. The system uses the retention period of archiving object ISU_BILL (billing document header) to determine the final date for archiving TOU exception responses.",
+   "section_id": "doc_011_sec_260"
+  },
+  {
+   "block_id": "doc_011_p076_b016",
+   "type": "list",
+   "page_number": 76,
+   "bbox": [
+    207,
+    3245,
+    993,
+    3283
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Determine the TOU exception responses:"
+    }
+   ],
+   "section_id": "doc_011_sec_260"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.5,
+  "body_stroke_median": 0.0952,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "ae3ad8354313516ea9b14a29c9ce5bb79c30e7a4f1ae168f8f730eb8770cdf04"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:41Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Archiving of Time-of-Use Exceptions",
+  "Features",
+  "Delete TOU Exception Responses"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_255",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_256",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_257",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_258",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_259",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_260",
+   "role": "starts_here"
+  }
+ ]
+}

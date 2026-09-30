@@ -1,0 +1,303 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 28,
+ "source_page_hash": "4eb49faac7c464777006984799df779a536ee1bc1e5141bf567f29eb45807b53",
+ "is_cover_page": false,
+ "title": "Dunning",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\ne The creditworthiness factor in percent\n\ne Manual creditworthiness\n\ne Number of dunning notices, returns, and write-offs\n\nThe creditworthiness figure is adjusted if a dunning notice or return is reversed.\n\nPrerequisites\n\nTime-Dependent Weighting\n\nTo determine the weighted total, enter a time-dependent creditworthiness weighting in Customizing for Contract Accounts\nReceivable and Payable under |}Business Transactions \u00bb Dunning 3 and/or |}Returns \u00bb Define Time-Dependent\nCreditworthiness Weightings\n\nDunning\n\nIf you want to use scoring, enter the dunning activities and/or dunning charges in conjunction with a creditworthiness figure. The\ndunning activity run reads the current creditworthiness of a business partner and selects the dunning activity and dunning charge\nwhere the creditworthiness determined is greater or the same as the creditworthiness value defined in Customizing.\n\nYou can define a creditworthiness weighting in the dunning levels of dunning procedures. Once dunning has taken place, the\ncreditworthiness figure of the current month is increased by this number.\n\nYou can define the creditworthiness figure in each dunning procedure and dunning level (in Customizing for Contract Accounts\n\nReceivable and Payable under |}Business Transactions \u00bb Dunning \u00bb Configure Dunning Activities 5 and Configure Charge\nSchedules for Dunning Procedure).\n\nReturns\n\nIf you want to use scoring, enter the returns activities in conjunction with a creditworthiness figure. During returns processing, the\ncreditworthiness of a business partner is determined automatically, and, depending on this creditworthiness among other things,\n\nthe returns activity where the creditworthiness value determined is greater or the same as the value defined in Customizing is\nselected.\n\nYou can define a credit weighting in the returns reasons. Once returns processing has taken place, the creditworthiness figure of\nthe current month is increased by this figure.\n\nYou can define the creditworthiness weighting with the returns reason in Customizing (see Customizing for Contract Accounts\nReceivable and Payable under |}Business Transactions \u00bb Returns \u00bb Configure Returns Reasons 3).\n\nWrite-Offs\n\nWrite-offs can also have a negative effect on a customer's creditworthiness. If you want to use scoring, enter the write-offs in\nconjunction with a creditworthiness score.\n\nYou can define the creditworthiness weighting with the write-off reasons in Customizing (see Customizing for Contract Accounts\nReceivable and Payable under |Business Transactions \u00bb Write-Offs \u00bb Configure Write-Off Reasons 3).\n\nInstallment Plan\n",
+ "cleaned_text": "- The creditworthiness factor in percent\n\n- Manual creditworthiness\n\n- Number of dunning notices, returns, and write-offs\n\nThe creditworthiness figure is adjusted if a dunning notice or return is reversed.\n\nPrerequisites Time-Dependent Weighting To determine the weighted total, enter a time-dependent creditworthiness weighting in Customizing for Contract Accounts Receivable and Payable under |}Business Transactions \u00bb Dunning 3 and/or |}Returns \u00bb Define Time-Dependent Creditworthiness Weightings\n\nDunning\n\nIf you want to use scoring, enter the dunning activities and/or dunning charges in conjunction with a creditworthiness figure. The dunning activity run reads the current creditworthiness of a business partner and selects the dunning activity and dunning charge where the creditworthiness determined is greater or the same as the creditworthiness value defined in Customizing. You can define a creditworthiness weighting in the dunning levels of dunning procedures. Once dunning has taken place, the creditworthiness figure of the current month is increased by this number. You can define the creditworthiness figure in each dunning procedure and dunning level (in Customizing for Contract Accounts Receivable and Payable under |}Business Transactions \u00bb Dunning \u00bb Configure Dunning Activities 5 and Configure Charge Schedules for Dunning Procedure).\n\nReturns\n\nIf you want to use scoring, enter the returns activities in conjunction with a creditworthiness figure. During returns processing, the creditworthiness of a business partner is determined automatically, and, depending on this creditworthiness among other things, the returns activity where the creditworthiness value determined is greater or the same as the value defined in Customizing is selected. You can define a credit weighting in the returns reasons. Once returns processing has taken place, the creditworthiness figure of the current month is increased by this figure. You can define the creditworthiness weighting with the returns reason in Customizing (see Customizing for Contract Accounts Receivable and Payable under |}Business Transactions \u00bb Returns \u00bb Configure Returns Reasons 3).\n\nWrite-Offs\n\nWrite-offs can also have a negative effect on a customer's creditworthiness. If you want to use scoring, enter the write-offs in conjunction with a creditworthiness score. You can define the creditworthiness weighting with the write-off reasons in Customizing (see Customizing for Contract Accounts Receivable and Payable under |Business Transactions \u00bb Write-Offs \u00bb Configure Write-Off Reasons 3).\n\nInstallment Plan",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p028_b000",
+   "type": "list",
+   "page_number": 28,
+   "bbox": [
+    207,
+    135,
+    1169,
+    376
+   ],
+   "ocr_confidence": 83.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The creditworthiness factor in percent"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Manual creditworthiness"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Number of dunning notices, returns, and write-offs"
+    }
+   ],
+   "section_id": "doc_026_sec_128"
+  },
+  {
+   "block_id": "doc_026_p028_b001",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    123,
+    463,
+    1556,
+    500
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "The creditworthiness figure is adjusted if a dunning notice or return is reversed.",
+   "section_id": "doc_026_sec_128"
+  },
+  {
+   "block_id": "doc_026_p028_b002",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    122,
+    612,
+    2342,
+    1029
+   ],
+   "ocr_confidence": 89.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Prerequisites Time-Dependent Weighting To determine the weighted total, enter a time-dependent creditworthiness weighting in Customizing for Contract Accounts Receivable and Payable under |}Business Transactions \u00bb Dunning 3 and/or |}Returns \u00bb Define Time-Dependent Creditworthiness Weightings",
+   "section_id": "doc_026_sec_128"
+  },
+  {
+   "block_id": "doc_026_p028_b003",
+   "type": "heading",
+   "page_number": 28,
+   "bbox": [
+    124,
+    1114,
+    278,
+    1151
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Dunning",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_026_sec_128"
+  },
+  {
+   "block_id": "doc_026_p028_b004",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    123,
+    1235,
+    2470,
+    1835
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "If you want to use scoring, enter the dunning activities and/or dunning charges in conjunction with a creditworthiness figure. The dunning activity run reads the current creditworthiness of a business partner and selects the dunning activity and dunning charge where the creditworthiness determined is greater or the same as the creditworthiness value defined in Customizing. You can define a creditworthiness weighting in the dunning levels of dunning procedures. Once dunning has taken place, the creditworthiness figure of the current month is increased by this number. You can define the creditworthiness figure in each dunning procedure and dunning level (in Customizing for Contract Accounts Receivable and Payable under |}Business Transactions \u00bb Dunning \u00bb Configure Dunning Activities 5 and Configure Charge Schedules for Dunning Procedure).",
+   "section_id": "doc_026_sec_128"
+  },
+  {
+   "block_id": "doc_026_p028_b005",
+   "type": "heading",
+   "page_number": 28,
+   "bbox": [
+    124,
+    1919,
+    268,
+    1948
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Returns",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_129"
+  },
+  {
+   "block_id": "doc_026_p028_b006",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    122,
+    2040,
+    2469,
+    2644
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "If you want to use scoring, enter the returns activities in conjunction with a creditworthiness figure. During returns processing, the creditworthiness of a business partner is determined automatically, and, depending on this creditworthiness among other things, the returns activity where the creditworthiness value determined is greater or the same as the value defined in Customizing is selected. You can define a credit weighting in the returns reasons. Once returns processing has taken place, the creditworthiness figure of the current month is increased by this figure. You can define the creditworthiness weighting with the returns reason in Customizing (see Customizing for Contract Accounts Receivable and Payable under |}Business Transactions \u00bb Returns \u00bb Configure Returns Reasons 3).",
+   "section_id": "doc_026_sec_129"
+  },
+  {
+   "block_id": "doc_026_p028_b007",
+   "type": "heading",
+   "page_number": 28,
+   "bbox": [
+    123,
+    2723,
+    312,
+    2753
+   ],
+   "ocr_confidence": 91.3,
+   "flags": [],
+   "text": "Write-Offs",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_130"
+  },
+  {
+   "block_id": "doc_026_p028_b008",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    123,
+    2845,
+    2445,
+    3136
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Write-offs can also have a negative effect on a customer's creditworthiness. If you want to use scoring, enter the write-offs in conjunction with a creditworthiness score. You can define the creditworthiness weighting with the write-off reasons in Customizing (see Customizing for Contract Accounts Receivable and Payable under |Business Transactions \u00bb Write-Offs \u00bb Configure Write-Off Reasons 3).",
+   "section_id": "doc_026_sec_130"
+  },
+  {
+   "block_id": "doc_026_p028_b009",
+   "type": "heading",
+   "page_number": 28,
+   "bbox": [
+    125,
+    3216,
+    425,
+    3246
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Installment Plan",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_131"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "4eb49faac7c464777006984799df779a536ee1bc1e5141bf567f29eb45807b53"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Creditworthiness",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_128",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_129",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_130",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_131",
+   "role": "starts_here"
+  }
+ ]
+}

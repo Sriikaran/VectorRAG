@@ -1,0 +1,325 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 33,
+ "source_page_hash": "132853cf39efdb992e4f793ea4b45fe2d7b64f9896f1fb1848ad3b7ff1565b02",
+ "is_cover_page": false,
+ "title": "Time Display",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nYour entries are then transferred to the list.\n\nRepeat steps 1 to 3 for all output parameters.\n\nTime Display\n\nYou can check the Time Display tab page to find out the season type or time-of-use type used for any particular day or time.\n\n1. Double click on a day in the calendar to select it.\n\n2. The date appears in the Date field of the Information About Selected Data group box. The season type allocated to this\nday is entered in the Season Type field. The two fields next to this field display the period for which the season type is valid.\n\n3. Double click on a time in the Time group box to select it. The time is displayed according to the interval length you\n\npreviously selected in the Header Data tab page.\n\nThe selected time appears in the Time field of the Information About Selected Data group box. The time-of-use type allocated to\nthis time is entered in the Time-of-Use Type field. The two fields next to this field display the period for which the time-of-use type\n\nis valid.\n\nExample: RTP Interface with Formula LIMITO1\n\n(E)RTP Interface RTP1\n\nGARTP Component Compl\n\ne Gy GRRTP Component Code Summer Weekdays\n\n\u00b0\n\nfo}\n\n(ie Input Parameter 1 01 Measured Value\n\nLd | Input Parameter 2 O2 First Limit Value as Quantity\nLd | Input Parameter 3 03 Second Limit Value as Quantity\n(> GH Output Parameter 1 01 Portion Below First Limit\n(> GH) Output Parameter 2 02 Portion Above First Limit\n\n(> H, Output Parameter 3 03 Portion Above Second Limit\n\n(> GH) Output Parameter 4 04 Demand Above Limit 1\n\ne  Ay | RTP Component Code Summer Weekend\n\n\u00b0\n\n(f\u00ab*G Input Parameter 1 01 Measured Value\n\nLd | Input Parameter 2 O2 First Limit Value as Quantity\nLd | Input Parameter 3 03 Second Limit Value as Quantity\nLea | Output Parameter 1 01 Portion Below First Limit\n\nPe Output Parameter 2 O02 Portion Above First Limit\n\n(EG Output Parameter 3 03 Portion Above Second Limit\n",
+ "cleaned_text": "Your entries are then transferred to the list. Repeat steps 1 to 3 for all output parameters.\n\nTime Display\n\nYou can check the Time Display tab page to find out the season type or time-of-use type used for any particular day or time.\n\n1 Double click on a day in the calendar to select it.\n\n2 The date appears in the Date field of the Information About Selected Data group box. The season type allocated to this day is entered in the Season Type field. The two fields next to this field display the period for which the season type is valid.\n\n3 Double click on a time in the Time group box to select it. The time is displayed according to the interval length you previously selected in the Header Data tab page.\n\nThe selected time appears in the Time field of the Information About Selected Data group box. The time-of-use type allocated to this time is entered in the Time-of-Use Type field. The two fields next to this field display the period for which the time-of-use type is valid.\n\nExample: RTP Interface with Formula LIMITO1\n\n(E)RTP Interface RTP1 GARTP Component Compl\n\n- Gy GRRTP Component Code Summer Weekdays \u00b0\n\nfo} (ie Input Parameter 1 01 Measured Value Ld | Input Parameter 2 O2 First Limit Value as Quantity Ld | Input Parameter 3 03 Second Limit Value as Quantity (> GH Output Parameter 1 01 Portion Below First Limit (> GH) Output Parameter 2 02 Portion Above First Limit (> H, Output Parameter 3 03 Portion Above Second Limit (> GH) Output Parameter 4 04 Demand Above Limit 1\n\n- Ay | RTP Component Code Summer Weekend \u00b0 (f\u00ab*G Input Parameter 1 01 Measured Value Ld | Input Parameter 2 O2 First Limit Value as Quantity Ld | Input Parameter 3 03 Second Limit Value as Quantity\n\nLea | Output Parameter 1 01 Portion Below First Limit Pe Output Parameter 2 O02 Portion Above First Limit (EG Output Parameter 3 03 Portion Above Second Limit",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p033_b000",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    125,
+    134,
+    1032,
+    294
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Your entries are then transferred to the list. Repeat steps 1 to 3 for all output parameters.",
+   "section_id": "doc_011_sec_100"
+  },
+  {
+   "block_id": "doc_011_p033_b001",
+   "type": "heading",
+   "page_number": 33,
+   "bbox": [
+    122,
+    378,
+    364,
+    415
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Time Display",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_101"
+  },
+  {
+   "block_id": "doc_011_p033_b002",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    123,
+    502,
+    2362,
+    541
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You can check the Time Display tab page to find out the season type or time-of-use type used for any particular day or time.",
+   "section_id": "doc_011_sec_101"
+  },
+  {
+   "block_id": "doc_011_p033_b003",
+   "type": "list",
+   "page_number": 33,
+   "bbox": [
+    211,
+    624,
+    2474,
+    994
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Double click on a day in the calendar to select it."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "The date appears in the Date field of the Information About Selected Data group box. The season type allocated to this day is entered in the Season Type field. The two fields next to this field display the period for which the season type is valid."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Double click on a time in the Time group box to select it. The time is displayed according to the interval length you previously selected in the Header Data tab page."
+    }
+   ],
+   "section_id": "doc_011_sec_101"
+  },
+  {
+   "block_id": "doc_011_p033_b004",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    122,
+    1077,
+    2467,
+    1232
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The selected time appears in the Time field of the Information About Selected Data group box. The time-of-use type allocated to this time is entered in the Time-of-Use Type field. The two fields next to this field display the period for which the time-of-use type is valid.",
+   "section_id": "doc_011_sec_101"
+  },
+  {
+   "block_id": "doc_011_p033_b005",
+   "type": "heading",
+   "page_number": 33,
+   "bbox": [
+    128,
+    1388,
+    1774,
+    1465
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "Example: RTP Interface with Formula LIMITO1",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_102"
+  },
+  {
+   "block_id": "doc_011_p033_b006",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    117,
+    1532,
+    621,
+    1705
+   ],
+   "ocr_confidence": 58.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "(E)RTP Interface RTP1 GARTP Component Compl",
+   "section_id": "doc_011_sec_102"
+  },
+  {
+   "block_id": "doc_011_p033_b007",
+   "type": "list",
+   "page_number": 33,
+   "bbox": [
+    207,
+    1777,
+    1130,
+    1913
+   ],
+   "ocr_confidence": 63.7,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Gy GRRTP Component Code Summer Weekdays \u00b0"
+    }
+   ],
+   "section_id": "doc_011_sec_102"
+  },
+  {
+   "block_id": "doc_011_p033_b008",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    337,
+    1874,
+    1484,
+    2547
+   ],
+   "ocr_confidence": 82.9,
+   "flags": [
+    "low_confidence_words:11"
+   ],
+   "text": "fo} (ie Input Parameter 1 01 Measured Value Ld | Input Parameter 2 O2 First Limit Value as Quantity Ld | Input Parameter 3 03 Second Limit Value as Quantity (> GH Output Parameter 1 01 Portion Below First Limit (> GH) Output Parameter 2 02 Portion Above First Limit (> H, Output Parameter 3 03 Portion Above Second Limit (> GH) Output Parameter 4 04 Demand Above Limit 1",
+   "section_id": "doc_011_sec_102"
+  },
+  {
+   "block_id": "doc_011_p033_b009",
+   "type": "list",
+   "page_number": 33,
+   "bbox": [
+    207,
+    2594,
+    1483,
+    2958
+   ],
+   "ocr_confidence": 83.9,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Ay | RTP Component Code Summer Weekend \u00b0 (f\u00ab*G Input Parameter 1 01 Measured Value Ld | Input Parameter 2 O2 First Limit Value as Quantity Ld | Input Parameter 3 03 Second Limit Value as Quantity"
+    }
+   ],
+   "section_id": "doc_011_sec_102"
+  },
+  {
+   "block_id": "doc_011_p033_b010",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    383,
+    3001,
+    1451,
+    3263
+   ],
+   "ocr_confidence": 85.3,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "Lea | Output Parameter 1 01 Portion Below First Limit Pe Output Parameter 2 O02 Portion Above First Limit (EG Output Parameter 3 03 Portion Above Second Limit",
+   "section_id": "doc_011_sec_102"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 89,
+   "page_hash": "132853cf39efdb992e4f793ea4b45fe2d7b64f9896f1fb1848ad3b7ff1565b02"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Define RTP Interface",
+  "Selection of the Activation Type",
+  "Output Parameters"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_100",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_101",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_102",
+   "role": "starts_here"
+  }
+ ]
+}

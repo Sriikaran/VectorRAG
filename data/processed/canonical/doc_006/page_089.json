@@ -1,0 +1,316 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 89,
+ "source_page_hash": "c8e35475e003fdbf1faf328fc01281ffbe2fe3ad8d4473939c163a33ece48375",
+ "is_cover_page": false,
+ "title": "Interpolation Between Estimated Meter Readings",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nreading result. This quantity Q2 refers to the period E1 to MRI, which is from April 1, 2009 to December 31, 2009. However, for the\ninterpolation, the system needs a quantity that refers to the period from January 1, 2009 to December 31, 2009. The system\n\ncalculates this quantity Q2' dynamically. The next steps for determining the estimated value Ex are identical to steps 2-5 from the\nsection Interpolation Between Consecutive Meter Readings.\n\n\u201c4\\ Caution\n\nDuring quantity determination for the estimated and saved meter reading result Ex, the estimated meter reading result El is\nused. The quantity saved for meter reading result Ex refers to the period up to the previous meter reading result (E1 - Ex).\n\nThe base period can be extended in both directions. This is shown in the following example. You want to validate an actual meter\nreading result MR1, which is between two estimated meter reading results El and E2. The estimation procedure of interpolation is\nalso used during validation if you correct meter reading results using transactions EL 27and EL29.\n\nThis is explained in the following figure. The same abbreviations are used as in example 1.\n\n01.01.2009 \u2014 06.30.2009\n\nYe: Qe\nAN\n\n\\- Ny\nel\n\n12.31.2008          04.07.2009           06.30.2009          09.30.2009           12.31.2009\n\nExample 3\n\nIn example 3, El and E2 are estimated meter reading results. The algorithm ignores these estimated results during interpolation\nand uses the two actual meter reading results MRO and MR2 instead. The basis of interpolation is the quantity saved and rounded\n\nfor the second meter reading result. This quantity Q2 refers to the period E2 to MR2, which is from October 1, 2009 to December\n31, 2009. However, for the interpolation, the system needs a quantity that refers to the period from January 1, 2009 to December\n\n31, 2009. The system calculates this quantity Q2' dynamically. The next steps for determining the estimated value E are identical\nto steps 2-5 from the section Interpolation Between Consecutive Meter Readings. The quantity saved for meter reading result Ex\nrefers to the period up to the previous meter reading result (El - Ex).\n\nInterpolation Between Estimated Meter Readings\n\nIf interpolation or reversal takes place multiple times between estimated meter reading results, it is generally not possible to\ndetermine the original total consumption.\n\nThis is explained in the following figure. The abbreviations have the following meanings:\n\ne MR= Actual Meter Reading Result\n\ne E=Estimated Meter Reading Result\ne\u00a2 Q=Quantity\n\ne Q1= Quantity for Meter Reading Result MR1\n",
+ "cleaned_text": "reading result. This quantity Q2 refers to the period E1 to MRI, which is from April 1, 2009 to December 31, 2009. However, for the interpolation, the system needs a quantity that refers to the period from January 1, 2009 to December 31, 2009. The system calculates this quantity Q2' dynamically. The next steps for determining the estimated value Ex are identical to steps 2-5 from the section Interpolation Between Consecutive Meter Readings.\n\nCaution During quantity determination for the estimated and saved meter reading result Ex, the estimated meter reading result El is used. The quantity saved for meter reading result Ex refers to the period up to the previous meter reading result (E1 - Ex).\n\nThe base period can be extended in both directions. This is shown in the following example. You want to validate an actual meter reading result MR1, which is between two estimated meter reading results El and E2. The estimation procedure of interpolation is also used during validation if you correct meter reading results using transactions EL 27and EL29. This is explained in the following figure. The same abbreviations are used as in example 1.\n\n01.01.2009 \u2014 06.30.2009 Ye: Qe AN \\- Ny el\n\n12.31.2008 | 04.07.2009 | 06.30.2009 | 09.30.2009 | 12.31.2009\n\nExample 3 In example 3, El and E2 are estimated meter reading results. The algorithm ignores these estimated results during interpolation and uses the two actual meter reading results MRO and MR2 instead. The basis of interpolation is the quantity saved and rounded for the second meter reading result. This quantity Q2 refers to the period E2 to MR2, which is from October 1, 2009 to December 31, 2009. However, for the interpolation, the system needs a quantity that refers to the period from January 1, 2009 to December 31, 2009. The system calculates this quantity Q2' dynamically. The next steps for determining the estimated value E are identical to steps 2-5 from the section Interpolation Between Consecutive Meter Readings. The quantity saved for meter reading result Ex refers to the period up to the previous meter reading result (El - Ex).\n\nInterpolation Between Estimated Meter Readings\n\nIf interpolation or reversal takes place multiple times between estimated meter reading results, it is generally not possible to determine the original total consumption. This is explained in the following figure. The abbreviations have the following meanings:\n\n- MR= Actual Meter Reading Result\n\n- E=Estimated Meter Reading Result e\u00a2 Q=Quantity\n\n- Q1= Quantity for Meter Reading Result MR1",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u201c4\\",
+   "bbox": [
+    151,
+    466,
+    414,
+    510
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p089_b000",
+   "type": "paragraph",
+   "page_number": 89,
+   "bbox": [
+    123,
+    136,
+    2482,
+    370
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "reading result. This quantity Q2 refers to the period E1 to MRI, which is from April 1, 2009 to December 31, 2009. However, for the interpolation, the system needs a quantity that refers to the period from January 1, 2009 to December 31, 2009. The system calculates this quantity Q2' dynamically. The next steps for determining the estimated value Ex are identical to steps 2-5 from the section Interpolation Between Consecutive Meter Readings.",
+   "section_id": "doc_006_sec_242"
+  },
+  {
+   "block_id": "doc_006_p089_b001",
+   "type": "note",
+   "page_number": 89,
+   "bbox": [
+    151,
+    466,
+    2407,
+    658
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "label": "Caution",
+   "text": "Caution During quantity determination for the estimated and saved meter reading result Ex, the estimated meter reading result El is used. The quantity saved for meter reading result Ex refers to the period up to the previous meter reading result (E1 - Ex).",
+   "section_id": "doc_006_sec_242"
+  },
+  {
+   "block_id": "doc_006_p089_b002",
+   "type": "paragraph",
+   "page_number": 89,
+   "bbox": [
+    122,
+    779,
+    2467,
+    1072
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "The base period can be extended in both directions. This is shown in the following example. You want to validate an actual meter reading result MR1, which is between two estimated meter reading results El and E2. The estimation procedure of interpolation is also used during validation if you correct meter reading results using transactions EL 27and EL29. This is explained in the following figure. The same abbreviations are used as in example 1.",
+   "section_id": "doc_006_sec_242"
+  },
+  {
+   "block_id": "doc_006_p089_b003",
+   "type": "paragraph",
+   "page_number": 89,
+   "bbox": [
+    489,
+    1204,
+    1289,
+    1515
+   ],
+   "ocr_confidence": 55.3,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region"
+   ],
+   "text": "01.01.2009 \u2014 06.30.2009 Ye: Qe AN \\- Ny el",
+   "section_id": "doc_006_sec_242"
+  },
+  {
+   "block_id": "doc_006_p089_b004",
+   "type": "table",
+   "page_number": 89,
+   "bbox": [
+    405,
+    1678,
+    2218,
+    1707
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    405,
+    800,
+    1215,
+    1610,
+    2025
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "12.31.2008",
+     "04.07.2009",
+     "06.30.2009",
+     "09.30.2009",
+     "12.31.2009"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "12.31.2008",
+     "04.07.2009",
+     "06.30.2009",
+     "09.30.2009",
+     "12.31.2009"
+    ]
+   ],
+   "section_id": "doc_006_sec_242"
+  },
+  {
+   "block_id": "doc_006_p089_b005",
+   "type": "paragraph",
+   "page_number": 89,
+   "bbox": [
+    122,
+    1862,
+    2480,
+    2413
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Example 3 In example 3, El and E2 are estimated meter reading results. The algorithm ignores these estimated results during interpolation and uses the two actual meter reading results MRO and MR2 instead. The basis of interpolation is the quantity saved and rounded for the second meter reading result. This quantity Q2 refers to the period E2 to MR2, which is from October 1, 2009 to December 31, 2009. However, for the interpolation, the system needs a quantity that refers to the period from January 1, 2009 to December 31, 2009. The system calculates this quantity Q2' dynamically. The next steps for determining the estimated value E are identical to steps 2-5 from the section Interpolation Between Consecutive Meter Readings. The quantity saved for meter reading result Ex refers to the period up to the previous meter reading result (El - Ex).",
+   "section_id": "doc_006_sec_242"
+  },
+  {
+   "block_id": "doc_006_p089_b006",
+   "type": "heading",
+   "page_number": 89,
+   "bbox": [
+    125,
+    2497,
+    1042,
+    2534
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Interpolation Between Estimated Meter Readings",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_243"
+  },
+  {
+   "block_id": "doc_006_p089_b007",
+   "type": "paragraph",
+   "page_number": 89,
+   "bbox": [
+    122,
+    2618,
+    2366,
+    2843
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "If interpolation or reversal takes place multiple times between estimated meter reading results, it is generally not possible to determine the original total consumption. This is explained in the following figure. The abbreviations have the following meanings:",
+   "section_id": "doc_006_sec_243"
+  },
+  {
+   "block_id": "doc_006_p089_b008",
+   "type": "list",
+   "page_number": 89,
+   "bbox": [
+    207,
+    2929,
+    1051,
+    3286
+   ],
+   "ocr_confidence": 89.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MR= Actual Meter Reading Result"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "E=Estimated Meter Reading Result e\u00a2 Q=Quantity"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Q1= Quantity for Meter Reading Result MR1"
+    }
+   ],
+   "section_id": "doc_006_sec_243"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 65,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "c8e35475e003fdbf1faf328fc01281ffbe2fe3ad8d4473939c163a33ece48375"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Interpolation",
+  "Features",
+  "Interpolation Between Non-Consecutive Meter Readings"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_242",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_243",
+   "role": "starts_here"
+  }
+ ]
+}

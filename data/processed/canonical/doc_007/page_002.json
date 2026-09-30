@@ -1,0 +1,489 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_007",
+ "page_number": 2,
+ "source_page_hash": "171e134a935524289ac19a902e833c6f5909dad00f69ed777608f97bb217a039",
+ "is_cover_page": false,
+ "title": "Monitoring of Meter Reading Results",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nMonitoring of Meter Reading Results\n\nUse\n\nTo monitor meter reading results, you can use the following transactions in the Utilities Industry menu under |}-Device\nManagement > Meter Reading \u00bb Monitoring\n\nFeatures\nMonitoring of Meter Reading Results\nTransaction EL31\n\nYou can use this transaction to monitor meter reading results based on different selection criteria. You have different monitoring\noptions depending on the selection criteria you choose. The following table provides an overview of these options. The selection\ncriteria are listed in the first column. The objects that you can monitor using these selection criteria are marked with x in each row.\n\nLists\n\nSelection Criterion:       Schedule Record           Meter Reading Order | Meter Reading Result | Billing Order\nPortion                         x                                  x (*)                             x (*)                             x (*)\n\nMeter Reading Unit        x                                x (*)                            x (*)                            x (*)\nBusiness Partner          -                             Xx                             Xx                             X\n\nContract                       -                                  Xx                                  Xx                                  Xx\n\nInstallation                    -                                  Xx                                  Xx                                  Xx\n\nDevice                          -                                  X                                  Xx                                  -\n\nPremise                        -                                  X                                  X                                  X\n\n(*) At first the system displays a summarized list grouped by date (meter reading date, billing date); from here you can navigate to\nmore detailed lists.\n\nPortion or Meter Reading Unit\n\nIf you start by entering portions or meter reading units, you can display schedule records, billing orders, and meter reading orders.\nIf the business function Utilities, Quantity Determination (ISU _QD_1) is active, you can also display meter reading results.\nContract, Installation, Business Partner, or Premise\n\nIf you start by entering contracts, installations, or business partners, you can display billing orders, meter reading orders, or meter\nreading results.\n\nMacnnn\n",
+ "cleaned_text": "Monitoring of Meter Reading Results\n\nUse\n\nTo monitor meter reading results, you can use the following transactions in the Utilities Industry menu under |}-Device Management > Meter Reading \u00bb Monitoring\n\nFeatures\n\nMonitoring of Meter Reading Results\n\nTransaction EL31\n\nYou can use this transaction to monitor meter reading results based on different selection criteria. You have different monitoring options depending on the selection criteria you choose. The following table provides an overview of these options. The selection criteria are listed in the first column. The objects that you can monitor using these selection criteria are marked with x in each row.\n\nLists\n\nSelection Criterion: | Schedule Record | Meter Reading Order | Meter Reading Result | Billing Order\n\nPortion | x | x (*) | x (*) | x (*)\n\nMeter Reading Unit | x | x (*) | x (*) | x (*)\n\nBusiness Partner | - | Xx | Xx | X\n\nContract | - | Xx | Xx | Xx\n\nInstallation | - | Xx | Xx | Xx\n\nDevice | - | X | Xx | -\n\nPremise | - | X | X | X\n\n(*) At first the system displays a summarized list grouped by date (meter reading date, billing date); from here you can navigate to more detailed lists.\n\nPortion or Meter Reading Unit\n\nIf you start by entering portions or meter reading units, you can display schedule records, billing orders, and meter reading orders. If the business function Utilities, Quantity Determination (ISU _QD_1) is active, you can also display meter reading results.\n\nContract, Installation, Business Partner, or Premise\n\nIf you start by entering contracts, installations, or business partners, you can display billing orders, meter reading orders, or meter reading results.\n\nMacnnn",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_007_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    256,
+    1447,
+    331
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Monitoring of Meter Reading Results",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_007_sec_001"
+  },
+  {
+   "block_id": "doc_007_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    435,
+    225,
+    481
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "low",
+   "section_id": "doc_007_sec_001"
+  },
+  {
+   "block_id": "doc_007_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    565,
+    2261,
+    673
+   ],
+   "ocr_confidence": 89.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "To monitor meter reading results, you can use the following transactions in the Utilities Industry menu under |}-Device Management > Meter Reading \u00bb Monitoring",
+   "section_id": "doc_007_sec_001"
+  },
+  {
+   "block_id": "doc_007_p002_b003",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    780,
+    361,
+    826
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "low",
+   "section_id": "doc_007_sec_001"
+  },
+  {
+   "block_id": "doc_007_p002_b004",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    124,
+    910,
+    807,
+    948
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Monitoring of Meter Reading Results",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_007_sec_001"
+  },
+  {
+   "block_id": "doc_007_p002_b005",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    122,
+    1036,
+    442,
+    1068
+   ],
+   "ocr_confidence": 92.7,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Transaction EL31",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_007_sec_001"
+  },
+  {
+   "block_id": "doc_007_p002_b006",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    1159,
+    2473,
+    1322
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "You can use this transaction to monitor meter reading results based on different selection criteria. You have different monitoring options depending on the selection criteria you choose. The following table provides an overview of these options. The selection criteria are listed in the first column. The objects that you can monitor using these selection criteria are marked with x in each row.",
+   "section_id": "doc_007_sec_001"
+  },
+  {
+   "block_id": "doc_007_p002_b007",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    569,
+    1431,
+    650,
+    1459
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Lists",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_007_sec_002"
+  },
+  {
+   "block_id": "doc_007_p002_b008",
+   "type": "table",
+   "page_number": 2,
+   "bbox": [
+    148,
+    1532,
+    2046,
+    2307
+   ],
+   "ocr_confidence": 87.8,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    148,
+    568,
+    985,
+    1405,
+    1830
+   ],
+   "headers": [
+    "Selection Criterion:",
+    "Schedule Record",
+    "Meter Reading Order | Meter Reading Result | Billing Order"
+   ],
+   "rows": [
+    [
+     "Portion",
+     "x",
+     "x (*)",
+     "x (*)",
+     "x (*)"
+    ],
+    [
+     "Meter Reading Unit",
+     "x",
+     "x (*)",
+     "x (*)",
+     "x (*)"
+    ],
+    [
+     "Business Partner",
+     "-",
+     "Xx",
+     "Xx",
+     "X"
+    ],
+    [
+     "Contract",
+     "-",
+     "Xx",
+     "Xx",
+     "Xx"
+    ],
+    [
+     "Installation",
+     "-",
+     "Xx",
+     "Xx",
+     "Xx"
+    ],
+    [
+     "Device",
+     "-",
+     "X",
+     "Xx",
+     "-"
+    ],
+    [
+     "Premise",
+     "-",
+     "X",
+     "X",
+     "X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Selection Criterion:",
+     "Schedule Record",
+     "Meter Reading Order | Meter Reading Result | Billing Order"
+    ],
+    [
+     "Portion",
+     "x",
+     "x (*)",
+     "x (*)",
+     "x (*)"
+    ],
+    [
+     "Meter Reading Unit",
+     "x",
+     "x (*)",
+     "x (*)",
+     "x (*)"
+    ],
+    [
+     "Business Partner",
+     "-",
+     "Xx",
+     "Xx",
+     "X"
+    ],
+    [
+     "Contract",
+     "-",
+     "Xx",
+     "Xx",
+     "Xx"
+    ],
+    [
+     "Installation",
+     "-",
+     "Xx",
+     "Xx",
+     "Xx"
+    ],
+    [
+     "Device",
+     "-",
+     "X",
+     "Xx",
+     "-"
+    ],
+    [
+     "Premise",
+     "-",
+     "X",
+     "X",
+     "X"
+    ]
+   ],
+   "section_id": "doc_007_sec_002"
+  },
+  {
+   "block_id": "doc_007_p002_b009",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    2421,
+    2473,
+    2517
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "(*) At first the system displays a summarized list grouped by date (meter reading date, billing date); from here you can navigate to more detailed lists.",
+   "section_id": "doc_007_sec_002"
+  },
+  {
+   "block_id": "doc_007_p002_b010",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    124,
+    2608,
+    680,
+    2646
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Portion or Meter Reading Unit",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_007_sec_002"
+  },
+  {
+   "block_id": "doc_007_p002_b011",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    125,
+    2730,
+    2472,
+    2899
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "If you start by entering portions or meter reading units, you can display schedule records, billing orders, and meter reading orders. If the business function Utilities, Quantity Determination (ISU _QD_1) is active, you can also display meter reading results.",
+   "section_id": "doc_007_sec_002"
+  },
+  {
+   "block_id": "doc_007_p002_b012",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    123,
+    2976,
+    1078,
+    3010
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Contract, Installation, Business Partner, or Premise",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_007_sec_003"
+  },
+  {
+   "block_id": "doc_007_p002_b013",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    124,
+    3101,
+    2472,
+    3201
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "If you start by entering contracts, installations, or business partners, you can display billing orders, meter reading orders, or meter reading results.",
+   "section_id": "doc_007_sec_003"
+  },
+  {
+   "block_id": "doc_007_p002_b014",
+   "type": "fragment",
+   "page_number": 2,
+   "bbox": [
+    124,
+    3285,
+    244,
+    3300
+   ],
+   "ocr_confidence": 50.5,
+   "flags": [
+    "low_confidence_words:1",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Macnnn",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_007_sec_003"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.1395,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Monitoring Meter Reading Results",
+  "source_pdf": "7.pdf",
+  "reference_pdf": "07_Monitoring_Meter_Reading_Results.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Useful for exception monitoring and support/troubleshooting scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "171e134a935524289ac19a902e833c6f5909dad00f69ed777608f97bb217a039"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:37Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Monitoring Meter Reading Results",
+  "Monitoring of Meter Reading Results"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_007_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_007_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_007_sec_003",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,291 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 39,
+ "source_page_hash": "08363f2e738015ccb451e66c51e02986159e19e424f80fb69a5340df906f9a9f",
+ "is_cover_page": false,
+ "title": "Dealing with Blocked Business Partners",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nEnter Priority for Application Objects During Check If Can Be Blocked 3, define the sequence that fits your particular\nconditions.\n\nee Example\nFor most business partners, no open items exist because they pay their receivables punctually when due. The system does not\npost new open items for recurring monthly receivables until the following month, or for recurring annual receivables until the\n\nnext year.\n\nIf you can determine while the check is being run that the majority of business partners have an open item, then in that case,\nchecking for open items with a high priority would be useful.\n\nThat means that you execute the run after the items were posted but before payment was made. In this case, a check for open\nitems should have a high priority.\n\nIf you use a contract object that has the status \u201cActive\u2019\u201dor \u201cInactive\u201d, it can be beneficial to execute checks on the contract\nstatus early. Provider contracts, in which the contract end date has not yet been set, are considered to be open business\ntransactions. A business partner can only be blocked when all of his or her provider contracts are expired.\n\nDealing with Blocked Business Partners\n\nTo protect personal data, you block business partners for which no more business has taken place, following a certain residence\ntime in the system. After that, displaying the personal data of a blocked business partner is only possible for users with special\n\nauthorization (role SAP_CA_BP_DP_ADMIN). The system prevents the entry of new business for blocked business partners.\n\nYou can use transaction Unblocking Request (Master Data) (BUP_REQ_UNBLK) to request unblocking, and you can use\n\ntransaction Blocking of Business Partner Data (transaction BUPA_PRE_EOP) to approve the unblocking of business partners.\n\nDisplaying Personal Data\n\nThe personal data in Contract Accounts Receivable and Payable needing protection includes:\n\ne Name\ne Address data\n\ne Bank data\n\ne Payment card data\n\nThe technical keys that identify a business partner, a contract account, or an industry-specific contract within the system are not\nprotected.\n\nFree text fields, such as the contract account description or the text of a line item, do not require special protection.\n\n1 Note\n\nNote that industry components that use Contract Accounts Receivable and Payable may apply other, more stringent rules.\n",
+ "cleaned_text": "Enter Priority for Application Objects During Check If Can Be Blocked 3, define the sequence that fits your particular conditions.\n\nee Example For most business partners, no open items exist because they pay their receivables punctually when due. The system does not post new open items for recurring monthly receivables until the following month, or for recurring annual receivables until the next year. If you can determine while the check is being run that the majority of business partners have an open item, then in that case, checking for open items with a high priority would be useful. That means that you execute the run after the items were posted but before payment was made. In this case, a check for open items should have a high priority. If you use a contract object that has the status \u201cActive\u2019\u201dor \u201cInactive\u201d, it can be beneficial to execute checks on the contract status early. Provider contracts, in which the contract end date has not yet been set, are considered to be open business transactions. A business partner can only be blocked when all of his or her provider contracts are expired.\n\nDealing with Blocked Business Partners\n\nTo protect personal data, you block business partners for which no more business has taken place, following a certain residence time in the system. After that, displaying the personal data of a blocked business partner is only possible for users with special authorization (role SAP_CA_BP_DP_ADMIN). The system prevents the entry of new business for blocked business partners. You can use transaction Unblocking Request (Master Data) (BUP_REQ_UNBLK) to request unblocking, and you can use transaction Blocking of Business Partner Data (transaction BUPA_PRE_EOP) to approve the unblocking of business partners.\n\nDisplaying Personal Data\n\nThe personal data in Contract Accounts Receivable and Payable needing protection includes:\n\n- Name\n\n- Address data\n\n- Bank data\n\n- Payment card data\n\nThe technical keys that identify a business partner, a contract account, or an industry-specific contract within the system are not protected. Free text fields, such as the contract account description or the text of a line item, do not require special protection.\n\nNote Note that industry components that use Contract Accounts Receivable and Payable may apply other, more stringent rules.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    3104,
+    310,
+    3141
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p039_b000",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    152,
+    134,
+    2309,
+    227
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Enter Priority for Application Objects During Check If Can Be Blocked 3, define the sequence that fits your particular conditions.",
+   "section_id": "doc_001_sec_127"
+  },
+  {
+   "block_id": "doc_001_p039_b001",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    151,
+    366,
+    2435,
+    1236
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "ee Example For most business partners, no open items exist because they pay their receivables punctually when due. The system does not post new open items for recurring monthly receivables until the following month, or for recurring annual receivables until the next year. If you can determine while the check is being run that the majority of business partners have an open item, then in that case, checking for open items with a high priority would be useful. That means that you execute the run after the items were posted but before payment was made. In this case, a check for open items should have a high priority. If you use a contract object that has the status \u201cActive\u2019\u201dor \u201cInactive\u201d, it can be beneficial to execute checks on the contract status early. Provider contracts, in which the contract end date has not yet been set, are considered to be open business transactions. A business partner can only be blocked when all of his or her provider contracts are expired.",
+   "section_id": "doc_001_sec_127"
+  },
+  {
+   "block_id": "doc_001_p039_b002",
+   "type": "heading",
+   "page_number": 39,
+   "bbox": [
+    128,
+    1419,
+    1559,
+    1494
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Dealing with Blocked Business Partners",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_128"
+  },
+  {
+   "block_id": "doc_001_p039_b003",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    122,
+    1570,
+    2429,
+    1932
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "To protect personal data, you block business partners for which no more business has taken place, following a certain residence time in the system. After that, displaying the personal data of a blocked business partner is only possible for users with special authorization (role SAP_CA_BP_DP_ADMIN). The system prevents the entry of new business for blocked business partners. You can use transaction Unblocking Request (Master Data) (BUP_REQ_UNBLK) to request unblocking, and you can use transaction Blocking of Business Partner Data (transaction BUPA_PRE_EOP) to approve the unblocking of business partners.",
+   "section_id": "doc_001_sec_128"
+  },
+  {
+   "block_id": "doc_001_p039_b004",
+   "type": "heading",
+   "page_number": 39,
+   "bbox": [
+    128,
+    2077,
+    1023,
+    2152
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Displaying Personal Data",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_129"
+  },
+  {
+   "block_id": "doc_001_p039_b005",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    122,
+    2227,
+    1801,
+    2265
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The personal data in Contract Accounts Receivable and Payable needing protection includes:",
+   "section_id": "doc_001_sec_129"
+  },
+  {
+   "block_id": "doc_001_p039_b006",
+   "type": "list",
+   "page_number": 39,
+   "bbox": [
+    207,
+    2349,
+    595,
+    2692
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Name"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Address data"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Bank data"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Payment card data"
+    }
+   ],
+   "section_id": "doc_001_sec_129"
+  },
+  {
+   "block_id": "doc_001_p039_b007",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    122,
+    2779,
+    2452,
+    3001
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The technical keys that identify a business partner, a contract account, or an industry-specific contract within the system are not protected. Free text fields, such as the contract account description or the text of a line item, do not require special protection.",
+   "section_id": "doc_001_sec_129"
+  },
+  {
+   "block_id": "doc_001_p039_b008",
+   "type": "note",
+   "page_number": 39,
+   "bbox": [
+    151,
+    3104,
+    2365,
+    3221
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "label": "Note",
+   "text": "Note Note that industry components that use Contract Accounts Receivable and Payable may apply other, more stringent rules.",
+   "section_id": "doc_001_sec_129"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.0952,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "08363f2e738015ccb451e66c51e02986159e19e424f80fb69a5340df906f9a9f"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Payable",
+  "Activities"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_127",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_128",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_129",
+   "role": "starts_here"
+  }
+ ]
+}

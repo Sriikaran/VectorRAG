@@ -1,0 +1,379 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 14,
+ "source_page_hash": "a7e7ff54185321a0868241a22c0b5cbb6a36e80bfbf23943dfb6a2815e13bc74",
+ "is_cover_page": false,
+ "title": "Yes",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nIs this period\nrepresentative\u2019?\n\nYes\n\nThe system goes\n\nHave changed been made to         back to the\n\nthe periodic consumption\n\nvalues within this period?               previous meter\n\nreading result.\n\nYes                     No\n\nThe periodic            Meter reading\nconsumption            results are used\n\nvalue is used as        as a basis for\na basis for               extrapolation.\nextrapolation.\n\nlLlanin\n",
+ "cleaned_text": "Is this period representative\u2019?\n\nYes\n\nThe system goes\n\nHave changed been made to | back to the\n\nthe periodic consumption\n\nvalues within this period? | previous meter\n\nreading result.\n\nYes | No\n\nThe periodic | Meter reading\n\nconsumption | results are used\n\nvalue is used as | as a basis for\n\na basis for | extrapolation.\n\nextrapolation.\n\nlLlanin",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p014_b000",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    1107,
+    656,
+    1712,
+    843
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [],
+   "text": "Is this period representative\u2019?",
+   "section_id": "doc_006_sec_016"
+  },
+  {
+   "block_id": "doc_006_p014_b001",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    1048,
+    1037,
+    1196,
+    1106
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Yes",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_017"
+  },
+  {
+   "block_id": "doc_006_p014_b002",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    1630,
+    1182,
+    2294,
+    1264
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "The system goes",
+   "section_id": "doc_006_sec_017"
+  },
+  {
+   "block_id": "doc_006_p014_b003",
+   "type": "table",
+   "page_number": 14,
+   "bbox": [
+    213,
+    1235,
+    2054,
+    1357
+   ],
+   "ocr_confidence": 90.3,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    213,
+    1633
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Have changed been made to",
+     "back to the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Have changed been made to",
+     "back to the"
+    ]
+   ],
+   "section_id": "doc_006_sec_017"
+  },
+  {
+   "block_id": "doc_006_p014_b004",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    206,
+    1340,
+    1183,
+    1422
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "the periodic consumption",
+   "section_id": "doc_006_sec_017"
+  },
+  {
+   "block_id": "doc_006_p014_b005",
+   "type": "table",
+   "page_number": 14,
+   "bbox": [
+    206,
+    1392,
+    2209,
+    1527
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    206,
+    1633
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "values within this period?",
+     "previous meter"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "values within this period?",
+     "previous meter"
+    ]
+   ],
+   "section_id": "doc_006_sec_017"
+  },
+  {
+   "block_id": "doc_006_p014_b006",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    1633,
+    1498,
+    2176,
+    1580
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [],
+   "text": "reading result.",
+   "section_id": "doc_006_sec_017"
+  },
+  {
+   "block_id": "doc_006_p014_b007",
+   "type": "table",
+   "page_number": 14,
+   "bbox": [
+    496,
+    1748,
+    1305,
+    1817
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    496,
+    1180
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Yes",
+     "No"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Yes",
+     "No"
+    ]
+   ],
+   "section_id": "doc_006_sec_017"
+  },
+  {
+   "block_id": "doc_006_p014_b008",
+   "type": "table",
+   "page_number": 14,
+   "bbox": [
+    206,
+    1971,
+    1696,
+    2369
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    206,
+    1078
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "The periodic",
+     "Meter reading"
+    ],
+    [
+     "consumption",
+     "results are used"
+    ],
+    [
+     "value is used as",
+     "as a basis for"
+    ],
+    [
+     "a basis for",
+     "extrapolation."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "The periodic",
+     "Meter reading"
+    ],
+    [
+     "consumption",
+     "results are used"
+    ],
+    [
+     "value is used as",
+     "as a basis for"
+    ],
+    [
+     "a basis for",
+     "extrapolation."
+    ]
+   ],
+   "section_id": "doc_006_sec_017"
+  },
+  {
+   "block_id": "doc_006_p014_b009",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    210,
+    2392,
+    726,
+    2474
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "extrapolation.",
+   "section_id": "doc_006_sec_017"
+  },
+  {
+   "block_id": "doc_006_p014_b010",
+   "type": "fragment",
+   "page_number": 14,
+   "bbox": [
+    124,
+    3285,
+    207,
+    3300
+   ],
+   "ocr_confidence": 51.2,
+   "flags": [
+    "low_confidence_words:1",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "lLlanin",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_006_sec_017"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 52.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "a7e7ff54185321a0868241a22c0b5cbb6a36e80bfbf23943dfb6a2815e13bc74"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Extrapolation",
+  "Meter Reading Results or Period Value as a Basis for Extrapolation"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_016",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_017",
+   "role": "starts_here"
+  }
+ ]
+}

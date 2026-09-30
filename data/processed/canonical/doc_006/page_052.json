@@ -1,0 +1,295 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 52,
+ "source_page_hash": "efe0e438f865e8c4df70057b1a8a88345fe408237dda96ea174b2747ad58e796",
+ "is_cover_page": false,
+ "title": "Integration",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nIntegration\n\nAn |Doc interface (CA-EDI) is used to upload the meter reading results. The meter reading results are imported via direct input.\n\nFeatures\n\nYou have the following options:\n\ne Upload\nLarge amounts of data are transferred from an external system into the system.\n\ne Fast entry\n\nLarge amounts of data from periodic meter readings are entered in the system. Fast entry is split into:\n\no Fast Entry Without Immediate Correction\nYou have to correct and release implausible meter readings at a later time.\no Fast Entry with Correction\n\nIf meter reasding results are implausible, you can access a correction screen.\ne Single entry\n\nMeter reading results are entered from control meter readings, interim meter readings, or final meter readings (for move-\n\nout), for example.\n\nAs part of meter reading result entry, the system determines a consumption value dynamically from the difference between the\ncurrent meter reading result and the previous meter reading result. However, this value is not saved to the database. This\nconsumption value can be taken into account during validation.\n\n1 Note\n\nIf you have activated the business function Utilities, Quantity Determination (ISU QD_ 1) and you use the quantity\ndetermination procedure Quantity Determination During Meter Reading, the system determines a consumption value during\nmeter reading result entry from the difference between the current meter reading result and the previous meter reading result.\nThe value is saved to the database. This consumption value can be taken into account during validation and can also be used by\n\nsubsequent processes such as billing.\n\nFor more information, see:\n\nQuantity Determination During Meter Reading\n\nEvery meter reading result is subject to validation. Validations can be dependent or independent. You define the validations in\nCustomizing for SAP Utilities under |}sDevice Management \u00bb Meter Reading \u00bb Validations \u00bb. The validations take place during\nentry of meter reading results. Choose PUSHBUTTON when entering meter reading results to display the validation results of a\nregister.\n\nFor more information, see:\n\nValidations\n",
+ "cleaned_text": "Integration\n\nAn |Doc interface (CA-EDI) is used to upload the meter reading results. The meter reading results are imported via direct input.\n\nFeatures\n\nYou have the following options:\n\n- Upload Large amounts of data are transferred from an external system into the system.\n\n- Fast entry Large amounts of data from periodic meter readings are entered in the system. Fast entry is split into:\n\n- Fast Entry Without Immediate Correction You have to correct and release implausible meter readings at a later time.\n\n- Fast Entry with Correction If meter reasding results are implausible, you can access a correction screen.\n\n- Single entry Meter reading results are entered from control meter readings, interim meter readings, or final meter readings (for move-\n\nout), for example. As part of meter reading result entry, the system determines a consumption value dynamically from the difference between the current meter reading result and the previous meter reading result. However, this value is not saved to the database. This consumption value can be taken into account during validation.\n\nNote If you have activated the business function Utilities, Quantity Determination (ISU QD_ 1) and you use the quantity determination procedure Quantity Determination During Meter Reading, the system determines a consumption value during meter reading result entry from the difference between the current meter reading result and the previous meter reading result. The value is saved to the database. This consumption value can be taken into account during validation and can also be used by subsequent processes such as billing. For more information, see:\n\nQuantity Determination During Meter Reading\n\nEvery meter reading result is subject to validation. Validations can be dependent or independent. You define the validations in Customizing for SAP Utilities under |}sDevice Management \u00bb Meter Reading \u00bb Validations \u00bb. The validations take place during entry of meter reading results. Choose PUSHBUTTON when entering meter reading results to display the validation results of a register. For more information, see: Validations",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    2040,
+    310,
+    2077
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p052_b000",
+   "type": "heading",
+   "page_number": 52,
+   "bbox": [
+    127,
+    127,
+    431,
+    183
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_105"
+  },
+  {
+   "block_id": "doc_006_p052_b001",
+   "type": "paragraph",
+   "page_number": 52,
+   "bbox": [
+    123,
+    259,
+    2410,
+    297
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "An |Doc interface (CA-EDI) is used to upload the meter reading results. The meter reading results are imported via direct input.",
+   "section_id": "doc_006_sec_105"
+  },
+  {
+   "block_id": "doc_006_p052_b002",
+   "type": "heading",
+   "page_number": 52,
+   "bbox": [
+    126,
+    409,
+    361,
+    454
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_106"
+  },
+  {
+   "block_id": "doc_006_p052_b003",
+   "type": "paragraph",
+   "page_number": 52,
+   "bbox": [
+    123,
+    542,
+    678,
+    580
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "You have the following options:",
+   "section_id": "doc_006_sec_106"
+  },
+  {
+   "block_id": "doc_006_p052_b004",
+   "type": "list",
+   "page_number": 52,
+   "bbox": [
+    207,
+    663,
+    2442,
+    1624
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Upload Large amounts of data are transferred from an external system into the system."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Fast entry Large amounts of data from periodic meter readings are entered in the system. Fast entry is split into:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Fast Entry Without Immediate Correction You have to correct and release implausible meter readings at a later time."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Fast Entry with Correction If meter reasding results are implausible, you can access a correction screen."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Single entry Meter reading results are entered from control meter readings, interim meter readings, or final meter readings (for move-"
+    }
+   ],
+   "section_id": "doc_006_sec_106"
+  },
+  {
+   "block_id": "doc_006_p052_b005",
+   "type": "paragraph",
+   "page_number": 52,
+   "bbox": [
+    123,
+    1649,
+    2423,
+    1933
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "out), for example. As part of meter reading result entry, the system determines a consumption value dynamically from the difference between the current meter reading result and the previous meter reading result. However, this value is not saved to the database. This consumption value can be taken into account during validation.",
+   "section_id": "doc_006_sec_106"
+  },
+  {
+   "block_id": "doc_006_p052_b006",
+   "type": "note",
+   "page_number": 52,
+   "bbox": [
+    151,
+    2040,
+    2457,
+    2530
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "label": "Note",
+   "text": "Note If you have activated the business function Utilities, Quantity Determination (ISU QD_ 1) and you use the quantity determination procedure Quantity Determination During Meter Reading, the system determines a consumption value during meter reading result entry from the difference between the current meter reading result and the previous meter reading result. The value is saved to the database. This consumption value can be taken into account during validation and can also be used by subsequent processes such as billing. For more information, see:",
+   "section_id": "doc_006_sec_106"
+  },
+  {
+   "block_id": "doc_006_p052_b007",
+   "type": "heading",
+   "page_number": 52,
+   "bbox": [
+    151,
+    2618,
+    987,
+    2655
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Quantity Determination During Meter Reading",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_106"
+  },
+  {
+   "block_id": "doc_006_p052_b008",
+   "type": "paragraph",
+   "page_number": 52,
+   "bbox": [
+    123,
+    2776,
+    2414,
+    3240
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Every meter reading result is subject to validation. Validations can be dependent or independent. You define the validations in Customizing for SAP Utilities under |}sDevice Management \u00bb Meter Reading \u00bb Validations \u00bb. The validations take place during entry of meter reading results. Choose PUSHBUTTON when entering meter reading results to display the validation results of a register. For more information, see: Validations",
+   "section_id": "doc_006_sec_106"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "efe0e438f865e8c4df70057b1a8a88345fe408237dda96ea174b2747ad58e796"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Entry of Meter Reading Results",
+  "Integration"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_105",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_106",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 18,
+ "source_page_hash": "0eae6acde3a5c2970b771018b09e70847de53d319abfa934facd4f5703e6248d",
+ "is_cover_page": false,
+ "title": "Payment Forms",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\ncomponent. In events 0770 and 0773, you can determine the recipient and address for a dunning letter dependent on the\ndunning level.\n\ni Note\n\nTo avoid printing dunning notices that have already been reversed, always print the documents immediately after the\n\ndunning activity run.\n\nPayment Forms\n\nIf you use the function modules *DUNNING PR CORR CONT 0350 as a dunning activity, you can also send a payment form for\nthe dunned items and the related interest and charge documents with the dunning letter. If the activity for creating\n\ncorrespondence has not created a payment form number, you can assign the payment form number using the function module\nFKK_DUNNING PF_NO DET 0350. The internal and external payment form numbers are saved in the dunning header and can be\nused to assign the open items on payment receipt.\n\nYou print using the Print Workbench. There, certain form classes, such as form class IS_U_ CA DUNNING, provide data in\nstructure PAYMO (Attached Payment Media Output). You can print this data on the attached payment form. The application form\nitself can also trigger a special printout using a separate CALL FUNCTION OPEN FORM.\n\nUsing a collection, you can print the application form and the payment form attached together (see also the documentation for the\nPrint Workbench).\n\nFor detailed information about creating payment forms, see Payment Forms.\n\nActivities\n\n1. Configure the application forms you need in Customizing for Contract Accounts Receivable and Payable under |}Basic\nFunctions >\u00bb Print Workbench > Define Application Forms 3. For more information, see Processing Application Forms in\nthe documentation for the Print Workbench.\n\n2. Assign the application form to the required dunning activity in the Customizing activity Configure Dunning Activities (see\nBusiness Transactions } Dunning Notices %).\n\n3. Define the dunning activities in the individual dunning levels of the dunning procedure (see |*Business Transactions\nDunning Notices \u00bb Configure Dunning Procedures 3%).\n\nIf you set the indicator Print All Items in Customizing for the dunning level (screen area History and Dunning Printing), you can\ninclude items that are due in the future (info items) in the printout. The info items are not displayed in the dunning history. To print\n\nthe total of all items selected, you have to create the total in your dunning form in the Exit-During-Loop of level OPEN_ ITEM, print\nit, and then reset it in the Exit-After-Loop.\n\nCalculating Charges\n\nUse\n\nYou can automatically charge your customers for the creation of dunning notices.\n\nActivitiac\n",
+ "cleaned_text": "component. In events 0770 and 0773, you can determine the recipient and address for a dunning letter dependent on the dunning level. i Note To avoid printing dunning notices that have already been reversed, always print the documents immediately after the dunning activity run.\n\nPayment Forms\n\nIf you use the function modules *DUNNING PR CORR CONT 0350 as a dunning activity, you can also send a payment form for the dunned items and the related interest and charge documents with the dunning letter. If the activity for creating correspondence has not created a payment form number, you can assign the payment form number using the function module FKK_DUNNING PF_NO DET 0350. The internal and external payment form numbers are saved in the dunning header and can be used to assign the open items on payment receipt. You print using the Print Workbench. There, certain form classes, such as form class IS_U_ CA DUNNING, provide data in structure PAYMO (Attached Payment Media Output). You can print this data on the attached payment form. The application form itself can also trigger a special printout using a separate CALL FUNCTION OPEN FORM. Using a collection, you can print the application form and the payment form attached together (see also the documentation for the Print Workbench). For detailed information about creating payment forms, see Payment Forms.\n\nActivities\n\n1 Configure the application forms you need in Customizing for Contract Accounts Receivable and Payable under |}Basic Functions >\u00bb Print Workbench > Define Application Forms 3. For more information, see Processing Application Forms in\n\nthe documentation for the Print Workbench.\n\n2 Assign the application form to the required dunning activity in the Customizing activity Configure Dunning Activities (see Business Transactions } Dunning Notices %).\n\n3 Define the dunning activities in the individual dunning levels of the dunning procedure (see |*Business Transactions Dunning Notices \u00bb Configure Dunning Procedures 3%).\n\nIf you set the indicator Print All Items in Customizing for the dunning level (screen area History and Dunning Printing), you can include items that are due in the future (info items) in the printout. The info items are not displayed in the dunning history. To print the total of all items selected, you have to create the total in your dunning form in the Exit-During-Loop of level OPEN_ ITEM, print it, and then reset it in the Exit-After-Loop.\n\nCalculating Charges\n\nUse\n\nYou can automatically charge your customers for the creation of dunning notices.\n\nActivitiac",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p018_b000",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    255,
+    134,
+    2440,
+    500
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "component. In events 0770 and 0773, you can determine the recipient and address for a dunning letter dependent on the dunning level. i Note To avoid printing dunning notices that have already been reversed, always print the documents immediately after the dunning activity run.",
+   "section_id": "doc_026_sec_080"
+  },
+  {
+   "block_id": "doc_026_p018_b001",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    124,
+    621,
+    413,
+    659
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Payment Forms",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_081"
+  },
+  {
+   "block_id": "doc_026_p018_b002",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    122,
+    744,
+    2488,
+    1604
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "text": "If you use the function modules *DUNNING PR CORR CONT 0350 as a dunning activity, you can also send a payment form for the dunned items and the related interest and charge documents with the dunning letter. If the activity for creating correspondence has not created a payment form number, you can assign the payment form number using the function module FKK_DUNNING PF_NO DET 0350. The internal and external payment form numbers are saved in the dunning header and can be used to assign the open items on payment receipt. You print using the Print Workbench. There, certain form classes, such as form class IS_U_ CA DUNNING, provide data in structure PAYMO (Attached Payment Media Output). You can print this data on the attached payment form. The application form itself can also trigger a special printout using a separate CALL FUNCTION OPEN FORM. Using a collection, you can print the application form and the payment form attached together (see also the documentation for the Print Workbench). For detailed information about creating payment forms, see Payment Forms.",
+   "section_id": "doc_026_sec_081"
+  },
+  {
+   "block_id": "doc_026_p018_b003",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    123,
+    1717,
+    383,
+    1762
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_082"
+  },
+  {
+   "block_id": "doc_026_p018_b004",
+   "type": "list",
+   "page_number": 18,
+   "bbox": [
+    214,
+    1849,
+    2430,
+    1954
+   ],
+   "ocr_confidence": 90.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Configure the application forms you need in Customizing for Contract Accounts Receivable and Payable under |}Basic Functions >\u00bb Print Workbench > Define Application Forms 3. For more information, see Processing Application Forms in"
+    }
+   ],
+   "section_id": "doc_026_sec_082"
+  },
+  {
+   "block_id": "doc_026_p018_b005",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    254,
+    1974,
+    1061,
+    2005
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "the documentation for the Print Workbench.",
+   "section_id": "doc_026_sec_082"
+  },
+  {
+   "block_id": "doc_026_p018_b006",
+   "type": "list",
+   "page_number": 18,
+   "bbox": [
+    211,
+    2076,
+    2455,
+    2348
+   ],
+   "ocr_confidence": 89.8,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Assign the application form to the required dunning activity in the Customizing activity Configure Dunning Activities (see Business Transactions } Dunning Notices %)."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Define the dunning activities in the individual dunning levels of the dunning procedure (see |*Business Transactions Dunning Notices \u00bb Configure Dunning Procedures 3%)."
+    }
+   ],
+   "section_id": "doc_026_sec_082"
+  },
+  {
+   "block_id": "doc_026_p018_b007",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    122,
+    2427,
+    2473,
+    2659
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "If you set the indicator Print All Items in Customizing for the dunning level (screen area History and Dunning Printing), you can include items that are due in the future (info items) in the printout. The info items are not displayed in the dunning history. To print the total of all items selected, you have to create the total in your dunning form in the Exit-During-Loop of level OPEN_ ITEM, print it, and then reset it in the Exit-After-Loop.",
+   "section_id": "doc_026_sec_082"
+  },
+  {
+   "block_id": "doc_026_p018_b008",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    125,
+    2805,
+    851,
+    2881
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Calculating Charges",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_083"
+  },
+  {
+   "block_id": "doc_026_p018_b009",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    125,
+    2982,
+    225,
+    3027
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_084"
+  },
+  {
+   "block_id": "doc_026_p018_b010",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    123,
+    3114,
+    1592,
+    3152
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You can automatically charge your customers for the creation of dunning notices.",
+   "section_id": "doc_026_sec_084"
+  },
+  {
+   "block_id": "doc_026_p018_b011",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    126,
+    3264,
+    383,
+    3300
+   ],
+   "ocr_confidence": 87.4,
+   "flags": [],
+   "text": "Activitiac",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_085"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.1152,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "0eae6acde3a5c2970b771018b09e70847de53d319abfa934facd4f5703e6248d"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Creating Printed Records",
+  "Key Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_080",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_081",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_082",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_083",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_084",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_085",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,393 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 23,
+ "source_page_hash": "37bbc0b1ec47337c75fc2e8dc4c5a39414afd13592a7d3bcee83d61bc7ee2b2f",
+ "is_cover_page": false,
+ "title": "Technical Data",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nTechnical Data\n\nEntity Type                                                                Service Operation\n\nRelease State                                                             released\n\nTechnical Name                                                      ContractAccountERPSplitltemGroupByBusinessPartnerlDQueryResponse_In\nNamespace                                                               http://sap.com/xi/FICA/Global rie\nApplication Component                                                FI-CA\n\nWeb Service Definition (Back End)                                 ECC_CONTACC_SP_ITEM_GRP_BYBPQR\nDirection                                                                        inbound\n\nMode                                                                             synchronous\n\nIdempotency                                                                   no\n\nChange/Update Behavior                                               not applicable\n\nP2P Communication Enabled                                         true\n\nBusiness Context and Use\n\nThe inbound operation Find Contract Account Split Item Group by Business Partner ID returns the items of one or more\ncontract accounts of a business partner according to specified selection criteria. The items are grouped with reference to the\noriginal invoice.\n\nSee the Features section for a description of the available selection criteria and the returned fields.\n\nRelated Operations\n\nThe inbound operations Find Contract Account Receivables Payables Register Item by ID and Find Contract Account Split Item\nGroup by Elements return the items of a contract account based on other selection criteria.\n\nYou can use the operation Create Payment Directive to assign Splititems to a PaymentDirective and thus release them for\ncollection by the corresponding payment run. The released SplitItems are grouped together if they are set to be paid by the same\n\npayment method.\n\nFeatures\n\nThis operation returns the Items and Splitltems of a contract account for a specified business partner. Each Item, comprising one\nor more Splitltems, may be open or cleared, or may contain a combination of open and cleared (subordinate) Splititems.\n\nThe corresponding data elements in SAP S/4HANA are:\n\ne Items: OPBEL + OPUPW + OPUPK\n\ne Splitltems: OPUPZ\n\nNote that in the FI-CA back end a cleared split item always points to its clearing document, whereas in this message structure the\n",
+ "cleaned_text": "Technical Data\n\nEntity Type | Service Operation\n\nRelease State | released\n\nTechnical Name | ContractAccountERPSplitltemGroupByBusinessPartnerlDQueryResponse_In\n\nNamespace | http://sap.com/xi/FICA/Global rie\n\nApplication Component | FI-CA\n\nWeb Service Definition (Back End) | ECC_CONTACC_SP_ITEM_GRP_BYBPQR\n\nDirection | inbound\n\nMode | synchronous\n\nIdempotency | no\n\nChange/Update Behavior | not applicable\n\nP2P Communication Enabled | true\n\nBusiness Context and Use\n\nThe inbound operation Find Contract Account Split Item Group by Business Partner ID returns the items of one or more contract accounts of a business partner according to specified selection criteria. The items are grouped with reference to the original invoice. See the Features section for a description of the available selection criteria and the returned fields.\n\nRelated Operations\n\nThe inbound operations Find Contract Account Receivables Payables Register Item by ID and Find Contract Account Split Item Group by Elements return the items of a contract account based on other selection criteria. You can use the operation Create Payment Directive to assign Splititems to a PaymentDirective and thus release them for collection by the corresponding payment run. The released SplitItems are grouped together if they are set to be paid by the same payment method.\n\nFeatures\n\nThis operation returns the Items and Splitltems of a contract account for a specified business partner. Each Item, comprising one or more Splitltems, may be open or cleared, or may contain a combination of open and cleared (subordinate) Splititems. The corresponding data elements in SAP S/4HANA are:\n\n- Items: OPBEL + OPUPW + OPUPK\n\n- Splitltems: OPUPZ\n\nNote that in the FI-CA back end a cleared split item always points to its clearing document, whereas in this message structure the",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p023_b000",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    123,
+    126,
+    530,
+    172
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_143"
+  },
+  {
+   "block_id": "doc_018_p023_b001",
+   "type": "table",
+   "page_number": 23,
+   "bbox": [
+    148,
+    281,
+    2463,
+    1371
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1163
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ],
+    [
+     "Technical Name",
+     "ContractAccountERPSplitltemGroupByBusinessPartnerlDQueryResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global rie"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "ECC_CONTACC_SP_ITEM_GRP_BYBPQR"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ],
+    [
+     "Technical Name",
+     "ContractAccountERPSplitltemGroupByBusinessPartnerlDQueryResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global rie"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "ECC_CONTACC_SP_ITEM_GRP_BYBPQR"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "section_id": "doc_018_sec_143"
+  },
+  {
+   "block_id": "doc_018_p023_b002",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    126,
+    1512,
+    853,
+    1558
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Business Context and Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_144"
+  },
+  {
+   "block_id": "doc_018_p023_b003",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    122,
+    1645,
+    2382,
+    1930
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The inbound operation Find Contract Account Split Item Group by Business Partner ID returns the items of one or more contract accounts of a business partner according to specified selection criteria. The items are grouped with reference to the original invoice. See the Features section for a description of the available selection criteria and the returned fields.",
+   "section_id": "doc_018_sec_144"
+  },
+  {
+   "block_id": "doc_018_p023_b004",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    124,
+    2017,
+    482,
+    2054
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Related Operations",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_145"
+  },
+  {
+   "block_id": "doc_018_p023_b005",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    122,
+    2134,
+    2454,
+    2488
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "The inbound operations Find Contract Account Receivables Payables Register Item by ID and Find Contract Account Split Item Group by Elements return the items of a contract account based on other selection criteria. You can use the operation Create Payment Directive to assign Splititems to a PaymentDirective and thus release them for collection by the corresponding payment run. The released SplitItems are grouped together if they are set to be paid by the same payment method.",
+   "section_id": "doc_018_sec_145"
+  },
+  {
+   "block_id": "doc_018_p023_b006",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    126,
+    2601,
+    361,
+    2645
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_146"
+  },
+  {
+   "block_id": "doc_018_p023_b007",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    122,
+    2730,
+    2463,
+    2955
+   ],
+   "ocr_confidence": 92.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "This operation returns the Items and Splitltems of a contract account for a specified business partner. Each Item, comprising one or more Splitltems, may be open or cleared, or may contain a combination of open and cleared (subordinate) Splititems. The corresponding data elements in SAP S/4HANA are:",
+   "section_id": "doc_018_sec_146"
+  },
+  {
+   "block_id": "doc_018_p023_b008",
+   "type": "list",
+   "page_number": 23,
+   "bbox": [
+    207,
+    3038,
+    868,
+    3178
+   ],
+   "ocr_confidence": 74.4,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Items: OPBEL + OPUPW + OPUPK"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Splitltems: OPUPZ"
+    }
+   ],
+   "section_id": "doc_018_sec_146"
+  },
+  {
+   "block_id": "doc_018_p023_b009",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    125,
+    3262,
+    2459,
+    3300
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Note that in the FI-CA back end a cleared split item always points to its clearing document, whereas in this message structure the",
+   "section_id": "doc_018_sec_146"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "37bbc0b1ec47337c75fc2e8dc4c5a39414afd13592a7d3bcee83d61bc7ee2b2f"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Find Contract Account Split Item Group by Business Partner ID",
+  "Technical Data"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_143",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_144",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_145",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_146",
+   "role": "starts_here"
+  }
+ ]
+}

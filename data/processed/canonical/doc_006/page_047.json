@@ -1,0 +1,379 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 47,
+ "source_page_hash": "7299a741e88563adc81ba18119065ec9f3af43a7ff01e3514d0608f2d831278d",
+ "is_cover_page": false,
+ "title": "Prerequisites",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nPrerequisites\n\nSingle order creation may be based on schedule records, which are generated in scheduling (order creation for periodic meter\nreading), or on the dates for meter reading and billing that you have entered. Billing is dependent on the meter reading reason.\n\nFeatures\n\nYou can create meter reading orders at the following levels:\n\ne Meter reading unit\ne Contract\n\ne Installation\n\ne Device\n\nEach level is permitted for certain meter reading reasons only. You can use the F4 input help to display the corresponding meter\nreading reasons for each level.\n\nEach meter reading order creation process is linked to certain dates. You can enter any date, except in the case of periodic meter\nreadings. If the meter reading reason is relevant to billing, enter both a scheduled meter reading date and a scheduled billing date\n\nso that a billing order can be created. If you create meter reading orders for a periodic meter reading, the system uses the dates\nfrom scheduling. The scheduled meter reading category is always meter reading by the utility company.\n\nEach day you can enter one allocation date each for meter reading and for for billing. The allocation date of the meter reading is\ntransferred to the meter reading result.\n\nThe following three indicators allow you to control single order creation externally:\ne Use MR cat. from sched. rec.\n\nIf you select this field, the scheduled meter reading category of the schedule record has priority. This allows you to create meter\nreadings by the customer if the schedule record contains the appropriate meter reading category. For more information, see Meter\nReading Control.\n\ne Meter reading interval check\n\nIf you select this field, the system checks whether a meter reading order or result exists within the meter reading interval. If so, the\nsystem suppresses the meter reading order with the lowest priority meter reading reason.\n\nYou can speed up order creation by not selecting this field. In this case, the order is always created, even if you have defined meter\nreading reason priorities for interval checks in Customizing.\n\ne Ignore contracts\n\nIf you select this field, the contracts for which orders have already been created are not checked again for completeness the next\ntime you carry out billing-related meter reading order creation. This improves performance when you repeat order creation.\n\ne Suppress service orders\n\nIf you select this field, the system prevents creation of service orders that are normally created automatically in accordance with\n",
+ "cleaned_text": "Prerequisites\n\nSingle order creation may be based on schedule records, which are generated in scheduling (order creation for periodic meter reading), or on the dates for meter reading and billing that you have entered. Billing is dependent on the meter reading reason.\n\nFeatures\n\nYou can create meter reading orders at the following levels:\n\n- Meter reading unit\n\n- Contract\n\n- Installation\n\n- Device\n\nEach level is permitted for certain meter reading reasons only. You can use the F4 input help to display the corresponding meter reading reasons for each level. Each meter reading order creation process is linked to certain dates. You can enter any date, except in the case of periodic meter readings. If the meter reading reason is relevant to billing, enter both a scheduled meter reading date and a scheduled billing date so that a billing order can be created. If you create meter reading orders for a periodic meter reading, the system uses the dates from scheduling. The scheduled meter reading category is always meter reading by the utility company. Each day you can enter one allocation date each for meter reading and for for billing. The allocation date of the meter reading is transferred to the meter reading result. The following three indicators allow you to control single order creation externally:\n\n- Use MR cat. from sched. rec.\n\nIf you select this field, the scheduled meter reading category of the schedule record has priority. This allows you to create meter readings by the customer if the schedule record contains the appropriate meter reading category. For more information, see Meter Reading Control.\n\n- Meter reading interval check\n\nIf you select this field, the system checks whether a meter reading order or result exists within the meter reading interval. If so, the system suppresses the meter reading order with the lowest priority meter reading reason. You can speed up order creation by not selecting this field. In this case, the order is always created, even if you have defined meter reading reason priorities for interval checks in Customizing.\n\n- Ignore contracts\n\nIf you select this field, the contracts for which orders have already been created are not checked again for completeness the next time you carry out billing-related meter reading order creation. This improves performance when you repeat order creation.\n\n- Suppress service orders\n\nIf you select this field, the system prevents creation of service orders that are normally created automatically in accordance with",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p047_b000",
+   "type": "heading",
+   "page_number": 47,
+   "bbox": [
+    126,
+    127,
+    492,
+    183
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_088"
+  },
+  {
+   "block_id": "doc_006_p047_b001",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    124,
+    259,
+    2403,
+    359
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Single order creation may be based on schedule records, which are generated in scheduling (order creation for periodic meter reading), or on the dates for meter reading and billing that you have entered. Billing is dependent on the meter reading reason.",
+   "section_id": "doc_006_sec_088"
+  },
+  {
+   "block_id": "doc_006_p047_b002",
+   "type": "heading",
+   "page_number": 47,
+   "bbox": [
+    126,
+    471,
+    361,
+    517
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_089"
+  },
+  {
+   "block_id": "doc_006_p047_b003",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    123,
+    604,
+    1186,
+    642
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "You can create meter reading orders at the following levels:",
+   "section_id": "doc_006_sec_089"
+  },
+  {
+   "block_id": "doc_006_p047_b004",
+   "type": "list",
+   "page_number": 47,
+   "bbox": [
+    207,
+    722,
+    586,
+    1065
+   ],
+   "ocr_confidence": 92.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Meter reading unit"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Contract"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Installation"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Device"
+    }
+   ],
+   "section_id": "doc_006_sec_089"
+  },
+  {
+   "block_id": "doc_006_p047_b005",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    122,
+    1156,
+    2458,
+    1874
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Each level is permitted for certain meter reading reasons only. You can use the F4 input help to display the corresponding meter reading reasons for each level. Each meter reading order creation process is linked to certain dates. You can enter any date, except in the case of periodic meter readings. If the meter reading reason is relevant to billing, enter both a scheduled meter reading date and a scheduled billing date so that a billing order can be created. If you create meter reading orders for a periodic meter reading, the system uses the dates from scheduling. The scheduled meter reading category is always meter reading by the utility company. Each day you can enter one allocation date each for meter reading and for for billing. The allocation date of the meter reading is transferred to the meter reading result. The following three indicators allow you to control single order creation externally:",
+   "section_id": "doc_006_sec_089"
+  },
+  {
+   "block_id": "doc_006_p047_b006",
+   "type": "list",
+   "page_number": 47,
+   "bbox": [
+    207,
+    1961,
+    768,
+    1991
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Use MR cat. from sched. rec."
+    }
+   ],
+   "section_id": "doc_006_sec_089"
+  },
+  {
+   "block_id": "doc_006_p047_b007",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    124,
+    2083,
+    2484,
+    2245
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "If you select this field, the scheduled meter reading category of the schedule record has priority. This allows you to create meter readings by the customer if the schedule record contains the appropriate meter reading category. For more information, see Meter Reading Control.",
+   "section_id": "doc_006_sec_089"
+  },
+  {
+   "block_id": "doc_006_p047_b008",
+   "type": "list",
+   "page_number": 47,
+   "bbox": [
+    207,
+    2329,
+    770,
+    2367
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Meter reading interval check"
+    }
+   ],
+   "section_id": "doc_006_sec_089"
+  },
+  {
+   "block_id": "doc_006_p047_b009",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    123,
+    2454,
+    2475,
+    2738
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "If you select this field, the system checks whether a meter reading order or result exists within the meter reading interval. If so, the system suppresses the meter reading order with the lowest priority meter reading reason. You can speed up order creation by not selecting this field. In this case, the order is always created, even if you have defined meter reading reason priorities for interval checks in Customizing.",
+   "section_id": "doc_006_sec_089"
+  },
+  {
+   "block_id": "doc_006_p047_b010",
+   "type": "list",
+   "page_number": 47,
+   "bbox": [
+    207,
+    2822,
+    552,
+    2859
+   ],
+   "ocr_confidence": 77.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Ignore contracts"
+    }
+   ],
+   "section_id": "doc_006_sec_089"
+  },
+  {
+   "block_id": "doc_006_p047_b011",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    122,
+    2947,
+    2448,
+    3047
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "If you select this field, the contracts for which orders have already been created are not checked again for completeness the next time you carry out billing-related meter reading order creation. This improves performance when you repeat order creation.",
+   "section_id": "doc_006_sec_089"
+  },
+  {
+   "block_id": "doc_006_p047_b012",
+   "type": "list",
+   "page_number": 47,
+   "bbox": [
+    207,
+    3131,
+    690,
+    3168
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Suppress service orders"
+    }
+   ],
+   "section_id": "doc_006_sec_089"
+  },
+  {
+   "block_id": "doc_006_p047_b013",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    125,
+    3252,
+    2440,
+    3290
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "If you select this field, the system prevents creation of service orders that are normally created automatically in accordance with",
+   "section_id": "doc_006_sec_089"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "7299a741e88563adc81ba18119065ec9f3af43a7ff01e3514d0608f2d831278d"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Single Order Creation",
+  "Prerequisites"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_088",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_089",
+   "role": "starts_here"
+  }
+ ]
+}

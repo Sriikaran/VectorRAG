@@ -1,0 +1,585 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_022",
+ "page_number": 6,
+ "source_page_hash": "c745d717b6de600ebd3364be6bfc82c3b17d6b130db4e367bc2af6141516ce8a",
+ "is_cover_page": false,
+ "title": "MANDT MANDT",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:59 AM\nMANDT MANDT\n\nOFFIC OFFIC_KK\n\nCHDSK CHDSK_KK\n\n-INCLUDE CI_FKKEXC_CL\nMYFIELD\n\n2. Add your entry/entries in Customizing for Contract Accounts Receivable and Payable under |*Basic Functions } Open Item\nManagement \u00bb Specify Selection Categories\n\nThe field names must match the field names in structure CIFKKEXC_CL and you must set the External Selection\nCriterion indicator for each field that you enter. In our example, add the following entry in Customizing:\n\nApplication Area R\nSelection Type 1\n\nMeaning Invoice Field Name MYFIELD\n\n3. Define event 6210. That is, in this event, convert the external selection criteria into internal selection criteria. You can do this\nas follows, for example:\n\n=, Sample Code\nFUNCTION Z_FKK SAMPLE 0210.\n\nKHeee eee ee ee ee ee ee eee ee ee ee ee ee ee ee ee ee eee ee eee ee ee ee ee ee ee ee ee eee eee eee\n*\"*\"|okale Schnittstelle:\n*N   IMPORTING\n\n*N     VALUE(I_SELTAB) LIKE ISELTAB STRUCTURE ISELTAB\n*\" TABLES\n\n*\"      T_SELTAB STRUCTURE ISELTAB\n\n*\"   EXCEPTIONS\n\n*\"      UNKNOWN SELECTION\n\nKM ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee eee eee ee eee\n\nIF i _seltab-selfn = 'MYFIELD'.\nIF i_seltab-selcu = '0123456789'.\n\nt_Seltab-selnr = '0001'.\nt_seltab-selfn = 'OPBEL'.\nt_seltab-selcu = '000000004711'.\n\nAPPEND t_seltab.\nENDIF.\nENDIF.\nENDFUNCTION.\n\nRepetition of a Posting\n\nUse\n\nYou can automatically select payments received by XI and that could not be posted directly using the repetition process and\ntrigger their posting again.\n\nU7 ome Om ee ha eee\n",
+ "cleaned_text": "MANDT MANDT\n\nOFFIC OFFIC_KK\n\nCHDSK CHDSK_KK\n\n-INCLUDE CI_FKKEXC_CL\n\nMYFIELD\n\n2 Add your entry/entries in Customizing for Contract Accounts Receivable and Payable under |*Basic Functions } Open Item Management \u00bb Specify Selection Categories\n\nThe field names must match the field names in structure CIFKKEXC_CL and you must set the External Selection Criterion indicator for each field that you enter. In our example, add the following entry in Customizing:\n\nApplication Area R\n\nSelection Type 1\n\nMeaning Invoice Field Name MYFIELD\n\n3 Define event 6210. That is, in this event, convert the external selection criteria into internal selection criteria. You can do this as follows, for example:\n\n=, Sample Code FUNCTION Z_FKK SAMPLE 0210. KHeee eee ee ee ee ee ee eee ee ee ee ee ee ee ee ee ee eee ee eee ee ee ee ee ee ee ee ee eee eee eee\n\n*\"*\"|okale | eee\n\n*N | Schnittstelle:\n\n*N | IMPORTING VALUE(I_SELTAB) LIKE | ISELTAB STRUCTURE\n\n*\" | ISELTAB\n\n*\" | TABLES T_SELTAB STRUCTURE\n\n*\" | ISELTAB\n\n*\" | EXCEPTIONS UNKNOWN\n\nKM | ee SELECTION ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee eee eee ee\n\nIF i _seltab-selfn = | eee\n\nIF i_seltab-selcu = '0123456789'. t_Seltab-selnr = '0001'. t_seltab-selfn = 'OPBEL'. t_seltab-selcu = '000000004711'.\n\nAPPEND | '000000004711'.\n\nENDIF. ENDFUNCTION. Repetition of a Posting\n\nUse\n\nYou can automatically select payments received by XI and that could not be posted directly using the repetition process and\n\ntrigger their posting | and\n\nU7 ome Om ee ha | again.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:59 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_022_p006_b000",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    256,
+    135,
+    544,
+    164
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [],
+   "text": "MANDT MANDT",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_038"
+  },
+  {
+   "block_id": "doc_022_p006_b001",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    255,
+    236,
+    561,
+    271
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "OFFIC OFFIC_KK",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_022_sec_038"
+  },
+  {
+   "block_id": "doc_022_p006_b002",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    255,
+    338,
+    608,
+    374
+   ],
+   "ocr_confidence": 91.3,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "CHDSK CHDSK_KK",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_022_sec_038"
+  },
+  {
+   "block_id": "doc_022_p006_b003",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    255,
+    545,
+    722,
+    580
+   ],
+   "ocr_confidence": 78.3,
+   "flags": [],
+   "text": "-INCLUDE CI_FKKEXC_CL",
+   "section_id": "doc_022_sec_038"
+  },
+  {
+   "block_id": "doc_022_p006_b004",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    256,
+    647,
+    418,
+    677
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [],
+   "text": "MYFIELD",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_039"
+  },
+  {
+   "block_id": "doc_022_p006_b005",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    212,
+    745,
+    2487,
+    854
+   ],
+   "ocr_confidence": 86.6,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Add your entry/entries in Customizing for Contract Accounts Receivable and Payable under |*Basic Functions } Open Item Management \u00bb Specify Selection Categories"
+    }
+   ],
+   "section_id": "doc_022_sec_039"
+  },
+  {
+   "block_id": "doc_022_p006_b006",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    254,
+    916,
+    2311,
+    1017
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The field names must match the field names in structure CIFKKEXC_CL and you must set the External Selection Criterion indicator for each field that you enter. In our example, add the following entry in Customizing:",
+   "section_id": "doc_022_sec_039"
+  },
+  {
+   "block_id": "doc_022_p006_b007",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    254,
+    1081,
+    597,
+    1118
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "Application Area R",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_040"
+  },
+  {
+   "block_id": "doc_022_p006_b008",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    254,
+    1182,
+    553,
+    1221
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Selection Type 1",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_041"
+  },
+  {
+   "block_id": "doc_022_p006_b009",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    256,
+    1284,
+    956,
+    1322
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "Meaning Invoice Field Name MYFIELD",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_042"
+  },
+  {
+   "block_id": "doc_022_p006_b010",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    211,
+    1389,
+    2488,
+    1489
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Define event 6210. That is, in this event, convert the external selection criteria into internal selection criteria. You can do this as follows, for example:"
+    }
+   ],
+   "section_id": "doc_022_sec_042"
+  },
+  {
+   "block_id": "doc_022_p006_b011",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    282,
+    1569,
+    1943,
+    1736
+   ],
+   "ocr_confidence": 38.6,
+   "flags": [
+    "low_confidence_words:33"
+   ],
+   "text": "=, Sample Code FUNCTION Z_FKK SAMPLE 0210. KHeee eee ee ee ee ee ee eee ee ee ee ee ee ee ee ee ee eee ee eee ee ee ee ee ee ee ee ee eee eee eee",
+   "section_id": "doc_022_sec_042"
+  },
+  {
+   "block_id": "doc_022_p006_b012",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    315,
+    1732,
+    2015,
+    2168
+   ],
+   "ocr_confidence": 46.7,
+   "flags": [
+    "low_confidence_words:38",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 7,
+   "column_starts": [
+    315,
+    431,
+    576,
+    653,
+    1028,
+    1527,
+    1957
+   ],
+   "headers": [
+    "*\"*\"|okale",
+    "eee"
+   ],
+   "rows": [
+    [
+     "*N",
+     "Schnittstelle:"
+    ],
+    [
+     "*N",
+     "IMPORTING VALUE(I_SELTAB) LIKE",
+     "ISELTAB STRUCTURE"
+    ],
+    [
+     "*\"",
+     "ISELTAB"
+    ],
+    [
+     "*\"",
+     "TABLES T_SELTAB STRUCTURE"
+    ],
+    [
+     "*\"",
+     "ISELTAB"
+    ],
+    [
+     "*\"",
+     "EXCEPTIONS UNKNOWN"
+    ],
+    [
+     "KM",
+     "ee SELECTION ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee eee eee ee"
+    ],
+    [
+     "IF i _seltab-selfn =",
+     "eee"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "*\"*\"|okale",
+     "eee"
+    ],
+    [
+     "*N",
+     "Schnittstelle:"
+    ],
+    [
+     "*N",
+     "IMPORTING VALUE(I_SELTAB) LIKE",
+     "ISELTAB STRUCTURE"
+    ],
+    [
+     "*\"",
+     "ISELTAB"
+    ],
+    [
+     "*\"",
+     "TABLES T_SELTAB STRUCTURE"
+    ],
+    [
+     "*\"",
+     "ISELTAB"
+    ],
+    [
+     "*\"",
+     "EXCEPTIONS UNKNOWN"
+    ],
+    [
+     "KM",
+     "ee SELECTION ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee eee eee ee"
+    ],
+    [
+     "IF i _seltab-selfn =",
+     "eee"
+    ]
+   ],
+   "section_id": "doc_022_sec_042"
+  },
+  {
+   "block_id": "doc_022_p006_b013",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    363,
+    2129,
+    1134,
+    2352
+   ],
+   "ocr_confidence": 90.1,
+   "flags": [],
+   "text": "IF i_seltab-selcu = '0123456789'. t_Seltab-selnr = '0001'. t_seltab-selfn = 'OPBEL'. t_seltab-selcu = '000000004711'.",
+   "section_id": "doc_022_sec_042"
+  },
+  {
+   "block_id": "doc_022_p006_b014",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    527,
+    2313,
+    1276,
+    2388
+   ],
+   "ocr_confidence": 92.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    527,
+    939
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "APPEND",
+     "'000000004711'."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "APPEND",
+     "'000000004711'."
+    ]
+   ],
+   "section_id": "doc_022_sec_042"
+  },
+  {
+   "block_id": "doc_022_p006_b015",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    128,
+    2358,
+    896,
+    2835
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [],
+   "text": "ENDIF. ENDFUNCTION. Repetition of a Posting",
+   "section_id": "doc_022_sec_042"
+  },
+  {
+   "block_id": "doc_022_p006_b016",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    676,
+    2759,
+    941,
+    2835
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_043"
+  },
+  {
+   "block_id": "doc_022_p006_b017",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    123,
+    2936,
+    2283,
+    3106
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You can automatically select payments received by XI and that could not be posted directly using the repetition process and",
+   "section_id": "doc_022_sec_043"
+  },
+  {
+   "block_id": "doc_022_p006_b018",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    122,
+    3068,
+    2360,
+    3300
+   ],
+   "ocr_confidence": 69.1,
+   "flags": [
+    "low_confidence_words:4",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    122,
+    495,
+    2296
+   ],
+   "headers": [
+    "trigger their posting",
+    "and"
+   ],
+   "rows": [
+    [
+     "U7 ome Om ee ha",
+     "again."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "trigger their posting",
+     "and"
+    ],
+    [
+     "U7 ome Om ee ha",
+     "again."
+    ]
+   ],
+   "section_id": "doc_022_sec_043"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 46,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Processing Incoming Payments from External Cash Desks",
+  "source_pdf": "22.pdf",
+  "reference_pdf": "22_Processing_Incoming_Payments_from_External_Cash_Desks.pdf",
+  "category": "Payments & Clearing",
+  "m2c_relevance": "Relevant to real-time external payment and reversal scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 73,
+   "page_hash": "c745d717b6de600ebd3364be6bfc82c3b17d6b130db4e367bc2af6141516ce8a"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:44Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Processing Incoming Payments from External Cash Desks",
+  "Entry of a Payment with External Selections",
+  "MANDT MANDT"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_022_sec_038",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_039",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_040",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_041",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_042",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_043",
+   "role": "starts_here"
+  }
+ ]
+}

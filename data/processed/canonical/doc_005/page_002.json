@@ -1,0 +1,266 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_005",
+ "page_number": 2,
+ "source_page_hash": "5ca2f2705d51bb56d91e77026d77ad2a1aeb3e228acfdff24aff10c6722d7b33",
+ "is_cover_page": false,
+ "title": "Device Management",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:41 AM\n\nDevice Management\n\nPurpose\n\nThis component manages technical data, installations, meter readings, and the inspection of devices.\n\nIf you have activated the Advanced Metering Infrastructure business function (ISU_AMI_1) and you are in an advanced\nmetering infrastructure, you can find more information under Advanced Metering Infrastructure.\n\nIntegration\n\nThe following table lists the standard application components that must be integrated into device management before you can\nmanage devices. The device, device category, and device number in the Utilities Industry (IS-U) component correspond to\nequipment, material, and the serial number in the standard system:\n\nName in IS-U                          From Component                    Name in Standard System\nDevice                                     Plant Maintenance (PM)            Equipment\n\nDevice Category                      Logistics Basic Data (LO-MD) | Material\n\nDevice Number                      Logistics Basic Data (LO-MD) | Serial Number\n\nThe device number is created in MM with the Goods Receipt function and transferred to the device. It can also be generated when\nyou create a device in IS-U. The device is identified by a unique material and serial number combination to distinguish it from other\npieces of material that may have the same serial number. The equipment number is the same throughout the system.\n",
+ "cleaned_text": "Device Management\n\nPurpose\n\nThis component manages technical data, installations, meter readings, and the inspection of devices. If you have activated the Advanced Metering Infrastructure business function (ISU_AMI_1) and you are in an advanced metering infrastructure, you can find more information under Advanced Metering Infrastructure.\n\nIntegration\n\nThe following table lists the standard application components that must be integrated into device management before you can manage devices. The device, device category, and device number in the Utilities Industry (IS-U) component correspond to equipment, material, and the serial number in the standard system:\n\nName in IS-U | From Component | Name in Standard System\n\nDevice | Plant Maintenance (PM) | Equipment\n\nDevice Category | Logistics Basic Data (LO-MD) | Material\n\nDevice Number | Logistics Basic Data (LO-MD) | Serial Number\n\nThe device number is created in MM with the Goods Receipt function and transferred to the device. It can also be generated when you create a device in IS-U. The device is identified by a unique material and serial number combination to distinguish it from other pieces of material that may have the same serial number. The equipment number is the same throughout the system.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:41 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_005_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    256,
+    862,
+    332
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Device Management",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_005_sec_001"
+  },
+  {
+   "block_id": "doc_005_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    435,
+    352,
+    492
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Purpose",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_005_sec_002"
+  },
+  {
+   "block_id": "doc_005_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    565,
+    2331,
+    794
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "This component manages technical data, installations, meter readings, and the inspection of devices. If you have activated the Advanced Metering Infrastructure business function (ISU_AMI_1) and you are in an advanced metering infrastructure, you can find more information under Advanced Metering Infrastructure.",
+   "section_id": "doc_005_sec_002"
+  },
+  {
+   "block_id": "doc_005_p002_b003",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    127,
+    906,
+    431,
+    963
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p002_b004",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    1039,
+    2412,
+    1201
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The following table lists the standard application components that must be integrated into device management before you can manage devices. The device, device category, and device number in the Utilities Industry (IS-U) component correspond to equipment, material, and the serial number in the standard system:",
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p002_b005",
+   "type": "table",
+   "page_number": 2,
+   "bbox": [
+    149,
+    1310,
+    1707,
+    1669
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    149,
+    703,
+    1257
+   ],
+   "headers": [
+    "Name in IS-U",
+    "From Component",
+    "Name in Standard System"
+   ],
+   "rows": [
+    [
+     "Device",
+     "Plant Maintenance (PM)",
+     "Equipment"
+    ],
+    [
+     "Device Category",
+     "Logistics Basic Data (LO-MD) | Material"
+    ],
+    [
+     "Device Number",
+     "Logistics Basic Data (LO-MD) | Serial Number"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Name in IS-U",
+     "From Component",
+     "Name in Standard System"
+    ],
+    [
+     "Device",
+     "Plant Maintenance (PM)",
+     "Equipment"
+    ],
+    [
+     "Device Category",
+     "Logistics Basic Data (LO-MD) | Material"
+    ],
+    [
+     "Device Number",
+     "Logistics Basic Data (LO-MD) | Serial Number"
+    ]
+   ],
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p002_b006",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    1772,
+    2484,
+    1935
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The device number is created in MM with the Goods Receipt function and transferred to the device. It can also be generated when you create a device in IS-U. The device is identified by a unique material and serial number combination to distinguish it from other pieces of material that may have the same serial number. The equipment number is the same throughout the system.",
+   "section_id": "doc_005_sec_003"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.093,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Device Management Overview",
+  "source_pdf": "5.pdf",
+  "reference_pdf": "05_Device_Management_Overview.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Establishes how physical metering assets connect to the Meter-to-Cash chain.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "5ca2f2705d51bb56d91e77026d77ad2a1aeb3e228acfdff24aff10c6722d7b33"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Device Management Overview",
+  "Device Management"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_005_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_005_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_005_sec_003",
+   "role": "starts_here"
+  }
+ ]
+}

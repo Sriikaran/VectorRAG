@@ -1,0 +1,560 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_025",
+ "page_number": 2,
+ "source_page_hash": "9ba8ec8013c77170ff3717ebb485c7fabb702141e5098e38d96df671afd56218",
+ "is_cover_page": false,
+ "title": "Displaying and Changing Installment Plans",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n\nDisplaying and Changing Installment Plans\n\nTo view or change existing installment agreements for a business partner, proceed as follows:\n\n1. In the SAP Easy Access screen, choose |)Account\n\n2. Choose Change or Display.\n\n3. Specify the desired installment plan and choose Continue.\n\n1 Note\n\nInstallment Plan >\u00bb Display 3 (transaction FPR3).\n\nIf you use the input help for the Installment Plan Number field, for selection using the installment plan history, the\nsystem displays only active installment plans as standard. If you also want to display deactivated installment plans, you\n\nhave to specify a deactivation reason on the tab page Installment Plan History.\n\nThe following table lists the functions you can use when changing or displaying an installment plan:\n\nFunctions with Display and Change\n\nPrint letter\n\nDisplay source receivables in the account\nbalance display\n\nDisplay installment plan changes\n\nDisplay interest supplement\n\nDisplay / change processing locks\n\nCalling the function\n\nInstallment Plan Save + Create Letter\n\nEnvironment \u00bb Source Receivable\n(Account Display)\n\nGoto } Changes\n\nEnvironment > Interest Supplement\n\nThe system will display locks, such as\n\npayment, dunning, interest, and clearing\nlocks, together for each installment plan\n\nitem. When you place the cursor on the icon\n(3; the type of locks that exist are\ndisplayed in a quick info. For detailed\ninformation, such as the lock reason,\n\ndouble-click on the icon and select the\nrequired lock in the following dialog box.\n\nThe overview also shows a column for each\nprocessing lock with the relevant lock\nreason. If there are several locks of the\nsame type with different lock reasons, a\ntilde appears (~). By double-clicking on the\ntable field with the lock required, you can\n\nricnlarys ann nhbaAnnn than Antaile far thic lAnL\n\nProcedure / Notes\n\nThe letter is written into the\ncorrespondence container. For more\ninformation on output, see Functions for\nScheduling Program Runs, Printing\n\nCorrespondence, and Printing\nCorrespondence with the Print Workbench.\n\nThe system calls up the account balance\ndisplay. You see the documents that were\n\ntransferred to installment plan.\n\nThe precondition is that interest was\ncharged on the installment plan.\n\nTo set or change a lock, navigate using the\nicon 4 or by double-clicking on the\ncorresponding table field in the overview to\nthe dialog box for setting/changing the\nrequired lock and enter the data required.\n\nAlternatively, delete the lock reason or\nenter it in the required column in the\noverview. The field is only ready for input if\n\nonly one unlimited lock exists or if there are\nnone.\n\nIn this way, you can only set time-based\nunlimited locks.\n",
+ "cleaned_text": "Displaying and Changing Installment Plans\n\nTo view or change existing installment agreements for a business partner, proceed as follows:\n\n1 In the SAP Easy Access screen, choose |)Account\n\n2 Choose Change or Display.\n\n3 Specify the desired installment plan and choose Continue.\n\nNote Installment Plan >\u00bb Display 3 (transaction FPR3).\n\nIf you use the input help for the Installment Plan Number field, for selection using the installment plan history, the system displays only active installment plans as standard. If you also want to display deactivated installment plans, you have to specify a deactivation reason on the tab page Installment Plan History.\n\nThe following table lists the functions you can use when changing or displaying an installment plan:\n\nFunctions with Display and Change\n\nPrint letter\n\nDisplay source receivables in the account balance display\n\nDisplay installment plan changes Display interest supplement\n\nDisplay / change processing locks\n\nCalling the function\n\nInstallment Plan Save + Create Letter\n\nEnvironment \u00bb Source Receivable (Account Display)\n\nGoto } Changes\n\nEnvironment > Interest Supplement\n\nThe system will display locks, such as payment, dunning, interest, and clearing locks, together for each installment plan item. When you place the cursor on the icon (3; the type of locks that exist are displayed in a quick info. For detailed information, such as the lock reason, double-click on the icon and select the required lock in the following dialog box.\n\nThe overview also shows a column for each\n\nprocessing lock with the relevant lock reason. If there are several locks of the same type with different lock reasons, a tilde appears (~). By double-clicking on the table field with the lock required, you can\n\nricnlarys ann nhbaAnnn than Antaile far thic lAnL\n\nProcedure / Notes\n\nThe letter is written into the\n\ncorrespondence container. For more information on output, see Functions for Scheduling Program Runs, Printing Correspondence, and Printing Correspondence with the Print Workbench. The system calls up the account balance display. You see the documents that were transferred to installment plan.\n\nThe precondition is that interest was charged on the installment plan. To set or change a lock, navigate using the icon 4 or by double-clicking on the corresponding table field in the overview to the dialog box for setting/changing the required lock and enter the data required. Alternatively, delete the lock reason or enter it in the required column in the overview. The field is only ready for input if only one unlimited lock exists or if there are none. In this way, you can only set time-based unlimited locks.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    860,
+    442,
+    897
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_025_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    255,
+    1672,
+    331
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Displaying and Changing Installment Plans",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_025_sec_000"
+  },
+  {
+   "block_id": "doc_025_p002_b001",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    407,
+    1806,
+    445
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "To view or change existing installment agreements for a business partner, proceed as follows:",
+   "section_id": "doc_025_sec_000"
+  },
+  {
+   "block_id": "doc_025_p002_b002",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    211,
+    532,
+    1313,
+    773
+   ],
+   "ocr_confidence": 88.6,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "In the SAP Easy Access screen, choose |)Account"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Choose Change or Display."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Specify the desired installment plan and choose Continue."
+    }
+   ],
+   "section_id": "doc_025_sec_000"
+  },
+  {
+   "block_id": "doc_025_p002_b003",
+   "type": "note",
+   "page_number": 2,
+   "bbox": [
+    282,
+    526,
+    2087,
+    897
+   ],
+   "ocr_confidence": 83.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "label": "Note",
+   "text": "Note Installment Plan >\u00bb Display 3 (transaction FPR3).",
+   "section_id": "doc_025_sec_000"
+  },
+  {
+   "block_id": "doc_025_p002_b004",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    284,
+    939,
+    2437,
+    1102
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "If you use the input help for the Installment Plan Number field, for selection using the installment plan history, the system displays only active installment plans as standard. If you also want to display deactivated installment plans, you have to specify a deactivation reason on the tab page Installment Plan History.",
+   "section_id": "doc_025_sec_000"
+  },
+  {
+   "block_id": "doc_025_p002_b005",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    1222,
+    1913,
+    1259
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The following table lists the functions you can use when changing or displaying an installment plan:",
+   "section_id": "doc_025_sec_000"
+  },
+  {
+   "block_id": "doc_025_p002_b006",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    149,
+    1368,
+    753,
+    1404
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Functions with Display and Change",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_025_sec_001"
+  },
+  {
+   "block_id": "doc_025_p002_b007",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    150,
+    1474,
+    328,
+    1502
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Print letter",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_025_sec_002"
+  },
+  {
+   "block_id": "doc_025_p002_b008",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    149,
+    1874,
+    840,
+    1965
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Display source receivables in the account balance display",
+   "section_id": "doc_025_sec_002"
+  },
+  {
+   "block_id": "doc_025_p002_b009",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    150,
+    2095,
+    699,
+    2238
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Display installment plan changes Display interest supplement",
+   "section_id": "doc_025_sec_002"
+  },
+  {
+   "block_id": "doc_025_p002_b010",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    150,
+    2367,
+    720,
+    2402
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Display / change processing locks",
+   "section_id": "doc_025_sec_002"
+  },
+  {
+   "block_id": "doc_025_p002_b011",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    937,
+    1368,
+    1276,
+    1404
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Calling the function",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_025_sec_003"
+  },
+  {
+   "block_id": "doc_025_p002_b012",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    971,
+    1473,
+    1650,
+    1502
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "Installment Plan Save + Create Letter",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_025_sec_004"
+  },
+  {
+   "block_id": "doc_025_p002_b013",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    937,
+    1870,
+    1549,
+    1965
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [],
+   "text": "Environment \u00bb Source Receivable (Account Display)",
+   "section_id": "doc_025_sec_004"
+  },
+  {
+   "block_id": "doc_025_p002_b014",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    970,
+    2091,
+    1244,
+    2135
+   ],
+   "ocr_confidence": 84.0,
+   "flags": [],
+   "text": "Goto } Changes",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_025_sec_005"
+  },
+  {
+   "block_id": "doc_025_p002_b015",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    971,
+    2199,
+    1589,
+    2242
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "Environment > Interest Supplement",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_025_sec_006"
+  },
+  {
+   "block_id": "doc_025_p002_b016",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    937,
+    2367,
+    1669,
+    2869
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The system will display locks, such as payment, dunning, interest, and clearing locks, together for each installment plan item. When you place the cursor on the icon (3; the type of locks that exist are displayed in a quick info. For detailed information, such as the lock reason, double-click on the icon and select the required lock in the following dialog box.",
+   "section_id": "doc_025_sec_006"
+  },
+  {
+   "block_id": "doc_025_p002_b017",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    937,
+    2929,
+    1657,
+    2957
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The overview also shows a column for each",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_025_sec_007"
+  },
+  {
+   "block_id": "doc_025_p002_b018",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    936,
+    2988,
+    1658,
+    3260
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "processing lock with the relevant lock reason. If there are several locks of the same type with different lock reasons, a tilde appears (~). By double-clicking on the table field with the lock required, you can",
+   "section_id": "doc_025_sec_007"
+  },
+  {
+   "block_id": "doc_025_p002_b019",
+   "type": "fragment",
+   "page_number": 2,
+   "bbox": [
+    937,
+    3284,
+    1649,
+    3300
+   ],
+   "ocr_confidence": 42.7,
+   "flags": [
+    "low_confidence_words:5",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "ricnlarys ann nhbaAnnn than Antaile far thic lAnL",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_025_sec_007"
+  },
+  {
+   "block_id": "doc_025_p002_b020",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    1727,
+    1368,
+    2046,
+    1397
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "text": "Procedure / Notes",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_025_sec_008"
+  },
+  {
+   "block_id": "doc_025_p002_b021",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    1725,
+    1474,
+    2190,
+    1502
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The letter is written into the",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_025_sec_009"
+  },
+  {
+   "block_id": "doc_025_p002_b022",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    1725,
+    1533,
+    2447,
+    2024
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "correspondence container. For more information on output, see Functions for Scheduling Program Runs, Printing Correspondence, and Printing Correspondence with the Print Workbench. The system calls up the account balance display. You see the documents that were transferred to installment plan.",
+   "section_id": "doc_025_sec_009"
+  },
+  {
+   "block_id": "doc_025_p002_b023",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    1725,
+    2203,
+    2454,
+    3112
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The precondition is that interest was charged on the installment plan. To set or change a lock, navigate using the icon 4 or by double-clicking on the corresponding table field in the overview to the dialog box for setting/changing the required lock and enter the data required. Alternatively, delete the lock reason or enter it in the required column in the overview. The field is only ready for input if only one unlimited lock exists or if there are none. In this way, you can only set time-based unlimited locks.",
+   "section_id": "doc_025_sec_009"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59,
+  "body_stroke_median": 0.0909,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Displaying and Changing Installment Plans",
+  "source_pdf": "25.pdf",
+  "reference_pdf": "25_Displaying_and_Changing_Installment_Plans.pdf",
+  "category": "Payment Arrangements / Installment Plans",
+  "m2c_relevance": "Useful for maintenance and exception scenarios after an arrangement is created.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "9ba8ec8013c77170ff3717ebb485c7fabb702141e5098e38d96df671afd56218"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:44Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Displaying and Changing Installment Plans"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_025_sec_000",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_025_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_025_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_025_sec_003",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_025_sec_004",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_025_sec_005",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_025_sec_006",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_025_sec_007",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_025_sec_008",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_025_sec_009",
+   "role": "starts_here"
+  }
+ ]
+}

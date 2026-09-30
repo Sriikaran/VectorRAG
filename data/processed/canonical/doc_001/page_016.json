@@ -1,0 +1,321 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 16,
+ "source_page_hash": "f1e717d2debc5c0a88cff783f00855f49e430805f25c93b6525446cd29b460f1",
+ "is_cover_page": false,
+ "title": "Special case 4: Business Partner Is Payer",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\ne If different bank details or a different payment cared are used in the contract account, the system does not select the\ncontract account; however, you can select it.\n\ne lf the business partner should no longer be the alternative payer or payee for this contract account, you can click on the\n\nicon et to go directly to maintenance of the contract account. There you can remove the business partner from the\nAlternate Payer or Alt. Payee field.\n\nSpecial case 4: Business Partner Is Payer\n\nIf the entered business partner is not the contract account holder, but is entered in the contract account as payer, then the icon ee\nis displayed in the BP Is Payer column. The contract account is displayed as information only and you cannot select it.\n\nIf the business partner should no longer be the payer for this contract account, you can click on the icon Ga to go directly to\nmaintenance of the contract account. There you can remove the business partner from the Payer field and remove the contract\naccount from the Paid By field.\n\nSpecial case 5: Multiple Alternative Payees for Insurance Object (Only in FS-CD)\n\nIf multiple alternative payees are entered in Collections and Disbursements for an insurance object-partner relationship, then the\nicon 3@ is displayed in the Status column. The insurance object is displayed as information only and you cannot select it. By\n\nclicking on the icon, however, you can go directly to maintenance of the insurance object and change the data there.\n\nReplication and Synchronization of Business Partners from SAP\nCRM to SAP S/4HANA\n\n1 Note\n\nThe replication and synchronization described here is only available to you if you have activated the business function sets\nFICAX.\n\nThe replication is only relevant in a two-system scenario with SAP CRM.\n\nIf you use SAP CRM, you connect SAP CRM to SAP S/4HANA. The two components run in two separate systems.\nSAP Customer Relationship Management (CRM) uses the SAP business partner to represent customer data.\n\nSAP S/4HANA uses the SAP business partner, the customer, the supplier, and the vendor to represent master data in various\ncomponents in parallel.\n\nIn a scenario, in which you use the CRM system is your leading system, you create master data there as business partners and\ndistribute them to SAP S/4HANA using CRM Middleware. When you create a business partner, you can have the system\nautomatically create the corresponding customer or vendor master record. SAP S/4HANA then synchronizes the business partner\nwith the customer or vendor master record using customer/vendor integration (CVI). SAP S/4HANA also distributes changes to\nbusiness partner data in SAP CRM in the same way.\n\nIn a scenario, in which you use SAP CRM and the S/4HANA system is your leading system, you create master data there as\nbusiness partners and distribute them to SAP CRM using CRM Middleware. During the distribution to SAP CRM, the system takes\ninto account the sales data from the customer master record in addition to the business partner data from SAP S/4HANA. When\n\nel OR OF ATT AAI A .. CLL. wk... BB Lo 2. gk LL 2g 8. CLL BL LLL Bw CL BW ww BLL OLE CR SC Ck 2 ng 2 ' 8 C8\n",
+ "cleaned_text": "- If different bank details or a different payment cared are used in the contract account, the system does not select the contract account; however, you can select it.\n\ne lf the business partner should no longer be the alternative payer or payee for this contract account, you can click on the icon et to go directly to maintenance of the contract account. There you can remove the business partner from the Alternate Payer or Alt. Payee field.\n\nSpecial case 4: Business Partner Is Payer\n\nIf the entered business partner is not the contract account holder, but is entered in the contract account as payer, then the icon ee is displayed in the BP Is Payer column. The contract account is displayed as information only and you cannot select it. If the business partner should no longer be the payer for this contract account, you can click on the icon Ga to go directly to maintenance of the contract account. There you can remove the business partner from the Payer field and remove the contract account from the Paid By field.\n\nSpecial case 5: Multiple Alternative Payees for Insurance Object (Only in FS-CD)\n\nIf multiple alternative payees are entered in Collections and Disbursements for an insurance object-partner relationship, then the icon 3@ is displayed in the Status column. The insurance object is displayed as information only and you cannot select it. By clicking on the icon, however, you can go directly to maintenance of the insurance object and change the data there.\n\nReplication and Synchronization of Business Partners from SAP\n\nCRM to SAP S/4HANA\n\nNote The replication and synchronization described here is only available to you if you have activated the business function sets FICAX. The replication is only relevant in a two-system scenario with SAP CRM.\n\nIf you use SAP CRM, you connect SAP CRM to SAP S/4HANA. The two components run in two separate systems. SAP Customer Relationship Management (CRM) uses the SAP business partner to represent customer data. SAP S/4HANA uses the SAP business partner, the customer, the supplier, and the vendor to represent master data in various components in parallel. In a scenario, in which you use the CRM system is your leading system, you create master data there as business partners and distribute them to SAP S/4HANA using CRM Middleware. When you create a business partner, you can have the system automatically create the corresponding customer or vendor master record. SAP S/4HANA then synchronizes the business partner with the customer or vendor master record using customer/vendor integration (CVI). SAP S/4HANA also distributes changes to business partner data in SAP CRM in the same way. In a scenario, in which you use SAP CRM and the S/4HANA system is your leading system, you create master data there as business partners and distribute them to SAP CRM using CRM Middleware. During the distribution to SAP CRM, the system takes into account the sales data from the customer master record in addition to the business partner data from SAP S/4HANA. When\n\nel OR OF ATT AAI A .. CLL. wk... BB Lo 2. gk LL 2g 8. CLL BL LLL Bw CL BW ww BLL OLE CR SC Ck 2 ng 2 ' 8 C8",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1868,
+    310,
+    1906
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p016_b000",
+   "type": "list",
+   "page_number": 16,
+   "bbox": [
+    207,
+    134,
+    2368,
+    235
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If different bank details or a different payment cared are used in the contract account, the system does not select the contract account; however, you can select it."
+    }
+   ],
+   "section_id": "doc_001_sec_045"
+  },
+  {
+   "block_id": "doc_001_p016_b001",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    207,
+    299,
+    2414,
+    465
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "e lf the business partner should no longer be the alternative payer or payee for this contract account, you can click on the icon et to go directly to maintenance of the contract account. There you can remove the business partner from the Alternate Payer or Alt. Payee field.",
+   "section_id": "doc_001_sec_045"
+  },
+  {
+   "block_id": "doc_001_p016_b002",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    124,
+    575,
+    1276,
+    633
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Special case 4: Business Partner Is Payer",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_046"
+  },
+  {
+   "block_id": "doc_001_p016_b003",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    123,
+    698,
+    2485,
+    1056
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "If the entered business partner is not the contract account holder, but is entered in the contract account as payer, then the icon ee is displayed in the BP Is Payer column. The contract account is displayed as information only and you cannot select it. If the business partner should no longer be the payer for this contract account, you can click on the icon Ga to go directly to maintenance of the contract account. There you can remove the business partner from the Payer field and remove the contract account from the Paid By field.",
+   "section_id": "doc_001_sec_046"
+  },
+  {
+   "block_id": "doc_001_p016_b004",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    124,
+    1167,
+    2358,
+    1225
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "Special case 5: Multiple Alternative Payees for Insurance Object (Only in FS-CD)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_047"
+  },
+  {
+   "block_id": "doc_001_p016_b005",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    123,
+    1301,
+    2470,
+    1467
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "If multiple alternative payees are entered in Collections and Disbursements for an insurance object-partner relationship, then the icon 3@ is displayed in the Status column. The insurance object is displayed as information only and you cannot select it. By clicking on the icon, however, you can go directly to maintenance of the insurance object and change the data there.",
+   "section_id": "doc_001_sec_047"
+  },
+  {
+   "block_id": "doc_001_p016_b006",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    128,
+    1612,
+    2433,
+    1689
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Replication and Synchronization of Business Partners from SAP",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_048"
+  },
+  {
+   "block_id": "doc_001_p016_b007",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    125,
+    1701,
+    943,
+    1762
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "CRM to SAP S/4HANA",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_049"
+  },
+  {
+   "block_id": "doc_001_p016_b008",
+   "type": "note",
+   "page_number": 16,
+   "bbox": [
+    151,
+    1868,
+    2365,
+    2173
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "label": "Note",
+   "text": "Note The replication and synchronization described here is only available to you if you have activated the business function sets FICAX. The replication is only relevant in a two-system scenario with SAP CRM.",
+   "section_id": "doc_001_sec_049"
+  },
+  {
+   "block_id": "doc_001_p016_b009",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    123,
+    2293,
+    2483,
+    3263
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "If you use SAP CRM, you connect SAP CRM to SAP S/4HANA. The two components run in two separate systems. SAP Customer Relationship Management (CRM) uses the SAP business partner to represent customer data. SAP S/4HANA uses the SAP business partner, the customer, the supplier, and the vendor to represent master data in various components in parallel. In a scenario, in which you use the CRM system is your leading system, you create master data there as business partners and distribute them to SAP S/4HANA using CRM Middleware. When you create a business partner, you can have the system automatically create the corresponding customer or vendor master record. SAP S/4HANA then synchronizes the business partner with the customer or vendor master record using customer/vendor integration (CVI). SAP S/4HANA also distributes changes to business partner data in SAP CRM in the same way. In a scenario, in which you use SAP CRM and the S/4HANA system is your leading system, you create master data there as business partners and distribute them to SAP CRM using CRM Middleware. During the distribution to SAP CRM, the system takes into account the sales data from the customer master record in addition to the business partner data from SAP S/4HANA. When",
+   "section_id": "doc_001_sec_049"
+  },
+  {
+   "block_id": "doc_001_p016_b010",
+   "type": "fragment",
+   "page_number": 16,
+   "bbox": [
+    123,
+    3281,
+    2476,
+    3300
+   ],
+   "ocr_confidence": 27.1,
+   "flags": [
+    "low_confidence_words:34",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "el OR OF ATT AAI A .. CLL. wk... BB Lo 2. gk LL 2g 8. CLL BL LLL Bw CL BW ww BLL OLE CR SC Ck 2 ng 2 ' 8 C8",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_049"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.0976,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "f1e717d2debc5c0a88cff783f00855f49e430805f25c93b6525446cd29b460f1"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Special case 1: Alterative Payer or Payee",
+  "Special case 2: Alternative Payment Details"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_045",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_046",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_047",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_048",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_049",
+   "role": "starts_here"
+  }
+ ]
+}

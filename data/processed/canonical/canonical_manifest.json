@@ -1,0 +1,72 @@
+{
+ "generated_at": "2026-09-30T10:19:53Z",
+ "pipeline": "canonicalize.py v1.1",
+ "schema_version": "1.0",
+ "processing": {
+  "documents": 29,
+  "pages_processed": 0,
+  "pages_skipped_up_to_date": 501,
+  "elapsed_seconds": 0.3
+ },
+ "inputs": {
+  "ocr": "data/processed/ocr",
+  "inventory": "corpus_inventory.json",
+  "ocr_artifacts_modified": false
+ },
+ "totals": {
+  "pages": 501,
+  "blocks": 6073,
+  "headings": 1961,
+  "paragraphs": 2454,
+  "lists": 769,
+  "list_items": 1951,
+  "tables": 496,
+  "table_rows": 1113,
+  "notes": 161,
+  "examples": 22,
+  "fragments": 67,
+  "cover_meta": 116,
+  "noise_spans": 640,
+  "characters_raw": 998154,
+  "characters_cleaned": 939672,
+  "headings_by_level": {
+   "2": 367,
+   "3": 770,
+   "4": 678
+  },
+  "heading_candidates_low": 146
+ },
+ "detection_settings": {
+  "render_dpi": 150,
+  "render_scale": 0.5,
+  "dark_threshold": 160,
+  "stroke_bold_ratio": 1.25,
+  "stroke_bold_abs": 0.128,
+  "heading_min_bg": 253,
+  "level2_min_height": 58,
+  "level2_min_stroke": 0.1,
+  "level3_min_height": 40,
+  "heading_max_len": 95,
+  "column_gap": 60,
+  "column_align_tol": 28,
+  "graphic_bg": 252,
+  "cut_off_y": 3260,
+  "cut_off_max_h": 26,
+  "low_word_conf": 60,
+  "header_ink_factor": 1.25,
+  "para_gap_factor": 1.6,
+  "heading_gap_factor": 1.3,
+  "nav_timestamp_y": 150
+ },
+ "authority_model": {
+  "3": "SAP Help source content (text/blocks)",
+  "2": "curated reference metadata (corpus_inventory.json)",
+  "1": "generated/internal metadata (ids, detection, thresholds)"
+ },
+ "known_limitations": [
+  "OCR substitutions (e.g. 'FPSO1', 'AP -MD') are intentionally NOT corrected",
+  "non-bold layout-only heading candidates are flagged but do not create sections",
+  "tables are reconstructed from x-gap clustering; complex/nested layouts may be imperfect",
+  "cross-page tables are flagged as continuations but not merged (per-page evidence kept)"
+ ]
+}

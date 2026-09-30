@@ -1,0 +1,545 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 96,
+ "source_page_hash": "54c8abae0f706d29e945b4a10147356069c8998742c860d2f58c741d0b48a93c",
+ "is_cover_page": false,
+ "title": "Determination",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\n\u00ab If the new device has more registers than the old device, the system determines the quantity determination\nprocedure from the Customizing settings for the new registers. It uses the replacement date as the start\ndate for determining the quantity determination procedure.\n\n= If the new device has fewer registers than the old device, the system determines the quantity determination\n\nprocedure from the Customizing settings for the registers to be removed. The replacement date minus a day\nis used as the Valid_To date here.\n\nb. If the quantity determination procedure for the old device was not yet defined before the replacement:\n= The quantity determination procedure for the old and new device is defined for the billing-relevant period.\n5. For a billing-related removal:\n\na. If the quantity determination procedure for the device was already defined before the removal:\n\ni Note\n\nThis example shows the follow-on activity according to the example in point 3 (billing-related installation).\n\n\u00bb During removal from the second installation (gas installation) on December 31, 2011 the system does not\nchange the quantity determination procedure.\n\nDevice                       Register                     Valid from                  Valid to                      Quantity\nDetermination\nProcedure\n\nNNN                         1                               January 1, 2011            April 30, 2011              02\n\nNNN                         1                               May 01, 2011               December 30, 2011       03\n\nNNN                         1                               December 31, 2011       December 31, 9999       02\n\n= During removal from the final installation (electricity installation) on February O1, 2012, the system changes\nthe quantity determination procedure as follows:\n\nDevice                       Register                     Valid from                  Valid to                      Quantity\nDetermination\nProcedure\n\nNNN                         1                               January 01, 2011          April 30, 2011               02\n\nNNN                         1                               May 01, 2011               December 30, 2011       03\n\nNNN                         1                               December 31, 2011       January 31, 2012          02\n\nb. If the quantity determination procedure for the device was not yet defined before the removal:\n\n= The quantity determination procedure for the device is defined for the billing-relevant period.\n\n6. For a full removal:\n\na. If the quantity determination procedure for the device was defined before the removal:\n\n\u2014     aed  to.   .  \u2014      .   .  toe   .  er   an  ~  1  oe    nae   e\n",
+ "cleaned_text": "\u00ab If the new device has more registers than the old device, the system determines the quantity determination procedure from the Customizing settings for the new registers. It uses the replacement date as the start date for determining the quantity determination procedure. = If the new device has fewer registers than the old device, the system determines the quantity determination procedure from the Customizing settings for the registers to be removed. The replacement date minus a day is used as the Valid_To date here. b. If the quantity determination procedure for the old device was not yet defined before the replacement: = The quantity determination procedure for the old and new device is defined for the billing-relevant period.\n\n5 For a billing-related removal: a. If the quantity determination procedure for the device was already defined before the removal: i Note This example shows the follow-on activity according to the example in point 3 (billing-related installation).\n\n\u00bb During removal from the second installation (gas installation) on December 31, 2011 the system does not change the quantity determination procedure.\n\nDevice | Register | Valid from | Valid to | Quantity\n\nDetermination\n\nProcedure\n\nNNN | 1 | January 1, 2011 | April 30, 2011 | 02\n\nNNN | 1 | May 01, 2011 | December 30, 2011 | 03\n\nNNN | 1 | December 31, 2011 | December 31, 9999 | 02\n\n= During removal from the final installation (electricity installation) on February O1, 2012, the system changes the quantity determination procedure as follows:\n\nDevice | Register | Valid from | Valid to | Quantity\n\nDetermination\n\nProcedure\n\nNNN | 1 | January 01, 2011 | April 30, 2011 | 02\n\nNNN | 1 | May 01, 2011 | December 30, 2011 | 03\n\nNNN | 1 | December 31, 2011 | January 31, 2012 | 02\n\nb. If the quantity determination procedure for the device was not yet defined before the removal: = The quantity determination procedure for the device is defined for the billing-relevant period.\n\n6 For a full removal: a. If the quantity determination procedure for the device was defined before the removal:\n\n\u2014 aed to. . \u2014 . . toe . er an ~ 1 oe nae e",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p096_b000",
+   "type": "paragraph",
+   "page_number": 96,
+   "bbox": [
+    346,
+    134,
+    2479,
+    731
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "\u00ab If the new device has more registers than the old device, the system determines the quantity determination procedure from the Customizing settings for the new registers. It uses the replacement date as the start date for determining the quantity determination procedure. = If the new device has fewer registers than the old device, the system determines the quantity determination procedure from the Customizing settings for the registers to be removed. The replacement date minus a day is used as the Valid_To date here. b. If the quantity determination procedure for the old device was not yet defined before the replacement: = The quantity determination procedure for the old and new device is defined for the billing-relevant period.",
+   "section_id": "doc_006_sec_267"
+  },
+  {
+   "block_id": "doc_006_p096_b001",
+   "type": "list",
+   "page_number": 96,
+   "bbox": [
+    211,
+    798,
+    2325,
+    1138
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "For a billing-related removal: a. If the quantity determination procedure for the device was already defined before the removal: i Note This example shows the follow-on activity according to the example in point 3 (billing-related installation)."
+    }
+   ],
+   "section_id": "doc_006_sec_267"
+  },
+  {
+   "block_id": "doc_006_p096_b002",
+   "type": "paragraph",
+   "page_number": 96,
+   "bbox": [
+    469,
+    1238,
+    2410,
+    1338
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "\u00bb During removal from the second installation (gas installation) on December 31, 2011 the system does not change the quantity determination procedure.",
+   "section_id": "doc_006_sec_267"
+  },
+  {
+   "block_id": "doc_006_p096_b003",
+   "type": "table",
+   "page_number": 96,
+   "bbox": [
+    543,
+    1460,
+    2332,
+    1503
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    543,
+    952,
+    1361,
+    1769,
+    2182
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Device",
+     "Register",
+     "Valid from",
+     "Valid to",
+     "Quantity"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Device",
+     "Register",
+     "Valid from",
+     "Valid to",
+     "Quantity"
+    ]
+   ],
+   "section_id": "doc_006_sec_267"
+  },
+  {
+   "block_id": "doc_006_p096_b004",
+   "type": "heading",
+   "page_number": 96,
+   "bbox": [
+    2183,
+    1523,
+    2430,
+    1551
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Determination",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_268"
+  },
+  {
+   "block_id": "doc_006_p096_b005",
+   "type": "heading",
+   "page_number": 96,
+   "bbox": [
+    2183,
+    1582,
+    2358,
+    1611
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Procedure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_269"
+  },
+  {
+   "block_id": "doc_006_p096_b006",
+   "type": "table",
+   "page_number": 96,
+   "bbox": [
+    544,
+    1687,
+    2224,
+    1932
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    544,
+    951,
+    1362,
+    1770,
+    2182
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "NNN",
+     "1",
+     "January 1, 2011",
+     "April 30, 2011",
+     "02"
+    ],
+    [
+     "NNN",
+     "1",
+     "May 01, 2011",
+     "December 30, 2011",
+     "03"
+    ],
+    [
+     "NNN",
+     "1",
+     "December 31, 2011",
+     "December 31, 9999",
+     "02"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "NNN",
+     "1",
+     "January 1, 2011",
+     "April 30, 2011",
+     "02"
+    ],
+    [
+     "NNN",
+     "1",
+     "May 01, 2011",
+     "December 30, 2011",
+     "03"
+    ],
+    [
+     "NNN",
+     "1",
+     "December 31, 2011",
+     "December 31, 9999",
+     "02"
+    ]
+   ],
+   "section_id": "doc_006_sec_269"
+  },
+  {
+   "block_id": "doc_006_p096_b007",
+   "type": "paragraph",
+   "page_number": 96,
+   "bbox": [
+    469,
+    2059,
+    2458,
+    2160
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "= During removal from the final installation (electricity installation) on February O1, 2012, the system changes the quantity determination procedure as follows:",
+   "section_id": "doc_006_sec_269"
+  },
+  {
+   "block_id": "doc_006_p096_b008",
+   "type": "table",
+   "page_number": 96,
+   "bbox": [
+    543,
+    2281,
+    2336,
+    2324
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    543,
+    951,
+    1364,
+    1771,
+    2186
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Device",
+     "Register",
+     "Valid from",
+     "Valid to",
+     "Quantity"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Device",
+     "Register",
+     "Valid from",
+     "Valid to",
+     "Quantity"
+    ]
+   ],
+   "section_id": "doc_006_sec_269"
+  },
+  {
+   "block_id": "doc_006_p096_b009",
+   "type": "heading",
+   "page_number": 96,
+   "bbox": [
+    2188,
+    2345,
+    2435,
+    2372
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Determination",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_270"
+  },
+  {
+   "block_id": "doc_006_p096_b010",
+   "type": "heading",
+   "page_number": 96,
+   "bbox": [
+    2188,
+    2404,
+    2362,
+    2432
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Procedure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_271"
+  },
+  {
+   "block_id": "doc_006_p096_b011",
+   "type": "table",
+   "page_number": 96,
+   "bbox": [
+    544,
+    2508,
+    2228,
+    2757
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    544,
+    950,
+    1364,
+    1771,
+    2187
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "NNN",
+     "1",
+     "January 01, 2011",
+     "April 30, 2011",
+     "02"
+    ],
+    [
+     "NNN",
+     "1",
+     "May 01, 2011",
+     "December 30, 2011",
+     "03"
+    ],
+    [
+     "NNN",
+     "1",
+     "December 31, 2011",
+     "January 31, 2012",
+     "02"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "NNN",
+     "1",
+     "January 01, 2011",
+     "April 30, 2011",
+     "02"
+    ],
+    [
+     "NNN",
+     "1",
+     "May 01, 2011",
+     "December 30, 2011",
+     "03"
+    ],
+    [
+     "NNN",
+     "1",
+     "December 31, 2011",
+     "January 31, 2012",
+     "02"
+    ]
+   ],
+   "section_id": "doc_006_sec_271"
+  },
+  {
+   "block_id": "doc_006_p096_b012",
+   "type": "paragraph",
+   "page_number": 96,
+   "bbox": [
+    346,
+    2884,
+    2197,
+    3024
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "text": "b. If the quantity determination procedure for the device was not yet defined before the removal: = The quantity determination procedure for the device is defined for the billing-relevant period.",
+   "section_id": "doc_006_sec_271"
+  },
+  {
+   "block_id": "doc_006_p096_b013",
+   "type": "list",
+   "page_number": 96,
+   "bbox": [
+    211,
+    3088,
+    1946,
+    3227
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "For a full removal: a. If the quantity determination procedure for the device was defined before the removal:"
+    }
+   ],
+   "section_id": "doc_006_sec_271"
+  },
+  {
+   "block_id": "doc_006_p096_b014",
+   "type": "fragment",
+   "page_number": 96,
+   "bbox": [
+    517,
+    3291,
+    2056,
+    3300
+   ],
+   "ocr_confidence": 49.9,
+   "flags": [
+    "low_confidence_words:9",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "\u2014 aed to. . \u2014 . . toe . er an ~ 1 oe nae e",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_006_sec_271"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "54c8abae0f706d29e945b4a10147356069c8998742c860d2f58c741d0b48a93c"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Conversion of Quantity Determination Indicator for Existing Installations",
+  "Technical Transactions",
+  "Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_267",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_268",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_269",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_270",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_271",
+   "role": "starts_here"
+  }
+ ]
+}

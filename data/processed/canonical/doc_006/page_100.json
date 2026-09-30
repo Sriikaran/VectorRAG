@@ -1,0 +1,298 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 100,
+ "source_page_hash": "aee557b2bcbc816f373459293b60b68fa1139214ae2b6a900801d4b38d334316",
+ "is_cover_page": false,
+ "title": "Recommended Procedure",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nAn analysis is performed for installations selected in the system; the quantity determination procedure is selected in the\ndatabase. Detailed messages are written to the application log.\n\ne Test mode selected - Error mode selected\n\nAn analysis is performed for all installations with errors in the system (errors regarding an attempted but unsuccessful\nconversion); the quantity determination procedure is not defined in the database. Information about installations with\nerrors is also not saved to the database. Detailed messages are written to the application log.\n\ne Test mode not selected - Error mode selected\n\nAn analysis is performed for all installations with errors in the system (errors regarding an attempted but unsuccessful\n\nconversion); the quantity determination procedure is defined in the database. Information about installations with errors is\nsaved to the database. Detailed messages are written to the application log.\n\nThe application log is not saved in test mode.\n\nThe Detailed Appl. Log check box enables you to use a detailed log to view detailed information on installations that have already\nbeen converted and that have been converted successfully.\n\nRecommended Procedure\nWe recommend that you carry out the conversion in the following successive steps:\n\n1. First define a meaningful way of creating intervals for your installations. For example, using meter reading units or by\nexecuting function module ISU_INSTALLATION_INTERVALS.\n\n2. Execute the report in test mode, analyze any errors, and correct them.\n\n3. Execute the report in active mode, analyze any errors, and correct them.\n\n4, Execute the report in error mode.\n\n1 Note\n\nNote that in active mode, the system sets object locks for the devices. During the generation of meter reading orders, locks are\nset at installation level.\n\nExample for Special Configuration\n\nThe following arrangement with multiple device installations shows how the conversion report works:\n",
+ "cleaned_text": "An analysis is performed for installations selected in the system; the quantity determination procedure is selected in the database. Detailed messages are written to the application log.\n\n- Test mode selected - Error mode selected An analysis is performed for all installations with errors in the system (errors regarding an attempted but unsuccessful conversion); the quantity determination procedure is not defined in the database. Information about installations with errors is also not saved to the database. Detailed messages are written to the application log.\n\n- Test mode not selected - Error mode selected An analysis is performed for all installations with errors in the system (errors regarding an attempted but unsuccessful conversion); the quantity determination procedure is defined in the database. Information about installations with errors is\n\nsaved to the database. Detailed messages are written to the application log. The application log is not saved in test mode. The Detailed Appl. Log check box enables you to use a detailed log to view detailed information on installations that have already been converted and that have been converted successfully.\n\nRecommended Procedure\n\nWe recommend that you carry out the conversion in the following successive steps:\n\n1 First define a meaningful way of creating intervals for your installations. For example, using meter reading units or by executing function module ISU_INSTALLATION_INTERVALS.\n\n2 Execute the report in test mode, analyze any errors, and correct them.\n\n3 Execute the report in active mode, analyze any errors, and correct them. 4, Execute the report in error mode.\n\nNote Note that in active mode, the system sets object locks for the devices. During the generation of meter reading orders, locks are set at installation level.\n\nExample for Special Configuration\n\nThe following arrangement with multiple device installations shows how the conversion report works:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    2047,
+    310,
+    2084
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p100_b000",
+   "type": "paragraph",
+   "page_number": 100,
+   "bbox": [
+    254,
+    134,
+    2429,
+    235
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "An analysis is performed for installations selected in the system; the quantity determination procedure is selected in the database. Detailed messages are written to the application log.",
+   "section_id": "doc_006_sec_279"
+  },
+  {
+   "block_id": "doc_006_p100_b001",
+   "type": "list",
+   "page_number": 100,
+   "bbox": [
+    207,
+    299,
+    2473,
+    836
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Test mode selected - Error mode selected An analysis is performed for all installations with errors in the system (errors regarding an attempted but unsuccessful conversion); the quantity determination procedure is not defined in the database. Information about installations with errors is also not saved to the database. Detailed messages are written to the application log."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Test mode not selected - Error mode selected An analysis is performed for all installations with errors in the system (errors regarding an attempted but unsuccessful conversion); the quantity determination procedure is defined in the database. Information about installations with errors is"
+    }
+   ],
+   "section_id": "doc_006_sec_279"
+  },
+  {
+   "block_id": "doc_006_p100_b002",
+   "type": "paragraph",
+   "page_number": 100,
+   "bbox": [
+    122,
+    861,
+    2456,
+    1204
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "saved to the database. Detailed messages are written to the application log. The application log is not saved in test mode. The Detailed Appl. Log check box enables you to use a detailed log to view detailed information on installations that have already been converted and that have been converted successfully.",
+   "section_id": "doc_006_sec_279"
+  },
+  {
+   "block_id": "doc_006_p100_b003",
+   "type": "heading",
+   "page_number": 100,
+   "bbox": [
+    124,
+    1292,
+    605,
+    1321
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Recommended Procedure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_280"
+  },
+  {
+   "block_id": "doc_006_p100_b004",
+   "type": "paragraph",
+   "page_number": 100,
+   "bbox": [
+    123,
+    1413,
+    1625,
+    1451
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "We recommend that you carry out the conversion in the following successive steps:",
+   "section_id": "doc_006_sec_280"
+  },
+  {
+   "block_id": "doc_006_p100_b005",
+   "type": "list",
+   "page_number": 100,
+   "bbox": [
+    211,
+    1535,
+    2360,
+    1943
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "First define a meaningful way of creating intervals for your installations. For example, using meter reading units or by executing function module ISU_INSTALLATION_INTERVALS."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Execute the report in test mode, analyze any errors, and correct them."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Execute the report in active mode, analyze any errors, and correct them. 4, Execute the report in error mode."
+    }
+   ],
+   "section_id": "doc_006_sec_280"
+  },
+  {
+   "block_id": "doc_006_p100_b006",
+   "type": "note",
+   "page_number": 100,
+   "bbox": [
+    151,
+    2047,
+    2440,
+    2219
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "label": "Note",
+   "text": "Note Note that in active mode, the system sets object locks for the devices. During the generation of meter reading orders, locks are set at installation level.",
+   "section_id": "doc_006_sec_280"
+  },
+  {
+   "block_id": "doc_006_p100_b007",
+   "type": "heading",
+   "page_number": 100,
+   "bbox": [
+    124,
+    2346,
+    759,
+    2384
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Example for Special Configuration",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_281"
+  },
+  {
+   "block_id": "doc_006_p100_b008",
+   "type": "paragraph",
+   "page_number": 100,
+   "bbox": [
+    122,
+    2468,
+    1948,
+    2505
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The following arrangement with multiple device installations shows how the conversion report works:",
+   "section_id": "doc_006_sec_281"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "aee557b2bcbc816f373459293b60b68fa1139214ae2b6a900801d4b38d334316"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:37Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Defining the QD Procedure for Existing Installations",
+  "Use",
+  "Technical Options"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_279",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_280",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_281",
+   "role": "starts_here"
+  }
+ ]
+}

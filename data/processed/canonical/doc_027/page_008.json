@@ -1,0 +1,187 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_027",
+ "page_number": 8,
+ "source_page_hash": "65d1cc4cc249036367ef1c1a3516dd52fda1891d5b549f1d98b8b6eed99cf88f",
+ "is_cover_page": false,
+ "title": "Activities",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:16 AM\nActivities\n\nThe Customizing delivered contains all required submission statuses. If you also want to implement a company-specific status for\nsubmitted items, you have to enter this in Customizing for Contract Accounts Receivable and Payable, under: |}Business\nTransactions \u00bb Submit to Collection Agency } Define Submission Status\n\nIf, in the manual or automatic submission of a receivable, in addition to the items of a business partner already released for\n\nsubmission, you also want to submit all items or due items for this business partner to a collection agency without first releasing\nthem, writing them off, or dunning them:\n\nProgram an installation-specific function module using the sample function module FKK_SAMPLE_5069. See the documentation\nfor the function module.\n\nDefine this function module for event 5069 in Customizing for Contract Accounts Receivable and Payable, under: |}Program\nEnhancements \u00bb Define Customer-Specific Function Modules\n\nIn the Submit Receivables to Collection Agencies transaction (SAP Easy Access screen: |}\u00bbAccount \u00bb Submit for Collection\nSubmit Items for Collection 3; transaction FP@3D) or in the Submit to Collection Agencies mass run (SAP Easy Access screen:\n\nPeriodic Processing For Contract Accounts Submit for Collection J; transaction FPQ3DM), select the Submit Additional\nItems indicator.\n\nIf you want the system to set payment locks, dunning locks, or alternative payers in the document, set the indicator for the\nrequired action in Customizing for Contract Accounts Receivable and Payable, under: |'Business Transactions \u00bb Submit to\nCollection Agency \u00bb Define Specs for Submission to External Collection Agency\n\nIn event 5058, you have the option of running additional checks before submitting items to a collection agency. You can also\nexclude items from being submitted. If you use debt recovery scores, you can implement different check variants for the debt\n\nrecovery score.\n\nAt event 5057 you can perform follow-on activities after submission. You can use the sample function module FKK_SAMPLE_5057\nfor this.\n\nAt event 6251, you can initiate follow-on activities for items that were not submitted due to checks before submission (event\n5058). You can use the sample function module FKK_SAMPLE_6251] for this.\n\nWhen you submit using files and you want to add data to the submission file, you can do this in the events below in the areas of the\nsubmission file stated after the event name:\n\ne Event 5062: Header\ne Event 5064: Footer\n\ne Event 5063: Items\n\nTo add data to the submission file, write function modules and define them for the specified events in Customizing for Contract\nAccounts Receivable and Payable, under: |}}Program Enhancements \u00bb Define Customer-Specific Function Modules 33. SAP\n\nprovides the sample function modules FKK_SAMPLE_5062, FKK_SAMPLE_5063, and FKK_SAMPLE_5064. See also the\ndocumentation for the sample function modules.\n\nFor submission via Enterprise Service/API, enhancement options are available. You can add information to outgoing messages in\nthe following events.\n",
+ "cleaned_text": "Activities\n\nThe Customizing delivered contains all required submission statuses. If you also want to implement a company-specific status for submitted items, you have to enter this in Customizing for Contract Accounts Receivable and Payable, under: |}Business Transactions \u00bb Submit to Collection Agency } Define Submission Status If, in the manual or automatic submission of a receivable, in addition to the items of a business partner already released for submission, you also want to submit all items or due items for this business partner to a collection agency without first releasing them, writing them off, or dunning them: Program an installation-specific function module using the sample function module FKK_SAMPLE_5069. See the documentation for the function module. Define this function module for event 5069 in Customizing for Contract Accounts Receivable and Payable, under: |}Program Enhancements \u00bb Define Customer-Specific Function Modules In the Submit Receivables to Collection Agencies transaction (SAP Easy Access screen: |}\u00bbAccount \u00bb Submit for Collection Submit Items for Collection 3; transaction FP@3D) or in the Submit to Collection Agencies mass run (SAP Easy Access screen: Periodic Processing For Contract Accounts Submit for Collection J; transaction FPQ3DM), select the Submit Additional Items indicator. If you want the system to set payment locks, dunning locks, or alternative payers in the document, set the indicator for the required action in Customizing for Contract Accounts Receivable and Payable, under: |'Business Transactions \u00bb Submit to Collection Agency \u00bb Define Specs for Submission to External Collection Agency In event 5058, you have the option of running additional checks before submitting items to a collection agency. You can also exclude items from being submitted. If you use debt recovery scores, you can implement different check variants for the debt recovery score. At event 5057 you can perform follow-on activities after submission. You can use the sample function module FKK_SAMPLE_5057 for this. At event 6251, you can initiate follow-on activities for items that were not submitted due to checks before submission (event 5058). You can use the sample function module FKK_SAMPLE_6251] for this. When you submit using files and you want to add data to the submission file, you can do this in the events below in the areas of the submission file stated after the event name:\n\n- Event 5062: Header\n\n- Event 5064: Footer\n\n- Event 5063: Items\n\nTo add data to the submission file, write function modules and define them for the specified events in Customizing for Contract Accounts Receivable and Payable, under: |}}Program Enhancements \u00bb Define Customer-Specific Function Modules 33. SAP provides the sample function modules FKK_SAMPLE_5062, FKK_SAMPLE_5063, and FKK_SAMPLE_5064. See also the documentation for the sample function modules. For submission via Enterprise Service/API, enhancement options are available. You can add information to outgoing messages in the following events.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:16 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_027_p008_b000",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    123,
+    127,
+    382,
+    172
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_033"
+  },
+  {
+   "block_id": "doc_027_p008_b001",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    259,
+    2474,
+    2400
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "low_confidence_words:8"
+   ],
+   "text": "The Customizing delivered contains all required submission statuses. If you also want to implement a company-specific status for submitted items, you have to enter this in Customizing for Contract Accounts Receivable and Payable, under: |}Business Transactions \u00bb Submit to Collection Agency } Define Submission Status If, in the manual or automatic submission of a receivable, in addition to the items of a business partner already released for submission, you also want to submit all items or due items for this business partner to a collection agency without first releasing them, writing them off, or dunning them: Program an installation-specific function module using the sample function module FKK_SAMPLE_5069. See the documentation for the function module. Define this function module for event 5069 in Customizing for Contract Accounts Receivable and Payable, under: |}Program Enhancements \u00bb Define Customer-Specific Function Modules In the Submit Receivables to Collection Agencies transaction (SAP Easy Access screen: |}\u00bbAccount \u00bb Submit for Collection Submit Items for Collection 3; transaction FP@3D) or in the Submit to Collection Agencies mass run (SAP Easy Access screen: Periodic Processing For Contract Accounts Submit for Collection J; transaction FPQ3DM), select the Submit Additional Items indicator. If you want the system to set payment locks, dunning locks, or alternative payers in the document, set the indicator for the required action in Customizing for Contract Accounts Receivable and Payable, under: |'Business Transactions \u00bb Submit to Collection Agency \u00bb Define Specs for Submission to External Collection Agency In event 5058, you have the option of running additional checks before submitting items to a collection agency. You can also exclude items from being submitted. If you use debt recovery scores, you can implement different check variants for the debt recovery score. At event 5057 you can perform follow-on activities after submission. You can use the sample function module FKK_SAMPLE_5057 for this. At event 6251, you can initiate follow-on activities for items that were not submitted due to checks before submission (event 5058). You can use the sample function module FKK_SAMPLE_6251] for this. When you submit using files and you want to add data to the submission file, you can do this in the events below in the areas of the submission file stated after the event name:",
+   "section_id": "doc_027_sec_033"
+  },
+  {
+   "block_id": "doc_027_p008_b002",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    207,
+    2491,
+    612,
+    2725
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Event 5062: Header"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Event 5064: Footer"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Event 5063: Items"
+    }
+   ],
+   "section_id": "doc_027_sec_033"
+  },
+  {
+   "block_id": "doc_027_p008_b003",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    2819,
+    2441,
+    3230
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "To add data to the submission file, write function modules and define them for the specified events in Customizing for Contract Accounts Receivable and Payable, under: |}}Program Enhancements \u00bb Define Customer-Specific Function Modules 33. SAP provides the sample function modules FKK_SAMPLE_5062, FKK_SAMPLE_5063, and FKK_SAMPLE_5064. See also the documentation for the sample function modules. For submission via Enterprise Service/API, enhancement options are available. You can add information to outgoing messages in the following events.",
+   "section_id": "doc_027_sec_033"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Submission of Receivables to Collection Agency",
+  "source_pdf": "27.pdf",
+  "reference_pdf": "27_Submission_of_Receivables_to_Collection_Agency.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Useful for late-stage collections and external-agency lifecycle knowledge.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "65d1cc4cc249036367ef1c1a3516dd52fda1891d5b549f1d98b8b6eed99cf88f"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Submission of Receivables to Collection Agency",
+  "Automatic Release",
+  "Activities"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_027_sec_033",
+   "role": "starts_here"
+  }
+ ]
+}

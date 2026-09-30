@@ -1,0 +1,322 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_017",
+ "page_number": 9,
+ "source_page_hash": "e2877c0590f3e42854a7462b404ed017bde1d45a9a4562be508339ee97d78555",
+ "is_cover_page": false,
+ "title": "Activities",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n1. The relevant data is read from the operational system and placed in a sequential file (operational system sender structure)\nby the data selection program. This transaction takes place outside of the SAP system and is not supported by SAP\nprograms. Therefore the data selection program can make changes to data at this point.\n\n2. The SAP transfer program reads the data from the sender structure, changes the data, and places the data in the receiver\nstructure. Data can be changed or converted in this last step.\n\nActivities\n\nFor more information, and the programs involved, see the Implementation Guide for Contract Accounts Receivable and Payable:\nBasicFunctions \u00bb ContractAccounts \u00bb DataTransfer\n\nCreating, Changing, and Displaying Contract Accounts\n\nUse\n\nYou can create or change contract accounts both online and from the operational system (see Transferring Master Data\n\nAutomatically ).\n\nOnly one business partner\u2019s data is ever displayed. For information on editing or displaying another business partner\u2019s data see\nDisplaying or Editing Other Business Partners .\n\nFeatures\n\nIf you want to change or display a contract account, you can enter the contract account number or the business partner.\nThe business partner is determined automatically if only one business partner has been assigned to the contract account.\n\nIf more than one business partner has been assigned to the contract account, then a dialog box in which you can choose a partner\nto be edited appears.\n\nIf several contract accounts were assigned to a business partner, a dialog box appears showing all the contract accounts assigned\nto that business partner. You can select a contract account from the dialog box and display it for processing.\n\nUsing authorization object F_KK_FCODE, you can issue authorizations for master data dialogs. You can determine, for example,\nwhich user is no longer authorized to assign partners to a contract account. See the authorization documentation for further\ninformation.\n\nYou can make changes to a contract account and have them take effect from a time in the future. The changes are not saved\n\ndirectly to the database, they are entered in change documents. To activate the data, you have to run report BUSPCDACT for the\naplication object FICA(see SAP menu |Master Data } Contract Account 4 ). For more information, see the report documentation.\n\nCreating Contract Accounts\n\nPrerequisites\n\nTA neraanta an nnnNtrant annniint vinitmiict havin nrantad an hAhiicinnce nartnne tn vwshpanm wvnitaccian thic nnntrant annniint Vari nan acciann\n",
+ "cleaned_text": "1 The relevant data is read from the operational system and placed in a sequential file (operational system sender structure) by the data selection program. This transaction takes place outside of the SAP system and is not supported by SAP programs. Therefore the data selection program can make changes to data at this point.\n\n2 The SAP transfer program reads the data from the sender structure, changes the data, and places the data in the receiver structure. Data can be changed or converted in this last step.\n\nActivities\n\nFor more information, and the programs involved, see the Implementation Guide for Contract Accounts Receivable and Payable: BasicFunctions \u00bb ContractAccounts \u00bb DataTransfer\n\nCreating, Changing, and Displaying Contract Accounts\n\nUse\n\nYou can create or change contract accounts both online and from the operational system (see Transferring Master Data Automatically ). Only one business partner\u2019s data is ever displayed. For information on editing or displaying another business partner\u2019s data see Displaying or Editing Other Business Partners .\n\nFeatures\n\nIf you want to change or display a contract account, you can enter the contract account number or the business partner. The business partner is determined automatically if only one business partner has been assigned to the contract account. If more than one business partner has been assigned to the contract account, then a dialog box in which you can choose a partner to be edited appears. If several contract accounts were assigned to a business partner, a dialog box appears showing all the contract accounts assigned to that business partner. You can select a contract account from the dialog box and display it for processing. Using authorization object F_KK_FCODE, you can issue authorizations for master data dialogs. You can determine, for example, which user is no longer authorized to assign partners to a contract account. See the authorization documentation for further information. You can make changes to a contract account and have them take effect from a time in the future. The changes are not saved directly to the database, they are entered in change documents. To activate the data, you have to run report BUSPCDACT for the aplication object FICA(see SAP menu |Master Data } Contract Account 4 ). For more information, see the report documentation.\n\nCreating Contract Accounts\n\nPrerequisites\n\nTA neraanta an nnnNtrant annniint vinitmiict havin nrantad an hAhiicinnce nartnne tn vwshpanm wvnitaccian thic nnntrant annniint Vari nan acciann",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_017_p009_b000",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    212,
+    134,
+    2469,
+    464
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "The relevant data is read from the operational system and placed in a sequential file (operational system sender structure) by the data selection program. This transaction takes place outside of the SAP system and is not supported by SAP programs. Therefore the data selection program can make changes to data at this point."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "The SAP transfer program reads the data from the sender structure, changes the data, and places the data in the receiver structure. Data can be changed or converted in this last step."
+    }
+   ],
+   "section_id": "doc_017_sec_046"
+  },
+  {
+   "block_id": "doc_017_p009_b001",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    123,
+    577,
+    383,
+    622
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_047"
+  },
+  {
+   "block_id": "doc_017_p009_b002",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    124,
+    709,
+    2431,
+    815
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [],
+   "text": "For more information, and the programs involved, see the Implementation Guide for Contract Accounts Receivable and Payable: BasicFunctions \u00bb ContractAccounts \u00bb DataTransfer",
+   "section_id": "doc_017_sec_047"
+  },
+  {
+   "block_id": "doc_017_p009_b003",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    125,
+    955,
+    2091,
+    1031
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Creating, Changing, and Displaying Contract Accounts",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_048"
+  },
+  {
+   "block_id": "doc_017_p009_b004",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    125,
+    1135,
+    225,
+    1181
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_049"
+  },
+  {
+   "block_id": "doc_017_p009_b005",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    123,
+    1265,
+    2421,
+    1551
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "You can create or change contract accounts both online and from the operational system (see Transferring Master Data Automatically ). Only one business partner\u2019s data is ever displayed. For information on editing or displaying another business partner\u2019s data see Displaying or Editing Other Business Partners .",
+   "section_id": "doc_017_sec_049"
+  },
+  {
+   "block_id": "doc_017_p009_b006",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    126,
+    1664,
+    361,
+    1709
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_050"
+  },
+  {
+   "block_id": "doc_017_p009_b007",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    1797,
+    2479,
+    2827
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "If you want to change or display a contract account, you can enter the contract account number or the business partner. The business partner is determined automatically if only one business partner has been assigned to the contract account. If more than one business partner has been assigned to the contract account, then a dialog box in which you can choose a partner to be edited appears. If several contract accounts were assigned to a business partner, a dialog box appears showing all the contract accounts assigned to that business partner. You can select a contract account from the dialog box and display it for processing. Using authorization object F_KK_FCODE, you can issue authorizations for master data dialogs. You can determine, for example, which user is no longer authorized to assign partners to a contract account. See the authorization documentation for further information. You can make changes to a contract account and have them take effect from a time in the future. The changes are not saved directly to the database, they are entered in change documents. To activate the data, you have to run report BUSPCDACT for the aplication object FICA(see SAP menu |Master Data } Contract Account 4 ). For more information, see the report documentation.",
+   "section_id": "doc_017_sec_050"
+  },
+  {
+   "block_id": "doc_017_p009_b008",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    125,
+    2972,
+    1131,
+    3049
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Creating Contract Accounts",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_051"
+  },
+  {
+   "block_id": "doc_017_p009_b009",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    126,
+    3149,
+    492,
+    3205
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_052"
+  },
+  {
+   "block_id": "doc_017_p009_b010",
+   "type": "fragment",
+   "page_number": 9,
+   "bbox": [
+    122,
+    3282,
+    2469,
+    3300
+   ],
+   "ocr_confidence": 42.3,
+   "flags": [
+    "low_confidence_words:15",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "TA neraanta an nnnNtrant annniint vinitmiict havin nrantad an hAhiicinnce nartnne tn vwshpanm wvnitaccian thic nnntrant annniint Vari nan acciann",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_017_sec_052"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Accounts Overview",
+  "source_pdf": "17.pdf",
+  "reference_pdf": "17_Contract_Accounts_Overview.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Use to connect utility invoicing to receivables, payments and dunning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "e2877c0590f3e42854a7462b404ed017bde1d45a9a4562be508339ee97d78555"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Accounts Overview",
+  "Automatic Master Data Transfer",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_017_sec_046",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_017_sec_047",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_048",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_049",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_050",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_051",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_052",
+   "role": "starts_here"
+  }
+ ]
+}

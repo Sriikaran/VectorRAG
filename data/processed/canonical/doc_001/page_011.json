@@ -1,0 +1,189 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 11,
+ "source_page_hash": "0beb896bf5ebac77607f7616b5525c29df8e16098b1d79f2419ba2bb2ce4a68e",
+ "is_cover_page": false,
+ "title": "Creation in the future",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nThe master data affected (business partner or contract account)\n\nThe program mode (create, change, delete)\n\nWhen you change bank details, the system saves the data in one of these ways:\n\nCreation in the future\n\nThe system saves the bank details in the master data of the business partner, whereby the Valid From date is in the future.\nThe system saves the planned changes for the contract accounts affected.\n\nChange in the future\n\nThe system changes the bank details in the master data of the business partner, if the bank details were not already changed. If\n\nthere are already target details for the change and a target date, then the system cannot change the bank details data, except for\nthe date of the change.\n\nThe system does not make any changes for the contract accounts affected.\n\n1   This procedure only applies if existing bank details are overwritten; if you create new bank details in change mode, the same\n\nprocedure applies as for creation in the future.\n\nA business partner has bank details 0001 at ABC Bank. These bank details are valid from 08/05/2005 to 12/31/9999. Bank\n\ndetails OOO1 are assigned to contract account A. The customer calls and informs you that, taking effect on 11/15/2005, his new\nbank is XYZ Bank. The bank details at ABC Bank are no longer valid. Using the transaction Change Payment Data , the call center\nagent carries out the changes for 11/15/2005.\n\nThe system changes the bank details as follows:\nFor the new bank details at XYZ Bank, the system creates the new ID 0002 with a Valid From date 11/15/2005.\n\nThe system changes the old bank details 0001 at ABC Bank and enters the change date 11/15/2005 and the target bank details\n0002.\n\nAfter the change, the bank details are as follows:\n\nID 0001 ABC Bank, valid from 028/02/2005 to 11/15/2005, target bank details ID 0002, change date 11/15/2005\nID 0002 XYZ Bank, valid from 11/15/2005 to 12/31/2005\n\nAfter the change, ID OO01 is still assigned to contract account A.\n\nDeletion in the future\n\nFor the bank details, the system sets the Valid To date in the future in the master data of the business partner.\n\nThe system saves the planned changes for the contract accounts affected.\n\nWhen you change payment card data, the system saves the data in one of these ways:\n",
+ "cleaned_text": "The master data affected (business partner or contract account) The program mode (create, change, delete) When you change bank details, the system saves the data in one of these ways:\n\nCreation in the future\n\nThe system saves the bank details in the master data of the business partner, whereby the Valid From date is in the future. The system saves the planned changes for the contract accounts affected. Change in the future The system changes the bank details in the master data of the business partner, if the bank details were not already changed. If there are already target details for the change and a target date, then the system cannot change the bank details data, except for the date of the change. The system does not make any changes for the contract accounts affected. 1 This procedure only applies if existing bank details are overwritten; if you create new bank details in change mode, the same procedure applies as for creation in the future. A business partner has bank details 0001 at ABC Bank. These bank details are valid from 08/05/2005 to 12/31/9999. Bank details OOO1 are assigned to contract account A. The customer calls and informs you that, taking effect on 11/15/2005, his new bank is XYZ Bank. The bank details at ABC Bank are no longer valid. Using the transaction Change Payment Data , the call center agent carries out the changes for 11/15/2005. The system changes the bank details as follows: For the new bank details at XYZ Bank, the system creates the new ID 0002 with a Valid From date 11/15/2005. The system changes the old bank details 0001 at ABC Bank and enters the change date 11/15/2005 and the target bank details 0002. After the change, the bank details are as follows: ID 0001 ABC Bank, valid from 028/02/2005 to 11/15/2005, target bank details ID 0002, change date 11/15/2005 ID 0002 XYZ Bank, valid from 11/15/2005 to 12/31/2005 After the change, ID OO01 is still assigned to contract account A.\n\nDeletion in the future\n\nFor the bank details, the system sets the Valid To date in the future in the master data of the business partner. The system saves the planned changes for the contract accounts affected. When you change payment card data, the system saves the data in one of these ways:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p011_b000",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    122,
+    135,
+    1548,
+    415
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The master data affected (business partner or contract account) The program mode (create, change, delete) When you change bank details, the system saves the data in one of these ways:",
+   "section_id": "doc_001_sec_032"
+  },
+  {
+   "block_id": "doc_001_p011_b001",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    123,
+    502,
+    508,
+    533
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Creation in the future",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_033"
+  },
+  {
+   "block_id": "doc_001_p011_b002",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    122,
+    624,
+    2454,
+    2722
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "The system saves the bank details in the master data of the business partner, whereby the Valid From date is in the future. The system saves the planned changes for the contract accounts affected. Change in the future The system changes the bank details in the master data of the business partner, if the bank details were not already changed. If there are already target details for the change and a target date, then the system cannot change the bank details data, except for the date of the change. The system does not make any changes for the contract accounts affected. 1 This procedure only applies if existing bank details are overwritten; if you create new bank details in change mode, the same procedure applies as for creation in the future. A business partner has bank details 0001 at ABC Bank. These bank details are valid from 08/05/2005 to 12/31/9999. Bank details OOO1 are assigned to contract account A. The customer calls and informs you that, taking effect on 11/15/2005, his new bank is XYZ Bank. The bank details at ABC Bank are no longer valid. Using the transaction Change Payment Data , the call center agent carries out the changes for 11/15/2005. The system changes the bank details as follows: For the new bank details at XYZ Bank, the system creates the new ID 0002 with a Valid From date 11/15/2005. The system changes the old bank details 0001 at ABC Bank and enters the change date 11/15/2005 and the target bank details 0002. After the change, the bank details are as follows: ID 0001 ABC Bank, valid from 028/02/2005 to 11/15/2005, target bank details ID 0002, change date 11/15/2005 ID 0002 XYZ Bank, valid from 11/15/2005 to 12/31/2005 After the change, ID OO01 is still assigned to contract account A.",
+   "section_id": "doc_001_sec_033"
+  },
+  {
+   "block_id": "doc_001_p011_b003",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    125,
+    2809,
+    504,
+    2839
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Deletion in the future",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_034"
+  },
+  {
+   "block_id": "doc_001_p011_b004",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    122,
+    2930,
+    2105,
+    3211
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "For the bank details, the system sets the Valid To date in the future in the master data of the business partner. The system saves the planned changes for the contract accounts affected. When you change payment card data, the system saves the data in one of these ways:",
+   "section_id": "doc_001_sec_034"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 65.0,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "0beb896bf5ebac77607f7616b5525c29df8e16098b1d79f2419ba2bb2ce4a68e"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:26Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Special Features of Changes with Effect in the Future"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_032",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_033",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_034",
+   "role": "starts_here"
+  }
+ ]
+}

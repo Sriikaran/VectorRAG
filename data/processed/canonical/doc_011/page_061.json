@@ -1,0 +1,693 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 61,
+ "source_page_hash": "78d7aa703dc845cee0e06739f583e67e7284fa10402b984fa3df8c8feed665b9",
+ "is_cover_page": false,
+ "title": "Data Model",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nBusiness Partner                                                                                                                                                                                                          -\n\u2018> Rate Category                                                                                                            a\nContract Account\nOperands\nContract         \u2014        Installation        \u2014                                                           x.\nRate            __\u2014> Variant Program \u2014\u2014> Operand Values\nDetermination\nInstallation        i                                                           ZN                                                                                  |\nStructure                                                                                                                             es\nV                                                                           Billing Schema\n|         Rate Type\nBasic Rate 1 VarProgr.               Operand Values\nStep 1           Qty x Price             1000 kwh, 0,25ct\nStep 2           Comp. 2 Valiies           3000 kwh, 400\nkwh\na        Fact Group        SSS                                Cond.Rate X VarProgr.                  Operand Values\nStep1           _                            _\n\nnd\nBilling Schema Extension.\n\nTOU Exception\n2                                                                                                                                        V\nrogram                                                                  Rate Relationship             Conditional\n\n\\____.,\nGroup               Billing Program\n\nR Rate Relationship J\n\nTOU Exception\nResponse\n\nTOU\nException\n\nData Model\n\nThe simplified data model displays the connections between the individual entities. Conditional billing is based on SAP IS-U\ncontract billing and uses the corresponding objects in the data model in conjunction with the billing schema extension.\n\nThe billing schema extension contains the conditional billing porgram and the rate relationship group with the rate relationships.\n\nThe billing schema extension refers to a billing schema. You define which rates are billed and the order in which they are processed\nin the billing schema. Schemas are a combination of rates with assigned variant programs and operands.\n\nThe relationship between rates also plays a very important role in conditional billing. Rates are used as basic rates for the entire\nbilling period. They are only used as conditional rates for active time-of-use exceptions to supplement or substitute the basic rates.\nYou define these rate relationships in the billing schema extension in a rate relationship group. A rate relationship group refers to\narate fact group. Rates use the RTP or TOU interface defined in the rate fact group.\n\nBasic rates and conditional rates must be used in the same schema and be defined with the same relationship in rate\ndetermination.\n\nThe conditional billing program defined in the billing schema extension is used to activate conditional rates. Assigning conditional\nbilling programs to TOU exception programs executes the corresponding rates in the billing schema extension for an active TOU\nexception.\n\nThe TOU exception responses are stored at register level with the key of the logical register number. This provides an indirect\nconnection to the contract with Register > Device > Installation.\n\nBilling Schema Extension\n",
+ "cleaned_text": "Business Partner | -\n\n\u2018> Rate Category | a\n\nContract Account Operands\n\nContract | \u2014 | Installation | \u2014 | x.\n\nRate | __\u2014> Variant Program \u2014\u2014> Operand Values\n\nDetermination\n\nInstallation | i | ZN | |\n\nStructure | es\n\nV | Billing Schema\n\n| | Rate Type\n\nBasic Rate 1 VarProgr. | Operand Values\n\nStep 1 | Qty x Price | 1000 kwh, 0,25ct\n\nStep 2 | Comp. 2 Valiies | 3000 kwh, 400\n\nkwh\n\na | Fact Group | SSS | Cond.Rate X VarProgr. | Operand Values\n\nStep1 | _ | _\n\nnd Billing Schema Extension. TOU Exception\n\n2 | V\n\nrogram | Rate Relationship | Conditional\n\n\\____.,\n\nGroup | Billing Program\n\nR Rate Relationship J TOU Exception Response TOU Exception\n\nData Model\n\nThe simplified data model displays the connections between the individual entities. Conditional billing is based on SAP IS-U contract billing and uses the corresponding objects in the data model in conjunction with the billing schema extension.\n\nThe billing schema extension contains the conditional billing porgram and the rate relationship group with the rate relationships.\n\nThe billing schema extension refers to a billing schema. You define which rates are billed and the order in which they are processed in the billing schema. Schemas are a combination of rates with assigned variant programs and operands.\n\nThe relationship between rates also plays a very important role in conditional billing. Rates are used as basic rates for the entire billing period. They are only used as conditional rates for active time-of-use exceptions to supplement or substitute the basic rates. You define these rate relationships in the billing schema extension in a rate relationship group. A rate relationship group refers to arate fact group. Rates use the RTP or TOU interface defined in the rate fact group.\n\nBasic rates and conditional rates must be used in the same schema and be defined with the same relationship in rate determination.\n\nThe conditional billing program defined in the billing schema extension is used to activate conditional rates. Assigning conditional billing programs to TOU exception programs executes the corresponding rates in the billing schema extension for an active TOU exception.\n\nThe TOU exception responses are stored at register level with the key of the logical register number. This provides an indirect connection to the contract with Register > Device > Installation.\n\nBilling Schema Extension",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p061_b000",
+   "type": "table",
+   "page_number": 61,
+   "bbox": [
+    160,
+    277,
+    2351,
+    368
+   ],
+   "ocr_confidence": 56.2,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    160,
+    877,
+    2250
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Business Partner",
+     "-"
+    ],
+    [
+     "\u2018> Rate Category",
+     "a"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Business Partner",
+     "-"
+    ],
+    [
+     "\u2018> Rate Category",
+     "a"
+    ]
+   ],
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p061_b001",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    159,
+    393,
+    2381,
+    460
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Contract Account Operands",
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p061_b002",
+   "type": "table",
+   "page_number": 61,
+   "bbox": [
+    229,
+    505,
+    2429,
+    582
+   ],
+   "ocr_confidence": 74.1,
+   "flags": [
+    "low_confidence_words:4",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 7,
+   "column_starts": [
+    229,
+    458,
+    594,
+    838,
+    1430,
+    1459,
+    1629
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Contract",
+     "\u2014",
+     "Installation",
+     "\u2014",
+     "x."
+    ],
+    [
+     "Rate",
+     "__\u2014> Variant Program \u2014\u2014> Operand Values"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Contract",
+     "\u2014",
+     "Installation",
+     "\u2014",
+     "x."
+    ],
+    [
+     "Rate",
+     "__\u2014> Variant Program \u2014\u2014> Operand Values"
+    ]
+   ],
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p061_b003",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    1357,
+    587,
+    1580,
+    615
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Determination",
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p061_b004",
+   "type": "table",
+   "page_number": 61,
+   "bbox": [
+    594,
+    592,
+    2403,
+    923
+   ],
+   "ocr_confidence": 74.8,
+   "flags": [
+    "low_confidence_words:8",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 12,
+   "column_starts": [
+    594,
+    838,
+    877,
+    991,
+    1064,
+    1455,
+    1764,
+    1950,
+    2001,
+    2206,
+    2238,
+    2294
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Installation",
+     "i",
+     "ZN",
+     "|"
+    ],
+    [
+     "Structure",
+     "es"
+    ],
+    [
+     "V",
+     "Billing Schema"
+    ],
+    [
+     "|",
+     "Rate Type"
+    ],
+    [
+     "Basic Rate 1 VarProgr.",
+     "Operand Values"
+    ],
+    [
+     "Step 1",
+     "Qty x Price",
+     "1000 kwh, 0,25ct"
+    ],
+    [
+     "Step 2",
+     "Comp. 2 Valiies",
+     "3000 kwh, 400"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Installation",
+     "i",
+     "ZN",
+     "|"
+    ],
+    [
+     "Structure",
+     "es"
+    ],
+    [
+     "V",
+     "Billing Schema"
+    ],
+    [
+     "|",
+     "Rate Type"
+    ],
+    [
+     "Basic Rate 1 VarProgr.",
+     "Operand Values"
+    ],
+    [
+     "Step 1",
+     "Qty x Price",
+     "1000 kwh, 0,25ct"
+    ],
+    [
+     "Step 2",
+     "Comp. 2 Valiies",
+     "3000 kwh, 400"
+    ]
+   ],
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p061_b005",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    1765,
+    928,
+    1807,
+    948
+   ],
+   "ocr_confidence": 62.5,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "kwh",
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p061_b006",
+   "type": "table",
+   "page_number": 61,
+   "bbox": [
+    877,
+    961,
+    2417,
+    1047
+   ],
+   "ocr_confidence": 65.3,
+   "flags": [
+    "low_confidence_words:6",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    877,
+    983,
+    1230,
+    1764,
+    1936,
+    2221
+   ],
+   "headers": [
+    "a",
+    "Fact Group",
+    "SSS",
+    "Cond.Rate X VarProgr.",
+    "Operand Values"
+   ],
+   "rows": [
+    [
+     "Step1",
+     "_",
+     "_"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "a",
+     "Fact Group",
+     "SSS",
+     "Cond.Rate X VarProgr.",
+     "Operand Values"
+    ],
+    [
+     "Step1",
+     "_",
+     "_"
+    ]
+   ],
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p061_b007",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    860,
+    1126,
+    2319,
+    1238
+   ],
+   "ocr_confidence": 83.6,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "nd Billing Schema Extension. TOU Exception",
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p061_b008",
+   "type": "table",
+   "page_number": 61,
+   "bbox": [
+    915,
+    1240,
+    2390,
+    1310
+   ],
+   "ocr_confidence": 75.6,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    915,
+    1781,
+    2211,
+    2294
+   ],
+   "headers": [
+    "2",
+    "V"
+   ],
+   "rows": [
+    [
+     "rogram",
+     "Rate Relationship",
+     "Conditional"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "2",
+     "V"
+    ],
+    [
+     "rogram",
+     "Rate Relationship",
+     "Conditional"
+    ]
+   ],
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p061_b009",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    1498,
+    1302,
+    1761,
+    1321
+   ],
+   "ocr_confidence": 0.0,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "\\____.,",
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p061_b010",
+   "type": "table",
+   "page_number": 61,
+   "bbox": [
+    1872,
+    1319,
+    2423,
+    1355
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    1872,
+    2178
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Group",
+     "Billing Program"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Group",
+     "Billing Program"
+    ]
+   ],
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p061_b011",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    641,
+    1365,
+    2304,
+    1461
+   ],
+   "ocr_confidence": 88.1,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "R Rate Relationship J TOU Exception Response TOU Exception",
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p061_b012",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    124,
+    1615,
+    307,
+    1643
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Data Model",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_200"
+  },
+  {
+   "block_id": "doc_011_p061_b013",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    122,
+    1728,
+    2350,
+    1831
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The simplified data model displays the connections between the individual entities. Conditional billing is based on SAP IS-U contract billing and uses the corresponding objects in the data model in conjunction with the billing schema extension.",
+   "section_id": "doc_011_sec_200"
+  },
+  {
+   "block_id": "doc_011_p061_b014",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    122,
+    1915,
+    2456,
+    1953
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The billing schema extension contains the conditional billing porgram and the rate relationship group with the rate relationships.",
+   "section_id": "doc_011_sec_200"
+  },
+  {
+   "block_id": "doc_011_p061_b015",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    122,
+    2036,
+    2486,
+    2136
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The billing schema extension refers to a billing schema. You define which rates are billed and the order in which they are processed in the billing schema. Schemas are a combination of rates with assigned variant programs and operands.",
+   "section_id": "doc_011_sec_200"
+  },
+  {
+   "block_id": "doc_011_p061_b016",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    122,
+    2221,
+    2488,
+    2449
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The relationship between rates also plays a very important role in conditional billing. Rates are used as basic rates for the entire billing period. They are only used as conditional rates for active time-of-use exceptions to supplement or substitute the basic rates. You define these rate relationships in the billing schema extension in a rate relationship group. A rate relationship group refers to arate fact group. Rates use the RTP or TOU interface defined in the rate fact group.",
+   "section_id": "doc_011_sec_200"
+  },
+  {
+   "block_id": "doc_011_p061_b017",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    123,
+    2533,
+    2236,
+    2625
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Basic rates and conditional rates must be used in the same schema and be defined with the same relationship in rate determination.",
+   "section_id": "doc_011_sec_200"
+  },
+  {
+   "block_id": "doc_011_p061_b018",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    122,
+    2720,
+    2477,
+    2882
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The conditional billing program defined in the billing schema extension is used to activate conditional rates. Assigning conditional billing programs to TOU exception programs executes the corresponding rates in the billing schema extension for an active TOU exception.",
+   "section_id": "doc_011_sec_200"
+  },
+  {
+   "block_id": "doc_011_p061_b019",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    122,
+    2966,
+    2374,
+    3067
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The TOU exception responses are stored at register level with the key of the logical register number. This provides an indirect connection to the contract with Register > Device > Installation.",
+   "section_id": "doc_011_sec_200"
+  },
+  {
+   "block_id": "doc_011_p061_b020",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    128,
+    3215,
+    1036,
+    3291
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Billing Schema Extension",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_201"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 47.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "78d7aa703dc845cee0e06739f583e67e7284fa10402b984fa3df8c8feed665b9"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Time-of-Use Exceptions and Conditional Billing",
+  "Data Model",
+  "More Information"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_199",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_200",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_201",
+   "role": "starts_here"
+  }
+ ]
+}

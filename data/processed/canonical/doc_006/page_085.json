@@ -1,0 +1,401 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 85,
+ "source_page_hash": "0ce2164f438b96dc0b00c5b24e7e7b02c8bee1c3f816b0541d58b03bc3be998d",
+ "is_cover_page": false,
+ "title": "Extrapolation",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nExtrapolation\n\nUse\n\nDuring the estimation procedure of extrapolation, a value is forecast for the entire base period.\n\nThe steps described below are carried out automatically by the system and are not visible to the user. The description should\nexplain the algorithm that derives an expected quantity from a quantity stored in the system and forecasts a meter reading result.\n\nFeatures\n\nWhen using the quantity determination procedure Quantity Determination During Meter Reading, extrapolation takes place as\nfollows:\n\n1. The saved (and rounded) quantities from the meter reading results in the representative base period are added together as\na basis for extrapolation.\n\n2. The system determines the weighting Y of the base period.\n3. The system determines the weighting Ye of the forecast period.\n\n4. The system determines the quantity Qe for the forecast date by multiplying the added quantity from the base period with\nthe quotient of the weighting of the forecast period and the weighting of the base period.\n\nQ.=Q*(y\u00a5e/y)=(Q/y)* Ve\n\nFormula\n\nThe factor ( Q / Y) describes the Expected Weighted Consumption.\n\n5. From this forecast quantity Qe, that has not yet been rounded, the system calculates the estimated meter reading result Qe\ntaking the relevant factors (such as the gas factors and register factors) into account.\n\nThis is then rounded and saved according to the system settings.\n\n6. Taking into account the factors from the forecast period, the system determines the final consumption value from the\ndifference between the estimated meter reading result E and the previous meter reading result MR1. The final consumption\n\nvalue is then rounded and saved.\n\n1 Note\n\nThe system does not wait for actual gas factors for extrapolation, but determines the final quantity immediately. This\nmeans that no quantity determination triggers are generated.\n\nThe following figure shows extrapolation using a simple example. The abbreviations have the following meanings:\n\ne Q= Quantity\n\ne Qe = Forecasted quantity\n",
+ "cleaned_text": "Extrapolation\n\nUse\n\nDuring the estimation procedure of extrapolation, a value is forecast for the entire base period. The steps described below are carried out automatically by the system and are not visible to the user. The description should explain the algorithm that derives an expected quantity from a quantity stored in the system and forecasts a meter reading result.\n\nFeatures\n\nWhen using the quantity determination procedure Quantity Determination During Meter Reading, extrapolation takes place as follows:\n\n1 The saved (and rounded) quantities from the meter reading results in the representative base period are added together as a basis for extrapolation.\n\n2 The system determines the weighting Y of the base period.\n\n3 The system determines the weighting Ye of the forecast period.\n\n4 The system determines the quantity Qe for the forecast date by multiplying the added quantity from the base period with the quotient of the weighting of the forecast period and the weighting of the base period.\n\nQ.=Q*(y\u00a5e/y)=(Q/y)* Ve\n\nFormula\n\nThe factor ( Q / Y) describes the Expected Weighted Consumption.\n\n5 From this forecast quantity Qe, that has not yet been rounded, the system calculates the estimated meter reading result Qe taking the relevant factors (such as the gas factors and register factors) into account. This is then rounded and saved according to the system settings.\n\n6 Taking into account the factors from the forecast period, the system determines the final consumption value from the difference between the estimated meter reading result E and the previous meter reading result MR1. The final consumption\n\nvalue is then rounded and saved.\n\nNote The system does not wait for actual gas factors for extrapolation, but determines the final quantity immediately. This means that no quantity determination triggers are generated.\n\nThe following figure shows extrapolation using a simple example. The abbreviations have the following meanings:\n\n- Q= Quantity\n\n- Qe = Forecasted quantity",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    2674,
+    442,
+    2711
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p085_b000",
+   "type": "heading",
+   "page_number": 85,
+   "bbox": [
+    128,
+    132,
+    605,
+    207
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Extrapolation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_231"
+  },
+  {
+   "block_id": "doc_006_p085_b001",
+   "type": "heading",
+   "page_number": 85,
+   "bbox": [
+    125,
+    307,
+    225,
+    353
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_232"
+  },
+  {
+   "block_id": "doc_006_p085_b002",
+   "type": "paragraph",
+   "page_number": 85,
+   "bbox": [
+    122,
+    440,
+    2467,
+    662
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "During the estimation procedure of extrapolation, a value is forecast for the entire base period. The steps described below are carried out automatically by the system and are not visible to the user. The description should explain the algorithm that derives an expected quantity from a quantity stored in the system and forecasts a meter reading result.",
+   "section_id": "doc_006_sec_232"
+  },
+  {
+   "block_id": "doc_006_p085_b003",
+   "type": "heading",
+   "page_number": 85,
+   "bbox": [
+    126,
+    774,
+    361,
+    819
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_233"
+  },
+  {
+   "block_id": "doc_006_p085_b004",
+   "type": "paragraph",
+   "page_number": 85,
+   "bbox": [
+    122,
+    907,
+    2429,
+    999
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "When using the quantity determination procedure Quantity Determination During Meter Reading, extrapolation takes place as follows:",
+   "section_id": "doc_006_sec_233"
+  },
+  {
+   "block_id": "doc_006_p085_b005",
+   "type": "list",
+   "page_number": 85,
+   "bbox": [
+    211,
+    1094,
+    2479,
+    1576
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "The saved (and rounded) quantities from the meter reading results in the representative base period are added together as a basis for extrapolation."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "The system determines the weighting Y of the base period."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "The system determines the weighting Ye of the forecast period."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "The system determines the quantity Qe for the forecast date by multiplying the added quantity from the base period with the quotient of the weighting of the forecast period and the weighting of the base period."
+    }
+   ],
+   "section_id": "doc_006_sec_233"
+  },
+  {
+   "block_id": "doc_006_p085_b006",
+   "type": "paragraph",
+   "page_number": 85,
+   "bbox": [
+    341,
+    1735,
+    1431,
+    1840
+   ],
+   "ocr_confidence": 49.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Q.=Q*(y\u00a5e/y)=(Q/y)* Ve",
+   "section_id": "doc_006_sec_233"
+  },
+  {
+   "block_id": "doc_006_p085_b007",
+   "type": "heading",
+   "page_number": 85,
+   "bbox": [
+    255,
+    1951,
+    387,
+    1979
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Formula",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_234"
+  },
+  {
+   "block_id": "doc_006_p085_b008",
+   "type": "paragraph",
+   "page_number": 85,
+   "bbox": [
+    254,
+    2044,
+    1549,
+    2085
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [],
+   "text": "The factor ( Q / Y) describes the Expected Weighted Consumption.",
+   "section_id": "doc_006_sec_234"
+  },
+  {
+   "block_id": "doc_006_p085_b009",
+   "type": "list",
+   "page_number": 85,
+   "bbox": [
+    211,
+    2153,
+    2483,
+    2524
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "From this forecast quantity Qe, that has not yet been rounded, the system calculates the estimated meter reading result Qe taking the relevant factors (such as the gas factors and register factors) into account. This is then rounded and saved according to the system settings."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "Taking into account the factors from the forecast period, the system determines the final consumption value from the difference between the estimated meter reading result E and the previous meter reading result MR1. The final consumption"
+    }
+   ],
+   "section_id": "doc_006_sec_234"
+  },
+  {
+   "block_id": "doc_006_p085_b010",
+   "type": "paragraph",
+   "page_number": 85,
+   "bbox": [
+    254,
+    2552,
+    844,
+    2583
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "value is then rounded and saved.",
+   "section_id": "doc_006_sec_234"
+  },
+  {
+   "block_id": "doc_006_p085_b011",
+   "type": "note",
+   "page_number": 85,
+   "bbox": [
+    282,
+    2674,
+    2394,
+    2853
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "label": "Note",
+   "text": "Note The system does not wait for actual gas factors for extrapolation, but determines the final quantity immediately. This means that no quantity determination triggers are generated.",
+   "section_id": "doc_006_sec_234"
+  },
+  {
+   "block_id": "doc_006_p085_b012",
+   "type": "paragraph",
+   "page_number": 85,
+   "bbox": [
+    122,
+    2973,
+    2162,
+    3011
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The following figure shows extrapolation using a simple example. The abbreviations have the following meanings:",
+   "section_id": "doc_006_sec_234"
+  },
+  {
+   "block_id": "doc_006_p085_b013",
+   "type": "list",
+   "page_number": 85,
+   "bbox": [
+    207,
+    3096,
+    709,
+    3244
+   ],
+   "ocr_confidence": 64.2,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Q= Quantity"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Qe = Forecasted quantity"
+    }
+   ],
+   "section_id": "doc_006_sec_234"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.5,
+  "body_stroke_median": 0.0988,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "0ce2164f438b96dc0b00c5b24e7e7b02c8bee1c3f816b0541d58b03bc3be998d"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Extrapolation"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_231",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_232",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_233",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_234",
+   "role": "starts_here"
+  }
+ ]
+}

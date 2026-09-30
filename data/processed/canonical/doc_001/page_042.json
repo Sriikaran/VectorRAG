@@ -1,0 +1,369 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 42,
+ "source_page_hash": "cbe38b00af5b0a153a55000a1536468627817f4c27ce92a0c7417ee40ba57bff",
+ "is_cover_page": false,
+ "title": "Financial Customer Care",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nCorrespondence History\n\nCorrespondence Printing\n\nFinancial Customer Care\n\nSEPA Mandates\nSEPA Direct Debit Pre-Notifications\n\nCustomer Contacts\n\nSAP Biller Direct\n\nInterest Calculation\n\nMigration Workbench\n\ne Clearing reset is no longer possible for documents with the business partner as\nfinal recipient.\n\ne The mass activity Revenue Distribution (transaction FP60M) does not generate\nany new entries in revenue distribution table DFKKRDI.\n\ne The mass activity Post Distribution Documents or program Revenue\n\nDistribution: Create and Post Documents (transaction FP6QP) do not generate\nany new distribution documents for the blocked business partner.\n\nIf you have to perform one of these activities, you have to unblock the business partner.\nTo do this, use transactions Master Data Unlock Request (BUP_REQ_ UNBLK) and Lock\nMaster Data (Business Partner) (BUPA_PRE_EOP).\n\nThe system does not display entries for blocked business partners.\n\nYou cannot repeat printing for a blocked business partner.\n\nA blocked business partner is no longer found in Financial Customer Care (FCC) in SAP\nCRM or S/4HANA, and therefore can also not be confirmed. Access to the functions of\nFCC is therefore no longer possible.\n\nYou cannot access SEPA mandates of blocked business partners.\nYou cannot access SEPA direct debit pre-notifications of blocked business partners.\nYou cannot access customer contacts of blocked business partners.\n\nAuser for a blocked business partner can no longer log on to SAP Biller Direct. Check for\nyour own company, if these users have to be deleted.\n\nTransaction Check Bus. Partner Can Be Blocked (FPDPR1) does not analyze interest\ncalculation. An interest calculation can take place for items that were already cleared.\nThe interest calculation itself does not perform any checks for blocked business\npartners. Posting an interest document is not possible due to the posting block for a\nblocked business partner. Therefore the system issues an error message to that effect in\n\nthe application log. Ensure within your organization that the interest runs are performed\non a periodic basis, so that no interest run processes blocked business partners. This can\n\napply to the following processes:\ne Item Interest Calculation\ne Calculation of Interest on Installment Plans\ne Calculation of Interest on Cash Security Deposits\ne Balance Interest Calculation\n\nIf you have to perform one of these activities, you have to unblock the business partner.\nTo do this, use transactions Master Data Unlock Request (BUP_REQ_UNBLK) and Lock\nMaster Data (Business Partner) (BUPA_PRE_EOP).\n\nMake sure that data from the migration workbench are deleted early.\n",
+ "cleaned_text": "Correspondence History Correspondence Printing\n\nFinancial Customer Care\n\nSEPA Mandates\n\nSEPA Direct Debit Pre-Notifications\n\nCustomer Contacts\n\nSAP Biller Direct\n\nInterest Calculation\n\nMigration Workbench\n\n- Clearing reset is no longer possible for documents with the business partner as final recipient.\n\n- The mass activity Revenue Distribution (transaction FP60M) does not generate any new entries in revenue distribution table DFKKRDI.\n\n- The mass activity Post Distribution Documents or program Revenue Distribution: Create and Post Documents (transaction FP6QP) do not generate\n\nany new distribution documents for the blocked business partner. If you have to perform one of these activities, you have to unblock the business partner. To do this, use transactions Master Data Unlock Request (BUP_REQ_ UNBLK) and Lock Master Data (Business Partner) (BUPA_PRE_EOP). The system does not display entries for blocked business partners. You cannot repeat printing for a blocked business partner. A blocked business partner is no longer found in Financial Customer Care (FCC) in SAP CRM or S/4HANA, and therefore can also not be confirmed. Access to the functions of FCC is therefore no longer possible. You cannot access SEPA mandates of blocked business partners. You cannot access SEPA direct debit pre-notifications of blocked business partners. You cannot access customer contacts of blocked business partners. Auser for a blocked business partner can no longer log on to SAP Biller Direct. Check for your own company, if these users have to be deleted. Transaction Check Bus. Partner Can Be Blocked (FPDPR1) does not analyze interest calculation. An interest calculation can take place for items that were already cleared. The interest calculation itself does not perform any checks for blocked business partners. Posting an interest document is not possible due to the posting block for a blocked business partner. Therefore the system issues an error message to that effect in the application log. Ensure within your organization that the interest runs are performed on a periodic basis, so that no interest run processes blocked business partners. This can apply to the following processes:\n\n- Item Interest Calculation\n\n- Calculation of Interest on Installment Plans\n\n- Calculation of Interest on Cash Security Deposits\n\n- Balance Interest Calculation\n\nIf you have to perform one of these activities, you have to unblock the business partner. To do this, use transactions Master Data Unlock Request (BUP_REQ_UNBLK) and Lock Master Data (Business Partner) (BUPA_PRE_EOP). Make sure that data from the migration workbench are deleted early.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p042_b000",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    148,
+    876,
+    569,
+    1016
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Correspondence History Correspondence Printing",
+   "section_id": "doc_001_sec_132"
+  },
+  {
+   "block_id": "doc_001_p042_b001",
+   "type": "heading",
+   "page_number": 42,
+   "bbox": [
+    150,
+    1089,
+    562,
+    1118
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Financial Customer Care",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_133"
+  },
+  {
+   "block_id": "doc_001_p042_b002",
+   "type": "heading",
+   "page_number": 42,
+   "bbox": [
+    149,
+    1313,
+    412,
+    1341
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "SEPA Mandates",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_134"
+  },
+  {
+   "block_id": "doc_001_p042_b003",
+   "type": "heading",
+   "page_number": 42,
+   "bbox": [
+    149,
+    1418,
+    741,
+    1446
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "text": "SEPA Direct Debit Pre-Notifications",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_135"
+  },
+  {
+   "block_id": "doc_001_p042_b004",
+   "type": "heading",
+   "page_number": 42,
+   "bbox": [
+    148,
+    1523,
+    476,
+    1551
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Customer Contacts",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_136"
+  },
+  {
+   "block_id": "doc_001_p042_b005",
+   "type": "heading",
+   "page_number": 42,
+   "bbox": [
+    149,
+    1628,
+    423,
+    1657
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "SAP Biller Direct",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_137"
+  },
+  {
+   "block_id": "doc_001_p042_b006",
+   "type": "heading",
+   "page_number": 42,
+   "bbox": [
+    150,
+    1793,
+    476,
+    1821
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Interest Calculation",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_138"
+  },
+  {
+   "block_id": "doc_001_p042_b007",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    150,
+    2904,
+    506,
+    2938
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Migration Workbench",
+   "section_id": "doc_001_sec_138"
+  },
+  {
+   "block_id": "doc_001_p042_b008",
+   "type": "list",
+   "page_number": 42,
+   "bbox": [
+    1048,
+    133,
+    2440,
+    536
+   ],
+   "ocr_confidence": 87.7,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Clearing reset is no longer possible for documents with the business partner as final recipient."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The mass activity Revenue Distribution (transaction FP60M) does not generate any new entries in revenue distribution table DFKKRDI."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The mass activity Post Distribution Documents or program Revenue Distribution: Create and Post Documents (transaction FP6QP) do not generate"
+    }
+   ],
+   "section_id": "doc_001_sec_138"
+  },
+  {
+   "block_id": "doc_001_p042_b009",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    963,
+    557,
+    2456,
+    2238
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "any new distribution documents for the blocked business partner. If you have to perform one of these activities, you have to unblock the business partner. To do this, use transactions Master Data Unlock Request (BUP_REQ_ UNBLK) and Lock Master Data (Business Partner) (BUPA_PRE_EOP). The system does not display entries for blocked business partners. You cannot repeat printing for a blocked business partner. A blocked business partner is no longer found in Financial Customer Care (FCC) in SAP CRM or S/4HANA, and therefore can also not be confirmed. Access to the functions of FCC is therefore no longer possible. You cannot access SEPA mandates of blocked business partners. You cannot access SEPA direct debit pre-notifications of blocked business partners. You cannot access customer contacts of blocked business partners. Auser for a blocked business partner can no longer log on to SAP Biller Direct. Check for your own company, if these users have to be deleted. Transaction Check Bus. Partner Can Be Blocked (FPDPR1) does not analyze interest calculation. An interest calculation can take place for items that were already cleared. The interest calculation itself does not perform any checks for blocked business partners. Posting an interest document is not possible due to the posting block for a blocked business partner. Therefore the system issues an error message to that effect in the application log. Ensure within your organization that the interest runs are performed on a periodic basis, so that no interest run processes blocked business partners. This can apply to the following processes:",
+   "section_id": "doc_001_sec_138"
+  },
+  {
+   "block_id": "doc_001_p042_b010",
+   "type": "list",
+   "page_number": 42,
+   "bbox": [
+    1048,
+    2298,
+    1920,
+    2613
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Item Interest Calculation"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Calculation of Interest on Installment Plans"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Calculation of Interest on Cash Security Deposits"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Balance Interest Calculation"
+    }
+   ],
+   "section_id": "doc_001_sec_138"
+  },
+  {
+   "block_id": "doc_001_p042_b011",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    964,
+    2680,
+    2434,
+    2938
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "If you have to perform one of these activities, you have to unblock the business partner. To do this, use transactions Master Data Unlock Request (BUP_REQ_UNBLK) and Lock Master Data (Business Partner) (BUPA_PRE_EOP). Make sure that data from the migration workbench are deleted early.",
+   "section_id": "doc_001_sec_138"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "cbe38b00af5b0a153a55000a1536468627817f4c27ce92a0c7417ee40ba57bff"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Preventing New Business",
+  "Revenue Distribution"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_132",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_133",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_134",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_135",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_136",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_137",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_138",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 30,
+ "source_page_hash": "dd930afc7a79f30414d81fac521e3b70b009bff02c91cba6115cbdef7d08af6c",
+ "is_cover_page": false,
+ "title": "Key Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\nWith the Manage Creditworthiness (F4408) app you can display and change the creditworthiness of business partners.\n\nKey Features\nYou can use this app to:\n\ne Display the creditworthiness of a business partner\ne Change the creditworthiness of a business partner\n\ne Track the creditworthiness of a business partner over time\n\ne Fix the creditworthiness of a business partner\n\nThe system automatically determines the creditworthiness of a business partner in returns processing, in a dunning run, and\nduring write-off. The creditworthiness influences the activities and the charges levied, provided that you have defined the activities\nand charges dependent on creditworthiness in the system configuration.\n\nThe creditworthiness value consists of a manual and an automatic part. The automatic value is determined by multiplying the\n\ncredit numbers of the processes relevant for creditworthiness (Such as dunning notices and returns) by the time-dependent credit\nweighting, and adding up the results.\n\nCreditworthiness is determined using the following formula:\nCreditworthiness = automatic creditworthiness value x percentage credit factor + manual creditworthiness\n\nThe best creditworthiness value is O. This means that the business partner has a good payment history and has, for example, not\n\nbeen sent a dunning notice in the last few months. The worse the payment history of a business partner is, the higher is the\ncreditworthiness value.\n\nThe Manage Creditworthiness app displays the creditworthiness of business partners in a list. You can limit the results list by\nusing filters. Once you have selected an entry from the list, the system displays all creditworthiness records, monthly totals, and\nthe change history of the business partner.\n\nWhen you edit a business partner's creditworthiness:\n\ne You can enter or change the creditworthiness manually.\n\nThe manual creditworthiness is added to the value of the automatically determined creditworthiness. The result is the total\ncreditworthiness of the business partner.\n\ne You can change the percentage creditworthiness factor.\n\nYou use this factor to weight the creditworthiness depending on the business partner. The percentage only refers to the\ncreditworthiness portion that is determined automatically. The manual creditworthiness value is not affected.\n\nee Example\nIf you enter a percentage of O for a customer, the automatic portion of creditworthiness is not considered. In this case,\nthe creditworthiness value is that of the manual value.\n\ne You can fix the current value of the automatically determined creditworthiness.\n\nThe creditworthiness value can then only change for reasons relating to creditworthiness, such as dunning or dunning\n",
+ "cleaned_text": "With the Manage Creditworthiness (F4408) app you can display and change the creditworthiness of business partners.\n\nKey Features\n\nYou can use this app to:\n\n- Display the creditworthiness of a business partner\n\n- Change the creditworthiness of a business partner\n\n- Track the creditworthiness of a business partner over time\n\n- Fix the creditworthiness of a business partner\n\nThe system automatically determines the creditworthiness of a business partner in returns processing, in a dunning run, and during write-off. The creditworthiness influences the activities and the charges levied, provided that you have defined the activities and charges dependent on creditworthiness in the system configuration. The creditworthiness value consists of a manual and an automatic part. The automatic value is determined by multiplying the credit numbers of the processes relevant for creditworthiness (Such as dunning notices and returns) by the time-dependent credit weighting, and adding up the results. Creditworthiness is determined using the following formula: Creditworthiness = automatic creditworthiness value x percentage credit factor + manual creditworthiness The best creditworthiness value is O. This means that the business partner has a good payment history and has, for example, not been sent a dunning notice in the last few months. The worse the payment history of a business partner is, the higher is the creditworthiness value. The Manage Creditworthiness app displays the creditworthiness of business partners in a list. You can limit the results list by using filters. Once you have selected an entry from the list, the system displays all creditworthiness records, monthly totals, and the change history of the business partner. When you edit a business partner's creditworthiness:\n\n- You can enter or change the creditworthiness manually. The manual creditworthiness is added to the value of the automatically determined creditworthiness. The result is the total creditworthiness of the business partner.\n\n- You can change the percentage creditworthiness factor. You use this factor to weight the creditworthiness depending on the business partner. The percentage only refers to the creditworthiness portion that is determined automatically. The manual creditworthiness value is not affected. ee Example If you enter a percentage of O for a customer, the automatic portion of creditworthiness is not considered. In this case,\n\nthe creditworthiness value is that of the manual value.\n\n- You can fix the current value of the automatically determined creditworthiness. The creditworthiness value can then only change for reasons relating to creditworthiness, such as dunning or dunning",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p030_b000",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    123,
+    134,
+    2287,
+    173
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "With the Manage Creditworthiness (F4408) app you can display and change the creditworthiness of business partners.",
+   "section_id": "doc_026_sec_134"
+  },
+  {
+   "block_id": "doc_026_p030_b001",
+   "type": "heading",
+   "page_number": 30,
+   "bbox": [
+    126,
+    284,
+    480,
+    341
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Key Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_135"
+  },
+  {
+   "block_id": "doc_026_p030_b002",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    123,
+    417,
+    546,
+    454
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You can use this app to:",
+   "section_id": "doc_026_sec_135"
+  },
+  {
+   "block_id": "doc_026_p030_b003",
+   "type": "list",
+   "page_number": 30,
+   "bbox": [
+    207,
+    539,
+    1306,
+    885
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display the creditworthiness of a business partner"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change the creditworthiness of a business partner"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Track the creditworthiness of a business partner over time"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Fix the creditworthiness of a business partner"
+    }
+   ],
+   "section_id": "doc_026_sec_135"
+  },
+  {
+   "block_id": "doc_026_p030_b004",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    122,
+    969,
+    2478,
+    2245
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The system automatically determines the creditworthiness of a business partner in returns processing, in a dunning run, and during write-off. The creditworthiness influences the activities and the charges levied, provided that you have defined the activities and charges dependent on creditworthiness in the system configuration. The creditworthiness value consists of a manual and an automatic part. The automatic value is determined by multiplying the credit numbers of the processes relevant for creditworthiness (Such as dunning notices and returns) by the time-dependent credit weighting, and adding up the results. Creditworthiness is determined using the following formula: Creditworthiness = automatic creditworthiness value x percentage credit factor + manual creditworthiness The best creditworthiness value is O. This means that the business partner has a good payment history and has, for example, not been sent a dunning notice in the last few months. The worse the payment history of a business partner is, the higher is the creditworthiness value. The Manage Creditworthiness app displays the creditworthiness of business partners in a list. You can limit the results list by using filters. Once you have selected an entry from the list, the system displays all creditworthiness records, monthly totals, and the change history of the business partner. When you edit a business partner's creditworthiness:",
+   "section_id": "doc_026_sec_135"
+  },
+  {
+   "block_id": "doc_026_p030_b005",
+   "type": "list",
+   "page_number": 30,
+   "bbox": [
+    207,
+    2329,
+    2474,
+    3001
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can enter or change the creditworthiness manually. The manual creditworthiness is added to the value of the automatically determined creditworthiness. The result is the total creditworthiness of the business partner."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can change the percentage creditworthiness factor. You use this factor to weight the creditworthiness depending on the business partner. The percentage only refers to the creditworthiness portion that is determined automatically. The manual creditworthiness value is not affected. ee Example If you enter a percentage of O for a customer, the automatic portion of creditworthiness is not considered. In this case,"
+    }
+   ],
+   "section_id": "doc_026_sec_135"
+  },
+  {
+   "block_id": "doc_026_p030_b006",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    283,
+    3025,
+    1258,
+    3056
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "the creditworthiness value is that of the manual value.",
+   "section_id": "doc_026_sec_135"
+  },
+  {
+   "block_id": "doc_026_p030_b007",
+   "type": "list",
+   "page_number": 30,
+   "bbox": [
+    207,
+    3163,
+    2382,
+    3300
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can fix the current value of the automatically determined creditworthiness. The creditworthiness value can then only change for reasons relating to creditworthiness, such as dunning or dunning"
+    }
+   ],
+   "section_id": "doc_026_sec_135"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "dd930afc7a79f30414d81fac521e3b70b009bff02c91cba6115cbdef7d08af6c"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Creditworthiness",
+  "Related Information"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_134",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_135",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 18,
+ "source_page_hash": "21e1b7f6859ef4f39be0f04e15331e28588ca87b5b93da31a983168db184d9de",
+ "is_cover_page": false,
+ "title": "Constants:",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nAs soon as an interval is allocated to calculation mode 99 in enhancement EESMFOOI1, the calculation is cancelled (for\nthe entire billing period).\n\nWhen implementing formulas, you can use the constants from include IEEDMFORMULACALCMOD in order to correspond with the\ncalculation mode within the program.\n\nConstants:\n\nco_calcmod_use type e_formulamod value 'Ol',\nco_calcmod_not_use type e_formulamod value '02\u2019,\nco_calcmod_abort type e_formulamod value '99'.\n\nYou can also define additional calculation modes.\n\nTo define a calculation mode, go to Customizing for SAP Utilities and choose |*Tools \u00bb System Modifications \u00bb User-Defined\nEnhancements for Energy Data Management > Formulas.\n\nIntegration\n\nFormula Definition\n\nYou can allocate input parameters to calculation modes in the transaction for defining formulas. You must define one calculation\nmode as a default value for the parameter.\n\n1. Select (double click) an input parameter from the list. The parameter number of the selected parameter appears\nautomatically in the Calculation Mode group box.\n\n2. Select one of the predefined calculation modes in the Calc.Mode (calculation mode) field.\n3. If you want the system to use this calculation mode as the default value for the parameter, select the Default Value field.\n\nOnly ever select the Default Value field for one calculation mode.\n\n4. Choose @yCopy.\n\nYour entries are then transferred to the list.\n\n5. Repeat the steps whenever you want to allocate one or more calculation modes to input parameters.\nFormula Calculation\n\nYou use a function module to calculate formulas. Before defining any extra formulas in addition to those predefined by SAP, you\nmust define a function module for the calculations.\n\nTo define formulas, go to Customizing for SAP Utilities and choose |+Tools System Modifications User-Defined\nEnhancements for Energy Data Management \u00bb Formulas.\n\nIn the function modules, you can respond to the calculation modes of the individual intervals in order to influence the results of\nformula calculation.\n",
+ "cleaned_text": "As soon as an interval is allocated to calculation mode 99 in enhancement EESMFOOI1, the calculation is cancelled (for the entire billing period).\n\nWhen implementing formulas, you can use the constants from include IEEDMFORMULACALCMOD in order to correspond with the calculation mode within the program.\n\nConstants:\n\nco_calcmod_use type e_formulamod value 'Ol', co_calcmod_not_use type e_formulamod value '02\u2019, co_calcmod_abort type e_formulamod value '99'. You can also define additional calculation modes. To define a calculation mode, go to Customizing for SAP Utilities and choose |*Tools \u00bb System Modifications \u00bb User-Defined Enhancements for Energy Data Management > Formulas.\n\nIntegration\n\nFormula Definition\n\nYou can allocate input parameters to calculation modes in the transaction for defining formulas. You must define one calculation mode as a default value for the parameter.\n\n1 Select (double click) an input parameter from the list. The parameter number of the selected parameter appears automatically in the Calculation Mode group box.\n\n2 Select one of the predefined calculation modes in the Calc.Mode (calculation mode) field.\n\n3 If you want the system to use this calculation mode as the default value for the parameter, select the Default Value field. Only ever select the Default Value field for one calculation mode.\n\n4 Choose @yCopy. Your entries are then transferred to the list.\n\n5 Repeat the steps whenever you want to allocate one or more calculation modes to input parameters.\n\nFormula Calculation\n\nYou use a function module to calculate formulas. Before defining any extra formulas in addition to those predefined by SAP, you must define a function module for the calculations. To define formulas, go to Customizing for SAP Utilities and choose |+Tools System Modifications User-Defined Enhancements for Energy Data Management \u00bb Formulas. In the function modules, you can respond to the calculation modes of the individual intervals in order to influence the results of formula calculation.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p018_b000",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    283,
+    134,
+    2420,
+    235
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "As soon as an interval is allocated to calculation mode 99 in enhancement EESMFOOI1, the calculation is cancelled (for the entire billing period).",
+   "section_id": "doc_011_sec_051"
+  },
+  {
+   "block_id": "doc_011_p018_b001",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    123,
+    354,
+    2475,
+    454
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "When implementing formulas, you can use the constants from include IEEDMFORMULACALCMOD in order to correspond with the calculation mode within the program.",
+   "section_id": "doc_011_sec_051"
+  },
+  {
+   "block_id": "doc_011_p018_b002",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    123,
+    541,
+    317,
+    572
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Constants:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_052"
+  },
+  {
+   "block_id": "doc_011_p018_b003",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    122,
+    663,
+    2386,
+    1259
+   ],
+   "ocr_confidence": 88.5,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "text": "co_calcmod_use type e_formulamod value 'Ol', co_calcmod_not_use type e_formulamod value '02\u2019, co_calcmod_abort type e_formulamod value '99'. You can also define additional calculation modes. To define a calculation mode, go to Customizing for SAP Utilities and choose |*Tools \u00bb System Modifications \u00bb User-Defined Enhancements for Energy Data Management > Formulas.",
+   "section_id": "doc_011_sec_052"
+  },
+  {
+   "block_id": "doc_011_p018_b004",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    127,
+    1365,
+    431,
+    1422
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_053"
+  },
+  {
+   "block_id": "doc_011_p018_b005",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    124,
+    1498,
+    465,
+    1528
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Formula Definition",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_054"
+  },
+  {
+   "block_id": "doc_011_p018_b006",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    123,
+    1620,
+    2438,
+    1719
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You can allocate input parameters to calculation modes in the transaction for defining formulas. You must define one calculation mode as a default value for the parameter.",
+   "section_id": "doc_011_sec_054"
+  },
+  {
+   "block_id": "doc_011_p018_b007",
+   "type": "list",
+   "page_number": 18,
+   "bbox": [
+    211,
+    1803,
+    2423,
+    2521
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Select (double click) an input parameter from the list. The parameter number of the selected parameter appears automatically in the Calculation Mode group box."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Select one of the predefined calculation modes in the Calc.Mode (calculation mode) field."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "If you want the system to use this calculation mode as the default value for the parameter, select the Default Value field. Only ever select the Default Value field for one calculation mode."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Choose @yCopy. Your entries are then transferred to the list."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Repeat the steps whenever you want to allocate one or more calculation modes to input parameters."
+    }
+   ],
+   "section_id": "doc_011_sec_054"
+  },
+  {
+   "block_id": "doc_011_p018_b008",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    124,
+    2605,
+    495,
+    2635
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Formula Calculation",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_055"
+  },
+  {
+   "block_id": "doc_011_p018_b009",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    122,
+    2726,
+    2420,
+    3190
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You use a function module to calculate formulas. Before defining any extra formulas in addition to those predefined by SAP, you must define a function module for the calculations. To define formulas, go to Customizing for SAP Utilities and choose |+Tools System Modifications User-Defined Enhancements for Energy Data Management \u00bb Formulas. In the function modules, you can respond to the calculation modes of the individual intervals in order to influence the results of formula calculation.",
+   "section_id": "doc_011_sec_055"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "21e1b7f6859ef4f39be0f04e15331e28588ca87b5b93da31a983168db184d9de"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Calculation Mode",
+  "Definition"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_051",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_052",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_053",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_054",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_055",
+   "role": "starts_here"
+  }
+ ]
+}

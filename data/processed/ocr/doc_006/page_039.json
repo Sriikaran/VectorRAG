@@ -1,0 +1,118 @@
+{
+ "document_id": "doc_006",
+ "page_number": 39,
+ "source_pdf": "6.pdf",
+ "page_hash": "da67d3668e56738f6d40cfac66e243470d77644093b6e49086017c31c73b81a2",
+ "ocr_engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+ "ocr_settings": {
+  "oem": 1,
+  "psm": 3,
+  "dpi": 300,
+  "language": "eng",
+  "colorspace": "grayscale",
+  "variables": {
+   "preserve_interword_spaces": "1"
+  }
+ },
+ "render_size": [
+  2550,
+  3300
+ ],
+ "text": "9/29/26, 9:42 AM\n\n|x\u00bb x\n\nBase period\n\n|x\u00bb x\n\nBase period\n\n",
+ "character_count": 58,
+ "word_count": 11,
+ "mean_confidence": 73,
+ "word_boxes": [
+  [
+   "9/29/26,",
+   107,
+   72,
+   248,
+   103,
+   93.7
+  ],
+  [
+   "9:42",
+   264,
+   72,
+   337,
+   99,
+   93.7
+  ],
+  [
+   "AM",
+   353,
+   73,
+   403,
+   99,
+   96.7
+  ],
+  [
+   "|x\u00bb",
+   768,
+   957,
+   1107,
+   1040,
+   0.0
+  ],
+  [
+   "x",
+   1176,
+   957,
+   1363,
+   1040,
+   4.7
+  ],
+  [
+   "Base",
+   800,
+   1127,
+   924,
+   1166,
+   96.5
+  ],
+  [
+   "period",
+   950,
+   1127,
+   1113,
+   1178,
+   96.7
+  ],
+  [
+   "|x\u00bb",
+   768,
+   2635,
+   1107,
+   2718,
+   0.0
+  ],
+  [
+   "x",
+   1176,
+   2635,
+   1363,
+   2718,
+   4.7
+  ],
+  [
+   "Base",
+   800,
+   2805,
+   924,
+   2844,
+   96.5
+  ],
+  [
+   "period",
+   950,
+   2805,
+   1113,
+   2856,
+   96.7
+  ]
+ ],
+ "processed_at": "2026-09-30T09:15:29Z",
+ "duration_seconds": 0.28,
+ "complete": true
+}

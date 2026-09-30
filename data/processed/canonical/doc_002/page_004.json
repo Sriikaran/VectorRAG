@@ -1,0 +1,336 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 4,
+ "source_page_hash": "d62754d09786bcf8e478c66c4a039bdf3264246b70798f9685b986305c2fb460",
+ "is_cover_page": false,
+ "title": "Activities",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\nThe BOR object types MOVEINDOC and MOVEOUTDOC have the following methods that you can use to create your own\nworkflows:\n\ne GETDOCSBILLINGFICA (determine the documents to reverse)\n\ne REVERSEDOCSBILLINGFICA (reverse the documents)\n\ne REVERSELOGDISPLAY (display the reversal log)\n\nActivities\nSearch parameters\nUse the search parameters for move-in or move-out to create or process a move-in or move-out separately.\n\nIf you want to create a move-in/out for a business partner, you can use the move-out search parameters to select the installations\nand determine the business partner. You do not have to determine the business partner on the move-in page.\n\nIf you want to create a move-in/out for a premise, you can use the move-out search parameters to search for the installations for\nboth the move-in and move-out. You do not have to determine the premise on the move-in page.\n\nInsert Contract\n\nUse\n\nYou use this function to allocate contracts in order to cover the vacant status periods of one or more installations.\n\nThis functions affects installations that are vacant over a given period. No contract is allocated to the installation over the vacant\nstatus period; however, the installation has a contract that begins at the end of the vacant status period. The function entails a\nmove-in and move-out. Note that the move-in of the second contract (to be allocated at the end of the vacant status period) does\nnot have to be reversed.\n\nIf the second contract has already been invoiced then these bills are automatically reversed for adjustment. If the installation is\nbilled again, the system creates a redundant bill for the contract. This bill is automatically suppressed. This ensures that the\n\ncustomer moving in to the installation only receives one bill.\n\nThe Insert Move-In/Out action has been enhanced to include the Remove Contract function. If the contract to be removed, or a\nsubsequent contract has already been invoiced then you must perform a full reversal, or bill the affected period. The Remove\nContract function contains the full reversal functionality; however restrictions apply.\n\nIntegration\n\nThe Insert Contract function is integrated in the move-in/out transaction (EC60).\n\nPrerequisites\n\nThe adjustment reversal functionality contained in this function requires all documents to be invoiced. Documents that have been\nbilled but not invoiced cannot be adjusted for reversal. You cannot debug this function since debugging causes data\n",
+ "cleaned_text": "The BOR object types MOVEINDOC and MOVEOUTDOC have the following methods that you can use to create your own workflows:\n\n- GETDOCSBILLINGFICA (determine the documents to reverse)\n\n- REVERSEDOCSBILLINGFICA (reverse the documents)\n\n- REVERSELOGDISPLAY (display the reversal log)\n\nActivities\n\nSearch parameters\n\nUse the search parameters for move-in or move-out to create or process a move-in or move-out separately. If you want to create a move-in/out for a business partner, you can use the move-out search parameters to select the installations and determine the business partner. You do not have to determine the business partner on the move-in page. If you want to create a move-in/out for a premise, you can use the move-out search parameters to search for the installations for both the move-in and move-out. You do not have to determine the premise on the move-in page.\n\nInsert Contract\n\nUse\n\nYou use this function to allocate contracts in order to cover the vacant status periods of one or more installations. This functions affects installations that are vacant over a given period. No contract is allocated to the installation over the vacant status period; however, the installation has a contract that begins at the end of the vacant status period. The function entails a move-in and move-out. Note that the move-in of the second contract (to be allocated at the end of the vacant status period) does not have to be reversed. If the second contract has already been invoiced then these bills are automatically reversed for adjustment. If the installation is billed again, the system creates a redundant bill for the contract. This bill is automatically suppressed. This ensures that the customer moving in to the installation only receives one bill. The Insert Move-In/Out action has been enhanced to include the Remove Contract function. If the contract to be removed, or a subsequent contract has already been invoiced then you must perform a full reversal, or bill the affected period. The Remove Contract function contains the full reversal functionality; however restrictions apply.\n\nIntegration\n\nThe Insert Contract function is integrated in the move-in/out transaction (EC60).\n\nPrerequisites\n\nThe adjustment reversal functionality contained in this function requires all documents to be invoiced. Documents that have been billed but not invoiced cannot be adjusted for reversal. You cannot debug this function since debugging causes data",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p004_b000",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    134,
+    2293,
+    227
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "The BOR object types MOVEINDOC and MOVEOUTDOC have the following methods that you can use to create your own workflows:",
+   "section_id": "doc_002_sec_009"
+  },
+  {
+   "block_id": "doc_002_p004_b001",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    207,
+    318,
+    1381,
+    563
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "GETDOCSBILLINGFICA (determine the documents to reverse)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "REVERSEDOCSBILLINGFICA (reverse the documents)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "REVERSELOGDISPLAY (display the reversal log)"
+    }
+   ],
+   "section_id": "doc_002_sec_009"
+  },
+  {
+   "block_id": "doc_002_p004_b002",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    123,
+    675,
+    383,
+    720
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_010"
+  },
+  {
+   "block_id": "doc_002_p004_b003",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    124,
+    808,
+    468,
+    845
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Search parameters",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_002_sec_010"
+  },
+  {
+   "block_id": "doc_002_p004_b004",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    123,
+    930,
+    2464,
+    1338
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Use the search parameters for move-in or move-out to create or process a move-in or move-out separately. If you want to create a move-in/out for a business partner, you can use the move-out search parameters to select the installations and determine the business partner. You do not have to determine the business partner on the move-in page. If you want to create a move-in/out for a premise, you can use the move-out search parameters to search for the installations for both the move-in and move-out. You do not have to determine the premise on the move-in page.",
+   "section_id": "doc_002_sec_010"
+  },
+  {
+   "block_id": "doc_002_p004_b005",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    129,
+    1483,
+    674,
+    1545
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Insert Contract",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_011"
+  },
+  {
+   "block_id": "doc_002_p004_b006",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    125,
+    1661,
+    225,
+    1706
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_012"
+  },
+  {
+   "block_id": "doc_002_p004_b007",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    1794,
+    2459,
+    2640
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You use this function to allocate contracts in order to cover the vacant status periods of one or more installations. This functions affects installations that are vacant over a given period. No contract is allocated to the installation over the vacant status period; however, the installation has a contract that begins at the end of the vacant status period. The function entails a move-in and move-out. Note that the move-in of the second contract (to be allocated at the end of the vacant status period) does not have to be reversed. If the second contract has already been invoiced then these bills are automatically reversed for adjustment. If the installation is billed again, the system creates a redundant bill for the contract. This bill is automatically suppressed. This ensures that the customer moving in to the installation only receives one bill. The Insert Move-In/Out action has been enhanced to include the Remove Contract function. If the contract to be removed, or a subsequent contract has already been invoiced then you must perform a full reversal, or bill the affected period. The Remove Contract function contains the full reversal functionality; however restrictions apply.",
+   "section_id": "doc_002_sec_012"
+  },
+  {
+   "block_id": "doc_002_p004_b008",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    127,
+    2751,
+    431,
+    2808
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_013"
+  },
+  {
+   "block_id": "doc_002_p004_b009",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    2884,
+    1599,
+    2922
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "text": "The Insert Contract function is integrated in the move-in/out transaction (EC60).",
+   "section_id": "doc_002_sec_013"
+  },
+  {
+   "block_id": "doc_002_p004_b010",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    126,
+    3034,
+    492,
+    3090
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_014"
+  },
+  {
+   "block_id": "doc_002_p004_b011",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    3167,
+    2464,
+    3267
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The adjustment reversal functionality contained in this function requires all documents to be invoiced. Documents that have been billed but not invoiced cannot be adjusted for reversal. You cannot debug this function since debugging causes data",
+   "section_id": "doc_002_sec_014"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "d62754d09786bcf8e478c66c4a039bdf3264246b70798f9685b986305c2fb460"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Move-In/Out Processing",
+  "Features",
+  "Subsequent processing of move-ins and move-outs"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_009",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_002_sec_010",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_011",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_012",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_013",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_014",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,470 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 3,
+ "source_page_hash": "1387f45db09d7725c1dfd9c3635edbfc26d623d1ab66a5539a4ebbb71c1bf475",
+ "is_cover_page": false,
+ "title": "Process Flow",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\nProcess Flow\n\nTo map and control the dunning processes that you require using the dunning program, you first have to define the specifications\nfor the dunning parameters described in this section in Customizing. In Customizing for Contract Accounts Receivable and\nPayable, carry out the activities listed under Business Transactions in the section Dunning. See also the documentation for the\nactivities, the individual fields, and the indicators.\n\nDefine the required dunning parameters manually in the master records of the contract accounts and/or in the document. To do\nthis, use the Create Contract Account and Change Contract Account transactions (CAA1/CAA2), the Manage Contract Accounts\napp (F5474), or the Post Document and Change Document transactions (FPE1/FPE2).\n\nIn certain business transactions, the system can also enter dunning parameters in the contract account and/or document\nautomatically. This enables you, for example, to default the dunning procedure when you are creating contract accounts. Using the\n\nBAPI BAPI_CTRACCONTRACTACCOUNT_ CREA, you can determine dunning locks.\n\n1 Note\n\nFor the industry components Public Sector Contract Accounts Receivable and Payable and Utilities, in Customizing for\nContract Accounts Receivable and Payable, you can define default values for dunning procedures and dunning locks that the\nsystem then enters in the document automatically during posting (see|)\u00bbBasic Functions \u00bb Postings and Documents\nDocument Maintain Document Assignments Maintain Transactions for Public Sector Contract Accounting 4 or\nMaintain Transactions for IS-U).\n\nIn the industry component Insurance, you can also define the dunning parameters for the insurance object and determine\n\nwhether the dunning parameters of the contract account or insurance object are to apply. The dunning parameters defined for\nthe document override the parameters in the master data.\n\nThe dunning proposal run evaluates the parameters and derives the actions to be carried out.\n\n/~ Dunning Procedures                                                                                     a\n/   Dunning Level 1             /    Dunning Level 2    \\     /    Dunning Level 3   \\\n\n7-14 Days In Arrears                          15 - 21 Days in Arrears                            30 Days in Arrears\nDunning Activities                        Dunning Activities                          Dunning Activities\nSending the Second Dunning\n\nSubmission of Items to a\n\nSending a Dunning Letter                  Letter                                             Collection Agency\n\nCalculation of Interest,\nDunning Charges, and\n\nLX               \u2014        dy           D\n\nDunning Parameters\n\nDunning Procedure\n\nThe dunning procedure is the central control attribute for the dunning process flow and defines the procedure for situations where\na business partner is in arrears. A dunning procedure consists of individual dunning levels.\n",
+ "cleaned_text": "Process Flow\n\nTo map and control the dunning processes that you require using the dunning program, you first have to define the specifications for the dunning parameters described in this section in Customizing. In Customizing for Contract Accounts Receivable and Payable, carry out the activities listed under Business Transactions in the section Dunning. See also the documentation for the activities, the individual fields, and the indicators. Define the required dunning parameters manually in the master records of the contract accounts and/or in the document. To do this, use the Create Contract Account and Change Contract Account transactions (CAA1/CAA2), the Manage Contract Accounts app (F5474), or the Post Document and Change Document transactions (FPE1/FPE2). In certain business transactions, the system can also enter dunning parameters in the contract account and/or document automatically. This enables you, for example, to default the dunning procedure when you are creating contract accounts. Using the BAPI BAPI_CTRACCONTRACTACCOUNT_ CREA, you can determine dunning locks.\n\nNote For the industry components Public Sector Contract Accounts Receivable and Payable and Utilities, in Customizing for Contract Accounts Receivable and Payable, you can define default values for dunning procedures and dunning locks that the system then enters in the document automatically during posting (see|)\u00bbBasic Functions \u00bb Postings and Documents Document Maintain Document Assignments Maintain Transactions for Public Sector Contract Accounting 4 or Maintain Transactions for IS-U). In the industry component Insurance, you can also define the dunning parameters for the insurance object and determine whether the dunning parameters of the contract account or insurance object are to apply. The dunning parameters defined for the document override the parameters in the master data.\n\nThe dunning proposal run evaluates the parameters and derives the actions to be carried out.\n\n/~ Dunning Procedures | a\n\n/ | Dunning Level 1 | / | Dunning Level 2 | \\ | / | Dunning Level 3 | \\\n\n7-14 Days In Arrears | 15 - 21 Days in Arrears | 30 Days in Arrears\n\nDunning Activities | Dunning Activities | Dunning Activities\n\nSending the Second Dunning\n\nSubmission of Items to a\n\nSending a Dunning Letter | Letter | Collection Agency\n\nCalculation of Interest, Dunning Charges, and\n\nLX | \u2014 | dy | D\n\nDunning Parameters\n\nDunning Procedure\n\nThe dunning procedure is the central control attribute for the dunning process flow and defines the procedure for situations where a business partner is in arrears. A dunning procedure consists of individual dunning levels.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1097,
+    310,
+    1134
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p003_b000",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    126,
+    487,
+    172
+   ],
+   "ocr_confidence": 97.0,
+   "flags": [],
+   "text": "Process Flow",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_005"
+  },
+  {
+   "block_id": "doc_026_p003_b001",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    259,
+    2487,
+    1000
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "To map and control the dunning processes that you require using the dunning program, you first have to define the specifications for the dunning parameters described in this section in Customizing. In Customizing for Contract Accounts Receivable and Payable, carry out the activities listed under Business Transactions in the section Dunning. See also the documentation for the activities, the individual fields, and the indicators. Define the required dunning parameters manually in the master records of the contract accounts and/or in the document. To do this, use the Create Contract Account and Change Contract Account transactions (CAA1/CAA2), the Manage Contract Accounts app (F5474), or the Post Document and Change Document transactions (FPE1/FPE2). In certain business transactions, the system can also enter dunning parameters in the contract account and/or document automatically. This enables you, for example, to default the dunning procedure when you are creating contract accounts. Using the BAPI BAPI_CTRACCONTRACTACCOUNT_ CREA, you can determine dunning locks.",
+   "section_id": "doc_026_sec_005"
+  },
+  {
+   "block_id": "doc_026_p003_b002",
+   "type": "note",
+   "page_number": 3,
+   "bbox": [
+    151,
+    1097,
+    2438,
+    1713
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "label": "Note",
+   "text": "Note For the industry components Public Sector Contract Accounts Receivable and Payable and Utilities, in Customizing for Contract Accounts Receivable and Payable, you can define default values for dunning procedures and dunning locks that the system then enters in the document automatically during posting (see|)\u00bbBasic Functions \u00bb Postings and Documents Document Maintain Document Assignments Maintain Transactions for Public Sector Contract Accounting 4 or Maintain Transactions for IS-U). In the industry component Insurance, you can also define the dunning parameters for the insurance object and determine whether the dunning parameters of the contract account or insurance object are to apply. The dunning parameters defined for the document override the parameters in the master data.",
+   "section_id": "doc_026_sec_005"
+  },
+  {
+   "block_id": "doc_026_p003_b003",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    1833,
+    1811,
+    1871
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The dunning proposal run evaluates the parameters and derives the actions to be carried out.",
+   "section_id": "doc_026_sec_005"
+  },
+  {
+   "block_id": "doc_026_p003_b004",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    120,
+    1940,
+    2483,
+    2227
+   ],
+   "ocr_confidence": 81.6,
+   "flags": [
+    "low_confidence_words:5",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 10,
+   "column_starts": [
+    120,
+    221,
+    371,
+    972,
+    1106,
+    1550,
+    1735,
+    1897,
+    2313,
+    2370
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "/~ Dunning Procedures",
+     "a"
+    ],
+    [
+     "/",
+     "Dunning Level 1",
+     "/",
+     "Dunning Level 2",
+     "\\",
+     "/",
+     "Dunning Level 3",
+     "\\"
+    ],
+    [
+     "7-14 Days In Arrears",
+     "15 - 21 Days in Arrears",
+     "30 Days in Arrears"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "/~ Dunning Procedures",
+     "a"
+    ],
+    [
+     "/",
+     "Dunning Level 1",
+     "/",
+     "Dunning Level 2",
+     "\\",
+     "/",
+     "Dunning Level 3",
+     "\\"
+    ],
+    [
+     "7-14 Days In Arrears",
+     "15 - 21 Days in Arrears",
+     "30 Days in Arrears"
+    ]
+   ],
+   "section_id": "doc_026_sec_005"
+  },
+  {
+   "block_id": "doc_026_p003_b005",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    366,
+    2335,
+    2267,
+    2384
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    366,
+    1103,
+    1871
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Dunning Activities",
+     "Dunning Activities",
+     "Dunning Activities"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Dunning Activities",
+     "Dunning Activities",
+     "Dunning Activities"
+    ]
+   ],
+   "section_id": "doc_026_sec_005"
+  },
+  {
+   "block_id": "doc_026_p003_b006",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    1046,
+    2401,
+    1530,
+    2438
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Sending the Second Dunning",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_006"
+  },
+  {
+   "block_id": "doc_026_p003_b007",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    1812,
+    2424,
+    2222,
+    2453
+   ],
+   "ocr_confidence": 85.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Submission of Items to a",
+   "section_id": "doc_026_sec_006"
+  },
+  {
+   "block_id": "doc_026_p003_b008",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    351,
+    2443,
+    2111,
+    2507
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    351,
+    1046,
+    1814
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Sending a Dunning Letter",
+     "Letter",
+     "Collection Agency"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Sending a Dunning Letter",
+     "Letter",
+     "Collection Agency"
+    ]
+   ],
+   "section_id": "doc_026_sec_006"
+  },
+  {
+   "block_id": "doc_026_p003_b009",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    1046,
+    2515,
+    1419,
+    2599
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Calculation of Interest, Dunning Charges, and",
+   "section_id": "doc_026_sec_006"
+  },
+  {
+   "block_id": "doc_026_p003_b010",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    124,
+    2607,
+    2404,
+    2764
+   ],
+   "ocr_confidence": 32.4,
+   "flags": [
+    "low_confidence_words:3",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    124,
+    972,
+    1552,
+    2315
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "LX",
+     "\u2014",
+     "dy",
+     "D"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "LX",
+     "\u2014",
+     "dy",
+     "D"
+    ]
+   ],
+   "section_id": "doc_026_sec_006"
+  },
+  {
+   "block_id": "doc_026_p003_b011",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    124,
+    2776,
+    456,
+    2810
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Dunning Parameters",
+   "section_id": "doc_026_sec_006"
+  },
+  {
+   "block_id": "doc_026_p003_b012",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    128,
+    2953,
+    819,
+    3029
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Dunning Procedure",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_007"
+  },
+  {
+   "block_id": "doc_026_p003_b013",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    3101,
+    2479,
+    3201
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "The dunning procedure is the central control attribute for the dunning process flow and defines the procedure for situations where a business partner is in arrears. A dunning procedure consists of individual dunning levels.",
+   "section_id": "doc_026_sec_007"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1152,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "1387f45db09d7725c1dfd9c3635edbfc26d623d1ab66a5539a4ebbb71c1bf475"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Dunning",
+  "Process Flow"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_005",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_006",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_007",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,509 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 104,
+ "source_page_hash": "74596f87ebe34656765917be570bf161f49059119a9fd4c74aeaaa0d55b2b2d5",
+ "is_cover_page": false,
+ "title": "Date To",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nField/Symbol                                                                               Function\n\nDate From                                                                                  Period for which the grid is allocated to the point of delivery\nDate To\n\nEe Date                                                                                        You can restrict the period for which the grid is allocated to the\n\npoint of delivery\n\nGrid                                                                                      Grid that you create beforehand in the Intercompany Data\nExchange menu\n\nDistributor                                                                                     The system automatically displays the distributor allocated to the\ngrid, provided you have allocated a distributor in the Intercompany\nData Exchange menu under Grid.\n\npy Copy                                                                                            Choose Copy to copy your entries to the list\n\nOrigin tab strip\nThe Origin tabstrip is for information purposes only. The entries you make here have no effect on the function.\n\nYou can define source systems and number ranges for sources systems in Customizing under Tools System Modifications User-\nDefined Functions for Energy Data Management Source Systems.\n\nAllocationtab strip\n\nField/Symbol                                                          Function\nValid to                                                                 Validity period for allocation\n Date                                                                 You can restrict the validity period for the allocation.\n\nRegister and Installation tabstrips\nTo allocate the point delivery to a register, choose Register and enter a device, material, register, or piece of equipment.\n\nYou can also allocate the point of delivery to an installation. This allocation applies to all the registers allocated to the installation.\nTo do this, choose the Installation tabstrip and enter the installation to which you want to allocate the point of delivery.\n\nSettlementtab strip\n\nOn this tab strip, the settlement units are displayed. These automatically originate from the combination of services for the point\nof delivery.\n\nHowever, you can also manually allocate the point of delivery to a settlement unit. To do this, choose #yAllocate Sett. Unit\nManually. A dialog box appears in which you can use the F4 help to enter the required settlement unit in the Settlement Unit field.\n\nIn the list on the tab strip you can recognize the settlement units to which the point of delivery was manually allocated by the\nManual field.\n\nTo delete a manual allocation, choose ry#)Delete Sett. Unit Manually. .\n",
+ "cleaned_text": "Field/Symbol | Function\n\nDate From | Period for which the grid is allocated to the point of delivery\n\nDate To\n\nEe Date | You can restrict the period for which the grid is allocated to the\n\npoint of delivery\n\nGrid | Grid that you create beforehand in the Intercompany Data\n\nExchange menu\n\nDistributor | The system automatically displays the distributor allocated to the\n\ngrid, provided you have allocated a distributor in the Intercompany Data Exchange menu under Grid.\n\npy Copy | Choose Copy to copy your entries to the list\n\nOrigin tab strip The Origin tabstrip is for information purposes only. The entries you make here have no effect on the function. You can define source systems and number ranges for sources systems in Customizing under Tools System Modifications User- Defined Functions for Energy Data Management Source Systems.\n\nAllocationtab strip\n\nField/Symbol | Function\n\nValid to | Validity period for allocation\n\nDate | You can restrict the validity period for the allocation.\n\nRegister and Installation tabstrips\n\nTo allocate the point delivery to a register, choose Register and enter a device, material, register, or piece of equipment. You can also allocate the point of delivery to an installation. This allocation applies to all the registers allocated to the installation. To do this, choose the Installation tabstrip and enter the installation to which you want to allocate the point of delivery.\n\nSettlementtab strip\n\nOn this tab strip, the settlement units are displayed. These automatically originate from the combination of services for the point of delivery. However, you can also manually allocate the point of delivery to a settlement unit. To do this, choose #yAllocate Sett. Unit Manually. A dialog box appears in which you can use the F4 help to enter the required settlement unit in the Settlement Unit field. In the list on the tab strip you can recognize the settlement units to which the point of delivery was manually allocated by the Manual field. To delete a manual allocation, choose ry#)Delete Sett. Unit Manually. .",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p104_b000",
+   "type": "table",
+   "page_number": 104,
+   "bbox": [
+    149,
+    159,
+    2328,
+    300
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continues_from_previous_page:p103",
+    "continues_from_previous_page:p103"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1332
+   ],
+   "headers": [
+    "Field/Symbol",
+    "Function"
+   ],
+   "rows": [
+    [
+     "Date From",
+     "Period for which the grid is allocated to the point of delivery"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Field/Symbol",
+     "Function"
+    ],
+    [
+     "Date From",
+     "Period for which the grid is allocated to the point of delivery"
+    ]
+   ],
+   "section_id": "doc_001_sec_406"
+  },
+  {
+   "block_id": "doc_001_p104_b001",
+   "type": "heading",
+   "page_number": 104,
+   "bbox": [
+    150,
+    370,
+    271,
+    398
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Date To",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_407"
+  },
+  {
+   "block_id": "doc_001_p104_b002",
+   "type": "table",
+   "page_number": 104,
+   "bbox": [
+    143,
+    465,
+    2382,
+    523
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    143,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Ee Date",
+     "You can restrict the period for which the grid is allocated to the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Ee Date",
+     "You can restrict the period for which the grid is allocated to the"
+    ]
+   ],
+   "section_id": "doc_001_sec_407"
+  },
+  {
+   "block_id": "doc_001_p104_b003",
+   "type": "paragraph",
+   "page_number": 104,
+   "bbox": [
+    1332,
+    534,
+    1600,
+    569
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "point of delivery",
+   "section_id": "doc_001_sec_407"
+  },
+  {
+   "block_id": "doc_001_p104_b004",
+   "type": "table",
+   "page_number": 104,
+   "bbox": [
+    148,
+    635,
+    2311,
+    679
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1332
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Grid",
+     "Grid that you create beforehand in the Intercompany Data"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Grid",
+     "Grid that you create beforehand in the Intercompany Data"
+    ]
+   ],
+   "section_id": "doc_001_sec_407"
+  },
+  {
+   "block_id": "doc_001_p104_b005",
+   "type": "paragraph",
+   "page_number": 104,
+   "bbox": [
+    1333,
+    699,
+    1598,
+    734
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Exchange menu",
+   "section_id": "doc_001_sec_407"
+  },
+  {
+   "block_id": "doc_001_p104_b006",
+   "type": "table",
+   "page_number": 104,
+   "bbox": [
+    150,
+    804,
+    2433,
+    838
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Distributor",
+     "The system automatically displays the distributor allocated to the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Distributor",
+     "The system automatically displays the distributor allocated to the"
+    ]
+   ],
+   "section_id": "doc_001_sec_407"
+  },
+  {
+   "block_id": "doc_001_p104_b007",
+   "type": "paragraph",
+   "page_number": 104,
+   "bbox": [
+    1330,
+    863,
+    2454,
+    957
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "grid, provided you have allocated a distributor in the Intercompany Data Exchange menu under Grid.",
+   "section_id": "doc_001_sec_407"
+  },
+  {
+   "block_id": "doc_001_p104_b008",
+   "type": "table",
+   "page_number": 104,
+   "bbox": [
+    147,
+    1024,
+    2064,
+    1071
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    147,
+    1332
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "py Copy",
+     "Choose Copy to copy your entries to the list"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "py Copy",
+     "Choose Copy to copy your entries to the list"
+    ]
+   ],
+   "section_id": "doc_001_sec_407"
+  },
+  {
+   "block_id": "doc_001_p104_b009",
+   "type": "paragraph",
+   "page_number": 104,
+   "bbox": [
+    122,
+    1173,
+    2448,
+    1519
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Origin tab strip The Origin tabstrip is for information purposes only. The entries you make here have no effect on the function. You can define source systems and number ranges for sources systems in Customizing under Tools System Modifications User- Defined Functions for Energy Data Management Source Systems.",
+   "section_id": "doc_001_sec_407"
+  },
+  {
+   "block_id": "doc_001_p104_b010",
+   "type": "heading",
+   "page_number": 104,
+   "bbox": [
+    123,
+    1603,
+    469,
+    1640
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [],
+   "text": "Allocationtab strip",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_408"
+  },
+  {
+   "block_id": "doc_001_p104_b011",
+   "type": "table",
+   "page_number": 104,
+   "bbox": [
+    148,
+    1749,
+    1944,
+    1995
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    148,
+    211,
+    1071
+   ],
+   "headers": [
+    "Field/Symbol",
+    "Function"
+   ],
+   "rows": [
+    [
+     "Valid to",
+     "Validity period for allocation"
+    ],
+    [
+     "Date",
+     "You can restrict the validity period for the allocation."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Field/Symbol",
+     "Function"
+    ],
+    [
+     "Valid to",
+     "Validity period for allocation"
+    ],
+    [
+     "Date",
+     "You can restrict the validity period for the allocation."
+    ]
+   ],
+   "section_id": "doc_001_sec_408"
+  },
+  {
+   "block_id": "doc_001_p104_b012",
+   "type": "heading",
+   "page_number": 104,
+   "bbox": [
+    124,
+    2106,
+    748,
+    2144
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "text": "Register and Installation tabstrips",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_409"
+  },
+  {
+   "block_id": "doc_001_p104_b013",
+   "type": "paragraph",
+   "page_number": 104,
+   "bbox": [
+    122,
+    2227,
+    2451,
+    2449
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "To allocate the point delivery to a register, choose Register and enter a device, material, register, or piece of equipment. You can also allocate the point of delivery to an installation. This allocation applies to all the registers allocated to the installation. To do this, choose the Installation tabstrip and enter the installation to which you want to allocate the point of delivery.",
+   "section_id": "doc_001_sec_409"
+  },
+  {
+   "block_id": "doc_001_p104_b014",
+   "type": "heading",
+   "page_number": 104,
+   "bbox": [
+    123,
+    2532,
+    491,
+    2570
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "text": "Settlementtab strip",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_410"
+  },
+  {
+   "block_id": "doc_001_p104_b015",
+   "type": "paragraph",
+   "page_number": 104,
+   "bbox": [
+    122,
+    2657,
+    2471,
+    3256
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "On this tab strip, the settlement units are displayed. These automatically originate from the combination of services for the point of delivery. However, you can also manually allocate the point of delivery to a settlement unit. To do this, choose #yAllocate Sett. Unit Manually. A dialog box appears in which you can use the F4 help to enter the required settlement unit in the Settlement Unit field. In the list on the tab strip you can recognize the settlement units to which the point of delivery was manually allocated by the Manual field. To delete a manual allocation, choose ry#)Delete Sett. Unit Manually. .",
+   "section_id": "doc_001_sec_410"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 64,
+  "body_stroke_median": 0.0909,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "74596f87ebe34656765917be570bf161f49059119a9fd4c74aeaaa0d55b2b2d5"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Point of Delivery (PoD)",
+  "Integration",
+  "See the Point of Delivery Roles unit"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_406",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_407",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_408",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_409",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_410",
+   "role": "starts_here"
+  }
+ ]
+}

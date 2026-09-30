@@ -1,0 +1,227 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_023",
+ "page_number": 2,
+ "source_page_hash": "2c4a7e48d14222832ab7835f0f948b8f6469a72e64d2f371b05713079c4180ed",
+ "is_cover_page": false,
+ "title": "Installment Plan",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:14 AM\n\nInstallment Plan\n\nDefinition\n\nWith an installment plan you divide source items to several installment receivables that have a due date in the future. Once an\n\ninstallment plan has been posted, the items of the installment plan and not the source items are referred to when a bank collection\nis made, or when a cunning run is carried out.\n\nUse\n\nYou create an installment plan for business partners wishing to make payment but who are temporarily unable to keep up their\npayment obligations. One or more source items can form part of an installment plan. However, only receivables and items in the\nsame currency and in one contract account can be included in an installment plan.\n\nStructure\n\nAn installment plan consists of a statistical document with several installment receivables. The individual installment receivable is\ncleared upon payment. The number of the installment plan is saved in the source items. This ensures a connection between the\ninstallment plan and the source receivables, and between the source receivables and the installment plan. If interest is payable on\nan installment plan, the installment plan will also have an interest supplement.\n",
+ "cleaned_text": "Installment Plan\n\nDefinition\n\nWith an installment plan you divide source items to several installment receivables that have a due date in the future. Once an installment plan has been posted, the items of the installment plan and not the source items are referred to when a bank collection is made, or when a cunning run is carried out.\n\nUse\n\nYou create an installment plan for business partners wishing to make payment but who are temporarily unable to keep up their payment obligations. One or more source items can form part of an installment plan. However, only receivables and items in the same currency and in one contract account can be included in an installment plan.\n\nStructure\n\nAn installment plan consists of a statistical document with several installment receivables. The individual installment receivable is cleared upon payment. The number of the installment plan is saved in the source items. This ensures a connection between the installment plan and the source receivables, and between the source receivables and the installment plan. If interest is payable on an installment plan, the installment plan will also have an interest supplement.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:14 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_023_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    129,
+    256,
+    709,
+    317
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Installment Plan",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_023_sec_001"
+  },
+  {
+   "block_id": "doc_023_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    436,
+    393,
+    481
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_023_sec_002"
+  },
+  {
+   "block_id": "doc_023_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    565,
+    2482,
+    732
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "With an installment plan you divide source items to several installment receivables that have a due date in the future. Once an installment plan has been posted, the items of the installment plan and not the source items are referred to when a bank collection is made, or when a cunning run is carried out.",
+   "section_id": "doc_023_sec_002"
+  },
+  {
+   "block_id": "doc_023_p002_b003",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    844,
+    225,
+    889
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_023_sec_003"
+  },
+  {
+   "block_id": "doc_023_p002_b004",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    977,
+    2425,
+    1139
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You create an installment plan for business partners wishing to make payment but who are temporarily unable to keep up their payment obligations. One or more source items can form part of an installment plan. However, only receivables and items in the same currency and in one contract account can be included in an installment plan.",
+   "section_id": "doc_023_sec_003"
+  },
+  {
+   "block_id": "doc_023_p002_b005",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    124,
+    1251,
+    391,
+    1297
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Structure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_023_sec_004"
+  },
+  {
+   "block_id": "doc_023_p002_b006",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    1385,
+    2465,
+    1610
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "An installment plan consists of a statistical document with several installment receivables. The individual installment receivable is cleared upon payment. The number of the installment plan is saved in the source items. This ensures a connection between the installment plan and the source receivables, and between the source receivables and the installment plan. If interest is payable on an installment plan, the installment plan will also have an interest supplement.",
+   "section_id": "doc_023_sec_004"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Installment Plan Overview",
+  "source_pdf": "23.pdf",
+  "reference_pdf": "23_Installment_Plan_Overview.pdf",
+  "category": "Payment Arrangements / Installment Plans",
+  "m2c_relevance": "Core source for debt-arrangement concepts and future due dates.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "2c4a7e48d14222832ab7835f0f948b8f6469a72e64d2f371b05713079c4180ed"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:44Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Installment Plan Overview",
+  "Installment Plan"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_023_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_023_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_023_sec_003",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_023_sec_004",
+   "role": "starts_here"
+  }
+ ]
+}

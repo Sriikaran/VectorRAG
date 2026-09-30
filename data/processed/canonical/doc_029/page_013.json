@@ -1,0 +1,401 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_029",
+ "page_number": 13,
+ "source_page_hash": "ee007dbe990ae60b935a5defc3e1fd370766c3a9758f8eaecd4982c21193759d",
+ "is_cover_page": false,
+ "title": "Activities",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:19 AM\nThe disconnections that have been documented are then observed, for example in the following transactions:\n\ne Display Installation\n\ne Change Installation\ne Display Device\n\ne Change Device\nThey are also observed during the following:\n\ne Meter reading\ne Billing\ne Extrapolation\n\ne Device replacement\n\nYou can disconnect disconnection objects in several disconnection documents simultaneously. The reconnection is not actually\nexecuted until the last reconnection request is received.\n\nActivities\n\nThe disconnection is usually entered using the Change Disconnection Document transaction. However, you can also define it as a\nworkflow step.\n\nConfirmation of the optional service order generated\n\ne takes place directly in Service Management\ne Can be done directly in disconnection entry\n\ne Can be controlled by making the corresponding settings in Customizing.\n\nIn Customizing under Utilities Industry . Customer Service \u2014 Process Execution = Disconnection/ Reconnection \u2014 Define\nProcessing Variants for Disconnection Documents, you can specify that the service orders or service notifications are to be closed.\n\nIn the individual confirmation status, you can define whether service orders are to be set to technically closed or not performed.\nService notifications are always closed if this has been defined in Customizing.\n\nDisconnection Document\n\nDefinition\n\nThe disconnection document is the processing unit for the agent. A disconnection document is generated for each disconnection.\nIt is used to log the process and enables you to directly reach all the entities involved.\n",
+ "cleaned_text": "The disconnections that have been documented are then observed, for example in the following transactions:\n\n- Display Installation\n\n- Change Installation\n\n- Display Device\n\n- Change Device\n\nThey are also observed during the following:\n\n- Meter reading\n\n- Billing\n\n- Extrapolation\n\n- Device replacement\n\nYou can disconnect disconnection objects in several disconnection documents simultaneously. The reconnection is not actually executed until the last reconnection request is received.\n\nActivities\n\nThe disconnection is usually entered using the Change Disconnection Document transaction. However, you can also define it as a workflow step.\n\nConfirmation of the optional service order generated\n\ne takes place directly in Service Management\n\n- Can be done directly in disconnection entry\n\n- Can be controlled by making the corresponding settings in Customizing.\n\nIn Customizing under Utilities Industry . Customer Service \u2014 Process Execution = Disconnection/ Reconnection \u2014 Define Processing Variants for Disconnection Documents, you can specify that the service orders or service notifications are to be closed. In the individual confirmation status, you can define whether service orders are to be set to technically closed or not performed. Service notifications are always closed if this has been defined in Customizing.\n\nDisconnection Document\n\nDefinition\n\nThe disconnection document is the processing unit for the agent. A disconnection document is generated for each disconnection. It is used to log the process and enables you to directly reach all the entities involved.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:19 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_029_p013_b000",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    122,
+    134,
+    2098,
+    172
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The disconnections that have been documented are then observed, for example in the following transactions:",
+   "section_id": "doc_029_sec_051"
+  },
+  {
+   "block_id": "doc_029_p013_b001",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    207,
+    256,
+    602,
+    603
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display Installation"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change Installation"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display Device"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change Device"
+    }
+   ],
+   "section_id": "doc_029_sec_051"
+  },
+  {
+   "block_id": "doc_029_p013_b002",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    122,
+    687,
+    917,
+    724
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "They are also observed during the following:",
+   "section_id": "doc_029_sec_051"
+  },
+  {
+   "block_id": "doc_029_p013_b003",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    207,
+    808,
+    612,
+    1154
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Meter reading"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Billing"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Extrapolation"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Device replacement"
+    }
+   ],
+   "section_id": "doc_029_sec_051"
+  },
+  {
+   "block_id": "doc_029_p013_b004",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    123,
+    1238,
+    2428,
+    1339
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You can disconnect disconnection objects in several disconnection documents simultaneously. The reconnection is not actually executed until the last reconnection request is received.",
+   "section_id": "doc_029_sec_051"
+  },
+  {
+   "block_id": "doc_029_p013_b005",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    123,
+    1451,
+    383,
+    1496
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_052"
+  },
+  {
+   "block_id": "doc_029_p013_b006",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    122,
+    1583,
+    2455,
+    1684
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The disconnection is usually entered using the Change Disconnection Document transaction. However, you can also define it as a workflow step.",
+   "section_id": "doc_029_sec_052"
+  },
+  {
+   "block_id": "doc_029_p013_b007",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    123,
+    1767,
+    1075,
+    1805
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Confirmation of the optional service order generated",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_029_sec_052"
+  },
+  {
+   "block_id": "doc_029_p013_b008",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    207,
+    1892,
+    1040,
+    1930
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "e takes place directly in Service Management",
+   "section_id": "doc_029_sec_052"
+  },
+  {
+   "block_id": "doc_029_p013_b009",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    207,
+    1994,
+    1560,
+    2134
+   ],
+   "ocr_confidence": 90.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Can be done directly in disconnection entry"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Can be controlled by making the corresponding settings in Customizing."
+    }
+   ],
+   "section_id": "doc_029_sec_052"
+  },
+  {
+   "block_id": "doc_029_p013_b010",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    124,
+    2213,
+    2482,
+    2446
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "In Customizing under Utilities Industry . Customer Service \u2014 Process Execution = Disconnection/ Reconnection \u2014 Define Processing Variants for Disconnection Documents, you can specify that the service orders or service notifications are to be closed. In the individual confirmation status, you can define whether service orders are to be set to technically closed or not performed. Service notifications are always closed if this has been defined in Customizing.",
+   "section_id": "doc_029_sec_052"
+  },
+  {
+   "block_id": "doc_029_p013_b011",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    128,
+    2592,
+    1043,
+    2653
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Disconnection Document",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_053"
+  },
+  {
+   "block_id": "doc_029_p013_b012",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    126,
+    2771,
+    393,
+    2817
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_054"
+  },
+  {
+   "block_id": "doc_029_p013_b013",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    122,
+    2901,
+    2465,
+    3004
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The disconnection document is the processing unit for the agent. A disconnection document is generated for each disconnection. It is used to log the process and enables you to directly reach all the entities involved.",
+   "section_id": "doc_029_sec_054"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Disconnection/Reconnection of a Utility Installation",
+  "source_pdf": "29.pdf",
+  "reference_pdf": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+  "category": "Disconnection & Reconnection",
+  "m2c_relevance": "Connects overdue debt/dunning to service actions while preserving the distinction between delinquency and disconnect eligibility.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "ee007dbe990ae60b935a5defc3e1fd370766c3a9758f8eaecd4982c21193759d"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:47Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Disconnection/Reconnection of a Utility Installation",
+  "Disconnection Entry",
+  "Prerequisites"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_029_sec_051",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_029_sec_052",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_053",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_054",
+   "role": "starts_here"
+  }
+ ]
+}

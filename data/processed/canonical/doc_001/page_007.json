@@ -1,0 +1,373 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 7,
+ "source_page_hash": "653753edffec0f2c859a35493ec6a59d11316cf212534bfa99199952a1dc7aed",
+ "is_cover_page": false,
+ "title": "Making System Settings",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nIn the industry component Insurance, you can also control follow-up activities, such as the reversal of dunning notices or ending\ndunning runs, using a flexible set of rules. This includes:\n\ne Deleting the bank details/payment card from the master record of the business partner\n\ne Deleting locks from contract accounts, items, and industry objects\ne Reversing dunning notices (or ending dunning runs in the industry component Insurance)\n\ne Resetting returns activities\n\nProcessing can take place in one of three modes:\n\nMode                                                     Function                                                 Access by Pushbutton\nCreate                                                    Create new bank details/payment card          C\nChange                                                       Change existing bank details/payment card    #\nDelete                                                       Delete existing bank details/payment card      i\n\nMaking System Settings\n\nUse\n\nTo be able to create and process payment cards and bank details in the transaction Change Payment Data , you have to make the\nrequired system settings in Customizing for Contract Accounts Receivable and Payable under |)Basic Functions \u00bb Contract\nPartner \u00bb Changes to Payment Transactions 3 . Also make the following system settings as described.\n\nProcedure\n\nThe system saves bank details/payment cards with a unique ID in the master data of the business partner. As standard, in the\ntransaction Change Payment Data, the first ID of the bank details/payment card is created with OOO1, the second with 0002. You\ncan change this in event 1053 or 1054. If the system is unable to determine an ID, the user is requested to enter a new ID ina dialog\n\nbox (see documentation of function module FKK_EVENT_1053_DIAL).\n\nWith a function module processed in event 1083, you can make further changes to the contract account when you save the data. In\nthis event, you can, for example, define that the field Posting Control Group changes in the contract account if a customer\nchanges from being a cash payer to a direct debit payer.\n\nWith a function module processed in event 1084, you can limit the objects (contract accounts or contracts) that the system\nselects for display.\n\nDefine the event modules in Customizing for Contract Accounts Receivable and Payable under |Program Enhancements\nDefine Customer-Specific Function Modules %. See the documentation for the sample function modules FKK_SAMPLE_1053,\nFKK_SAMPLE_1054, FKK_SAMPLE_1083 and FKK_SAMPLE_1084.\n\nCreation of Confirmation\n\nIf you want to send confirmations, define the form required for the correspondence types 0036 and 0040. To define a standard\n",
+ "cleaned_text": "In the industry component Insurance, you can also control follow-up activities, such as the reversal of dunning notices or ending dunning runs, using a flexible set of rules. This includes:\n\n- Deleting the bank details/payment card from the master record of the business partner\n\n- Deleting locks from contract accounts, items, and industry objects\n\n- Reversing dunning notices (or ending dunning runs in the industry component Insurance)\n\n- Resetting returns activities\n\nProcessing can take place in one of three modes:\n\nMode | Function | Access by Pushbutton\n\nCreate | Create new bank details/payment card | C\n\nChange | Change existing bank details/payment card #\n\nDelete | Delete existing bank details/payment card | i\n\nMaking System Settings\n\nUse\n\nTo be able to create and process payment cards and bank details in the transaction Change Payment Data , you have to make the required system settings in Customizing for Contract Accounts Receivable and Payable under |)Basic Functions \u00bb Contract Partner \u00bb Changes to Payment Transactions 3 . Also make the following system settings as described.\n\nProcedure\n\nThe system saves bank details/payment cards with a unique ID in the master data of the business partner. As standard, in the transaction Change Payment Data, the first ID of the bank details/payment card is created with OOO1, the second with 0002. You can change this in event 1053 or 1054. If the system is unable to determine an ID, the user is requested to enter a new ID ina dialog box (see documentation of function module FKK_EVENT_1053_DIAL). With a function module processed in event 1083, you can make further changes to the contract account when you save the data. In this event, you can, for example, define that the field Posting Control Group changes in the contract account if a customer changes from being a cash payer to a direct debit payer. With a function module processed in event 1084, you can limit the objects (contract accounts or contracts) that the system selects for display. Define the event modules in Customizing for Contract Accounts Receivable and Payable under |Program Enhancements Define Customer-Specific Function Modules %. See the documentation for the sample function modules FKK_SAMPLE_1053, FKK_SAMPLE_1054, FKK_SAMPLE_1083 and FKK_SAMPLE_1084.\n\nCreation of Confirmation\n\nIf you want to send confirmations, define the form required for the correspondence types 0036 and 0040. To define a standard",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p007_b000",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    123,
+    134,
+    2438,
+    239
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "In the industry component Insurance, you can also control follow-up activities, such as the reversal of dunning notices or ending dunning runs, using a flexible set of rules. This includes:",
+   "section_id": "doc_001_sec_021"
+  },
+  {
+   "block_id": "doc_001_p007_b001",
+   "type": "list",
+   "page_number": 7,
+   "bbox": [
+    207,
+    318,
+    1877,
+    665
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Deleting the bank details/payment card from the master record of the business partner"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Deleting locks from contract accounts, items, and industry objects"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Reversing dunning notices (or ending dunning runs in the industry component Insurance)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Resetting returns activities"
+    }
+   ],
+   "section_id": "doc_001_sec_021"
+  },
+  {
+   "block_id": "doc_001_p007_b002",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    125,
+    749,
+    1003,
+    786
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Processing can take place in one of three modes:",
+   "section_id": "doc_001_sec_021"
+  },
+  {
+   "block_id": "doc_001_p007_b003",
+   "type": "table",
+   "page_number": 7,
+   "bbox": [
+    148,
+    892,
+    2080,
+    1252
+   ],
+   "ocr_confidence": 85.4,
+   "flags": [
+    "low_confidence_words:3",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    148,
+    929,
+    1708
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Mode",
+     "Function",
+     "Access by Pushbutton"
+    ],
+    [
+     "Create",
+     "Create new bank details/payment card",
+     "C"
+    ],
+    [
+     "Change",
+     "Change existing bank details/payment card #"
+    ],
+    [
+     "Delete",
+     "Delete existing bank details/payment card",
+     "i"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Mode",
+     "Function",
+     "Access by Pushbutton"
+    ],
+    [
+     "Create",
+     "Create new bank details/payment card",
+     "C"
+    ],
+    [
+     "Change",
+     "Change existing bank details/payment card #"
+    ],
+    [
+     "Delete",
+     "Delete existing bank details/payment card",
+     "i"
+    ]
+   ],
+   "section_id": "doc_001_sec_021"
+  },
+  {
+   "block_id": "doc_001_p007_b004",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    128,
+    1421,
+    1003,
+    1498
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Making System Settings",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_022"
+  },
+  {
+   "block_id": "doc_001_p007_b005",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    125,
+    1598,
+    225,
+    1644
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_023"
+  },
+  {
+   "block_id": "doc_001_p007_b006",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    1731,
+    2464,
+    1898
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "To be able to create and process payment cards and bank details in the transaction Change Payment Data , you have to make the required system settings in Customizing for Contract Accounts Receivable and Payable under |)Basic Functions \u00bb Contract Partner \u00bb Changes to Payment Transactions 3 . Also make the following system settings as described.",
+   "section_id": "doc_001_sec_023"
+  },
+  {
+   "block_id": "doc_001_p007_b007",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    126,
+    2006,
+    409,
+    2051
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_024"
+  },
+  {
+   "block_id": "doc_001_p007_b008",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    2138,
+    2486,
+    3044
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "The system saves bank details/payment cards with a unique ID in the master data of the business partner. As standard, in the transaction Change Payment Data, the first ID of the bank details/payment card is created with OOO1, the second with 0002. You can change this in event 1053 or 1054. If the system is unable to determine an ID, the user is requested to enter a new ID ina dialog box (see documentation of function module FKK_EVENT_1053_DIAL). With a function module processed in event 1083, you can make further changes to the contract account when you save the data. In this event, you can, for example, define that the field Posting Control Group changes in the contract account if a customer changes from being a cash payer to a direct debit payer. With a function module processed in event 1084, you can limit the objects (contract accounts or contracts) that the system selects for display. Define the event modules in Customizing for Contract Accounts Receivable and Payable under |Program Enhancements Define Customer-Specific Function Modules %. See the documentation for the sample function modules FKK_SAMPLE_1053, FKK_SAMPLE_1054, FKK_SAMPLE_1083 and FKK_SAMPLE_1084.",
+   "section_id": "doc_001_sec_024"
+  },
+  {
+   "block_id": "doc_001_p007_b009",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    123,
+    3131,
+    587,
+    3161
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Creation of Confirmation",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_025"
+  },
+  {
+   "block_id": "doc_001_p007_b010",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    125,
+    3255,
+    2415,
+    3293
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "If you want to send confirmations, define the form required for the correspondence types 0036 and 0040. To define a standard",
+   "section_id": "doc_001_sec_025"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "653753edffec0f2c859a35493ec6a59d11316cf212534bfa99199952a1dc7aed"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:26Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Change of Payment Data",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_021",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_022",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_023",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_024",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_025",
+   "role": "starts_here"
+  }
+ ]
+}

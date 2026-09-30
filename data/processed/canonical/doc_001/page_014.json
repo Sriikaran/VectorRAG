@@ -1,0 +1,359 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 14,
+ "source_page_hash": "b1fe26e86470b9329060310c46a7f6e226b90c94b5158f2f2f379ed2ef7d55c6",
+ "is_cover_page": false,
+ "title": "Note for the industry component Insurance (FS-CD)",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nThe special cases outlined below are valid for contract accounts and prepaid accounts of the selected business partner.\n\n1 Note\n\nNote for the industry component Insurance (FS-CD)\n\nIn Collections and Disbursements (FS-CD) of the Insurance industry component, the special cases outlined below are also\n\nvalid for insurance objects, to which the selected business partner is assigned. The contract account holder corresponds to the\ncontract partner in FS-CD.\n\nNote for the industry component Public Sector Contract Accounts Receivable and Payable (PSCD)\n\nThe special cases outlined below are also valid for contract objects, to which the selected business partner is assigned.\n\nSpecial case 1: Alterative Payer or Payee\n\nIf an alternative payer or payee is entered in the contract account, then the payment data entered in the contract account belongs\nto this alternative payer or payee. If you want to change the payment data of the contract account holder, this change is not\nallowed to influence the payment data of the alternative payer or payee. Contract accounts with an alternative payer or payee are\ndisplayed in the list in the Alt. Payer/Payee column with the 4 icon, if you have chosen a transfer type for the changes to be made\nthat would change the payment data with the alternative payer or payee. You can read the business partner number of the\nalternative payer or payee in the Alternative Payer/Alternative Payee columns.\n\n\u00abSe Example\nAn alternative payer is entered in the contract account and the Incoming Payments transfer type is selected. The 4 icon is\ndisplayed.\n\nAn alternative payee is entered in the contract account and the Incoming Payments transfer type is selected. The & icon is\nnot displayed.\n\nWhich accounts can you select?\n\nWhether or not you can choose a contract account designated in this way depends on the transfer type you selected and the data\nthat exists on the contract account:\n\ne Case 1:\n\nYou have selected the Incoming and Outgoing Payments transfer type. An alternative payer is entered in the contract\n\naccount, but not an alternative payee. In that case, you can enter the payment data of the contract account holder as the\npayment data for outgoing payments, and select the contract account for the change.\n\ne Case 2:\n\nYou have chosen the Incoming Payments transfer type. An alternative payer is entered in the contract account. In that\ncase, you are initially not allowed to select the contract account for changes. However, if the contract account holder\nhimself or herself becomes the payer for the contract account, you can go to maintenance of the contract account by\nclicking on the 4 icon. You can then delete the alternative payer there. After you save the contract account, you can select\nthe account in the list for the change.\n\nHow does the system behave when you save the changed contract account?\n",
+ "cleaned_text": "The special cases outlined below are valid for contract accounts and prepaid accounts of the selected business partner.\n\nNote\n\nNote for the industry component Insurance (FS-CD)\n\nIn Collections and Disbursements (FS-CD) of the Insurance industry component, the special cases outlined below are also valid for insurance objects, to which the selected business partner is assigned. The contract account holder corresponds to the contract partner in FS-CD.\n\nNote for the industry component Public Sector Contract Accounts Receivable and Payable (PSCD)\n\nThe special cases outlined below are also valid for contract objects, to which the selected business partner is assigned.\n\nSpecial case 1: Alterative Payer or Payee\n\nIf an alternative payer or payee is entered in the contract account, then the payment data entered in the contract account belongs to this alternative payer or payee. If you want to change the payment data of the contract account holder, this change is not allowed to influence the payment data of the alternative payer or payee. Contract accounts with an alternative payer or payee are displayed in the list in the Alt. Payer/Payee column with the 4 icon, if you have chosen a transfer type for the changes to be made that would change the payment data with the alternative payer or payee. You can read the business partner number of the alternative payer or payee in the Alternative Payer/Alternative Payee columns. \u00abSe Example An alternative payer is entered in the contract account and the Incoming Payments transfer type is selected. The 4 icon is displayed. An alternative payee is entered in the contract account and the Incoming Payments transfer type is selected. The & icon is not displayed.\n\nWhich accounts can you select?\n\nWhether or not you can choose a contract account designated in this way depends on the transfer type you selected and the data that exists on the contract account:\n\n- Case 1: You have selected the Incoming and Outgoing Payments transfer type. An alternative payer is entered in the contract account, but not an alternative payee. In that case, you can enter the payment data of the contract account holder as the payment data for outgoing payments, and select the contract account for the change.\n\n- Case 2: You have chosen the Incoming Payments transfer type. An alternative payer is entered in the contract account. In that case, you are initially not allowed to select the contract account for changes. However, if the contract account holder himself or herself becomes the payer for the contract account, you can go to maintenance of the contract account by\n\nclicking on the 4 icon. You can then delete the alternative payer there. After you save the contract account, you can select the account in the list for the change.\n\nHow does the system behave when you save the changed contract account?",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    276,
+    310,
+    313
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p014_b000",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    122,
+    134,
+    2281,
+    172
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The special cases outlined below are valid for contract accounts and prepaid accounts of the selected business partner.",
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p014_b001",
+   "type": "note",
+   "page_number": 14,
+   "bbox": [
+    151,
+    276,
+    310,
+    313
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "label": "Note",
+   "text": "Note",
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p014_b002",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    154,
+    354,
+    1123,
+    392
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Note for the industry component Insurance (FS-CD)",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_040"
+  },
+  {
+   "block_id": "doc_001_p014_b003",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    152,
+    476,
+    2448,
+    642
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "In Collections and Disbursements (FS-CD) of the Insurance industry component, the special cases outlined below are also valid for insurance objects, to which the selected business partner is assigned. The contract account holder corresponds to the contract partner in FS-CD.",
+   "section_id": "doc_001_sec_040"
+  },
+  {
+   "block_id": "doc_001_p014_b004",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    154,
+    726,
+    1988,
+    764
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Note for the industry component Public Sector Contract Accounts Receivable and Payable (PSCD)",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_041"
+  },
+  {
+   "block_id": "doc_001_p014_b005",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    152,
+    848,
+    2300,
+    885
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The special cases outlined below are also valid for contract objects, to which the selected business partner is assigned.",
+   "section_id": "doc_001_sec_041"
+  },
+  {
+   "block_id": "doc_001_p014_b006",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    124,
+    1032,
+    1247,
+    1090
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "Special case 1: Alterative Payer or Payee",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_042"
+  },
+  {
+   "block_id": "doc_001_p014_b007",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    122,
+    1166,
+    2485,
+    1989
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "text": "If an alternative payer or payee is entered in the contract account, then the payment data entered in the contract account belongs to this alternative payer or payee. If you want to change the payment data of the contract account holder, this change is not allowed to influence the payment data of the alternative payer or payee. Contract accounts with an alternative payer or payee are displayed in the list in the Alt. Payer/Payee column with the 4 icon, if you have chosen a transfer type for the changes to be made that would change the payment data with the alternative payer or payee. You can read the business partner number of the alternative payer or payee in the Alternative Payer/Alternative Payee columns. \u00abSe Example An alternative payer is entered in the contract account and the Incoming Payments transfer type is selected. The 4 icon is displayed. An alternative payee is entered in the contract account and the Incoming Payments transfer type is selected. The & icon is not displayed.",
+   "section_id": "doc_001_sec_042"
+  },
+  {
+   "block_id": "doc_001_p014_b008",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    123,
+    2109,
+    718,
+    2147
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Which accounts can you select?",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_043"
+  },
+  {
+   "block_id": "doc_001_p014_b009",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    122,
+    2230,
+    2462,
+    2323
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Whether or not you can choose a contract account designated in this way depends on the transfer type you selected and the data that exists on the contract account:",
+   "section_id": "doc_001_sec_043"
+  },
+  {
+   "block_id": "doc_001_p014_b010",
+   "type": "list",
+   "page_number": 14,
+   "bbox": [
+    207,
+    2414,
+    2433,
+    3014
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Case 1: You have selected the Incoming and Outgoing Payments transfer type. An alternative payer is entered in the contract account, but not an alternative payee. In that case, you can enter the payment data of the contract account holder as the payment data for outgoing payments, and select the contract account for the change."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Case 2: You have chosen the Incoming Payments transfer type. An alternative payer is entered in the contract account. In that case, you are initially not allowed to select the contract account for changes. However, if the contract account holder himself or herself becomes the payer for the contract account, you can go to maintenance of the contract account by"
+    }
+   ],
+   "section_id": "doc_001_sec_043"
+  },
+  {
+   "block_id": "doc_001_p014_b011",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    254,
+    3032,
+    2469,
+    3139
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "clicking on the 4 icon. You can then delete the alternative payer there. After you save the contract account, you can select the account in the list for the change.",
+   "section_id": "doc_001_sec_043"
+  },
+  {
+   "block_id": "doc_001_p014_b012",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    124,
+    3223,
+    1540,
+    3260
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "How does the system behave when you save the changed contract account?",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_044"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "b1fe26e86470b9329060310c46a7f6e226b90c94b5158f2f2f379ed2ef7d55c6"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:26Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Triggering Follow-Up Actions",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_039",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_040",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_041",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_042",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_043",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_044",
+   "role": "starts_here"
+  }
+ ]
+}

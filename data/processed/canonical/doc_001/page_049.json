@@ -1,0 +1,254 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 49,
+ "source_page_hash": "c1422dec22eb7c9f685e2418c66f6b189a4cde10e98733471f2aae32cca36954",
+ "is_cover_page": false,
+ "title": "IS-U Business Partner: Special Features",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nto FI-CA for Customer Account Groups %. If a customer of the same name exists for a business partner, the system checks\nthe end of purpose for that customer. The business partner can only be blocked when the end of purpose of the customer\nhas been reached.\n\nThe program behavior described here originates from BAdI implementation VFKK_BP_CUSTOMER_ MAPPING EOP.\n\n4s Caution\n\nIn the standard SAP system, for the integation of Sales and Distribution and Contract Accounts Receivable and Payable,\nbusiness partners and customers are linked by having the same name. However, you can also use other integration scenarios in\nthe SAP system that are outside of Contract Accounts Receivable and Payable that are based, for example, on customer and\n\nvendor integration. If you use customer and vendor integration, BAd| implementation VFKK_BP CUSTOMER MAPPING EOP is\n\nnot processed. (See Customizing for Cross-Application Components under |}}Master Data Synchronization \u00bb Synchronization\nControl \u00bb Synchronization Control * Activate Synchronization Options 33).\n\nIf you use customer and vendor integration, the assignment of business partners and customers is made using the assignment\ndata of customer and vendor integration.\n\nAn incorrect assignment of business partners and customers due to their having the same name can lead to the following\n\nsituations:\n\ne Business partner master records or customer master records are blocked too early.\n\nThis can happen, for example, if the customer master record belonging to a business partner or a business partner\nbelonging to a customer master record is not found.\n\ne Business partner master records or customer master records are not blocked.\n\nThis can happen, for example, if, due to the names being the same, a customer master record is found for a business\npartner master record, or a business partner master record is found for a customer master record, although they are\nnot actually assigned to one another.\n\n1 Note\nIf you use the scenario with distributed systems, specify a leading system. This is the only way to ensure that all business\n\npartners and customers are checked. We recommend that the system you define as the leading system is the system that you\nuse to centrally maintain business partner data, and from which you distribute the master data in your system landscape to the\nconnected systems.\n\nIS-U Business Partner: Special Features\n\nThis documentation section contains information about enhancements and variations from the SAP Business Partner described\nabove, which apply specifically to SAP Utilities (IS-U).\n\nGP Role Installer (IS-U)\n\nDefinition\n",
+ "cleaned_text": "to FI-CA for Customer Account Groups %. If a customer of the same name exists for a business partner, the system checks the end of purpose for that customer. The business partner can only be blocked when the end of purpose of the customer has been reached. The program behavior described here originates from BAdI implementation VFKK_BP_CUSTOMER_ MAPPING EOP. 4s Caution In the standard SAP system, for the integation of Sales and Distribution and Contract Accounts Receivable and Payable, business partners and customers are linked by having the same name. However, you can also use other integration scenarios in the SAP system that are outside of Contract Accounts Receivable and Payable that are based, for example, on customer and vendor integration. If you use customer and vendor integration, BAd| implementation VFKK_BP CUSTOMER MAPPING EOP is not processed. (See Customizing for Cross-Application Components under |}}Master Data Synchronization \u00bb Synchronization Control \u00bb Synchronization Control * Activate Synchronization Options 33). If you use customer and vendor integration, the assignment of business partners and customers is made using the assignment data of customer and vendor integration. An incorrect assignment of business partners and customers due to their having the same name can lead to the following situations:\n\n- Business partner master records or customer master records are blocked too early. This can happen, for example, if the customer master record belonging to a business partner or a business partner belonging to a customer master record is not found.\n\n- Business partner master records or customer master records are not blocked. This can happen, for example, if, due to the names being the same, a customer master record is found for a business partner master record, or a business partner master record is found for a customer master record, although they are not actually assigned to one another.\n\nNote If you use the scenario with distributed systems, specify a leading system. This is the only way to ensure that all business partners and customers are checked. We recommend that the system you define as the leading system is the system that you use to centrally maintain business partner data, and from which you distribute the master data in your system landscape to the connected systems.\n\nIS-U Business Partner: Special Features\n\nThis documentation section contains information about enhancements and variations from the SAP Business Partner described above, which apply specifically to SAP Utilities (IS-U).\n\nGP Role Installer (IS-U)\n\nDefinition",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    2122,
+    310,
+    2159
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p049_b000",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    122,
+    134,
+    2481,
+    1327
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [
+    "low_confidence_words:10"
+   ],
+   "text": "to FI-CA for Customer Account Groups %. If a customer of the same name exists for a business partner, the system checks the end of purpose for that customer. The business partner can only be blocked when the end of purpose of the customer has been reached. The program behavior described here originates from BAdI implementation VFKK_BP_CUSTOMER_ MAPPING EOP. 4s Caution In the standard SAP system, for the integation of Sales and Distribution and Contract Accounts Receivable and Payable, business partners and customers are linked by having the same name. However, you can also use other integration scenarios in the SAP system that are outside of Contract Accounts Receivable and Payable that are based, for example, on customer and vendor integration. If you use customer and vendor integration, BAd| implementation VFKK_BP CUSTOMER MAPPING EOP is not processed. (See Customizing for Cross-Application Components under |}}Master Data Synchronization \u00bb Synchronization Control \u00bb Synchronization Control * Activate Synchronization Options 33). If you use customer and vendor integration, the assignment of business partners and customers is made using the assignment data of customer and vendor integration. An incorrect assignment of business partners and customers due to their having the same name can lead to the following situations:",
+   "section_id": "doc_001_sec_154"
+  },
+  {
+   "block_id": "doc_001_p049_b001",
+   "type": "list",
+   "page_number": 49,
+   "bbox": [
+    236,
+    1419,
+    2391,
+    1953
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Business partner master records or customer master records are blocked too early. This can happen, for example, if the customer master record belonging to a business partner or a business partner belonging to a customer master record is not found."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Business partner master records or customer master records are not blocked. This can happen, for example, if, due to the names being the same, a customer master record is found for a business partner master record, or a business partner master record is found for a customer master record, although they are not actually assigned to one another."
+    }
+   ],
+   "section_id": "doc_001_sec_154"
+  },
+  {
+   "block_id": "doc_001_p049_b002",
+   "type": "note",
+   "page_number": 49,
+   "bbox": [
+    151,
+    2122,
+    2453,
+    2426
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "label": "Note",
+   "text": "Note If you use the scenario with distributed systems, specify a leading system. This is the only way to ensure that all business partners and customers are checked. We recommend that the system you define as the leading system is the system that you use to centrally maintain business partner data, and from which you distribute the master data in your system landscape to the connected systems.",
+   "section_id": "doc_001_sec_154"
+  },
+  {
+   "block_id": "doc_001_p049_b003",
+   "type": "heading",
+   "page_number": 49,
+   "bbox": [
+    129,
+    2607,
+    1560,
+    2684
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "IS-U Business Partner: Special Features",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_155"
+  },
+  {
+   "block_id": "doc_001_p049_b004",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    122,
+    2759,
+    2443,
+    2859
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "This documentation section contains information about enhancements and variations from the SAP Business Partner described above, which apply specifically to SAP Utilities (IS-U).",
+   "section_id": "doc_001_sec_155"
+  },
+  {
+   "block_id": "doc_001_p049_b005",
+   "type": "heading",
+   "page_number": 49,
+   "bbox": [
+    125,
+    3008,
+    959,
+    3084
+   ],
+   "ocr_confidence": 88.1,
+   "flags": [],
+   "text": "GP Role Installer (IS-U)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_156"
+  },
+  {
+   "block_id": "doc_001_p049_b006",
+   "type": "heading",
+   "page_number": 49,
+   "bbox": [
+    126,
+    3185,
+    393,
+    3230
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_157"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "c1422dec22eb7c9f685e2418c66f6b189a4cde10e98733471f2aae32cca36954"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "System Configuration",
+  "Use",
+  "Settings for Integration of Sales and Distribution (SD) with FI-CA"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_154",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_155",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_156",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_157",
+   "role": "starts_here"
+  }
+ ]
+}

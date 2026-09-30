@@ -1,0 +1,529 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 29,
+ "source_page_hash": "2d5d01bc44e84365fe5ddeb6bb0df0d319feab0be64325c23cd6abaf7680321b",
+ "is_cover_page": false,
+ "title": "Forecasts from the Period of the Previous Year",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nMR Result 0       80               2? kW\n\n|_\u2014 $\u2014\u2014\u2014_\u2014_\u2014\u2014\nMR Reas. |                             Y                                                           P\n08                            09                                                          01\n\n200                                       220                 kW/Year\nPerDem,\u00a7 |]\n\nWght Unit             400\n\nWght Port.              40%\n\nOn installation of the device, a period demand value of 200 kWh/year is entered for the register. This value is changed to 220 kWh\n/ year after the last meter reading result entry in period 09 to O1.\n\nThe minimum portion of weighting in percent is 30%.\n\nThe sum of the weighting units for one year is 1000.\n\nWith a weighting portion of 40%, period Y to | is representative. One period consumption change was made in the forecast period\nO09 to O1. The expected meter reading is determined based on the period demand and equals 220 kW .\n\nForecasts from the Period of the Previous Year\n\nIf you include periods of the previous year as the base period category in the installation, the expected meter reading values are\nextrapolated based on the corresponding period of the previous year .\n\nFor the forecast from the period of the previous year, the search algorithm for demand registers differs from the search algorithm\nfor consumption registers as follows:\n\nDemand Registers                                                            Consumption Registers\n\nThe system only looks for meter reading results in the previous           The system goes back one year from the forecast date and looks\nyear with the same allocation month as the expected meter              for a representative period\n\nreadings\n\nIt is not important whether the period of previous year is                    It is important that the period of previous year is representative\n\nrepresentative\n\nIf no corresponding period of the previous year is available, extrapolation is based on the previous period.\n\n|} Jn [_}\u2014}--\u2014-\u2014\n1.1.96 4.1965.1.96      1.1.97 4.1.97     9.1.97\n\nMR Result        100      120                 200      ?     kW\n\nMR Reas.          P(4)       P(5)         P(12)       P(4)  P(5)\n",
+ "cleaned_text": "MR Result 0 | 80 | 2? | kW\n\n|_\u2014 | $\u2014\u2014\u2014_\u2014_\u2014\u2014\n\nMR Reas. | | | Y | P\n\n08 | 09 | 01\n\n200 | 220 | kW/Year\n\nPerDem,\u00a7 | |]\n\nWght Unit | 400\n\nWght Port. | 40%\n\nOn installation of the device, a period demand value of 200 kWh/year is entered for the register. This value is changed to 220 kWh / year after the last meter reading result entry in period 09 to O1. The minimum portion of weighting in percent is 30%. The sum of the weighting units for one year is 1000. With a weighting portion of 40%, period Y to | is representative. One period consumption change was made in the forecast period O09 to O1. The expected meter reading is determined based on the period demand and equals 220 kW .\n\nForecasts from the Period of the Previous Year\n\nIf you include periods of the previous year as the base period category in the installation, the expected meter reading values are extrapolated based on the corresponding period of the previous year . For the forecast from the period of the previous year, the search algorithm for demand registers differs from the search algorithm for consumption registers as follows:\n\nDemand Registers | Consumption Registers\n\nThe system only looks for meter reading results in the previous | The system goes back one year from the forecast date and looks\n\nyear with the same allocation month as the expected meter | for a representative period\n\nreadings\n\nIt is not important whether the period of previous year is | It is important that the period of previous year is representative\n\nrepresentative\n\nIf no corresponding period of the previous year is available, extrapolation is based on the previous period. |} Jn [_}\u2014}--\u2014-\u2014\n\n1.1.96 | 4.1965.1.96 | 1.1.97 | 4.1.97 | 9.1.97\n\nMR Result | 100 | 120 | 200 | ? | kW\n\nMR Reas. | P(4) | P(5) | P(12) | P(4) | P(5)",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p029_b000",
+   "type": "table",
+   "page_number": 29,
+   "bbox": [
+    123,
+    131,
+    2471,
+    928
+   ],
+   "ocr_confidence": 73.3,
+   "flags": [
+    "low_confidence_words:5",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 10,
+   "column_starts": [
+    123,
+    492,
+    521,
+    760,
+    967,
+    1075,
+    1632,
+    2203,
+    2237,
+    2361
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR Result 0",
+     "80",
+     "2?",
+     "kW"
+    ],
+    [
+     "|_\u2014",
+     "$\u2014\u2014\u2014_\u2014_\u2014\u2014"
+    ],
+    [
+     "MR Reas.",
+     "|",
+     "Y",
+     "P"
+    ],
+    [
+     "08",
+     "09",
+     "01"
+    ],
+    [
+     "200",
+     "220",
+     "kW/Year"
+    ],
+    [
+     "PerDem,\u00a7",
+     "|]"
+    ],
+    [
+     "Wght Unit",
+     "400"
+    ],
+    [
+     "Wght Port.",
+     "40%"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR Result 0",
+     "80",
+     "2?",
+     "kW"
+    ],
+    [
+     "|_\u2014",
+     "$\u2014\u2014\u2014_\u2014_\u2014\u2014"
+    ],
+    [
+     "MR Reas.",
+     "|",
+     "Y",
+     "P"
+    ],
+    [
+     "08",
+     "09",
+     "01"
+    ],
+    [
+     "200",
+     "220",
+     "kW/Year"
+    ],
+    [
+     "PerDem,\u00a7",
+     "|]"
+    ],
+    [
+     "Wght Unit",
+     "400"
+    ],
+    [
+     "Wght Port.",
+     "40%"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p029_b001",
+   "type": "paragraph",
+   "page_number": 29,
+   "bbox": [
+    122,
+    1005,
+    2465,
+    1536
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "On installation of the device, a period demand value of 200 kWh/year is entered for the register. This value is changed to 220 kWh / year after the last meter reading result entry in period 09 to O1. The minimum portion of weighting in percent is 30%. The sum of the weighting units for one year is 1000. With a weighting portion of 40%, period Y to | is representative. One period consumption change was made in the forecast period O09 to O1. The expected meter reading is determined based on the period demand and equals 220 kW .",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p029_b002",
+   "type": "heading",
+   "page_number": 29,
+   "bbox": [
+    126,
+    1647,
+    1416,
+    1693
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Forecasts from the Period of the Previous Year",
+   "level": 3,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p029_b003",
+   "type": "paragraph",
+   "page_number": 29,
+   "bbox": [
+    122,
+    1780,
+    2454,
+    2064
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "If you include periods of the previous year as the base period category in the installation, the expected meter reading values are extrapolated based on the corresponding period of the previous year . For the forecast from the period of the previous year, the search algorithm for demand registers differs from the search algorithm for consumption registers as follows:",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p029_b004",
+   "type": "table",
+   "page_number": 29,
+   "bbox": [
+    147,
+    2173,
+    2411,
+    2373
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    147,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Demand Registers",
+     "Consumption Registers"
+    ],
+    [
+     "The system only looks for meter reading results in the previous",
+     "The system goes back one year from the forecast date and looks"
+    ],
+    [
+     "year with the same allocation month as the expected meter",
+     "for a representative period"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Demand Registers",
+     "Consumption Registers"
+    ],
+    [
+     "The system only looks for meter reading results in the previous",
+     "The system goes back one year from the forecast date and looks"
+    ],
+    [
+     "year with the same allocation month as the expected meter",
+     "for a representative period"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p029_b005",
+   "type": "paragraph",
+   "page_number": 29,
+   "bbox": [
+    149,
+    2397,
+    290,
+    2432
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "readings",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p029_b006",
+   "type": "table",
+   "page_number": 29,
+   "bbox": [
+    150,
+    2502,
+    2393,
+    2537
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1333
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "It is not important whether the period of previous year is",
+     "It is important that the period of previous year is representative"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "It is not important whether the period of previous year is",
+     "It is important that the period of previous year is representative"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p029_b007",
+   "type": "paragraph",
+   "page_number": 29,
+   "bbox": [
+    149,
+    2562,
+    389,
+    2596
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "representative",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p029_b008",
+   "type": "paragraph",
+   "page_number": 29,
+   "bbox": [
+    125,
+    2707,
+    2406,
+    2896
+   ],
+   "ocr_confidence": 84.3,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "If no corresponding period of the previous year is available, extrapolation is based on the previous period. |} Jn [_}\u2014}--\u2014-\u2014",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p029_b009",
+   "type": "table",
+   "page_number": 29,
+   "bbox": [
+    438,
+    2910,
+    2242,
+    2961
+   ],
+   "ocr_confidence": 88.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    438,
+    712,
+    1360,
+    1673,
+    2046
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "1.1.96",
+     "4.1965.1.96",
+     "1.1.97",
+     "4.1.97",
+     "9.1.97"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "1.1.96",
+     "4.1965.1.96",
+     "1.1.97",
+     "4.1.97",
+     "9.1.97"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p029_b010",
+   "type": "table",
+   "page_number": 29,
+   "bbox": [
+    125,
+    3071,
+    2403,
+    3123
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    125,
+    730,
+    1043,
+    1765,
+    2101,
+    2300
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR Result",
+     "100",
+     "120",
+     "200",
+     "?",
+     "kW"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR Result",
+     "100",
+     "120",
+     "200",
+     "?",
+     "kW"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p029_b011",
+   "type": "table",
+   "page_number": 29,
+   "bbox": [
+    125,
+    3234,
+    2198,
+    3299
+   ],
+   "ocr_confidence": 71.0,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    125,
+    712,
+    1041,
+    1430,
+    1798,
+    2069
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR Reas.",
+     "P(4)",
+     "P(5)",
+     "P(12)",
+     "P(4)",
+     "P(5)"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR Reas.",
+     "P(4)",
+     "P(5)",
+     "P(12)",
+     "P(4)",
+     "P(5)"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 61.0,
+  "body_stroke_median": 0.1739,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "2d5d01bc44e84365fe5ddeb6bb0df0d319feab0be64325c23cd6abaf7680321b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:34Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Example 3: Forecasts from previous periods and changes to period demand in the"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_037",
+   "role": "continues"
+  }
+ ]
+}

@@ -1,0 +1,441 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 65,
+ "source_page_hash": "911aea7b35f37f668756cea08bcfd2759ee738aa8f17b106f0a6913ae3003686",
+ "is_cover_page": false,
+ "title": "Alternatives if customer change is not possible",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\ne The business partners credit rating data is not transferred.\n\nAlternatives if customer change is not possible\nIf a contract has not yet been invoiced, proceed as follows:\n\ne Reverse the move-in document: Execute move-in with the correct business partner. You can use the move-in document as a\ntemplate.\n\ne Create an intermediate bill.\n\ne Wait for the next bill and then execute the customer change.\n\nObjects and Enhancements in SAP CRM\n\nDefinition\n\nIf you integrate SAP S/4HANA Utilities with SAP CRM, you can use the data cleansing tool in SAP CRM to manage the business\npartner merge cases and, to some extent, process them in SAP CRM.\n\nUse\n\nFor the objects replicated between SAP CRM and SAP S/4HANA Utilities, the change is made to the target business partner in SAP\nCRM. An exception to this is the contract in SAP CRM. Here, the change to the target business partner is triggered by the customer\nchange in SAP S/4HANA Utilities.\n\nFor more information about transfer functions for other objects in SAP Utilities, see Objects and Enhancements in SAP Utilities for\nBusiness Partner Merging.\n\nAutomatic Business Partner Merging\n\nUse\n\nYou can use BAPIs or BOR methods to automate individual steps of business partner merging. For further information on this, see\nthe SAP note 624341 (Merging Business Partners).\n\nFeatures\n\nYou can use the following BAPIs for automatic business partner merging:\n\nBAPI                                                                Description\nBAPI_ISUACCOUNT_GETDETAIL                     Display contract account\nBAPI_ISUACCOUNT_CHANGE                        Change contract account\n\nBAPI_ISUPARTNER_GETDETAIL                      Display contract account\n",
+ "cleaned_text": "- The business partners credit rating data is not transferred.\n\nAlternatives if customer change is not possible\n\nIf a contract has not yet been invoiced, proceed as follows:\n\n- Reverse the move-in document: Execute move-in with the correct business partner. You can use the move-in document as a template.\n\n- Create an intermediate bill.\n\n- Wait for the next bill and then execute the customer change.\n\nObjects and Enhancements in SAP CRM\n\nDefinition\n\nIf you integrate SAP S/4HANA Utilities with SAP CRM, you can use the data cleansing tool in SAP CRM to manage the business partner merge cases and, to some extent, process them in SAP CRM.\n\nUse\n\nFor the objects replicated between SAP CRM and SAP S/4HANA Utilities, the change is made to the target business partner in SAP CRM. An exception to this is the contract in SAP CRM. Here, the change to the target business partner is triggered by the customer change in SAP S/4HANA Utilities. For more information about transfer functions for other objects in SAP Utilities, see Objects and Enhancements in SAP Utilities for Business Partner Merging.\n\nAutomatic Business Partner Merging\n\nUse\n\nYou can use BAPIs or BOR methods to automate individual steps of business partner merging. For further information on this, see the SAP note 624341 (Merging Business Partners).\n\nFeatures\n\nYou can use the following BAPIs for automatic business partner merging:\n\nBAPI | Description\n\nBAPI_ISUACCOUNT_GETDETAIL | Display contract account\n\nBAPI_ISUACCOUNT_CHANGE | Change contract account\n\nBAPI_ISUPARTNER_GETDETAIL | Display contract account",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p065_b000",
+   "type": "list",
+   "page_number": 65,
+   "bbox": [
+    207,
+    135,
+    1313,
+    172
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The business partners credit rating data is not transferred."
+    }
+   ],
+   "section_id": "doc_001_sec_230"
+  },
+  {
+   "block_id": "doc_001_p065_b001",
+   "type": "heading",
+   "page_number": 65,
+   "bbox": [
+    123,
+    256,
+    998,
+    294
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Alternatives if customer change is not possible",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_231"
+  },
+  {
+   "block_id": "doc_001_p065_b002",
+   "type": "paragraph",
+   "page_number": 65,
+   "bbox": [
+    125,
+    378,
+    1175,
+    415
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "If a contract has not yet been invoiced, proceed as follows:",
+   "section_id": "doc_001_sec_231"
+  },
+  {
+   "block_id": "doc_001_p065_b003",
+   "type": "list",
+   "page_number": 65,
+   "bbox": [
+    207,
+    503,
+    2481,
+    806
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Reverse the move-in document: Execute move-in with the correct business partner. You can use the move-in document as a template."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create an intermediate bill."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Wait for the next bill and then execute the customer change."
+    }
+   ],
+   "section_id": "doc_001_sec_231"
+  },
+  {
+   "block_id": "doc_001_p065_b004",
+   "type": "heading",
+   "page_number": 65,
+   "bbox": [
+    125,
+    955,
+    1571,
+    1031
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Objects and Enhancements in SAP CRM",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_232"
+  },
+  {
+   "block_id": "doc_001_p065_b005",
+   "type": "heading",
+   "page_number": 65,
+   "bbox": [
+    126,
+    1132,
+    393,
+    1177
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_233"
+  },
+  {
+   "block_id": "doc_001_p065_b006",
+   "type": "paragraph",
+   "page_number": 65,
+   "bbox": [
+    124,
+    1264,
+    2414,
+    1365
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "If you integrate SAP S/4HANA Utilities with SAP CRM, you can use the data cleansing tool in SAP CRM to manage the business partner merge cases and, to some extent, process them in SAP CRM.",
+   "section_id": "doc_001_sec_233"
+  },
+  {
+   "block_id": "doc_001_p065_b007",
+   "type": "heading",
+   "page_number": 65,
+   "bbox": [
+    125,
+    1476,
+    225,
+    1522
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_234"
+  },
+  {
+   "block_id": "doc_001_p065_b008",
+   "type": "paragraph",
+   "page_number": 65,
+   "bbox": [
+    123,
+    1609,
+    2487,
+    1959
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "For the objects replicated between SAP CRM and SAP S/4HANA Utilities, the change is made to the target business partner in SAP CRM. An exception to this is the contract in SAP CRM. Here, the change to the target business partner is triggered by the customer change in SAP S/4HANA Utilities. For more information about transfer functions for other objects in SAP Utilities, see Objects and Enhancements in SAP Utilities for Business Partner Merging.",
+   "section_id": "doc_001_sec_234"
+  },
+  {
+   "block_id": "doc_001_p065_b009",
+   "type": "heading",
+   "page_number": 65,
+   "bbox": [
+    124,
+    2105,
+    1462,
+    2181
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Automatic Business Partner Merging",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_235"
+  },
+  {
+   "block_id": "doc_001_p065_b010",
+   "type": "heading",
+   "page_number": 65,
+   "bbox": [
+    125,
+    2282,
+    225,
+    2327
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_236"
+  },
+  {
+   "block_id": "doc_001_p065_b011",
+   "type": "paragraph",
+   "page_number": 65,
+   "bbox": [
+    122,
+    2414,
+    2466,
+    2514
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You can use BAPIs or BOR methods to automate individual steps of business partner merging. For further information on this, see the SAP note 624341 (Merging Business Partners).",
+   "section_id": "doc_001_sec_236"
+  },
+  {
+   "block_id": "doc_001_p065_b012",
+   "type": "heading",
+   "page_number": 65,
+   "bbox": [
+    126,
+    2627,
+    361,
+    2672
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_237"
+  },
+  {
+   "block_id": "doc_001_p065_b013",
+   "type": "paragraph",
+   "page_number": 65,
+   "bbox": [
+    123,
+    2759,
+    1438,
+    2797
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "You can use the following BAPIs for automatic business partner merging:",
+   "section_id": "doc_001_sec_237"
+  },
+  {
+   "block_id": "doc_001_p065_b014",
+   "type": "table",
+   "page_number": 65,
+   "bbox": [
+    149,
+    2902,
+    1369,
+    3260
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continued_on_next_page:p66",
+    "continued_on_next_page:p66"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    932
+   ],
+   "headers": [
+    "BAPI",
+    "Description"
+   ],
+   "rows": [
+    [
+     "BAPI_ISUACCOUNT_GETDETAIL",
+     "Display contract account"
+    ],
+    [
+     "BAPI_ISUACCOUNT_CHANGE",
+     "Change contract account"
+    ],
+    [
+     "BAPI_ISUPARTNER_GETDETAIL",
+     "Display contract account"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "BAPI",
+     "Description"
+    ],
+    [
+     "BAPI_ISUACCOUNT_GETDETAIL",
+     "Display contract account"
+    ],
+    [
+     "BAPI_ISUACCOUNT_CHANGE",
+     "Change contract account"
+    ],
+    [
+     "BAPI_ISUPARTNER_GETDETAIL",
+     "Display contract account"
+    ]
+   ],
+   "section_id": "doc_001_sec_237"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "911aea7b35f37f668756cea08bcfd2759ee738aa8f17b106f0a6913ae3003686"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Customer Change",
+  "Features",
+  "Constraints"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_230",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_231",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_232",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_233",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_234",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_235",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_236",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_237",
+   "role": "starts_here"
+  }
+ ]
+}

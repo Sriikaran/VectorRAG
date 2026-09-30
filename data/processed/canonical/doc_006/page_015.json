@@ -1,0 +1,367 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 15,
+ "source_page_hash": "0e4f85d0762fcc391c609c1da09e5bc5ab663ef4b1acd05b28c3611b0ee1b86b",
+ "is_cover_page": false,
+ "title": "Determination of Expected Consumption for Consumption Registers",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nthe extrapolation results.\n\nDetermination of Expected Consumption for Consumption Registers\nDetermination of the expected consumption based on the meter reading results\n\n1. You can calculate the consumption per unit of weight from the determined consumption and the determined weight of the\nbase period:\n\n2. Determined consumption of base period : Determined weight of base period\n= Consumption per weighting unit\n\n3. To determine the expected consumption of the forecast period, multiply the consumption per unit of weight by the weight\nof the forecast period.\n\n4. Consumption per weighting unit * Weight of forecast period\n= Expected consumption of forecast period\n\n5. The expected meter reading is calculated from the expected consumption with the help of special parameters (register\nfactor, billing factor, dimension conversion table).\n\nDetermination of the expected consumption based on the period consumption\nThe following reasons can result in the period consumption being used as a basis for extrapolation:\n\ne Not enough meter reading results are available\n\ne You entered the period consumption before a representative point in time was created by the updating of meter reading\nresults\n\nThe expected consumption is determined as follows:\n\n1. The consumption per weighting unit is calculated from the period consumption and the weight of its validity period:\n2. Period consumption : Weight of the period consumption validity period\n= Consumption per weighting unit\n\n3. To determine the expected consumption of the forecast period, multiply the consumption per weighting unit by the weight\nof the forecast period.\n\n4. Consumption per weighting unit * Weight of forecast period\n= Expected consumption of forecast period\n\n5. The expected meter reading is calculated from the expected consumption with the help of special parameters (register\nfactor, billing factor, dimension conversion table).\n\nDetermination of Expected Demand for Demand Registers\n\nDetermining the expected demand for demand registers is a similar process to determining the expected consumption for\nconsumption registers. Demand per weighting unit is, however, not calculated. In this case, you must determine the highest\ndemand for the base period.\n",
+ "cleaned_text": "the extrapolation results.\n\nDetermination of Expected Consumption for Consumption Registers\n\nDetermination of the expected consumption based on the meter reading results\n\n1 You can calculate the consumption per unit of weight from the determined consumption and the determined weight of the base period:\n\n2 Determined consumption of base period : Determined weight of base period = Consumption per weighting unit\n\n3 To determine the expected consumption of the forecast period, multiply the consumption per unit of weight by the weight of the forecast period.\n\n4 Consumption per weighting unit * Weight of forecast period = Expected consumption of forecast period\n\n5 The expected meter reading is calculated from the expected consumption with the help of special parameters (register factor, billing factor, dimension conversion table).\n\nDetermination of the expected consumption based on the period consumption\n\nThe following reasons can result in the period consumption being used as a basis for extrapolation:\n\n- Not enough meter reading results are available\n\n- You entered the period consumption before a representative point in time was created by the updating of meter reading results\n\nThe expected consumption is determined as follows:\n\n1 The consumption per weighting unit is calculated from the period consumption and the weight of its validity period:\n\n2 Period consumption : Weight of the period consumption validity period = Consumption per weighting unit\n\n3 To determine the expected consumption of the forecast period, multiply the consumption per weighting unit by the weight of the forecast period.\n\n4 Consumption per weighting unit * Weight of forecast period = Expected consumption of forecast period\n\n5 The expected meter reading is calculated from the expected consumption with the help of special parameters (register factor, billing factor, dimension conversion table).\n\nDetermination of Expected Demand for Demand Registers\n\nDetermining the expected demand for demand registers is a similar process to determining the expected consumption for consumption registers. Demand per weighting unit is, however, not calculated. In this case, you must determine the highest demand for the base period.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p015_b000",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    122,
+    134,
+    573,
+    172
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "the extrapolation results.",
+   "section_id": "doc_006_sec_017"
+  },
+  {
+   "block_id": "doc_006_p015_b001",
+   "type": "heading",
+   "page_number": 15,
+   "bbox": [
+    126,
+    283,
+    2043,
+    341
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Determination of Expected Consumption for Consumption Registers",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_018"
+  },
+  {
+   "block_id": "doc_006_p015_b002",
+   "type": "heading",
+   "page_number": 15,
+   "bbox": [
+    124,
+    417,
+    1614,
+    455
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Determination of the expected consumption based on the meter reading results",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_019"
+  },
+  {
+   "block_id": "doc_006_p015_b003",
+   "type": "list",
+   "page_number": 15,
+   "bbox": [
+    211,
+    539,
+    2462,
+    1381
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "You can calculate the consumption per unit of weight from the determined consumption and the determined weight of the base period:"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Determined consumption of base period : Determined weight of base period = Consumption per weighting unit"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "To determine the expected consumption of the forecast period, multiply the consumption per unit of weight by the weight of the forecast period."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Consumption per weighting unit * Weight of forecast period = Expected consumption of forecast period"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "The expected meter reading is calculated from the expected consumption with the help of special parameters (register factor, billing factor, dimension conversion table)."
+    }
+   ],
+   "section_id": "doc_006_sec_019"
+  },
+  {
+   "block_id": "doc_006_p015_b004",
+   "type": "heading",
+   "page_number": 15,
+   "bbox": [
+    124,
+    1465,
+    1589,
+    1503
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Determination of the expected consumption based on the period consumption",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_020"
+  },
+  {
+   "block_id": "doc_006_p015_b005",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    122,
+    1587,
+    1908,
+    1624
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The following reasons can result in the period consumption being used as a basis for extrapolation:",
+   "section_id": "doc_006_sec_020"
+  },
+  {
+   "block_id": "doc_006_p015_b006",
+   "type": "list",
+   "page_number": 15,
+   "bbox": [
+    207,
+    1708,
+    2416,
+    1906
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Not enough meter reading results are available"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You entered the period consumption before a representative point in time was created by the updating of meter reading results"
+    }
+   ],
+   "section_id": "doc_006_sec_020"
+  },
+  {
+   "block_id": "doc_006_p015_b007",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    122,
+    1997,
+    1074,
+    2035
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The expected consumption is determined as follows:",
+   "section_id": "doc_006_sec_020"
+  },
+  {
+   "block_id": "doc_006_p015_b008",
+   "type": "list",
+   "page_number": 15,
+   "bbox": [
+    211,
+    2119,
+    2464,
+    2899
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "The consumption per weighting unit is calculated from the period consumption and the weight of its validity period:"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Period consumption : Weight of the period consumption validity period = Consumption per weighting unit"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "To determine the expected consumption of the forecast period, multiply the consumption per weighting unit by the weight of the forecast period."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Consumption per weighting unit * Weight of forecast period = Expected consumption of forecast period"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "The expected meter reading is calculated from the expected consumption with the help of special parameters (register factor, billing factor, dimension conversion table)."
+    }
+   ],
+   "section_id": "doc_006_sec_020"
+  },
+  {
+   "block_id": "doc_006_p015_b009",
+   "type": "heading",
+   "page_number": 15,
+   "bbox": [
+    126,
+    3011,
+    1752,
+    3068
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Determination of Expected Demand for Demand Registers",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_021"
+  },
+  {
+   "block_id": "doc_006_p015_b010",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    123,
+    3144,
+    2347,
+    3300
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Determining the expected demand for demand registers is a similar process to determining the expected consumption for consumption registers. Demand per weighting unit is, however, not calculated. In this case, you must determine the highest demand for the base period.",
+   "section_id": "doc_006_sec_021"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "0e4f85d0762fcc391c609c1da09e5bc5ab663ef4b1acd05b28c3611b0ee1b86b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Yes"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_017",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_018",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_019",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_020",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_021",
+   "role": "starts_here"
+  }
+ ]
+}

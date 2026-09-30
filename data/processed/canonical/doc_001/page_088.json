@@ -1,0 +1,239 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 88,
+ "source_page_hash": "24cd1e505d95e3c4e4a46980eb5319650e2a82813dcf4fe7ad5083a3da806b87",
+ "is_cover_page": false,
+ "title": "Multiple Contract Change",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nDistributor\nDISTO\u20181\n\n$.Prov:DISTO1                   S.Type: SUPP\n\nInvoicing: SUPP                 S Prov: SUPP\nPymt class: CP                 Pymt class: < \u2018\n\nInstallation\n\nS. Type: DIST\nBilling: DIST01\n\nThe payment process is determined from the combination of the payment class and the invoicing service provider (SUPP).\n\ni Note\n\nUnlike in the first example, the invoicing service provider is relevant in determining the payment process.\n\nIn this case, the payment process is used simply to provide the distributor with information about the due date of the bill and on\nwhether or not it is possible to monitor payments.\n\nMultiple Contract Change\n",
+ "cleaned_text": "Distributor DISTO\u20181\n\n$.Prov:DISTO1 | S.Type: SUPP\n\nInvoicing: SUPP | S Prov: SUPP\n\nPymt class: CP | Pymt class: < \u2018\n\nInstallation S. Type: DIST Billing: DIST01\n\nThe payment process is determined from the combination of the payment class and the invoicing service provider (SUPP). i Note Unlike in the first example, the invoicing service provider is relevant in determining the payment process.\n\nIn this case, the payment process is used simply to provide the distributor with information about the due date of the bill and on whether or not it is possible to monitor payments.\n\nMultiple Contract Change",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p088_b000",
+   "type": "paragraph",
+   "page_number": 88,
+   "bbox": [
+    690,
+    239,
+    1298,
+    440
+   ],
+   "ocr_confidence": 90.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Distributor DISTO\u20181",
+   "section_id": "doc_001_sec_342"
+  },
+  {
+   "block_id": "doc_001_p088_b001",
+   "type": "table",
+   "page_number": 88,
+   "bbox": [
+    397,
+    1123,
+    1578,
+    1361
+   ],
+   "ocr_confidence": 76.0,
+   "flags": [
+    "low_confidence_words:5",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    397,
+    1160
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "$.Prov:DISTO1",
+     "S.Type: SUPP"
+    ],
+    [
+     "Invoicing: SUPP",
+     "S Prov: SUPP"
+    ],
+    [
+     "Pymt class: CP",
+     "Pymt class: < \u2018"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "$.Prov:DISTO1",
+     "S.Type: SUPP"
+    ],
+    [
+     "Invoicing: SUPP",
+     "S Prov: SUPP"
+    ],
+    [
+     "Pymt class: CP",
+     "Pymt class: < \u2018"
+    ]
+   ],
+   "section_id": "doc_001_sec_342"
+  },
+  {
+   "block_id": "doc_001_p088_b002",
+   "type": "paragraph",
+   "page_number": 88,
+   "bbox": [
+    417,
+    1649,
+    848,
+    1870
+   ],
+   "ocr_confidence": 53.1,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region"
+   ],
+   "text": "Installation S. Type: DIST Billing: DIST01",
+   "section_id": "doc_001_sec_342"
+  },
+  {
+   "block_id": "doc_001_p088_b003",
+   "type": "paragraph",
+   "page_number": 88,
+   "bbox": [
+    122,
+    2559,
+    2338,
+    2817
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The payment process is determined from the combination of the payment class and the invoicing service provider (SUPP). i Note Unlike in the first example, the invoicing service provider is relevant in determining the payment process.",
+   "section_id": "doc_001_sec_342"
+  },
+  {
+   "block_id": "doc_001_p088_b004",
+   "type": "paragraph",
+   "page_number": 88,
+   "bbox": [
+    122,
+    2937,
+    2430,
+    3037
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "In this case, the payment process is used simply to provide the distributor with information about the due date of the bill and on whether or not it is possible to monitor payments.",
+   "section_id": "doc_001_sec_342"
+  },
+  {
+   "block_id": "doc_001_p088_b005",
+   "type": "heading",
+   "page_number": 88,
+   "bbox": [
+    128,
+    3186,
+    1052,
+    3262
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Multiple Contract Change",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_343"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 71.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 89,
+   "page_hash": "24cd1e505d95e3c4e4a46980eb5319650e2a82813dcf4fe7ad5083a3da806b87"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Payment Class",
+  "Se Example"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_342",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_343",
+   "role": "starts_here"
+  }
+ ]
+}

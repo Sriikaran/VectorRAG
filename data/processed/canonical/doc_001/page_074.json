@@ -1,0 +1,375 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 74,
+ "source_page_hash": "f5f8348c7ca3556342b94f5c8ebe04b896c683c95003d9f073b5c4d9420e6084",
+ "is_cover_page": false,
+ "title": "Creating Contract Accounts",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nIf several contract accounts were assigned to a business partner, a dialog box appears showing all the contract accounts assigned\nto that business partner. You can select a contract account from the dialog box and display it for processing.\n\nUsing authorization object F_LKK_FCODE, you can issue authorizations for master data dialogs. You can determine, for example,\n\nwhich user is no longer authorized to assign partners to a contract account. See the authorization documentation for further\ninformation.\n\nYou can make changes to a contract account and have them take effect from a time in the future. The changes are not saved\n\ndirectly to the database, they are entered in change documents. To activate the data, you have to run report BUSPCDACT for the\naplication object FICA(see SAP menu |)Master Data Contract Account % ). For more information, see the report documentation.\n\nCreating Contract Accounts\n\nPrerequisites\n\nTo create a contract account, you must have created a business partner to whom you assign this contract account. You can assign\nadditional business partners to the contract account depending on the industry and contract account category.\n\nIn addition, in the system, a contract account category must have been maintained that you assigned to the contract account\nwhen you created it.\n\nProcedure\n1. |}Select one of the following paths:          Roles      Edit contract account master data\n(SAP_FILCA_CONTRACT_ACCOUNT) } Create contract account      SAP Menu      Master data \u00bb Contract account\nCreate\n\n2. The initial screen appears.\n\n3. Enter the following data:\n\ne A business partner who is assigned to the account. At least one partner must be assigned to each account.\n\ne Acontract account category (see Contract Account Category ),\n\ne You can either assign a contract account number yourself or have the system assign the number.\n\n1. Choose Continue .\n2. The first data entry screen appears.\n3. Enter the required data. Using the navigation buttons, you can navigate between the various data screens.\n\n4. Save the contract account.\n\nResult\n\nYou have created the contract account and made all business partner assignments.\n",
+ "cleaned_text": "If several contract accounts were assigned to a business partner, a dialog box appears showing all the contract accounts assigned to that business partner. You can select a contract account from the dialog box and display it for processing. Using authorization object F_LKK_FCODE, you can issue authorizations for master data dialogs. You can determine, for example, which user is no longer authorized to assign partners to a contract account. See the authorization documentation for further information. You can make changes to a contract account and have them take effect from a time in the future. The changes are not saved directly to the database, they are entered in change documents. To activate the data, you have to run report BUSPCDACT for the aplication object FICA(see SAP menu |)Master Data Contract Account % ). For more information, see the report documentation.\n\nCreating Contract Accounts\n\nPrerequisites\n\nTo create a contract account, you must have created a business partner to whom you assign this contract account. You can assign additional business partners to the contract account depending on the industry and contract account category. In addition, in the system, a contract account category must have been maintained that you assigned to the contract account when you created it.\n\nProcedure\n\n1. |}Select one of the following paths: | Roles | Edit contract account master data\n\n(SAP_FILCA_CONTRACT_ACCOUNT) } Create contract account | SAP Menu | Master data \u00bb Contract account\n\nCreate\n\n2 The initial screen appears.\n\n3 Enter the following data:\n\n- A business partner who is assigned to the account. At least one partner must be assigned to each account.\n\n- Acontract account category (see Contract Account Category ),\n\n- You can either assign a contract account number yourself or have the system assign the number.\n\n1 Choose Continue .\n\n2 The first data entry screen appears.\n\n3 Enter the required data. Using the navigation buttons, you can navigate between the various data screens.\n\n4 Save the contract account.\n\nResult\n\nYou have created the contract account and made all business partner assignments.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p074_b000",
+   "type": "paragraph",
+   "page_number": 74,
+   "bbox": [
+    122,
+    134,
+    2479,
+    735
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "If several contract accounts were assigned to a business partner, a dialog box appears showing all the contract accounts assigned to that business partner. You can select a contract account from the dialog box and display it for processing. Using authorization object F_LKK_FCODE, you can issue authorizations for master data dialogs. You can determine, for example, which user is no longer authorized to assign partners to a contract account. See the authorization documentation for further information. You can make changes to a contract account and have them take effect from a time in the future. The changes are not saved directly to the database, they are entered in change documents. To activate the data, you have to run report BUSPCDACT for the aplication object FICA(see SAP menu |)Master Data Contract Account % ). For more information, see the report documentation.",
+   "section_id": "doc_001_sec_282"
+  },
+  {
+   "block_id": "doc_001_p074_b001",
+   "type": "heading",
+   "page_number": 74,
+   "bbox": [
+    125,
+    880,
+    1131,
+    956
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Creating Contract Accounts",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_283"
+  },
+  {
+   "block_id": "doc_001_p074_b002",
+   "type": "heading",
+   "page_number": 74,
+   "bbox": [
+    126,
+    1056,
+    492,
+    1112
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_284"
+  },
+  {
+   "block_id": "doc_001_p074_b003",
+   "type": "paragraph",
+   "page_number": 74,
+   "bbox": [
+    122,
+    1189,
+    2469,
+    1476
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "To create a contract account, you must have created a business partner to whom you assign this contract account. You can assign additional business partners to the contract account depending on the industry and contract account category. In addition, in the system, a contract account category must have been maintained that you assigned to the contract account when you created it.",
+   "section_id": "doc_001_sec_284"
+  },
+  {
+   "block_id": "doc_001_p074_b004",
+   "type": "heading",
+   "page_number": 74,
+   "bbox": [
+    126,
+    1588,
+    409,
+    1634
+   ],
+   "ocr_confidence": 97.0,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_285"
+  },
+  {
+   "block_id": "doc_001_p074_b005",
+   "type": "table",
+   "page_number": 74,
+   "bbox": [
+    214,
+    1718,
+    2428,
+    1825
+   ],
+   "ocr_confidence": 88.4,
+   "flags": [
+    "low_confidence_words:3",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    214,
+    254,
+    1048,
+    1234,
+    1538,
+    1817
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "1. |}Select one of the following paths:",
+     "Roles",
+     "Edit contract account master data"
+    ],
+    [
+     "(SAP_FILCA_CONTRACT_ACCOUNT) } Create contract account",
+     "SAP Menu",
+     "Master data \u00bb Contract account"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "1. |}Select one of the following paths:",
+     "Roles",
+     "Edit contract account master data"
+    ],
+    [
+     "(SAP_FILCA_CONTRACT_ACCOUNT) } Create contract account",
+     "SAP Menu",
+     "Master data \u00bb Contract account"
+    ]
+   ],
+   "section_id": "doc_001_sec_285"
+  },
+  {
+   "block_id": "doc_001_p074_b006",
+   "type": "heading",
+   "page_number": 74,
+   "bbox": [
+    254,
+    1846,
+    377,
+    1877
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Create",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_286"
+  },
+  {
+   "block_id": "doc_001_p074_b007",
+   "type": "list",
+   "page_number": 74,
+   "bbox": [
+    207,
+    1948,
+    2181,
+    2839
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "The initial screen appears."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Enter the following data:"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "A business partner who is assigned to the account. At least one partner must be assigned to each account."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Acontract account category (see Contract Account Category ),"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can either assign a contract account number yourself or have the system assign the number."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Choose Continue ."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "The first data entry screen appears."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Enter the required data. Using the navigation buttons, you can navigate between the various data screens."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Save the contract account."
+    }
+   ],
+   "section_id": "doc_001_sec_286"
+  },
+  {
+   "block_id": "doc_001_p074_b008",
+   "type": "heading",
+   "page_number": 74,
+   "bbox": [
+    126,
+    2958,
+    298,
+    3004
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Result",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_287"
+  },
+  {
+   "block_id": "doc_001_p074_b009",
+   "type": "paragraph",
+   "page_number": 74,
+   "bbox": [
+    123,
+    3088,
+    1628,
+    3126
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "You have created the contract account and made all business partner assignments.",
+   "section_id": "doc_001_sec_287"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.1087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "f5f8348c7ca3556342b94f5c8ebe04b896c683c95003d9f073b5c4d9420e6084"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Creating, Changing, and Displaying Contract Accounts",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_282",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_283",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_284",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_285",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_286",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_287",
+   "role": "starts_here"
+  }
+ ]
+}

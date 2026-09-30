@@ -1,0 +1,439 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 25,
+ "source_page_hash": "c974a5864b236221a215569704b52abe9e125d5ede4c2dd9385ee1c524882549",
+ "is_cover_page": false,
+ "title": "Key Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n\nThe system records all dunning data for each dunned item. Using the Maintain Dunning Notices (F3678) app you can manually\n\nintervene in the dunning processes.\n\nKey Features\n\nYou use the Maintain Dunning Notices app to do the following:\n\ne Display dunning notices\ne Display dunning notice items\ne Set the next dunning level for a dunning notice item\n\ne Reverse dunning notices\n\nSAP Fiori Implementation Information\n\nIn the SAP Fiori Apps Reference Library, see the details for the Maintain Dunning Notices app.\n\nTroubleshooting\n\nThe following information will help you analyze problems that occur in dunning runs:\n\nProblem\n\nAnitem is not dunned.\n\nThe dunning level of an item is reduced automatically after partial\nclearing.\n\nCause/Solution\n\nThere are dunning notices for the business partner that\nhave not been executed.\n\nThe item is not due yet or has been deferred.\n\nNo dunning procedure is assigned to the item/contract\naccount.\n\nThe item or the related contract account has a dunning\nlock or posting lock.\n\nThe item is in a workflow. Approval has not yet taken place.\nThe last dunning level has been reached.\n\nThe amount to be dunned is below the amount limit for\ndunning notices.\n\nThe item is an additional receivable whose main or\nsubtransaction has not been configured to trigger dunning.\n\nThe dunning notice is not in line with the dunning\nfrequency.\n\nAs aresult of the partial clearing, the amount no longer reaches the\namount limit of the previously reached dunning level. The item\ntherefore returns to a lower dunning level.\n",
+ "cleaned_text": "The system records all dunning data for each dunned item. Using the Maintain Dunning Notices (F3678) app you can manually intervene in the dunning processes.\n\nKey Features\n\nYou use the Maintain Dunning Notices app to do the following:\n\n- Display dunning notices\n\n- Display dunning notice items\n\n- Set the next dunning level for a dunning notice item\n\n- Reverse dunning notices\n\nSAP Fiori Implementation Information\n\nIn the SAP Fiori Apps Reference Library, see the details for the Maintain Dunning Notices app.\n\nTroubleshooting\n\nThe following information will help you analyze problems that occur in dunning runs:\n\nProblem\n\nAnitem is not dunned.\n\nThe dunning level of an item is reduced automatically after partial clearing.\n\nCause/Solution\n\nThere are dunning notices for the business partner that have not been executed. The item is not due yet or has been deferred. No dunning procedure is assigned to the item/contract account. The item or the related contract account has a dunning lock or posting lock. The item is in a workflow. Approval has not yet taken place. The last dunning level has been reached.\n\nThe amount to be dunned is below the amount limit for\n\ndunning notices.\n\nThe item is an additional receivable whose main or\n\nsubtransaction has not been configured to trigger dunning. The dunning notice is not in line with the dunning frequency.\n\nAs aresult of the partial clearing, the amount no longer reaches the amount limit of the previously reached dunning level. The item therefore returns to a lower dunning level.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p025_b000",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    122,
+    134,
+    2422,
+    235
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "The system records all dunning data for each dunned item. Using the Maintain Dunning Notices (F3678) app you can manually intervene in the dunning processes.",
+   "section_id": "doc_026_sec_115"
+  },
+  {
+   "block_id": "doc_026_p025_b001",
+   "type": "heading",
+   "page_number": 25,
+   "bbox": [
+    126,
+    347,
+    480,
+    404
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Key Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_116"
+  },
+  {
+   "block_id": "doc_026_p025_b002",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    123,
+    480,
+    1255,
+    518
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "You use the Maintain Dunning Notices app to do the following:",
+   "section_id": "doc_026_sec_116"
+  },
+  {
+   "block_id": "doc_026_p025_b003",
+   "type": "list",
+   "page_number": 25,
+   "bbox": [
+    207,
+    601,
+    1183,
+    948
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display dunning notices"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display dunning notice items"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Set the next dunning level for a dunning notice item"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Reverse dunning notices"
+    }
+   ],
+   "section_id": "doc_026_sec_116"
+  },
+  {
+   "block_id": "doc_026_p025_b004",
+   "type": "heading",
+   "page_number": 25,
+   "bbox": [
+    125,
+    1059,
+    1190,
+    1116
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "SAP Fiori Implementation Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_117"
+  },
+  {
+   "block_id": "doc_026_p025_b005",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    125,
+    1192,
+    1810,
+    1230
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "In the SAP Fiori Apps Reference Library, see the details for the Maintain Dunning Notices app.",
+   "section_id": "doc_026_sec_117"
+  },
+  {
+   "block_id": "doc_026_p025_b006",
+   "type": "heading",
+   "page_number": 25,
+   "bbox": [
+    123,
+    1377,
+    710,
+    1452
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Troubleshooting",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_118"
+  },
+  {
+   "block_id": "doc_026_p025_b007",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    122,
+    1527,
+    1643,
+    1565
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "The following information will help you analyze problems that occur in dunning runs:",
+   "section_id": "doc_026_sec_118"
+  },
+  {
+   "block_id": "doc_026_p025_b008",
+   "type": "heading",
+   "page_number": 25,
+   "bbox": [
+    149,
+    1674,
+    291,
+    1703
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Problem",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_119"
+  },
+  {
+   "block_id": "doc_026_p025_b009",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    148,
+    1779,
+    524,
+    1807
+   ],
+   "ocr_confidence": 90.4,
+   "flags": [],
+   "text": "Anitem is not dunned.",
+   "section_id": "doc_026_sec_119"
+  },
+  {
+   "block_id": "doc_026_p025_b010",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    148,
+    3070,
+    1246,
+    3164
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "The dunning level of an item is reduced automatically after partial clearing.",
+   "section_id": "doc_026_sec_119"
+  },
+  {
+   "block_id": "doc_026_p025_b011",
+   "type": "heading",
+   "page_number": 25,
+   "bbox": [
+    1331,
+    1674,
+    1604,
+    1703
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [],
+   "text": "Cause/Solution",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_120"
+  },
+  {
+   "block_id": "doc_026_p025_b012",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    1463,
+    1815,
+    2445,
+    2501
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "There are dunning notices for the business partner that have not been executed. The item is not due yet or has been deferred. No dunning procedure is assigned to the item/contract account. The item or the related contract account has a dunning lock or posting lock. The item is in a workflow. Approval has not yet taken place. The last dunning level has been reached.",
+   "section_id": "doc_026_sec_120"
+  },
+  {
+   "block_id": "doc_026_p025_b013",
+   "type": "heading",
+   "page_number": 25,
+   "bbox": [
+    1463,
+    2561,
+    2385,
+    2589
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "The amount to be dunned is below the amount limit for",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_121"
+  },
+  {
+   "block_id": "doc_026_p025_b014",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    1463,
+    2620,
+    1738,
+    2655
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "dunning notices.",
+   "section_id": "doc_026_sec_121"
+  },
+  {
+   "block_id": "doc_026_p025_b015",
+   "type": "heading",
+   "page_number": 25,
+   "bbox": [
+    1463,
+    2715,
+    2308,
+    2743
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The item is an additional receivable whose main or",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_122"
+  },
+  {
+   "block_id": "doc_026_p025_b016",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    1462,
+    2775,
+    2453,
+    2964
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "text": "subtransaction has not been configured to trigger dunning. The dunning notice is not in line with the dunning frequency.",
+   "section_id": "doc_026_sec_122"
+  },
+  {
+   "block_id": "doc_026_p025_b017",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    1330,
+    3070,
+    2458,
+    3223
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "As aresult of the partial clearing, the amount no longer reaches the amount limit of the previously reached dunning level. The item therefore returns to a lower dunning level.",
+   "section_id": "doc_026_sec_122"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "c974a5864b236221a215569704b52abe9e125d5ede4c2dd9385ee1c524882549"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Displaying Dunning Runs",
+  "Result"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_115",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_116",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_117",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_118",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_119",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_120",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_121",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_122",
+   "role": "starts_here"
+  }
+ ]
+}

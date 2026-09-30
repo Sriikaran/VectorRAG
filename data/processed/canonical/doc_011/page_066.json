@@ -1,0 +1,347 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 66,
+ "source_page_hash": "8b4970c0ed1ec342f0488d64e721e316275e33eed26677eda673394e4cb1d5b0",
+ "is_cover_page": false,
+ "title": "Use of Variant Programs",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nUse of Variant Programs\n\nWhen using variant programs for conditional billing, check whether the variants and their rates make sense from a technical and\napplication point of view. This applies particularly for complicated billing procedures such as backbilling or DPC, as well as for the\n\nfollowing points:\n\ne Price block adjustment\ne Use of TQUANT\ne Physical values such as cosinus phi\n\ne Consumption history\ne (Previous) period consumption or demand\n\ne Updating statistics\n\nIn the context menu (right click on an output operand), you can choose to display all of an output operand's schema steps that are\naffected by the operand update in order to analyze the flow of data for operands in schema maintenance. This can be useful for\nlarge and complicated schemas.\n\nWith conditional billing, you can also define new scenarios. When defining the conditional rates, you can use the following variant\nprograms:\n\ne QUANT1A4X: Update for Quantity\ne DEMANIA4X: Update for Demand\n\ne COMPUI1X: Update for Amount\n\nThese variant programs generate info line items for individual TOU exceptions for a specific time.\n\nFor more information, see the system documentation for the variant programs.\n\nTime-of-Use Exception Program\n\nUse\n\nYou represent demand response programs in SAP IS-U as time-of-use exception programs. Events that occur during demand\nresponse programs are referred to as time-of-use exceptions.\n\nA time-of-use exception program (TOU exception program) groups time-of-use exceptions that belong to the same demand\nresponse program. The participation of a customer in a TOU exception program is part of the contractual agreement between the\nutilities company and the customer.\n\nTOU exception programs represent the connection between conditional billing and the TOU exception.\n\nStructure\n\nYou define TOU exception programs in Customizing and this definition has the following sections:\n",
+ "cleaned_text": "Use of Variant Programs\n\nWhen using variant programs for conditional billing, check whether the variants and their rates make sense from a technical and application point of view. This applies particularly for complicated billing procedures such as backbilling or DPC, as well as for the following points:\n\n- Price block adjustment\n\n- Use of TQUANT\n\n- Physical values such as cosinus phi\n\n- Consumption history\n\n- (Previous) period consumption or demand\n\n- Updating statistics\n\nIn the context menu (right click on an output operand), you can choose to display all of an output operand's schema steps that are affected by the operand update in order to analyze the flow of data for operands in schema maintenance. This can be useful for large and complicated schemas. With conditional billing, you can also define new scenarios. When defining the conditional rates, you can use the following variant programs:\n\n- QUANT1A4X: Update for Quantity\n\n- DEMANIA4X: Update for Demand\n\n- COMPUI1X: Update for Amount\n\nThese variant programs generate info line items for individual TOU exceptions for a specific time. For more information, see the system documentation for the variant programs.\n\nTime-of-Use Exception Program\n\nUse\n\nYou represent demand response programs in SAP IS-U as time-of-use exception programs. Events that occur during demand response programs are referred to as time-of-use exceptions. A time-of-use exception program (TOU exception program) groups time-of-use exceptions that belong to the same demand response program. The participation of a customer in a TOU exception program is part of the contractual agreement between the utilities company and the customer. TOU exception programs represent the connection between conditional billing and the TOU exception.\n\nStructure\n\nYou define TOU exception programs in Customizing and this definition has the following sections:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p066_b000",
+   "type": "heading",
+   "page_number": 66,
+   "bbox": [
+    124,
+    135,
+    574,
+    172
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use of Variant Programs",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_216"
+  },
+  {
+   "block_id": "doc_011_p066_b001",
+   "type": "paragraph",
+   "page_number": 66,
+   "bbox": [
+    122,
+    256,
+    2455,
+    422
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "When using variant programs for conditional billing, check whether the variants and their rates make sense from a technical and application point of view. This applies particularly for complicated billing procedures such as backbilling or DPC, as well as for the following points:",
+   "section_id": "doc_011_sec_216"
+  },
+  {
+   "block_id": "doc_011_p066_b002",
+   "type": "list",
+   "page_number": 66,
+   "bbox": [
+    207,
+    506,
+    1022,
+    1056
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Price block adjustment"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Use of TQUANT"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Physical values such as cosinus phi"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Consumption history"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "(Previous) period consumption or demand"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Updating statistics"
+    }
+   ],
+   "section_id": "doc_011_sec_216"
+  },
+  {
+   "block_id": "doc_011_p066_b003",
+   "type": "paragraph",
+   "page_number": 66,
+   "bbox": [
+    123,
+    1140,
+    2479,
+    1490
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "In the context menu (right click on an output operand), you can choose to display all of an output operand's schema steps that are affected by the operand update in order to analyze the flow of data for operands in schema maintenance. This can be useful for large and complicated schemas. With conditional billing, you can also define new scenarios. When defining the conditional rates, you can use the following variant programs:",
+   "section_id": "doc_011_sec_216"
+  },
+  {
+   "block_id": "doc_011_p066_b004",
+   "type": "list",
+   "page_number": 66,
+   "bbox": [
+    207,
+    1573,
+    838,
+    1815
+   ],
+   "ocr_confidence": 87.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "QUANT1A4X: Update for Quantity"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "DEMANIA4X: Update for Demand"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "COMPUI1X: Update for Amount"
+    }
+   ],
+   "section_id": "doc_011_sec_216"
+  },
+  {
+   "block_id": "doc_011_p066_b005",
+   "type": "paragraph",
+   "page_number": 66,
+   "bbox": [
+    122,
+    1902,
+    1871,
+    2061
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "These variant programs generate info line items for individual TOU exceptions for a specific time. For more information, see the system documentation for the variant programs.",
+   "section_id": "doc_011_sec_216"
+  },
+  {
+   "block_id": "doc_011_p066_b006",
+   "type": "heading",
+   "page_number": 66,
+   "bbox": [
+    124,
+    2207,
+    1279,
+    2283
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "Time-of-Use Exception Program",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_217"
+  },
+  {
+   "block_id": "doc_011_p066_b007",
+   "type": "heading",
+   "page_number": 66,
+   "bbox": [
+    125,
+    2387,
+    225,
+    2432
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_218"
+  },
+  {
+   "block_id": "doc_011_p066_b008",
+   "type": "paragraph",
+   "page_number": 66,
+   "bbox": [
+    122,
+    2516,
+    2457,
+    2988
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "You represent demand response programs in SAP IS-U as time-of-use exception programs. Events that occur during demand response programs are referred to as time-of-use exceptions. A time-of-use exception program (TOU exception program) groups time-of-use exceptions that belong to the same demand response program. The participation of a customer in a TOU exception program is part of the contractual agreement between the utilities company and the customer. TOU exception programs represent the connection between conditional billing and the TOU exception.",
+   "section_id": "doc_011_sec_218"
+  },
+  {
+   "block_id": "doc_011_p066_b009",
+   "type": "heading",
+   "page_number": 66,
+   "bbox": [
+    125,
+    3099,
+    391,
+    3145
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Structure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_219"
+  },
+  {
+   "block_id": "doc_011_p066_b010",
+   "type": "paragraph",
+   "page_number": 66,
+   "bbox": [
+    123,
+    3232,
+    1876,
+    3270
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "You define TOU exception programs in Customizing and this definition has the following sections:",
+   "section_id": "doc_011_sec_219"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "8b4970c0ed1ec342f0488d64e721e316275e33eed26677eda673394e4cb1d5b0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Processing Rate Components",
+  "Variant Programs and Schema Structure",
+  "Use of Variant Programs"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_216",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_217",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_218",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_219",
+   "role": "starts_here"
+  }
+ ]
+}

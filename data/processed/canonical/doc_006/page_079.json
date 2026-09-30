@@ -1,0 +1,358 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 79,
+ "source_page_hash": "a0a396d0d09432f2eeb6db0b89c7c1f32c21748256d67ee9c5c8ce945ce768e9",
+ "is_cover_page": false,
+ "title": "Demand Registers",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nDemand Registers\n\nYou cannot use the quantity determination procedure Quantity Determination During Meter Reading in conjunction with demand\nregisters. For demand registers, quantity determination generally takes place during billing.\n\nWhen attempting to change over installations that contain demand registers to the quantity determination procedure Quantity\nDetermination During Meter Reading, the quantity determination procedure Quantity Determination During Billing is set\nautomatically for demand registers.\n\nJapanese Billing Periods\n\nJapanese billing periods cannot be used in conjunction with the quantity determination procedure Quantity Determination\n\nDuring Meter Reading. If you are using Japanese billing periods, you cannot use the quantity determination procedure Quantity\nDetermination During Meter Reading.\n\nNotes About the Time of the Changeover\n\nUse\n\nBefore you activate the business function Utilities, Quantity Determination (ISU _QD_1) and change over the quantity\ndetermination procedure, you should consider when you want the changeover to take place. The changeover of the quantity\ndetermination procedure has an effect on many SAP Utilities business processes and therefore has far-reaching consequences.\n\nDuring the changeover of the quantity determination procedure, a metered data entry is necessary on the changeover date for all\ninstallations belonging to the division in question. Under certain circumstances, this could result in logistical problems and large\nvolumes of data. Take this into account when choosing the time of the changeover and the changeover methods described below.\n\nThe market rules that apply to you also have an influence on the time of the changeover. Depending on how much room to\nmaneuver you have with regard to applying the market rules, and depending on the initial situation in your system, choose one of\nthe following changeover methods:\n\ne Changeover on key date\n\ne Rolling changeover\n\nAs a general rule, you can only change the quantity determination procedure if the registers of the installations concerned only\ncontain meter reading results whose meter reading date is before the changeover date. Therefore, take the following\nrecommendation into account.\n\n> Recommendation\n\nWe recommend choosing dates for the changeover that are in the future and for which no changeover has yet taken place.\n\nChangeover on Key Date\n\nFor this method, you change over all installations that are assigned to the selected division to the quantity determination\nprocedure on a specific key date.\n\nIf the market rules that apply to you stipulate that you have to determine the consumption for every meter reading as of a certain\n\nLays datn and warn iwusaont tn pnp anan nwanr tan thic nriantitys dHnantarminatinn nrnnngdnAiirnan ac niiianlths ac nneccihBIn In ardar tr namauals with\n",
+ "cleaned_text": "Demand Registers\n\nYou cannot use the quantity determination procedure Quantity Determination During Meter Reading in conjunction with demand registers. For demand registers, quantity determination generally takes place during billing. When attempting to change over installations that contain demand registers to the quantity determination procedure Quantity Determination During Meter Reading, the quantity determination procedure Quantity Determination During Billing is set automatically for demand registers.\n\nJapanese Billing Periods\n\nJapanese billing periods cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading. If you are using Japanese billing periods, you cannot use the quantity determination procedure Quantity Determination During Meter Reading.\n\nNotes About the Time of the Changeover\n\nUse\n\nBefore you activate the business function Utilities, Quantity Determination (ISU _QD_1) and change over the quantity determination procedure, you should consider when you want the changeover to take place. The changeover of the quantity determination procedure has an effect on many SAP Utilities business processes and therefore has far-reaching consequences. During the changeover of the quantity determination procedure, a metered data entry is necessary on the changeover date for all installations belonging to the division in question. Under certain circumstances, this could result in logistical problems and large volumes of data. Take this into account when choosing the time of the changeover and the changeover methods described below. The market rules that apply to you also have an influence on the time of the changeover. Depending on how much room to maneuver you have with regard to applying the market rules, and depending on the initial situation in your system, choose one of the following changeover methods:\n\n- Changeover on key date\n\n- Rolling changeover\n\nAs a general rule, you can only change the quantity determination procedure if the registers of the installations concerned only contain meter reading results whose meter reading date is before the changeover date. Therefore, take the following recommendation into account.\n\nRecommendation We recommend choosing dates for the changeover that are in the future and for which no changeover has yet taken place.\n\nChangeover on Key Date\n\nFor this method, you change over all installations that are assigned to the selected division to the quantity determination procedure on a specific key date. If the market rules that apply to you stipulate that you have to determine the consumption for every meter reading as of a certain\n\nLays datn and warn iwusaont tn pnp anan nwanr tan thic nriantitys dHnantarminatinn nrnnngdnAiirnan ac niiianlths ac nneccihBIn In ardar tr namauals with",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": ">",
+   "bbox": [
+    151,
+    2673,
+    644,
+    2711
+   ],
+   "reason": "icon glyph OCR'd before 'recommendation' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p079_b000",
+   "type": "heading",
+   "page_number": 79,
+   "bbox": [
+    124,
+    135,
+    464,
+    172
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Demand Registers",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_213"
+  },
+  {
+   "block_id": "doc_006_p079_b001",
+   "type": "paragraph",
+   "page_number": 79,
+   "bbox": [
+    123,
+    256,
+    2476,
+    606
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You cannot use the quantity determination procedure Quantity Determination During Meter Reading in conjunction with demand registers. For demand registers, quantity determination generally takes place during billing. When attempting to change over installations that contain demand registers to the quantity determination procedure Quantity Determination During Meter Reading, the quantity determination procedure Quantity Determination During Billing is set automatically for demand registers.",
+   "section_id": "doc_006_sec_213"
+  },
+  {
+   "block_id": "doc_006_p079_b002",
+   "type": "heading",
+   "page_number": 79,
+   "bbox": [
+    122,
+    690,
+    576,
+    727
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Japanese Billing Periods",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_214"
+  },
+  {
+   "block_id": "doc_006_p079_b003",
+   "type": "paragraph",
+   "page_number": 79,
+   "bbox": [
+    123,
+    811,
+    2450,
+    977
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Japanese billing periods cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading. If you are using Japanese billing periods, you cannot use the quantity determination procedure Quantity Determination During Meter Reading.",
+   "section_id": "doc_006_sec_214"
+  },
+  {
+   "block_id": "doc_006_p079_b004",
+   "type": "heading",
+   "page_number": 79,
+   "bbox": [
+    128,
+    1123,
+    1599,
+    1199
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Notes About the Time of the Changeover",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_215"
+  },
+  {
+   "block_id": "doc_006_p079_b005",
+   "type": "heading",
+   "page_number": 79,
+   "bbox": [
+    125,
+    1303,
+    225,
+    1348
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_216"
+  },
+  {
+   "block_id": "doc_006_p079_b006",
+   "type": "paragraph",
+   "page_number": 79,
+   "bbox": [
+    122,
+    1429,
+    2457,
+    2097
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Before you activate the business function Utilities, Quantity Determination (ISU _QD_1) and change over the quantity determination procedure, you should consider when you want the changeover to take place. The changeover of the quantity determination procedure has an effect on many SAP Utilities business processes and therefore has far-reaching consequences. During the changeover of the quantity determination procedure, a metered data entry is necessary on the changeover date for all installations belonging to the division in question. Under certain circumstances, this could result in logistical problems and large volumes of data. Take this into account when choosing the time of the changeover and the changeover methods described below. The market rules that apply to you also have an influence on the time of the changeover. Depending on how much room to maneuver you have with regard to applying the market rules, and depending on the initial situation in your system, choose one of the following changeover methods:",
+   "section_id": "doc_006_sec_216"
+  },
+  {
+   "block_id": "doc_006_p079_b007",
+   "type": "list",
+   "page_number": 79,
+   "bbox": [
+    207,
+    2181,
+    688,
+    2321
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Changeover on key date"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Rolling changeover"
+    }
+   ],
+   "section_id": "doc_006_sec_216"
+  },
+  {
+   "block_id": "doc_006_p079_b008",
+   "type": "paragraph",
+   "page_number": 79,
+   "bbox": [
+    123,
+    2408,
+    2411,
+    2563
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "As a general rule, you can only change the quantity determination procedure if the registers of the installations concerned only contain meter reading results whose meter reading date is before the changeover date. Therefore, take the following recommendation into account.",
+   "section_id": "doc_006_sec_216"
+  },
+  {
+   "block_id": "doc_006_p079_b009",
+   "type": "note",
+   "page_number": 79,
+   "bbox": [
+    151,
+    2673,
+    2354,
+    2790
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Recommendation",
+   "text": "Recommendation We recommend choosing dates for the changeover that are in the future and for which no changeover has yet taken place.",
+   "section_id": "doc_006_sec_216"
+  },
+  {
+   "block_id": "doc_006_p079_b010",
+   "type": "heading",
+   "page_number": 79,
+   "bbox": [
+    123,
+    2910,
+    579,
+    2948
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Changeover on Key Date",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_217"
+  },
+  {
+   "block_id": "doc_006_p079_b011",
+   "type": "paragraph",
+   "page_number": 79,
+   "bbox": [
+    124,
+    3032,
+    2454,
+    3257
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "For this method, you change over all installations that are assigned to the selected division to the quantity determination procedure on a specific key date. If the market rules that apply to you stipulate that you have to determine the consumption for every meter reading as of a certain",
+   "section_id": "doc_006_sec_217"
+  },
+  {
+   "block_id": "doc_006_p079_b012",
+   "type": "fragment",
+   "page_number": 79,
+   "bbox": [
+    124,
+    3278,
+    2390,
+    3300
+   ],
+   "ocr_confidence": 40.2,
+   "flags": [
+    "low_confidence_words:13",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Lays datn and warn iwusaont tn pnp anan nwanr tan thic nriantitys dHnantarminatinn nrnnngdnAiirnan ac niiianlths ac nneccihBIn In ardar tr namauals with",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_006_sec_217"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "a0a396d0d09432f2eeb6db0b89c7c1f32c21748256d67ee9c5c8ce945ce768e9"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Important Notes",
+  "Constraints",
+  "Demand Registers"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_213",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_214",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_215",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_216",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_217",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model weights / caches (never commit; see models/README.md)
+*.onnx
+*.gguf
+*.safetensors
+.cache/huggingface/
+.cache/modelscope/
+models/models--*/
+models/snapshots/
+
+# Temporary / machine-local
+*.tmp
+*.log.tmp
+.DS_Store

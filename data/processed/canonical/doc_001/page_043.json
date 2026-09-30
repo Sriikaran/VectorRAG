@@ -1,0 +1,377 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 43,
+ "source_page_hash": "904a2a9e8ce9375b4e41795849b3c9bb980491bb2f09757ea0710e591cec015a",
+ "is_cover_page": false,
+ "title": "Information Containers",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nSubmission to Collection Agency\n\nInformation Containers\n\nYou can submit already cleared items to collection agencies.\n\nTo prevent business partners from being blocked too early, the system takes the\ncommunication data with the collection agency in database table DFKKCOLI_LOG into\naccount.\n\n1 Note\n\nDepending on the size of the table, this access can be demanding on performance.\nCheck if it is necessary to create a suitable index in the customer namespace.\n\nInformation containers are using for communication between applications and systems.\nIf a business partner is blocked, the SAP standard processes do not generate any new\nentries for information containers.\n\nCheck if your own customer-specific information container categories need to be\nadjusted. You have to periodically delete the messages in the XI monitor. A re-send of\n\nalready sent messages in an information container is possible, so that the\ncommunication between the systems and applications can be re-established.\n\nThe following table shows special cases that in part differ from the normal situation in the industry solution component\n\nInsurance, and where you should therefore take special care.\n\nFunction\n\nBroker Collections\n\nCoinsurance\n\nNote\n\nIf there is no more business activity, you can also block brokers. You\ncannot assign a blocked broker to insurance objects, nor can you\nenter him or her in line items as an alternative collecting broker.\n\nYou can also no longer create new broker reports or new broker\nreport items for blocked brokers.\n\nNo special checks take place for coinsurers. The system assumes\n\nthat active coinsurers receive new open items periodically by\nmeans of transaction VRCN.\n\nIf the business relationship with a coinsurer ends, check if the\nrelated coinsurance key has to be removed or if the entry has to be\nlimited chronologically (recording active starting from\n12/31/9999).\n\nThe following table shows special cases that differ in part from the normal situation in the industry component Public Sector\n\nContract Accounts Receivable and Payable, and where you should therefore take special care.\n\nFunction\n\nTax Payer Online Service (TPOS)\n\nNote\n\nIf a business partner is blocked, then the user assigned to him or\n\nher for the Tax Payer Online Service is also blocked. Check if such\nusers have to be deleted.\n\nDeleting Business Partners\n",
+ "cleaned_text": "Submission to Collection Agency\n\nInformation Containers\n\nYou can submit already cleared items to collection agencies. To prevent business partners from being blocked too early, the system takes the communication data with the collection agency in database table DFKKCOLI_LOG into account.\n\nNote Depending on the size of the table, this access can be demanding on performance. Check if it is necessary to create a suitable index in the customer namespace.\n\nInformation containers are using for communication between applications and systems. If a business partner is blocked, the SAP standard processes do not generate any new entries for information containers. Check if your own customer-specific information container categories need to be adjusted. You have to periodically delete the messages in the XI monitor. A re-send of already sent messages in an information container is possible, so that the communication between the systems and applications can be re-established.\n\nThe following table shows special cases that in part differ from the normal situation in the industry solution component Insurance, and where you should therefore take special care.\n\nFunction\n\nBroker Collections\n\nCoinsurance\n\nNote If there is no more business activity, you can also block brokers. You cannot assign a blocked broker to insurance objects, nor can you enter him or her in line items as an alternative collecting broker. You can also no longer create new broker reports or new broker report items for blocked brokers. No special checks take place for coinsurers. The system assumes that active coinsurers receive new open items periodically by means of transaction VRCN. If the business relationship with a coinsurer ends, check if the related coinsurance key has to be removed or if the entry has to be limited chronologically (recording active starting from 12/31/9999).\n\nThe following table shows special cases that differ in part from the normal situation in the industry component Public Sector Contract Accounts Receivable and Payable, and where you should therefore take special care.\n\nFunction\n\nTax Payer Online Service (TPOS)\n\nNote If a business partner is blocked, then the user assigned to him or her for the Tax Payer Online Service is also blocked. Check if such users have to be deleted.\n\nDeleting Business Partners",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    990,
+    486,
+    1150,
+    523
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p043_b000",
+   "type": "paragraph",
+   "page_number": 43,
+   "bbox": [
+    149,
+    156,
+    700,
+    191
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Submission to Collection Agency",
+   "section_id": "doc_001_sec_138"
+  },
+  {
+   "block_id": "doc_001_p043_b001",
+   "type": "heading",
+   "page_number": 43,
+   "bbox": [
+    150,
+    761,
+    539,
+    789
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Information Containers",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_139"
+  },
+  {
+   "block_id": "doc_001_p043_b002",
+   "type": "paragraph",
+   "page_number": 43,
+   "bbox": [
+    964,
+    156,
+    2421,
+    398
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You can submit already cleared items to collection agencies. To prevent business partners from being blocked too early, the system takes the communication data with the collection agency in database table DFKKCOLI_LOG into account.",
+   "section_id": "doc_001_sec_139"
+  },
+  {
+   "block_id": "doc_001_p043_b003",
+   "type": "note",
+   "page_number": 43,
+   "bbox": [
+    990,
+    486,
+    2372,
+    658
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "label": "Note",
+   "text": "Note Depending on the size of the table, this access can be demanding on performance. Check if it is necessary to create a suitable index in the customer namespace.",
+   "section_id": "doc_001_sec_139"
+  },
+  {
+   "block_id": "doc_001_p043_b004",
+   "type": "paragraph",
+   "page_number": 43,
+   "bbox": [
+    965,
+    761,
+    2440,
+    1183
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Information containers are using for communication between applications and systems. If a business partner is blocked, the SAP standard processes do not generate any new entries for information containers. Check if your own customer-specific information container categories need to be adjusted. You have to periodically delete the messages in the XI monitor. A re-send of already sent messages in an information container is possible, so that the communication between the systems and applications can be re-established.",
+   "section_id": "doc_001_sec_139"
+  },
+  {
+   "block_id": "doc_001_p043_b005",
+   "type": "paragraph",
+   "page_number": 43,
+   "bbox": [
+    122,
+    1294,
+    2296,
+    1394
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The following table shows special cases that in part differ from the normal situation in the industry solution component Insurance, and where you should therefore take special care.",
+   "section_id": "doc_001_sec_139"
+  },
+  {
+   "block_id": "doc_001_p043_b006",
+   "type": "heading",
+   "page_number": 43,
+   "bbox": [
+    149,
+    1504,
+    296,
+    1531
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Function",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_140"
+  },
+  {
+   "block_id": "doc_001_p043_b007",
+   "type": "heading",
+   "page_number": 43,
+   "bbox": [
+    150,
+    1608,
+    457,
+    1637
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Broker Collections",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_141"
+  },
+  {
+   "block_id": "doc_001_p043_b008",
+   "type": "heading",
+   "page_number": 43,
+   "bbox": [
+    148,
+    1986,
+    358,
+    2014
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [],
+   "text": "Coinsurance",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_142"
+  },
+  {
+   "block_id": "doc_001_p043_b009",
+   "type": "note",
+   "page_number": 43,
+   "bbox": [
+    1330,
+    1504,
+    2461,
+    2409
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "label": "Note",
+   "text": "Note If there is no more business activity, you can also block brokers. You cannot assign a blocked broker to insurance objects, nor can you enter him or her in line items as an alternative collecting broker. You can also no longer create new broker reports or new broker report items for blocked brokers. No special checks take place for coinsurers. The system assumes that active coinsurers receive new open items periodically by means of transaction VRCN. If the business relationship with a coinsurer ends, check if the related coinsurance key has to be removed or if the entry has to be limited chronologically (recording active starting from 12/31/9999).",
+   "section_id": "doc_001_sec_142"
+  },
+  {
+   "block_id": "doc_001_p043_b010",
+   "type": "paragraph",
+   "page_number": 43,
+   "bbox": [
+    122,
+    2516,
+    2396,
+    2620
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The following table shows special cases that differ in part from the normal situation in the industry component Public Sector Contract Accounts Receivable and Payable, and where you should therefore take special care.",
+   "section_id": "doc_001_sec_142"
+  },
+  {
+   "block_id": "doc_001_p043_b011",
+   "type": "heading",
+   "page_number": 43,
+   "bbox": [
+    149,
+    2729,
+    296,
+    2757
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Function",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_143"
+  },
+  {
+   "block_id": "doc_001_p043_b012",
+   "type": "paragraph",
+   "page_number": 43,
+   "bbox": [
+    148,
+    2834,
+    693,
+    2869
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "Tax Payer Online Service (TPOS)",
+   "section_id": "doc_001_sec_143"
+  },
+  {
+   "block_id": "doc_001_p043_b013",
+   "type": "note",
+   "page_number": 43,
+   "bbox": [
+    1332,
+    2729,
+    2424,
+    2977
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "label": "Note",
+   "text": "Note If a business partner is blocked, then the user assigned to him or her for the Tax Payer Online Service is also blocked. Check if such users have to be deleted.",
+   "section_id": "doc_001_sec_143"
+  },
+  {
+   "block_id": "doc_001_p043_b014",
+   "type": "heading",
+   "page_number": 43,
+   "bbox": [
+    128,
+    3157,
+    1103,
+    3233
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Deleting Business Partners",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_144"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "904a2a9e8ce9375b4e41795849b3c9bb980491bb2f09757ea0710e591cec015a"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Preventing New Business",
+  "Interest Calculation"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_138",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_139",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_140",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_141",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_142",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_143",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_144",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,307 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 22,
+ "source_page_hash": "cd002794eb6326608d96541352cc7d41943a717620a7ae19b2b2153d6ee1d867",
+ "is_cover_page": false,
+ "title": "Related Information",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n(cross-contract account dunning), the system does not check the authorization group. The system issues a message informing\n\nyou of how many dunning notices are not displayed due to missing authorizations. Using the authorization object F_KKDU, the\nsystem checks the dunning history for authorization for the activities Set Next Dunning Level and Reverse Dunning.\n\n1 Note\n\nIn the account balance and the document display, you can display the dunning history only for line items that have actually\nbeen dunned, that is, items for which you have already performed dunning activities. Items that were included in the dunning\nnotice as info items (as described in Creating Printed Records) do not appear here.\n\nFor each business partner, the dunning history shows the name and address as standard. With a customer-specific module defined\nin event 4700, you can change this text to meet your requirements.\n\nYou can display additional data fields by enhancing the customer includes of structure FEKMAKO_PLUS for the dunning header\n\nand those of structure FKKMAZE_STRUC for the dunning items. Afterwards, fill your additional fields using a customer module for\nevent 0391 for the dunning header or event 0392 for the dunning items.\n\nRelated Information\n\nMaintain Dunning Notices\n\nDisplaying Dunning Activities\n\n1. To display dunning activities, in the SAP Easy Access screen, choose:|)}Account \u00bb More Information Dunning History\n(Transaction FPM3).\n\n2. Enter the parameters that you want to use to select dunning notices.\n\nTo display dunning notices that have not been executed successfully, in the field Selection by Print Date, enter Only\nwithout Print Date as selection parameter. The Print Date is the date for the execution of all dunning activities of the update\nrun of the dunning activity run. If required, enter the display variants for the header and item.\n\n3. Choose Continue.\n\n4. To display the separate line items (dunning items) that make up the dunning notices in the dunning history, place the\ncursor on the relevant dunning notice and double-click on the column Counter or select the button Display Dunning Items.\n\nAll items in the dunning notice are displayed in the dunning history. For each dunning header and dunning item, you can also\ndisplay the related documents (see Displaying Documents for Dunned Items). On the Dunning History: Dunning Items detail\nscreen, you can use the object services to display the business objects linked to a dunning notice. If, for example, when you print a\ndunning letter you have automatically created a customer contact, or you have created a customer contact manually, and this\ncustomer contact contains an object link to the dunning notice, you can use the object services to display the linked customer\ncontacts.\n\nYou can use display variants to influence the layout of the list containing the dunned items. For example, you can hide the key fields\nthat have the same entries for all dunning items in a dunning notice.\n\n1 Note\n\nIf you have defined archiving object BUS4401 or CA_DUNNING in Customizing for correspondence type 0003 , and have stored\nletters in the optical archive when printing, you can display archived dunning notices from the dunning history. (See\n",
+ "cleaned_text": "(cross-contract account dunning), the system does not check the authorization group. The system issues a message informing you of how many dunning notices are not displayed due to missing authorizations. Using the authorization object F_KKDU, the system checks the dunning history for authorization for the activities Set Next Dunning Level and Reverse Dunning.\n\nNote In the account balance and the document display, you can display the dunning history only for line items that have actually been dunned, that is, items for which you have already performed dunning activities. Items that were included in the dunning notice as info items (as described in Creating Printed Records) do not appear here.\n\nFor each business partner, the dunning history shows the name and address as standard. With a customer-specific module defined in event 4700, you can change this text to meet your requirements. You can display additional data fields by enhancing the customer includes of structure FEKMAKO_PLUS for the dunning header and those of structure FKKMAZE_STRUC for the dunning items. Afterwards, fill your additional fields using a customer module for event 0391 for the dunning header or event 0392 for the dunning items.\n\nRelated Information\n\nMaintain Dunning Notices\n\nDisplaying Dunning Activities\n\n1 To display dunning activities, in the SAP Easy Access screen, choose:|)}Account \u00bb More Information Dunning History (Transaction FPM3).\n\n2 Enter the parameters that you want to use to select dunning notices. To display dunning notices that have not been executed successfully, in the field Selection by Print Date, enter Only without Print Date as selection parameter. The Print Date is the date for the execution of all dunning activities of the update run of the dunning activity run. If required, enter the display variants for the header and item.\n\n3 Choose Continue.\n\n4 To display the separate line items (dunning items) that make up the dunning notices in the dunning history, place the cursor on the relevant dunning notice and double-click on the column Counter or select the button Display Dunning Items.\n\nAll items in the dunning notice are displayed in the dunning history. For each dunning header and dunning item, you can also display the related documents (see Displaying Documents for Dunned Items). On the Dunning History: Dunning Items detail screen, you can use the object services to display the business objects linked to a dunning notice. If, for example, when you print a dunning letter you have automatically created a customer contact, or you have created a customer contact manually, and this customer contact contains an object link to the dunning notice, you can use the object services to display the linked customer contacts. You can use display variants to influence the layout of the list containing the dunned items. For example, you can hide the key fields that have the same entries for all dunning items in a dunning notice.\n\nNote If you have defined archiving object BUS4401 or CA_DUNNING in Customizing for correspondence type 0003 , and have stored letters in the optical archive when printing, you can display archived dunning notices from the dunning history. (See",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    403,
+    310,
+    440
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    3107,
+    310,
+    3144
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p022_b000",
+   "type": "paragraph",
+   "page_number": 22,
+   "bbox": [
+    122,
+    135,
+    2417,
+    297
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "(cross-contract account dunning), the system does not check the authorization group. The system issues a message informing you of how many dunning notices are not displayed due to missing authorizations. Using the authorization object F_KKDU, the system checks the dunning history for authorization for the activities Set Next Dunning Level and Reverse Dunning.",
+   "section_id": "doc_026_sec_099"
+  },
+  {
+   "block_id": "doc_026_p022_b001",
+   "type": "note",
+   "page_number": 22,
+   "bbox": [
+    151,
+    403,
+    2405,
+    645
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "label": "Note",
+   "text": "Note In the account balance and the document display, you can display the dunning history only for line items that have actually been dunned, that is, items for which you have already performed dunning activities. Items that were included in the dunning notice as info items (as described in Creating Printed Records) do not appear here.",
+   "section_id": "doc_026_sec_099"
+  },
+  {
+   "block_id": "doc_026_p022_b002",
+   "type": "paragraph",
+   "page_number": 22,
+   "bbox": [
+    123,
+    765,
+    2486,
+    1115
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "For each business partner, the dunning history shows the name and address as standard. With a customer-specific module defined in event 4700, you can change this text to meet your requirements. You can display additional data fields by enhancing the customer includes of structure FEKMAKO_PLUS for the dunning header and those of structure FKKMAZE_STRUC for the dunning items. Afterwards, fill your additional fields using a customer module for event 0391 for the dunning header or event 0392 for the dunning items.",
+   "section_id": "doc_026_sec_099"
+  },
+  {
+   "block_id": "doc_026_p022_b003",
+   "type": "heading",
+   "page_number": 22,
+   "bbox": [
+    126,
+    1227,
+    681,
+    1272
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Related Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_100"
+  },
+  {
+   "block_id": "doc_026_p022_b004",
+   "type": "heading",
+   "page_number": 22,
+   "bbox": [
+    125,
+    1354,
+    589,
+    1391
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Maintain Dunning Notices",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_026_sec_100"
+  },
+  {
+   "block_id": "doc_026_p022_b005",
+   "type": "heading",
+   "page_number": 22,
+   "bbox": [
+    128,
+    1527,
+    1175,
+    1603
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Displaying Dunning Activities",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_101"
+  },
+  {
+   "block_id": "doc_026_p022_b006",
+   "type": "list",
+   "page_number": 22,
+   "bbox": [
+    211,
+    1671,
+    2488,
+    2380
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "To display dunning activities, in the SAP Easy Access screen, choose:|)}Account \u00bb More Information Dunning History (Transaction FPM3)."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter the parameters that you want to use to select dunning notices. To display dunning notices that have not been executed successfully, in the field Selection by Print Date, enter Only without Print Date as selection parameter. The Print Date is the date for the execution of all dunning activities of the update run of the dunning activity run. If required, enter the display variants for the header and item."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Choose Continue."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "To display the separate line items (dunning items) that make up the dunning notices in the dunning history, place the cursor on the relevant dunning notice and double-click on the column Counter or select the button Display Dunning Items."
+    }
+   ],
+   "section_id": "doc_026_sec_101"
+  },
+  {
+   "block_id": "doc_026_p022_b007",
+   "type": "paragraph",
+   "page_number": 22,
+   "bbox": [
+    122,
+    2464,
+    2486,
+    3004
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "All items in the dunning notice are displayed in the dunning history. For each dunning header and dunning item, you can also display the related documents (see Displaying Documents for Dunned Items). On the Dunning History: Dunning Items detail screen, you can use the object services to display the business objects linked to a dunning notice. If, for example, when you print a dunning letter you have automatically created a customer contact, or you have created a customer contact manually, and this customer contact contains an object link to the dunning notice, you can use the object services to display the linked customer contacts. You can use display variants to influence the layout of the list containing the dunned items. For example, you can hide the key fields that have the same entries for all dunning items in a dunning notice.",
+   "section_id": "doc_026_sec_101"
+  },
+  {
+   "block_id": "doc_026_p022_b008",
+   "type": "note",
+   "page_number": 22,
+   "bbox": [
+    151,
+    3107,
+    2454,
+    3286
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "label": "Note",
+   "text": "Note If you have defined archiving object BUS4401 or CA_DUNNING in Customizing for correspondence type 0003 , and have stored letters in the optical archive when printing, you can display archived dunning notices from the dunning history. (See",
+   "section_id": "doc_026_sec_101"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "cd002794eb6326608d96541352cc7d41943a717620a7ae19b2b2153d6ee1d867"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Dunning History"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_099",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_100",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_101",
+   "role": "starts_here"
+  }
+ ]
+}

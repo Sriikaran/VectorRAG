@@ -1,0 +1,385 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 2,
+ "source_page_hash": "d9f846143f2f0c6d601bde44b147af38b6ec700eb73c4a284b198a5d777e2e7f",
+ "is_cover_page": false,
+ "title": "Billing Procedure",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nBilling Procedure\n\nPurpose\n\nBilling uses meter reading results or load profiles to determine the evaluation basis for schema execution. All calculations required\nfor rate creation are made during schema execution. Different billing periods are included in the various billing procedures. All\nmaster and billing master data can change during a billing period. The billing module ensures that all billing-relevant changes that\noccur during a billing period are taken into consideration. For example, a price change causes the system to divide the total period\ninto subperiods, each with the price valid for that subperiod. The system also divides the total consumption, which produces the\ncorresponding partial amount.\n\nYou can process all known period categories using different billing procedures.\n\nBackbilling and Period-End Billing\n\nUse\n\nYou can use this function to execute billing simulation for a single contract for the entire backbilling and period-end billing period.\nYou may want to do this for testing purposes or to provide customers with information.\n\nPrerequisites\n\ne Backbilling or period-end billing must be active for the contract.\n\ne Thecontract must be billable.\n\nFeatures\n\nYou can perform this function for a single contract. When you do so, the system automatically carries out the following activities:\n\ne The current backbilling and/or period-end billing period is determined for the contract.\ne Billing simulation is executed for each billing period that falls within the backbilling and/or period-end billing period.\n\nThe meter reading results required for the individual billing periods are determined via extrapolation. If meter reading\nresults were already entered for the backbilling and/or period-end billing period, then these are used for the simulation.\n\nIf actual (period) billings have already been performed in the backbilling and/or period-end billing period, these are also\ntaken into account; simulation is not executed in these cases.\n\ne The simulation results are displayed in an overview. The following information is processed:\no Net amount for the entire backbilling and period-end billing period\n\no Net amount listed separately for the period billings in the backbilling and period-end billing periods, and for the bill\nresulting from the period-end billing\n\no Net amount for each period billing within the backbilling and/or period-end billing period\n",
+ "cleaned_text": "Billing Procedure\n\nPurpose\n\nBilling uses meter reading results or load profiles to determine the evaluation basis for schema execution. All calculations required for rate creation are made during schema execution. Different billing periods are included in the various billing procedures. All master and billing master data can change during a billing period. The billing module ensures that all billing-relevant changes that occur during a billing period are taken into consideration. For example, a price change causes the system to divide the total period into subperiods, each with the price valid for that subperiod. The system also divides the total consumption, which produces the corresponding partial amount. You can process all known period categories using different billing procedures.\n\nBackbilling and Period-End Billing\n\nUse\n\nYou can use this function to execute billing simulation for a single contract for the entire backbilling and period-end billing period. You may want to do this for testing purposes or to provide customers with information.\n\nPrerequisites\n\n- Backbilling or period-end billing must be active for the contract.\n\n- Thecontract must be billable.\n\nFeatures\n\nYou can perform this function for a single contract. When you do so, the system automatically carries out the following activities:\n\n- The current backbilling and/or period-end billing period is determined for the contract.\n\n- Billing simulation is executed for each billing period that falls within the backbilling and/or period-end billing period. The meter reading results required for the individual billing periods are determined via extrapolation. If meter reading results were already entered for the backbilling and/or period-end billing period, then these are used for the simulation. If actual (period) billings have already been performed in the backbilling and/or period-end billing period, these are also\n\ntaken into account; simulation is not executed in these cases.\n\n- The simulation results are displayed in an overview. The following information is processed:\n\n- Net amount for the entire backbilling and period-end billing period\n\n- Net amount listed separately for the period billings in the backbilling and period-end billing periods, and for the bill resulting from the period-end billing\n\n- Net amount for each period billing within the backbilling and/or period-end billing period",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    256,
+    739,
+    331
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Billing Procedure",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_001"
+  },
+  {
+   "block_id": "doc_011_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    124,
+    408,
+    275,
+    445
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Purpose",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_002"
+  },
+  {
+   "block_id": "doc_011_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    529,
+    2475,
+    1003
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Billing uses meter reading results or load profiles to determine the evaluation basis for schema execution. All calculations required for rate creation are made during schema execution. Different billing periods are included in the various billing procedures. All master and billing master data can change during a billing period. The billing module ensures that all billing-relevant changes that occur during a billing period are taken into consideration. For example, a price change causes the system to divide the total period into subperiods, each with the price valid for that subperiod. The system also divides the total consumption, which produces the corresponding partial amount. You can process all known period categories using different billing procedures.",
+   "section_id": "doc_011_sec_002"
+  },
+  {
+   "block_id": "doc_011_p002_b003",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    1154,
+    1342,
+    1229
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [],
+   "text": "Backbilling and Period-End Billing",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_003"
+  },
+  {
+   "block_id": "doc_011_p002_b004",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    1329,
+    225,
+    1374
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_004"
+  },
+  {
+   "block_id": "doc_011_p002_b005",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    1462,
+    2455,
+    1562
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You can use this function to execute billing simulation for a single contract for the entire backbilling and period-end billing period. You may want to do this for testing purposes or to provide customers with information.",
+   "section_id": "doc_011_sec_004"
+  },
+  {
+   "block_id": "doc_011_p002_b006",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    1674,
+    492,
+    1730
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_005"
+  },
+  {
+   "block_id": "doc_011_p002_b007",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    1807,
+    1406,
+    1939
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Backbilling or period-end billing must be active for the contract."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Thecontract must be billable."
+    }
+   ],
+   "section_id": "doc_011_sec_005"
+  },
+  {
+   "block_id": "doc_011_p002_b008",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    2058,
+    361,
+    2103
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_006"
+  },
+  {
+   "block_id": "doc_011_p002_b009",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    2191,
+    2441,
+    2229
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "You can perform this function for a single contract. When you do so, the system automatically carries out the following activities:",
+   "section_id": "doc_011_sec_006"
+  },
+  {
+   "block_id": "doc_011_p002_b010",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    2312,
+    2413,
+    2722
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The current backbilling and/or period-end billing period is determined for the contract."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Billing simulation is executed for each billing period that falls within the backbilling and/or period-end billing period. The meter reading results required for the individual billing periods are determined via extrapolation. If meter reading results were already entered for the backbilling and/or period-end billing period, then these are used for the simulation. If actual (period) billings have already been performed in the backbilling and/or period-end billing period, these are also"
+    }
+   ],
+   "section_id": "doc_011_sec_006"
+  },
+  {
+   "block_id": "doc_011_p002_b011",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    254,
+    2746,
+    1361,
+    2780
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "taken into account; simulation is not executed in these cases.",
+   "section_id": "doc_011_sec_006"
+  },
+  {
+   "block_id": "doc_011_p002_b012",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    2848,
+    2451,
+    3257
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The simulation results are displayed in an overview. The following information is processed:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Net amount for the entire backbilling and period-end billing period"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Net amount listed separately for the period billings in the backbilling and period-end billing periods, and for the bill resulting from the period-end billing"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Net amount for each period billing within the backbilling and/or period-end billing period"
+    }
+   ],
+   "section_id": "doc_011_sec_006"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "d9f846143f2f0c6d601bde44b147af38b6ec700eb73c4a284b198a5d777e2e7f"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Billing Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_003",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_004",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_005",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_006",
+   "role": "starts_here"
+  }
+ ]
+}

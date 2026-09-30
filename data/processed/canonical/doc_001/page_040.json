@@ -1,0 +1,332 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 40,
+ "source_page_hash": "036f9587d4c15b8d0d9eadb7a3dcc46b3a2e3c0be7c06c6f9518431d93d0bf30",
+ "is_cover_page": false,
+ "title": "Preventing New Business",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nPayable (such as the contract account or posting documents) for a blocked business partner, since this data relates primarily to\ninternal processes in Contract Accounts Receivable and Payable, such as payments and dunning, and less to the personal data of a\nbusiness partner. However, within these objects, the system does not display personal data.\n\n\u00b0 Example\nUsers without special authorization can continue to display the account balance of a blocked business partner. In the display of\nthe account balance for the business partner, however, the system suppresses address data, bank data, or payment card data.\n\nThe user can navigate, as before, to the display of a posting document. The document display, however, shows neither address\ndata nor bank data nor payment card data.\n\n\u201c4S Caution\n\nNot all personal data in Contract Accounts Receivable and Payable can be assigned directly to a business partner. For example,\ndata in payment lot items is personal (bank data), but the payer is not always the person, whose items are being cleared by the\npayment. Make sure that you archive and/or delete data of this kind before the defined residence period has expired (see\nPersonal Data Outside of Business Partner Master Data).\n\nIf a business partner is blocked, the system still normally allows changes to objects, as long as this does not result in new business\n\u2014 assuming that the change to the objects would be allowed if the business partner was not blocked.\n\n\u00abe Example\n\nIn order to avoid adverse effects in customer-specific follow-on processes, users without special authorization can make\nchanges to the contract accounts of a business partner even if the business partner is blocked.\n\nFor objects that consist mainly of personal data, the system always prevents their display as soon as the business partner is\nblocked. This includes:\n\ne SEPA mandates\ne SEPA direct debit pre-notifications\n\ne Correspondence\n\nPreventing New Business\n\nThe system prevents new business from arising for blocked business partners as follows:\n\ne Fora blocked business partner, it is not possible to create new master data, such as contract accounts, prepaid accounts,\nor industry-specific contracts.\n\ne You cannot use blocked business partners as alternative payers in other contract accounts or contracts.\ne You cannot post new documents for blocked business partners.\n\ne You cannot post any documents, in which a blocked business partner is entered in another role, such as an alternative\npayer.\n\ne You cannot reverse any posting documents for a blocked business partner, and resetting clearing is also not possible.\n\ne You cannot generate event-controlled or periodic correspondence for a blocked business partner.\n",
+ "cleaned_text": "Payable (such as the contract account or posting documents) for a blocked business partner, since this data relates primarily to internal processes in Contract Accounts Receivable and Payable, such as payments and dunning, and less to the personal data of a business partner. However, within these objects, the system does not display personal data.\n\nExample Users without special authorization can continue to display the account balance of a blocked business partner. In the display of the account balance for the business partner, however, the system suppresses address data, bank data, or payment card data. The user can navigate, as before, to the display of a posting document. The document display, however, shows neither address data nor bank data nor payment card data.\n\nCaution Not all personal data in Contract Accounts Receivable and Payable can be assigned directly to a business partner. For example, data in payment lot items is personal (bank data), but the payer is not always the person, whose items are being cleared by the payment. Make sure that you archive and/or delete data of this kind before the defined residence period has expired (see Personal Data Outside of Business Partner Master Data).\n\nIf a business partner is blocked, the system still normally allows changes to objects, as long as this does not result in new business \u2014 assuming that the change to the objects would be allowed if the business partner was not blocked. \u00abe Example In order to avoid adverse effects in customer-specific follow-on processes, users without special authorization can make changes to the contract accounts of a business partner even if the business partner is blocked.\n\nFor objects that consist mainly of personal data, the system always prevents their display as soon as the business partner is blocked. This includes:\n\n- SEPA mandates\n\n- SEPA direct debit pre-notifications\n\n- Correspondence\n\nPreventing New Business\n\nThe system prevents new business from arising for blocked business partners as follows:\n\n- Fora blocked business partner, it is not possible to create new master data, such as contract accounts, prepaid accounts, or industry-specific contracts.\n\n- You cannot use blocked business partners as alternative payers in other contract accounts or contracts.\n\n- You cannot post new documents for blocked business partners.\n\n- You cannot post any documents, in which a blocked business partner is entered in another role, such as an alternative payer.\n\n- You cannot reverse any posting documents for a blocked business partner, and resetting clearing is also not possible.\n\n- You cannot generate event-controlled or periodic correspondence for a blocked business partner.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u00b0",
+   "bbox": [
+    151,
+    396,
+    432,
+    450
+   ],
+   "reason": "icon glyph OCR'd before 'example' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u201c4S",
+   "bbox": [
+    151,
+    840,
+    414,
+    884
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p040_b000",
+   "type": "paragraph",
+   "page_number": 40,
+   "bbox": [
+    124,
+    134,
+    2484,
+    297
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Payable (such as the contract account or posting documents) for a blocked business partner, since this data relates primarily to internal processes in Contract Accounts Receivable and Payable, such as payments and dunning, and less to the personal data of a business partner. However, within these objects, the system does not display personal data.",
+   "section_id": "doc_001_sec_129"
+  },
+  {
+   "block_id": "doc_001_p040_b001",
+   "type": "example",
+   "page_number": 40,
+   "bbox": [
+    151,
+    396,
+    2450,
+    708
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Example Users without special authorization can continue to display the account balance of a blocked business partner. In the display of the account balance for the business partner, however, the system suppresses address data, bank data, or payment card data. The user can navigate, as before, to the display of a posting document. The document display, however, shows neither address data nor bank data nor payment card data.",
+   "section_id": "doc_001_sec_129"
+  },
+  {
+   "block_id": "doc_001_p040_b002",
+   "type": "note",
+   "page_number": 40,
+   "bbox": [
+    151,
+    840,
+    2442,
+    1154
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Caution",
+   "text": "Caution Not all personal data in Contract Accounts Receivable and Payable can be assigned directly to a business partner. For example, data in payment lot items is personal (bank data), but the payer is not always the person, whose items are being cleared by the payment. Make sure that you archive and/or delete data of this kind before the defined residence period has expired (see Personal Data Outside of Business Partner Master Data).",
+   "section_id": "doc_001_sec_129"
+  },
+  {
+   "block_id": "doc_001_p040_b003",
+   "type": "paragraph",
+   "page_number": 40,
+   "bbox": [
+    124,
+    1275,
+    2477,
+    1657
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "If a business partner is blocked, the system still normally allows changes to objects, as long as this does not result in new business \u2014 assuming that the change to the objects would be allowed if the business partner was not blocked. \u00abe Example In order to avoid adverse effects in customer-specific follow-on processes, users without special authorization can make changes to the contract accounts of a business partner even if the business partner is blocked.",
+   "section_id": "doc_001_sec_129"
+  },
+  {
+   "block_id": "doc_001_p040_b004",
+   "type": "paragraph",
+   "page_number": 40,
+   "bbox": [
+    124,
+    1777,
+    2360,
+    1873
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "For objects that consist mainly of personal data, the system always prevents their display as soon as the business partner is blocked. This includes:",
+   "section_id": "doc_001_sec_129"
+  },
+  {
+   "block_id": "doc_001_p040_b005",
+   "type": "list",
+   "page_number": 40,
+   "bbox": [
+    207,
+    1964,
+    878,
+    2206
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "SEPA mandates"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "SEPA direct debit pre-notifications"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Correspondence"
+    }
+   ],
+   "section_id": "doc_001_sec_129"
+  },
+  {
+   "block_id": "doc_001_p040_b006",
+   "type": "heading",
+   "page_number": 40,
+   "bbox": [
+    128,
+    2355,
+    1037,
+    2431
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Preventing New Business",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_130"
+  },
+  {
+   "block_id": "doc_001_p040_b007",
+   "type": "paragraph",
+   "page_number": 40,
+   "bbox": [
+    122,
+    2503,
+    1728,
+    2541
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The system prevents new business from arising for blocked business partners as follows:",
+   "section_id": "doc_001_sec_130"
+  },
+  {
+   "block_id": "doc_001_p040_b008",
+   "type": "list",
+   "page_number": 40,
+   "bbox": [
+    207,
+    2625,
+    2446,
+    3300
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Fora blocked business partner, it is not possible to create new master data, such as contract accounts, prepaid accounts, or industry-specific contracts."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You cannot use blocked business partners as alternative payers in other contract accounts or contracts."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You cannot post new documents for blocked business partners."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You cannot post any documents, in which a blocked business partner is entered in another role, such as an alternative payer."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You cannot reverse any posting documents for a blocked business partner, and resetting clearing is also not possible."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You cannot generate event-controlled or periodic correspondence for a blocked business partner."
+    }
+   ],
+   "section_id": "doc_001_sec_130"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "036f9587d4c15b8d0d9eadb7a3dcc46b3a2e3c0be7c06c6f9518431d93d0bf30"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Displaying Personal Data"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_129",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_130",
+   "role": "starts_here"
+  }
+ ]
+}

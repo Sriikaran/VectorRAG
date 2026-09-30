@@ -1,0 +1,248 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 84,
+ "source_page_hash": "a3c8e6cb8dbb997a447a851e9292f3688506eeefb20da74caff6b5517294b033",
+ "is_cover_page": false,
+ "title": "Integration of Other Contract Objects",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nContract (Billable\n\nService)\n\nWith the exception of move-in and move-out data, you can change, display and check all data in multiple contracts for a contract\naccount simultaneously, if none of these contracts have been terminated.\n\nYou can change the screen layout by configuring the tabstrips. For more information, see the move-in screen layout.\n\nIntegration of Other Contract Objects\n\nIn addition to the utilities contract, other contracts can be integrated into functions and processes in SAP S/4HANA Utilities. A\nrelevant contract object is the MOS contract. Other contract objects can also be integrated.\n\nIntegration requires the implementation of Business Add-Ins (BAdIs) intended for this purpose. For more information, see SAP\nNote 3342499 rt.\n\nRelevant Fields in the Contract\n\nUse\n\nService Provider\n\nThe service provider in the contract determines who is the owner of the contract or billable service. During move-in, the technical\nmaster data (installation) is linked with the business master data (contract). The service type in the installation tells the system\nthat entries are also required for the deregulation fields in the contract. This means that the Service Provider field in the contract\nis a required field during move-in if theService Type field in the installation contains an entry.\n",
+ "cleaned_text": "Contract (Billable Service)\n\nWith the exception of move-in and move-out data, you can change, display and check all data in multiple contracts for a contract account simultaneously, if none of these contracts have been terminated. You can change the screen layout by configuring the tabstrips. For more information, see the move-in screen layout.\n\nIntegration of Other Contract Objects\n\nIn addition to the utilities contract, other contracts can be integrated into functions and processes in SAP S/4HANA Utilities. A relevant contract object is the MOS contract. Other contract objects can also be integrated. Integration requires the implementation of Business Add-Ins (BAdIs) intended for this purpose. For more information, see SAP Note 3342499 rt.\n\nRelevant Fields in the Contract\n\nUse\n\nService Provider\n\nThe service provider in the contract determines who is the owner of the contract or billable service. During move-in, the technical master data (installation) is linked with the business master data (contract). The service type in the installation tells the system that entries are also required for the deregulation fields in the contract. This means that the Service Provider field in the contract is a required field during move-in if theService Type field in the installation contains an entry.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p084_b000",
+   "type": "paragraph",
+   "page_number": 84,
+   "bbox": [
+    1145,
+    805,
+    1459,
+    897
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Contract (Billable Service)",
+   "section_id": "doc_001_sec_336"
+  },
+  {
+   "block_id": "doc_001_p084_b001",
+   "type": "paragraph",
+   "page_number": 84,
+   "bbox": [
+    122,
+    1659,
+    2446,
+    1881
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "With the exception of move-in and move-out data, you can change, display and check all data in multiple contracts for a contract account simultaneously, if none of these contracts have been terminated. You can change the screen layout by configuring the tabstrips. For more information, see the move-in screen layout.",
+   "section_id": "doc_001_sec_336"
+  },
+  {
+   "block_id": "doc_001_p084_b002",
+   "type": "heading",
+   "page_number": 84,
+   "bbox": [
+    126,
+    1992,
+    1178,
+    2049
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Integration of Other Contract Objects",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_337"
+  },
+  {
+   "block_id": "doc_001_p084_b003",
+   "type": "paragraph",
+   "page_number": 84,
+   "bbox": [
+    124,
+    2125,
+    2408,
+    2409
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "In addition to the utilities contract, other contracts can be integrated into functions and processes in SAP S/4HANA Utilities. A relevant contract object is the MOS contract. Other contract objects can also be integrated. Integration requires the implementation of Business Add-Ins (BAdIs) intended for this purpose. For more information, see SAP Note 3342499 rt.",
+   "section_id": "doc_001_sec_337"
+  },
+  {
+   "block_id": "doc_001_p084_b004",
+   "type": "heading",
+   "page_number": 84,
+   "bbox": [
+    128,
+    2558,
+    1232,
+    2620
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Relevant Fields in the Contract",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_338"
+  },
+  {
+   "block_id": "doc_001_p084_b005",
+   "type": "heading",
+   "page_number": 84,
+   "bbox": [
+    125,
+    2734,
+    225,
+    2780
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_339"
+  },
+  {
+   "block_id": "doc_001_p084_b006",
+   "type": "heading",
+   "page_number": 84,
+   "bbox": [
+    123,
+    2867,
+    419,
+    2898
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Service Provider",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_339"
+  },
+  {
+   "block_id": "doc_001_p084_b007",
+   "type": "paragraph",
+   "page_number": 84,
+   "bbox": [
+    122,
+    2989,
+    2458,
+    3218
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The service provider in the contract determines who is the owner of the contract or billable service. During move-in, the technical master data (installation) is linked with the business master data (contract). The service type in the installation tells the system that entries are also required for the deregulation fields in the contract. This means that the Service Provider field in the contract is a required field during move-in if theService Type field in the installation contains an entry.",
+   "section_id": "doc_001_sec_339"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "a3c8e6cb8dbb997a447a851e9292f3688506eeefb20da74caff6b5517294b033"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Utilities Contract",
+  "Use",
+  "Contract model: Where Does Data Originate"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_336",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_337",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_338",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_339",
+   "role": "starts_here"
+  }
+ ]
+}

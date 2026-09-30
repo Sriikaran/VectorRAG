@@ -1,0 +1,407 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 54,
+ "source_page_hash": "ad1b0c86f3a1fe2fc5c4cbe72278321a7afaa4fd416b88fb611ad2bdd8f40e13",
+ "is_cover_page": false,
+ "title": "Transaction Data",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nYou must enter the owner's target business partner directly in the premise.\n\ne Owner Allocation:\n\nYou must change the owner allocation in the Utilities Industry menu under |*Customer Service \u00bb Process Execution\nOwner Allocation \u00bb Change Owner Allocation 3 (transaction ES52).\n\nTransaction Data\nBudget billing plans\n\nDuring a customer change, you can deactivate the budget billing plans for the terminated contracts without invoicing them and\ntransfer them to the new contracts.\n\n\u201c4S Caution\n\nAll budget billing plan items must be open. If necessary, you must use a clearing reversal to make the payments on account.\nOnce you have successfully changed the customer, you must use account maintenance to allocate the payments on account to\nthe new budget billing plan.\n\nSecurity Deposits\nDuring a customer change, you can transfer the security deposits from the terminated contracts to the new contracts.\n\nOther documents from Contract Accounts Receivable and Payable\n\nAs with the customer change in SAP Utilities, other documents (that is documents that are not mentioned here) from FI-CA are\nnot included in this process. This especially applies to cleared documents.\n\nTransaction Data from Sales and Distribution (SD)\nThe business partner is entered in sales documents from the Sales and Distribution (SD) component.\n\nSD sales documents that have the source business partner entered as the payer are transferred to the target business partner.\nThis only takes place if the sales documents have not yet been invoiced.\n\nFI-CA documents that originate from SD are transferred together with the open items.\n\n4s Caution\n\nSD transaction data cannot be transferred to the target business partner automatically.\n\nBusiness Partner Contacts\n\nContacts are created with a reference to a business partner.\n\n4s Caution\n\nContacts cannot be automatically transferred to the target business partner.\n\nConstraints\n",
+ "cleaned_text": "You must enter the owner's target business partner directly in the premise.\n\n- Owner Allocation: You must change the owner allocation in the Utilities Industry menu under |*Customer Service \u00bb Process Execution Owner Allocation \u00bb Change Owner Allocation 3 (transaction ES52).\n\nTransaction Data\n\nBudget billing plans\n\nDuring a customer change, you can deactivate the budget billing plans for the terminated contracts without invoicing them and transfer them to the new contracts.\n\nCaution All budget billing plan items must be open. If necessary, you must use a clearing reversal to make the payments on account. Once you have successfully changed the customer, you must use account maintenance to allocate the payments on account to the new budget billing plan.\n\nSecurity Deposits\n\nDuring a customer change, you can transfer the security deposits from the terminated contracts to the new contracts.\n\nOther documents from Contract Accounts Receivable and Payable\n\nAs with the customer change in SAP Utilities, other documents (that is documents that are not mentioned here) from FI-CA are not included in this process. This especially applies to cleared documents.\n\nTransaction Data from Sales and Distribution (SD)\n\nThe business partner is entered in sales documents from the Sales and Distribution (SD) component. SD sales documents that have the source business partner entered as the payer are transferred to the target business partner. This only takes place if the sales documents have not yet been invoiced. FI-CA documents that originate from SD are transferred together with the open items. 4s Caution SD transaction data cannot be transferred to the target business partner automatically.\n\nBusiness Partner Contacts\n\nContacts are created with a reference to a business partner.\n\n4s Caution Contacts cannot be automatically transferred to the target business partner.\n\nConstraints",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u201c4S",
+   "bbox": [
+    151,
+    968,
+    414,
+    1013
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p054_b000",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    254,
+    134,
+    1605,
+    172
+   ],
+   "ocr_confidence": 88.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You must enter the owner's target business partner directly in the premise.",
+   "section_id": "doc_001_sec_180"
+  },
+  {
+   "block_id": "doc_001_p054_b001",
+   "type": "list",
+   "page_number": 54,
+   "bbox": [
+    207,
+    236,
+    2367,
+    446
+   ],
+   "ocr_confidence": 88.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Owner Allocation: You must change the owner allocation in the Utilities Industry menu under |*Customer Service \u00bb Process Execution Owner Allocation \u00bb Change Owner Allocation 3 (transaction ES52)."
+    }
+   ],
+   "section_id": "doc_001_sec_180"
+  },
+  {
+   "block_id": "doc_001_p054_b002",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    122,
+    526,
+    437,
+    556
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Transaction Data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_181"
+  },
+  {
+   "block_id": "doc_001_p054_b003",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    124,
+    647,
+    491,
+    685
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Budget billing plans",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_181"
+  },
+  {
+   "block_id": "doc_001_p054_b004",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    122,
+    769,
+    2419,
+    861
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "During a customer change, you can deactivate the budget billing plans for the terminated contracts without invoicing them and transfer them to the new contracts.",
+   "section_id": "doc_001_sec_181"
+  },
+  {
+   "block_id": "doc_001_p054_b005",
+   "type": "note",
+   "page_number": 54,
+   "bbox": [
+    151,
+    968,
+    2448,
+    1217
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Caution",
+   "text": "Caution All budget billing plan items must be open. If necessary, you must use a clearing reversal to make the payments on account. Once you have successfully changed the customer, you must use account maintenance to allocate the payments on account to the new budget billing plan.",
+   "section_id": "doc_001_sec_181"
+  },
+  {
+   "block_id": "doc_001_p054_b006",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    123,
+    1337,
+    453,
+    1375
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Security Deposits",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_181"
+  },
+  {
+   "block_id": "doc_001_p054_b007",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    125,
+    1458,
+    2259,
+    1496
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "During a customer change, you can transfer the security deposits from the terminated contracts to the new contracts.",
+   "section_id": "doc_001_sec_181"
+  },
+  {
+   "block_id": "doc_001_p054_b008",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    123,
+    1580,
+    1360,
+    1618
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Other documents from Contract Accounts Receivable and Payable",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_181"
+  },
+  {
+   "block_id": "doc_001_p054_b009",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    123,
+    1705,
+    2421,
+    1805
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "As with the customer change in SAP Utilities, other documents (that is documents that are not mentioned here) from FI-CA are not included in this process. This especially applies to cleared documents.",
+   "section_id": "doc_001_sec_181"
+  },
+  {
+   "block_id": "doc_001_p054_b010",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    122,
+    1888,
+    1059,
+    1927
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Transaction Data from Sales and Distribution (SD)",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_181"
+  },
+  {
+   "block_id": "doc_001_p054_b011",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    122,
+    2010,
+    2411,
+    2577
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The business partner is entered in sales documents from the Sales and Distribution (SD) component. SD sales documents that have the source business partner entered as the payer are transferred to the target business partner. This only takes place if the sales documents have not yet been invoiced. FI-CA documents that originate from SD are transferred together with the open items. 4s Caution SD transaction data cannot be transferred to the target business partner automatically.",
+   "section_id": "doc_001_sec_181"
+  },
+  {
+   "block_id": "doc_001_p054_b012",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    124,
+    2697,
+    622,
+    2727
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Business Partner Contacts",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_182"
+  },
+  {
+   "block_id": "doc_001_p054_b013",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    123,
+    2818,
+    1202,
+    2856
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Contacts are created with a reference to a business partner.",
+   "section_id": "doc_001_sec_182"
+  },
+  {
+   "block_id": "doc_001_p054_b014",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    151,
+    2956,
+    1536,
+    3076
+   ],
+   "ocr_confidence": 89.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "4s Caution Contacts cannot be automatically transferred to the target business partner.",
+   "section_id": "doc_001_sec_182"
+  },
+  {
+   "block_id": "doc_001_p054_b015",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    124,
+    3224,
+    449,
+    3270
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Constraints",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_183"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "ad1b0c86f3a1fe2fc5c4cbe72278321a7afaa4fd416b88fb611ad2bdd8f40e13"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Objects and Enhancements in SAP Utilities",
+  "Use",
+  "Owner allocations"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_180",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_181",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_182",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_183",
+   "role": "starts_here"
+  }
+ ]
+}

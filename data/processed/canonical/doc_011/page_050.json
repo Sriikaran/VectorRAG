@@ -1,0 +1,551 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 50,
+ "source_page_hash": "ac8f6960971c8a04a142ab5bcba7b8709098f03e450f190ad8726a58c705adbd",
+ "is_cover_page": false,
+ "title": "Time-of-Use Formulas in SAP and MDUS Systems",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nTime-of-Use Formulas in SAP and MDUS Systems\n\nUse\n\nTime-of-use formulas are used to aggregate consumption and demand from a profile. Formulas exist in the Meter Data Unification\nand Synchronization system (MDUS system) and in the SAP system, but with the following distinction:\n\ne MDUS system: Algorithm as well as input and output parameters\n\ne SAP system: Only the information required for the time-of-use interface and the MDUS request. This is as follows:\no IDof formula in MDUS system\no Input parameters (quantity, demand, profiles, indicators) and output parameters (quantity, demand)\n\nThe first input parameter of a formula is always a profile. You cannot change these parameters. The actual profile\nnumber is determined by the MDUS request and during billing.\n\nSettings in the SAP System\n\nYou have to make settings for the SAP formulas in Customizing for Contract Billing under |\u00bbBilling Master Data's AMI: Time-of-\nUse Interface\n\nTime-of-Use Interface\n\nUse\n\nYou use the time-of-use interface to aggregate profiles stored in a Meter Data Unification and Synchronization system (MDUS\nsystem) for billing in the SAP system. The interface contains the periods (for example, a weekday in summer 08:00-17:59) and\ntime-of-use formulas (for example, consumption above limit value), which are used to aggregate the profile values for the MDUS\nrequest and to transfer them to the rate for billing. The following figure uses an example to illustrate this:\n\nTime-of-Use Interfaces                   Intervall Length: 10 mins            Rate\n\nSeason Day Group       From\u2014To Formula           Output Parameters       Result Param.             Operand\n\nSummer |Weekday (Mo\u2014 |00:00-07:59 |5678 Cons.      Consumption           OFF_PEAK=se-4-222242e@ CONS OFFPEAK\n08:00-17:59|5679 Demand |Maximum            DEM_MAx\n\n5680 Cons. over/|Consumption on-peak    ON_PEAK       = > CONS ONPEAK\nunder limit      and peak load         CRIT_PEAK :\n\n18:00\u201423:59 |5678 Cons.       Consumption              OFF_PEAK=::\n\nWeekend [00-00-2358 |5678 Cons [Consumption ____OFF_PEAK\u2122*\nSe a ST\n\nException Days |. J\nWinter [Weekdays [J\n\nExample for Time-of-Use Interface\n\nInterval Length\n\nTo ensure that the profile values in the MDUS system can be aggregated for the MDUS request, the interval length of the time-of-\n",
+ "cleaned_text": "Time-of-Use Formulas in SAP and MDUS Systems\n\nUse\n\nTime-of-use formulas are used to aggregate consumption and demand from a profile. Formulas exist in the Meter Data Unification and Synchronization system (MDUS system) and in the SAP system, but with the following distinction:\n\n- MDUS system: Algorithm as well as input and output parameters\n\n- SAP system: Only the information required for the time-of-use interface and the MDUS request. This is as follows:\n\n- IDof formula in MDUS system\n\n- Input parameters (quantity, demand, profiles, indicators) and output parameters (quantity, demand) The first input parameter of a formula is always a profile. You cannot change these parameters. The actual profile number is determined by the MDUS request and during billing.\n\nSettings in the SAP System\n\nYou have to make settings for the SAP formulas in Customizing for Contract Billing under |\u00bbBilling Master Data's AMI: Time-of-\n\nUse Interface\n\nTime-of-Use Interface\n\nUse\n\nYou use the time-of-use interface to aggregate profiles stored in a Meter Data Unification and Synchronization system (MDUS system) for billing in the SAP system. The interface contains the periods (for example, a weekday in summer 08:00-17:59) and time-of-use formulas (for example, consumption above limit value), which are used to aggregate the profile values for the MDUS request and to transfer them to the rate for billing. The following figure uses an example to illustrate this:\n\nTime-of-Use Interfaces | Intervall Length: 10 mins | Rate\n\nSeason Day Group | From\u2014To Formula | Output Parameters | Result Param. | Operand\n\nSummer |Weekday (Mo\u2014 |00:00-07:59 |5678 Cons. | Consumption | OFF_PEAK=se-4-222242e@ CONS OFFPEAK\n\n08:00-17:59|5679 Demand | |Maximum | DEM_MAx\n\n5680 Cons. over/|Consumption on-peak | ON_PEAK | = | > CONS ONPEAK\n\nunder limit | and peak load | CRIT_PEAK :\n\n18:00\u201423:59 |5678 Cons. | Consumption | OFF_PEAK=::\n\nWeekend | [00-00-2358 |5678 Cons | [Consumption ____OFF_PEAK\u2122*\n\nSe | a ST\n\nException Days |. J\n\nWinter [Weekdays | [J\n\nExample for Time-of-Use Interface\n\nInterval Length\n\nTo ensure that the profile values in the MDUS system can be aggregated for the MDUS request, the interval length of the time-of-",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p050_b000",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    123,
+    130,
+    1923,
+    207
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "text": "Time-of-Use Formulas in SAP and MDUS Systems",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_154"
+  },
+  {
+   "block_id": "doc_011_p050_b001",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    125,
+    307,
+    225,
+    352
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_155"
+  },
+  {
+   "block_id": "doc_011_p050_b002",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    122,
+    436,
+    2470,
+    540
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Time-of-use formulas are used to aggregate consumption and demand from a profile. Formulas exist in the Meter Data Unification and Synchronization system (MDUS system) and in the SAP system, but with the following distinction:",
+   "section_id": "doc_011_sec_155"
+  },
+  {
+   "block_id": "doc_011_p050_b003",
+   "type": "list",
+   "page_number": 50,
+   "bbox": [
+    207,
+    624,
+    2421,
+    1135
+   ],
+   "ocr_confidence": 92.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MDUS system: Algorithm as well as input and output parameters"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "SAP system: Only the information required for the time-of-use interface and the MDUS request. This is as follows:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "IDof formula in MDUS system"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Input parameters (quantity, demand, profiles, indicators) and output parameters (quantity, demand) The first input parameter of a formula is always a profile. You cannot change these parameters. The actual profile number is determined by the MDUS request and during billing."
+    }
+   ],
+   "section_id": "doc_011_sec_155"
+  },
+  {
+   "block_id": "doc_011_p050_b004",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    125,
+    1246,
+    888,
+    1304
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Settings in the SAP System",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_156"
+  },
+  {
+   "block_id": "doc_011_p050_b005",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    123,
+    1379,
+    2438,
+    1420
+   ],
+   "ocr_confidence": 90.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You have to make settings for the SAP formulas in Customizing for Contract Billing under |\u00bbBilling Master Data's AMI: Time-of-",
+   "section_id": "doc_011_sec_156"
+  },
+  {
+   "block_id": "doc_011_p050_b006",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    124,
+    1442,
+    371,
+    1472
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use Interface",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_157"
+  },
+  {
+   "block_id": "doc_011_p050_b007",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    123,
+    1630,
+    915,
+    1690
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "text": "Time-of-Use Interface",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_158"
+  },
+  {
+   "block_id": "doc_011_p050_b008",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    125,
+    1805,
+    225,
+    1850
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_159"
+  },
+  {
+   "block_id": "doc_011_p050_b009",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    122,
+    1938,
+    2434,
+    2166
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "You use the time-of-use interface to aggregate profiles stored in a Meter Data Unification and Synchronization system (MDUS system) for billing in the SAP system. The interface contains the periods (for example, a weekday in summer 08:00-17:59) and time-of-use formulas (for example, consumption above limit value), which are used to aggregate the profile values for the MDUS request and to transfer them to the rate for billing. The following figure uses an example to illustrate this:",
+   "section_id": "doc_011_sec_159"
+  },
+  {
+   "block_id": "doc_011_p050_b010",
+   "type": "table",
+   "page_number": 50,
+   "bbox": [
+    145,
+    2277,
+    2345,
+    2776
+   ],
+   "ocr_confidence": 70.3,
+   "flags": [
+    "low_confidence_words:18",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 15,
+   "column_starts": [
+    145,
+    193,
+    308,
+    551,
+    611,
+    675,
+    845,
+    1091,
+    1149,
+    1330,
+    1597,
+    1906,
+    1998,
+    2032,
+    2162
+   ],
+   "headers": [
+    "Time-of-Use Interfaces",
+    "Intervall Length: 10 mins",
+    "Rate"
+   ],
+   "rows": [
+    [
+     "Season Day Group",
+     "From\u2014To Formula",
+     "Output Parameters",
+     "Result Param.",
+     "Operand"
+    ],
+    [
+     "Summer |Weekday (Mo\u2014 |00:00-07:59 |5678 Cons.",
+     "Consumption",
+     "OFF_PEAK=se-4-222242e@ CONS OFFPEAK"
+    ],
+    [
+     "08:00-17:59|5679 Demand",
+     "|Maximum",
+     "DEM_MAx"
+    ],
+    [
+     "5680 Cons. over/|Consumption on-peak",
+     "ON_PEAK",
+     "=",
+     "> CONS ONPEAK"
+    ],
+    [
+     "under limit",
+     "and peak load",
+     "CRIT_PEAK :"
+    ],
+    [
+     "18:00\u201423:59 |5678 Cons.",
+     "Consumption",
+     "OFF_PEAK=::"
+    ],
+    [
+     "Weekend",
+     "[00-00-2358 |5678 Cons",
+     "[Consumption ____OFF_PEAK\u2122*"
+    ],
+    [
+     "Se",
+     "a ST"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Time-of-Use Interfaces",
+     "Intervall Length: 10 mins",
+     "Rate"
+    ],
+    [
+     "Season Day Group",
+     "From\u2014To Formula",
+     "Output Parameters",
+     "Result Param.",
+     "Operand"
+    ],
+    [
+     "Summer |Weekday (Mo\u2014 |00:00-07:59 |5678 Cons.",
+     "Consumption",
+     "OFF_PEAK=se-4-222242e@ CONS OFFPEAK"
+    ],
+    [
+     "08:00-17:59|5679 Demand",
+     "|Maximum",
+     "DEM_MAx"
+    ],
+    [
+     "5680 Cons. over/|Consumption on-peak",
+     "ON_PEAK",
+     "=",
+     "> CONS ONPEAK"
+    ],
+    [
+     "under limit",
+     "and peak load",
+     "CRIT_PEAK :"
+    ],
+    [
+     "18:00\u201423:59 |5678 Cons.",
+     "Consumption",
+     "OFF_PEAK=::"
+    ],
+    [
+     "Weekend",
+     "[00-00-2358 |5678 Cons",
+     "[Consumption ____OFF_PEAK\u2122*"
+    ],
+    [
+     "Se",
+     "a ST"
+    ]
+   ],
+   "section_id": "doc_011_sec_159"
+  },
+  {
+   "block_id": "doc_011_p050_b011",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    319,
+    2777,
+    1865,
+    2865
+   ],
+   "ocr_confidence": 18.9,
+   "flags": [
+    "low_confidence_words:4",
+    "in_graphic_region"
+   ],
+   "text": "Exception Days |. J",
+   "section_id": "doc_011_sec_159"
+  },
+  {
+   "block_id": "doc_011_p050_b012",
+   "type": "table",
+   "page_number": 50,
+   "bbox": [
+    143,
+    2842,
+    1865,
+    2919
+   ],
+   "ocr_confidence": 54.8,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    143,
+    603
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Winter [Weekdays",
+     "[J"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Winter [Weekdays",
+     "[J"
+    ]
+   ],
+   "section_id": "doc_011_sec_159"
+  },
+  {
+   "block_id": "doc_011_p050_b013",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    124,
+    2972,
+    677,
+    3007
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "Example for Time-of-Use Interface",
+   "section_id": "doc_011_sec_159"
+  },
+  {
+   "block_id": "doc_011_p050_b014",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    127,
+    3116,
+    544,
+    3173
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Interval Length",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_160"
+  },
+  {
+   "block_id": "doc_011_p050_b015",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    122,
+    3248,
+    2446,
+    3286
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "To ensure that the profile values in the MDUS system can be aggregated for the MDUS request, the interval length of the time-of-",
+   "section_id": "doc_011_sec_160"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.0932,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 87,
+   "page_hash": "ac8f6960971c8a04a142ab5bcba7b8709098f03e450f190ad8726a58c705adbd"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Time-of-Use Formulas in SAP and MDUS Systems"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_154",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_155",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_156",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_157",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_158",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_159",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_160",
+   "role": "starts_here"
+  }
+ ]
+}

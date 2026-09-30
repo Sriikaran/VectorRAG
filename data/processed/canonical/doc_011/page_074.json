@@ -1,0 +1,361 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 74,
+ "source_page_hash": "e5427490d321ffd1d8626d340fd04aa9da70ec155879bde036a46d50926aaa2b",
+ "is_cover_page": false,
+ "title": "Process Flow",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nlost, this type of session is not provided for data deletion. Therefore, snapshots always create redundant copies of data\nfrom the database. The snapshot function is mainly intended for use in conjunction with the ILM Retention Warehouse\ncomponent when decommissioning older systems.\n\ne Data Destruction\n\nThis action destroys data from the database in an archiving write session and then in a subsequent delete run. This creates\ntemporary archive files which the system deletes automatically with the file-related administration data at the end of the\ndeletion phase. A run is classified as a destruction run in technical terms by the DESTROY parameter. If an archiving object\nhas not been registered in the Information Retention Manager (IRM), the system ignores the DESTROY parameter and\n\nexecutes a standard archiving session.\n3. Deletion of TOU Exceptions from the Database (Report REAARCH_DEL_EXRESP)\nProcess Flow\n\nThe deletion report reads TOU exceptions that were previously archived in an archiving run from the archive and deletes the\ncorresponding entries in the database tables.\n\nIf you start the report in the test mode, the system determines the number of data records to be deleted for TOU exceptions that\nwere read from the archive.\n\n4. Optional Reloading of Archived and Deleted Data (Report REAARCH_REL_EXCEPT)\n\nProcess Flow\n\nThe REAARCH_REL_EXCEPT report reloads TOU exceptions that have been archived and already deleted, and reverses all\nchanges made to the database by the deletion program.\n\ni Note\n\nYou can only use the reload program to reload complete archiving runs. It is not possible to reload individual TOU exceptions.\nThis procedure should not normally be used and should be limited to extreme problem cases (for example, incorrect retention\nperiod in Customizing).\n\nWhen you start the report, you can make various settings on the initial screen:\n\ne Log Type: General statistical data or detail log with detailed data for each analyzed data record (note that making this\nsetting can become confusing if large amounts of data are involved).\n\ne Test Run: If you start the report as a test run, no changes are made to the database.\n5. Optional Reading of TOU Exceptions from the Archive and Output in a List (Report REAARCH_READ_ARCHIVE_EXCEPT)\n\nProcess Flow\n\nYou use report REAARCH_ READ ARCHIVE EXCEPT after running the archiving report REAARCH_ARCH_EXCEPT to gain read-\nonly access to an archive and to display data for TOU exceptions in a list.\n\nYou do not have run the deletion program first.\n",
+ "cleaned_text": "lost, this type of session is not provided for data deletion. Therefore, snapshots always create redundant copies of data from the database. The snapshot function is mainly intended for use in conjunction with the ILM Retention Warehouse component when decommissioning older systems.\n\n- Data Destruction This action destroys data from the database in an archiving write session and then in a subsequent delete run. This creates temporary archive files which the system deletes automatically with the file-related administration data at the end of the deletion phase. A run is classified as a destruction run in technical terms by the DESTROY parameter. If an archiving object has not been registered in the Information Retention Manager (IRM), the system ignores the DESTROY parameter and\n\nexecutes a standard archiving session.\n\n3 Deletion of TOU Exceptions from the Database (Report REAARCH_DEL_EXRESP)\n\nProcess Flow\n\nThe deletion report reads TOU exceptions that were previously archived in an archiving run from the archive and deletes the corresponding entries in the database tables. If you start the report in the test mode, the system determines the number of data records to be deleted for TOU exceptions that were read from the archive.\n\n4 Optional Reloading of Archived and Deleted Data (Report REAARCH_REL_EXCEPT)\n\nProcess Flow\n\nThe REAARCH_REL_EXCEPT report reloads TOU exceptions that have been archived and already deleted, and reverses all changes made to the database by the deletion program. i Note You can only use the reload program to reload complete archiving runs. It is not possible to reload individual TOU exceptions. This procedure should not normally be used and should be limited to extreme problem cases (for example, incorrect retention period in Customizing).\n\nWhen you start the report, you can make various settings on the initial screen:\n\n- Log Type: General statistical data or detail log with detailed data for each analyzed data record (note that making this setting can become confusing if large amounts of data are involved).\n\n- Test Run: If you start the report as a test run, no changes are made to the database.\n\n5 Optional Reading of TOU Exceptions from the Archive and Output in a List (Report REAARCH_READ_ARCHIVE_EXCEPT)\n\nProcess Flow\n\nYou use report REAARCH_ READ ARCHIVE EXCEPT after running the archiving report REAARCH_ARCH_EXCEPT to gain read-only access to an archive and to display data for TOU exceptions in a list. You do not have run the deletion program first.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p074_b000",
+   "type": "paragraph",
+   "page_number": 74,
+   "bbox": [
+    254,
+    135,
+    2403,
+    297
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "lost, this type of session is not provided for data deletion. Therefore, snapshots always create redundant copies of data from the database. The snapshot function is mainly intended for use in conjunction with the ILM Retention Warehouse component when decommissioning older systems.",
+   "section_id": "doc_011_sec_246"
+  },
+  {
+   "block_id": "doc_011_p074_b001",
+   "type": "list",
+   "page_number": 74,
+   "bbox": [
+    207,
+    365,
+    2474,
+    691
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Data Destruction This action destroys data from the database in an archiving write session and then in a subsequent delete run. This creates temporary archive files which the system deletes automatically with the file-related administration data at the end of the deletion phase. A run is classified as a destruction run in technical terms by the DESTROY parameter. If an archiving object has not been registered in the Information Retention Manager (IRM), the system ignores the DESTROY parameter and"
+    }
+   ],
+   "section_id": "doc_011_sec_246"
+  },
+  {
+   "block_id": "doc_011_p074_b002",
+   "type": "paragraph",
+   "page_number": 74,
+   "bbox": [
+    255,
+    720,
+    949,
+    757
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "executes a standard archiving session.",
+   "section_id": "doc_011_sec_246"
+  },
+  {
+   "block_id": "doc_011_p074_b003",
+   "type": "list",
+   "page_number": 74,
+   "bbox": [
+    122,
+    841,
+    1674,
+    878
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Deletion of TOU Exceptions from the Database (Report REAARCH_DEL_EXRESP)"
+    }
+   ],
+   "section_id": "doc_011_sec_246"
+  },
+  {
+   "block_id": "doc_011_p074_b004",
+   "type": "heading",
+   "page_number": 74,
+   "bbox": [
+    124,
+    962,
+    366,
+    993
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Process Flow",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_247"
+  },
+  {
+   "block_id": "doc_011_p074_b005",
+   "type": "paragraph",
+   "page_number": 74,
+   "bbox": [
+    122,
+    1084,
+    2443,
+    1364
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The deletion report reads TOU exceptions that were previously archived in an archiving run from the archive and deletes the corresponding entries in the database tables. If you start the report in the test mode, the system determines the number of data records to be deleted for TOU exceptions that were read from the archive.",
+   "section_id": "doc_011_sec_247"
+  },
+  {
+   "block_id": "doc_011_p074_b006",
+   "type": "list",
+   "page_number": 74,
+   "bbox": [
+    122,
+    1455,
+    1715,
+    1493
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Optional Reloading of Archived and Deleted Data (Report REAARCH_REL_EXCEPT)"
+    }
+   ],
+   "section_id": "doc_011_sec_247"
+  },
+  {
+   "block_id": "doc_011_p074_b007",
+   "type": "heading",
+   "page_number": 74,
+   "bbox": [
+    124,
+    1577,
+    366,
+    1607
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Process Flow",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_248"
+  },
+  {
+   "block_id": "doc_011_p074_b008",
+   "type": "paragraph",
+   "page_number": 74,
+   "bbox": [
+    122,
+    1700,
+    2427,
+    2150
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The REAARCH_REL_EXCEPT report reloads TOU exceptions that have been archived and already deleted, and reverses all changes made to the database by the deletion program. i Note You can only use the reload program to reload complete archiving runs. It is not possible to reload individual TOU exceptions. This procedure should not normally be used and should be limited to extreme problem cases (for example, incorrect retention period in Customizing).",
+   "section_id": "doc_011_sec_248"
+  },
+  {
+   "block_id": "doc_011_p074_b009",
+   "type": "paragraph",
+   "page_number": 74,
+   "bbox": [
+    123,
+    2270,
+    1530,
+    2308
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "When you start the report, you can make various settings on the initial screen:",
+   "section_id": "doc_011_sec_248"
+  },
+  {
+   "block_id": "doc_011_p074_b010",
+   "type": "list",
+   "page_number": 74,
+   "bbox": [
+    123,
+    2391,
+    2406,
+    2718
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Log Type: General statistical data or detail log with detailed data for each analyzed data record (note that making this setting can become confusing if large amounts of data are involved)."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Test Run: If you start the report as a test run, no changes are made to the database."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Optional Reading of TOU Exceptions from the Archive and Output in a List (Report REAARCH_READ_ARCHIVE_EXCEPT)"
+    }
+   ],
+   "section_id": "doc_011_sec_248"
+  },
+  {
+   "block_id": "doc_011_p074_b011",
+   "type": "heading",
+   "page_number": 74,
+   "bbox": [
+    124,
+    2802,
+    366,
+    2832
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Process Flow",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_249"
+  },
+  {
+   "block_id": "doc_011_p074_b012",
+   "type": "paragraph",
+   "page_number": 74,
+   "bbox": [
+    123,
+    2921,
+    2421,
+    3152
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You use report REAARCH_ READ ARCHIVE EXCEPT after running the archiving report REAARCH_ARCH_EXCEPT to gain read-only access to an archive and to display data for TOU exceptions in a list. You do not have run the deletion program first.",
+   "section_id": "doc_011_sec_249"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.0911,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "e5427490d321ffd1d8626d340fd04aa9da70ec155879bde036a46d50926aaa2b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Archiving of Time-of-Use Exceptions",
+  "Features",
+  "Process Flow"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_246",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_247",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_248",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_249",
+   "role": "starts_here"
+  }
+ ]
+}

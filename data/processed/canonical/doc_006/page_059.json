@@ -1,0 +1,559 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 59,
+ "source_page_hash": "374661d601f6a999189906e19f81301389538fba18e7afb0bb06c7656f558f0d",
+ "is_cover_page": false,
+ "title": "Actual",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nDate          1.1.            2.1.            Bus            4.1.\nMR result                0                         50                        100                        40\nActual\n: Eohniated         (a)                     (\u20ac)                      (e)                      (a)\nV1 = 40 (0 40)\n\nV2 =100 (0 100)\nV2 >V1 => Assessing required\n\nFunction module ISU EVENT ASSESSING checks whether assessing is required. Once the workflow has been triggered, the\ncorresponding billing documents are reversed and the relevant meter reading results are reestimated in function module\n\nISU ACTION ASSESSING.\n\nYou can use enhancement EDMASSES to implement customer-specific checks for the determination of assessing cases.\n\nee Example\n\nExample 1 - Assessing: Estimated Meter Reading Leads to Overflow\n\nDate          1.1.            2.1.            Bus\n\nMR result              995                         50                         998\n\n(a) Actual\n\n(e) Estimated           (a)                         (e)                          (a)\nV2 (55) > V1(3)\n\n=> Assessing required\n",
+ "cleaned_text": "Date | 1.1. | 2.1. | Bus | 4.1.\n\nMR result | 0 | 50 | 100 | 40\n\nActual\n\n: Eohniated | (a) | (\u20ac) | (e) | (a)\n\nV1 = 40 (0 40)\n\nV2 =100 (0 100)\n\nV2 >V1 => Assessing required\n\nFunction module ISU EVENT ASSESSING checks whether assessing is required. Once the workflow has been triggered, the corresponding billing documents are reversed and the relevant meter reading results are reestimated in function module ISU ACTION ASSESSING.\n\nYou can use enhancement EDMASSES to implement customer-specific checks for the determination of assessing cases.\n\nee Example\n\nExample 1 - Assessing: Estimated Meter Reading Leads to Overflow\n\nDate | 1.1. | 2.1. | Bus\n\nMR result | 995 | 50 | 998\n\n(a) Actual\n\n(e) Estimated | (a) | (e) | (a)\n\nV2 (55) > V1(3)\n\n=> Assessing required",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p059_b000",
+   "type": "table",
+   "page_number": 59,
+   "bbox": [
+    258,
+    363,
+    2183,
+    425
+   ],
+   "ocr_confidence": 84.9,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continues_from_previous_page:p58",
+    "continues_from_previous_page:p58"
+   ],
+   "columns": 5,
+   "column_starts": [
+    258,
+    680,
+    1149,
+    1622,
+    2096
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Date",
+     "1.1.",
+     "2.1.",
+     "Bus",
+     "4.1."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Date",
+     "1.1.",
+     "2.1.",
+     "Bus",
+     "4.1."
+    ]
+   ],
+   "section_id": "doc_006_sec_123"
+  },
+  {
+   "block_id": "doc_006_p059_b001",
+   "type": "table",
+   "page_number": 59,
+   "bbox": [
+    256,
+    598,
+    2173,
+    644
+   ],
+   "ocr_confidence": 91.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    256,
+    714,
+    1169,
+    1629,
+    2115
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR result",
+     "0",
+     "50",
+     "100",
+     "40"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR result",
+     "0",
+     "50",
+     "100",
+     "40"
+    ]
+   ],
+   "section_id": "doc_006_sec_123"
+  },
+  {
+   "block_id": "doc_006_p059_b002",
+   "type": "heading",
+   "page_number": 59,
+   "bbox": [
+    319,
+    704,
+    441,
+    738
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Actual",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_124"
+  },
+  {
+   "block_id": "doc_006_p059_b003",
+   "type": "table",
+   "page_number": 59,
+   "bbox": [
+    256,
+    704,
+    2180,
+    803
+   ],
+   "ocr_confidence": 46.3,
+   "flags": [
+    "low_confidence_words:4",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    256,
+    694,
+    1166,
+    1641,
+    2115
+   ],
+   "headers": null,
+   "rows": [
+    [
+     ": Eohniated",
+     "(a)",
+     "(\u20ac)",
+     "(e)",
+     "(a)"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     ": Eohniated",
+     "(a)",
+     "(\u20ac)",
+     "(e)",
+     "(a)"
+    ]
+   ],
+   "section_id": "doc_006_sec_124"
+  },
+  {
+   "block_id": "doc_006_p059_b004",
+   "type": "heading",
+   "page_number": 59,
+   "bbox": [
+    152,
+    1104,
+    412,
+    1141
+   ],
+   "ocr_confidence": 76.7,
+   "flags": [
+    "low_confidence_words:2",
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "V1 = 40 (0 40)",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_124"
+  },
+  {
+   "block_id": "doc_006_p059_b005",
+   "type": "paragraph",
+   "page_number": 59,
+   "bbox": [
+    152,
+    1225,
+    456,
+    1263
+   ],
+   "ocr_confidence": 65.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "V2 =100 (0 100)",
+   "section_id": "doc_006_sec_124"
+  },
+  {
+   "block_id": "doc_006_p059_b006",
+   "type": "heading",
+   "page_number": 59,
+   "bbox": [
+    152,
+    1346,
+    697,
+    1384
+   ],
+   "ocr_confidence": 90.0,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "V2 >V1 => Assessing required",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_124"
+  },
+  {
+   "block_id": "doc_006_p059_b007",
+   "type": "paragraph",
+   "page_number": 59,
+   "bbox": [
+    152,
+    1466,
+    2418,
+    1648
+   ],
+   "ocr_confidence": 88.9,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "Function module ISU EVENT ASSESSING checks whether assessing is required. Once the workflow has been triggered, the corresponding billing documents are reversed and the relevant meter reading results are reestimated in function module ISU ACTION ASSESSING.",
+   "section_id": "doc_006_sec_124"
+  },
+  {
+   "block_id": "doc_006_p059_b008",
+   "type": "paragraph",
+   "page_number": 59,
+   "bbox": [
+    152,
+    1726,
+    2321,
+    1765
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "You can use enhancement EDMASSES to implement customer-specific checks for the determination of assessing cases.",
+   "section_id": "doc_006_sec_124"
+  },
+  {
+   "block_id": "doc_006_p059_b009",
+   "type": "paragraph",
+   "page_number": 59,
+   "bbox": [
+    151,
+    1897,
+    432,
+    1951
+   ],
+   "ocr_confidence": 73.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "ee Example",
+   "section_id": "doc_006_sec_124"
+  },
+  {
+   "block_id": "doc_006_p059_b010",
+   "type": "heading",
+   "page_number": 59,
+   "bbox": [
+    154,
+    1984,
+    1400,
+    2022
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Example 1 - Assessing: Estimated Meter Reading Leads to Overflow",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_125"
+  },
+  {
+   "block_id": "doc_006_p059_b011",
+   "type": "table",
+   "page_number": 59,
+   "bbox": [
+    258,
+    2334,
+    1708,
+    2396
+   ],
+   "ocr_confidence": 82.8,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    258,
+    680,
+    1149,
+    1622
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Date",
+     "1.1.",
+     "2.1.",
+     "Bus"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Date",
+     "1.1.",
+     "2.1.",
+     "Bus"
+    ]
+   ],
+   "section_id": "doc_006_sec_125"
+  },
+  {
+   "block_id": "doc_006_p059_b012",
+   "type": "table",
+   "page_number": 59,
+   "bbox": [
+    256,
+    2569,
+    1713,
+    2615
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    256,
+    675,
+    1169,
+    1624
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR result",
+     "995",
+     "50",
+     "998"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR result",
+     "995",
+     "50",
+     "998"
+    ]
+   ],
+   "section_id": "doc_006_sec_125"
+  },
+  {
+   "block_id": "doc_006_p059_b013",
+   "type": "paragraph",
+   "page_number": 59,
+   "bbox": [
+    256,
+    2675,
+    441,
+    2719
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "(a) Actual",
+   "section_id": "doc_006_sec_125"
+  },
+  {
+   "block_id": "doc_006_p059_b014",
+   "type": "table",
+   "page_number": 59,
+   "bbox": [
+    256,
+    2702,
+    1706,
+    2774
+   ],
+   "ocr_confidence": 85.4,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continued_on_next_page:p60",
+    "continued_on_next_page:p60"
+   ],
+   "columns": 4,
+   "column_starts": [
+    256,
+    694,
+    1166,
+    1641
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "(e) Estimated",
+     "(a)",
+     "(e)",
+     "(a)"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "(e) Estimated",
+     "(a)",
+     "(e)",
+     "(a)"
+    ]
+   ],
+   "section_id": "doc_006_sec_125"
+  },
+  {
+   "block_id": "doc_006_p059_b015",
+   "type": "heading",
+   "page_number": 59,
+   "bbox": [
+    152,
+    3075,
+    435,
+    3112
+   ],
+   "ocr_confidence": 86.7,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "V2 (55) > V1(3)",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_125"
+  },
+  {
+   "block_id": "doc_006_p059_b016",
+   "type": "paragraph",
+   "page_number": 59,
+   "bbox": [
+    153,
+    3197,
+    552,
+    3234
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "=> Assessing required",
+   "section_id": "doc_006_sec_125"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 45,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 86,
+   "page_hash": "374661d601f6a999189906e19f81301389538fba18e7afb0bb06c7656f558f0d"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Assessing",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_123",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_124",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_125",
+   "role": "starts_here"
+  }
+ ]
+}

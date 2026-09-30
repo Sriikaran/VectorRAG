@@ -1,0 +1,422 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 94,
+ "source_page_hash": "29efdf49b0d786ebc77a9f506df0fa01fc61b88be4d5fab9bd97f8218c30e421",
+ "is_cover_page": false,
+ "title": "Customizing",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\ne Billing-Related Installation (EG34)\n\ne Full Installation (EG31)\ne Full Replacement (EG30)\n\ne Billing-Related Removal (EG35)\ne Full Removal (EG32)\ne Device Modification (EG42)\n\ne Change Logical Register Number (EG60)\n\nYou can display the quantity determination procedure using the transactions Change Rate Data (EG70) and Display Rate Data\n(EG71).\n\nCustomizing\n\nYou define the quantity determination procedure required in Customizing.\n\nYou make the relevant settings in Customizing for SAP Utilities under |'Basic Settings/Enterprise Structure \u00bb Define Quantity\nDetermination Procedure }. You also define the division and date from which the procedure is to apply.\n\nExample Customizing\n\nThe following Customizing setting specifies that consumption values as of January 15, 2011 for division O1 (Electricity) are\ndetermined during billing, and for division 02 (Gas) are determined during meter reading.\n\nDivision                                                    Date                                                     Quantity Determination Procedure\n\nOl                                                            January 15, 2011                                       02 (Quantity Determination During Billing)\n\n02                                                             January 15, 2011                                        03 (Quantity Determination During Meter\nReading)\n\nConversion of Quantity Determination Indicator for Existing Installations\n\nChanges to the Customizing settings do not have an immediate effect on existing installations. To define the quantity\ndetermination procedure selected for existing installations at register level according to the Customizing settings, you have\n\nexecuted the conversion report.\n\nTechnical Transactions\n\nIf you use technical transactions, the system defines or changes the quantity determination procedure as follows at register level:\n\n1. For a technical installation:\nThe quantity determination procedure is not defined or changed in this case.\n\n2. For a full installation:\n",
+ "cleaned_text": "- Billing-Related Installation (EG34)\n\n- Full Installation (EG31)\n\n- Full Replacement (EG30)\n\n- Billing-Related Removal (EG35)\n\n- Full Removal (EG32)\n\n- Device Modification (EG42)\n\n- Change Logical Register Number (EG60)\n\nYou can display the quantity determination procedure using the transactions Change Rate Data (EG70) and Display Rate Data (EG71).\n\nCustomizing\n\nYou define the quantity determination procedure required in Customizing. You make the relevant settings in Customizing for SAP Utilities under |'Basic Settings/Enterprise Structure \u00bb Define Quantity Determination Procedure }. You also define the division and date from which the procedure is to apply.\n\nExample Customizing\n\nThe following Customizing setting specifies that consumption values as of January 15, 2011 for division O1 (Electricity) are determined during billing, and for division 02 (Gas) are determined during meter reading.\n\nDivision | Date | Quantity Determination Procedure\n\nOl | January 15, 2011 | 02 (Quantity Determination During Billing)\n\n02 | January 15, 2011 | 03 (Quantity Determination During Meter\n\nReading)\n\nConversion of Quantity Determination Indicator for Existing Installations\n\nChanges to the Customizing settings do not have an immediate effect on existing installations. To define the quantity determination procedure selected for existing installations at register level according to the Customizing settings, you have executed the conversion report.\n\nTechnical Transactions\n\nIf you use technical transactions, the system defines or changes the quantity determination procedure as follows at register level:\n\n1 For a technical installation: The quantity determination procedure is not defined or changed in this case.\n\n2 For a full installation:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p094_b000",
+   "type": "list",
+   "page_number": 94,
+   "bbox": [
+    207,
+    136,
+    1008,
+    810
+   ],
+   "ocr_confidence": 91.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Billing-Related Installation (EG34)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Full Installation (EG31)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Full Replacement (EG30)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Billing-Related Removal (EG35)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Full Removal (EG32)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Device Modification (EG42)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change Logical Register Number (EG60)"
+    }
+   ],
+   "section_id": "doc_006_sec_255"
+  },
+  {
+   "block_id": "doc_006_p094_b001",
+   "type": "paragraph",
+   "page_number": 94,
+   "bbox": [
+    123,
+    895,
+    2420,
+    1003
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "You can display the quantity determination procedure using the transactions Change Rate Data (EG70) and Display Rate Data (EG71).",
+   "section_id": "doc_006_sec_255"
+  },
+  {
+   "block_id": "doc_006_p094_b002",
+   "type": "heading",
+   "page_number": 94,
+   "bbox": [
+    124,
+    1115,
+    476,
+    1172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Customizing",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_256"
+  },
+  {
+   "block_id": "doc_006_p094_b003",
+   "type": "paragraph",
+   "page_number": 94,
+   "bbox": [
+    123,
+    1245,
+    2438,
+    1475
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You define the quantity determination procedure required in Customizing. You make the relevant settings in Customizing for SAP Utilities under |'Basic Settings/Enterprise Structure \u00bb Define Quantity Determination Procedure }. You also define the division and date from which the procedure is to apply.",
+   "section_id": "doc_006_sec_256"
+  },
+  {
+   "block_id": "doc_006_p094_b004",
+   "type": "heading",
+   "page_number": 94,
+   "bbox": [
+    126,
+    1582,
+    731,
+    1639
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Example Customizing",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_257"
+  },
+  {
+   "block_id": "doc_006_p094_b005",
+   "type": "paragraph",
+   "page_number": 94,
+   "bbox": [
+    122,
+    1714,
+    2324,
+    1815
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "The following Customizing setting specifies that consumption values as of January 15, 2011 for division O1 (Electricity) are determined during billing, and for division 02 (Gas) are determined during meter reading.",
+   "section_id": "doc_006_sec_257"
+  },
+  {
+   "block_id": "doc_006_p094_b006",
+   "type": "table",
+   "page_number": 94,
+   "bbox": [
+    148,
+    1923,
+    2441,
+    2169
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    148,
+    957,
+    1728
+   ],
+   "headers": [
+    "Division",
+    "Date",
+    "Quantity Determination Procedure"
+   ],
+   "rows": [
+    [
+     "Ol",
+     "January 15, 2011",
+     "02 (Quantity Determination During Billing)"
+    ],
+    [
+     "02",
+     "January 15, 2011",
+     "03 (Quantity Determination During Meter"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Division",
+     "Date",
+     "Quantity Determination Procedure"
+    ],
+    [
+     "Ol",
+     "January 15, 2011",
+     "02 (Quantity Determination During Billing)"
+    ],
+    [
+     "02",
+     "January 15, 2011",
+     "03 (Quantity Determination During Meter"
+    ]
+   ],
+   "section_id": "doc_006_sec_257"
+  },
+  {
+   "block_id": "doc_006_p094_b007",
+   "type": "paragraph",
+   "page_number": 94,
+   "bbox": [
+    1730,
+    2193,
+    1876,
+    2228
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Reading)",
+   "section_id": "doc_006_sec_257"
+  },
+  {
+   "block_id": "doc_006_p094_b008",
+   "type": "heading",
+   "page_number": 94,
+   "bbox": [
+    124,
+    2363,
+    2158,
+    2421
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Conversion of Quantity Determination Indicator for Existing Installations",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_258"
+  },
+  {
+   "block_id": "doc_006_p094_b009",
+   "type": "paragraph",
+   "page_number": 94,
+   "bbox": [
+    123,
+    2496,
+    2349,
+    2662
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Changes to the Customizing settings do not have an immediate effect on existing installations. To define the quantity determination procedure selected for existing installations at register level according to the Customizing settings, you have executed the conversion report.",
+   "section_id": "doc_006_sec_258"
+  },
+  {
+   "block_id": "doc_006_p094_b010",
+   "type": "heading",
+   "page_number": 94,
+   "bbox": [
+    123,
+    2775,
+    757,
+    2820
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Technical Transactions",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_259"
+  },
+  {
+   "block_id": "doc_006_p094_b011",
+   "type": "paragraph",
+   "page_number": 94,
+   "bbox": [
+    125,
+    2904,
+    2459,
+    2942
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "If you use technical transactions, the system defines or changes the quantity determination procedure as follows at register level:",
+   "section_id": "doc_006_sec_259"
+  },
+  {
+   "block_id": "doc_006_p094_b012",
+   "type": "list",
+   "page_number": 94,
+   "bbox": [
+    211,
+    3029,
+    1639,
+    3263
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "For a technical installation: The quantity determination procedure is not defined or changed in this case."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "For a full installation:"
+    }
+   ],
+   "section_id": "doc_006_sec_259"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "29efdf49b0d786ebc77a9f506df0fa01fc61b88be4d5fab9bd97f8218c30e421"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Defining the Quantity Determination Procedure",
+  "Use",
+  "Implementation phase (as part of an implementation project):"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_255",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_256",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_257",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_258",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_259",
+   "role": "starts_here"
+  }
+ ]
+}

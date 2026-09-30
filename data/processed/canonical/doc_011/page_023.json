@@ -1,0 +1,336 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 23,
+ "source_page_hash": "1f5cd673794517dab5a262ee173edd62110cae6a744e7a4ec2a952676913d176",
+ "is_cover_page": false,
+ "title": "Execution of the RTP Interface",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nMeas.\nInput\nProfile\nkW/kWh\n\nProfile\nOn-peak\n\nCans:                 On-Peak\n\nOn-Peak\n\nResult -\nParameter\n\nHT-Verbr.\nkivh = 500\n\nExecution of the RTP Interface\n\nOutput\nParameter 1\n\nOutput\nParameter 2\n\nResult\nParameter\n\nOff-P. Cons.\nkWh = 275\n\nResult\nParameter\n2\n\nOn-P. Cons.\nkiWh = 500\n\nIS-U-BI\n\nRate Facts\n\nExecution of the RTP Interface\n\n",
+ "cleaned_text": "Meas. Input Profile kW/kWh\n\nProfile On-peak\n\nCans: | On-Peak\n\nOn-Peak Result - Parameter\n\nHT-Verbr. kivh = 500\n\nExecution of the RTP Interface\n\nOutput Parameter 1\n\nOutput Parameter 2 Result Parameter\n\nOff-P. Cons. kWh = 275\n\nResult Parameter 2\n\nOn-P. Cons. kiWh = 500 IS-U-BI Rate Facts\n\nExecution of the RTP Interface",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p023_b000",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    163,
+    422,
+    338,
+    585
+   ],
+   "ocr_confidence": 80.0,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "Meas. Input Profile kW/kWh",
+   "section_id": "doc_011_sec_065"
+  },
+  {
+   "block_id": "doc_011_p023_b001",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    148,
+    1440,
+    336,
+    1544
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Profile On-peak",
+   "section_id": "doc_011_sec_065"
+  },
+  {
+   "block_id": "doc_011_p023_b002",
+   "type": "table",
+   "page_number": 23,
+   "bbox": [
+    148,
+    1552,
+    761,
+    1628
+   ],
+   "ocr_confidence": 84.9,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    571
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Cans:",
+     "On-Peak"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Cans:",
+     "On-Peak"
+    ]
+   ],
+   "section_id": "doc_011_sec_065"
+  },
+  {
+   "block_id": "doc_011_p023_b003",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    1191,
+    1324,
+    2455,
+    1618
+   ],
+   "ocr_confidence": 88.8,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "On-Peak Result - Parameter",
+   "section_id": "doc_011_sec_065"
+  },
+  {
+   "block_id": "doc_011_p023_b004",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    2223,
+    1553,
+    2448,
+    1642
+   ],
+   "ocr_confidence": 70.0,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region"
+   ],
+   "text": "HT-Verbr. kivh = 500",
+   "section_id": "doc_011_sec_065"
+  },
+  {
+   "block_id": "doc_011_p023_b005",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    124,
+    1908,
+    617,
+    1935
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Execution of the RTP Interface",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_066"
+  },
+  {
+   "block_id": "doc_011_p023_b006",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    264,
+    2069,
+    593,
+    2203
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Output Parameter 1",
+   "section_id": "doc_011_sec_066"
+  },
+  {
+   "block_id": "doc_011_p023_b007",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    264,
+    2079,
+    1756,
+    2798
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Output Parameter 2 Result Parameter",
+   "section_id": "doc_011_sec_066"
+  },
+  {
+   "block_id": "doc_011_p023_b008",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    1480,
+    2344,
+    1744,
+    2437
+   ],
+   "ocr_confidence": 79.8,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "Off-P. Cons. kWh = 275",
+   "section_id": "doc_011_sec_066"
+  },
+  {
+   "block_id": "doc_011_p023_b009",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    1524,
+    2687,
+    1756,
+    2830
+   ],
+   "ocr_confidence": 83.2,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "Result Parameter 2",
+   "section_id": "doc_011_sec_066"
+  },
+  {
+   "block_id": "doc_011_p023_b010",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    1480,
+    2541,
+    2401,
+    3045
+   ],
+   "ocr_confidence": 82.8,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "On-P. Cons. kiWh = 500 IS-U-BI Rate Facts",
+   "section_id": "doc_011_sec_066"
+  },
+  {
+   "block_id": "doc_011_p023_b011",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    124,
+    3242,
+    617,
+    3270
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Execution of the RTP Interface",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_067"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 55.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 88,
+   "page_hash": "1f5cd673794517dab5a262ee173edd62110cae6a744e7a4ec2a952676913d176"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "RTP Interface",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_065",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_066",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_067",
+   "role": "starts_here"
+  }
+ ]
+}

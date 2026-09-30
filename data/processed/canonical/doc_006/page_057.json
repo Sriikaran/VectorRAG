@@ -1,0 +1,495 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 57,
+ "source_page_hash": "651f120d613be81ceb2d30bbcfae1b75b950a209abbed84a6b097fefd1d579d0",
+ "is_cover_page": false,
+ "title": "Assessing",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\ne Time of day of maximum meter reading\n\ne Relevance to billing/extrapolation\n\nIf a meter reading result fails the validation, you can process it using the following functions:\n\ne Correct errors\n\nYou branch to the correction screen. The correction screen contains detailed information such as the expected reading, actual\n\nconsumption, and expected consumption. If the meter reading is released, the remaining validations are carried out.\n\ne Release w/o correction\n\nThe meter reading becomes plausible. No further validations are carried out.\ne Estimate\n\nMeter reading results can be selected for estimation.\n\nAssessing\n\nUse\n\nIn SAP IS-U, assessing refers to the automatic handling of meter overflows due to over-estimated previous meter readings.\n\nThese assessing cases do not deal with actual meter overflows but with over-estimated previous meter readings. When an\n\nassessing case arises, a result is released during meter reading entry that triggers workflow template ISU _ASSESS1. This\n\nworkflow reverses Billing and reestimates the meter reading based on the actual meter reading result.\n\nThe graphic below shows a typical assessing case:\n\nDate          i    1.15.    2h:            cme            re\n\nMR result               0           30          50                       100                       40\nActual\n\nestimated @ \u00a9) \u20ac&)                      (e)                      (a)\n\nThe system determines a meter overflow as the (estimated) meter reading result from 3.1. is higher that the (actual) meter reading\n\nresult from 4.1.\n",
+ "cleaned_text": "- Time of day of maximum meter reading\n\n- Relevance to billing/extrapolation\n\nIf a meter reading result fails the validation, you can process it using the following functions:\n\n- Correct errors\n\nYou branch to the correction screen. The correction screen contains detailed information such as the expected reading, actual consumption, and expected consumption. If the meter reading is released, the remaining validations are carried out.\n\n- Release w/o correction\n\nThe meter reading becomes plausible. No further validations are carried out.\n\n- Estimate\n\nMeter reading results can be selected for estimation.\n\nAssessing\n\nUse\n\nIn SAP IS-U, assessing refers to the automatic handling of meter overflows due to over-estimated previous meter readings. These assessing cases do not deal with actual meter overflows but with over-estimated previous meter readings. When an assessing case arises, a result is released during meter reading entry that triggers workflow template ISU _ASSESS1. This workflow reverses Billing and reestimates the meter reading based on the actual meter reading result. The graphic below shows a typical assessing case:\n\nDate | i | 1.15. | 2h: | cme | re\n\nMR result | 0 | 30 | 50 | 100 | 40\n\nActual\n\nestimated | @ | \u00a9) | \u20ac&) | (e) | (a)\n\nThe system determines a meter overflow as the (estimated) meter reading result from 3.1. is higher that the (actual) meter reading result from 4.1.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p057_b000",
+   "type": "list",
+   "page_number": 57,
+   "bbox": [
+    207,
+    135,
+    969,
+    274
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Time of day of maximum meter reading"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Relevance to billing/extrapolation"
+    }
+   ],
+   "section_id": "doc_006_sec_117"
+  },
+  {
+   "block_id": "doc_006_p057_b001",
+   "type": "paragraph",
+   "page_number": 57,
+   "bbox": [
+    125,
+    358,
+    1781,
+    395
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "If a meter reading result fails the validation, you can process it using the following functions:",
+   "section_id": "doc_006_sec_117"
+  },
+  {
+   "block_id": "doc_006_p057_b002",
+   "type": "list",
+   "page_number": 57,
+   "bbox": [
+    207,
+    482,
+    510,
+    513
+   ],
+   "ocr_confidence": 88.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Correct errors"
+    }
+   ],
+   "section_id": "doc_006_sec_117"
+  },
+  {
+   "block_id": "doc_006_p057_b003",
+   "type": "paragraph",
+   "page_number": 57,
+   "bbox": [
+    123,
+    604,
+    2399,
+    704
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You branch to the correction screen. The correction screen contains detailed information such as the expected reading, actual consumption, and expected consumption. If the meter reading is released, the remaining validations are carried out.",
+   "section_id": "doc_006_sec_117"
+  },
+  {
+   "block_id": "doc_006_p057_b004",
+   "type": "list",
+   "page_number": 57,
+   "bbox": [
+    207,
+    788,
+    668,
+    818
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Release w/o correction"
+    }
+   ],
+   "section_id": "doc_006_sec_117"
+  },
+  {
+   "block_id": "doc_006_p057_b005",
+   "type": "paragraph",
+   "page_number": 57,
+   "bbox": [
+    122,
+    910,
+    1505,
+    948
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The meter reading becomes plausible. No further validations are carried out.",
+   "section_id": "doc_006_sec_117"
+  },
+  {
+   "block_id": "doc_006_p057_b006",
+   "type": "list",
+   "page_number": 57,
+   "bbox": [
+    207,
+    1035,
+    413,
+    1065
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Estimate"
+    }
+   ],
+   "section_id": "doc_006_sec_117"
+  },
+  {
+   "block_id": "doc_006_p057_b007",
+   "type": "paragraph",
+   "page_number": 57,
+   "bbox": [
+    125,
+    1156,
+    1075,
+    1194
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Meter reading results can be selected for estimation.",
+   "section_id": "doc_006_sec_117"
+  },
+  {
+   "block_id": "doc_006_p057_b008",
+   "type": "heading",
+   "page_number": 57,
+   "bbox": [
+    124,
+    1340,
+    486,
+    1416
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Assessing",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_118"
+  },
+  {
+   "block_id": "doc_006_p057_b009",
+   "type": "heading",
+   "page_number": 57,
+   "bbox": [
+    125,
+    1519,
+    225,
+    1565
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_119"
+  },
+  {
+   "block_id": "doc_006_p057_b010",
+   "type": "paragraph",
+   "page_number": 57,
+   "bbox": [
+    122,
+    1649,
+    2336,
+    2066
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "In SAP IS-U, assessing refers to the automatic handling of meter overflows due to over-estimated previous meter readings. These assessing cases do not deal with actual meter overflows but with over-estimated previous meter readings. When an assessing case arises, a result is released during meter reading entry that triggers workflow template ISU _ASSESS1. This workflow reverses Billing and reestimates the meter reading based on the actual meter reading result. The graphic below shows a typical assessing case:",
+   "section_id": "doc_006_sec_119"
+  },
+  {
+   "block_id": "doc_006_p057_b011",
+   "type": "table",
+   "page_number": 57,
+   "bbox": [
+    232,
+    2380,
+    2206,
+    2434
+   ],
+   "ocr_confidence": 42.3,
+   "flags": [
+    "low_confidence_words:4",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    232,
+    664,
+    889,
+    1146,
+    1630,
+    2117
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Date",
+     "i",
+     "1.15.",
+     "2h:",
+     "cme",
+     "re"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Date",
+     "i",
+     "1.15.",
+     "2h:",
+     "cme",
+     "re"
+    ]
+   ],
+   "section_id": "doc_006_sec_119"
+  },
+  {
+   "block_id": "doc_006_p057_b012",
+   "type": "table",
+   "page_number": 57,
+   "bbox": [
+    230,
+    2621,
+    2196,
+    2668
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    230,
+    699,
+    921,
+    1166,
+    1638,
+    2137
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR result",
+     "0",
+     "30",
+     "50",
+     "100",
+     "40"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR result",
+     "0",
+     "30",
+     "50",
+     "100",
+     "40"
+    ]
+   ],
+   "section_id": "doc_006_sec_119"
+  },
+  {
+   "block_id": "doc_006_p057_b013",
+   "type": "heading",
+   "page_number": 57,
+   "bbox": [
+    294,
+    2729,
+    420,
+    2764
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Actual",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_120"
+  },
+  {
+   "block_id": "doc_006_p057_b014",
+   "type": "table",
+   "page_number": 57,
+   "bbox": [
+    230,
+    2729,
+    2203,
+    2831
+   ],
+   "ocr_confidence": 45.7,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    230,
+    679,
+    921,
+    1163,
+    1650,
+    2137
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "estimated",
+     "@",
+     "\u00a9)",
+     "\u20ac&)",
+     "(e)",
+     "(a)"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "estimated",
+     "@",
+     "\u00a9)",
+     "\u20ac&)",
+     "(e)",
+     "(a)"
+    ]
+   ],
+   "section_id": "doc_006_sec_120"
+  },
+  {
+   "block_id": "doc_006_p057_b015",
+   "type": "paragraph",
+   "page_number": 57,
+   "bbox": [
+    122,
+    3137,
+    2488,
+    3233
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The system determines a meter overflow as the (estimated) meter reading result from 3.1. is higher that the (actual) meter reading result from 4.1.",
+   "section_id": "doc_006_sec_120"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 64,
+  "body_stroke_median": 0.0923,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "651f120d613be81ceb2d30bbcfae1b75b950a209abbed84a6b097fefd1d579d0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Single Entry",
+  "Activities"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_117",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_118",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_119",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_120",
+   "role": "starts_here"
+  }
+ ]
+}

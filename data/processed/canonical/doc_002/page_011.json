@@ -1,0 +1,353 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 11,
+ "source_page_hash": "1d6972ac440a48858bedcbecd2532249b169a9b34453ab41978051a3a75c0d06",
+ "is_cover_page": false,
+ "title": "Actual Move-In Date",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\n\nYou can change the date of a move-in after it has been created without affecting the move-out that precedes it. To do this, choose\nEdit\u00bb Change Move-In Date\n\nActual Move-In Date\nIn addition to the move-in date, the actual move-in date can be entered as the date from which the premise is occupied.\nSave\n\nWhen you save the move-in, the initial move-in or move-in/out screen reappears. In Customizing under Define Control Parameters\nat Document Level, you can configure the system so that when you save the data, a log is displayed containing information on the\nchanges made to the data.\n\nCertain move-in activities, for example, maintaining a budget billing plan, are based on the database changes made by the move-in.\nIn these instances, you can, in Customizing under Move-In/Out -> Move-In -> Define Control Parameters at Document Level\nconfigure the system to either output a confirmation prompt or save the data automatically before the action is carried out.\n\nYou can also save your changes in the move-in without leaving the move-in screen. To do this, choose Save and Hold.\n\nMaster Data (Move-In)\n\nUse\n\nDuring move-in processing, one or more contracts are created to commence on the specified move-in date. The installations you\nspecified at the start of processing are allocated to these contracts.\n\nIf the move-in date is in a period in which one of the installations has already been billed then the move-in cannot be created.\n\nYou can save changes to business partner and contract account data as scheduled changes. This means that the changes are not\nactivated until a future date. This date is determined by subtracting the interval period defined in Customizing from the move-in\ndate. For more information on how to define the interval period, see Customizing under |)*SAP Utilities Customer Service\n\nProcess Execution } Move-In/Move-Out \u00bb Define System Parameters for Move-in and Move-Out 3). Scheduled changes are\nactivated by report BUSPCDACT (activation of scheduled change documents for an application object).\n\nWhen a move-in is created, the tax jurisdiction code of the connection object address is copied to all the contracts of the move-in\ndocument, as well as to all the business partner addresses that were automatically created through the move-in.\n\nStandard Business Partner Address\n\nIn Customizing (|}#SAP Utilities \u00bb Customer Service \u00bb Process Execution \u00bb Move-In/Out \u00bb Move-In \u00bb Define Move-In Control\nParameters at Document Level | ), you can configure the system so that the business partner receives the address of the premise\nhe/she is moving into as the default address. If you want to process the move-in for different premises in one move-in document,\nthe system uses the premise address of the installation that was entered first.\n\nYou can find additional information in the section on the master data component.\n\nUsing the Business Add-In (Badl) ISU_LMOVEIN_SETBPADDR, you can allocate a default value to the standard address.\n\nMatar Raadino Nata (Mavea-ln)\n",
+ "cleaned_text": "You can change the date of a move-in after it has been created without affecting the move-out that precedes it. To do this, choose Edit\u00bb Change Move-In Date\n\nActual Move-In Date\n\nIn addition to the move-in date, the actual move-in date can be entered as the date from which the premise is occupied.\n\nSave\n\nWhen you save the move-in, the initial move-in or move-in/out screen reappears. In Customizing under Define Control Parameters at Document Level, you can configure the system so that when you save the data, a log is displayed containing information on the changes made to the data. Certain move-in activities, for example, maintaining a budget billing plan, are based on the database changes made by the move-in. In these instances, you can, in Customizing under Move-In/Out -> Move-In -> Define Control Parameters at Document Level configure the system to either output a confirmation prompt or save the data automatically before the action is carried out. You can also save your changes in the move-in without leaving the move-in screen. To do this, choose Save and Hold.\n\nMaster Data (Move-In)\n\nUse\n\nDuring move-in processing, one or more contracts are created to commence on the specified move-in date. The installations you specified at the start of processing are allocated to these contracts. If the move-in date is in a period in which one of the installations has already been billed then the move-in cannot be created. You can save changes to business partner and contract account data as scheduled changes. This means that the changes are not activated until a future date. This date is determined by subtracting the interval period defined in Customizing from the move-in\n\ndate. For more information on how to define the interval period, see Customizing under |)*SAP Utilities | Customer Service\n\nProcess Execution } Move-In/Move-Out \u00bb Define System Parameters for Move-in and Move-Out 3). Scheduled changes are activated by report BUSPCDACT (activation of scheduled change documents for an application object). When a move-in is created, the tax jurisdiction code of the connection object address is copied to all the contracts of the move-in document, as well as to all the business partner addresses that were automatically created through the move-in.\n\nStandard Business Partner Address\n\nIn Customizing (|}#SAP Utilities \u00bb Customer Service \u00bb Process Execution \u00bb Move-In/Out \u00bb Move-In \u00bb Define Move-In Control Parameters at Document Level | ), you can configure the system so that the business partner receives the address of the premise he/she is moving into as the default address. If you want to process the move-in for different premises in one move-in document, the system uses the premise address of the installation that was entered first. You can find additional information in the section on the master data component. Using the Business Add-In (Badl) ISU_LMOVEIN_SETBPADDR, you can allocate a default value to the standard address.\n\nMatar Raadino Nata (Mavea-ln)",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p011_b000",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    122,
+    135,
+    2455,
+    235
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "You can change the date of a move-in after it has been created without affecting the move-out that precedes it. To do this, choose Edit\u00bb Change Move-In Date",
+   "section_id": "doc_002_sec_037"
+  },
+  {
+   "block_id": "doc_002_p011_b001",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    123,
+    318,
+    499,
+    349
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Actual Move-In Date",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_038"
+  },
+  {
+   "block_id": "doc_002_p011_b002",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    125,
+    443,
+    2278,
+    481
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "In addition to the move-in date, the actual move-in date can be entered as the date from which the premise is occupied.",
+   "section_id": "doc_002_sec_038"
+  },
+  {
+   "block_id": "doc_002_p011_b003",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    123,
+    564,
+    210,
+    595
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Save",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_039"
+  },
+  {
+   "block_id": "doc_002_p011_b004",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    122,
+    686,
+    2487,
+    1220
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "When you save the move-in, the initial move-in or move-in/out screen reappears. In Customizing under Define Control Parameters at Document Level, you can configure the system so that when you save the data, a log is displayed containing information on the changes made to the data. Certain move-in activities, for example, maintaining a budget billing plan, are based on the database changes made by the move-in. In these instances, you can, in Customizing under Move-In/Out -> Move-In -> Define Control Parameters at Document Level configure the system to either output a confirmation prompt or save the data automatically before the action is carried out. You can also save your changes in the move-in without leaving the move-in screen. To do this, choose Save and Hold.",
+   "section_id": "doc_002_sec_039"
+  },
+  {
+   "block_id": "doc_002_p011_b005",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    128,
+    1369,
+    939,
+    1445
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "Master Data (Move-In)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_040"
+  },
+  {
+   "block_id": "doc_002_p011_b006",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    124,
+    1518,
+    191,
+    1548
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Use",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_041"
+  },
+  {
+   "block_id": "doc_002_p011_b007",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    123,
+    1639,
+    2462,
+    2048
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "During move-in processing, one or more contracts are created to commence on the specified move-in date. The installations you specified at the start of processing are allocated to these contracts. If the move-in date is in a period in which one of the installations has already been billed then the move-in cannot be created. You can save changes to business partner and contract account data as scheduled changes. This means that the changes are not activated until a future date. This date is determined by subtracting the interval period defined in Customizing from the move-in",
+   "section_id": "doc_002_sec_041"
+  },
+  {
+   "block_id": "doc_002_p011_b008",
+   "type": "table",
+   "page_number": 11,
+   "bbox": [
+    123,
+    2073,
+    2369,
+    2110
+   ],
+   "ocr_confidence": 92.1,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    123,
+    2036
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "date. For more information on how to define the interval period, see Customizing under |)*SAP Utilities",
+     "Customer Service"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "date. For more information on how to define the interval period, see Customizing under |)*SAP Utilities",
+     "Customer Service"
+    ]
+   ],
+   "section_id": "doc_002_sec_041"
+  },
+  {
+   "block_id": "doc_002_p011_b009",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    123,
+    2134,
+    2451,
+    2422
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Process Execution } Move-In/Move-Out \u00bb Define System Parameters for Move-in and Move-Out 3). Scheduled changes are activated by report BUSPCDACT (activation of scheduled change documents for an application object). When a move-in is created, the tax jurisdiction code of the connection object address is copied to all the contracts of the move-in document, as well as to all the business partner addresses that were automatically created through the move-in.",
+   "section_id": "doc_002_sec_041"
+  },
+  {
+   "block_id": "doc_002_p011_b010",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    123,
+    2506,
+    787,
+    2536
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Standard Business Partner Address",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_042"
+  },
+  {
+   "block_id": "doc_002_p011_b011",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    122,
+    2627,
+    2484,
+    3103
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "In Customizing (|}#SAP Utilities \u00bb Customer Service \u00bb Process Execution \u00bb Move-In/Out \u00bb Move-In \u00bb Define Move-In Control Parameters at Document Level | ), you can configure the system so that the business partner receives the address of the premise he/she is moving into as the default address. If you want to process the move-in for different premises in one move-in document, the system uses the premise address of the installation that was entered first. You can find additional information in the section on the master data component. Using the Business Add-In (Badl) ISU_LMOVEIN_SETBPADDR, you can allocate a default value to the standard address.",
+   "section_id": "doc_002_sec_042"
+  },
+  {
+   "block_id": "doc_002_p011_b012",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    128,
+    3249,
+    1213,
+    3300
+   ],
+   "ocr_confidence": 52.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Matar Raadino Nata (Mavea-ln)",
+   "section_id": "doc_002_sec_042"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.0889,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "1d6972ac440a48858bedcbecd2532249b169a9b34453ab41978051a3a75c0d06"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Move-in",
+  "Activities",
+  "Initial Screen"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_037",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_002_sec_038",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_039",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_040",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_041",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_042",
+   "role": "starts_here"
+  }
+ ]
+}

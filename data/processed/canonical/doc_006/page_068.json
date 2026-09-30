@@ -1,0 +1,335 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 68,
+ "source_page_hash": "287da78c1ac5d5bd2f5572d3fdc12cc1cbdf8615d27e842061df1410965f319c",
+ "is_cover_page": false,
+ "title": "Dependent Validation",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\ne Maximum/minimum demand\n\nThe system checks whether the demand exceeds or falls below a specified value. You define the number of comparison\nperiods in Customizing for SAP Utilities under |)}Device Management \u00bb Meter Reading\u00bb Validations \u201c Independent\n\nValidations \u00bb Define Validation Parameters for Validation Classes\ne Meter Overflow\n\nThe system checks whether the current meter reading is lower than the previous meter reading.\n\nDependent Validation\n\nDependent validations check related registers together.\n\nIndependent validations are performed according to the settings in Customizing for SAP Utilities under |*Device Management\nMeter Reading  Validiatons \u00bb Dependent Validations\n\ne Control meter validation (fixed/relative value)\n\nThe system checks whether the total consumption from settlement registers corresponds to the consumption of the\ncontrol meter.\n\ne Serial switching validation\n\nThe system checks whether the total consumption from the secondary installations excceds the consumption of the\n\nprimary installation.\ne Cosine phi validation\nThe cosine phi is calculated from active/reactive registers.\n\nIn validation 04 (lower limit may not be undercut), the system checks whether a limit value you set in Customizing has not\nbeen undercut.\n\nIn validation 05, the cosine phi is checked against the cosine phi of the previous period(s).\ne Consumption ratio validations (fixed value and previous period)\n\nThe system determines a ratio for the consumption of registers in a relationship. The system checks whether this ratio\ncorresponds to a fixed value or the consumption ratio from the previous period.\n\nIf you have activated the Quantity Determination business function (ISU_QD_1) and you use Quantity Determination Procedure\n03 - Quantity Determination During Meter Reading, you can activate and use the following validation:\n\ne Check for Final Quantity\nThis check precedes the other validations and checks whether the quantity is a final quantity.\no Ifitis a final quantity, the other dependent validations are based on this quantity.\no Ifitis nota final quantity, the further validations do not take place and the meter reading result is set to Implausible.\n\nFor this check to be performed automatically, you have to select the Validation for Final Quantity check box in\nCustomizing for SAP Utilities under |)*Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control\nParameters for Meter Reading Data Processing\n",
+ "cleaned_text": "- Maximum/minimum demand The system checks whether the demand exceeds or falls below a specified value. You define the number of comparison periods in Customizing for SAP Utilities under |)}Device Management \u00bb Meter Reading\u00bb Validations \u201c Independent\n\nValidations \u00bb Define Validation Parameters for Validation Classes\n\n- Meter Overflow The system checks whether the current meter reading is lower than the previous meter reading.\n\nDependent Validation\n\nDependent validations check related registers together. Independent validations are performed according to the settings in Customizing for SAP Utilities under |*Device Management Meter Reading Validiatons \u00bb Dependent Validations\n\n- Control meter validation (fixed/relative value) The system checks whether the total consumption from settlement registers corresponds to the consumption of the control meter.\n\n- Serial switching validation The system checks whether the total consumption from the secondary installations excceds the consumption of the primary installation.\n\n- Cosine phi validation The cosine phi is calculated from active/reactive registers. In validation 04 (lower limit may not be undercut), the system checks whether a limit value you set in Customizing has not been undercut. In validation 05, the cosine phi is checked against the cosine phi of the previous period(s).\n\n- Consumption ratio validations (fixed value and previous period) The system determines a ratio for the consumption of registers in a relationship. The system checks whether this ratio corresponds to a fixed value or the consumption ratio from the previous period.\n\nIf you have activated the Quantity Determination business function (ISU_QD_1) and you use Quantity Determination Procedure 03 - Quantity Determination During Meter Reading, you can activate and use the following validation:\n\n- Check for Final Quantity This check precedes the other validations and checks whether the quantity is a final quantity.\n\n- Ifitis a final quantity, the other dependent validations are based on this quantity.\n\n- Ifitis nota final quantity, the further validations do not take place and the meter reading result is set to Implausible. For this check to be performed automatically, you have to select the Validation for Final Quantity check box in\n\nCustomizing for SAP Utilities under |)*Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control\n\nParameters for Meter Reading Data Processing",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p068_b000",
+   "type": "list",
+   "page_number": 68,
+   "bbox": [
+    207,
+    135,
+    2401,
+    342
+   ],
+   "ocr_confidence": 87.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Maximum/minimum demand The system checks whether the demand exceeds or falls below a specified value. You define the number of comparison periods in Customizing for SAP Utilities under |)}Device Management \u00bb Meter Reading\u00bb Validations \u201c Independent"
+    }
+   ],
+   "section_id": "doc_006_sec_157"
+  },
+  {
+   "block_id": "doc_006_p068_b001",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    254,
+    361,
+    1462,
+    404
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "text": "Validations \u00bb Define Validation Parameters for Validation Classes",
+   "section_id": "doc_006_sec_157"
+  },
+  {
+   "block_id": "doc_006_p068_b002",
+   "type": "list",
+   "page_number": 68,
+   "bbox": [
+    207,
+    466,
+    1987,
+    606
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Meter Overflow The system checks whether the current meter reading is lower than the previous meter reading."
+    }
+   ],
+   "section_id": "doc_006_sec_157"
+  },
+  {
+   "block_id": "doc_006_p068_b003",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    128,
+    756,
+    897,
+    831
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Dependent Validation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_158"
+  },
+  {
+   "block_id": "doc_006_p068_b004",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    125,
+    903,
+    2409,
+    1129
+   ],
+   "ocr_confidence": 90.1,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Dependent validations check related registers together. Independent validations are performed according to the settings in Customizing for SAP Utilities under |*Device Management Meter Reading Validiatons \u00bb Dependent Validations",
+   "section_id": "doc_006_sec_158"
+  },
+  {
+   "block_id": "doc_006_p068_b005",
+   "type": "list",
+   "page_number": 68,
+   "bbox": [
+    207,
+    1212,
+    2460,
+    2426
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Control meter validation (fixed/relative value) The system checks whether the total consumption from settlement registers corresponds to the consumption of the control meter."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Serial switching validation The system checks whether the total consumption from the secondary installations excceds the consumption of the primary installation."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Cosine phi validation The cosine phi is calculated from active/reactive registers. In validation 04 (lower limit may not be undercut), the system checks whether a limit value you set in Customizing has not been undercut. In validation 05, the cosine phi is checked against the cosine phi of the previous period(s)."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Consumption ratio validations (fixed value and previous period) The system determines a ratio for the consumption of registers in a relationship. The system checks whether this ratio corresponds to a fixed value or the consumption ratio from the previous period."
+    }
+   ],
+   "section_id": "doc_006_sec_158"
+  },
+  {
+   "block_id": "doc_006_p068_b006",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    123,
+    2506,
+    2454,
+    2610
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "If you have activated the Quantity Determination business function (ISU_QD_1) and you use Quantity Determination Procedure 03 - Quantity Determination During Meter Reading, you can activate and use the following validation:",
+   "section_id": "doc_006_sec_158"
+  },
+  {
+   "block_id": "doc_006_p068_b007",
+   "type": "list",
+   "page_number": 68,
+   "bbox": [
+    207,
+    2694,
+    2487,
+    3142
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Check for Final Quantity This check precedes the other validations and checks whether the quantity is a final quantity."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Ifitis a final quantity, the other dependent validations are based on this quantity."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Ifitis nota final quantity, the further validations do not take place and the meter reading result is set to Implausible. For this check to be performed automatically, you have to select the Validation for Final Quantity check box in"
+    }
+   ],
+   "section_id": "doc_006_sec_158"
+  },
+  {
+   "block_id": "doc_006_p068_b008",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    386,
+    3163,
+    2387,
+    3209
+   ],
+   "ocr_confidence": 88.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Customizing for SAP Utilities under |)*Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control",
+   "section_id": "doc_006_sec_158"
+  },
+  {
+   "block_id": "doc_006_p068_b009",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    387,
+    3229,
+    1263,
+    3267
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Parameters for Meter Reading Data Processing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_159"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.0889,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "287da78c1ac5d5bd2f5572d3fdc12cc1cbdf8615d27e842061df1410965f319c"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Validations",
+  "Variable Validations"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_157",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_158",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_159",
+   "role": "starts_here"
+  }
+ ]
+}

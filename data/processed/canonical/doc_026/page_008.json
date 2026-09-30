@@ -1,0 +1,306 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 8,
+ "source_page_hash": "17ae84f7f9911dab5c354b6595f6897ac497ccd788ae85dcbf253591c7dc4076",
+ "is_cover_page": false,
+ "title": "Dunning in Alternative Currencies",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n\ni Note\n\nItems or contract accounts that have an incoming payment method but no incoming payment lock are excluded from the\ndunning run. In this case, the system assumes that the item or contract account concerned is to be paid via the payment run.\n\nIf the contract account of a business partner has a payment lock, and the payment method is only in the item and not in the\naccount, neither the payment program nor the dunning program take account of the item.\n\nIn the Insurance industry component, you can also set dunning locks at insurance object level for which the rules and\nrestrictions described above apply.\n\ni Note\nIf you use the industry component Contract Accounts Receivable and Payable or Public Sector Contract Accounts\n\nReceivable and Payable, you can use transaction FKKLM to create or change dunning locks centrally. The locks that have been\nset in this way are replicated in the relevant contract accounts and taken into account in the dunning run.\n\nUsing transaction FKKLS, you can display business partner locks centrally.\n\nTo be able to use the transactions, you need to set the Use Business Partner Locks indicator in Customizing for Contract\nAccounts Receivable and Payable under |}#Basic Functions \u00bb Postings and Documents \u00bb Basic Settings \u00bb Maintain Central\nSettings for Posting\n\nDunning in Alternative Currencies\n\nUse\n\nDuring dunning, you can handle documents as if they had been posted in a currency other than the local currency (for example,\nEUR). This means that when you print dunning letters, you can print the amounts in both the document currency and an\n\nalternative currency (for example, EUR).\n\nActivities\nTo be able to dun receivables in a currency other than the document currency, you have to define the alternative payment currency\n\nrequired in Customizing.You do this in the Implementation Guide for Contract Accounts Receivable and Payable under |}*Business\nTransactions } Define Alternative Currencies\n\nCalculation of Interest and Charges According to Fiscal Code\n\nUse\n\nTo meet legal requirements of the public legal dunning procedure, you have to make special settings in Cutomizing and define\nspecific events of the dunning program. The following contains instructions for dealing with the different problem issues.\n\nActivities\n",
+ "cleaned_text": "i Note Items or contract accounts that have an incoming payment method but no incoming payment lock are excluded from the dunning run. In this case, the system assumes that the item or contract account concerned is to be paid via the payment run. If the contract account of a business partner has a payment lock, and the payment method is only in the item and not in the account, neither the payment program nor the dunning program take account of the item. In the Insurance industry component, you can also set dunning locks at insurance object level for which the rules and restrictions described above apply.\n\ni Note If you use the industry component Contract Accounts Receivable and Payable or Public Sector Contract Accounts Receivable and Payable, you can use transaction FKKLM to create or change dunning locks centrally. The locks that have been set in this way are replicated in the relevant contract accounts and taken into account in the dunning run. Using transaction FKKLS, you can display business partner locks centrally. To be able to use the transactions, you need to set the Use Business Partner Locks indicator in Customizing for Contract Accounts Receivable and Payable under |}#Basic Functions \u00bb Postings and Documents \u00bb Basic Settings \u00bb Maintain Central Settings for Posting\n\nDunning in Alternative Currencies\n\nUse\n\nDuring dunning, you can handle documents as if they had been posted in a currency other than the local currency (for example, EUR). This means that when you print dunning letters, you can print the amounts in both the document currency and an alternative currency (for example, EUR).\n\nActivities\n\nTo be able to dun receivables in a currency other than the document currency, you have to define the alternative payment currency required in Customizing.You do this in the Implementation Guide for Contract Accounts Receivable and Payable under |}*Business Transactions } Define Alternative Currencies\n\nCalculation of Interest and Charges According to Fiscal Code\n\nUse\n\nTo meet legal requirements of the public legal dunning procedure, you have to make special settings in Cutomizing and define specific events of the dunning program. The following contains instructions for dealing with the different problem issues.\n\nActivities",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p008_b000",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    151,
+    150,
+    2411,
+    704
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "i Note Items or contract accounts that have an incoming payment method but no incoming payment lock are excluded from the dunning run. In this case, the system assumes that the item or contract account concerned is to be paid via the payment run. If the contract account of a business partner has a payment lock, and the payment method is only in the item and not in the account, neither the payment program nor the dunning program take account of the item. In the Insurance industry component, you can also set dunning locks at insurance object level for which the rules and restrictions described above apply.",
+   "section_id": "doc_026_sec_022"
+  },
+  {
+   "block_id": "doc_026_p008_b001",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    151,
+    840,
+    2434,
+    1464
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "i Note If you use the industry component Contract Accounts Receivable and Payable or Public Sector Contract Accounts Receivable and Payable, you can use transaction FKKLM to create or change dunning locks centrally. The locks that have been set in this way are replicated in the relevant contract accounts and taken into account in the dunning run. Using transaction FKKLS, you can display business partner locks centrally. To be able to use the transactions, you need to set the Use Business Partner Locks indicator in Customizing for Contract Accounts Receivable and Payable under |}#Basic Functions \u00bb Postings and Documents \u00bb Basic Settings \u00bb Maintain Central Settings for Posting",
+   "section_id": "doc_026_sec_022"
+  },
+  {
+   "block_id": "doc_026_p008_b002",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    128,
+    1648,
+    1341,
+    1725
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Dunning in Alternative Currencies",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_023"
+  },
+  {
+   "block_id": "doc_026_p008_b003",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    125,
+    1825,
+    225,
+    1870
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_024"
+  },
+  {
+   "block_id": "doc_026_p008_b004",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    123,
+    1958,
+    2422,
+    2121
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "During dunning, you can handle documents as if they had been posted in a currency other than the local currency (for example, EUR). This means that when you print dunning letters, you can print the amounts in both the document currency and an alternative currency (for example, EUR).",
+   "section_id": "doc_026_sec_024"
+  },
+  {
+   "block_id": "doc_026_p008_b005",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    123,
+    2232,
+    383,
+    2277
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_025"
+  },
+  {
+   "block_id": "doc_026_p008_b006",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    2365,
+    2488,
+    2533
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "To be able to dun receivables in a currency other than the document currency, you have to define the alternative payment currency required in Customizing.You do this in the Implementation Guide for Contract Accounts Receivable and Payable under |}*Business Transactions } Define Alternative Currencies",
+   "section_id": "doc_026_sec_025"
+  },
+  {
+   "block_id": "doc_026_p008_b007",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    125,
+    2676,
+    2317,
+    2753
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Calculation of Interest and Charges According to Fiscal Code",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_026"
+  },
+  {
+   "block_id": "doc_026_p008_b008",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    125,
+    2854,
+    225,
+    2899
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_027"
+  },
+  {
+   "block_id": "doc_026_p008_b009",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    2986,
+    2389,
+    3086
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "To meet legal requirements of the public legal dunning procedure, you have to make special settings in Cutomizing and define specific events of the dunning program. The following contains instructions for dealing with the different problem issues.",
+   "section_id": "doc_026_sec_027"
+  },
+  {
+   "block_id": "doc_026_p008_b010",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    123,
+    3198,
+    383,
+    3244
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_028"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "17ae84f7f9911dab5c354b6595f6897ac497ccd788ae85dcbf253591c7dc4076"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Dunning lock",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_022",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_023",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_024",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_025",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_026",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_027",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_028",
+   "role": "starts_here"
+  }
+ ]
+}

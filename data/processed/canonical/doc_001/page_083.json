@@ -1,0 +1,288 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 83,
+ "source_page_hash": "2ec40c6ba45d12595caca12976e6443658bb2c4cd303f59024af9250e60d99df",
+ "is_cover_page": false,
+ "title": "Use",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\ne Purchase contracts for small power producers, solar installations, and other forms of energy feeding.\n\ne Plant consumption contracts for generation and distribution installations of the utilities company.\n\ne Company consumption contracts, for example for the electricity consumption of offices at the utilities company\n\n1 Note\n\nService contracts (for example, for maintenance and repair) are not managed in this component; the Customer Service\n(CS) component is used instead. Service contracts are billed in the Sales and Distribution (SD) component.\n\nUse\n\nA contract is related to a division. It links one single contract account to one installation (see graphic for the master data (ISU-BF)\ncomponent). However, it is possible for several contracts to be grouped together in one contract account.\n\nA contract contains control data for Aontract Billing and Contract Accounts Receivable and Payable. These are:\n\ne General data (for example, contract account)\n\ne Move-in and move-out data\n\ne Schedule data (for example, start date and cancellation date)\n\ne Billing-relevant data\n\ne Account assignment data (for example, account determination ID)\ne Sales and distribution data\n\ne Deregulation data (for example service providers)\n\ne Data relevant to budget billing\n\nContract model: Where Does Data Originate\n",
+ "cleaned_text": "- Purchase contracts for small power producers, solar installations, and other forms of energy feeding.\n\n- Plant consumption contracts for generation and distribution installations of the utilities company.\n\n- Company consumption contracts, for example for the electricity consumption of offices at the utilities company\n\nNote Service contracts (for example, for maintenance and repair) are not managed in this component; the Customer Service (CS) component is used instead. Service contracts are billed in the Sales and Distribution (SD) component.\n\nUse\n\nA contract is related to a division. It links one single contract account to one installation (see graphic for the master data (ISU-BF) component). However, it is possible for several contracts to be grouped together in one contract account. A contract contains control data for Aontract Billing and Contract Accounts Receivable and Payable. These are:\n\n- General data (for example, contract account)\n\n- Move-in and move-out data\n\n- Schedule data (for example, start date and cancellation date)\n\n- Billing-relevant data\n\n- Account assignment data (for example, account determination ID)\n\n- Sales and distribution data\n\n- Deregulation data (for example service providers)\n\n- Data relevant to budget billing\n\nContract model: Where Does Data Originate",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    463,
+    442,
+    500
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p083_b000",
+   "type": "list",
+   "page_number": 83,
+   "bbox": [
+    207,
+    134,
+    2276,
+    376
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Purchase contracts for small power producers, solar installations, and other forms of energy feeding."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Plant consumption contracts for generation and distribution installations of the utilities company."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Company consumption contracts, for example for the electricity consumption of offices at the utilities company"
+    }
+   ],
+   "section_id": "doc_001_sec_334"
+  },
+  {
+   "block_id": "doc_001_p083_b001",
+   "type": "note",
+   "page_number": 83,
+   "bbox": [
+    282,
+    463,
+    2447,
+    642
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "label": "Note",
+   "text": "Note Service contracts (for example, for maintenance and repair) are not managed in this component; the Customer Service (CS) component is used instead. Service contracts are billed in the Sales and Distribution (SD) component.",
+   "section_id": "doc_001_sec_334"
+  },
+  {
+   "block_id": "doc_001_p083_b002",
+   "type": "heading",
+   "page_number": 83,
+   "bbox": [
+    125,
+    791,
+    225,
+    836
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_335"
+  },
+  {
+   "block_id": "doc_001_p083_b003",
+   "type": "paragraph",
+   "page_number": 83,
+   "bbox": [
+    123,
+    916,
+    2464,
+    1146
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "A contract is related to a division. It links one single contract account to one installation (see graphic for the master data (ISU-BF) component). However, it is possible for several contracts to be grouped together in one contract account. A contract contains control data for Aontract Billing and Contract Accounts Receivable and Payable. These are:",
+   "section_id": "doc_001_sec_335"
+  },
+  {
+   "block_id": "doc_001_p083_b004",
+   "type": "list",
+   "page_number": 83,
+   "bbox": [
+    207,
+    1229,
+    1454,
+    1984
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "General data (for example, contract account)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Move-in and move-out data"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Schedule data (for example, start date and cancellation date)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Billing-relevant data"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Account assignment data (for example, account determination ID)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Sales and distribution data"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Deregulation data (for example service providers)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Data relevant to budget billing"
+    }
+   ],
+   "section_id": "doc_001_sec_335"
+  },
+  {
+   "block_id": "doc_001_p083_b005",
+   "type": "heading",
+   "page_number": 83,
+   "bbox": [
+    123,
+    2071,
+    941,
+    2109
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Contract model: Where Does Data Originate",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_336"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 66.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "2ec40c6ba45d12595caca12976e6443658bb2c4cd303f59024af9250e60d99df"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Utilities Contract",
+  "Definition"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_334",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_335",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_336",
+   "role": "starts_here"
+  }
+ ]
+}

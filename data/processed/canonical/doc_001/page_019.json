@@ -1,0 +1,434 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 19,
+ "source_page_hash": "63c16ee634055d950120909dff307477eb9619519fcb4a4e94b2b4441b54ad5b",
+ "is_cover_page": false,
+ "title": "Procedure",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nYou created a site for the S/4HANA system in your CRM system as described in the topic Making Settings for CRM Middleware\nunder step 3.\n\nProcedure\n\n1. In your CRM system in the administration console, create a subscription for all business partners and enter them in the\nS/4HANA site defined in your CRM system. To do so, in the menu, choose |Architecture and Technology \u00bb Middleware |\nAdministration Administration Console \u00a7}. For more details on this procedure, see Making Settings for CRM Middleware.\n\n2. Define number ranges for your business partners in your S/4HANA system and CRM system. For more details on this\nprocedure, see Making Settings for CRM Middleware and Making Settings for Customer/Vendor Integration.\n\nMaking Settings for CRM Middleware\n\nProcedure\n\n1. Define the following RFC destinations:\n\no Define an RFC connection between the CRM system and the S/4HANA system of the category ABAP connections in\nthe CRM system. In Customizing for Customer Relationship Management choose |*#CRM Middleware and Related\nComponents \u00bb Communication Settings } Define RFC Destinations \u00a7. Use an appropriate S/4HANA user, such as\n\nCRMOLTP.\n\no Inthe S/4HANA system, create an RFC connection between the S/4HANA system and the CRM system of the\ncategory ABAP connections. On the SAP Easy Access screen, choose |/#Tools \u00bb Administration \u00bb Maintenance 3\n\nNetwork \u00bb RFC Destinations \u00a7. Use an appropriate CRM user, such as RFC.\n\ni Note\n\nFor the view check CRMRFCPAR in the S/4HANA system in the menu under |\u00bbSystem \u00bb Services \u00bb Table Maintenance\nEnhanced Maintenance |, if the following entry for the connection to the CRM system is available:\n\nField                                  Value\n\nUser                                  CRM\n\nObject Name                             *\n\nDestination                              <\nThe connection that you created in this step\n>\n\nLoad Type                               *\n\n2. Inthe CRM system, register the CSA* queues in the RFC monitor. Check if there are queues with the name CSABUPA* (or\nCSA*) and R3A*. To do so, in the menu, choose |/sArchitecture and Technology \u00bb Middleware \u00bb Administration\nRegister/Deregister Queues \u2122\n\ni Note\n\nIf CSA* is already active, then you can no longer add CSABUPA% since it is contained in CSA* In that case, then you only\n\nneed CSA* Make sure that the queues are registered.\n",
+ "cleaned_text": "You created a site for the S/4HANA system in your CRM system as described in the topic Making Settings for CRM Middleware under step 3.\n\nProcedure\n\n1 In your CRM system in the administration console, create a subscription for all business partners and enter them in the S/4HANA site defined in your CRM system. To do so, in the menu, choose |Architecture and Technology \u00bb Middleware | Administration Administration Console \u00a7}. For more details on this procedure, see Making Settings for CRM Middleware.\n\n2 Define number ranges for your business partners in your S/4HANA system and CRM system. For more details on this procedure, see Making Settings for CRM Middleware and Making Settings for Customer/Vendor Integration.\n\nMaking Settings for CRM Middleware\n\nProcedure\n\n1 Define the following RFC destinations:\n\n- Define an RFC connection between the CRM system and the S/4HANA system of the category ABAP connections in the CRM system. In Customizing for Customer Relationship Management choose |*#CRM Middleware and Related Components \u00bb Communication Settings } Define RFC Destinations \u00a7. Use an appropriate S/4HANA user, such as CRMOLTP.\n\n- Inthe S/4HANA system, create an RFC connection between the S/4HANA system and the CRM system of the category ABAP connections. On the SAP Easy Access screen, choose |/#Tools \u00bb Administration \u00bb Maintenance 3 Network \u00bb RFC Destinations \u00a7. Use an appropriate CRM user, such as RFC.\n\ni Note For the view check CRMRFCPAR in the S/4HANA system in the menu under |\u00bbSystem \u00bb Services \u00bb Table Maintenance Enhanced Maintenance |, if the following entry for the connection to the CRM system is available:\n\nField | Value\n\nUser | CRM\n\nObject Name | *\n\nDestination | <\n\nThe connection that you created in this step >\n\nLoad Type | *\n\n2 Inthe CRM system, register the CSA* queues in the RFC monitor. Check if there are queues with the name CSABUPA* (or CSA*) and R3A*. To do so, in the menu, choose |/sArchitecture and Technology \u00bb Middleware \u00bb Administration\n\nRegister/Deregister Queues \u2122\n\ni Note If CSA* is already active, then you can no longer add CSABUPA% since it is contained in CSA* In that case, then you only need CSA* Make sure that the queues are registered.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p019_b000",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    123,
+    134,
+    2410,
+    235
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You created a site for the S/4HANA system in your CRM system as described in the topic Making Settings for CRM Middleware under step 3.",
+   "section_id": "doc_001_sec_052"
+  },
+  {
+   "block_id": "doc_001_p019_b001",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    126,
+    347,
+    409,
+    392
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_053"
+  },
+  {
+   "block_id": "doc_001_p019_b002",
+   "type": "list",
+   "page_number": 19,
+   "bbox": [
+    211,
+    473,
+    2475,
+    737
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "In your CRM system in the administration console, create a subscription for all business partners and enter them in the S/4HANA site defined in your CRM system. To do so, in the menu, choose |Architecture and Technology \u00bb Middleware | Administration Administration Console \u00a7}. For more details on this procedure, see Making Settings for CRM Middleware."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Define number ranges for your business partners in your S/4HANA system and CRM system. For more details on this procedure, see Making Settings for CRM Middleware and Making Settings for Customer/Vendor Integration."
+    }
+   ],
+   "section_id": "doc_001_sec_053"
+  },
+  {
+   "block_id": "doc_001_p019_b003",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    128,
+    873,
+    1466,
+    949
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Making Settings for CRM Middleware",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_054"
+  },
+  {
+   "block_id": "doc_001_p019_b004",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    126,
+    1049,
+    409,
+    1095
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_055"
+  },
+  {
+   "block_id": "doc_001_p019_b005",
+   "type": "list",
+   "page_number": 19,
+   "bbox": [
+    214,
+    1176,
+    2486,
+    1736
+   ],
+   "ocr_confidence": 90.1,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Define the following RFC destinations:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Define an RFC connection between the CRM system and the S/4HANA system of the category ABAP connections in the CRM system. In Customizing for Customer Relationship Management choose |*#CRM Middleware and Related Components \u00bb Communication Settings } Define RFC Destinations \u00a7. Use an appropriate S/4HANA user, such as CRMOLTP."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Inthe S/4HANA system, create an RFC connection between the S/4HANA system and the CRM system of the category ABAP connections. On the SAP Easy Access screen, choose |/#Tools \u00bb Administration \u00bb Maintenance 3 Network \u00bb RFC Destinations \u00a7. Use an appropriate CRM user, such as RFC."
+    }
+   ],
+   "section_id": "doc_001_sec_055"
+  },
+  {
+   "block_id": "doc_001_p019_b006",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    282,
+    1812,
+    2416,
+    1999
+   ],
+   "ocr_confidence": 90.5,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "i Note For the view check CRMRFCPAR in the S/4HANA system in the menu under |\u00bbSystem \u00bb Services \u00bb Table Maintenance Enhanced Maintenance |, if the following entry for the connection to the CRM system is available:",
+   "section_id": "doc_001_sec_055"
+  },
+  {
+   "block_id": "doc_001_p019_b007",
+   "type": "table",
+   "page_number": 19,
+   "bbox": [
+    309,
+    2124,
+    1489,
+    2480
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    309,
+    1397
+   ],
+   "headers": [
+    "Field",
+    "Value"
+   ],
+   "rows": [
+    [
+     "User",
+     "CRM"
+    ],
+    [
+     "Object Name",
+     "*"
+    ],
+    [
+     "Destination",
+     "<"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Field",
+     "Value"
+    ],
+    [
+     "User",
+     "CRM"
+    ],
+    [
+     "Object Name",
+     "*"
+    ],
+    [
+     "Destination",
+     "<"
+    ]
+   ],
+   "section_id": "doc_001_sec_055"
+  },
+  {
+   "block_id": "doc_001_p019_b008",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    1396,
+    2496,
+    2431,
+    2583
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The connection that you created in this step >",
+   "section_id": "doc_001_sec_055"
+  },
+  {
+   "block_id": "doc_001_p019_b009",
+   "type": "table",
+   "page_number": 19,
+   "bbox": [
+    311,
+    2663,
+    1413,
+    2698
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    311,
+    1397
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Load Type",
+     "*"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Load Type",
+     "*"
+    ]
+   ],
+   "section_id": "doc_001_sec_055"
+  },
+  {
+   "block_id": "doc_001_p019_b010",
+   "type": "list",
+   "page_number": 19,
+   "bbox": [
+    211,
+    2882,
+    2440,
+    2977
+   ],
+   "ocr_confidence": 86.9,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Inthe CRM system, register the CSA* queues in the RFC monitor. Check if there are queues with the name CSABUPA* (or CSA*) and R3A*. To do so, in the menu, choose |/sArchitecture and Technology \u00bb Middleware \u00bb Administration"
+    }
+   ],
+   "section_id": "doc_001_sec_055"
+  },
+  {
+   "block_id": "doc_001_p019_b011",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    265,
+    2980,
+    814,
+    3018
+   ],
+   "ocr_confidence": 84.2,
+   "flags": [],
+   "text": "Register/Deregister Queues \u2122",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_056"
+  },
+  {
+   "block_id": "doc_001_p019_b012",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    282,
+    3091,
+    2438,
+    3280
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "i Note If CSA* is already active, then you can no longer add CSABUPA% since it is contained in CSA* In that case, then you only need CSA* Make sure that the queues are registered.",
+   "section_id": "doc_001_sec_056"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "63c16ee634055d950120909dff307477eb9619519fcb4a4e94b2b4441b54ad5b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making Settings for Business Partners"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_052",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_053",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_054",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_055",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_056",
+   "role": "starts_here"
+  }
+ ]
+}

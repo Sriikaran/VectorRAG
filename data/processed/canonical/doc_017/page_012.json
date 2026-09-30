@@ -1,0 +1,383 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_017",
+ "page_number": 12,
+ "source_page_hash": "13a08a2e8c72f5c68038d59512a21cd65cb02ddbae5ef8c001064fc52cf93b31",
+ "is_cover_page": false,
+ "title": "Prerequisites",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nIn the contract account master record, there is one process lock field for dunning, posting, invoicing, correspondence dunning,\ninterest calculation, incoming payments, and outgoing payments respectively. You enter a lock reason in this field if you want to\nlock an account. You can set the lock for a limited period or set multiple locks for each business transaction.\n\nPrerequisites\n\nYou have maintained the lock reasons for dunning and payment in Customizing for Contract Accounts Receivable and Payable.\n\nProcedure\n\n1. Call up the contract account you want to change or display.\n\n2. Enter a lock reason in the Lock On field on the Change Contract Account: Dunning/Correspondence Data screen for\ndunning control, incoming or outgoing payments.\n\n3. If you want to set a lock for a limited period or if you want to set or display multiple locks, press the arrow key next to the\nLock field.\n\nA dialog box appears where you can display or enter the lock interval or the lock itself. You can also display the lock history from\nthis dialog box. Changes related to the locks are written in the lock history and are not logged with change documents.\n\nYou can change and delete locks in this dialog box.\nNote the following:\ne If you only specify one lock reason, the lock will be for an unlimited period of time.\n\ne lf you only enter one lock reason, you can change or delete this. If multiple or limited-time locks have been set, press the\narrow key to make changes. You can then make changes in the dialog box that appears.\n\ne If you have set multiple or limited-time locks, the Lock field contains a ~ . In this case, choose the arrow key to display the\nlocks.\n\nResult\n\nThe contract account is locked for the business transaction selected either for a limited or unlimited amount of time, depending on\nthe lock reason.\n\nManage Contract Accounts\n\nThe Manage Contract Accounts (F5474) app provides a central entry point for contract account maintenance.\n\nKey Features\n\nYou can use this app to do the following:\n\ne Display a list of contract accounts\n\nFilter the list according to vour needs. for example. by business partner and companv code\n",
+ "cleaned_text": "In the contract account master record, there is one process lock field for dunning, posting, invoicing, correspondence dunning, interest calculation, incoming payments, and outgoing payments respectively. You enter a lock reason in this field if you want to lock an account. You can set the lock for a limited period or set multiple locks for each business transaction.\n\nPrerequisites\n\nYou have maintained the lock reasons for dunning and payment in Customizing for Contract Accounts Receivable and Payable.\n\nProcedure\n\n1 Call up the contract account you want to change or display.\n\n2 Enter a lock reason in the Lock On field on the Change Contract Account: Dunning/Correspondence Data screen for dunning control, incoming or outgoing payments.\n\n3 If you want to set a lock for a limited period or if you want to set or display multiple locks, press the arrow key next to the Lock field.\n\nA dialog box appears where you can display or enter the lock interval or the lock itself. You can also display the lock history from this dialog box. Changes related to the locks are written in the lock history and are not logged with change documents. You can change and delete locks in this dialog box. Note the following:\n\n- If you only specify one lock reason, the lock will be for an unlimited period of time. e lf you only enter one lock reason, you can change or delete this. If multiple or limited-time locks have been set, press the arrow key to make changes. You can then make changes in the dialog box that appears.\n\n- If you have set multiple or limited-time locks, the Lock field contains a ~ . In this case, choose the arrow key to display the locks.\n\nResult\n\nThe contract account is locked for the business transaction selected either for a limited or unlimited amount of time, depending on the lock reason.\n\nManage Contract Accounts\n\nThe Manage Contract Accounts (F5474) app provides a central entry point for contract account maintenance.\n\nKey Features\n\nYou can use this app to do the following:\n\n- Display a list of contract accounts Filter the list according to vour needs. for example. by business partner and companv code",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_017_p012_b000",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    124,
+    134,
+    2420,
+    297
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "In the contract account master record, there is one process lock field for dunning, posting, invoicing, correspondence dunning, interest calculation, incoming payments, and outgoing payments respectively. You enter a lock reason in this field if you want to lock an account. You can set the lock for a limited period or set multiple locks for each business transaction.",
+   "section_id": "doc_017_sec_064"
+  },
+  {
+   "block_id": "doc_017_p012_b001",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    126,
+    409,
+    492,
+    466
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_065"
+  },
+  {
+   "block_id": "doc_017_p012_b002",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    123,
+    542,
+    2407,
+    580
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "You have maintained the lock reasons for dunning and payment in Customizing for Contract Accounts Receivable and Payable.",
+   "section_id": "doc_017_sec_065"
+  },
+  {
+   "block_id": "doc_017_p012_b003",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    126,
+    691,
+    409,
+    737
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_066"
+  },
+  {
+   "block_id": "doc_017_p012_b004",
+   "type": "list",
+   "page_number": 12,
+   "bbox": [
+    211,
+    824,
+    2424,
+    1187
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Call up the contract account you want to change or display."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter a lock reason in the Lock On field on the Change Contract Account: Dunning/Correspondence Data screen for dunning control, incoming or outgoing payments."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "If you want to set a lock for a limited period or if you want to set or display multiple locks, press the arrow key next to the Lock field."
+    }
+   ],
+   "section_id": "doc_017_sec_066"
+  },
+  {
+   "block_id": "doc_017_p012_b005",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    122,
+    1278,
+    2425,
+    1624
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "A dialog box appears where you can display or enter the lock interval or the lock itself. You can also display the lock history from this dialog box. Changes related to the locks are written in the lock history and are not logged with change documents. You can change and delete locks in this dialog box. Note the following:",
+   "section_id": "doc_017_sec_066"
+  },
+  {
+   "block_id": "doc_017_p012_b006",
+   "type": "list",
+   "page_number": 12,
+   "bbox": [
+    207,
+    1708,
+    2442,
+    2109
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you only specify one lock reason, the lock will be for an unlimited period of time. e lf you only enter one lock reason, you can change or delete this. If multiple or limited-time locks have been set, press the arrow key to make changes. You can then make changes in the dialog box that appears."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you have set multiple or limited-time locks, the Lock field contains a ~ . In this case, choose the arrow key to display the locks."
+    }
+   ],
+   "section_id": "doc_017_sec_066"
+  },
+  {
+   "block_id": "doc_017_p012_b007",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    126,
+    2229,
+    297,
+    2274
+   ],
+   "ocr_confidence": 93.3,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Result",
+   "level": 3,
+   "heading_confidence": "low",
+   "section_id": "doc_017_sec_066"
+  },
+  {
+   "block_id": "doc_017_p012_b008",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    122,
+    2358,
+    2487,
+    2455
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The contract account is locked for the business transaction selected either for a limited or unlimited amount of time, depending on the lock reason.",
+   "section_id": "doc_017_sec_066"
+  },
+  {
+   "block_id": "doc_017_p012_b009",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    128,
+    2607,
+    1109,
+    2684
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Manage Contract Accounts",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_067"
+  },
+  {
+   "block_id": "doc_017_p012_b010",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    122,
+    2762,
+    2134,
+    2801
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The Manage Contract Accounts (F5474) app provides a central entry point for contract account maintenance.",
+   "section_id": "doc_017_sec_067"
+  },
+  {
+   "block_id": "doc_017_p012_b011",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    126,
+    2913,
+    480,
+    2969
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Key Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_068"
+  },
+  {
+   "block_id": "doc_017_p012_b012",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    123,
+    3042,
+    843,
+    3080
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "You can use this app to do the following:",
+   "section_id": "doc_017_sec_068"
+  },
+  {
+   "block_id": "doc_017_p012_b013",
+   "type": "list",
+   "page_number": 12,
+   "bbox": [
+    207,
+    3163,
+    1891,
+    3300
+   ],
+   "ocr_confidence": 90.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display a list of contract accounts Filter the list according to vour needs. for example. by business partner and companv code"
+    }
+   ],
+   "section_id": "doc_017_sec_068"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Accounts Overview",
+  "source_pdf": "17.pdf",
+  "reference_pdf": "17_Contract_Accounts_Overview.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Use to connect utility invoicing to receivables, payments and dunning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "13a08a2e8c72f5c68038d59512a21cd65cb02ddbae5ef8c001064fc52cf93b31"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Accounts Overview",
+  "Selecting Addresses for Business Partners",
+  "Result"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_017_sec_064",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_017_sec_065",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_066",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_067",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_068",
+   "role": "starts_here"
+  }
+ ]
+}

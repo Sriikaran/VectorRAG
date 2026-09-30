@@ -1,0 +1,424 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_029",
+ "page_number": 8,
+ "source_page_hash": "5262e96af6ce52119b8a625b7d8ce0e8472e603964923077a10b882bc293ffe8",
+ "is_cover_page": false,
+ "title": "Prerequisites",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:19 AM\nYou can wait until a disconnection document is released in your workflow before beginning the actual disconnection process.\n\nPrerequisites\n\nIn order to use the Disconnection document release function, set the release requirement to active in the corresponding\ndisconnection processing variant.\n\nFeatures\n\nThe Disconnection document release function sets the corresponding status in the disconnection document and triggers the\naccompanying event for the workflow system.\n\nActivities\nThe disconnection documents are released individually. The release can also be defined as a workflow step.\n\nThe release and completion of a disconnection document exist as individual disconnection activities in the disconnection\ndocument.\n\nDisconnection Order Generation\n\nUse\n\nThis function is used to create disconnection orders. A disconnection order is an object that contains the disconnection details for\ndevices that are to be disconnected.\n\nRemote Disconnections in an Advanced Metering Infrastructure Environment\n\nIf you are working in an advanced metering infrastructure (AMI) environment, you can configure the disconnection order for the\nremote disconnection of AMI devices (such as smart meters or advanced meters). For more information, see Advanced Metering\nInfrastructure .\n\nIntegration\n\nGenerating Customer Notifications\n\nIn the disconnection order, you need to indicate whether a CRM agent is required to contact the corresponding customer before a\nservice agent (or the system \u2014 in the case of remote disconnections) carries out the actual device disconnection. The process of\ncontacting a customer for this purpose is called notification and the requirement for notification is based on legal requirements or\non intra-enterprise guidelines.\n\ne If notification is required, the system generates a notification work item . The CRM agent assigned to this work item must\ncontact the customer, set an agreed date and close the work item before the disconnection order can be processed further.\n\ne If notification is not required, or if the notification work item is closed, you can continue processing the disconnection order.\n\nCreating and Managing Work Items and Worklists for Customer Notifications\n",
+ "cleaned_text": "You can wait until a disconnection document is released in your workflow before beginning the actual disconnection process.\n\nPrerequisites\n\nIn order to use the Disconnection document release function, set the release requirement to active in the corresponding disconnection processing variant.\n\nFeatures\n\nThe Disconnection document release function sets the corresponding status in the disconnection document and triggers the accompanying event for the workflow system.\n\nActivities\n\nThe disconnection documents are released individually. The release can also be defined as a workflow step. The release and completion of a disconnection document exist as individual disconnection activities in the disconnection document.\n\nDisconnection Order Generation\n\nUse\n\nThis function is used to create disconnection orders. A disconnection order is an object that contains the disconnection details for devices that are to be disconnected.\n\nRemote Disconnections in an Advanced Metering Infrastructure Environment\n\nIf you are working in an advanced metering infrastructure (AMI) environment, you can configure the disconnection order for the remote disconnection of AMI devices (such as smart meters or advanced meters). For more information, see Advanced Metering Infrastructure .\n\nIntegration\n\nGenerating Customer Notifications\n\nIn the disconnection order, you need to indicate whether a CRM agent is required to contact the corresponding customer before a service agent (or the system \u2014 in the case of remote disconnections) carries out the actual device disconnection. The process of contacting a customer for this purpose is called notification and the requirement for notification is based on legal requirements or on intra-enterprise guidelines.\n\n- If notification is required, the system generates a notification work item . The CRM agent assigned to this work item must contact the customer, set an agreed date and close the work item before the disconnection order can be processed further.\n\n- If notification is not required, or if the notification work item is closed, you can continue processing the disconnection order.\n\nCreating and Managing Work Items and Worklists for Customer Notifications",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:19 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_029_p008_b000",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    123,
+    134,
+    2374,
+    172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "You can wait until a disconnection document is released in your workflow before beginning the actual disconnection process.",
+   "section_id": "doc_029_sec_020"
+  },
+  {
+   "block_id": "doc_029_p008_b001",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    126,
+    284,
+    492,
+    341
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_021"
+  },
+  {
+   "block_id": "doc_029_p008_b002",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    123,
+    417,
+    2309,
+    517
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "In order to use the Disconnection document release function, set the release requirement to active in the corresponding disconnection processing variant.",
+   "section_id": "doc_029_sec_021"
+  },
+  {
+   "block_id": "doc_029_p008_b003",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    126,
+    629,
+    361,
+    674
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_022"
+  },
+  {
+   "block_id": "doc_029_p008_b004",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    762,
+    2400,
+    862
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The Disconnection document release function sets the corresponding status in the disconnection document and triggers the accompanying event for the workflow system.",
+   "section_id": "doc_029_sec_022"
+  },
+  {
+   "block_id": "doc_029_p008_b005",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    123,
+    974,
+    383,
+    1019
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_023"
+  },
+  {
+   "block_id": "doc_029_p008_b006",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    1107,
+    2309,
+    1321
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The disconnection documents are released individually. The release can also be defined as a workflow step. The release and completion of a disconnection document exist as individual disconnection activities in the disconnection document.",
+   "section_id": "doc_029_sec_023"
+  },
+  {
+   "block_id": "doc_029_p008_b007",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    128,
+    1477,
+    1293,
+    1539
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Disconnection Order Generation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_024"
+  },
+  {
+   "block_id": "doc_029_p008_b008",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    125,
+    1654,
+    225,
+    1699
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_025"
+  },
+  {
+   "block_id": "doc_029_p008_b009",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    1787,
+    2474,
+    1880
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "This function is used to create disconnection orders. A disconnection order is an object that contains the disconnection details for devices that are to be disconnected.",
+   "section_id": "doc_029_sec_025"
+  },
+  {
+   "block_id": "doc_029_p008_b010",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    124,
+    1971,
+    1563,
+    2009
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Remote Disconnections in an Advanced Metering Infrastructure Environment",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_026"
+  },
+  {
+   "block_id": "doc_029_p008_b011",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    124,
+    2093,
+    2447,
+    2251
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "If you are working in an advanced metering infrastructure (AMI) environment, you can configure the disconnection order for the remote disconnection of AMI devices (such as smart meters or advanced meters). For more information, see Advanced Metering Infrastructure .",
+   "section_id": "doc_029_sec_026"
+  },
+  {
+   "block_id": "doc_029_p008_b012",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    127,
+    2371,
+    431,
+    2427
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_027"
+  },
+  {
+   "block_id": "doc_029_p008_b013",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    123,
+    2503,
+    778,
+    2541
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Generating Customer Notifications",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_028"
+  },
+  {
+   "block_id": "doc_029_p008_b014",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    123,
+    2625,
+    2481,
+    2850
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "In the disconnection order, you need to indicate whether a CRM agent is required to contact the corresponding customer before a service agent (or the system \u2014 in the case of remote disconnections) carries out the actual device disconnection. The process of contacting a customer for this purpose is called notification and the requirement for notification is based on legal requirements or on intra-enterprise guidelines.",
+   "section_id": "doc_029_sec_028"
+  },
+  {
+   "block_id": "doc_029_p008_b015",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    207,
+    2937,
+    2486,
+    3139
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If notification is required, the system generates a notification work item . The CRM agent assigned to this work item must contact the customer, set an agreed date and close the work item before the disconnection order can be processed further."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If notification is not required, or if the notification work item is closed, you can continue processing the disconnection order."
+    }
+   ],
+   "section_id": "doc_029_sec_028"
+  },
+  {
+   "block_id": "doc_029_p008_b016",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    123,
+    3223,
+    1554,
+    3260
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Creating and Managing Work Items and Worklists for Customer Notifications",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_029"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Disconnection/Reconnection of a Utility Installation",
+  "source_pdf": "29.pdf",
+  "reference_pdf": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+  "category": "Disconnection & Reconnection",
+  "m2c_relevance": "Connects overdue debt/dunning to service actions while preserving the distinction between delinquency and disconnect eligibility.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "5262e96af6ce52119b8a625b7d8ce0e8472e603964923077a10b882bc293ffe8"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:47Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Disconnection/Reconnection of a Utility Installation",
+  "Disconnection Document Release",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_029_sec_020",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_029_sec_021",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_022",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_023",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_024",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_025",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_026",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_027",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_028",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_029",
+   "role": "starts_here"
+  }
+ ]
+}

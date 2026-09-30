@@ -1,0 +1,765 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 30,
+ "source_page_hash": "eaed4c3d7bf90784b6f1a55e865e52ec5fd4c21935e9a6f70f7f9a81a24d89a8",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nOn the selection screen of the PPO transaction Display Postprocessing Order, you can select postprocessing orders using\n\nthe IDs of the objects contained in the orders. If you want to support users with a search help, you can program a function\nmodule for this. You then enter the technical name of this function module in the Input column.\n\n5. As shown in the table, define which object types are allowed for which PPO business process. To do so, in SAP Customizing\nchoose |*Cross-Application Components > General Application Functions \u00bb Postprocessing Office \u00bb Display System\nSettings for the Postprocessing Office 3 and select Valid Object Types. For the initial load, define the source object type as\na main object and the target object as a basis object.\n\nSoftware Component       Business Process            Object Role *)                 Object Category              Object Type\nAP-MD             CVI_ 01            1                 1 (Business       KNA1\nObject)\nAP-MD             CVI_01            2                 1 (Business       BUS1006\nObject)\nAP-MD             CVI_ 02            1                 1 (Business       LFA1\nObject)\nAP-MD             CVI_02            2                 1 (Business       BUS1006\nObject)\nAP-MD             CVI_03            1                 1 (Business       BUS1006\nObject)\nAP-MD             CVI_03            2                 1 (Business       KNA1\nObject)\nAP-MD              CVI_04             1                 1 (Business        BUS1006\nObject)\nAP-MD             CVI_04            2                 1 (Business       LFA1\nObject)\n*) Object Role:\n\n1 = Main object\n\n2 = Basis object\n\n3 = Environment object\n\n4 = Additional environment object\n\n6. As shown in the following table, define which processing methods you want to be available for each object type. To do so, in\nSAP Customizing choose |}*Cross-Application Components \u00bb General Application Functions \u00bb Postprocessing Office\nDisplay System Settings for the Postprocessing Office 5 and select Methods. These processing methods can either be a\nmethod of the related BOR object or a function module you program yourself. If you use your own function module, enter\nthe technical name of the function module.\n\nObject Type     Methods         Active            Item              Function         Object            BOR Method _ Description\nModule              Category *)\n\nRDIICTNNAG       NnTCDI AV       YY               41                               a               NHTCDI AV       Na cnilaw\n",
+ "cleaned_text": "On the selection screen of the PPO transaction Display Postprocessing Order, you can select postprocessing orders using the IDs of the objects contained in the orders. If you want to support users with a search help, you can program a function module for this. You then enter the technical name of this function module in the Input column.\n\n5 As shown in the table, define which object types are allowed for which PPO business process. To do so, in SAP Customizing choose |*Cross-Application Components > General Application Functions \u00bb Postprocessing Office \u00bb Display System\n\nSettings for the Postprocessing Office 3 and select Valid Object Types. For the initial load, define the source object type as a main object and the target object as a basis object.\n\nSoftware Component | Business Process | Object Role *) | Object Category | Object Type\n\nAP-MD | CVI_ 01 | 1 | 1 (Business | KNA1\n\nObject)\n\nAP-MD | CVI_01 | 2 | 1 (Business | BUS1006\n\nObject)\n\nAP-MD | CVI_ 02 | 1 | 1 (Business | LFA1\n\nObject)\n\nAP-MD | CVI_02 | 2 | 1 (Business | BUS1006\n\nObject)\n\nAP-MD | CVI_03 | 1 | 1 (Business | BUS1006\n\nObject)\n\nAP-MD | CVI_03 | 2 | 1 (Business | KNA1\n\nObject)\n\nAP-MD | CVI_04 | 1 | 1 (Business | BUS1006\n\nObject)\n\nAP-MD | CVI_04 | 2 | 1 (Business | LFA1\n\nObject)\n\n*) Object Role: 1 = Main object 2 = Basis object 3 = Environment object 4 = Additional environment object\n\n6 As shown in the following table, define which processing methods you want to be available for each object type. To do so, in SAP Customizing choose |}*Cross-Application Components \u00bb General Application Functions \u00bb Postprocessing Office Display System Settings for the Postprocessing Office 5 and select Methods. These processing methods can either be a\n\nmethod of the related BOR object or a function module you program yourself. If you use your own function module, enter the technical name of the function module.\n\nObject Type | Methods | Active | Item | Function | Object | BOR Method _ Description\n\nModule | Category *)\n\nRDIICTNNAG NnTCDI AV YY 41 a NHTCDI AV Na cnilaw",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p030_b000",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    254,
+    134,
+    2468,
+    297
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "On the selection screen of the PPO transaction Display Postprocessing Order, you can select postprocessing orders using the IDs of the objects contained in the orders. If you want to support users with a search help, you can program a function module for this. You then enter the technical name of this function module in the Input column.",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b001",
+   "type": "list",
+   "page_number": 30,
+   "bbox": [
+    211,
+    364,
+    2469,
+    470
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "As shown in the table, define which object types are allowed for which PPO business process. To do so, in SAP Customizing choose |*Cross-Application Components > General Application Functions \u00bb Postprocessing Office \u00bb Display System"
+    }
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b002",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    254,
+    485,
+    2487,
+    590
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [],
+   "text": "Settings for the Postprocessing Office 3 and select Valid Object Types. For the initial load, define the source object type as a main object and the target object as a basis object.",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b003",
+   "type": "table",
+   "page_number": 30,
+   "bbox": [
+    279,
+    714,
+    2270,
+    857
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    279,
+    728,
+    1174,
+    1621,
+    2067
+   ],
+   "headers": [
+    "Software Component",
+    "Business Process",
+    "Object Role *)",
+    "Object Category",
+    "Object Type"
+   ],
+   "rows": [
+    [
+     "AP-MD",
+     "CVI_ 01",
+     "1",
+     "1 (Business",
+     "KNA1"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Software Component",
+     "Business Process",
+     "Object Role *)",
+     "Object Category",
+     "Object Type"
+    ],
+    [
+     "AP-MD",
+     "CVI_ 01",
+     "1",
+     "1 (Business",
+     "KNA1"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b004",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    1621,
+    877,
+    1776,
+    915
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "text": "Object)",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b005",
+   "type": "table",
+   "page_number": 30,
+   "bbox": [
+    279,
+    985,
+    2228,
+    1025
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    279,
+    728,
+    1175,
+    1624,
+    2069
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "AP-MD",
+     "CVI_01",
+     "2",
+     "1 (Business",
+     "BUS1006"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "AP-MD",
+     "CVI_01",
+     "2",
+     "1 (Business",
+     "BUS1006"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b006",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    1621,
+    1041,
+    1776,
+    1079
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Object)",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b007",
+   "type": "table",
+   "page_number": 30,
+   "bbox": [
+    279,
+    1145,
+    2158,
+    1193
+   ],
+   "ocr_confidence": 93.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    279,
+    728,
+    1177,
+    1624,
+    2070
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "AP-MD",
+     "CVI_ 02",
+     "1",
+     "1 (Business",
+     "LFA1"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "AP-MD",
+     "CVI_ 02",
+     "1",
+     "1 (Business",
+     "LFA1"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b008",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    1621,
+    1205,
+    1776,
+    1243
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Object)",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b009",
+   "type": "table",
+   "page_number": 30,
+   "bbox": [
+    279,
+    1313,
+    2228,
+    1353
+   ],
+   "ocr_confidence": 90.8,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    279,
+    728,
+    1175,
+    1624,
+    2069
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "AP-MD",
+     "CVI_02",
+     "2",
+     "1 (Business",
+     "BUS1006"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "AP-MD",
+     "CVI_02",
+     "2",
+     "1 (Business",
+     "BUS1006"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b010",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    1621,
+    1373,
+    1776,
+    1411
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Object)",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b011",
+   "type": "table",
+   "page_number": 30,
+   "bbox": [
+    279,
+    1478,
+    2228,
+    1517
+   ],
+   "ocr_confidence": 91.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    279,
+    728,
+    1177,
+    1624,
+    2069
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "AP-MD",
+     "CVI_03",
+     "1",
+     "1 (Business",
+     "BUS1006"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "AP-MD",
+     "CVI_03",
+     "1",
+     "1 (Business",
+     "BUS1006"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b012",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    1621,
+    1537,
+    1776,
+    1575
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Object)",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b013",
+   "type": "table",
+   "page_number": 30,
+   "bbox": [
+    279,
+    1642,
+    2158,
+    1682
+   ],
+   "ocr_confidence": 86.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    279,
+    728,
+    1175,
+    1624,
+    2069
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "AP-MD",
+     "CVI_03",
+     "2",
+     "1 (Business",
+     "KNA1"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "AP-MD",
+     "CVI_03",
+     "2",
+     "1 (Business",
+     "KNA1"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b014",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    1621,
+    1701,
+    1776,
+    1740
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Object)",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b015",
+   "type": "table",
+   "page_number": 30,
+   "bbox": [
+    279,
+    1806,
+    2228,
+    1846
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    279,
+    728,
+    1177,
+    1624,
+    2069
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "AP-MD",
+     "CVI_04",
+     "1",
+     "1 (Business",
+     "BUS1006"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "AP-MD",
+     "CVI_04",
+     "1",
+     "1 (Business",
+     "BUS1006"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b016",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    1621,
+    1865,
+    1776,
+    1904
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Object)",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b017",
+   "type": "table",
+   "page_number": 30,
+   "bbox": [
+    279,
+    1971,
+    2158,
+    2010
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    279,
+    728,
+    1175,
+    1624,
+    2070
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "AP-MD",
+     "CVI_04",
+     "2",
+     "1 (Business",
+     "LFA1"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "AP-MD",
+     "CVI_04",
+     "2",
+     "1 (Business",
+     "LFA1"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b018",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    1621,
+    2030,
+    1776,
+    2068
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Object)",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b019",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    254,
+    2187,
+    868,
+    2639
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "*) Object Role: 1 = Main object 2 = Basis object 3 = Environment object 4 = Additional environment object",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b020",
+   "type": "list",
+   "page_number": 30,
+   "bbox": [
+    211,
+    2703,
+    2470,
+    2874
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "As shown in the following table, define which processing methods you want to be available for each object type. To do so, in SAP Customizing choose |}*Cross-Application Components \u00bb General Application Functions \u00bb Postprocessing Office Display System Settings for the Postprocessing Office 5 and select Methods. These processing methods can either be a"
+    }
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b021",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    254,
+    2894,
+    2437,
+    2987
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "method of the related BOR object or a function module you program yourself. If you use your own function module, enter the technical name of the function module.",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b022",
+   "type": "table",
+   "page_number": 30,
+   "bbox": [
+    280,
+    3116,
+    2433,
+    3218
+   ],
+   "ocr_confidence": 88.8,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 7,
+   "column_starts": [
+    280,
+    561,
+    838,
+    1119,
+    1398,
+    1676,
+    1957
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Object Type",
+     "Methods",
+     "Active",
+     "Item",
+     "Function",
+     "Object",
+     "BOR Method _ Description"
+    ],
+    [
+     "Module",
+     "Category *)"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Object Type",
+     "Methods",
+     "Active",
+     "Item",
+     "Function",
+     "Object",
+     "BOR Method _ Description"
+    ],
+    [
+     "Module",
+     "Category *)"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p030_b023",
+   "type": "fragment",
+   "page_number": 30,
+   "bbox": [
+    281,
+    3279,
+    2397,
+    3300
+   ],
+   "ocr_confidence": 44.5,
+   "flags": [
+    "low_confidence_words:6",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "RDIICTNNAG NnTCDI AV YY 41 a NHTCDI AV Na cnilaw",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_104"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 60,
+  "body_stroke_median": 0.1132,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "eaed4c3d7bf90784b6f1a55e865e52ec5fd4c21935e9a6f70f7f9a81a24d89a8"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making Settings for the Postprocessing Office",
+  "Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_104",
+   "role": "continues"
+  }
+ ]
+}

@@ -1,0 +1,175 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 31,
+ "source_page_hash": "8aee8c66f736c959701dccc9b5a56b4a7ed147174ff1873eb69a489adfded2e6",
+ "is_cover_page": false,
+ "title": "SAP Fiori Implementation Information",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n\ne Under Creditworthiness Records, you can enter (create) a creditworthiness record manually. These manual entries you can\nreverse. The system determines the new creditworthiness automatically.\n\nChange documents record any entries or changes that you have made to the manual creditworthiness, as well as changes to the\n\npercentage creditworthiness factor. If there is no data record for the current calendar year, the system automatically creates an\ninitial record. The initial record contains the current calendar year. All other values in the creditworthiness record are blank.\n\nSAP Fiori Implementation Information\n\nIn the SAP Fiori Apps Reference Library, see the details for the Manage Creditworthiness app.\n\n",
+ "cleaned_text": "- Under Creditworthiness Records, you can enter (create) a creditworthiness record manually. These manual entries you can reverse. The system determines the new creditworthiness automatically.\n\nChange documents record any entries or changes that you have made to the manual creditworthiness, as well as changes to the percentage creditworthiness factor. If there is no data record for the current calendar year, the system automatically creates an initial record. The initial record contains the current calendar year. All other values in the creditworthiness record are blank.\n\nSAP Fiori Implementation Information\n\nIn the SAP Fiori Apps Reference Library, see the details for the Manage Creditworthiness app.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p031_b000",
+   "type": "list",
+   "page_number": 31,
+   "bbox": [
+    207,
+    135,
+    2485,
+    235
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Under Creditworthiness Records, you can enter (create) a creditworthiness record manually. These manual entries you can reverse. The system determines the new creditworthiness automatically."
+    }
+   ],
+   "section_id": "doc_026_sec_135"
+  },
+  {
+   "block_id": "doc_026_p031_b001",
+   "type": "paragraph",
+   "page_number": 31,
+   "bbox": [
+    123,
+    319,
+    2436,
+    486
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Change documents record any entries or changes that you have made to the manual creditworthiness, as well as changes to the percentage creditworthiness factor. If there is no data record for the current calendar year, the system automatically creates an initial record. The initial record contains the current calendar year. All other values in the creditworthiness record are blank.",
+   "section_id": "doc_026_sec_135"
+  },
+  {
+   "block_id": "doc_026_p031_b002",
+   "type": "heading",
+   "page_number": 31,
+   "bbox": [
+    124,
+    598,
+    1190,
+    655
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "SAP Fiori Implementation Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_136"
+  },
+  {
+   "block_id": "doc_026_p031_b003",
+   "type": "paragraph",
+   "page_number": 31,
+   "bbox": [
+    125,
+    732,
+    1806,
+    770
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [],
+   "text": "In the SAP Fiori Apps Reference Library, see the details for the Manage Creditworthiness app.",
+   "section_id": "doc_026_sec_136"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "8aee8c66f736c959701dccc9b5a56b4a7ed147174ff1873eb69a489adfded2e6"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Creditworthiness",
+  "Key Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_135",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_136",
+   "role": "starts_here"
+  }
+ ]
+}

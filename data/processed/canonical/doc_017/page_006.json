@@ -1,0 +1,448 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_017",
+ "page_number": 6,
+ "source_page_hash": "c3222e8434d1111da16118131513a61a7a029ed8a40aa4bc3c8d74b695654e4c",
+ "is_cover_page": false,
+ "title": "Payments/Taxes: Incoming Payments and Payments/Taxes:",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\ne Which collective invoice account is used by this contract\naccount together with other contract accounts\n\ne The tax jurisdiction valid for calculation of tax\n(U.S./Canada)\n\ne That no invoice is created as a result of specifying a lock\nreason for a master data record\n\nGeneral DataContract Account: Remarks                                         Remarks about the contract account in various languages\n\nPayments/Taxes: Incoming Payments and Payments/Taxes:\n\nOutgoing Payments                                                                         e That payments are processed using an alternative payer or\n\nalternative payee\ne The payment method that is to apply\n\ne Which bank details are used for incoming and outgoing\npayments\n\ne Which card ID is valid for incoming and outgoing payments\ne Which mandate applies for incoming payments\n\ne The reason for locking the contract account for incoming or\noutgoing payments\n\nSeveral limited-time locks are possible.\n\nPayments/Taxes: Taxes\ne That the withholding tax code is set for incoming and\n\noutgoing payments in the relevant country\n\nThat several characteristics are defined for each tax code,\nsuch as the tax rate\n\ne The number and validity period of the certificate issued for\nexemption from withholding tax.\n\ne For which country a service was provided\n\nYou only have to change the default value here if it differs\nfrom the country key of the business partner's standard\naddress.\n\ne The tax criteria for sorting companies\ne The regional code for automatic address preparation\n\ne The county code for classifying different locations from a\ntax point of view\n\nDunning/Correspondence: Dunning Control\ne That the dunning notices are sent to an alternative dunning\n\nrecipient but that the actual business partner can also\nreceive dunning notices\n\ne The grouping category to which the contract account's\noverdue items are assigned when executing the dunning\nrun\n",
+ "cleaned_text": "- Which collective invoice account is used by this contract account together with other contract accounts\n\n- The tax jurisdiction valid for calculation of tax (U.S./Canada)\n\n- That no invoice is created as a result of specifying a lock reason for a master data record\n\nGeneral DataContract Account: Remarks | Remarks about the contract account in various languages\n\nPayments/Taxes: Incoming Payments and Payments/Taxes:\n\nOutgoing Payments | e That payments are processed using an alternative payer or\n\nalternative payee\n\n- The payment method that is to apply\n\n- Which bank details are used for incoming and outgoing payments\n\n- Which card ID is valid for incoming and outgoing payments\n\n- Which mandate applies for incoming payments\n\n- The reason for locking the contract account for incoming or outgoing payments Several limited-time locks are possible.\n\nPayments/Taxes: Taxes\n\n- That the withholding tax code is set for incoming and outgoing payments in the relevant country That several characteristics are defined for each tax code, such as the tax rate\n\n- The number and validity period of the certificate issued for exemption from withholding tax.\n\n- For which country a service was provided You only have to change the default value here if it differs\n\nfrom the country key of the business partner's standard address.\n\n- The tax criteria for sorting companies\n\n- The regional code for automatic address preparation\n\n- The county code for classifying different locations from a tax point of view\n\nDunning/Correspondence: Dunning Control\n\n- That the dunning notices are sent to an alternative dunning recipient but that the actual business partner can also receive dunning notices\n\n- The grouping category to which the contract account's overdue items are assigned when executing the dunning run",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_017_p006_b000",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    1416,
+    133,
+    2406,
+    529
+   ],
+   "ocr_confidence": 92.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Which collective invoice account is used by this contract account together with other contract accounts"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The tax jurisdiction valid for calculation of tax (U.S./Canada)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That no invoice is created as a result of specifying a lock reason for a master data record"
+    }
+   ],
+   "section_id": "doc_017_sec_027"
+  },
+  {
+   "block_id": "doc_017_p006_b001",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    149,
+    606,
+    2300,
+    641
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1333
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "General DataContract Account: Remarks",
+     "Remarks about the contract account in various languages"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "General DataContract Account: Remarks",
+     "Remarks about the contract account in various languages"
+    ]
+   ],
+   "section_id": "doc_017_sec_027"
+  },
+  {
+   "block_id": "doc_017_p006_b002",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    149,
+    712,
+    1183,
+    747
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "Payments/Taxes: Incoming Payments and Payments/Taxes:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_028"
+  },
+  {
+   "block_id": "doc_017_p006_b003",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    149,
+    747,
+    2449,
+    806
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1416
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Outgoing Payments",
+     "e That payments are processed using an alternative payer or"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Outgoing Payments",
+     "e That payments are processed using an alternative payer or"
+    ]
+   ],
+   "section_id": "doc_017_sec_028"
+  },
+  {
+   "block_id": "doc_017_p006_b004",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    1463,
+    807,
+    1749,
+    842
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "alternative payee",
+   "section_id": "doc_017_sec_028"
+  },
+  {
+   "block_id": "doc_017_p006_b005",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    1416,
+    902,
+    2462,
+    1532
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The payment method that is to apply"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Which bank details are used for incoming and outgoing payments"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Which card ID is valid for incoming and outgoing payments"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Which mandate applies for incoming payments"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The reason for locking the contract account for incoming or outgoing payments Several limited-time locks are possible."
+    }
+   ],
+   "section_id": "doc_017_sec_028"
+  },
+  {
+   "block_id": "doc_017_p006_b006",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    149,
+    1638,
+    553,
+    1673
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "text": "Payments/Taxes: Taxes",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_029"
+  },
+  {
+   "block_id": "doc_017_p006_b007",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    1416,
+    1674,
+    2447,
+    2264
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That the withholding tax code is set for incoming and outgoing payments in the relevant country That several characteristics are defined for each tax code, such as the tax rate"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The number and validity period of the certificate issued for exemption from withholding tax."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "For which country a service was provided You only have to change the default value here if it differs"
+    }
+   ],
+   "section_id": "doc_017_sec_029"
+  },
+  {
+   "block_id": "doc_017_p006_b008",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    1462,
+    2289,
+    2397,
+    2376
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "from the country key of the business partner's standard address.",
+   "section_id": "doc_017_sec_029"
+  },
+  {
+   "block_id": "doc_017_p006_b009",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    1416,
+    2443,
+    2417,
+    2727
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The tax criteria for sorting companies"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The regional code for automatic address preparation"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The county code for classifying different locations from a tax point of view"
+    }
+   ],
+   "section_id": "doc_017_sec_029"
+  },
+  {
+   "block_id": "doc_017_p006_b010",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    149,
+    2834,
+    902,
+    2869
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "text": "Dunning/Correspondence: Dunning Control",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_030"
+  },
+  {
+   "block_id": "doc_017_p006_b011",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    1416,
+    2870,
+    2456,
+    3230
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That the dunning notices are sent to an alternative dunning recipient but that the actual business partner can also receive dunning notices"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The grouping category to which the contract account's overdue items are assigned when executing the dunning run"
+    }
+   ],
+   "section_id": "doc_017_sec_030"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Accounts Overview",
+  "source_pdf": "17.pdf",
+  "reference_pdf": "17_Contract_Accounts_Overview.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Use to connect utility invoicing to receivables, payments and dunning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "c3222e8434d1111da16118131513a61a7a029ed8a40aa4bc3c8d74b695654e4c"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Accounts Overview",
+  "Controlling Specifications in Contract Accounts",
+  "Use",
+  "This is used in interest calculations to determine interest"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_017_sec_027",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_017_sec_028",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_029",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_030",
+   "role": "starts_here"
+  }
+ ]
+}

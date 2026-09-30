@@ -1,0 +1,351 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 116,
+ "source_page_hash": "f8e4e916030101f26acb302f5b9055aa11dfc4129b839cfd78f1865625b1112b",
+ "is_cover_page": false,
+ "title": "Define Control Parameters",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nIn the Proration Day field, enter a new from-date and choose Prorate.\n\nThe system inserts a new line with a new time slice.\n\nPlace the cursor on the line containing the required time slice and choose Select.\n\n19. Choose the Point of Delivery Servicetab.\n\nOnce a move-in has taken place for the installation, to which this POD is allocated, all the services for this POD are\ndisplayed.\n\nYou must have defined the default mechanisms in the Intercompany Data Exchange menu under Services:\n\nServices on the Basis of the Operational Area or Services on the Basis of Provider Relationships.\n\nYou define the default mechanism to be used in Customizing under |}}Intercompany Data Exchange > Basic Settings\nDefine Control Parameters\n\n20. When you have made all the required entries, save the data.\n\nDevice location\n\nDefinition\n\nThese are locations within the connection objects where devices can be installed.\n\nThe devices can belong to different divisions.\n\nThe address of the connection object is allocated to the device location. In addition, a particular premise can also be allocated, and\n\na description of the device location can be entered. This means that the exact location of an installed device is determined using\nthe device location.\n\nUse\n\nThe device location is a functional location from the Plant Maintenance (PM) application component. Therefore, maintenance is\nmanaged using the functions of the Service Management (PM-SMA) component, for example, if you wish to organize the repair\n\nand maintenance of devices at the device location level. Maintenance and repairs are then billed using the Sales and Distribution\n(SD) application component.\n\nServices\n\nDefinition\nUsed to describe a service supplied to a point of delivery .\n\nServices can be billable or non-billable . All the own or external services that are billed and/or invoiced are modeled as contracts in\nSAP IS-U. These contracts are also described as billable services. All other services are non-billable services .\n\nThe most important attributes of services are as follows:\n",
+ "cleaned_text": "In the Proration Day field, enter a new from-date and choose Prorate. The system inserts a new line with a new time slice. Place the cursor on the line containing the required time slice and choose Select.\n\n19 Choose the Point of Delivery Servicetab. Once a move-in has taken place for the installation, to which this POD is allocated, all the services for this POD are displayed.\n\nYou must have defined the default mechanisms in the Intercompany Data Exchange menu under Services: Services on the Basis of the Operational Area or Services on the Basis of Provider Relationships. You define the default mechanism to be used in Customizing under |}}Intercompany Data Exchange > Basic Settings\n\nDefine Control Parameters\n\n20 When you have made all the required entries, save the data.\n\nDevice location\n\nDefinition\n\nThese are locations within the connection objects where devices can be installed. The devices can belong to different divisions. The address of the connection object is allocated to the device location. In addition, a particular premise can also be allocated, and a description of the device location can be entered. This means that the exact location of an installed device is determined using the device location.\n\nUse\n\nThe device location is a functional location from the Plant Maintenance (PM) application component. Therefore, maintenance is managed using the functions of the Service Management (PM-SMA) component, for example, if you wish to organize the repair and maintenance of devices at the device location level. Maintenance and repairs are then billed using the Sales and Distribution (SD) application component.\n\nServices\n\nDefinition\n\nUsed to describe a service supplied to a point of delivery . Services can be billable or non-billable . All the own or external services that are billed and/or invoiced are modeled as contracts in SAP IS-U. These contracts are also described as billable services. All other services are non-billable services . The most important attributes of services are as follows:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p116_b000",
+   "type": "paragraph",
+   "page_number": 116,
+   "bbox": [
+    254,
+    134,
+    1718,
+    376
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "In the Proration Day field, enter a new from-date and choose Prorate. The system inserts a new line with a new time slice. Place the cursor on the line containing the required time slice and choose Select.",
+   "section_id": "doc_001_sec_435"
+  },
+  {
+   "block_id": "doc_001_p116_b001",
+   "type": "list",
+   "page_number": 116,
+   "bbox": [
+    188,
+    443,
+    2311,
+    645
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "19",
+     "text": "Choose the Point of Delivery Servicetab. Once a move-in has taken place for the installation, to which this POD is allocated, all the services for this POD are displayed."
+    }
+   ],
+   "section_id": "doc_001_sec_435"
+  },
+  {
+   "block_id": "doc_001_p116_b002",
+   "type": "paragraph",
+   "page_number": 116,
+   "bbox": [
+    254,
+    709,
+    2369,
+    959
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You must have defined the default mechanisms in the Intercompany Data Exchange menu under Services: Services on the Basis of the Operational Area or Services on the Basis of Provider Relationships. You define the default mechanism to be used in Customizing under |}}Intercompany Data Exchange > Basic Settings",
+   "section_id": "doc_001_sec_435"
+  },
+  {
+   "block_id": "doc_001_p116_b003",
+   "type": "heading",
+   "page_number": 116,
+   "bbox": [
+    265,
+    978,
+    761,
+    1009
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Define Control Parameters",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_436"
+  },
+  {
+   "block_id": "doc_001_p116_b004",
+   "type": "list",
+   "page_number": 116,
+   "bbox": [
+    185,
+    1080,
+    1328,
+    1118
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "20",
+     "text": "When you have made all the required entries, save the data."
+    }
+   ],
+   "section_id": "doc_001_sec_436"
+  },
+  {
+   "block_id": "doc_001_p116_b005",
+   "type": "heading",
+   "page_number": 116,
+   "bbox": [
+    128,
+    1268,
+    671,
+    1328
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Device location",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_437"
+  },
+  {
+   "block_id": "doc_001_p116_b006",
+   "type": "heading",
+   "page_number": 116,
+   "bbox": [
+    126,
+    1443,
+    393,
+    1489
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_438"
+  },
+  {
+   "block_id": "doc_001_p116_b007",
+   "type": "paragraph",
+   "page_number": 116,
+   "bbox": [
+    122,
+    1576,
+    2481,
+    1975
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "These are locations within the connection objects where devices can be installed. The devices can belong to different divisions. The address of the connection object is allocated to the device location. In addition, a particular premise can also be allocated, and a description of the device location can be entered. This means that the exact location of an installed device is determined using the device location.",
+   "section_id": "doc_001_sec_438"
+  },
+  {
+   "block_id": "doc_001_p116_b008",
+   "type": "heading",
+   "page_number": 116,
+   "bbox": [
+    125,
+    2094,
+    225,
+    2140
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_439"
+  },
+  {
+   "block_id": "doc_001_p116_b009",
+   "type": "paragraph",
+   "page_number": 116,
+   "bbox": [
+    122,
+    2227,
+    2454,
+    2455
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The device location is a functional location from the Plant Maintenance (PM) application component. Therefore, maintenance is managed using the functions of the Service Management (PM-SMA) component, for example, if you wish to organize the repair and maintenance of devices at the device location level. Maintenance and repairs are then billed using the Sales and Distribution (SD) application component.",
+   "section_id": "doc_001_sec_439"
+  },
+  {
+   "block_id": "doc_001_p116_b010",
+   "type": "heading",
+   "page_number": 116,
+   "bbox": [
+    126,
+    2601,
+    430,
+    2662
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Services",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_440"
+  },
+  {
+   "block_id": "doc_001_p116_b011",
+   "type": "heading",
+   "page_number": 116,
+   "bbox": [
+    126,
+    2781,
+    393,
+    2826
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_441"
+  },
+  {
+   "block_id": "doc_001_p116_b012",
+   "type": "paragraph",
+   "page_number": 116,
+   "bbox": [
+    122,
+    2907,
+    2487,
+    3257
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Used to describe a service supplied to a point of delivery . Services can be billable or non-billable . All the own or external services that are billed and/or invoiced are modeled as contracts in SAP IS-U. These contracts are also described as billable services. All other services are non-billable services . The most important attributes of services are as follows:",
+   "section_id": "doc_001_sec_441"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "f8e4e916030101f26acb302f5b9055aa11dfc4129b839cfd78f1865625b1112b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Create Technical Point of Delivery",
+  "Use",
+  "Point of Delivery Define Structure of Point of Delivery ID"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_435",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_436",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_437",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_438",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_439",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_440",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_441",
+   "role": "starts_here"
+  }
+ ]
+}

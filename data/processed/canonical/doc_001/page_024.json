@@ -1,0 +1,544 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 24,
+ "source_page_hash": "bb4388e81e4b5e0e2b86970d1c165180b5081b702871a6c77bb3d959ae4a1ded",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\n1. Check if the following settings were made in SAP Customizing under |}Cross-Application Components \u00bb Master Data\nSynchronization Synchronization Control } Synchronization Control\u00bb Synchronization Objects\n\nSyn. Object             Sync. Mode *)         Extractor Class                 Description             Platform                 Block size\n\nBP                        1                         CVI_BP_EXTRACTOR        Business             X                          50\npartner\n\nCustomer       1             CMD _EI API EXTRACT | Customer                      50\n\nVendor                 1                         VMD_EI_API_EXTRACT Vendor                                            50\n\n*) Synchronization mode:\n1 = For synchronous comparison and mass data load\n2 = For synchronous comparison only\n\n3 = For mass data load only\n\n2. Enter the following synchronization options. To do so, in SAP Customizing, choose |\u00bbCross-Application Components\n\nMaster Data Synchronization \u00bb Synchronization Control > Preparatory Steps for Synchronization Control 3 and follow\nthe link \u201csynchronization processes\u201d in the documentation.\n\nA synchronization option represents a combination of a source synchronization object and a target synchronization object.\nThe synchnronization option shows which source synchronization object is synchronized with which target synchronization\n\nobject.\nSource Obj.                           Target Obj.                            Strategy Implementation              Queue Name\nBP                                      Customer                           CVI_STRATEGY BP_CUSTOMER MDS BUPA CUST\nBP                                      Vendor                               CVI_STRATEGY BP_VENDOR       MDS BUPA _VEND\nCustomer                           BP                                      CVI_STRATEGY CUSTOMER BP MDS CUST BUPA\nVendor                               BP                                      CVI_STRATEGY VENDOR _BP        MDS_VEND_ BUPA\n\n3. Make sure that the following queues for background processing of synchronization processes are registered and activated.\nTo do so, in SAP Customizing, choose |/*Cross-Application Components \u00bb Master Data Synchronization\nSynchronization Control \u00bb Preparatory Steps for Synchronization Control \u201cJ and follow the link \u201cqueue processing\u201d in the\ndocumentation.\n\no MDS BUPA CUST*\no MDS BUPA _VEND*\no MDS _CUST BUPA*\n\no MDS _VEND_BUPA*\n\n4. Activate the synchronization options in SAP Customizing under |)}*Cross-Application Components \u00bb Master Data\nSynchronization \u00bb* Synchronization Control \u00bb Synchronization Control \u00bb Activate Synchronization Options 3 as follows:\n\nSource Obj. | Target Obj. | Act. Ind.\n\nRp            Ciicetonmear    XY\n",
+ "cleaned_text": "1 Check if the following settings were made in SAP Customizing under |}Cross-Application Components \u00bb Master Data Synchronization Synchronization Control } Synchronization Control\u00bb Synchronization Objects\n\nSyn. Object | Sync. Mode *) | Extractor Class | Description | Platform | Block size\n\nBP | 1 | CVI_BP_EXTRACTOR | Business | X | 50\n\npartner\n\nCustomer | 1 | CMD _EI API EXTRACT | Customer | 50\n\nVendor | 1 | VMD_EI_API_EXTRACT Vendor | 50\n\n*) Synchronization mode: 1 = For synchronous comparison and mass data load 2 = For synchronous comparison only 3 = For mass data load only\n\n2 Enter the following synchronization options. To do so, in SAP Customizing, choose |\u00bbCross-Application Components Master Data Synchronization \u00bb Synchronization Control > Preparatory Steps for Synchronization Control 3 and follow\n\nthe link \u201csynchronization processes\u201d in the documentation. A synchronization option represents a combination of a source synchronization object and a target synchronization object. The synchnronization option shows which source synchronization object is synchronized with which target synchronization object.\n\nSource Obj. | Target Obj. | Strategy Implementation | Queue Name\n\nBP | Customer | CVI_STRATEGY BP_CUSTOMER MDS BUPA CUST\n\nBP | Vendor | CVI_STRATEGY BP_VENDOR | MDS BUPA _VEND\n\nCustomer | BP | CVI_STRATEGY CUSTOMER BP MDS CUST BUPA\n\nVendor | BP | CVI_STRATEGY VENDOR _BP | MDS_VEND_ BUPA\n\n3 Make sure that the following queues for background processing of synchronization processes are registered and activated. To do so, in SAP Customizing, choose |/*Cross-Application Components \u00bb Master Data Synchronization Synchronization Control \u00bb Preparatory Steps for Synchronization Control \u201cJ and follow the link \u201cqueue processing\u201d in the\n\ndocumentation.\n\n- MDS BUPA CUST*\n\n- MDS BUPA _VEND*\n\n- MDS _CUST BUPA*\n\n- MDS _VEND_BUPA*\n\n4 Activate the synchronization options in SAP Customizing under |)}*Cross-Application Components \u00bb Master Data Synchronization \u00bb* Synchronization Control \u00bb Synchronization Control \u00bb Activate Synchronization Options 3 as follows:\n\nSource Obj. | Target Obj. | Act. Ind.\n\nRp | Ciicetonmear | XY",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p024_b000",
+   "type": "list",
+   "page_number": 24,
+   "bbox": [
+    214,
+    124,
+    2390,
+    216
+   ],
+   "ocr_confidence": 88.4,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Check if the following settings were made in SAP Customizing under |}Cross-Application Components \u00bb Master Data Synchronization Synchronization Control } Synchronization Control\u00bb Synchronization Objects"
+    }
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p024_b001",
+   "type": "table",
+   "page_number": 24,
+   "bbox": [
+    280,
+    323,
+    2339,
+    477
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    280,
+    637,
+    985,
+    1457,
+    1813,
+    2169
+   ],
+   "headers": [
+    "Syn. Object",
+    "Sync. Mode *)",
+    "Extractor Class",
+    "Description",
+    "Platform",
+    "Block size"
+   ],
+   "rows": [
+    [
+     "BP",
+     "1",
+     "CVI_BP_EXTRACTOR",
+     "Business",
+     "X",
+     "50"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Syn. Object",
+     "Sync. Mode *)",
+     "Extractor Class",
+     "Description",
+     "Platform",
+     "Block size"
+    ],
+    [
+     "BP",
+     "1",
+     "CVI_BP_EXTRACTOR",
+     "Business",
+     "X",
+     "50"
+    ]
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p024_b002",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    1458,
+    494,
+    1618,
+    531
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "partner",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p024_b003",
+   "type": "table",
+   "page_number": 24,
+   "bbox": [
+    279,
+    594,
+    2210,
+    742
+   ],
+   "ocr_confidence": 76.0,
+   "flags": [
+    "low_confidence_words:5",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    279,
+    640,
+    983,
+    2169
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Customer",
+     "1",
+     "CMD _EI API EXTRACT | Customer",
+     "50"
+    ],
+    [
+     "Vendor",
+     "1",
+     "VMD_EI_API_EXTRACT Vendor",
+     "50"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Customer",
+     "1",
+     "CMD _EI API EXTRACT | Customer",
+     "50"
+    ],
+    [
+     "Vendor",
+     "1",
+     "VMD_EI_API_EXTRACT Vendor",
+     "50"
+    ]
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p024_b004",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    254,
+    867,
+    1203,
+    1210
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "*) Synchronization mode: 1 = For synchronous comparison and mass data load 2 = For synchronous comparison only 3 = For mass data load only",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p024_b005",
+   "type": "list",
+   "page_number": 24,
+   "bbox": [
+    212,
+    1267,
+    2451,
+    1360
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter the following synchronization options. To do so, in SAP Customizing, choose |\u00bbCross-Application Components Master Data Synchronization \u00bb Synchronization Control > Preparatory Steps for Synchronization Control 3 and follow"
+    }
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p024_b006",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    254,
+    1363,
+    2482,
+    1621
+   ],
+   "ocr_confidence": 90.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "the link \u201csynchronization processes\u201d in the documentation. A synchronization option represents a combination of a source synchronization object and a target synchronization object. The synchnronization option shows which source synchronization object is synchronized with which target synchronization object.",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p024_b007",
+   "type": "table",
+   "page_number": 24,
+   "bbox": [
+    279,
+    1746,
+    2273,
+    2204
+   ],
+   "ocr_confidence": 79.2,
+   "flags": [
+    "low_confidence_words:7",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    279,
+    817,
+    1356,
+    1969
+   ],
+   "headers": [
+    "Source Obj.",
+    "Target Obj.",
+    "Strategy Implementation",
+    "Queue Name"
+   ],
+   "rows": [
+    [
+     "BP",
+     "Customer",
+     "CVI_STRATEGY BP_CUSTOMER MDS BUPA CUST"
+    ],
+    [
+     "BP",
+     "Vendor",
+     "CVI_STRATEGY BP_VENDOR",
+     "MDS BUPA _VEND"
+    ],
+    [
+     "Customer",
+     "BP",
+     "CVI_STRATEGY CUSTOMER BP MDS CUST BUPA"
+    ],
+    [
+     "Vendor",
+     "BP",
+     "CVI_STRATEGY VENDOR _BP",
+     "MDS_VEND_ BUPA"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Source Obj.",
+     "Target Obj.",
+     "Strategy Implementation",
+     "Queue Name"
+    ],
+    [
+     "BP",
+     "Customer",
+     "CVI_STRATEGY BP_CUSTOMER MDS BUPA CUST"
+    ],
+    [
+     "BP",
+     "Vendor",
+     "CVI_STRATEGY BP_VENDOR",
+     "MDS BUPA _VEND"
+    ],
+    [
+     "Customer",
+     "BP",
+     "CVI_STRATEGY CUSTOMER BP MDS CUST BUPA"
+    ],
+    [
+     "Vendor",
+     "BP",
+     "CVI_STRATEGY VENDOR _BP",
+     "MDS_VEND_ BUPA"
+    ]
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p024_b008",
+   "type": "list",
+   "page_number": 24,
+   "bbox": [
+    211,
+    2322,
+    2479,
+    2457
+   ],
+   "ocr_confidence": 91.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Make sure that the following queues for background processing of synchronization processes are registered and activated. To do so, in SAP Customizing, choose |/*Cross-Application Components \u00bb Master Data Synchronization Synchronization Control \u00bb Preparatory Steps for Synchronization Control \u201cJ and follow the link \u201cqueue processing\u201d in the"
+    }
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p024_b009",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    255,
+    2464,
+    540,
+    2494
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "documentation.",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p024_b010",
+   "type": "list",
+   "page_number": 24,
+   "bbox": [
+    211,
+    2557,
+    2458,
+    3061
+   ],
+   "ocr_confidence": 75.2,
+   "flags": [
+    "low_confidence_words:12"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "MDS BUPA CUST*"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "MDS BUPA _VEND*"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "MDS _CUST BUPA*"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "MDS _VEND_BUPA*"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Activate the synchronization options in SAP Customizing under |)}*Cross-Application Components \u00bb Master Data Synchronization \u00bb* Synchronization Control \u00bb Synchronization Control \u00bb Activate Synchronization Options 3 as follows:"
+    }
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p024_b011",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    280,
+    3168,
+    919,
+    3211
+   ],
+   "ocr_confidence": 81.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Source Obj. | Target Obj. | Act. Ind.",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p024_b012",
+   "type": "table",
+   "page_number": 24,
+   "bbox": [
+    281,
+    3272,
+    799,
+    3300
+   ],
+   "ocr_confidence": 61.4,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continued_on_next_page:p25",
+    "continued_on_next_page:p25"
+   ],
+   "columns": 3,
+   "column_starts": [
+    281,
+    530,
+    779
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Rp",
+     "Ciicetonmear",
+     "XY"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Rp",
+     "Ciicetonmear",
+     "XY"
+    ]
+   ],
+   "section_id": "doc_001_sec_100"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 50,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 85,
+   "page_hash": "bb4388e81e4b5e0e2b86970d1c165180b5081b702871a6c77bb3d959ae4a1ded"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making Settings for Customer/Vendor Integration",
+  "Context"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_100",
+   "role": "continues"
+  }
+ ]
+}

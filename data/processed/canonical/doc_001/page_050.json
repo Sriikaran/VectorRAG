@@ -1,0 +1,419 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 50,
+ "source_page_hash": "90ed7b7f03594561f3cf551496d04681b31831fb38b6fc068806e7dddf6ce292",
+ "is_cover_page": false,
+ "title": "BAPIs for Central Business Partner (1S-U)",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nYou need the role ISUI and the role category ISUI for the BP role Installer (IS-U).\n\nIn addition to the address data, you can also enter status management and general data using this role. In the general data you can\ndefine data such as license for certain divisions, operating purpose of the company and the identification number of the license. In\n\nthe status management you can define data such as the type of license and the date of the initial license.\n\nBAPIs for Central Business Partner (1S-U)\n\nUse\n\nThe Business Object Repository (BOR) contains the following Business Application Programming Interface (BAPIs) for the\nbusiness partner:\n\ne UtilBusinessPartner.CreateFromData (Creating a Business Partner)\ne UtilBusinessPartner.Change (Changing a business partner)\ne UtilBusinessPartner.GetDetail (Displaying a business partner)\n\ne UtilBusinessPartner.GetList (Displaying a business partner)\nFor more information about BAPIs see the following documentation:\n\ne See the BAPI user manual and the BAPI Programming Guide\n\ne For more detailed information, see the documentation of the individual BAPIs in BOR.\n\nMerging Business Partners (IS-U)\n\nPurpose\n\ni Note\n\nNote that you can only use the functions described in this documentation section (Merging Business Partners (IS-U)), if you\nare using the industry solution SAP S/4HANA Utilities.\n\nYou can use the business partner merging function in connection with the central business partner (SAP application component\nCA-BP Contract Accounting \u2014 Business Partner) and Contract Accounts Receivable and Payable (FI-CA Financial Accounting -\n\nContract Accounting).\n\nImplementation Considerations\n\nThe following SAP notes contain more information about business partner merging:\n\nTitle of SAP Note                                         SAP Note\nFAQs for Transferring Open Items (FP40)          616098\n\nIS-U Transactions and Batch Input                  432178\n",
+ "cleaned_text": "You need the role ISUI and the role category ISUI for the BP role Installer (IS-U). In addition to the address data, you can also enter status management and general data using this role. In the general data you can define data such as license for certain divisions, operating purpose of the company and the identification number of the license. In the status management you can define data such as the type of license and the date of the initial license.\n\nBAPIs for Central Business Partner (1S-U)\n\nUse\n\nThe Business Object Repository (BOR) contains the following Business Application Programming Interface (BAPIs) for the business partner:\n\n- UtilBusinessPartner.CreateFromData (Creating a Business Partner)\n\n- UtilBusinessPartner.Change (Changing a business partner)\n\n- UtilBusinessPartner.GetDetail (Displaying a business partner)\n\n- UtilBusinessPartner.GetList (Displaying a business partner)\n\nFor more information about BAPIs see the following documentation:\n\n- See the BAPI user manual and the BAPI Programming Guide\n\n- For more detailed information, see the documentation of the individual BAPIs in BOR.\n\nMerging Business Partners (IS-U)\n\nPurpose\n\ni Note Note that you can only use the functions described in this documentation section (Merging Business Partners (IS-U)), if you are using the industry solution SAP S/4HANA Utilities.\n\nYou can use the business partner merging function in connection with the central business partner (SAP application component CA-BP Contract Accounting \u2014 Business Partner) and Contract Accounts Receivable and Payable (FI-CA Financial Accounting - Contract Accounting).\n\nImplementation Considerations\n\nThe following SAP notes contain more information about business partner merging:\n\nTitle of SAP Note | SAP Note\n\nFAQs for Transferring Open Items (FP40) | 616098\n\nIS-U Transactions and Batch Input | 432178",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p050_b000",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    122,
+    134,
+    2485,
+    422
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "You need the role ISUI and the role category ISUI for the BP role Installer (IS-U). In addition to the address data, you can also enter status management and general data using this role. In the general data you can define data such as license for certain divisions, operating purpose of the company and the identification number of the license. In the status management you can define data such as the type of license and the date of the initial license.",
+   "section_id": "doc_001_sec_157"
+  },
+  {
+   "block_id": "doc_001_p050_b001",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    128,
+    567,
+    1628,
+    644
+   ],
+   "ocr_confidence": 80.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "BAPIs for Central Business Partner (1S-U)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_158"
+  },
+  {
+   "block_id": "doc_001_p050_b002",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    124,
+    720,
+    191,
+    749
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_159"
+  },
+  {
+   "block_id": "doc_001_p050_b003",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    122,
+    841,
+    2335,
+    941
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The Business Object Repository (BOR) contains the following Business Application Programming Interface (BAPIs) for the business partner:",
+   "section_id": "doc_001_sec_159"
+  },
+  {
+   "block_id": "doc_001_p050_b004",
+   "type": "list",
+   "page_number": 50,
+   "bbox": [
+    207,
+    1024,
+    1471,
+    1371
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "UtilBusinessPartner.CreateFromData (Creating a Business Partner)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "UtilBusinessPartner.Change (Changing a business partner)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "UtilBusinessPartner.GetDetail (Displaying a business partner)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "UtilBusinessPartner.GetList (Displaying a business partner)"
+    }
+   ],
+   "section_id": "doc_001_sec_159"
+  },
+  {
+   "block_id": "doc_001_p050_b005",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    125,
+    1455,
+    1352,
+    1493
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "text": "For more information about BAPIs see the following documentation:",
+   "section_id": "doc_001_sec_159"
+  },
+  {
+   "block_id": "doc_001_p050_b006",
+   "type": "list",
+   "page_number": 50,
+   "bbox": [
+    207,
+    1577,
+    1796,
+    1712
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "See the BAPI user manual and the BAPI Programming Guide"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "For more detailed information, see the documentation of the individual BAPIs in BOR."
+    }
+   ],
+   "section_id": "doc_001_sec_159"
+  },
+  {
+   "block_id": "doc_001_p050_b007",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    128,
+    1865,
+    1338,
+    1941
+   ],
+   "ocr_confidence": 91.5,
+   "flags": [],
+   "text": "Merging Business Partners (IS-U)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_160"
+  },
+  {
+   "block_id": "doc_001_p050_b008",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    126,
+    2042,
+    352,
+    2098
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Purpose",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_161"
+  },
+  {
+   "block_id": "doc_001_p050_b009",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    151,
+    2190,
+    2392,
+    2373
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "i Note Note that you can only use the functions described in this documentation section (Merging Business Partners (IS-U)), if you are using the industry solution SAP S/4HANA Utilities.",
+   "section_id": "doc_001_sec_161"
+  },
+  {
+   "block_id": "doc_001_p050_b010",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    123,
+    2493,
+    2442,
+    2659
+   ],
+   "ocr_confidence": 92.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You can use the business partner merging function in connection with the central business partner (SAP application component CA-BP Contract Accounting \u2014 Business Partner) and Contract Accounts Receivable and Payable (FI-CA Financial Accounting - Contract Accounting).",
+   "section_id": "doc_001_sec_161"
+  },
+  {
+   "block_id": "doc_001_p050_b011",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    127,
+    2770,
+    1012,
+    2828
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Implementation Considerations",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_162"
+  },
+  {
+   "block_id": "doc_001_p050_b012",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    122,
+    2900,
+    1634,
+    2938
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The following SAP notes contain more information about business partner merging:",
+   "section_id": "doc_001_sec_162"
+  },
+  {
+   "block_id": "doc_001_p050_b013",
+   "type": "table",
+   "page_number": 50,
+   "bbox": [
+    147,
+    3047,
+    1122,
+    3296
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    147,
+    957
+   ],
+   "headers": [
+    "Title of SAP Note",
+    "SAP Note"
+   ],
+   "rows": [
+    [
+     "FAQs for Transferring Open Items (FP40)",
+     "616098"
+    ],
+    [
+     "IS-U Transactions and Batch Input",
+     "432178"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Title of SAP Note",
+     "SAP Note"
+    ],
+    [
+     "FAQs for Transferring Open Items (FP40)",
+     "616098"
+    ],
+    [
+     "IS-U Transactions and Batch Input",
+     "432178"
+    ]
+   ],
+   "section_id": "doc_001_sec_162"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "90ed7b7f03594561f3cf551496d04681b31831fb38b6fc068806e7dddf6ce292"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "GP Role Installer (IS-U)",
+  "Definition"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_157",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_158",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_159",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_160",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_161",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_162",
+   "role": "starts_here"
+  }
+ ]
+}

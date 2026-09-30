@@ -1,0 +1,349 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 70,
+ "source_page_hash": "667af2909506b142b354e7e5a25af149f35a2d12426f55b1e82053865ba89e15",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nFeatures\n\nOn the initial screen you can choose whether the meter reading results:\n\ne Are to be deleted\n\nMeter reading orders, meter reading results, and billing orders are deleted. New meter reading orders are created when\nmeter reading order creation is carried out again.\n\ne Arenot to be deleted\n\nOnly meter reading orders and billing orders are deleted, not meter reading results. When meter reading order creation is\ncarried out again, ew meter reading orders are only created for devices that were not read. No new meter reading orders are\ncreated for devices that have already been read, as the corresponding meter reading results were not deleted.\n\nMeter reading orders and results that have already been billed can only be reversed if the corresponding billing documents have\n\nbeen reversed first. You can find the reversal transactions for Billing in the Utilities Industry menu under |}Billing > Billing\nExecution \u00bb Reversal\n\nMeter reading results that were entered during installation, replacement, or removal of devices can only be reversed in the\nrespective reversal transactions for installation, replacement, or removal. They can then be deleted. You can find the reversal\ntransactions for installation/replacement/removal in the Utilities Industry menu under |}}Device Management * Installation\n\nMonitoring\n\nPurpose\n\nThis component offers you a variety of information to enable you to monitor meter reading entry and status. For example, you can\ntrack the number of meter reading results entered, implausible meter reading results, or meter reading results to be billed. You can\ndisplay meter reading results by business partner, meter reading units, or periods. You have the following options:\n\ne Manual Monitoring\ne Automatic monitoring\n\ne Meter reading results from IDoc\n\nYou enter a creation date or an |IDoc number to obtain a list of IDocs for your search. If you select and |Doc number, you obtain a\nlist of meter reading data stored in the |Doc. If you select an entry with status Plausible , the meter reading result you selected is\n\ndisplayed. If you select an entry with status Implausible , you branch to the screen for correction of implausible results.\n\nIf you select an entry with status Error , you branch to the screen for individual entry of results\n\nImplementation considerations\n\nThis component is optional. However, it can be used to quickly obtain information about current meter reading status.\n\nMonitoring of Meter Reading Results\n",
+ "cleaned_text": "Features\n\nOn the initial screen you can choose whether the meter reading results:\n\n- Are to be deleted Meter reading orders, meter reading results, and billing orders are deleted. New meter reading orders are created when meter reading order creation is carried out again.\n\n- Arenot to be deleted Only meter reading orders and billing orders are deleted, not meter reading results. When meter reading order creation is carried out again, ew meter reading orders are only created for devices that were not read. No new meter reading orders are created for devices that have already been read, as the corresponding meter reading results were not deleted.\n\nMeter reading orders and results that have already been billed can only be reversed if the corresponding billing documents have been reversed first. You can find the reversal transactions for Billing in the Utilities Industry menu under |}Billing > Billing Execution \u00bb Reversal Meter reading results that were entered during installation, replacement, or removal of devices can only be reversed in the respective reversal transactions for installation, replacement, or removal. They can then be deleted. You can find the reversal transactions for installation/replacement/removal in the Utilities Industry menu under |}}Device Management * Installation\n\nMonitoring\n\nPurpose\n\nThis component offers you a variety of information to enable you to monitor meter reading entry and status. For example, you can track the number of meter reading results entered, implausible meter reading results, or meter reading results to be billed. You can display meter reading results by business partner, meter reading units, or periods. You have the following options:\n\n- Manual Monitoring\n\n- Automatic monitoring\n\n- Meter reading results from IDoc\n\nYou enter a creation date or an |IDoc number to obtain a list of IDocs for your search. If you select and |Doc number, you obtain a list of meter reading data stored in the |Doc. If you select an entry with status Plausible , the meter reading result you selected is displayed. If you select an entry with status Implausible , you branch to the screen for correction of implausible results. If you select an entry with status Error , you branch to the screen for individual entry of results\n\nImplementation considerations\n\nThis component is optional. However, it can be used to quickly obtain information about current meter reading status.\n\nMonitoring of Meter Reading Results",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p070_b000",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    126,
+    127,
+    361,
+    172
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_168"
+  },
+  {
+   "block_id": "doc_006_p070_b001",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    123,
+    259,
+    1409,
+    297
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "On the initial screen you can choose whether the meter reading results:",
+   "section_id": "doc_006_sec_168"
+  },
+  {
+   "block_id": "doc_006_p070_b002",
+   "type": "list",
+   "page_number": 70,
+   "bbox": [
+    207,
+    381,
+    2488,
+    915
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Are to be deleted Meter reading orders, meter reading results, and billing orders are deleted. New meter reading orders are created when meter reading order creation is carried out again."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Arenot to be deleted Only meter reading orders and billing orders are deleted, not meter reading results. When meter reading order creation is carried out again, ew meter reading orders are only created for devices that were not read. No new meter reading orders are created for devices that have already been read, as the corresponding meter reading results were not deleted."
+    }
+   ],
+   "section_id": "doc_006_sec_168"
+  },
+  {
+   "block_id": "doc_006_p070_b003",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    122,
+    998,
+    2430,
+    1415
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "Meter reading orders and results that have already been billed can only be reversed if the corresponding billing documents have been reversed first. You can find the reversal transactions for Billing in the Utilities Industry menu under |}Billing > Billing Execution \u00bb Reversal Meter reading results that were entered during installation, replacement, or removal of devices can only be reversed in the respective reversal transactions for installation, replacement, or removal. They can then be deleted. You can find the reversal transactions for installation/replacement/removal in the Utilities Industry menu under |}}Device Management * Installation",
+   "section_id": "doc_006_sec_168"
+  },
+  {
+   "block_id": "doc_006_p070_b004",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    128,
+    1561,
+    519,
+    1636
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Monitoring",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_169"
+  },
+  {
+   "block_id": "doc_006_p070_b005",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    126,
+    1737,
+    352,
+    1793
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "Purpose",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_170"
+  },
+  {
+   "block_id": "doc_006_p070_b006",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    122,
+    1869,
+    2480,
+    2031
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "This component offers you a variety of information to enable you to monitor meter reading entry and status. For example, you can track the number of meter reading results entered, implausible meter reading results, or meter reading results to be billed. You can display meter reading results by business partner, meter reading units, or periods. You have the following options:",
+   "section_id": "doc_006_sec_170"
+  },
+  {
+   "block_id": "doc_006_p070_b007",
+   "type": "list",
+   "page_number": 70,
+   "bbox": [
+    207,
+    2119,
+    829,
+    2360
+   ],
+   "ocr_confidence": 90.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Manual Monitoring"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Automatic monitoring"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Meter reading results from IDoc"
+    }
+   ],
+   "section_id": "doc_006_sec_170"
+  },
+  {
+   "block_id": "doc_006_p070_b008",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    123,
+    2440,
+    2440,
+    2731
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You enter a creation date or an |IDoc number to obtain a list of IDocs for your search. If you select and |Doc number, you obtain a list of meter reading data stored in the |Doc. If you select an entry with status Plausible , the meter reading result you selected is displayed. If you select an entry with status Implausible , you branch to the screen for correction of implausible results. If you select an entry with status Error , you branch to the screen for individual entry of results",
+   "section_id": "doc_006_sec_170"
+  },
+  {
+   "block_id": "doc_006_p070_b009",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    127,
+    2844,
+    1002,
+    2900
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Implementation considerations",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_171"
+  },
+  {
+   "block_id": "doc_006_p070_b010",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    122,
+    2976,
+    2251,
+    3014
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "This component is optional. However, it can be used to quickly obtain information about current meter reading status.",
+   "section_id": "doc_006_sec_171"
+  },
+  {
+   "block_id": "doc_006_p070_b011",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    128,
+    3161,
+    1447,
+    3236
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Monitoring of Meter Reading Results",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_172"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "667af2909506b142b354e7e5a25af149f35a2d12426f55b1e82053865ba89e15"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Reversal",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_168",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_169",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_170",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_171",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_172",
+   "role": "starts_here"
+  }
+ ]
+}

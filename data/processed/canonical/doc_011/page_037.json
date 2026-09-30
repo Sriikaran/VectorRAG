@@ -1,0 +1,458 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 37,
+ "source_page_hash": "c4818a514dbbc8bebef40d27a199ff002becaf18e3ca8dcbb08070b767ecc070",
+ "is_cover_page": false,
+ "title": "More Information",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nMore Information\n\nExample: RTP Interface and Rate\n\nExample: RTP Interface and Rate\n\nThe RTP interface HTNTMAX is used to determine the following billing values from a measured consumption profile (15-minute\ninterval):\n\ne On-peak consumption\nThe total consumption in a period from 06:00:00 to 21:59:59 hours.\ne Off-peak consumption\nThe total consumption in a period from 10:00:00 PM to 5:59:59 AM hours.\n\ne Maximum demand value\n\nDefine the following result parameters in the RTP interface:\n\nNo.                            Description                 Function                     Operand Category\nool                            On-peak consumption | SUM                           QUANT\n\n002                            Off-peak consumption | SUM                           QUANT\n\n003                            Maximum demand         PEAK                          DEMAND\n\nYou allocate formula COPYQ1 to an RTP interface.\n\nThis formula has an input parameter with the profile value category quantity.\n\nThe formula has two output parameters: One output parameter is from profile value category quantity, to which the input\nparameter values are copied. The other output parameter is from profile value category demand, in which the input parameter\n\nvalues are converted into demand values.\n\nIn addition, the following RTP components are required:\n\nComponent                                       Description                                       Priority                                              Activation Type\n\nON/OFF                                     Calculation of On-Peak/Off-           1                                               Use and activate generally\nPeak Consumption\n\nMAX                                        Determine Max. Demand              2                                            Use and activate generally\n\n(E)RTP Interface RTP1\nGARTP Component ON/OFF\n\ne RTP Component Code On-Peak Consumption\n",
+ "cleaned_text": "More Information\n\nExample: RTP Interface and Rate\n\nExample: RTP Interface and Rate\n\nThe RTP interface HTNTMAX is used to determine the following billing values from a measured consumption profile (15-minute interval):\n\n- On-peak consumption The total consumption in a period from 06:00:00 to 21:59:59 hours.\n\n- Off-peak consumption The total consumption in a period from 10:00:00 PM to 5:59:59 AM hours.\n\n- Maximum demand value\n\nDefine the following result parameters in the RTP interface:\n\nNo. | Description | Function | Operand Category\n\nool | On-peak consumption | SUM | QUANT\n\n002 | Off-peak consumption | SUM | QUANT\n\n003 | Maximum demand | PEAK | DEMAND\n\nYou allocate formula COPYQ1 to an RTP interface. This formula has an input parameter with the profile value category quantity. The formula has two output parameters: One output parameter is from profile value category quantity, to which the input parameter values are copied. The other output parameter is from profile value category demand, in which the input parameter values are converted into demand values. In addition, the following RTP components are required:\n\nComponent | Description | Priority | Activation Type\n\nON/OFF | Calculation of On-Peak/Off- | 1 | Use and activate generally\n\nPeak Consumption\n\nMAX | Determine Max. Demand | 2 | Use and activate generally\n\n(E)RTP Interface RTP1 GARTP Component ON/OFF\n\n- RTP Component Code On-Peak Consumption",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p037_b000",
+   "type": "heading",
+   "page_number": 37,
+   "bbox": [
+    126,
+    126,
+    611,
+    172
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "More Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_106"
+  },
+  {
+   "block_id": "doc_011_p037_b001",
+   "type": "heading",
+   "page_number": 37,
+   "bbox": [
+    125,
+    259,
+    716,
+    297
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Example: RTP Interface and Rate",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_106"
+  },
+  {
+   "block_id": "doc_011_p037_b002",
+   "type": "heading",
+   "page_number": 37,
+   "bbox": [
+    128,
+    443,
+    1312,
+    519
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Example: RTP Interface and Rate",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_107"
+  },
+  {
+   "block_id": "doc_011_p037_b003",
+   "type": "paragraph",
+   "page_number": 37,
+   "bbox": [
+    122,
+    594,
+    2420,
+    694
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "The RTP interface HTNTMAX is used to determine the following billing values from a measured consumption profile (15-minute interval):",
+   "section_id": "doc_011_sec_107"
+  },
+  {
+   "block_id": "doc_011_p037_b004",
+   "type": "list",
+   "page_number": 37,
+   "bbox": [
+    207,
+    778,
+    1597,
+    1219
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "On-peak consumption The total consumption in a period from 06:00:00 to 21:59:59 hours."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Off-peak consumption The total consumption in a period from 10:00:00 PM to 5:59:59 AM hours."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Maximum demand value"
+    }
+   ],
+   "section_id": "doc_011_sec_107"
+  },
+  {
+   "block_id": "doc_011_p037_b005",
+   "type": "paragraph",
+   "page_number": 37,
+   "bbox": [
+    125,
+    1311,
+    1190,
+    1348
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Define the following result parameters in the RTP interface:",
+   "section_id": "doc_011_sec_107"
+  },
+  {
+   "block_id": "doc_011_p037_b006",
+   "type": "table",
+   "page_number": 37,
+   "bbox": [
+    148,
+    1453,
+    1738,
+    1804
+   ],
+   "ocr_confidence": 92.0,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    148,
+    573,
+    997,
+    1420
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "No.",
+     "Description",
+     "Function",
+     "Operand Category"
+    ],
+    [
+     "ool",
+     "On-peak consumption | SUM",
+     "QUANT"
+    ],
+    [
+     "002",
+     "Off-peak consumption | SUM",
+     "QUANT"
+    ],
+    [
+     "003",
+     "Maximum demand",
+     "PEAK",
+     "DEMAND"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "No.",
+     "Description",
+     "Function",
+     "Operand Category"
+    ],
+    [
+     "ool",
+     "On-peak consumption | SUM",
+     "QUANT"
+    ],
+    [
+     "002",
+     "Off-peak consumption | SUM",
+     "QUANT"
+    ],
+    [
+     "003",
+     "Maximum demand",
+     "PEAK",
+     "DEMAND"
+    ]
+   ],
+   "section_id": "doc_011_sec_107"
+  },
+  {
+   "block_id": "doc_011_p037_b007",
+   "type": "paragraph",
+   "page_number": 37,
+   "bbox": [
+    122,
+    1920,
+    2407,
+    2452
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "You allocate formula COPYQ1 to an RTP interface. This formula has an input parameter with the profile value category quantity. The formula has two output parameters: One output parameter is from profile value category quantity, to which the input parameter values are copied. The other output parameter is from profile value category demand, in which the input parameter values are converted into demand values. In addition, the following RTP components are required:",
+   "section_id": "doc_011_sec_107"
+  },
+  {
+   "block_id": "doc_011_p037_b008",
+   "type": "table",
+   "page_number": 37,
+   "bbox": [
+    148,
+    2557,
+    2363,
+    2701
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    148,
+    740,
+    1332,
+    1922
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Component",
+     "Description",
+     "Priority",
+     "Activation Type"
+    ],
+    [
+     "ON/OFF",
+     "Calculation of On-Peak/Off-",
+     "1",
+     "Use and activate generally"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Component",
+     "Description",
+     "Priority",
+     "Activation Type"
+    ],
+    [
+     "ON/OFF",
+     "Calculation of On-Peak/Off-",
+     "1",
+     "Use and activate generally"
+    ]
+   ],
+   "section_id": "doc_011_sec_107"
+  },
+  {
+   "block_id": "doc_011_p037_b009",
+   "type": "paragraph",
+   "page_number": 37,
+   "bbox": [
+    741,
+    2725,
+    1055,
+    2760
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Peak Consumption",
+   "section_id": "doc_011_sec_107"
+  },
+  {
+   "block_id": "doc_011_p037_b010",
+   "type": "table",
+   "page_number": 37,
+   "bbox": [
+    150,
+    2830,
+    2363,
+    2865
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    150,
+    741,
+    1331,
+    1924
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MAX",
+     "Determine Max. Demand",
+     "2",
+     "Use and activate generally"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MAX",
+     "Determine Max. Demand",
+     "2",
+     "Use and activate generally"
+    ]
+   ],
+   "section_id": "doc_011_sec_107"
+  },
+  {
+   "block_id": "doc_011_p037_b011",
+   "type": "paragraph",
+   "page_number": 37,
+   "bbox": [
+    121,
+    2972,
+    648,
+    3144
+   ],
+   "ocr_confidence": 72.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "(E)RTP Interface RTP1 GARTP Component ON/OFF",
+   "section_id": "doc_011_sec_107"
+  },
+  {
+   "block_id": "doc_011_p037_b012",
+   "type": "list",
+   "page_number": 37,
+   "bbox": [
+    207,
+    3219,
+    1088,
+    3257
+   ],
+   "ocr_confidence": 89.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "RTP Component Code On-Peak Consumption"
+    }
+   ],
+   "section_id": "doc_011_sec_107"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "c4818a514dbbc8bebef40d27a199ff002becaf18e3ca8dcbb08070b767ecc070"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Allocate RTP Interface to Rate",
+  "More Information"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_106",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_107",
+   "role": "starts_here"
+  }
+ ]
+}

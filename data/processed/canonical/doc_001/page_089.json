@@ -1,0 +1,355 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 89,
+ "source_page_hash": "9a6dd12adbd0f8ac83804ed64d657ea8d9b466a35b9758e130034bfd718dd1e9",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nThe function is useful because it enables lets you cross-check all of the required contracts of a contract account, so you can easily\nenter and change the data that is the same in one step.\n\nPrerequisites\n\nFor the contract, you need\n\ne Acontract account that exists\n\ne That a move-in has been completed\n\n1 Note\n\nYou can find the move-in under |+Utilities Industry \u00bb Customer Service > Process Execution \u00bb Move-In\n\nFeatures\n\nTo access multiple-contract maintenance, enter the contract account. You can determine the contract account key by using the\ndata finder (|)}Environment \u00bb Find Conract Account *%\u00a7) or with the F4 search help.\n\nOn the detail screen, by positioning the cursor on a specific contract, you can branch to the full screen of that contract.\n\nIn addition to the standard functions, you have the option of switching from the detail screen to display mode or to change mode,\nrequesting another contract account for processing, or executing the overall check.\n\nYou can branch to other IS-U objects (such as the installation or the contract account) by double-clicking the relevant field.\n\nYou can only change entries that can also be changed in the normal contract maintenance screen (|}Utilities Industry Master\nData \u00bb Business Contract \u00bb Change 3). You ca change the remaining contract fields using the functions Move-In, Move-Out, and\nMove-In/Out (|}Utilities Industry \u00bb Customer Service \u00bb Process Execution 3).\n\nHandling the Exact Move-In and Move-Out Time\n\nThe utilities contract has a duration that starts on the move-in date and ends on the move-out date. Some business requirements\nmay require the exact move-in and move-out time to be observed.\n\nExample\n\nExample of a move-in:\n\ne Theutilities contract has the move-in date: 2022-07-22.\n\ne Thecustomer enters the premise at 10:15 on 2022-07-22, meaning that the service starts at 10:15, but not at 00:00.\n\nExample of a move-out:\n\ne The utilities contract has the move-out date: 2023-02-25.\n\ne The customer leaves the premise at 16:00 on 2023-02-25; meaning that the service ends at 16:00, but not at 23:59.\n",
+ "cleaned_text": "The function is useful because it enables lets you cross-check all of the required contracts of a contract account, so you can easily enter and change the data that is the same in one step.\n\nPrerequisites For the contract, you need\n\n- Acontract account that exists\n\n- That a move-in has been completed\n\nNote You can find the move-in under |+Utilities Industry \u00bb Customer Service > Process Execution \u00bb Move-In\n\nFeatures\n\nTo access multiple-contract maintenance, enter the contract account. You can determine the contract account key by using the data finder (|)}Environment \u00bb Find Conract Account *%\u00a7) or with the F4 search help. On the detail screen, by positioning the cursor on a specific contract, you can branch to the full screen of that contract. In addition to the standard functions, you have the option of switching from the detail screen to display mode or to change mode, requesting another contract account for processing, or executing the overall check. You can branch to other IS-U objects (such as the installation or the contract account) by double-clicking the relevant field. You can only change entries that can also be changed in the normal contract maintenance screen (|}Utilities Industry Master Data \u00bb Business Contract \u00bb Change 3). You ca change the remaining contract fields using the functions Move-In, Move-Out, and Move-In/Out (|}Utilities Industry \u00bb Customer Service \u00bb Process Execution 3).\n\nHandling the Exact Move-In and Move-Out Time\n\nThe utilities contract has a duration that starts on the move-in date and ends on the move-out date. Some business requirements may require the exact move-in and move-out time to be observed.\n\nExample Example of a move-in:\n\n- Theutilities contract has the move-in date: 2022-07-22.\n\n- Thecustomer enters the premise at 10:15 on 2022-07-22, meaning that the service starts at 10:15, but not at 00:00.\n\nExample of a move-out:\n\n- The utilities contract has the move-out date: 2023-02-25.\n\n- The customer leaves the premise at 16:00 on 2023-02-25; meaning that the service ends at 16:00, but not at 23:59.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    847,
+    310,
+    884
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p089_b000",
+   "type": "paragraph",
+   "page_number": 89,
+   "bbox": [
+    122,
+    134,
+    2473,
+    235
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The function is useful because it enables lets you cross-check all of the required contracts of a contract account, so you can easily enter and change the data that is the same in one step.",
+   "section_id": "doc_001_sec_343"
+  },
+  {
+   "block_id": "doc_001_p089_b001",
+   "type": "paragraph",
+   "page_number": 89,
+   "bbox": [
+    125,
+    347,
+    594,
+    517
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Prerequisites For the contract, you need",
+   "section_id": "doc_001_sec_343"
+  },
+  {
+   "block_id": "doc_001_p089_b002",
+   "type": "list",
+   "page_number": 89,
+   "bbox": [
+    207,
+    601,
+    900,
+    740
+   ],
+   "ocr_confidence": 77.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Acontract account that exists"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That a move-in has been completed"
+    }
+   ],
+   "section_id": "doc_001_sec_343"
+  },
+  {
+   "block_id": "doc_001_p089_b003",
+   "type": "note",
+   "page_number": 89,
+   "bbox": [
+    151,
+    847,
+    2019,
+    969
+   ],
+   "ocr_confidence": 85.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "label": "Note",
+   "text": "Note You can find the move-in under |+Utilities Industry \u00bb Customer Service > Process Execution \u00bb Move-In",
+   "section_id": "doc_001_sec_343"
+  },
+  {
+   "block_id": "doc_001_p089_b004",
+   "type": "heading",
+   "page_number": 89,
+   "bbox": [
+    126,
+    1109,
+    361,
+    1154
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_344"
+  },
+  {
+   "block_id": "doc_001_p089_b005",
+   "type": "paragraph",
+   "page_number": 89,
+   "bbox": [
+    122,
+    1242,
+    2454,
+    2026
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "text": "To access multiple-contract maintenance, enter the contract account. You can determine the contract account key by using the data finder (|)}Environment \u00bb Find Conract Account *%\u00a7) or with the F4 search help. On the detail screen, by positioning the cursor on a specific contract, you can branch to the full screen of that contract. In addition to the standard functions, you have the option of switching from the detail screen to display mode or to change mode, requesting another contract account for processing, or executing the overall check. You can branch to other IS-U objects (such as the installation or the contract account) by double-clicking the relevant field. You can only change entries that can also be changed in the normal contract maintenance screen (|}Utilities Industry Master Data \u00bb Business Contract \u00bb Change 3). You ca change the remaining contract fields using the functions Move-In, Move-Out, and Move-In/Out (|}Utilities Industry \u00bb Customer Service \u00bb Process Execution 3).",
+   "section_id": "doc_001_sec_344"
+  },
+  {
+   "block_id": "doc_001_p089_b006",
+   "type": "heading",
+   "page_number": 89,
+   "bbox": [
+    128,
+    2167,
+    1848,
+    2244
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Handling the Exact Move-In and Move-Out Time",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_345"
+  },
+  {
+   "block_id": "doc_001_p089_b007",
+   "type": "paragraph",
+   "page_number": 89,
+   "bbox": [
+    122,
+    2319,
+    2461,
+    2419
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The utilities contract has a duration that starts on the move-in date and ends on the move-out date. Some business requirements may require the exact move-in and move-out time to be observed.",
+   "section_id": "doc_001_sec_345"
+  },
+  {
+   "block_id": "doc_001_p089_b008",
+   "type": "example",
+   "page_number": 89,
+   "bbox": [
+    125,
+    2532,
+    517,
+    2702
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Example Example of a move-in:",
+   "section_id": "doc_001_sec_345"
+  },
+  {
+   "block_id": "doc_001_p089_b009",
+   "type": "list",
+   "page_number": 89,
+   "bbox": [
+    207,
+    2785,
+    2348,
+    2925
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Theutilities contract has the move-in date: 2022-07-22."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Thecustomer enters the premise at 10:15 on 2022-07-22, meaning that the service starts at 10:15, but not at 00:00."
+    }
+   ],
+   "section_id": "doc_001_sec_345"
+  },
+  {
+   "block_id": "doc_001_p089_b010",
+   "type": "paragraph",
+   "page_number": 89,
+   "bbox": [
+    125,
+    3009,
+    545,
+    3047
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "text": "Example of a move-out:",
+   "section_id": "doc_001_sec_345"
+  },
+  {
+   "block_id": "doc_001_p089_b011",
+   "type": "list",
+   "page_number": 89,
+   "bbox": [
+    207,
+    3134,
+    2342,
+    3273
+   ],
+   "ocr_confidence": 90.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The utilities contract has the move-out date: 2023-02-25."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The customer leaves the premise at 16:00 on 2023-02-25; meaning that the service ends at 16:00, but not at 23:59."
+    }
+   ],
+   "section_id": "doc_001_sec_345"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "9a6dd12adbd0f8ac83804ed64d657ea8d9b466a35b9758e130034bfd718dd1e9"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Multiple Contract Change"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_343",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_344",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_345",
+   "role": "starts_here"
+  }
+ ]
+}

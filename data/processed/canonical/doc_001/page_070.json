@@ -1,0 +1,495 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 70,
+ "source_page_hash": "ac92a534df8b495c496683e93bb73babce425c61c8a3c1acff6d582f8118846d",
+ "is_cover_page": false,
+ "title": "This is used in interest calculations to determine interest",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\ne That all items posted to the account receive a clearing\nrestriction\n\nThis has the effect that these items can only be cleared by\nspecific business transactions (for example, year-end\nsettlement in a utilities company)\n\ne The tolerance limits that apply to outstanding payments\ne The underlying clearing category for clearing postings\n\ne The planning group that the business partner belongs to\nand how many additional days are taken into consideration\nbefore an open item is paid (cash management)\n\ne That an interest key applies at contract account level\n\nThis is used in interest calculations to determine interest\nfrequency, amount limits and transfer and tolerance days\nas long as no other interest key has been defined at a more\nspecific level.\n\nGeneral Datalnvoice Creation                                                                     a                                  oo\ne That invoices are sent to an alternative invoice recipient\n\ne Which collective invoice account is used by this contract\naccount together with other contract accounts\n\ne The tax jurisdiction valid for calculation of tax\n(U.S./Canada)\n\ne That no invoice is created as a result of specifying a lock\nreason for a master data record\n\nGeneral DataContract Account: Remarks                                         Remarks about the contract account in various languages\n\nPayments/Taxes: Incoming Payments and Payments/Taxes:\n\nOutgoing Payments                                                                         e That payments are processed using an alternative payer or\n\nalternative payee\ne The payment method that is to apply\n\ne Which bank details are used for incoming and outgoing\npayments\n\ne Which card ID is valid for incoming and outgoing payments\ne Which mandate applies for incoming payments\n\ne The reason for locking the contract account for incoming or\noutgoing payments\n\nSeveral limited-time locks are possible.\n\nPayments/Taxes: Taxes\ne That the withholding tax code is set for incoming and\n\noutgoing payments in the relevant country\n\nThat several characteristics are defined for each tax code,\nsuch as the tax rate\n",
+ "cleaned_text": "- That all items posted to the account receive a clearing restriction\n\nThis has the effect that these items can only be cleared by specific business transactions (for example, year-end settlement in a utilities company)\n\n- The tolerance limits that apply to outstanding payments\n\n- The underlying clearing category for clearing postings\n\n- The planning group that the business partner belongs to and how many additional days are taken into consideration before an open item is paid (cash management)\n\n- That an interest key applies at contract account level\n\nThis is used in interest calculations to determine interest\n\nfrequency, amount limits and transfer and tolerance days as long as no other interest key has been defined at a more specific level.\n\nGeneral Datalnvoice Creation | a | oo\n\n- That invoices are sent to an alternative invoice recipient\n\n- Which collective invoice account is used by this contract account together with other contract accounts\n\n- The tax jurisdiction valid for calculation of tax (U.S./Canada)\n\n- That no invoice is created as a result of specifying a lock reason for a master data record\n\nGeneral DataContract Account: Remarks | Remarks about the contract account in various languages\n\nPayments/Taxes: Incoming Payments and Payments/Taxes:\n\nOutgoing Payments | e That payments are processed using an alternative payer or\n\nalternative payee\n\n- The payment method that is to apply\n\n- Which bank details are used for incoming and outgoing payments\n\n- Which card ID is valid for incoming and outgoing payments\n\n- Which mandate applies for incoming payments\n\n- The reason for locking the contract account for incoming or outgoing payments Several limited-time locks are possible.\n\nPayments/Taxes: Taxes\n\n- That the withholding tax code is set for incoming and outgoing payments in the relevant country That several characteristics are defined for each tax code, such as the tax rate",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p070_b000",
+   "type": "list",
+   "page_number": 70,
+   "bbox": [
+    1416,
+    133,
+    2369,
+    221
+   ],
+   "ocr_confidence": 90.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That all items posted to the account receive a clearing restriction"
+    }
+   ],
+   "section_id": "doc_001_sec_261"
+  },
+  {
+   "block_id": "doc_001_p070_b001",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    1463,
+    287,
+    2436,
+    441
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "This has the effect that these items can only be cleared by specific business transactions (for example, year-end settlement in a utilities company)",
+   "section_id": "doc_001_sec_261"
+  },
+  {
+   "block_id": "doc_001_p070_b002",
+   "type": "list",
+   "page_number": 70,
+   "bbox": [
+    1416,
+    501,
+    2448,
+    937
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The tolerance limits that apply to outstanding payments"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The underlying clearing category for clearing postings"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The planning group that the business partner belongs to and how many additional days are taken into consideration before an open item is paid (cash management)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That an interest key applies at contract account level"
+    }
+   ],
+   "section_id": "doc_001_sec_261"
+  },
+  {
+   "block_id": "doc_001_p070_b003",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    1463,
+    997,
+    2414,
+    1025
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "This is used in interest calculations to determine interest",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_262"
+  },
+  {
+   "block_id": "doc_001_p070_b004",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    1462,
+    1056,
+    2450,
+    1209
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "frequency, amount limits and transfer and tolerance days as long as no other interest key has been defined at a more specific level.",
+   "section_id": "doc_001_sec_262"
+  },
+  {
+   "block_id": "doc_001_p070_b005",
+   "type": "table",
+   "page_number": 70,
+   "bbox": [
+    149,
+    1313,
+    2196,
+    1353
+   ],
+   "ocr_confidence": 58.8,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    149,
+    1551,
+    2068
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "General Datalnvoice Creation",
+     "a",
+     "oo"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "General Datalnvoice Creation",
+     "a",
+     "oo"
+    ]
+   ],
+   "section_id": "doc_001_sec_262"
+  },
+  {
+   "block_id": "doc_001_p070_b006",
+   "type": "list",
+   "page_number": 70,
+   "bbox": [
+    1416,
+    1349,
+    2406,
+    1837
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That invoices are sent to an alternative invoice recipient"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Which collective invoice account is used by this contract account together with other contract accounts"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The tax jurisdiction valid for calculation of tax (U.S./Canada)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That no invoice is created as a result of specifying a lock reason for a master data record"
+    }
+   ],
+   "section_id": "doc_001_sec_262"
+  },
+  {
+   "block_id": "doc_001_p070_b007",
+   "type": "table",
+   "page_number": 70,
+   "bbox": [
+    149,
+    1953,
+    2300,
+    1988
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1333
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "General DataContract Account: Remarks",
+     "Remarks about the contract account in various languages"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "General DataContract Account: Remarks",
+     "Remarks about the contract account in various languages"
+    ]
+   ],
+   "section_id": "doc_001_sec_262"
+  },
+  {
+   "block_id": "doc_001_p070_b008",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    149,
+    2059,
+    1183,
+    2094
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "text": "Payments/Taxes: Incoming Payments and Payments/Taxes:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_263"
+  },
+  {
+   "block_id": "doc_001_p070_b009",
+   "type": "table",
+   "page_number": 70,
+   "bbox": [
+    149,
+    2095,
+    2449,
+    2153
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1416
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Outgoing Payments",
+     "e That payments are processed using an alternative payer or"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Outgoing Payments",
+     "e That payments are processed using an alternative payer or"
+    ]
+   ],
+   "section_id": "doc_001_sec_263"
+  },
+  {
+   "block_id": "doc_001_p070_b010",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    1463,
+    2154,
+    1749,
+    2189
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "alternative payee",
+   "section_id": "doc_001_sec_263"
+  },
+  {
+   "block_id": "doc_001_p070_b011",
+   "type": "list",
+   "page_number": 70,
+   "bbox": [
+    1416,
+    2249,
+    2462,
+    2878
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The payment method that is to apply"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Which bank details are used for incoming and outgoing payments"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Which card ID is valid for incoming and outgoing payments"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Which mandate applies for incoming payments"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The reason for locking the contract account for incoming or outgoing payments Several limited-time locks are possible."
+    }
+   ],
+   "section_id": "doc_001_sec_263"
+  },
+  {
+   "block_id": "doc_001_p070_b012",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    149,
+    2985,
+    554,
+    3020
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [],
+   "text": "Payments/Taxes: Taxes",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_264"
+  },
+  {
+   "block_id": "doc_001_p070_b013",
+   "type": "list",
+   "page_number": 70,
+   "bbox": [
+    1416,
+    3021,
+    2431,
+    3262
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That the withholding tax code is set for incoming and outgoing payments in the relevant country That several characteristics are defined for each tax code, such as the tax rate"
+    }
+   ],
+   "section_id": "doc_001_sec_264"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "ac92a534df8b495c496683e93bb73babce425c61c8a3c1acff6d582f8118846d"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Controlling Specifications in Contract Accounts",
+  "Features",
+  "General DataAccount Management Data"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_261",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_262",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_263",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_264",
+   "role": "starts_here"
+  }
+ ]
+}

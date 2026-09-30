@@ -1,0 +1,341 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 41,
+ "source_page_hash": "da6e79139559d797de2a4dcc2980b873d3347e2bc8a1bbcef6a9160499180441",
+ "is_cover_page": false,
+ "title": "Consumption Billing Based on Profile Values in the SAP System",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nConsumption Billing Based on Profile Values in the SAP System\n\nUse\n\nWithin an advanced metering infrastructure, consumption profiles are managed in a meter data unification and synchronization\n(MDUS) system.\n\nYou can import the profile values into the SAP system from the MDUS system for further processing in consumption billing. We\nrecommend that you use the time-of-use (TOU) interface for consumption billing, and the procedure described below uses the\nTOU interface.\n\nFor more information about using the RTP interface, see RTP Billing.\n\nPrerequisites\nThe business function Advanced Metering Infrastructure 2 (ISU_AMI_ 2) is active.\nYou are familiar with the basics of billing (see Contract Billing) and importing profile values (see Energy Data Management).\n\nIf you want to use the TOU interface for consumption billing based on profile values in the SAP system, you must select the\nindicator Profile Can Be Billed with TOU Interface for these profiles.\n\nThe profiles must meet the following conditions:\n\ne The profile category that belongs to the profile type is Elementary Profile.\ne The interval length ID has the value 05, 10, 15, 30, or 60.\ne The profile value category has the value Quantity or Demand.\n\ne The profile is not allocated a replacement value procedure group.\n\ne The profile is not allocated a consistency check group.\ne The day offset has the value 00:00:00.\n\ne The Cumulative Values indicator is not selected.\n\nThe profile values must have one of the following statuses:\n\ne Value is valid (IUO12)\n\ne Value was estimated (IU013)\n\ne Value entered/changed manually (IUO15)\ne Value was extrapolated (IUO20)\n\ne Value was interpolated (IU021)\n\ne Value manually changed externally (IUO22)\n\nBilling Procedure\n",
+ "cleaned_text": "Consumption Billing Based on Profile Values in the SAP System\n\nUse\n\nWithin an advanced metering infrastructure, consumption profiles are managed in a meter data unification and synchronization (MDUS) system. You can import the profile values into the SAP system from the MDUS system for further processing in consumption billing. We recommend that you use the time-of-use (TOU) interface for consumption billing, and the procedure described below uses the TOU interface. For more information about using the RTP interface, see RTP Billing.\n\nPrerequisites\n\nThe business function Advanced Metering Infrastructure 2 (ISU_AMI_ 2) is active. You are familiar with the basics of billing (see Contract Billing) and importing profile values (see Energy Data Management). If you want to use the TOU interface for consumption billing based on profile values in the SAP system, you must select the indicator Profile Can Be Billed with TOU Interface for these profiles. The profiles must meet the following conditions:\n\n- The profile category that belongs to the profile type is Elementary Profile.\n\n- The interval length ID has the value 05, 10, 15, 30, or 60.\n\n- The profile value category has the value Quantity or Demand.\n\n- The profile is not allocated a replacement value procedure group.\n\n- The profile is not allocated a consistency check group.\n\n- The day offset has the value 00:00:00.\n\n- The Cumulative Values indicator is not selected.\n\nThe profile values must have one of the following statuses:\n\n- Value is valid (IUO12)\n\n- Value was estimated (IU013)\n\n- Value entered/changed manually (IUO15)\n\n- Value was extrapolated (IUO20)\n\n- Value was interpolated (IU021)\n\n- Value manually changed externally (IUO22)\n\nBilling Procedure",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p041_b000",
+   "type": "heading",
+   "page_number": 41,
+   "bbox": [
+    125,
+    130,
+    2411,
+    207
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Consumption Billing Based on Profile Values in the SAP System",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_116"
+  },
+  {
+   "block_id": "doc_011_p041_b001",
+   "type": "heading",
+   "page_number": 41,
+   "bbox": [
+    125,
+    307,
+    225,
+    352
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_117"
+  },
+  {
+   "block_id": "doc_011_p041_b002",
+   "type": "paragraph",
+   "page_number": 41,
+   "bbox": [
+    122,
+    440,
+    2428,
+    912
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Within an advanced metering infrastructure, consumption profiles are managed in a meter data unification and synchronization (MDUS) system. You can import the profile values into the SAP system from the MDUS system for further processing in consumption billing. We recommend that you use the time-of-use (TOU) interface for consumption billing, and the procedure described below uses the TOU interface. For more information about using the RTP interface, see RTP Billing.",
+   "section_id": "doc_011_sec_117"
+  },
+  {
+   "block_id": "doc_011_p041_b003",
+   "type": "heading",
+   "page_number": 41,
+   "bbox": [
+    126,
+    1023,
+    492,
+    1080
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_118"
+  },
+  {
+   "block_id": "doc_011_p041_b004",
+   "type": "paragraph",
+   "page_number": 41,
+   "bbox": [
+    122,
+    1154,
+    2352,
+    1627
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "The business function Advanced Metering Infrastructure 2 (ISU_AMI_ 2) is active. You are familiar with the basics of billing (see Contract Billing) and importing profile values (see Energy Data Management). If you want to use the TOU interface for consumption billing based on profile values in the SAP system, you must select the indicator Profile Can Be Billed with TOU Interface for these profiles. The profiles must meet the following conditions:",
+   "section_id": "doc_011_sec_118"
+  },
+  {
+   "block_id": "doc_011_p041_b005",
+   "type": "list",
+   "page_number": 41,
+   "bbox": [
+    207,
+    1711,
+    1591,
+    2356
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The profile category that belongs to the profile type is Elementary Profile."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The interval length ID has the value 05, 10, 15, 30, or 60."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The profile value category has the value Quantity or Demand."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The profile is not allocated a replacement value procedure group."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The profile is not allocated a consistency check group."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The day offset has the value 00:00:00."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The Cumulative Values indicator is not selected."
+    }
+   ],
+   "section_id": "doc_011_sec_118"
+  },
+  {
+   "block_id": "doc_011_p041_b006",
+   "type": "paragraph",
+   "page_number": 41,
+   "bbox": [
+    122,
+    2447,
+    1177,
+    2485
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "The profile values must have one of the following statuses:",
+   "section_id": "doc_011_sec_118"
+  },
+  {
+   "block_id": "doc_011_p041_b007",
+   "type": "list",
+   "page_number": 41,
+   "bbox": [
+    207,
+    2568,
+    1034,
+    3119
+   ],
+   "ocr_confidence": 86.1,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Value is valid (IUO12)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Value was estimated (IU013)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Value entered/changed manually (IUO15)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Value was extrapolated (IUO20)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Value was interpolated (IU021)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Value manually changed externally (IUO22)"
+    }
+   ],
+   "section_id": "doc_011_sec_118"
+  },
+  {
+   "block_id": "doc_011_p041_b008",
+   "type": "heading",
+   "page_number": 41,
+   "bbox": [
+    126,
+    3231,
+    601,
+    3288
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Billing Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_119"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "da6e79139559d797de2a4dcc2980b873d3347e2bc8a1bbcef6a9160499180441"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Consumption Billing Based on Profile Values in the SAP System"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_116",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_117",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_118",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_119",
+   "role": "starts_here"
+  }
+ ]
+}

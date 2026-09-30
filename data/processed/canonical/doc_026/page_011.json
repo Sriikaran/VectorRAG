@@ -1,0 +1,332 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 11,
+ "source_page_hash": "4389a87ff9f20415b37eaf08fbf69cb37ad7bc4bf09b0a932835462d84f6fc24",
+ "is_cover_page": false,
+ "title": "Prerequisites",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n\nOnce you have configured the dunning parameters described, the system can identify overdue receivables in the system and dun\nyour business partners.\n\nPrerequisites\n\nTo prevent you from dunning receivables that have already been paid, you should keep your postings as up-to-date as possible.\nThis means that you should ensure that all payments received have been posted in the system and cleared with the receivables\ndue (for example, using the automatic clearing program in the SAP Easy Access screen under |)sPeriodic Processing \u00bb For\nContract Accounts \u00bb Automatic Clearing 4; transaction FPMA).\n\nProcess\n\nIn Contract Accounts Receivable and Payable, you dun receivables in a dunning run. Executing a dunning run involves two partial\nsteps:\n\n1. Dunning proposal run in the SAP Easy Access screen, under |}sPeriodic Processing \u00bb For Contract Accounts \u00bb Dunning\nDunning Proposal Run % (transaction FPVA)\n\n2. Dunning activity run in the SAP Easy Access screen, under {Periodic Processing For Contract Accounts \u00bb Dunning\nDunning Activity Run J (transaction FPVB)\n\nIn the first step, the dunning proposal run determines:\n\ne Thecontract accounts to be dunned, together with the items due for dunning\ne The valid dunning procedure and the related dunning levels for the individual items\n\ne The dunning groupings in which the items are to be summarized\n\nTo determine the dunning balance, the dunning proposal run adds the amounts of the items with the highest dunning level ina\ndunning grouping and compares this total with the amount limit for the applicable dunning level. If the amount limit is not reached,\nthe program adds the total of the amounts for the items with the next lowest dunning level to the total and compares this total with\n\nthe amount limit for this dunning level. The procedure continues until the amount limit for a dunning level is reached. Dunning\ntakes place in the dunning level, for which the amount limit was reached.\n\n1 Note\n\nAdditional receivables that were posted as dunning charges or dunning interest can therefore be included in a dunning run as if\nthey had the dunning level of the dunning notice in which they were created. Therefore, when you group according to dunning\nlevel, the receivables and additional receivables appear in the same group. To activate this function, in Customizing, set the\n\nDunning Level indicator in the Rule for Additional Receivables (see Customizing for Contract Accounts Receivable and Payable\nunder |Business Transactions \u00bb Additional Receivables \u00bb Rules for Additional Receivables %).\n\nThe program uses this information to create a dunning proposal structured by dunning groups. The result of the dunning proposal\nis processed further in the dunning activity run. In the second step, the dunning activity run first determines the dunning activities\nrequired depending on the dunning level of the items due for dunning and then performs these activities. You can specify the\n\nfrequency in which you want to carry out dunning runs. Dunning proposal runs and dunning activity runs can be executed in\nparallel and therefore enable you to process large quantities of data.\n\nThe dunning proposal run proposes a reconciliation key for the documents posted during dunning. You can change this proposal\nmanually. The dunning activity run only uses this reconciliation key if the run ID agrees with that of the dunning proposal run.\n",
+ "cleaned_text": "Once you have configured the dunning parameters described, the system can identify overdue receivables in the system and dun your business partners.\n\nPrerequisites\n\nTo prevent you from dunning receivables that have already been paid, you should keep your postings as up-to-date as possible. This means that you should ensure that all payments received have been posted in the system and cleared with the receivables due (for example, using the automatic clearing program in the SAP Easy Access screen under |)sPeriodic Processing \u00bb For Contract Accounts \u00bb Automatic Clearing 4; transaction FPMA).\n\nProcess\n\nIn Contract Accounts Receivable and Payable, you dun receivables in a dunning run. Executing a dunning run involves two partial steps:\n\n1 Dunning proposal run in the SAP Easy Access screen, under |}sPeriodic Processing \u00bb For Contract Accounts \u00bb Dunning Dunning Proposal Run % (transaction FPVA)\n\n2 Dunning activity run in the SAP Easy Access screen, under {Periodic Processing For Contract Accounts \u00bb Dunning Dunning Activity Run J (transaction FPVB)\n\nIn the first step, the dunning proposal run determines:\n\n- Thecontract accounts to be dunned, together with the items due for dunning\n\n- The valid dunning procedure and the related dunning levels for the individual items\n\n- The dunning groupings in which the items are to be summarized\n\nTo determine the dunning balance, the dunning proposal run adds the amounts of the items with the highest dunning level ina dunning grouping and compares this total with the amount limit for the applicable dunning level. If the amount limit is not reached, the program adds the total of the amounts for the items with the next lowest dunning level to the total and compares this total with the amount limit for this dunning level. The procedure continues until the amount limit for a dunning level is reached. Dunning takes place in the dunning level, for which the amount limit was reached.\n\nNote Additional receivables that were posted as dunning charges or dunning interest can therefore be included in a dunning run as if they had the dunning level of the dunning notice in which they were created. Therefore, when you group according to dunning level, the receivables and additional receivables appear in the same group. To activate this function, in Customizing, set the Dunning Level indicator in the Rule for Additional Receivables (see Customizing for Contract Accounts Receivable and Payable under |Business Transactions \u00bb Additional Receivables \u00bb Rules for Additional Receivables %).\n\nThe program uses this information to create a dunning proposal structured by dunning groups. The result of the dunning proposal is processed further in the dunning activity run. In the second step, the dunning activity run first determines the dunning activities required depending on the dunning level of the items due for dunning and then performs these activities. You can specify the frequency in which you want to carry out dunning runs. Dunning proposal runs and dunning activity runs can be executed in parallel and therefore enable you to process large quantities of data. The dunning proposal run proposes a reconciliation key for the documents posted during dunning. You can change this proposal manually. The dunning activity run only uses this reconciliation key if the run ID agrees with that of the dunning proposal run.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    2342,
+    310,
+    2379
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p011_b000",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    122,
+    134,
+    2449,
+    235
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Once you have configured the dunning parameters described, the system can identify overdue receivables in the system and dun your business partners.",
+   "section_id": "doc_026_sec_045"
+  },
+  {
+   "block_id": "doc_026_p011_b001",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    126,
+    347,
+    492,
+    403
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_046"
+  },
+  {
+   "block_id": "doc_026_p011_b002",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    122,
+    480,
+    2418,
+    715
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "To prevent you from dunning receivables that have already been paid, you should keep your postings as up-to-date as possible. This means that you should ensure that all payments received have been posted in the system and cleared with the receivables due (for example, using the automatic clearing program in the SAP Easy Access screen under |)sPeriodic Processing \u00bb For Contract Accounts \u00bb Automatic Clearing 4; transaction FPMA).",
+   "section_id": "doc_026_sec_046"
+  },
+  {
+   "block_id": "doc_026_p011_b003",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    126,
+    823,
+    342,
+    868
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Process",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_047"
+  },
+  {
+   "block_id": "doc_026_p011_b004",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    123,
+    952,
+    2435,
+    1056
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "In Contract Accounts Receivable and Payable, you dun receivables in a dunning run. Executing a dunning run involves two partial steps:",
+   "section_id": "doc_026_sec_047"
+  },
+  {
+   "block_id": "doc_026_p011_b005",
+   "type": "list",
+   "page_number": 11,
+   "bbox": [
+    212,
+    1135,
+    2406,
+    1415
+   ],
+   "ocr_confidence": 88.5,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Dunning proposal run in the SAP Easy Access screen, under |}sPeriodic Processing \u00bb For Contract Accounts \u00bb Dunning Dunning Proposal Run % (transaction FPVA)"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Dunning activity run in the SAP Easy Access screen, under {Periodic Processing For Contract Accounts \u00bb Dunning Dunning Activity Run J (transaction FPVB)"
+    }
+   ],
+   "section_id": "doc_026_sec_047"
+  },
+  {
+   "block_id": "doc_026_p011_b006",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    125,
+    1498,
+    1097,
+    1536
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "In the first step, the dunning proposal run determines:",
+   "section_id": "doc_026_sec_047"
+  },
+  {
+   "block_id": "doc_026_p011_b007",
+   "type": "list",
+   "page_number": 11,
+   "bbox": [
+    207,
+    1620,
+    1749,
+    1861
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Thecontract accounts to be dunned, together with the items due for dunning"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The valid dunning procedure and the related dunning levels for the individual items"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The dunning groupings in which the items are to be summarized"
+    }
+   ],
+   "section_id": "doc_026_sec_047"
+  },
+  {
+   "block_id": "doc_026_p011_b008",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    122,
+    1944,
+    2487,
+    2235
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "To determine the dunning balance, the dunning proposal run adds the amounts of the items with the highest dunning level ina dunning grouping and compares this total with the amount limit for the applicable dunning level. If the amount limit is not reached, the program adds the total of the amounts for the items with the next lowest dunning level to the total and compares this total with the amount limit for this dunning level. The procedure continues until the amount limit for a dunning level is reached. Dunning takes place in the dunning level, for which the amount limit was reached.",
+   "section_id": "doc_026_sec_047"
+  },
+  {
+   "block_id": "doc_026_p011_b009",
+   "type": "note",
+   "page_number": 11,
+   "bbox": [
+    151,
+    2342,
+    2459,
+    2713
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "label": "Note",
+   "text": "Note Additional receivables that were posted as dunning charges or dunning interest can therefore be included in a dunning run as if they had the dunning level of the dunning notice in which they were created. Therefore, when you group according to dunning level, the receivables and additional receivables appear in the same group. To activate this function, in Customizing, set the Dunning Level indicator in the Rule for Additional Receivables (see Customizing for Contract Accounts Receivable and Payable under |Business Transactions \u00bb Additional Receivables \u00bb Rules for Additional Receivables %).",
+   "section_id": "doc_026_sec_047"
+  },
+  {
+   "block_id": "doc_026_p011_b010",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    122,
+    2829,
+    2471,
+    3300
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "The program uses this information to create a dunning proposal structured by dunning groups. The result of the dunning proposal is processed further in the dunning activity run. In the second step, the dunning activity run first determines the dunning activities required depending on the dunning level of the items due for dunning and then performs these activities. You can specify the frequency in which you want to carry out dunning runs. Dunning proposal runs and dunning activity runs can be executed in parallel and therefore enable you to process large quantities of data. The dunning proposal run proposes a reconciliation key for the documents posted during dunning. You can change this proposal manually. The dunning activity run only uses this reconciliation key if the run ID agrees with that of the dunning proposal run.",
+   "section_id": "doc_026_sec_047"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "4389a87ff9f20415b37eaf08fbf69cb37ad7bc4bf09b0a932835462d84f6fc24"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Calculation of Interest and Charges According to Fiscal Code",
+  "Activities",
+  "Additional Receivables"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_045",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_046",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_047",
+   "role": "starts_here"
+  }
+ ]
+}

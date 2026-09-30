@@ -1,0 +1,187 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 34,
+ "source_page_hash": "c10035102a99c7c5835162b712f2f6131209e9587537b4c17c6106bf22235b6e",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\u00b0  Late) Input Parameter 1 01 Measured Value\n\n\u00b0  Late) Input Parameter 2 02 First Limit Value as Quantity\n\n\u00b0  ste) Input Parameter 3 03 Second Limit Value as Quantity\no [k*@ Output Parameter 1 01 Portion Below First Limit\n\n\u00b0  ee Output Parameter 2 02 Portion Above First Limit\n\n\u00b0  [ee Output Parameter 3 03 Portion Above Second Limit\n\no [kg Output Parameter 4 04 Demand Above Limit 1\n\u00a2 GbyG@RTP Component Code Winter Weekend\n\u00b0  Le Input Parameter 1 01 Measured Value\n\u00b0  Late) Input Parameter 2 O2 First Limit Value as Quantity\n\u00b0  ste) Input Parameter 3 03 Second Limit Value as Quantity\no {Ike Output Parameter 1 01 Portion Below First Limit\no [kG Output Parameter 2 02 Portion Above First Limit\n\n\u00b0  ee Output Parameter 3 03 Portion Above Second Limit\n\n\u00b0  [> @ Output Parameter 4 04 Demand Above Limit 1\ne GByG@RTP Component Code Default\no |f\u00e9*@ Input Parameter 1 01 Measured Value\n\u00b0  ste) Input Parameter 2 O2 First Limit Value as Quantity\n\u00b0  Le Input Parameter 3 03 Second Limit Value as Quantity\n\u00b0  ee Output Parameter 1 01 Portion Below First Limit\n\u00b0  [> @ Output Parameter 2 O02 Portion Above First Limit\n\no [kG Output Parameter 3 03 Portion Above Second Limit\n\no |e @ Output Parameter 4 04 Demand Above Limit 1\n\n1 Note\n\nThe symbols have the following meaning:\nGy No parameters yet allocated\n@ Parameters allocated\n\n\u00a34, Parameter templates defined\n\nThe component codes originate from Defining RTP Components.\n\nThe component code Default is also available. You should always make the parameter allocations for this component code if you\n",
+ "cleaned_text": "\u00b0 Late) Input Parameter 1 01 Measured Value \u00b0 Late) Input Parameter 2 02 First Limit Value as Quantity \u00b0 ste) Input Parameter 3 03 Second Limit Value as Quantity o [k*@ Output Parameter 1 01 Portion Below First Limit \u00b0 ee Output Parameter 2 02 Portion Above First Limit \u00b0 [ee Output Parameter 3 03 Portion Above Second Limit o [kg Output Parameter 4 04 Demand Above Limit 1 \u00a2 GbyG@RTP Component Code Winter Weekend \u00b0 Le Input Parameter 1 01 Measured Value \u00b0 Late) Input Parameter 2 O2 First Limit Value as Quantity \u00b0 ste) Input Parameter 3 03 Second Limit Value as Quantity o {Ike Output Parameter 1 01 Portion Below First Limit o [kG Output Parameter 2 02 Portion Above First Limit \u00b0 ee Output Parameter 3 03 Portion Above Second Limit \u00b0 [> @ Output Parameter 4 04 Demand Above Limit 1\n\n- GByG@RTP Component Code Default o |f\u00e9*@ Input Parameter 1 01 Measured Value \u00b0 ste) Input Parameter 2 O2 First Limit Value as Quantity \u00b0 Le Input Parameter 3 03 Second Limit Value as Quantity \u00b0 ee Output Parameter 1 01 Portion Below First Limit \u00b0 [> @ Output Parameter 2 O02 Portion Above First Limit o [kG Output Parameter 3 03 Portion Above Second Limit o |e @ Output Parameter 4 04 Demand Above Limit 1\n\nNote The symbols have the following meaning: Gy No parameters yet allocated @ Parameters allocated \u00a34, Parameter templates defined\n\nThe component codes originate from Defining RTP Components. The component code Default is also available. You should always make the parameter allocations for this component code if you",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    2532,
+    310,
+    2570
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p034_b000",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    207,
+    123,
+    1484,
+    1618
+   ],
+   "ocr_confidence": 84.8,
+   "flags": [
+    "low_confidence_words:18"
+   ],
+   "text": "\u00b0 Late) Input Parameter 1 01 Measured Value \u00b0 Late) Input Parameter 2 02 First Limit Value as Quantity \u00b0 ste) Input Parameter 3 03 Second Limit Value as Quantity o [k*@ Output Parameter 1 01 Portion Below First Limit \u00b0 ee Output Parameter 2 02 Portion Above First Limit \u00b0 [ee Output Parameter 3 03 Portion Above Second Limit o [kg Output Parameter 4 04 Demand Above Limit 1 \u00a2 GbyG@RTP Component Code Winter Weekend \u00b0 Le Input Parameter 1 01 Measured Value \u00b0 Late) Input Parameter 2 O2 First Limit Value as Quantity \u00b0 ste) Input Parameter 3 03 Second Limit Value as Quantity o {Ike Output Parameter 1 01 Portion Below First Limit o [kG Output Parameter 2 02 Portion Above First Limit \u00b0 ee Output Parameter 3 03 Portion Above Second Limit \u00b0 [> @ Output Parameter 4 04 Demand Above Limit 1",
+   "section_id": "doc_011_sec_102"
+  },
+  {
+   "block_id": "doc_011_p034_b001",
+   "type": "list",
+   "page_number": 34,
+   "bbox": [
+    207,
+    1665,
+    1484,
+    2439
+   ],
+   "ocr_confidence": 84.1,
+   "flags": [
+    "low_confidence_words:11"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "GByG@RTP Component Code Default o |f\u00e9*@ Input Parameter 1 01 Measured Value \u00b0 ste) Input Parameter 2 O2 First Limit Value as Quantity \u00b0 Le Input Parameter 3 03 Second Limit Value as Quantity \u00b0 ee Output Parameter 1 01 Portion Below First Limit \u00b0 [> @ Output Parameter 2 O02 Portion Above First Limit o [kG Output Parameter 3 03 Portion Above Second Limit o |e @ Output Parameter 4 04 Demand Above Limit 1"
+    }
+   ],
+   "section_id": "doc_011_sec_102"
+  },
+  {
+   "block_id": "doc_011_p034_b002",
+   "type": "note",
+   "page_number": 34,
+   "bbox": [
+    151,
+    2532,
+    895,
+    3019
+   ],
+   "ocr_confidence": 85.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "label": "Note",
+   "text": "Note The symbols have the following meaning: Gy No parameters yet allocated @ Parameters allocated \u00a34, Parameter templates defined",
+   "section_id": "doc_011_sec_102"
+  },
+  {
+   "block_id": "doc_011_p034_b003",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    122,
+    3133,
+    2440,
+    3293
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The component codes originate from Defining RTP Components. The component code Default is also available. You should always make the parameter allocations for this component code if you",
+   "section_id": "doc_011_sec_102"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 65.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 85,
+   "page_hash": "c10035102a99c7c5835162b712f2f6131209e9587537b4c17c6106bf22235b6e"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Example: RTP Interface with Formula LIMITO1"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_102",
+   "role": "continues"
+  }
+ ]
+}

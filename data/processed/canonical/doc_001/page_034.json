@@ -1,0 +1,440 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 34,
+ "source_page_hash": "036a82e941e3f9358ebab66c1ed5ddc1fa7b3c8d0d2069323e8c71cd0487936e",
+ "is_cover_page": false,
+ "title": "EoP Check",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nEoP Check\n\nContract Accounts Receivable and Payable determines rule variants for company code and application object from posting area\n1140. So, you assign a rule variant to the application objects in Customizing for Contract Accounts Receivable and Payable under\n\nContract Accounts Receivable and Payable \u00bb Technical Settings > Data Protection \u00bb Specify Determination of Rule Variants\n\n(eo)\n\n*\u00b0 Example\nYou use a rule variant for a company code representing a legal entity such as a subsidiary in the same or another country\nadhering to different legal requirements for retention periods.\n\nTechnical Details\nEoP Check Implementation\nTo block business partners with the contract partner role (MKK):\n\n1. Check whether business partner data is still relevant for business activities using the mass activity Check Whether\nBusiness Partner Data Can Be Blocked (transaction FPDPR1 in the SAP menu under |}Periodic Processing \u00bb For Data\nProtection 33).\n\ni Note\n\nThe audit area BUPA_DP must be productive for the ILM object CA_BUPA and the policy category Residence Rules\n(transaction ILMARA).\n\nIf the check finds that business partner data is no longer required, the program derives the appropriate rule variant from\nCustomizing.\n\nThe program calculates the end of residence time (representing the EoP) based on the residence periods maintained for\nthe ILM object CA_BUPA that is active for the audit area BUPA_DP for the application MKK and the existing rule variants.\n\nThis information is made available to the blocking transaction Block Master Data (Business Partner) (BUPA_PRE_ EOP).\n\n2. Block business partner data no longer required by business activities using transaction Block Master Data (Business\nPartner) (BUPA PRE EOP).\n\nFor more information, see chapter Blocking and Unblocking of Business Partners.\n\nContract Accounts Receivable and Payable uses the following tables:\n\nTables Used to Store Data Relevant for Blocking\n\nTechnical Name of Table                                                                             Use\n\nDFKKDPR_BP                                                                               These transparent tables store the start of retention time (SORT)\n\nas calculated by the check program (transaction FPDPR1).\nDFKKDPR_BP_SORT\n\nThe information in these tables is processed by the blocking\nprogram.\n\nDFKKDPR_BP_ROLE                                                                       This database table is an index table for documents with business\npartners with more than one role, for example, contract partner and\n",
+ "cleaned_text": "EoP Check\n\nContract Accounts Receivable and Payable determines rule variants for company code and application object from posting area 1140. So, you assign a rule variant to the application objects in Customizing for Contract Accounts Receivable and Payable under Contract Accounts Receivable and Payable \u00bb Technical Settings > Data Protection \u00bb Specify Determination of Rule Variants (eo)\n\nExample You use a rule variant for a company code representing a legal entity such as a subsidiary in the same or another country adhering to different legal requirements for retention periods.\n\nTechnical Details\n\nEoP Check Implementation\n\nTo block business partners with the contract partner role (MKK):\n\n1 Check whether business partner data is still relevant for business activities using the mass activity Check Whether Business Partner Data Can Be Blocked (transaction FPDPR1 in the SAP menu under |}Periodic Processing \u00bb For Data Protection 33). i Note The audit area BUPA_DP must be productive for the ILM object CA_BUPA and the policy category Residence Rules (transaction ILMARA).\n\nIf the check finds that business partner data is no longer required, the program derives the appropriate rule variant from Customizing. The program calculates the end of residence time (representing the EoP) based on the residence periods maintained for the ILM object CA_BUPA that is active for the audit area BUPA_DP for the application MKK and the existing rule variants. This information is made available to the blocking transaction Block Master Data (Business Partner) (BUPA_PRE_ EOP).\n\n2 Block business partner data no longer required by business activities using transaction Block Master Data (Business\n\nPartner) (BUPA | PRE EOP).\n\nFor more information, see chapter Blocking and Unblocking of Business Partners. Contract Accounts Receivable and Payable uses the following tables: Tables Used to Store Data Relevant for Blocking\n\nTechnical Name of Table | Use\n\nDFKKDPR_BP | These transparent tables store the start of retention time (SORT)\n\nas calculated by the check program (transaction FPDPR1). DFKKDPR_BP_SORT The information in these tables is processed by the blocking program.\n\nDFKKDPR_BP_ROLE | This database table is an index table for documents with business\n\npartners with more than one role, for example, contract partner and",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "*\u00b0",
+   "bbox": [
+    151,
+    528,
+    432,
+    575
+   ],
+   "reason": "icon glyph OCR'd before 'example' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p034_b000",
+   "type": "heading",
+   "page_number": 34,
+   "bbox": [
+    124,
+    134,
+    321,
+    165
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "EoP Check",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_110"
+  },
+  {
+   "block_id": "doc_001_p034_b001",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    123,
+    256,
+    2443,
+    538
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Contract Accounts Receivable and Payable determines rule variants for company code and application object from posting area 1140. So, you assign a rule variant to the application objects in Customizing for Contract Accounts Receivable and Payable under Contract Accounts Receivable and Payable \u00bb Technical Settings > Data Protection \u00bb Specify Determination of Rule Variants (eo)",
+   "section_id": "doc_001_sec_110"
+  },
+  {
+   "block_id": "doc_001_p034_b002",
+   "type": "example",
+   "page_number": 34,
+   "bbox": [
+    151,
+    528,
+    2334,
+    711
+   ],
+   "ocr_confidence": 92.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Example You use a rule variant for a company code representing a legal entity such as a subsidiary in the same or another country adhering to different legal requirements for retention periods.",
+   "section_id": "doc_001_sec_110"
+  },
+  {
+   "block_id": "doc_001_p034_b003",
+   "type": "heading",
+   "page_number": 34,
+   "bbox": [
+    123,
+    859,
+    594,
+    904
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Technical Details",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_111"
+  },
+  {
+   "block_id": "doc_001_p034_b004",
+   "type": "heading",
+   "page_number": 34,
+   "bbox": [
+    124,
+    992,
+    666,
+    1034
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "EoP Check Implementation",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_112"
+  },
+  {
+   "block_id": "doc_001_p034_b005",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    122,
+    1119,
+    1276,
+    1158
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "To block business partners with the contract partner role (MKK):",
+   "section_id": "doc_001_sec_112"
+  },
+  {
+   "block_id": "doc_001_p034_b006",
+   "type": "list",
+   "page_number": 34,
+   "bbox": [
+    214,
+    1245,
+    2419,
+    1680
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Check whether business partner data is still relevant for business activities using the mass activity Check Whether Business Partner Data Can Be Blocked (transaction FPDPR1 in the SAP menu under |}Periodic Processing \u00bb For Data Protection 33). i Note The audit area BUPA_DP must be productive for the ILM object CA_BUPA and the policy category Residence Rules (transaction ILMARA)."
+    }
+   ],
+   "section_id": "doc_001_sec_112"
+  },
+  {
+   "block_id": "doc_001_p034_b007",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    254,
+    1780,
+    2441,
+    2163
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "If the check finds that business partner data is no longer required, the program derives the appropriate rule variant from Customizing. The program calculates the end of residence time (representing the EoP) based on the residence periods maintained for the ILM object CA_BUPA that is active for the audit area BUPA_DP for the application MKK and the existing rule variants. This information is made available to the blocking transaction Block Master Data (Business Partner) (BUPA_PRE_ EOP).",
+   "section_id": "doc_001_sec_112"
+  },
+  {
+   "block_id": "doc_001_p034_b008",
+   "type": "list",
+   "page_number": 34,
+   "bbox": [
+    212,
+    2220,
+    2378,
+    2258
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Block business partner data no longer required by business activities using transaction Block Master Data (Business"
+    }
+   ],
+   "section_id": "doc_001_sec_112"
+  },
+  {
+   "block_id": "doc_001_p034_b009",
+   "type": "table",
+   "page_number": 34,
+   "bbox": [
+    256,
+    2288,
+    763,
+    2329
+   ],
+   "ocr_confidence": 40.4,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    256,
+    558
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Partner) (BUPA",
+     "PRE EOP)."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Partner) (BUPA",
+     "PRE EOP)."
+    ]
+   ],
+   "section_id": "doc_001_sec_112"
+  },
+  {
+   "block_id": "doc_001_p034_b010",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    123,
+    2411,
+    1696,
+    2698
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "For more information, see chapter Blocking and Unblocking of Business Partners. Contract Accounts Receivable and Payable uses the following tables: Tables Used to Store Data Relevant for Blocking",
+   "section_id": "doc_001_sec_112"
+  },
+  {
+   "block_id": "doc_001_p034_b011",
+   "type": "table",
+   "page_number": 34,
+   "bbox": [
+    147,
+    2754,
+    2419,
+    2897
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    147,
+    1331
+   ],
+   "headers": [
+    "Technical Name of Table",
+    "Use"
+   ],
+   "rows": [
+    [
+     "DFKKDPR_BP",
+     "These transparent tables store the start of retention time (SORT)"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Technical Name of Table",
+     "Use"
+    ],
+    [
+     "DFKKDPR_BP",
+     "These transparent tables store the start of retention time (SORT)"
+    ]
+   ],
+   "section_id": "doc_001_sec_112"
+  },
+  {
+   "block_id": "doc_001_p034_b012",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    149,
+    2918,
+    2338,
+    3109
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "as calculated by the check program (transaction FPDPR1). DFKKDPR_BP_SORT The information in these tables is processed by the blocking program.",
+   "section_id": "doc_001_sec_112"
+  },
+  {
+   "block_id": "doc_001_p034_b013",
+   "type": "table",
+   "page_number": 34,
+   "bbox": [
+    149,
+    3177,
+    2434,
+    3216
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "DFKKDPR_BP_ROLE",
+     "This database table is an index table for documents with business"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "DFKKDPR_BP_ROLE",
+     "This database table is an index table for documents with business"
+    ]
+   ],
+   "section_id": "doc_001_sec_112"
+  },
+  {
+   "block_id": "doc_001_p034_b014",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    1332,
+    3238,
+    2463,
+    3273
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "partners with more than one role, for example, contract partner and",
+   "section_id": "doc_001_sec_112"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.0952,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "036a82e941e3f9358ebab66c1ed5ddc1fa7b3c8d0d2069323e8c71cd0487936e"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Business Partner End Of Purpose (EoP) Check",
+  "Prerequisites",
+  "EoP Check"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_110",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_111",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_112",
+   "role": "starts_here"
+  }
+ ]
+}

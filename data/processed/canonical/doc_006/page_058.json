@@ -1,0 +1,465 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 58,
+ "source_page_hash": "f9ed25b699c1c0ae626c22909876de5099025285e7b78c3bcd9613d46132ccdc",
+ "is_cover_page": false,
+ "title": "Integration",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nThis means that the system cancels all estimated previous meter reading results that are higher than the current actual result, and\nreestimates them based on the current actual meter reading result.\n\nIn the above example, the system cancels the meter readings from 2.1. and 3.1. and reestimates them based on the actual meter\nreading result from 4.1.\n\nIntegration\n\nAssessing can also be used for control meter reading. To do this, you must set the Ass. Control MR indicator (Assessing also for\n\nMR reasons not triggered by billing (09,10)) in Customizing activity Define Technical Control Parameters for Meter Reading\nData Processing (table TE410s).\n\nPrerequisites\n\nThe assessing workflow can only adjust an overflow within a contract. If a change of contract has taken place (due to a move-\nin/out, for example), the assessing workflow is not triggered and an error message is displayed.\n\n\u00abSe Example\n\nThe following example is not an assessing case as a contract change has taken place due to a move-in/out.\n\n_.-.Cnitret 1  a4            [----Cntret 2 Wena\nDate         1.1.          2.1.          3.1.          4.1.\nMR result            5100                     5450                     5450                     5240\nActual\n\u2018yesirated \u00ab=           (e)           (e)           (a)\nPeriodic/final/     P            F            M            P\nmove-in\nFeatures\n\nThe algorithm for determining an assessing case is as follows:\n\n1. Determination of consumption V1, which occurs between the last actual meter reading result and the current meter reading\nresult. The meter reading results that lie between are ignored.\n\n2. Determination of consumption V2, which occurs between the last actual meter reading result and the last estimated meter\nreading result. The meter reading results that lie between are ignored.\n\nQ/1FVISV1 an accaccinge race aricac\n",
+ "cleaned_text": "This means that the system cancels all estimated previous meter reading results that are higher than the current actual result, and reestimates them based on the current actual meter reading result. In the above example, the system cancels the meter readings from 2.1. and 3.1. and reestimates them based on the actual meter reading result from 4.1.\n\nIntegration\n\nAssessing can also be used for control meter reading. To do this, you must set the Ass. Control MR indicator (Assessing also for MR reasons not triggered by billing (09,10)) in Customizing activity Define Technical Control Parameters for Meter Reading Data Processing (table TE410s).\n\nPrerequisites\n\nThe assessing workflow can only adjust an overflow within a contract. If a change of contract has taken place (due to a move-in/out, for example), the assessing workflow is not triggered and an error message is displayed. \u00abSe Example The following example is not an assessing case as a contract change has taken place due to a move-in/out.\n\n_.-.Cnitret 1 a4 | [----Cntret 2 Wena\n\nDate | 1.1. | 2.1. | 3.1. | 4.1.\n\nMR result | 5100 | 5450 | 5450 | 5240\n\nActual\n\n\u2018yesirated | \u00ab= | (e) | (e) | (a)\n\nPeriodic/final/ | P | F | M | P\n\nmove-in\n\nFeatures\n\nThe algorithm for determining an assessing case is as follows:\n\n1 Determination of consumption V1, which occurs between the last actual meter reading result and the current meter reading result. The meter reading results that lie between are ignored.\n\n2 Determination of consumption V2, which occurs between the last actual meter reading result and the last estimated meter reading result. The meter reading results that lie between are ignored.\n\nQ/1FVISV1 an accaccinge race aricac",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p058_b000",
+   "type": "paragraph",
+   "page_number": 58,
+   "bbox": [
+    122,
+    134,
+    2484,
+    422
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "This means that the system cancels all estimated previous meter reading results that are higher than the current actual result, and reestimates them based on the current actual meter reading result. In the above example, the system cancels the meter readings from 2.1. and 3.1. and reestimates them based on the actual meter reading result from 4.1.",
+   "section_id": "doc_006_sec_120"
+  },
+  {
+   "block_id": "doc_006_p058_b001",
+   "type": "heading",
+   "page_number": 58,
+   "bbox": [
+    127,
+    534,
+    431,
+    591
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_121"
+  },
+  {
+   "block_id": "doc_006_p058_b002",
+   "type": "paragraph",
+   "page_number": 58,
+   "bbox": [
+    123,
+    663,
+    2440,
+    830
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Assessing can also be used for control meter reading. To do this, you must set the Ass. Control MR indicator (Assessing also for MR reasons not triggered by billing (09,10)) in Customizing activity Define Technical Control Parameters for Meter Reading Data Processing (table TE410s).",
+   "section_id": "doc_006_sec_121"
+  },
+  {
+   "block_id": "doc_006_p058_b003",
+   "type": "heading",
+   "page_number": 58,
+   "bbox": [
+    126,
+    941,
+    492,
+    998
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_122"
+  },
+  {
+   "block_id": "doc_006_p058_b004",
+   "type": "paragraph",
+   "page_number": 58,
+   "bbox": [
+    122,
+    1074,
+    2378,
+    1394
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The assessing workflow can only adjust an overflow within a contract. If a change of contract has taken place (due to a move-in/out, for example), the assessing workflow is not triggered and an error message is displayed. \u00abSe Example The following example is not an assessing case as a contract change has taken place due to a move-in/out.",
+   "section_id": "doc_006_sec_122"
+  },
+  {
+   "block_id": "doc_006_p058_b005",
+   "type": "table",
+   "page_number": 58,
+   "bbox": [
+    261,
+    1622,
+    2224,
+    1832
+   ],
+   "ocr_confidence": 66.9,
+   "flags": [
+    "low_confidence_words:4",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    261,
+    682,
+    1149,
+    1624,
+    2096
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "_.-.Cnitret 1 a4",
+     "[----Cntret 2 Wena"
+    ],
+    [
+     "Date",
+     "1.1.",
+     "2.1.",
+     "3.1.",
+     "4.1."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "_.-.Cnitret 1 a4",
+     "[----Cntret 2 Wena"
+    ],
+    [
+     "Date",
+     "1.1.",
+     "2.1.",
+     "3.1.",
+     "4.1."
+    ]
+   ],
+   "section_id": "doc_006_sec_122"
+  },
+  {
+   "block_id": "doc_006_p058_b006",
+   "type": "table",
+   "page_number": 58,
+   "bbox": [
+    258,
+    2014,
+    2200,
+    2059
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    258,
+    658,
+    1133,
+    1605,
+    2079
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR result",
+     "5100",
+     "5450",
+     "5450",
+     "5240"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR result",
+     "5100",
+     "5450",
+     "5450",
+     "5240"
+    ]
+   ],
+   "section_id": "doc_006_sec_122"
+  },
+  {
+   "block_id": "doc_006_p058_b007",
+   "type": "paragraph",
+   "page_number": 58,
+   "bbox": [
+    321,
+    2120,
+    444,
+    2153
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Actual",
+   "section_id": "doc_006_sec_122"
+  },
+  {
+   "block_id": "doc_006_p058_b008",
+   "type": "table",
+   "page_number": 58,
+   "bbox": [
+    258,
+    2120,
+    2180,
+    2313
+   ],
+   "ocr_confidence": 72.1,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continued_on_next_page:p59",
+    "continued_on_next_page:p59"
+   ],
+   "columns": 5,
+   "column_starts": [
+    258,
+    694,
+    1169,
+    1641,
+    2115
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "\u2018yesirated",
+     "\u00ab=",
+     "(e)",
+     "(e)",
+     "(a)"
+    ],
+    [
+     "Periodic/final/",
+     "P",
+     "F",
+     "M",
+     "P"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "\u2018yesirated",
+     "\u00ab=",
+     "(e)",
+     "(e)",
+     "(a)"
+    ],
+    [
+     "Periodic/final/",
+     "P",
+     "F",
+     "M",
+     "P"
+    ]
+   ],
+   "section_id": "doc_006_sec_122"
+  },
+  {
+   "block_id": "doc_006_p058_b009",
+   "type": "paragraph",
+   "page_number": 58,
+   "bbox": [
+    258,
+    2320,
+    415,
+    2354
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "move-in",
+   "section_id": "doc_006_sec_122"
+  },
+  {
+   "block_id": "doc_006_p058_b010",
+   "type": "heading",
+   "page_number": 58,
+   "bbox": [
+    126,
+    2692,
+    361,
+    2737
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_123"
+  },
+  {
+   "block_id": "doc_006_p058_b011",
+   "type": "paragraph",
+   "page_number": 58,
+   "bbox": [
+    122,
+    2822,
+    1239,
+    2859
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The algorithm for determining an assessing case is as follows:",
+   "section_id": "doc_006_sec_123"
+  },
+  {
+   "block_id": "doc_006_p058_b012",
+   "type": "list",
+   "page_number": 58,
+   "bbox": [
+    212,
+    2947,
+    2488,
+    3211
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Determination of consumption V1, which occurs between the last actual meter reading result and the current meter reading result. The meter reading results that lie between are ignored."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Determination of consumption V2, which occurs between the last actual meter reading result and the last estimated meter reading result. The meter reading results that lie between are ignored."
+    }
+   ],
+   "section_id": "doc_006_sec_123"
+  },
+  {
+   "block_id": "doc_006_p058_b013",
+   "type": "fragment",
+   "page_number": 58,
+   "bbox": [
+    211,
+    3275,
+    883,
+    3300
+   ],
+   "ocr_confidence": 54.3,
+   "flags": [
+    "low_confidence_words:2",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Q/1FVISV1 an accaccinge race aricac",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_006_sec_123"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "f9ed25b699c1c0ae626c22909876de5099025285e7b78c3bcd9613d46132ccdc"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Assessing",
+  "Use",
+  "Actual"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_120",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_121",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_122",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_123",
+   "role": "starts_here"
+  }
+ ]
+}

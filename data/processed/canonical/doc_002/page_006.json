@@ -1,0 +1,425 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 6,
+ "source_page_hash": "063eb610650d32b016d46047c44c3e6f7f2a170e6d736c47987029f92b4f2d41",
+ "is_cover_page": false,
+ "title": "Business Add-Ins (BAdIs)",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\ne EMDKOOOI1 (IS-U utility contract: include subscreens and check fields)\n\n1 Note\n\nYou can find these enhancements in Customizing under |sSAP Utilities } Tools System Modifications } SAP Enhancements\nDefine SAP Enhancements\n\nBusiness Add-Ins (BAdIs)\ne ISU_MOVEIN_CUSTOMIZE: (IS-U: Customizing \u2014 override move-in processing)\nUsed to override Customizing settings in the move-in.\nFor more information see the Badl documentation.\ne ISU_MOVEIN_MENUE (IS-U: menu enhancement for move-in)\nUsed to enhance the menu of the move-in screen. Enables you to add entries to the menu bar.\nFor more information see the Badl documentation.\ne ISU_MOVEOUT_MENUE (IS-U: menu enhancement for move-out)\nUsed to enhance the menu of the move-out screen. Enables you to add entries to the menu bar.\n\nFor more information see the Badl documentation.\n\nContract Change without Invoicing\n\nUse\n\nThe function for changing a contract without invoicing enables you to change the payment form of some of the contracts ina\ncontract account without triggering separate invoicing.\n\nIntegration\n\nYou can use the contract change without invoicing from the move-in/out function. You can also reverse a contract change without\ninvoicing.\n\nPrerequisites\n\nYou can use the contract change without invoicing function in a move-in/out when the contracts have already been included in an\ninvoiced billing document.\n\nPrerequisite: You have configured the contract change reasons in Customizing under Define Reasons forContract Change so that\n\nthe new field nl (contract change without invoicing) is selected. The settings for reposting receivables during the customer\nchange also have to be maintained here in the field UBU (Repost Open Items for Move-In/Out).\n",
+ "cleaned_text": "- EMDKOOOI1 (IS-U utility contract: include subscreens and check fields)\n\nNote You can find these enhancements in Customizing under |sSAP Utilities } Tools System Modifications } SAP Enhancements Define SAP Enhancements\n\nBusiness Add-Ins (BAdIs)\n\n- ISU_MOVEIN_CUSTOMIZE: (IS-U: Customizing \u2014 override move-in processing)\n\nUsed to override Customizing settings in the move-in. For more information see the Badl documentation.\n\n- ISU_MOVEIN_MENUE (IS-U: menu enhancement for move-in)\n\nUsed to enhance the menu of the move-in screen. Enables you to add entries to the menu bar. For more information see the Badl documentation.\n\n- ISU_MOVEOUT_MENUE (IS-U: menu enhancement for move-out)\n\nUsed to enhance the menu of the move-out screen. Enables you to add entries to the menu bar. For more information see the Badl documentation.\n\nContract Change without Invoicing\n\nUse\n\nThe function for changing a contract without invoicing enables you to change the payment form of some of the contracts ina contract account without triggering separate invoicing.\n\nIntegration\n\nYou can use the contract change without invoicing from the move-in/out function. You can also reverse a contract change without invoicing.\n\nPrerequisites\n\nYou can use the contract change without invoicing function in a move-in/out when the contracts have already been included in an invoiced billing document. Prerequisite: You have configured the contract change reasons in Customizing under Define Reasons forContract Change so that the new field nl (contract change without invoicing) is selected. The settings for reposting receivables during the customer change also have to be maintained here in the field UBU (Repost Open Items for Move-In/Out).",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    276,
+    310,
+    313
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p006_b000",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    207,
+    134,
+    1530,
+    172
+   ],
+   "ocr_confidence": 82.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "EMDKOOOI1 (IS-U utility contract: include subscreens and check fields)"
+    }
+   ],
+   "section_id": "doc_002_sec_016"
+  },
+  {
+   "block_id": "doc_002_p006_b001",
+   "type": "note",
+   "page_number": 6,
+   "bbox": [
+    151,
+    276,
+    2434,
+    494
+   ],
+   "ocr_confidence": 88.4,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "label": "Note",
+   "text": "Note You can find these enhancements in Customizing under |sSAP Utilities } Tools System Modifications } SAP Enhancements Define SAP Enhancements",
+   "section_id": "doc_002_sec_016"
+  },
+  {
+   "block_id": "doc_002_p006_b002",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    124,
+    620,
+    595,
+    658
+   ],
+   "ocr_confidence": 83.2,
+   "flags": [],
+   "text": "Business Add-Ins (BAdIs)",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_017"
+  },
+  {
+   "block_id": "doc_002_p006_b003",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    207,
+    742,
+    1674,
+    780
+   ],
+   "ocr_confidence": 88.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ISU_MOVEIN_CUSTOMIZE: (IS-U: Customizing \u2014 override move-in processing)"
+    }
+   ],
+   "section_id": "doc_002_sec_017"
+  },
+  {
+   "block_id": "doc_002_p006_b004",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    124,
+    864,
+    1091,
+    1016
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Used to override Customizing settings in the move-in. For more information see the Badl documentation.",
+   "section_id": "doc_002_sec_017"
+  },
+  {
+   "block_id": "doc_002_p006_b005",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    207,
+    1107,
+    1371,
+    1144
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ISU_MOVEIN_MENUE (IS-U: menu enhancement for move-in)"
+    }
+   ],
+   "section_id": "doc_002_sec_017"
+  },
+  {
+   "block_id": "doc_002_p006_b006",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    124,
+    1232,
+    1813,
+    1384
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Used to enhance the menu of the move-in screen. Enables you to add entries to the menu bar. For more information see the Badl documentation.",
+   "section_id": "doc_002_sec_017"
+  },
+  {
+   "block_id": "doc_002_p006_b007",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    207,
+    1475,
+    1439,
+    1512
+   ],
+   "ocr_confidence": 89.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ISU_MOVEOUT_MENUE (IS-U: menu enhancement for move-out)"
+    }
+   ],
+   "section_id": "doc_002_sec_017"
+  },
+  {
+   "block_id": "doc_002_p006_b008",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    124,
+    1597,
+    1842,
+    1748
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "Used to enhance the menu of the move-out screen. Enables you to add entries to the menu bar. For more information see the Badl documentation.",
+   "section_id": "doc_002_sec_017"
+  },
+  {
+   "block_id": "doc_002_p006_b009",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    125,
+    1904,
+    1381,
+    1981
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Contract Change without Invoicing",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_018"
+  },
+  {
+   "block_id": "doc_002_p006_b010",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    125,
+    2081,
+    225,
+    2127
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_019"
+  },
+  {
+   "block_id": "doc_002_p006_b011",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    2214,
+    2380,
+    2314
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "The function for changing a contract without invoicing enables you to change the payment form of some of the contracts ina contract account without triggering separate invoicing.",
+   "section_id": "doc_002_sec_019"
+  },
+  {
+   "block_id": "doc_002_p006_b012",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    127,
+    2427,
+    431,
+    2483
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_020"
+  },
+  {
+   "block_id": "doc_002_p006_b013",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    2559,
+    2466,
+    2659
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "You can use the contract change without invoicing from the move-in/out function. You can also reverse a contract change without invoicing.",
+   "section_id": "doc_002_sec_020"
+  },
+  {
+   "block_id": "doc_002_p006_b014",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    126,
+    2771,
+    492,
+    2828
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_021"
+  },
+  {
+   "block_id": "doc_002_p006_b015",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    2904,
+    2470,
+    3254
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "You can use the contract change without invoicing function in a move-in/out when the contracts have already been included in an invoiced billing document. Prerequisite: You have configured the contract change reasons in Customizing under Define Reasons forContract Change so that the new field nl (contract change without invoicing) is selected. The settings for reposting receivables during the customer change also have to be maintained here in the field UBU (Repost Open Items for Move-In/Out).",
+   "section_id": "doc_002_sec_021"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "063eb610650d32b016d46047c44c3e6f7f2a170e6d736c47987029f92b4f2d41"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Insert Contract",
+  "Prerequisites",
+  "Enhancements for the Screen Layout"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_016",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_002_sec_017",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_018",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_019",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_020",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_021",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 21,
+ "source_page_hash": "5c7fcbf2ee5069ca60b718c789b4da1c31c045c5bf52f748de608070278bbb9b",
+ "is_cover_page": false,
+ "title": "Prerequisites",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\nA move-out and subsequent move-in for the installations of a premise often have to be reversed in one function call. In this case,\nthe move-in must be reversed first and subsequently the move-out can be reversed.\n\nPrerequisites\n\nNone of the contracts may be billed for the period beginning with the move-out date. The final billing triggered by the move-out\nmust be reversed before the move-out can be reversed.\n\nFeatures\n\nChanges that were automatically made to the contract data during creation of the move-out are reversed during move-out\nreversal.\n\nIf a budget billing plan was terminated during creation of a move-out, it is automatically activated during move-out reversal.\nMeter reading orders and meter reading results that were created in the move-out are automatically deleted.\n\nChanges that were made during move-out to the business partner and contract account data are not automatically reversed\nduring the move-out reversal.\n",
+ "cleaned_text": "A move-out and subsequent move-in for the installations of a premise often have to be reversed in one function call. In this case, the move-in must be reversed first and subsequently the move-out can be reversed.\n\nPrerequisites\n\nNone of the contracts may be billed for the period beginning with the move-out date. The final billing triggered by the move-out must be reversed before the move-out can be reversed.\n\nFeatures\n\nChanges that were automatically made to the contract data during creation of the move-out are reversed during move-out reversal. If a budget billing plan was terminated during creation of a move-out, it is automatically activated during move-out reversal. Meter reading orders and meter reading results that were created in the move-out are automatically deleted. Changes that were made during move-out to the business partner and contract account data are not automatically reversed during the move-out reversal.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p021_b000",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    122,
+    134,
+    2433,
+    235
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "A move-out and subsequent move-in for the installations of a premise often have to be reversed in one function call. In this case, the move-in must be reversed first and subsequently the move-out can be reversed.",
+   "section_id": "doc_002_sec_087"
+  },
+  {
+   "block_id": "doc_002_p021_b001",
+   "type": "heading",
+   "page_number": 21,
+   "bbox": [
+    126,
+    347,
+    492,
+    404
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_088"
+  },
+  {
+   "block_id": "doc_002_p021_b002",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    124,
+    480,
+    2416,
+    573
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "None of the contracts may be billed for the period beginning with the move-out date. The final billing triggered by the move-out must be reversed before the move-out can be reversed.",
+   "section_id": "doc_002_sec_088"
+  },
+  {
+   "block_id": "doc_002_p021_b003",
+   "type": "heading",
+   "page_number": 21,
+   "bbox": [
+    126,
+    693,
+    361,
+    738
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_089"
+  },
+  {
+   "block_id": "doc_002_p021_b004",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    123,
+    826,
+    2366,
+    1357
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Changes that were automatically made to the contract data during creation of the move-out are reversed during move-out reversal. If a budget billing plan was terminated during creation of a move-out, it is automatically activated during move-out reversal. Meter reading orders and meter reading results that were created in the move-out are automatically deleted. Changes that were made during move-out to the business partner and contract account data are not automatically reversed during the move-out reversal.",
+   "section_id": "doc_002_sec_089"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "5c7fcbf2ee5069ca60b718c789b4da1c31c045c5bf52f748de608070278bbb9b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:32Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Move-Out Reversal",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_087",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_002_sec_088",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_089",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,473 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 3,
+ "source_page_hash": "015187aabf826daf73b5d42eedd20de4deab72ea4616d9ed4cd9fbcc529d0340",
+ "is_cover_page": false,
+ "title": "Dynamic Period Control (DPC)",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nMeter reading results and period consumption are displayed per register.\n\nFrom the overview display, you can double-click on the net amounts to branch to the display of individual billing documents (for\nthe period billings or the period-end billing).\n\nYou can also simulate invoicing for the entire backbilling and/or period-end billing period using the results of the billing simulation.\nTo do so, you must first save (upload) the results of the billing simulation.\n\nFrom the overview of the simulation results, you can execute other simulation runs for the contract. This enables you to change the\nperiod consumption per billing period (for the period billings). In this way, the system can generate several simulated versions\nwhose results you can then compare.\n\nDynamic Period Control (DPC)\n\nUse\n\nWith dynamic period control (DPC), you can manage correction periods and periodic billing periods. You can generate billing\ndocuments that are based on estimated meter readings. You can use the meter reading functions to estimate the meter reading\n\nresults and save them to the database, or you can generate them during billing.\n\nEntering an actual meter reading result at any point triggers dynamic backbilling back to the last actual meter reading result. The\nsystem corrects all billing periods that are based on the estimated meter reading results.\n\nThe principle is explained in the following figure:\n\nDynamic Period Control\n\na\nMIRo                                                      MR1\n\nBilling based on actual meter readingresults\nInvoicing of billing documents\n\nee a a a\n\nMRo = 123                                                    MR:\n\n* Monthly billing based on actual meter readings - Start\n* Monthiyinvoicing of billing documents - Start\n\n[a\n\nMIRo 123        120         118         133        112           NMIR1\n\n* Monthly billing based on estimated meter readingresults\n* Monthly invoicing of billing documents\n\nFE\n\nname. 193         190          119          qa         4119        117 ==\n\n",
+ "cleaned_text": "Meter reading results and period consumption are displayed per register. From the overview display, you can double-click on the net amounts to branch to the display of individual billing documents (for the period billings or the period-end billing). You can also simulate invoicing for the entire backbilling and/or period-end billing period using the results of the billing simulation. To do so, you must first save (upload) the results of the billing simulation. From the overview of the simulation results, you can execute other simulation runs for the contract. This enables you to change the period consumption per billing period (for the period billings). In this way, the system can generate several simulated versions whose results you can then compare.\n\nDynamic Period Control (DPC)\n\nUse\n\nWith dynamic period control (DPC), you can manage correction periods and periodic billing periods. You can generate billing documents that are based on estimated meter readings. You can use the meter reading functions to estimate the meter reading results and save them to the database, or you can generate them during billing. Entering an actual meter reading result at any point triggers dynamic backbilling back to the last actual meter reading result. The system corrects all billing periods that are based on the estimated meter reading results. The principle is explained in the following figure: Dynamic Period Control a\n\nMIRo | MR1\n\nBilling based on actual meter readingresults Invoicing of billing documents\n\nee a | a | a\n\nMRo = 123 | MR:\n\n- Monthly billing based on actual meter readings - Start\n\n- Monthiyinvoicing of billing documents - Start\n\n[a\n\nMIRo | 123 | 120 | 118 | 133 | 112 | NMIR1\n\n- Monthly billing based on estimated meter readingresults\n\n- Monthly invoicing of billing documents\n\nFE\n\nname. | 193 | 190 | 119 | qa | 4119 | 117 ==",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p003_b000",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    134,
+    2486,
+    790
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Meter reading results and period consumption are displayed per register. From the overview display, you can double-click on the net amounts to branch to the display of individual billing documents (for the period billings or the period-end billing). You can also simulate invoicing for the entire backbilling and/or period-end billing period using the results of the billing simulation. To do so, you must first save (upload) the results of the billing simulation. From the overview of the simulation results, you can execute other simulation runs for the contract. This enables you to change the period consumption per billing period (for the period billings). In this way, the system can generate several simulated versions whose results you can then compare.",
+   "section_id": "doc_011_sec_006"
+  },
+  {
+   "block_id": "doc_011_p003_b001",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    128,
+    938,
+    1227,
+    1015
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Dynamic Period Control (DPC)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_007"
+  },
+  {
+   "block_id": "doc_011_p003_b002",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    125,
+    1115,
+    225,
+    1160
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p003_b003",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    1248,
+    2454,
+    1992
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "With dynamic period control (DPC), you can manage correction periods and periodic billing periods. You can generate billing documents that are based on estimated meter readings. You can use the meter reading functions to estimate the meter reading results and save them to the database, or you can generate them during billing. Entering an actual meter reading result at any point triggers dynamic backbilling back to the last actual meter reading result. The system corrects all billing periods that are based on the estimated meter reading results. The principle is explained in the following figure: Dynamic Period Control a",
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p003_b004",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    393,
+    2005,
+    1813,
+    2057
+   ],
+   "ocr_confidence": 46.6,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    393,
+    1729
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MIRo",
+     "MR1"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MIRo",
+     "MR1"
+    ]
+   ],
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p003_b005",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    316,
+    2088,
+    1299,
+    2189
+   ],
+   "ocr_confidence": 89.9,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Billing based on actual meter readingresults Invoicing of billing documents",
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p003_b006",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    262,
+    2334,
+    2117,
+    2468
+   ],
+   "ocr_confidence": 43.0,
+   "flags": [
+    "low_confidence_words:5",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    262,
+    393,
+    1369,
+    1588,
+    1729
+   ],
+   "headers": [
+    "ee a",
+    "a",
+    "a"
+   ],
+   "rows": [
+    [
+     "MRo = 123",
+     "MR:"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "ee a",
+     "a",
+     "a"
+    ],
+    [
+     "MRo = 123",
+     "MR:"
+    ]
+   ],
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p003_b007",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    269,
+    2484,
+    1477,
+    2587
+   ],
+   "ocr_confidence": 85.9,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "*",
+     "number": null,
+     "text": "Monthly billing based on actual meter readings - Start"
+    },
+    {
+     "level": 1,
+     "marker": "*",
+     "number": null,
+     "text": "Monthiyinvoicing of billing documents - Start"
+    }
+   ],
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p003_b008",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    262,
+    2815,
+    2117,
+    2869
+   ],
+   "ocr_confidence": 6.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "[a",
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p003_b009",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    393,
+    2894,
+    1813,
+    2936
+   ],
+   "ocr_confidence": 82.9,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 7,
+   "column_starts": [
+    393,
+    546,
+    766,
+    998,
+    1230,
+    1450,
+    1729
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MIRo",
+     "123",
+     "120",
+     "118",
+     "133",
+     "112",
+     "NMIR1"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MIRo",
+     "123",
+     "120",
+     "118",
+     "133",
+     "112",
+     "NMIR1"
+    ]
+   ],
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p003_b010",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    269,
+    2990,
+    1566,
+    3091
+   ],
+   "ocr_confidence": 76.5,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "*",
+     "number": null,
+     "text": "Monthly billing based on estimated meter readingresults"
+    },
+    {
+     "level": 1,
+     "marker": "*",
+     "number": null,
+     "text": "Monthly invoicing of billing documents"
+    }
+   ],
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p003_b011",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    259,
+    3217,
+    2117,
+    3264
+   ],
+   "ocr_confidence": 8.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "FE",
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p003_b012",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    393,
+    3270,
+    1798,
+    3300
+   ],
+   "ocr_confidence": 46.5,
+   "flags": [
+    "low_confidence_words:5",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 7,
+   "column_starts": [
+    393,
+    546,
+    766,
+    998,
+    1230,
+    1450,
+    1648
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "name.",
+     "193",
+     "190",
+     "119",
+     "qa",
+     "4119",
+     "117 =="
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "name.",
+     "193",
+     "190",
+     "119",
+     "qa",
+     "4119",
+     "117 =="
+    ]
+   ],
+   "section_id": "doc_011_sec_008"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 89,
+   "page_hash": "015187aabf826daf73b5d42eedd20de4deab72ea4616d9ed4cd9fbcc529d0340"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Backbilling and Period-End Billing",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_006",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_007",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_008",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+# Optional dependencies — not needed for the default Part 1-5 pipeline.
+
+# High-memory embedding profile: Qwen3-Embedding-4B (2560-dim, ~9-12GB
+# RAM/GPU). Documented in models/README.md; NOT used by embed_chunks.py v2
+# (default is the 0.6B ONNX profile).
+sentence-transformers>=2.7
+transformers>=4.51
+torch
+
+# Alternative model-acquisition route for the 0.6B ONNX model when
+# huggingface.co is unreachable but ModelScope is reachable.
+# (embed_chunks.py v1 in git history used this fallback automatically.)
+modelscope

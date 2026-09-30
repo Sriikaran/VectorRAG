@@ -1,0 +1,374 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 78,
+ "source_page_hash": "afe8dd554d51f19496634efd91358e45eed7e90dd2f9cb0508f2d32e6888ac7a",
+ "is_cover_page": false,
+ "title": "Process Flow",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nThis action destroys data from the database in an archiving write session and then in a subsequent delete run. This creates\ntemporary archive files which the system deletes automatically with the file-related administration data at the end of the\ndeletion phase. A run is classified as a destruction run in technical terms by the DESTROY parameter. If an archiving object\n\nhas not been registered in the Information Retention Manager (IRM), the system ignores the DESTROY parameter and\nexecutes a standard archiving session.\n\n3. Deletion of TOU Exception Responses from the Database (report REAARCH_DEL_EXRESP)\n\nProcess Flow\n\nThe deletion report reads TOU exception responses that were previously archived in an archiving run from the archive and deletes\nthe corresponding entries in the database tables.\n\nIf you start the report in the simulation mode, the system determines the number of data records to be deleted for TOU exception\nresponses that were read from the archive.\n\n4. Optional Reloading of Archived and Deleted Data (Report REAARCH_REL_EXRESP)\n\nProcess Flow\n\nThe RREAARCH_ REL_EXRESP report reloads TOU exception responses that have been archived and already deleted, and reverses\nall changes made to the database by the deletion program.\n\n1 Note\n\nYou can only use the reload program to reload complete archiving runs. It is not possible to reload individual TOU exception\nresponses. This procedure should not normally be used and should be limited to severe problem cases (such as an incorrect\nretention period in Customizing).\n\nWhen you start the report, you can make various settings on the initial screen:\n\ne Log type: General statistical data or detail log with detailed data for each analyzed data record (note that making this\nsetting can become confusing if large amounts of data are involved).\n\ne Test run: If you start the report as a test run, no changes are made to the database.\n\n5. Optional Reading of TOU Exception Responses from the Archive and Output in a List (Report\nREAARCH_READ_ARCHIVE_EXRESP)\n\nProcess Flow\n\nYou use report REAARCH_READ ARCHIVE _EXRESP after running the archiving report REAARCH_ARCH_EXRESP to gain read-\nonly access to an archive and to display data for TOU exception responses in a list.\n\nYou do not have run the deletion program first.\n",
+ "cleaned_text": "This action destroys data from the database in an archiving write session and then in a subsequent delete run. This creates temporary archive files which the system deletes automatically with the file-related administration data at the end of the deletion phase. A run is classified as a destruction run in technical terms by the DESTROY parameter. If an archiving object has not been registered in the Information Retention Manager (IRM), the system ignores the DESTROY parameter and executes a standard archiving session.\n\n3 Deletion of TOU Exception Responses from the Database (report REAARCH_DEL_EXRESP)\n\nProcess Flow\n\nThe deletion report reads TOU exception responses that were previously archived in an archiving run from the archive and deletes the corresponding entries in the database tables. If you start the report in the simulation mode, the system determines the number of data records to be deleted for TOU exception responses that were read from the archive.\n\n4 Optional Reloading of Archived and Deleted Data (Report REAARCH_REL_EXRESP)\n\nProcess Flow\n\nThe RREAARCH_ REL_EXRESP report reloads TOU exception responses that have been archived and already deleted, and reverses all changes made to the database by the deletion program.\n\nNote You can only use the reload program to reload complete archiving runs. It is not possible to reload individual TOU exception responses. This procedure should not normally be used and should be limited to severe problem cases (such as an incorrect retention period in Customizing).\n\nWhen you start the report, you can make various settings on the initial screen:\n\n- Log type: General statistical data or detail log with detailed data for each analyzed data record (note that making this setting can become confusing if large amounts of data are involved).\n\n- Test run: If you start the report as a test run, no changes are made to the database.\n\n5 Optional Reading of TOU Exception Responses from the Archive and Output in a List (Report\n\nREAARCH_READ_ARCHIVE_EXRESP)\n\nProcess Flow\n\nYou use report REAARCH_READ ARCHIVE _EXRESP after running the archiving report REAARCH_ARCH_EXRESP to gain read-only access to an archive and to display data for TOU exception responses in a list. You do not have run the deletion program first.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1576,
+    310,
+    1614
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p078_b000",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    254,
+    134,
+    2474,
+    425
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "This action destroys data from the database in an archiving write session and then in a subsequent delete run. This creates temporary archive files which the system deletes automatically with the file-related administration data at the end of the deletion phase. A run is classified as a destruction run in technical terms by the DESTROY parameter. If an archiving object has not been registered in the Information Retention Manager (IRM), the system ignores the DESTROY parameter and executes a standard archiving session.",
+   "section_id": "doc_011_sec_262"
+  },
+  {
+   "block_id": "doc_011_p078_b001",
+   "type": "list",
+   "page_number": 78,
+   "bbox": [
+    122,
+    509,
+    1855,
+    547
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Deletion of TOU Exception Responses from the Database (report REAARCH_DEL_EXRESP)"
+    }
+   ],
+   "section_id": "doc_011_sec_262"
+  },
+  {
+   "block_id": "doc_011_p078_b002",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    124,
+    630,
+    366,
+    661
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Process Flow",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_263"
+  },
+  {
+   "block_id": "doc_011_p078_b003",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    122,
+    752,
+    2463,
+    1039
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The deletion report reads TOU exception responses that were previously archived in an archiving run from the archive and deletes the corresponding entries in the database tables. If you start the report in the simulation mode, the system determines the number of data records to be deleted for TOU exception responses that were read from the archive.",
+   "section_id": "doc_011_sec_263"
+  },
+  {
+   "block_id": "doc_011_p078_b004",
+   "type": "list",
+   "page_number": 78,
+   "bbox": [
+    122,
+    1123,
+    1717,
+    1161
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Optional Reloading of Archived and Deleted Data (Report REAARCH_REL_EXRESP)"
+    }
+   ],
+   "section_id": "doc_011_sec_263"
+  },
+  {
+   "block_id": "doc_011_p078_b005",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    124,
+    1245,
+    366,
+    1275
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Process Flow",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_264"
+  },
+  {
+   "block_id": "doc_011_p078_b006",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    122,
+    1368,
+    2481,
+    1473
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The RREAARCH_ REL_EXRESP report reloads TOU exception responses that have been archived and already deleted, and reverses all changes made to the database by the deletion program.",
+   "section_id": "doc_011_sec_264"
+  },
+  {
+   "block_id": "doc_011_p078_b007",
+   "type": "note",
+   "page_number": 78,
+   "bbox": [
+    151,
+    1576,
+    2394,
+    1818
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "label": "Note",
+   "text": "Note You can only use the reload program to reload complete archiving runs. It is not possible to reload individual TOU exception responses. This procedure should not normally be used and should be limited to severe problem cases (such as an incorrect retention period in Customizing).",
+   "section_id": "doc_011_sec_264"
+  },
+  {
+   "block_id": "doc_011_p078_b008",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    123,
+    1938,
+    1530,
+    1976
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "When you start the report, you can make various settings on the initial screen:",
+   "section_id": "doc_011_sec_264"
+  },
+  {
+   "block_id": "doc_011_p078_b009",
+   "type": "list",
+   "page_number": 78,
+   "bbox": [
+    123,
+    2063,
+    2367,
+    2387
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Log type: General statistical data or detail log with detailed data for each analyzed data record (note that making this setting can become confusing if large amounts of data are involved)."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Test run: If you start the report as a test run, no changes are made to the database."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Optional Reading of TOU Exception Responses from the Archive and Output in a List (Report"
+    }
+   ],
+   "section_id": "doc_011_sec_264"
+  },
+  {
+   "block_id": "doc_011_p078_b010",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    124,
+    2411,
+    825,
+    2449
+   ],
+   "ocr_confidence": 91.1,
+   "flags": [],
+   "text": "REAARCH_READ_ARCHIVE_EXRESP)",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_265"
+  },
+  {
+   "block_id": "doc_011_p078_b011",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    124,
+    2537,
+    366,
+    2567
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Process Flow",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_266"
+  },
+  {
+   "block_id": "doc_011_p078_b012",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    123,
+    2655,
+    2421,
+    2883
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You use report REAARCH_READ ARCHIVE _EXRESP after running the archiving report REAARCH_ARCH_EXRESP to gain read-only access to an archive and to display data for TOU exception responses in a list. You do not have run the deletion program first.",
+   "section_id": "doc_011_sec_266"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.0889,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "afe8dd554d51f19496634efd91358e45eed7e90dd2f9cb0508f2d32e6888ac7a"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:41Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Archiving of Time-of-Use Exception Responses",
+  "Features",
+  "Process Flow"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_262",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_263",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_264",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_265",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_266",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,422 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 9,
+ "source_page_hash": "e0414ad29034642786858ba5551bf82871cc796e1f5c8157a0dc27e601ae6b05",
+ "is_cover_page": false,
+ "title": "Bank Details/Card Data Group Box",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nUsing the 4 pushbutton, you can go directly to the maintenance transaction for another business partner. If you choose @ in the\ntoolbar, you can also choose another business partner or change the validity date for the partner already entered and start\nprocessing again.\n\nFor information about saving validity dates that take effect in the future, see Special Features of Changes with Effect in the Future.\nBank Details/Card Data Group Box\n\nIf bank details/payment cards already exist for the business partner, these are displayed in the Old Bank Dets/Prev. Pymt Card\nfield. You can choose the bank details you want from the dropdown list or search using the [Ri pushbutton.\n\nUnder New Bank Dets/New Pymt Card, you enter the new payment data or the system displays the data of the selected bank\ndetails or payment card here.\n\nContract Accounts Group Box\n\nUsing the radio buttons, you first specify if the payment data should be valid only for incoming payments, only for outgoing\npayments, or both.\n\nThe following contract accounts are displayed:\n\ne Contract accounts, in which the selected business partner is entered as the contract account holder\ne Contract accounts, in which the selected business partner is entered as the alternative payer\n\ne Contract accounts, in which the selected business partner is entered as the alternative payee\n\ne Contract accounts, in which the selected business partner is entered as the payer\n\nIf you enter a later date than the current date in the Valid From field, the system selects the contract accounts valid starting\nfrom this date. If, for example, the business partner is not the contract account holder, and only becomes the alternative\npayer, alternative payee, or payer for the contract account starting from a date in the future, the contract account may not\nbe selected under certain circumstances for technical reasons, if you call the transaction before this future date. The\nsystem only selects the contract account when you call the transaction for the date when the change takes effect and the\nbusiness partner is, for example, the alternative payer.\n\nThe system automatically selects certain contract accounts in the list:\n\nAutomatic Selection of Contract Accounts in the List\n\nMode                                                                                    Automatic Selection\n\nCreate                                                                                   If the business partner has no bank details/payment card, the\nsystem selects all contract accounts. If the business partner\nalready has bank details/payment card, the system does not select\nany contract account.\n\nChange                                                                                    The system selects all contract accounts that contain the bank\ndetails/payment card selected. You cannot remove this selection.\n\nDelete                                                                                      The system selects all contract accounts that contain the bank\n\ndetails/payment card selected. You cannot select any other\ncontract accounts for changes.\n\n",
+ "cleaned_text": "Using the 4 pushbutton, you can go directly to the maintenance transaction for another business partner. If you choose @ in the toolbar, you can also choose another business partner or change the validity date for the partner already entered and start processing again. For information about saving validity dates that take effect in the future, see Special Features of Changes with Effect in the Future.\n\nBank Details/Card Data Group Box\n\nIf bank details/payment cards already exist for the business partner, these are displayed in the Old Bank Dets/Prev. Pymt Card field. You can choose the bank details you want from the dropdown list or search using the [Ri pushbutton. Under New Bank Dets/New Pymt Card, you enter the new payment data or the system displays the data of the selected bank details or payment card here.\n\nContract Accounts Group Box\n\nUsing the radio buttons, you first specify if the payment data should be valid only for incoming payments, only for outgoing payments, or both. The following contract accounts are displayed:\n\n- Contract accounts, in which the selected business partner is entered as the contract account holder\n\n- Contract accounts, in which the selected business partner is entered as the alternative payer\n\n- Contract accounts, in which the selected business partner is entered as the alternative payee\n\n- Contract accounts, in which the selected business partner is entered as the payer If you enter a later date than the current date in the Valid From field, the system selects the contract accounts valid starting\n\nfrom this date. If, for example, the business partner is not the contract account holder, and only becomes the alternative payer, alternative payee, or payer for the contract account starting from a date in the future, the contract account may not be selected under certain circumstances for technical reasons, if you call the transaction before this future date. The system only selects the contract account when you call the transaction for the date when the change takes effect and the business partner is, for example, the alternative payer. The system automatically selects certain contract accounts in the list:\n\nAutomatic Selection of Contract Accounts in the List\n\nMode | Automatic Selection\n\nCreate | If the business partner has no bank details/payment card, the\n\nsystem selects all contract accounts. If the business partner already has bank details/payment card, the system does not select any contract account.\n\nChange | The system selects all contract accounts that contain the bank\n\ndetails/payment card selected. You cannot remove this selection.\n\nDelete | The system selects all contract accounts that contain the bank\n\ndetails/payment card selected. You cannot select any other contract accounts for changes.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p009_b000",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    127,
+    2477,
+    422
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Using the 4 pushbutton, you can go directly to the maintenance transaction for another business partner. If you choose @ in the toolbar, you can also choose another business partner or change the validity date for the partner already entered and start processing again. For information about saving validity dates that take effect in the future, see Special Features of Changes with Effect in the Future.",
+   "section_id": "doc_001_sec_029"
+  },
+  {
+   "block_id": "doc_001_p009_b001",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    124,
+    505,
+    773,
+    543
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "text": "Bank Details/Card Data Group Box",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_030"
+  },
+  {
+   "block_id": "doc_001_p009_b002",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    627,
+    2428,
+    914
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "If bank details/payment cards already exist for the business partner, these are displayed in the Old Bank Dets/Prev. Pymt Card field. You can choose the bank details you want from the dropdown list or search using the [Ri pushbutton. Under New Bank Dets/New Pymt Card, you enter the new payment data or the system displays the data of the selected bank details or payment card here.",
+   "section_id": "doc_001_sec_030"
+  },
+  {
+   "block_id": "doc_001_p009_b003",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    123,
+    998,
+    679,
+    1036
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Contract Accounts Group Box",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p009_b004",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    1120,
+    2343,
+    1341
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Using the radio buttons, you first specify if the payment data should be valid only for incoming payments, only for outgoing payments, or both. The following contract accounts are displayed:",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p009_b005",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    207,
+    1428,
+    2488,
+    1874
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Contract accounts, in which the selected business partner is entered as the contract account holder"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Contract accounts, in which the selected business partner is entered as the alternative payer"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Contract accounts, in which the selected business partner is entered as the alternative payee"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Contract accounts, in which the selected business partner is entered as the payer If you enter a later date than the current date in the Valid From field, the system selects the contract accounts valid starting"
+    }
+   ],
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p009_b006",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    1902,
+    2459,
+    2314
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "from this date. If, for example, the business partner is not the contract account holder, and only becomes the alternative payer, alternative payee, or payer for the contract account starting from a date in the future, the contract account may not be selected under certain circumstances for technical reasons, if you call the transaction before this future date. The system only selects the contract account when you call the transaction for the date when the change takes effect and the business partner is, for example, the alternative payer. The system automatically selects certain contract accounts in the list:",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p009_b007",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    123,
+    2398,
+    1075,
+    2428
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Automatic Selection of Contract Accounts in the List",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p009_b008",
+   "type": "table",
+   "page_number": 9,
+   "bbox": [
+    148,
+    2544,
+    2365,
+    2685
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Mode",
+     "Automatic Selection"
+    ],
+    [
+     "Create",
+     "If the business partner has no bank details/payment card, the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Mode",
+     "Automatic Selection"
+    ],
+    [
+     "Create",
+     "If the business partner has no bank details/payment card, the"
+    ]
+   ],
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p009_b009",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    1331,
+    2709,
+    2455,
+    2862
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "system selects all contract accounts. If the business partner already has bank details/payment card, the system does not select any contract account.",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p009_b010",
+   "type": "table",
+   "page_number": 9,
+   "bbox": [
+    148,
+    2932,
+    2384,
+    2967
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Change",
+     "The system selects all contract accounts that contain the bank"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Change",
+     "The system selects all contract accounts that contain the bank"
+    ]
+   ],
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p009_b011",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    1331,
+    2991,
+    2423,
+    3027
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "details/payment card selected. You cannot remove this selection.",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p009_b012",
+   "type": "table",
+   "page_number": 9,
+   "bbox": [
+    150,
+    3096,
+    2384,
+    3132
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Delete",
+     "The system selects all contract accounts that contain the bank"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Delete",
+     "The system selects all contract accounts that contain the bank"
+    ]
+   ],
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p009_b013",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    1331,
+    3155,
+    2326,
+    3246
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "details/payment card selected. You cannot select any other contract accounts for changes.",
+   "section_id": "doc_001_sec_031"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "e0414ad29034642786858ba5551bf82871cc796e1f5c8157a0dc27e601ae6b05"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:26Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Changing Payment Data",
+  "Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_029",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_030",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_031",
+   "role": "starts_here"
+  }
+ ]
+}

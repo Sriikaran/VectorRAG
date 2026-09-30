@@ -1,0 +1,667 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 33,
+ "source_page_hash": "38b15945df5c0f148d93000f488382b01673cb616df8a204093138c8579a1072",
+ "is_cover_page": false,
+ "title": "Prerequisites",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nI                  Retention Period         \u2014_\u2014_ 1\n\n!  Residence Period           Blocking Period      ]\n\n        I\n         t\n         |\nPartner                                                                                                                                  :\nI                              I                    :\nCreate Contract                                                                             ]                                I                      :\nAccount                                                                                                                               4\ni                              I                    H\n         !\nReceivables             Receivables       .../ Receivables          |                              I                    :\nDocument               Document                    Document                              i                    :\n         |\n(_ Payment)\nPurpose Ends on Payment Date  I                          ,                 i\n         ,\n|                              i                    H\n\nq                                                                   i\n\nStart of Retention End of Residence = End           End of Retention\n(SoRT)           of Purpose = Blocking of            Destruction of\n\nPersonal Data                   Personal Data\n\nData Protection and Privacy: Process and Terminology\n\nFor more information, see the \u201cData Protection and Privacy\u201d section in the \u201cSecurity Guide for SAP S/AHANA\u2019\u201d at\nhttp://help.sap.com/s4hana.\n\nPrerequisites\n\nYou have activated the business function ILM-Based Deletion of Business Partner Data (BUPA ILM BF) and one of the following\nindustry business functions depending on the industry solution you are using.\n\nIndustry Business functions to be activated\n\nBusiness Function Set                        Technical Name of Business Function | Description of Business Function\nFI-CAX                                              FICAX_BUPA_ BLOCKING                    Blocking of Business Partners\nUTILITIES                                          ISU_BUPA_ BLOCKING                        Blocking of Business Partners\nTELCO                                              TEL_BUPA_BOCKING                          Blocking of Business Partners\nPUBLIC_SERVICES                              PSCD_ BUPA BLOCKING                      Blocking of Business Partners\nINSURANCE                                       INS _FSCD BUPA BLOCKING              Blocking of Business Partners\nMEDIA                                              MED _BP_BLOCKING                            Blocking of Business Partners\n\nThe EoP check for Contract Accounts Receivable and Payable supports the use of application rule variants.\n\nYou use rule variants in the definition of residence rules (for example, for the ILM objects CA_BUPA and FI_FICA) in audit area\nRIIPA [NDP to adant the FoP chack tn voir hiicinace Nnaade\n",
+ "cleaned_text": "I | Retention Period | \u2014_\u2014_ 1\n\n! Residence Period | Blocking Period | ]\n\nI t |\n\nPartner | :\n\nI | I | :\n\nCreate Contract | ] | I | :\n\nAccount | 4\n\ni | I | H\n\n!\n\nReceivables | Receivables | .../ | Receivables | | | I | :\n\nDocument | Document | Document | i | :\n\n| (_ Payment)\n\nPurpose Ends on Payment Date I | , | i\n\n,\n\n| | i | H\n\nq | i\n\nStart of Retention End of Residence = End | End of Retention\n\n(SoRT) | of Purpose = Blocking of | Destruction of\n\nPersonal Data | Personal Data\n\nData Protection and Privacy: Process and Terminology For more information, see the \u201cData Protection and Privacy\u201d section in the \u201cSecurity Guide for SAP S/AHANA\u2019\u201d at http://help.sap.com/s4hana.\n\nPrerequisites\n\nYou have activated the business function ILM-Based Deletion of Business Partner Data (BUPA ILM BF) and one of the following industry business functions depending on the industry solution you are using. Industry Business functions to be activated\n\nBusiness Function Set | Technical Name of Business Function | Description of Business Function\n\nFI-CAX | FICAX_BUPA_ BLOCKING | Blocking of Business Partners\n\nUTILITIES | ISU_BUPA_ BLOCKING | Blocking of Business Partners\n\nTELCO | TEL_BUPA_BOCKING | Blocking of Business Partners\n\nPUBLIC_SERVICES | PSCD_ BUPA BLOCKING | Blocking of Business Partners\n\nINSURANCE | INS _FSCD BUPA BLOCKING | Blocking of Business Partners\n\nMEDIA | MED _BP_BLOCKING | Blocking of Business Partners\n\nThe EoP check for Contract Accounts Receivable and Payable supports the use of application rule variants. You use rule variants in the definition of residence rules (for example, for the ILM objects CA_BUPA and FI_FICA) in audit area\n\nRIIPA [NDP to adant the FoP chack tn voir hiicinace Nnaade",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p033_b000",
+   "type": "table",
+   "page_number": 33,
+   "bbox": [
+    1375,
+    128,
+    2200,
+    257
+   ],
+   "ocr_confidence": 71.4,
+   "flags": [
+    "low_confidence_words:4",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    1375,
+    1630,
+    1852,
+    2023,
+    2190
+   ],
+   "headers": [
+    "I",
+    "Retention Period",
+    "\u2014_\u2014_ 1"
+   ],
+   "rows": [
+    [
+     "! Residence Period",
+     "Blocking Period",
+     "]"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "I",
+     "Retention Period",
+     "\u2014_\u2014_ 1"
+    ],
+    [
+     "! Residence Period",
+     "Blocking Period",
+     "]"
+    ]
+   ],
+   "section_id": "doc_001_sec_108"
+  },
+  {
+   "block_id": "doc_001_p033_b001",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    1741,
+    260,
+    1754,
+    446
+   ],
+   "ocr_confidence": 32.2,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region"
+   ],
+   "text": "I t |",
+   "section_id": "doc_001_sec_108"
+  },
+  {
+   "block_id": "doc_001_p033_b002",
+   "type": "table",
+   "page_number": 33,
+   "bbox": [
+    277,
+    528,
+    2005,
+    748
+   ],
+   "ocr_confidence": 63.4,
+   "flags": [
+    "low_confidence_words:6",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    277,
+    313,
+    1375,
+    1741,
+    1996
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Partner",
+     ":"
+    ],
+    [
+     "I",
+     "I",
+     ":"
+    ],
+    [
+     "Create Contract",
+     "]",
+     "I",
+     ":"
+    ],
+    [
+     "Account",
+     "4"
+    ],
+    [
+     "i",
+     "I",
+     "H"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Partner",
+     ":"
+    ],
+    [
+     "I",
+     "I",
+     ":"
+    ],
+    [
+     "Create Contract",
+     "]",
+     "I",
+     ":"
+    ],
+    [
+     "Account",
+     "4"
+    ],
+    [
+     "i",
+     "I",
+     "H"
+    ]
+   ],
+   "section_id": "doc_001_sec_108"
+  },
+  {
+   "block_id": "doc_001_p033_b003",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    1742,
+    765,
+    1755,
+    808
+   ],
+   "ocr_confidence": 3.5,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "!",
+   "section_id": "doc_001_sec_108"
+  },
+  {
+   "block_id": "doc_001_p033_b004",
+   "type": "table",
+   "page_number": 33,
+   "bbox": [
+    308,
+    837,
+    2005,
+    953
+   ],
+   "ocr_confidence": 78.6,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 7,
+   "column_starts": [
+    308,
+    656,
+    939,
+    1060,
+    1375,
+    1743,
+    1996
+   ],
+   "headers": [
+    "Receivables",
+    "Receivables",
+    ".../",
+    "Receivables",
+    "|",
+    "I",
+    ":"
+   ],
+   "rows": [
+    [
+     "Document",
+     "Document",
+     "Document",
+     "i",
+     ":"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Receivables",
+     "Receivables",
+     ".../",
+     "Receivables",
+     "|",
+     "I",
+     ":"
+    ],
+    [
+     "Document",
+     "Document",
+     "Document",
+     "i",
+     ":"
+    ]
+   ],
+   "section_id": "doc_001_sec_108"
+  },
+  {
+   "block_id": "doc_001_p033_b005",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    1018,
+    982,
+    1755,
+    1142
+   ],
+   "ocr_confidence": 55.3,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region"
+   ],
+   "text": "| (_ Payment)",
+   "section_id": "doc_001_sec_108"
+  },
+  {
+   "block_id": "doc_001_p033_b006",
+   "type": "table",
+   "page_number": 33,
+   "bbox": [
+    828,
+    1127,
+    2005,
+    1205
+   ],
+   "ocr_confidence": 73.4,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    828,
+    1744,
+    1996
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Purpose Ends on Payment Date I",
+     ",",
+     "i"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Purpose Ends on Payment Date I",
+     ",",
+     "i"
+    ]
+   ],
+   "section_id": "doc_001_sec_108"
+  },
+  {
+   "block_id": "doc_001_p033_b007",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    1744,
+    1199,
+    1756,
+    1242
+   ],
+   "ocr_confidence": 0.0,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": ",",
+   "section_id": "doc_001_sec_108"
+  },
+  {
+   "block_id": "doc_001_p033_b008",
+   "type": "table",
+   "page_number": 33,
+   "bbox": [
+    1239,
+    1271,
+    2365,
+    1521
+   ],
+   "ocr_confidence": 87.9,
+   "flags": [
+    "low_confidence_words:4",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 9,
+   "column_starts": [
+    1239,
+    1323,
+    1375,
+    1566,
+    1656,
+    1744,
+    1995,
+    2094,
+    2190
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "|",
+     "i",
+     "H"
+    ],
+    [
+     "q",
+     "i"
+    ],
+    [
+     "Start of Retention End of Residence = End",
+     "End of Retention"
+    ],
+    [
+     "(SoRT)",
+     "of Purpose = Blocking of",
+     "Destruction of"
+    ],
+    [
+     "Personal Data",
+     "Personal Data"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "|",
+     "i",
+     "H"
+    ],
+    [
+     "q",
+     "i"
+    ],
+    [
+     "Start of Retention End of Residence = End",
+     "End of Retention"
+    ],
+    [
+     "(SoRT)",
+     "of Purpose = Blocking of",
+     "Destruction of"
+    ],
+    [
+     "Personal Data",
+     "Personal Data"
+    ]
+   ],
+   "section_id": "doc_001_sec_108"
+  },
+  {
+   "block_id": "doc_001_p033_b009",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    122,
+    1560,
+    2149,
+    1772
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Data Protection and Privacy: Process and Terminology For more information, see the \u201cData Protection and Privacy\u201d section in the \u201cSecurity Guide for SAP S/AHANA\u2019\u201d at http://help.sap.com/s4hana.",
+   "section_id": "doc_001_sec_108"
+  },
+  {
+   "block_id": "doc_001_p033_b010",
+   "type": "heading",
+   "page_number": 33,
+   "bbox": [
+    126,
+    1884,
+    492,
+    1940
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_109"
+  },
+  {
+   "block_id": "doc_001_p033_b011",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    123,
+    2015,
+    2477,
+    2248
+   ],
+   "ocr_confidence": 90.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You have activated the business function ILM-Based Deletion of Business Partner Data (BUPA ILM BF) and one of the following industry business functions depending on the industry solution you are using. Industry Business functions to be activated",
+   "section_id": "doc_001_sec_109"
+  },
+  {
+   "block_id": "doc_001_p033_b012",
+   "type": "table",
+   "page_number": 33,
+   "bbox": [
+    148,
+    2300,
+    2104,
+    2976
+   ],
+   "ocr_confidence": 82.3,
+   "flags": [
+    "low_confidence_words:9",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    148,
+    841,
+    1537
+   ],
+   "headers": [
+    "Business Function Set",
+    "Technical Name of Business Function | Description of Business Function"
+   ],
+   "rows": [
+    [
+     "FI-CAX",
+     "FICAX_BUPA_ BLOCKING",
+     "Blocking of Business Partners"
+    ],
+    [
+     "UTILITIES",
+     "ISU_BUPA_ BLOCKING",
+     "Blocking of Business Partners"
+    ],
+    [
+     "TELCO",
+     "TEL_BUPA_BOCKING",
+     "Blocking of Business Partners"
+    ],
+    [
+     "PUBLIC_SERVICES",
+     "PSCD_ BUPA BLOCKING",
+     "Blocking of Business Partners"
+    ],
+    [
+     "INSURANCE",
+     "INS _FSCD BUPA BLOCKING",
+     "Blocking of Business Partners"
+    ],
+    [
+     "MEDIA",
+     "MED _BP_BLOCKING",
+     "Blocking of Business Partners"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Business Function Set",
+     "Technical Name of Business Function | Description of Business Function"
+    ],
+    [
+     "FI-CAX",
+     "FICAX_BUPA_ BLOCKING",
+     "Blocking of Business Partners"
+    ],
+    [
+     "UTILITIES",
+     "ISU_BUPA_ BLOCKING",
+     "Blocking of Business Partners"
+    ],
+    [
+     "TELCO",
+     "TEL_BUPA_BOCKING",
+     "Blocking of Business Partners"
+    ],
+    [
+     "PUBLIC_SERVICES",
+     "PSCD_ BUPA BLOCKING",
+     "Blocking of Business Partners"
+    ],
+    [
+     "INSURANCE",
+     "INS _FSCD BUPA BLOCKING",
+     "Blocking of Business Partners"
+    ],
+    [
+     "MEDIA",
+     "MED _BP_BLOCKING",
+     "Blocking of Business Partners"
+    ]
+   ],
+   "section_id": "doc_001_sec_109"
+  },
+  {
+   "block_id": "doc_001_p033_b013",
+   "type": "paragraph",
+   "page_number": 33,
+   "bbox": [
+    122,
+    3084,
+    2420,
+    3250
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "The EoP check for Contract Accounts Receivable and Payable supports the use of application rule variants. You use rule variants in the definition of residence rules (for example, for the ILM objects CA_BUPA and FI_FICA) in audit area",
+   "section_id": "doc_001_sec_109"
+  },
+  {
+   "block_id": "doc_001_p033_b014",
+   "type": "fragment",
+   "page_number": 33,
+   "bbox": [
+    125,
+    3274,
+    1155,
+    3300
+   ],
+   "ocr_confidence": 77.9,
+   "flags": [
+    "low_confidence_words:2",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "RIIPA [NDP to adant the FoP chack tn voir hiicinace Nnaade",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_109"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 67.0,
+  "body_stroke_median": 0.0952,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 83,
+   "page_hash": "38b15945df5c0f148d93000f488382b01673cb616df8a204093138c8579a1072"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Business Partner End Of Purpose (EoP) Check"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_108",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_109",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,384 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_027",
+ "page_number": 9,
+ "source_page_hash": "ba6cb3536a9c28aeccff30da288394ff4de1b6e0441b37883a5900256f7278b1",
+ "is_cover_page": false,
+ "title": "Manual Submission",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:16 AM\ne At event 6263, you can determine documents that are sent as attachments with the submission. For instance, you can\ndetermine the original invoices in the form of PDF documents for the submitted collection items. Sample function module\nFKK_SAMPLE_6263 is provided for this.\n\ne At event 6265, you can fill more detailed customer-specific data in the outgoing message of the Enterprise Service/API.\nSample function module FKK_SAMPLE_6265 is provided for this.\n\ne At event 6260 (sample function module FKK_SAMPLE_6260), you can group the collection items being submitted before\nthe actual submission. This allows the collection agency to treat the items as a group during collection. For instance, you\ncould assign interest and charge items to the appropriate main receivable item, thereby grouping them together in a\n\nsubmission group.\n\nManual Submission\n\nUse\n\nUsing the Submit Items for Collection transaction, you can select individual receivables for submission to a collection agency.\n\nActivities\n\n1. In the SAP Easy Access screen, choose |}Account \u00bb Submit for Collection > Submit Items for Collection 3 (transaction\nFPO3D).\n\n2. Enter the criteria that you want to use to select the items to be submitted. If you select the indicators for it, you can also\n\ninclude statistical and written-off items in the selection. If you set the Submit Additional Items indicator, in addition to the\nitems released for collection, you can also automatically submit all additional open items of the business partner (see\nSubmitting Receivables to Collection Agencies).\n\nIf you work with debt recovery scores, you can enter a variant for checking the debt recovery score when you submit items.\n\n3. Assign a collection agency to the receivables being submitted. The input help offers all collection agencies that are entered\nin the system. If you do not make an entry in the Submission to Collection Agency field, then the program determines the\ncollection agency using the function module processed at event 5060, or it submits the items to the collection agency that\nwas already determined when the items were released. For more information, see Releasing Receivables for Collection.\n\n4. Choose whether you want to simulate the submission or actually submit the receivables.\n\nFor submitting using files, if you set the Write File indicator and enter a path, you can create a file for your own information\n\nand store it on an application server. If you set the indicator Payment Form ID for Collection Agency, all items submitted\nfor a business partner are grouped under a payment form ID that the collection agency can specify as a payment reference\nin its report.\n\nFor submission via Enterprise Service/API, during an update run, the system automatically sends the data relevant for\nsubmission to the respective collection agency.\n\n5. Choose whether you want the list of submitted items to be output as a standard list or in ALV format. Enter a list variant, if\napplicable.\n\n6. Choose (Eb.\n\nAiitanmatic Sinnmiccinn\n",
+ "cleaned_text": "- At event 6263, you can determine documents that are sent as attachments with the submission. For instance, you can determine the original invoices in the form of PDF documents for the submitted collection items. Sample function module FKK_SAMPLE_6263 is provided for this.\n\n- At event 6265, you can fill more detailed customer-specific data in the outgoing message of the Enterprise Service/API. Sample function module FKK_SAMPLE_6265 is provided for this.\n\n- At event 6260 (sample function module FKK_SAMPLE_6260), you can group the collection items being submitted before the actual submission. This allows the collection agency to treat the items as a group during collection. For instance, you could assign interest and charge items to the appropriate main receivable item, thereby grouping them together in a submission group.\n\nManual Submission\n\nUse\n\nUsing the Submit Items for Collection transaction, you can select individual receivables for submission to a collection agency.\n\nActivities\n\n1 In the SAP Easy Access screen, choose |}Account \u00bb Submit for Collection > Submit Items for Collection 3 (transaction FPO3D).\n\n2 Enter the criteria that you want to use to select the items to be submitted. If you select the indicators for it, you can also include statistical and written-off items in the selection. If you set the Submit Additional Items indicator, in addition to the items released for collection, you can also automatically submit all additional open items of the business partner (see\n\nSubmitting Receivables to Collection Agencies). If you work with debt recovery scores, you can enter a variant for checking the debt recovery score when you submit items.\n\n3 Assign a collection agency to the receivables being submitted. The input help offers all collection agencies that are entered in the system. If you do not make an entry in the Submission to Collection Agency field, then the program determines the\n\ncollection agency using the function module processed at event 5060, or it submits the items to the collection agency that was already determined when the items were released. For more information, see Releasing Receivables for Collection.\n\n4 Choose whether you want to simulate the submission or actually submit the receivables. For submitting using files, if you set the Write File indicator and enter a path, you can create a file for your own information\n\nand store it on an application server. If you set the indicator Payment Form ID for Collection Agency, all items submitted for a business partner are grouped under a payment form ID that the collection agency can specify as a payment reference in its report. For submission via Enterprise Service/API, during an update run, the system automatically sends the data relevant for submission to the respective collection agency.\n\n5 Choose whether you want the list of submitted items to be output as a standard list or in ALV format. Enter a list variant, if applicable.\n\n6 Choose (Eb.\n\nAiitanmatic Sinnmiccinn",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:16 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_027_p009_b000",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    207,
+    134,
+    2449,
+    755
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "At event 6263, you can determine documents that are sent as attachments with the submission. For instance, you can determine the original invoices in the form of PDF documents for the submitted collection items. Sample function module FKK_SAMPLE_6263 is provided for this."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "At event 6265, you can fill more detailed customer-specific data in the outgoing message of the Enterprise Service/API. Sample function module FKK_SAMPLE_6265 is provided for this."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "At event 6260 (sample function module FKK_SAMPLE_6260), you can group the collection items being submitted before the actual submission. This allows the collection agency to treat the items as a group during collection. For instance, you could assign interest and charge items to the appropriate main receivable item, thereby grouping them together in a submission group."
+    }
+   ],
+   "section_id": "doc_027_sec_033"
+  },
+  {
+   "block_id": "doc_027_p009_b001",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    128,
+    900,
+    832,
+    962
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Manual Submission",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_034"
+  },
+  {
+   "block_id": "doc_027_p009_b002",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    125,
+    1077,
+    225,
+    1122
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_035"
+  },
+  {
+   "block_id": "doc_027_p009_b003",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    124,
+    1210,
+    2401,
+    1247
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Using the Submit Items for Collection transaction, you can select individual receivables for submission to a collection agency.",
+   "section_id": "doc_027_sec_035"
+  },
+  {
+   "block_id": "doc_027_p009_b004",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    123,
+    1359,
+    382,
+    1404
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_036"
+  },
+  {
+   "block_id": "doc_027_p009_b005",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    211,
+    1487,
+    2456,
+    1824
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "In the SAP Easy Access screen, choose |}Account \u00bb Submit for Collection > Submit Items for Collection 3 (transaction FPO3D)."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter the criteria that you want to use to select the items to be submitted. If you select the indicators for it, you can also include statistical and written-off items in the selection. If you set the Submit Additional Items indicator, in addition to the items released for collection, you can also automatically submit all additional open items of the business partner (see"
+    }
+   ],
+   "section_id": "doc_027_sec_036"
+  },
+  {
+   "block_id": "doc_027_p009_b006",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    254,
+    1848,
+    2466,
+    1988
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Submitting Receivables to Collection Agencies). If you work with debt recovery scores, you can enter a variant for checking the debt recovery score when you submit items.",
+   "section_id": "doc_027_sec_036"
+  },
+  {
+   "block_id": "doc_027_p009_b007",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    211,
+    2052,
+    2465,
+    2156
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Assign a collection agency to the receivables being submitted. The input help offers all collection agencies that are entered in the system. If you do not make an entry in the Submission to Collection Agency field, then the program determines the"
+    }
+   ],
+   "section_id": "doc_027_sec_036"
+  },
+  {
+   "block_id": "doc_027_p009_b008",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    253,
+    2180,
+    2464,
+    2280
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "collection agency using the function module processed at event 5060, or it submits the items to the collection agency that was already determined when the items were released. For more information, see Releasing Receivables for Collection.",
+   "section_id": "doc_027_sec_036"
+  },
+  {
+   "block_id": "doc_027_p009_b009",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    211,
+    2344,
+    2473,
+    2488
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Choose whether you want to simulate the submission or actually submit the receivables. For submitting using files, if you set the Write File indicator and enter a path, you can create a file for your own information"
+    }
+   ],
+   "section_id": "doc_027_sec_036"
+  },
+  {
+   "block_id": "doc_027_p009_b010",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    254,
+    2511,
+    2469,
+    2837
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "and store it on an application server. If you set the indicator Payment Form ID for Collection Agency, all items submitted for a business partner are grouped under a payment form ID that the collection agency can specify as a payment reference in its report. For submission via Enterprise Service/API, during an update run, the system automatically sends the data relevant for submission to the respective collection agency.",
+   "section_id": "doc_027_sec_036"
+  },
+  {
+   "block_id": "doc_027_p009_b011",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    211,
+    2900,
+    2451,
+    3111
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Choose whether you want the list of submitted items to be output as a standard list or in ALV format. Enter a list variant, if applicable."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "Choose (Eb."
+    }
+   ],
+   "section_id": "doc_027_sec_036"
+  },
+  {
+   "block_id": "doc_027_p009_b012",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    129,
+    3255,
+    945,
+    3300
+   ],
+   "ocr_confidence": 7.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Aiitanmatic Sinnmiccinn",
+   "section_id": "doc_027_sec_036"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Submission of Receivables to Collection Agency",
+  "source_pdf": "27.pdf",
+  "reference_pdf": "27_Submission_of_Receivables_to_Collection_Agency.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Useful for late-stage collections and external-agency lifecycle knowledge.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "ba6cb3536a9c28aeccff30da288394ff4de1b6e0441b37883a5900256f7278b1"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Submission of Receivables to Collection Agency",
+  "Automatic Release",
+  "Activities"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_027_sec_033",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_027_sec_034",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_035",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_036",
+   "role": "starts_here"
+  }
+ ]
+}

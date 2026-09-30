@@ -1,0 +1,359 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 51,
+ "source_page_hash": "62d3974a3d9e401bd8fef52f23edb88f807394165f73e0ce93bebaee9431bae0",
+ "is_cover_page": false,
+ "title": "Meter Reading Result",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nYou use the Print Workbench application component to create application forms.\n\nYou maintain application forms in the schedule record of the meter reading unit in the Portioning and Scheduling (IS-U-BF-PS)\ncomponent. You can specify an alternative form during order output.\n\nIf you want order output to start automatically via batch jobs, you schedule the jobs by maintaining the relevant intervals in the\nschedule record of the meter reading unit.\n\n\u00ab\u00b0 Example\n\nExamples of intervals include:\n\ne Interval between order creation and scheduled meter reading date\n\ne Interval between download and scheduled meter reading date\n\nMeter Reading Result\n\nUse\n\nThis component manages meter readings and devices. They can be determined as follows:\n\ne Meter reading by the utilities company:\n\nA meter reader from the utilities company or from an external meter reading company enters the result in the meter\nreading order, or in the external system.\n\ne Meter reading by the customer:\nThe customers read the results themselves and report them to the utilities company.\ne Automatic estimation:\n\nThe result is estimated automatically.\n\ne Derivation:\n\nThe meter reading result is determined from a meter reading result that has already been entered. This result must be\nfound within the entry interval. This prevents the entry of meter readings that are too close together.\n\nIn addition to the meter reading result, the system also saves the way in which the meter reading was determined.\n\nIntegration\n\nFor more information about uploading meter reading results, see Upload.\n\nEntry of Meter Reading Results\n\nUsa\n",
+ "cleaned_text": "You use the Print Workbench application component to create application forms. You maintain application forms in the schedule record of the meter reading unit in the Portioning and Scheduling (IS-U-BF-PS) component. You can specify an alternative form during order output. If you want order output to start automatically via batch jobs, you schedule the jobs by maintaining the relevant intervals in the schedule record of the meter reading unit.\n\nExample Examples of intervals include:\n\n- Interval between order creation and scheduled meter reading date\n\n- Interval between download and scheduled meter reading date\n\nMeter Reading Result\n\nUse\n\nThis component manages meter readings and devices. They can be determined as follows:\n\n- Meter reading by the utilities company: A meter reader from the utilities company or from an external meter reading company enters the result in the meter reading order, or in the external system.\n\n- Meter reading by the customer: The customers read the results themselves and report them to the utilities company.\n\n- Automatic estimation: The result is estimated automatically.\n\n- Derivation: The meter reading result is determined from a meter reading result that has already been entered. This result must be found within the entry interval. This prevents the entry of meter readings that are too close together.\n\nIn addition to the meter reading result, the system also saves the way in which the meter reading was determined.\n\nIntegration\n\nFor more information about uploading meter reading results, see Upload.\n\nEntry of Meter Reading Results\n\nUsa",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u00ab\u00b0",
+   "bbox": [
+    151,
+    639,
+    432,
+    693
+   ],
+   "reason": "icon glyph OCR'd before 'example' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p051_b000",
+   "type": "paragraph",
+   "page_number": 51,
+   "bbox": [
+    123,
+    134,
+    2420,
+    544
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You use the Print Workbench application component to create application forms. You maintain application forms in the schedule record of the meter reading unit in the Portioning and Scheduling (IS-U-BF-PS) component. You can specify an alternative form during order output. If you want order output to start automatically via batch jobs, you schedule the jobs by maintaining the relevant intervals in the schedule record of the meter reading unit.",
+   "section_id": "doc_006_sec_100"
+  },
+  {
+   "block_id": "doc_006_p051_b001",
+   "type": "example",
+   "page_number": 51,
+   "bbox": [
+    151,
+    639,
+    688,
+    806
+   ],
+   "ocr_confidence": 80.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Example Examples of intervals include:",
+   "section_id": "doc_006_sec_100"
+  },
+  {
+   "block_id": "doc_006_p051_b002",
+   "type": "list",
+   "page_number": 51,
+   "bbox": [
+    207,
+    926,
+    1453,
+    1066
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Interval between order creation and scheduled meter reading date"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Interval between download and scheduled meter reading date"
+    }
+   ],
+   "section_id": "doc_006_sec_100"
+  },
+  {
+   "block_id": "doc_006_p051_b003",
+   "type": "heading",
+   "page_number": 51,
+   "bbox": [
+    128,
+    1216,
+    898,
+    1291
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Meter Reading Result",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_101"
+  },
+  {
+   "block_id": "doc_006_p051_b004",
+   "type": "heading",
+   "page_number": 51,
+   "bbox": [
+    125,
+    1391,
+    225,
+    1436
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_102"
+  },
+  {
+   "block_id": "doc_006_p051_b005",
+   "type": "paragraph",
+   "page_number": 51,
+   "bbox": [
+    122,
+    1524,
+    1757,
+    1562
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "This component manages meter readings and devices. They can be determined as follows:",
+   "section_id": "doc_006_sec_102"
+  },
+  {
+   "block_id": "doc_006_p051_b006",
+   "type": "list",
+   "page_number": 51,
+   "bbox": [
+    207,
+    1646,
+    2386,
+    2527
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Meter reading by the utilities company: A meter reader from the utilities company or from an external meter reading company enters the result in the meter reading order, or in the external system."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Meter reading by the customer: The customers read the results themselves and report them to the utilities company."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Automatic estimation: The result is estimated automatically."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Derivation: The meter reading result is determined from a meter reading result that has already been entered. This result must be found within the entry interval. This prevents the entry of meter readings that are too close together."
+    }
+   ],
+   "section_id": "doc_006_sec_102"
+  },
+  {
+   "block_id": "doc_006_p051_b007",
+   "type": "paragraph",
+   "page_number": 51,
+   "bbox": [
+    125,
+    2612,
+    2178,
+    2649
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "In addition to the meter reading result, the system also saves the way in which the meter reading was determined.",
+   "section_id": "doc_006_sec_102"
+  },
+  {
+   "block_id": "doc_006_p051_b008",
+   "type": "heading",
+   "page_number": 51,
+   "bbox": [
+    127,
+    2761,
+    431,
+    2818
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_103"
+  },
+  {
+   "block_id": "doc_006_p051_b009",
+   "type": "paragraph",
+   "page_number": 51,
+   "bbox": [
+    125,
+    2894,
+    1440,
+    2932
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "For more information about uploading meter reading results, see Upload.",
+   "section_id": "doc_006_sec_103"
+  },
+  {
+   "block_id": "doc_006_p051_b010",
+   "type": "heading",
+   "page_number": 51,
+   "bbox": [
+    128,
+    3081,
+    1245,
+    3157
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Entry of Meter Reading Results",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_104"
+  },
+  {
+   "block_id": "doc_006_p051_b011",
+   "type": "paragraph",
+   "page_number": 51,
+   "bbox": [
+    125,
+    3258,
+    225,
+    3300
+   ],
+   "ocr_confidence": 60.4,
+   "flags": [],
+   "text": "Usa",
+   "section_id": "doc_006_sec_104"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "62d3974a3d9e401bd8fef52f23edb88f807394165f73e0ce93bebaee9431bae0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Order Output",
+  "Purpose"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_100",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_101",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_102",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_103",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_104",
+   "role": "starts_here"
+  }
+ ]
+}

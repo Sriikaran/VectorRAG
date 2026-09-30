@@ -1,0 +1,441 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_017",
+ "page_number": 7,
+ "source_page_hash": "b61a953eefe415623d0b0b132d23e1a3e52f3fa55ce305ead0450d4ddae769db",
+ "is_cover_page": false,
+ "title": "Convergent Invoicing: Basic Data",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nSeveral limited-time locks are possible.\n\nConvergent Invoicing: Basic Data\ne The invoicing category for finer control of billing and\n\ninvoicing processes\n\ne The selection characteristic in scheduling that is used for\ncontract-account-dependent derivation of rating, billing\nand invoicing dates\n\ne That no invoice is created or processing is blocked as a\nresult of specifying a lock reason for a master data record\n\ne The target currency for posting of amounts in invoicing\n\ne That a key is entered for determining forms at the contract\naccount level\n\nThis key is used in determining an alternative application\n\nform.\nConvergent Invoicing: Periodic Bills                                            When the system generates periodic bills\nConvergent Invoicing: Individual Charges/Discounts                       The individual charges and discounts you calculate for the business\n\npartner\n\nIn addition, industry-specific fields are also available.\n\nLink: Contract Account - Business Partner\n\nUse\n\nAt least one business partner is assigned to each contract account. Depending on the industry sector, assignment of several\nbusiness partners to a contract account is also allowed.\n\nPrerequisites\n\nAdditional business partners can only be assigned to a contract account if the corresponding contract account category allows\nthis.\n\nFeatures\n\nThe master data for a contract account is divided into a part that is the same for all business partners of the contract account\n(that is, independent of the business partner) and a part that is business-partner-specific. The business partner-specific data can\nbe controlled differently for different business partners.\n\nActivities\n\nIn Customizing for Contract Accounts Receivable and Payable under |}Basic Functions \u00bb Contract Accounts \u00bb Contract Account\nRelationships \u00bb Define Contract Account/Business Partner Relationships \u2122, you define contract account relationships.\n",
+ "cleaned_text": "Several limited-time locks are possible.\n\nConvergent Invoicing: Basic Data\n\n- The invoicing category for finer control of billing and invoicing processes\n\n- The selection characteristic in scheduling that is used for contract-account-dependent derivation of rating, billing and invoicing dates\n\n- That no invoice is created or processing is blocked as a result of specifying a lock reason for a master data record\n\n- The target currency for posting of amounts in invoicing\n\n- That a key is entered for determining forms at the contract account level This key is used in determining an alternative application\n\nform.\n\nConvergent Invoicing: Periodic Bills | When the system generates periodic bills\n\nConvergent Invoicing: Individual Charges/Discounts | The individual charges and discounts you calculate for the business\n\npartner\n\nIn addition, industry-specific fields are also available.\n\nLink: Contract Account - Business Partner\n\nUse\n\nAt least one business partner is assigned to each contract account. Depending on the industry sector, assignment of several business partners to a contract account is also allowed.\n\nPrerequisites\n\nAdditional business partners can only be assigned to a contract account if the corresponding contract account category allows this.\n\nFeatures\n\nThe master data for a contract account is divided into a part that is the same for all business partners of the contract account (that is, independent of the business partner) and a part that is business-partner-specific. The business partner-specific data can be controlled differently for different business partners.\n\nActivities\n\nIn Customizing for Contract Accounts Receivable and Payable under |}Basic Functions \u00bb Contract Accounts \u00bb Contract Account Relationships \u00bb Define Contract Account/Business Partner Relationships \u2122, you define contract account relationships.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_017_p007_b000",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    1463,
+    133,
+    2115,
+    168
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Several limited-time locks are possible.",
+   "section_id": "doc_017_sec_030"
+  },
+  {
+   "block_id": "doc_017_p007_b001",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    148,
+    242,
+    716,
+    276
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Convergent Invoicing: Basic Data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_031"
+  },
+  {
+   "block_id": "doc_017_p007_b002",
+   "type": "list",
+   "page_number": 7,
+   "bbox": [
+    1416,
+    278,
+    2448,
+    1082
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The invoicing category for finer control of billing and invoicing processes"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The selection characteristic in scheduling that is used for contract-account-dependent derivation of rating, billing and invoicing dates"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That no invoice is created or processing is blocked as a result of specifying a lock reason for a master data record"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The target currency for posting of amounts in invoicing"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "That a key is entered for determining forms at the contract account level This key is used in determining an alternative application"
+    }
+   ],
+   "section_id": "doc_017_sec_031"
+  },
+  {
+   "block_id": "doc_017_p007_b003",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    1462,
+    1106,
+    1550,
+    1134
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "form.",
+   "section_id": "doc_017_sec_031"
+  },
+  {
+   "block_id": "doc_017_p007_b004",
+   "type": "table",
+   "page_number": 7,
+   "bbox": [
+    149,
+    1247,
+    2462,
+    1391
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Convergent Invoicing: Periodic Bills",
+     "When the system generates periodic bills"
+    ],
+    [
+     "Convergent Invoicing: Individual Charges/Discounts",
+     "The individual charges and discounts you calculate for the business"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Convergent Invoicing: Periodic Bills",
+     "When the system generates periodic bills"
+    ],
+    [
+     "Convergent Invoicing: Individual Charges/Discounts",
+     "The individual charges and discounts you calculate for the business"
+    ]
+   ],
+   "section_id": "doc_017_sec_031"
+  },
+  {
+   "block_id": "doc_017_p007_b005",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    1332,
+    1416,
+    1456,
+    1450
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "partner",
+   "section_id": "doc_017_sec_031"
+  },
+  {
+   "block_id": "doc_017_p007_b006",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    125,
+    1557,
+    1075,
+    1595
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "In addition, industry-specific fields are also available.",
+   "section_id": "doc_017_sec_031"
+  },
+  {
+   "block_id": "doc_017_p007_b007",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    128,
+    1744,
+    1645,
+    1805
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Link: Contract Account - Business Partner",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_032"
+  },
+  {
+   "block_id": "doc_017_p007_b008",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    125,
+    1920,
+    225,
+    1965
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_033"
+  },
+  {
+   "block_id": "doc_017_p007_b009",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    123,
+    2053,
+    2365,
+    2153
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "At least one business partner is assigned to each contract account. Depending on the industry sector, assignment of several business partners to a contract account is also allowed.",
+   "section_id": "doc_017_sec_033"
+  },
+  {
+   "block_id": "doc_017_p007_b010",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    126,
+    2265,
+    492,
+    2321
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_034"
+  },
+  {
+   "block_id": "doc_017_p007_b011",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    2398,
+    2417,
+    2491
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Additional business partners can only be assigned to a contract account if the corresponding contract account category allows this.",
+   "section_id": "doc_017_sec_034"
+  },
+  {
+   "block_id": "doc_017_p007_b012",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    126,
+    2610,
+    361,
+    2655
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_035"
+  },
+  {
+   "block_id": "doc_017_p007_b013",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    2743,
+    2457,
+    2905
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The master data for a contract account is divided into a part that is the same for all business partners of the contract account (that is, independent of the business partner) and a part that is business-partner-specific. The business partner-specific data can be controlled differently for different business partners.",
+   "section_id": "doc_017_sec_035"
+  },
+  {
+   "block_id": "doc_017_p007_b014",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    123,
+    3018,
+    383,
+    3063
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_036"
+  },
+  {
+   "block_id": "doc_017_p007_b015",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    124,
+    3146,
+    2463,
+    3255
+   ],
+   "ocr_confidence": 88.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "In Customizing for Contract Accounts Receivable and Payable under |}Basic Functions \u00bb Contract Accounts \u00bb Contract Account Relationships \u00bb Define Contract Account/Business Partner Relationships \u2122, you define contract account relationships.",
+   "section_id": "doc_017_sec_036"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 60.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Accounts Overview",
+  "source_pdf": "17.pdf",
+  "reference_pdf": "17_Contract_Accounts_Overview.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Use to connect utility invoicing to receivables, payments and dunning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "b61a953eefe415623d0b0b132d23e1a3e52f3fa55ce305ead0450d4ddae769db"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Accounts Overview",
+  "Controlling Specifications in Contract Accounts",
+  "Use",
+  "Dunning/Correspondence: Dunning Control"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_017_sec_030",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_017_sec_031",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_032",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_033",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_034",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_035",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_036",
+   "role": "starts_here"
+  }
+ ]
+}

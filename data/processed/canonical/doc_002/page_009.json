@@ -1,0 +1,409 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 9,
+ "source_page_hash": "9d860977f5eaa43f4b840d7d609ac7c8efc10541073a4b7504189df2744a2bf6",
+ "is_cover_page": false,
+ "title": "Move-in",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\nIf a contract has not yet been invoiced, proceed as follows:\n\ne Reverse the move-in document: Execute move-in with the correct business partner. You can use the move-in document as a\ntemplate.\n\ne Create an intermediate bill.\n\ne Wait for the next bill and then execute the customer change.\n\nMove-in\n\nUse\n\nYou use the move-in function to carry out most of the activities required to begin providing a business partner with a utility service.\nYou create new, or change existing business master data. Most importantly, you allocate a contract to an installation.\n\nIn move-in processing, you establish whether a contract can be billed. From the move-in, you can also trigger the charges levied at\nthe commencement of a utility service, as well as a welcome letter to the customer.\n\nPrerequisites\n\nTo create a move-in, you require one or more installations that are vacant on the desired move-in date.\n\ne Inthe case of an initial move-in, ensure that you have completed initial data creation, including creation of the\ninstallation(s).\n\ne Devices can (but do not have to) be installed and allocated before move-in.\n\ne If one of the installations is already allocated to a contract, this allocation must be reversed. To do this, process a move-out.\nAn installation can only be allocated to one contract at any given time.\n\nFeatures\n\nCustomer Contact\n\nWhen a move-in is created, a corresponding customer contact is created automatically. This is automatically linked to the move-in\ndocument. You can find additional information in the section on Customer contact.\n\nOverall Check\n\nWhen a contract is assigned the move-in status 05 (meter reading entered completely), you can verify that the contract can be\nbilled.\n\nMove-In Status\n\nIf you process or display a move-in document, the system also displays the move-in status of each contract. The move-in status\ninforms the agent which stage of move-in processing has been reached.\n\nThe minimum is formed from the move-in status of the contracts and also displayed. In this way you can obtain information on the\n\nctatus of the entire move-in nrocessing.\n",
+ "cleaned_text": "If a contract has not yet been invoiced, proceed as follows:\n\n- Reverse the move-in document: Execute move-in with the correct business partner. You can use the move-in document as a template.\n\n- Create an intermediate bill.\n\n- Wait for the next bill and then execute the customer change.\n\nMove-in\n\nUse\n\nYou use the move-in function to carry out most of the activities required to begin providing a business partner with a utility service. You create new, or change existing business master data. Most importantly, you allocate a contract to an installation. In move-in processing, you establish whether a contract can be billed. From the move-in, you can also trigger the charges levied at the commencement of a utility service, as well as a welcome letter to the customer.\n\nPrerequisites\n\nTo create a move-in, you require one or more installations that are vacant on the desired move-in date.\n\n- Inthe case of an initial move-in, ensure that you have completed initial data creation, including creation of the installation(s).\n\n- Devices can (but do not have to) be installed and allocated before move-in.\n\n- If one of the installations is already allocated to a contract, this allocation must be reversed. To do this, process a move-out. An installation can only be allocated to one contract at any given time.\n\nFeatures\n\nCustomer Contact\n\nWhen a move-in is created, a corresponding customer contact is created automatically. This is automatically linked to the move-in document. You can find additional information in the section on Customer contact.\n\nOverall Check\n\nWhen a contract is assigned the move-in status 05 (meter reading entered completely), you can verify that the contract can be billed.\n\nMove-In Status\n\nIf you process or display a move-in document, the system also displays the move-in status of each contract. The move-in status informs the agent which stage of move-in processing has been reached. The minimum is formed from the move-in status of the contracts and also displayed. In this way you can obtain information on the ctatus of the entire move-in nrocessing.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p009_b000",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    125,
+    134,
+    1175,
+    172
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "If a contract has not yet been invoiced, proceed as follows:",
+   "section_id": "doc_002_sec_028"
+  },
+  {
+   "block_id": "doc_002_p009_b001",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    207,
+    257,
+    2481,
+    563
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Reverse the move-in document: Execute move-in with the correct business partner. You can use the move-in document as a template."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create an intermediate bill."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Wait for the next bill and then execute the customer change."
+    }
+   ],
+   "section_id": "doc_002_sec_028"
+  },
+  {
+   "block_id": "doc_002_p009_b002",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    128,
+    710,
+    406,
+    770
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Move-in",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_029"
+  },
+  {
+   "block_id": "doc_002_p009_b003",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    125,
+    889,
+    225,
+    934
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_030"
+  },
+  {
+   "block_id": "doc_002_p009_b004",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    1014,
+    2482,
+    1305
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You use the move-in function to carry out most of the activities required to begin providing a business partner with a utility service. You create new, or change existing business master data. Most importantly, you allocate a contract to an installation. In move-in processing, you establish whether a contract can be billed. From the move-in, you can also trigger the charges levied at the commencement of a utility service, as well as a welcome letter to the customer.",
+   "section_id": "doc_002_sec_030"
+  },
+  {
+   "block_id": "doc_002_p009_b005",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    126,
+    1418,
+    492,
+    1474
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_031"
+  },
+  {
+   "block_id": "doc_002_p009_b006",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    1550,
+    1965,
+    1588
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "To create a move-in, you require one or more installations that are vacant on the desired move-in date.",
+   "section_id": "doc_002_sec_031"
+  },
+  {
+   "block_id": "doc_002_p009_b007",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    207,
+    1672,
+    2478,
+    2041
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Inthe case of an initial move-in, ensure that you have completed initial data creation, including creation of the installation(s)."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Devices can (but do not have to) be installed and allocated before move-in."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If one of the installations is already allocated to a contract, this allocation must be reversed. To do this, process a move-out. An installation can only be allocated to one contract at any given time."
+    }
+   ],
+   "section_id": "doc_002_sec_031"
+  },
+  {
+   "block_id": "doc_002_p009_b008",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    126,
+    2154,
+    361,
+    2199
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_032"
+  },
+  {
+   "block_id": "doc_002_p009_b009",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    123,
+    2286,
+    467,
+    2317
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Customer Contact",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_033"
+  },
+  {
+   "block_id": "doc_002_p009_b010",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    123,
+    2408,
+    2471,
+    2501
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "When a move-in is created, a corresponding customer contact is created automatically. This is automatically linked to the move-in document. You can find additional information in the section on Customer contact.",
+   "section_id": "doc_002_sec_033"
+  },
+  {
+   "block_id": "doc_002_p009_b011",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    123,
+    2592,
+    379,
+    2622
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Overall Check",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_034"
+  },
+  {
+   "block_id": "doc_002_p009_b012",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    123,
+    2713,
+    2414,
+    2809
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "When a contract is assigned the move-in status 05 (meter reading entered completely), you can verify that the contract can be billed.",
+   "section_id": "doc_002_sec_034"
+  },
+  {
+   "block_id": "doc_002_p009_b013",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    124,
+    2900,
+    404,
+    2931
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "text": "Move-In Status",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_035"
+  },
+  {
+   "block_id": "doc_002_p009_b014",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    3022,
+    2477,
+    3300
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "If you process or display a move-in document, the system also displays the move-in status of each contract. The move-in status informs the agent which stage of move-in processing has been reached. The minimum is formed from the move-in status of the contracts and also displayed. In this way you can obtain information on the ctatus of the entire move-in nrocessing.",
+   "section_id": "doc_002_sec_035"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "9d860977f5eaa43f4b840d7d609ac7c8efc10541073a4b7504189df2744a2bf6"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Customer Change",
+  "Features",
+  "Constraints"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_028",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_002_sec_029",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_030",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_031",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_032",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_033",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_034",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_035",
+   "role": "starts_here"
+  }
+ ]
+}

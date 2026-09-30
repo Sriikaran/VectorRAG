@@ -1,0 +1,371 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 4,
+ "source_page_hash": "537622ae9dcdf8be2bc638ad9de243aa8c57e48225254b01427846a13ac6a9b0",
+ "is_cover_page": false,
+ "title": "Credit Commitment Response",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nThe response contains a business partner's existing payment obligations (Commitments). Contract Accounts Receivable and\nPayable transfers the following information:\n\ne CreditSegmentinternallD\n\ne TypeCode\n\ne DebtorParty\n\ne Amount\n\ne SecuredAmount\n\ne UnsecuredAmount\n\ne ValidityDate\n\ne AmountBalancelndicator\n\ne AmountDifferencelndicator\n\ne AccountingDocumentReference\n\ne PendingCommitment\n\nCredit Commitment Response\n\nThe response contains a business partner's existing payment obligations (commitments). Contract Accounts Receivable and\nPayable transfers the following information:\n\ne CreditSegmentinternallD\n\ne TypeCode\n\ne DebtorParty\n\ne Amount\n\ne SecuredAmount\n\ne UnsecuredAmount\n\ne ValidityDate\n\ne AmountBalancelndicator\n\ne AmountDifferencelndicator\n\ne AccountingDocumentReference\n\ne PendingCommitment\n\nMessage Types\n\ne Credit Commitment Query\n\ne Credit Commitment Response\n",
+ "cleaned_text": "The response contains a business partner's existing payment obligations (Commitments). Contract Accounts Receivable and Payable transfers the following information:\n\n- CreditSegmentinternallD\n\n- TypeCode\n\n- DebtorParty\n\n- Amount\n\n- SecuredAmount\n\n- UnsecuredAmount\n\n- ValidityDate\n\n- AmountBalancelndicator\n\n- AmountDifferencelndicator\n\n- AccountingDocumentReference\n\n- PendingCommitment\n\nCredit Commitment Response\n\nThe response contains a business partner's existing payment obligations (commitments). Contract Accounts Receivable and Payable transfers the following information:\n\n- CreditSegmentinternallD\n\n- TypeCode\n\n- DebtorParty\n\n- Amount\n\n- SecuredAmount\n\n- UnsecuredAmount\n\n- ValidityDate\n\n- AmountBalancelndicator\n\n- AmountDifferencelndicator\n\n- AccountingDocumentReference\n\n- PendingCommitment\n\nMessage Types\n\n- Credit Commitment Query\n\n- Credit Commitment Response",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p004_b000",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    134,
+    2379,
+    235
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "The response contains a business partner's existing payment obligations (Commitments). Contract Accounts Receivable and Payable transfers the following information:",
+   "section_id": "doc_018_sec_014"
+  },
+  {
+   "block_id": "doc_018_p004_b001",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    207,
+    318,
+    833,
+    1381
+   ],
+   "ocr_confidence": 89.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "CreditSegmentinternallD"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "TypeCode"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "DebtorParty"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Amount"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "SecuredAmount"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "UnsecuredAmount"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ValidityDate"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "AmountBalancelndicator"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "AmountDifferencelndicator"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "AccountingDocumentReference"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "PendingCommitment"
+    }
+   ],
+   "section_id": "doc_018_sec_014"
+  },
+  {
+   "block_id": "doc_018_p004_b002",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    123,
+    1468,
+    688,
+    1506
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Credit Commitment Response",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_015"
+  },
+  {
+   "block_id": "doc_018_p004_b003",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    1590,
+    2378,
+    1690
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The response contains a business partner's existing payment obligations (commitments). Contract Accounts Receivable and Payable transfers the following information:",
+   "section_id": "doc_018_sec_015"
+  },
+  {
+   "block_id": "doc_018_p004_b004",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    207,
+    1773,
+    833,
+    2836
+   ],
+   "ocr_confidence": 88.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "CreditSegmentinternallD"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "TypeCode"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "DebtorParty"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Amount"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "SecuredAmount"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "UnsecuredAmount"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ValidityDate"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "AmountBalancelndicator"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "AmountDifferencelndicator"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "AccountingDocumentReference"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "PendingCommitment"
+    }
+   ],
+   "section_id": "doc_018_sec_015"
+  },
+  {
+   "block_id": "doc_018_p004_b005",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    126,
+    2949,
+    543,
+    3005
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Message Types",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_016"
+  },
+  {
+   "block_id": "doc_018_p004_b006",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    207,
+    3081,
+    804,
+    3221
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Credit Commitment Query"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Credit Commitment Response"
+    }
+   ],
+   "section_id": "doc_018_sec_016"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "537622ae9dcdf8be2bc638ad9de243aa8c57e48225254b01427846a13ac6a9b0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Find Credit Commitment by Debitor",
+  "Features",
+  "Credit Commitment Query"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_014",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_018_sec_015",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_016",
+   "role": "starts_here"
+  }
+ ]
+}

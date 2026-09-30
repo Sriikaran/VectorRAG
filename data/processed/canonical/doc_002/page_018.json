@@ -1,0 +1,390 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 18,
+ "source_page_hash": "77d614f8ab53b3d4d682ace38c011e1f4eeec2f4f1145b7b48cab57f5a1c834b",
+ "is_cover_page": false,
+ "title": "Open Items in Dunning",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\nOpen Items in Dunning\n\nOnce you have created the move-out. you have the option of applying an alternative dunning procedure to the contracts in the\nmove-out. You can also deactivate the dunning procedure that is currently active by specifying a dunning block reason due to the\n\nmove-out. This data can also be defined as default data by making the neessary Customizing settings.\nMove-Out Status\n\nIf you edit or display a move-out document, the system displays the move-out status for every contract. This shows how far you\nhave completed move-out processing for this contract.\n\nThe system calculates the minimum status from the move-out status and also displays this. This means that you have quick\naccess to the status of overall move-out processing.\n\nMove-Out Documents\n\nIf you display move-out documents for a business partner or premise, the system displays documents for the last three months. If\nno documents exist for this period, the system displays the documents from the last six months.\n\nFinal Billing\n\nYou have the option of triggering an immediate bill for contracts in the move-out from move-out processing, once move-out status\n05 (meter readings entered completely) has been reached for the entire move-out. During this process, billing, invoicing and then\nthe bill print are accessed.\n\nActivities\nScreen Layout\n\nIn Customizing under |)*Move-In/Out \u00bb Move-Out - Configure Tabs for Move-Out Screen 3, you can configure various views of the\ndata available on the move-out screen. This consists of various tab pages that you can use to divide the data into various logical\nunits according to your requirements.\n\nFor more information, see Screen Layout.\nMove-Out Date\n\nYou can subsequently change the move-out date for a move-out that has already been created without affecting the date of the\nsubsequent move-in. You cannot change the date for contracts that have already been billed or for a contract and customer\nchange.\n\nActual Move-Out Date\nIn addition to the move-out date, you can also enter an alternative actual move-in date.\nSave\n\nCertain actions in the move-out (such as triggering a move-out confirmation letter) assume that the changes triggered by the\nmove-out have been updated in the database. In Customizing under |}Move-In/Out + Move-Out Define Control Parameters at\n\nDocument Level 3, you can specify whether in this situation, the system is to output a confirmation prompt or save the data\nautomatically before the action is carried out.\n",
+ "cleaned_text": "Open Items in Dunning\n\nOnce you have created the move-out. you have the option of applying an alternative dunning procedure to the contracts in the move-out. You can also deactivate the dunning procedure that is currently active by specifying a dunning block reason due to the move-out. This data can also be defined as default data by making the neessary Customizing settings.\n\nMove-Out Status\n\nIf you edit or display a move-out document, the system displays the move-out status for every contract. This shows how far you have completed move-out processing for this contract. The system calculates the minimum status from the move-out status and also displays this. This means that you have quick access to the status of overall move-out processing.\n\nMove-Out Documents\n\nIf you display move-out documents for a business partner or premise, the system displays documents for the last three months. If no documents exist for this period, the system displays the documents from the last six months.\n\nFinal Billing\n\nYou have the option of triggering an immediate bill for contracts in the move-out from move-out processing, once move-out status 05 (meter readings entered completely) has been reached for the entire move-out. During this process, billing, invoicing and then the bill print are accessed.\n\nActivities\n\nScreen Layout In Customizing under |)*Move-In/Out \u00bb Move-Out - Configure Tabs for Move-Out Screen 3, you can configure various views of the data available on the move-out screen. This consists of various tab pages that you can use to divide the data into various logical units according to your requirements. For more information, see Screen Layout.\n\nMove-Out Date\n\nYou can subsequently change the move-out date for a move-out that has already been created without affecting the date of the subsequent move-in. You cannot change the date for contracts that have already been billed or for a contract and customer change.\n\nActual Move-Out Date\n\nIn addition to the move-out date, you can also enter an alternative actual move-in date.\n\nSave\n\nCertain actions in the move-out (such as triggering a move-out confirmation letter) assume that the changes triggered by the move-out have been updated in the database. In Customizing under |}Move-In/Out + Move-Out Define Control Parameters at Document Level 3, you can specify whether in this situation, the system is to output a confirmation prompt or save the data automatically before the action is carried out.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p018_b000",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    123,
+    134,
+    549,
+    172
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Open Items in Dunning",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_069"
+  },
+  {
+   "block_id": "doc_002_p018_b001",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    123,
+    256,
+    2448,
+    422
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Once you have created the move-out. you have the option of applying an alternative dunning procedure to the contracts in the move-out. You can also deactivate the dunning procedure that is currently active by specifying a dunning block reason due to the move-out. This data can also be defined as default data by making the neessary Customizing settings.",
+   "section_id": "doc_002_sec_069"
+  },
+  {
+   "block_id": "doc_002_p018_b002",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    124,
+    505,
+    438,
+    536
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "text": "Move-Out Status",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_070"
+  },
+  {
+   "block_id": "doc_002_p018_b003",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    122,
+    627,
+    2423,
+    914
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "If you edit or display a move-out document, the system displays the move-out status for every contract. This shows how far you have completed move-out processing for this contract. The system calculates the minimum status from the move-out status and also displays this. This means that you have quick access to the status of overall move-out processing.",
+   "section_id": "doc_002_sec_070"
+  },
+  {
+   "block_id": "doc_002_p018_b004",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    124,
+    998,
+    529,
+    1029
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "text": "Move-Out Documents",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_071"
+  },
+  {
+   "block_id": "doc_002_p018_b005",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    124,
+    1120,
+    2470,
+    1220
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "If you display move-out documents for a business partner or premise, the system displays documents for the last three months. If no documents exist for this period, the system displays the documents from the last six months.",
+   "section_id": "doc_002_sec_071"
+  },
+  {
+   "block_id": "doc_002_p018_b006",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    124,
+    1304,
+    338,
+    1342
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Final Billing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_072"
+  },
+  {
+   "block_id": "doc_002_p018_b007",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    122,
+    1429,
+    2474,
+    1591
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "You have the option of triggering an immediate bill for contracts in the move-out from move-out processing, once move-out status 05 (meter readings entered completely) has been reached for the entire move-out. During this process, billing, invoicing and then the bill print are accessed.",
+   "section_id": "doc_002_sec_072"
+  },
+  {
+   "block_id": "doc_002_p018_b008",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    123,
+    1704,
+    383,
+    1749
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_073"
+  },
+  {
+   "block_id": "doc_002_p018_b009",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    123,
+    1836,
+    2474,
+    2245
+   ],
+   "ocr_confidence": 92.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Screen Layout In Customizing under |)*Move-In/Out \u00bb Move-Out - Configure Tabs for Move-Out Screen 3, you can configure various views of the data available on the move-out screen. This consists of various tab pages that you can use to divide the data into various logical units according to your requirements. For more information, see Screen Layout.",
+   "section_id": "doc_002_sec_073"
+  },
+  {
+   "block_id": "doc_002_p018_b010",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    124,
+    2329,
+    401,
+    2359
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "text": "Move-Out Date",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_074"
+  },
+  {
+   "block_id": "doc_002_p018_b011",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    123,
+    2451,
+    2417,
+    2613
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "You can subsequently change the move-out date for a move-out that has already been created without affecting the date of the subsequent move-in. You cannot change the date for contracts that have already been billed or for a contract and customer change.",
+   "section_id": "doc_002_sec_074"
+  },
+  {
+   "block_id": "doc_002_p018_b012",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    123,
+    2700,
+    532,
+    2731
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [],
+   "text": "Actual Move-Out Date",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_075"
+  },
+  {
+   "block_id": "doc_002_p018_b013",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    125,
+    2822,
+    1688,
+    2859
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "In addition to the move-out date, you can also enter an alternative actual move-in date.",
+   "section_id": "doc_002_sec_075"
+  },
+  {
+   "block_id": "doc_002_p018_b014",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    123,
+    2943,
+    210,
+    2974
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Save",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_076"
+  },
+  {
+   "block_id": "doc_002_p018_b015",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    123,
+    3065,
+    2424,
+    3293
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Certain actions in the move-out (such as triggering a move-out confirmation letter) assume that the changes triggered by the move-out have been updated in the database. In Customizing under |}Move-In/Out + Move-Out Define Control Parameters at Document Level 3, you can specify whether in this situation, the system is to output a confirmation prompt or save the data automatically before the action is carried out.",
+   "section_id": "doc_002_sec_076"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "77d614f8ab53b3d4d682ace38c011e1f4eeec2f4f1145b7b48cab57f5a1c834b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:32Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Move-Out",
+  "Features",
+  "Open Items in Dunning"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_069",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_070",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_071",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_072",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_073",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_074",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_075",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_076",
+   "role": "starts_here"
+  }
+ ]
+}

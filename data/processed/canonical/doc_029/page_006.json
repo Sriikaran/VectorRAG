@@ -1,0 +1,210 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_029",
+ "page_number": 6,
+ "source_page_hash": "2a229693d7f682a9cc555b299f27c3633970eecbe28472238f85d9c1070102aa",
+ "is_cover_page": false,
+ "title": "Enter disconnection and confirm disconnection order",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:19 AM\nIf notification is required, the system generates a notification work item . The CRM agent assigned to this work item must contact\nthe customer, set an agreed date and close the work item before the disconnection order can be processed further.\n\nIf notification is not required, or if the notification work item is closed, you can continue processing the disconnection order.\n\nDuring generation of a disconnection order, you can also create a corresponding service order in service management (SM) and\ncontinue processing it there. The service order is used for example, as a work instruction for a field service employee. Note\nhowever, that if notification is required, the system can only generate service orders after you have set the agreed date and the\nnotification work item is closed.\n\nEnter disconnection and confirm disconnection order\n\nIn this step, you enter when and how which devices and flat-rate installations were disconnected. If the disconnections were\nplanned in the processing variant you can carry out the following additional activities:\n\nGenerate a customer contact.\n\nChange the budget billing plan or induce a budget billing stop \u2014 the budget billing stop is automatically reset when you enter the\nreconnection.\n\nEnter a meter reading for a disconnected meter \u2014 you can create a billing order with the billing transaction Interim billing for the\naffected devices.\n\nIf you are working in an Advanced Metering Infrastructure (AMI) environment, you can configure the system to automatically\ntrigger a meter reading from an AMI device (for example an advanced meter or smart meter).\n\nPost a disconnection charge \u2014 in order to post disconnection charges, you must maintain the corresponding charges schema in\nCustomizing by choosing Contract accounts receivable and payable (FI-CA) \u2014 Accounting transaction \u2014 Dunning.\n\nThe disconnection charges are posted based on the contracts.\n\nYou can set the confirmation status in Customizing. Statuses must be defined for the entry of either disconnections or\nreconnections.\n\nYou can disconnect both metering and non-metering devices, provided you have activated the functions in Customizing\n\naccordingly.\n\nYou can remove disconnected devices, or devices contained in a disconnection order. A removed device is indicated in a\ndisconnection document using the status Removed or Removed and Disconnected . A removed device is no longer available for\nthe subsequent disconnection actions. If no additional device besides the removed device exists in the disconnection document,\nthe installation is used as the flat-rate installation for the subsequent disconnection actions.The removed device is no longer\n\ndisconnected.\n",
+ "cleaned_text": "If notification is required, the system generates a notification work item . The CRM agent assigned to this work item must contact the customer, set an agreed date and close the work item before the disconnection order can be processed further. If notification is not required, or if the notification work item is closed, you can continue processing the disconnection order. During generation of a disconnection order, you can also create a corresponding service order in service management (SM) and continue processing it there. The service order is used for example, as a work instruction for a field service employee. Note however, that if notification is required, the system can only generate service orders after you have set the agreed date and the notification work item is closed.\n\nEnter disconnection and confirm disconnection order\n\nIn this step, you enter when and how which devices and flat-rate installations were disconnected. If the disconnections were planned in the processing variant you can carry out the following additional activities: Generate a customer contact. Change the budget billing plan or induce a budget billing stop \u2014 the budget billing stop is automatically reset when you enter the reconnection. Enter a meter reading for a disconnected meter \u2014 you can create a billing order with the billing transaction Interim billing for the affected devices.\n\nIf you are working in an Advanced Metering Infrastructure (AMI) environment, you can configure the system to automatically trigger a meter reading from an AMI device (for example an advanced meter or smart meter). Post a disconnection charge \u2014 in order to post disconnection charges, you must maintain the corresponding charges schema in Customizing by choosing Contract accounts receivable and payable (FI-CA) \u2014 Accounting transaction \u2014 Dunning. The disconnection charges are posted based on the contracts.\n\nYou can set the confirmation status in Customizing. Statuses must be defined for the entry of either disconnections or reconnections.\n\nYou can disconnect both metering and non-metering devices, provided you have activated the functions in Customizing accordingly.\n\nYou can remove disconnected devices, or devices contained in a disconnection order. A removed device is indicated in a disconnection document using the status Removed or Removed and Disconnected . A removed device is no longer available for the subsequent disconnection actions. If no additional device besides the removed device exists in the disconnection document, the installation is used as the flat-rate installation for the subsequent disconnection actions.The removed device is no longer disconnected.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:19 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_029_p006_b000",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    134,
+    2473,
+    661
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "If notification is required, the system generates a notification work item . The CRM agent assigned to this work item must contact the customer, set an agreed date and close the work item before the disconnection order can be processed further. If notification is not required, or if the notification work item is closed, you can continue processing the disconnection order. During generation of a disconnection order, you can also create a corresponding service order in service management (SM) and continue processing it there. The service order is used for example, as a work instruction for a field service employee. Note however, that if notification is required, the system can only generate service orders after you have set the agreed date and the notification work item is closed.",
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p006_b001",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    125,
+    752,
+    1090,
+    782
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Enter disconnection and confirm disconnection order",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p006_b002",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    123,
+    877,
+    2441,
+    1462
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "In this step, you enter when and how which devices and flat-rate installations were disconnected. If the disconnections were planned in the processing variant you can carry out the following additional activities: Generate a customer contact. Change the budget billing plan or induce a budget billing stop \u2014 the budget billing stop is automatically reset when you enter the reconnection. Enter a meter reading for a disconnected meter \u2014 you can create a billing order with the billing transaction Interim billing for the affected devices.",
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p006_b003",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    1692,
+    2423,
+    2100
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "If you are working in an Advanced Metering Infrastructure (AMI) environment, you can configure the system to automatically trigger a meter reading from an AMI device (for example an advanced meter or smart meter). Post a disconnection charge \u2014 in order to post disconnection charges, you must maintain the corresponding charges schema in Customizing by choosing Contract accounts receivable and payable (FI-CA) \u2014 Accounting transaction \u2014 Dunning. The disconnection charges are posted based on the contracts.",
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p006_b004",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    123,
+    2322,
+    2263,
+    2415
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "You can set the confirmation status in Customizing. Statuses must be defined for the entry of either disconnections or reconnections.",
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p006_b005",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    123,
+    2644,
+    2282,
+    2748
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "You can disconnect both metering and non-metering devices, provided you have activated the functions in Customizing accordingly.",
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p006_b006",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    2970,
+    2441,
+    3253
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "You can remove disconnected devices, or devices contained in a disconnection order. A removed device is indicated in a disconnection document using the status Removed or Removed and Disconnected . A removed device is no longer available for the subsequent disconnection actions. If no additional device besides the removed device exists in the disconnection document, the installation is used as the flat-rate installation for the subsequent disconnection actions.The removed device is no longer disconnected.",
+   "section_id": "doc_029_sec_017"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Disconnection/Reconnection of a Utility Installation",
+  "source_pdf": "29.pdf",
+  "reference_pdf": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+  "category": "Disconnection & Reconnection",
+  "m2c_relevance": "Connects overdue debt/dunning to service actions while preserving the distinction between delinquency and disconnect eligibility.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "2a229693d7f682a9cc555b299f27c3633970eecbe28472238f85d9c1070102aa"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:47Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Disconnection/Reconnection of a Utility Installation",
+  "Process Flow",
+  "Generate disconnection order"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_029_sec_017",
+   "role": "continues"
+  }
+ ]
+}

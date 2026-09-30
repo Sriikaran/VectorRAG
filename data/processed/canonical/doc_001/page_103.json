@@ -1,0 +1,509 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 103,
+ "source_page_hash": "957c96af8015ec7c3a02a8405ac83632b6e2f57a27bb9b46f46a59bc010b05b2",
+ "is_cover_page": false,
+ "title": "Point of Delivery Transaction",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\ne Example 2: Installation with Load Shape Measurement for Watt-Hour and Reactive Consumption, as well as Check Reading\n\nfor Watt-Hour Consumption\n\nPoint of Delivery Transaction\n\nYou find the point of delivery transactions Create/Change/ Display in the Easy Access Menu under |}*Technical Master Data\nPoint of Delivery.\n\nThe following information describes the individual fields and tab strips.\n\nGroup Box for PoD Description\n\nThe individual fields have the following functions:\n\nField/Symbol                                                                               Function\nfd History                                                                                    Enables you to display different histories\nia, Header data                                                                              Enables you to return from times slice display to the normal view\n\nEF New time slice\n\nay.\ngia Default value\n\nValid to\n\nStructure category\n\nFields of the PoD ID\n\nHeader Tab Strip\n\nField\nPoD Description\n\nPoint of delivery type\n\nPoD role\nTechnical PoD\n\nDeregulation PoD\n\nYou cannot enter data in the To field. To restrict the validity of the\npoint of delivery ID, insert a new time slice. To do this, choose New\nTime Slice . In the From Day field, enter the date and time at which\n\nyou want the new time slice to become valid. The previous time\nslice finishes on the start date of the new time slice.\n\nIf you use the Metering Code structure category, you can generate\na consecutive number for the point of delivery ID. To do this, choose\n\nthe Default Value entry in the Consecutive Number field.\n\nValidity period for the PoD ID\n\nThe system automatically proposes the structure category defined\nin Customizing as the default value (| Master Data \u00bb Point of\nDelivery } Define Structure of Point of Delivery ID 4).\n\nVarious fields are shown depending on the structure category you\nselected\n\nFunction\nText that describes the point of delivery\n\nEnables you to select one of the point of delivery types defined in\nCustomizing.You define point of delivery types in the IMG under\nSAP Utilities Master Data Point of DeliveryDefine Point of\nDelivery Type.\n\nSee the Point of Delivery Roles unit\n",
+ "cleaned_text": "- Example 2: Installation with Load Shape Measurement for Watt-Hour and Reactive Consumption, as well as Check Reading for Watt-Hour Consumption\n\nPoint of Delivery Transaction\n\nYou find the point of delivery transactions Create/Change/ Display in the Easy Access Menu under |}*Technical Master Data Point of Delivery. The following information describes the individual fields and tab strips.\n\nGroup Box for PoD Description\n\nThe individual fields have the following functions:\n\nField/Symbol | Function\n\nfd History | Enables you to display different histories\n\nia, Header data | Enables you to return from times slice display to the normal view\n\nEF New time slice\n\nay. gia Default value\n\nValid to\n\nStructure category\n\nFields of the PoD ID\n\nHeader Tab Strip\n\nField\n\nPoD Description Point of delivery type\n\nPoD role Technical PoD Deregulation PoD You cannot enter data in the To field. To restrict the validity of the point of delivery ID, insert a new time slice. To do this, choose New Time Slice . In the From Day field, enter the date and time at which you want the new time slice to become valid. The previous time slice finishes on the start date of the new time slice. If you use the Metering Code structure category, you can generate a consecutive number for the point of delivery ID. To do this, choose the Default Value entry in the Consecutive Number field. Validity period for the PoD ID The system automatically proposes the structure category defined in Customizing as the default value (| Master Data \u00bb Point of Delivery } Define Structure of Point of Delivery ID 4). Various fields are shown depending on the structure category you selected\n\nFunction\n\nText that describes the point of delivery Enables you to select one of the point of delivery types defined in Customizing.You define point of delivery types in the IMG under\n\nSAP Utilities Master Data Point of DeliveryDefine Point of\n\nDelivery Type.\n\nSee the Point of Delivery Roles unit",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p103_b000",
+   "type": "list",
+   "page_number": 103,
+   "bbox": [
+    207,
+    134,
+    2471,
+    235
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Example 2: Installation with Load Shape Measurement for Watt-Hour and Reactive Consumption, as well as Check Reading for Watt-Hour Consumption"
+    }
+   ],
+   "section_id": "doc_001_sec_399"
+  },
+  {
+   "block_id": "doc_001_p103_b001",
+   "type": "heading",
+   "page_number": 103,
+   "bbox": [
+    124,
+    318,
+    655,
+    356
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Point of Delivery Transaction",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_400"
+  },
+  {
+   "block_id": "doc_001_p103_b002",
+   "type": "paragraph",
+   "page_number": 103,
+   "bbox": [
+    122,
+    439,
+    2365,
+    665
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You find the point of delivery transactions Create/Change/ Display in the Easy Access Menu under |}*Technical Master Data Point of Delivery. The following information describes the individual fields and tab strips.",
+   "section_id": "doc_001_sec_400"
+  },
+  {
+   "block_id": "doc_001_p103_b003",
+   "type": "heading",
+   "page_number": 103,
+   "bbox": [
+    123,
+    749,
+    692,
+    786
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "Group Box for PoD Description",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_401"
+  },
+  {
+   "block_id": "doc_001_p103_b004",
+   "type": "paragraph",
+   "page_number": 103,
+   "bbox": [
+    122,
+    870,
+    1008,
+    908
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The individual fields have the following functions:",
+   "section_id": "doc_001_sec_401"
+  },
+  {
+   "block_id": "doc_001_p103_b005",
+   "type": "table",
+   "page_number": 103,
+   "bbox": [
+    143,
+    1016,
+    2416,
+    1272
+   ],
+   "ocr_confidence": 92.7,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continued_on_next_page:p104",
+    "continued_on_next_page:p104"
+   ],
+   "columns": 2,
+   "column_starts": [
+    143,
+    1332
+   ],
+   "headers": [
+    "Field/Symbol",
+    "Function"
+   ],
+   "rows": [
+    [
+     "fd History",
+     "Enables you to display different histories"
+    ],
+    [
+     "ia, Header data",
+     "Enables you to return from times slice display to the normal view"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Field/Symbol",
+     "Function"
+    ],
+    [
+     "fd History",
+     "Enables you to display different histories"
+    ],
+    [
+     "ia, Header data",
+     "Enables you to return from times slice display to the normal view"
+    ]
+   ],
+   "section_id": "doc_001_sec_401"
+  },
+  {
+   "block_id": "doc_001_p103_b006",
+   "type": "paragraph",
+   "page_number": 103,
+   "bbox": [
+    143,
+    1326,
+    451,
+    1384
+   ],
+   "ocr_confidence": 82.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "EF New time slice",
+   "section_id": "doc_001_sec_401"
+  },
+  {
+   "block_id": "doc_001_p103_b007",
+   "type": "paragraph",
+   "page_number": 103,
+   "bbox": [
+    147,
+    1668,
+    426,
+    1719
+   ],
+   "ocr_confidence": 75.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "ay. gia Default value",
+   "section_id": "doc_001_sec_401"
+  },
+  {
+   "block_id": "doc_001_p103_b008",
+   "type": "heading",
+   "page_number": 103,
+   "bbox": [
+    148,
+    1897,
+    270,
+    1925
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Valid to",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_401"
+  },
+  {
+   "block_id": "doc_001_p103_b009",
+   "type": "heading",
+   "page_number": 103,
+   "bbox": [
+    149,
+    2006,
+    466,
+    2041
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Structure category",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_401"
+  },
+  {
+   "block_id": "doc_001_p103_b010",
+   "type": "heading",
+   "page_number": 103,
+   "bbox": [
+    150,
+    2229,
+    474,
+    2257
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Fields of the PoD ID",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_401"
+  },
+  {
+   "block_id": "doc_001_p103_b011",
+   "type": "heading",
+   "page_number": 103,
+   "bbox": [
+    124,
+    2431,
+    435,
+    2468
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Header Tab Strip",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_402"
+  },
+  {
+   "block_id": "doc_001_p103_b012",
+   "type": "heading",
+   "page_number": 103,
+   "bbox": [
+    149,
+    2577,
+    228,
+    2606
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Field",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_403"
+  },
+  {
+   "block_id": "doc_001_p103_b013",
+   "type": "paragraph",
+   "page_number": 103,
+   "bbox": [
+    150,
+    2683,
+    499,
+    2823
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "PoD Description Point of delivery type",
+   "section_id": "doc_001_sec_403"
+  },
+  {
+   "block_id": "doc_001_p103_b014",
+   "type": "paragraph",
+   "page_number": 103,
+   "bbox": [
+    148,
+    1336,
+    2463,
+    3296
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "PoD role Technical PoD Deregulation PoD You cannot enter data in the To field. To restrict the validity of the point of delivery ID, insert a new time slice. To do this, choose New Time Slice . In the From Day field, enter the date and time at which you want the new time slice to become valid. The previous time slice finishes on the start date of the new time slice. If you use the Metering Code structure category, you can generate a consecutive number for the point of delivery ID. To do this, choose the Default Value entry in the Consecutive Number field. Validity period for the PoD ID The system automatically proposes the structure category defined in Customizing as the default value (| Master Data \u00bb Point of Delivery } Define Structure of Point of Delivery ID 4). Various fields are shown depending on the structure category you selected",
+   "section_id": "doc_001_sec_403"
+  },
+  {
+   "block_id": "doc_001_p103_b015",
+   "type": "heading",
+   "page_number": 103,
+   "bbox": [
+    1332,
+    2577,
+    1479,
+    2606
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Function",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_404"
+  },
+  {
+   "block_id": "doc_001_p103_b016",
+   "type": "paragraph",
+   "page_number": 103,
+   "bbox": [
+    1331,
+    2682,
+    2418,
+    2882
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Text that describes the point of delivery Enables you to select one of the point of delivery types defined in Customizing.You define point of delivery types in the IMG under",
+   "section_id": "doc_001_sec_404"
+  },
+  {
+   "block_id": "doc_001_p103_b017",
+   "type": "heading",
+   "page_number": 103,
+   "bbox": [
+    1331,
+    2906,
+    2384,
+    2942
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "SAP Utilities Master Data Point of DeliveryDefine Point of",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_405"
+  },
+  {
+   "block_id": "doc_001_p103_b018",
+   "type": "paragraph",
+   "page_number": 103,
+   "bbox": [
+    1333,
+    2966,
+    1569,
+    3001
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Delivery Type.",
+   "section_id": "doc_001_sec_405"
+  },
+  {
+   "block_id": "doc_001_p103_b019",
+   "type": "heading",
+   "page_number": 103,
+   "bbox": [
+    1332,
+    3070,
+    1930,
+    3106
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "See the Point of Delivery Roles unit",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_406"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59,
+  "body_stroke_median": 0.1163,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "957c96af8015ec7c3a02a8405ac83632b6e2f57a27bb9b46f46a59bc010b05b2"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Point of Delivery (PoD)",
+  "Integration",
+  "Function"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_399",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_400",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_401",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_402",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_403",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_404",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_405",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_406",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,218 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_009",
+ "page_number": 9,
+ "source_page_hash": "5d435457fcf1902ae4140eddb3fef95913a013e0fdf39c30327261aef71c2ee5",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\ne E=Estimated Meter Reading Result\n\ne Q2= Quantity for Meter Reading Result MR2\n\ne \u00ae= Gas Factor\n\n01.01.2009 \u2014 12.31.2009\n\u00ae,\n\n12.31.2008               04.01.2009                 06.30.2009                                                12.31.2009\nMR,                    E,                    Es                                         MR: Qo,\n\nExample\n\nIn the example, E1 and E2 are estimated meter reading results. The gas factor Me is an averaged value for the period E2-MR2.\nHowever, the gas factor \u00aee is not used for quantity determination for the period E2-MR2. The gas factor Ot, which relates to the\nperiod up to the next actual previous meter reading result, is used instead.\n\nThis procedure allows more consistency with regard to further actions in the period MR1-MR2, such as interpolation and deletion\nor correction of estimated meter reading results.\n",
+ "cleaned_text": "- E=Estimated Meter Reading Result\n\n- Q2= Quantity for Meter Reading Result MR2 e \u00ae= Gas Factor\n\n01.01.2009 \u2014 12.31.2009 \u00ae,\n\n12.31.2008 | 04.01.2009 | 06.30.2009 | 12.31.2009\n\nMR, | E, | Es | MR: Qo,\n\nExample In the example, E1 and E2 are estimated meter reading results. The gas factor Me is an averaged value for the period E2-MR2. However, the gas factor \u00aee is not used for quantity determination for the period E2-MR2. The gas factor Ot, which relates to the period up to the next actual previous meter reading result, is used instead. This procedure allows more consistency with regard to further actions in the period MR1-MR2, such as interpolation and deletion or correction of estimated meter reading results.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_009_p009_b000",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    207,
+    134,
+    1058,
+    369
+   ],
+   "ocr_confidence": 88.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "E=Estimated Meter Reading Result"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Q2= Quantity for Meter Reading Result MR2 e \u00ae= Gas Factor"
+    }
+   ],
+   "section_id": "doc_009_sec_016"
+  },
+  {
+   "block_id": "doc_009_p009_b001",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    1013,
+    489,
+    1447,
+    583
+   ],
+   "ocr_confidence": 76.5,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "01.01.2009 \u2014 12.31.2009 \u00ae,",
+   "section_id": "doc_009_sec_016"
+  },
+  {
+   "block_id": "doc_009_p009_b002",
+   "type": "table",
+   "page_number": 9,
+   "bbox": [
+    343,
+    1019,
+    2156,
+    1145
+   ],
+   "ocr_confidence": 76.8,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 7,
+   "column_starts": [
+    343,
+    390,
+    736,
+    818,
+    1151,
+    1205,
+    1944
+   ],
+   "headers": [
+    "12.31.2008",
+    "04.01.2009",
+    "06.30.2009",
+    "12.31.2009"
+   ],
+   "rows": [
+    [
+     "MR,",
+     "E,",
+     "Es",
+     "MR: Qo,"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "12.31.2008",
+     "04.01.2009",
+     "06.30.2009",
+     "12.31.2009"
+    ],
+    [
+     "MR,",
+     "E,",
+     "Es",
+     "MR: Qo,"
+    ]
+   ],
+   "section_id": "doc_009_sec_016"
+  },
+  {
+   "block_id": "doc_009_p009_b003",
+   "type": "example",
+   "page_number": 9,
+   "bbox": [
+    122,
+    1203,
+    2449,
+    1669
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "Example In the example, E1 and E2 are estimated meter reading results. The gas factor Me is an averaged value for the period E2-MR2. However, the gas factor \u00aee is not used for quantity determination for the period E2-MR2. The gas factor Ot, which relates to the period up to the next actual previous meter reading result, is used instead. This procedure allows more consistency with regard to further actions in the period MR1-MR2, such as interpolation and deletion or correction of estimated meter reading results.",
+   "section_id": "doc_009_sec_016"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Estimation Procedure Details",
+  "source_pdf": "9.pdf",
+  "reference_pdf": "09_Estimation_Procedure_Details.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Use for advanced estimation logic and validation scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "5d435457fcf1902ae4140eddb3fef95913a013e0fdf39c30327261aef71c2ee5"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:37Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Estimation Procedure Details",
+  "Interaction - Estimation and Actual Meter Reading",
+  "Features",
+  "Formula"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_009_sec_016",
+   "role": "continues"
+  }
+ ]
+}

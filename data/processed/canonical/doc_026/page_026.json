@@ -1,0 +1,439 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 26,
+ "source_page_hash": "418a6b2446597fa4a95b84cec98bed8993b79a68609450edbd6ad31ee2ca1f57",
+ "is_cover_page": false,
+ "title": "Valuating the Success of Dunning",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n\nProblem                                                                                                        Cause/Solution\n\nin the account is overdue, the higher of the dunning levels\n\nfor both items is used to determine the total dunning level\nof the dunning notice. The system creates dunning notices\n\nat the same dunning level until the dunning balance\nqualifies for the next dunning level.\n\ne Anitem does not qualify for the next dunning level based\non the arrears days reached, but a new receivable is due for\ndunning. However, no dunning frequency is specified for the\ndunning level of this receivable, or the dunning frequency\nhas already been exceeded. This means that the dunning\nrun creates another dunning notice at the same dunning\nlevel.\n\ne The indicator Always Dun is set in the dunning level\nconcerned. See the documentation for the indicator in\nCustomizing.\n\ne The indicator Print All Items is set and the item is only an\ninfo item and therefore is not to be dunned.\n\ne You have manually set the old dunning level as new dunning\n\nlevel.\nA payment lock and an incoming payment method are set in the         The items in the contract account are paid from a different contract\ncontract account. Despite this, the message Incoming Payment         account where no payment lock is set. SAP note 584562 contains\nMethod Exists appears, and no dunning notice is created.                 instructions on how you can consider payment locks of both\n\ncontract accounts involved.\n\nAn item reaches a dunning level whose dunning frequency has not      The dunning run compares the dunning frequency of the dunning\n\nbeen reached.                                                                              level of the item with the dunning frequency of the dunning level of\nthe complete dunning notice. The dunning frequency should either\ngrow with the dunning level, or remain the same; it should not be\nreduced.\n\nYou expect one dunning notice but receive several.                           The dunning run splits the dunned items into several groups. Check\n\nthe dunning grouping fields in Customizing, the dunning\nprocedures of the individual items, and whether an alternative\n\ninstallment plan procedure has been maintained for the dunning\nprocedure.\n\nValuating the Success of Dunning\n\nUse\n\nWith the Success Valuation of Dunning mass activity, you can determine whether the dunnings that you executed in Collections\nManagement and the dunning procedure or collection strategy you selected were successful.\n\nKey Features\n",
+ "cleaned_text": "Problem | Cause/Solution\n\nin the account is overdue, the higher of the dunning levels for both items is used to determine the total dunning level of the dunning notice. The system creates dunning notices at the same dunning level until the dunning balance qualifies for the next dunning level.\n\n- Anitem does not qualify for the next dunning level based on the arrears days reached, but a new receivable is due for dunning. However, no dunning frequency is specified for the dunning level of this receivable, or the dunning frequency has already been exceeded. This means that the dunning run creates another dunning notice at the same dunning level.\n\n- The indicator Always Dun is set in the dunning level concerned. See the documentation for the indicator in Customizing.\n\n- The indicator Print All Items is set and the item is only an info item and therefore is not to be dunned.\n\n- You have manually set the old dunning level as new dunning level.\n\nA payment lock and an incoming payment method are set in the | The items in the contract account are paid from a different contract\n\ncontract account. Despite this, the message Incoming Payment | account where no payment lock is set. SAP note 584562 contains\n\nMethod Exists appears, and no dunning notice is created. | instructions on how you can consider payment locks of both\n\ncontract accounts involved.\n\nAn item reaches a dunning level whose dunning frequency has not | The dunning run compares the dunning frequency of the dunning\n\nbeen reached. | level of the item with the dunning frequency of the dunning level of\n\nthe complete dunning notice. The dunning frequency should either grow with the dunning level, or remain the same; it should not be reduced.\n\nYou expect one dunning notice but receive several. | The dunning run splits the dunned items into several groups. Check\n\nthe dunning grouping fields in Customizing, the dunning procedures of the individual items, and whether an alternative installment plan procedure has been maintained for the dunning procedure.\n\nValuating the Success of Dunning\n\nUse\n\nWith the Success Valuation of Dunning mass activity, you can determine whether the dunnings that you executed in Collections Management and the dunning procedure or collection strategy you selected were successful.\n\nKey Features",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p026_b000",
+   "type": "table",
+   "page_number": 26,
+   "bbox": [
+    149,
+    159,
+    1604,
+    188
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Problem",
+     "Cause/Solution"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Problem",
+     "Cause/Solution"
+    ]
+   ],
+   "section_id": "doc_026_sec_122"
+  },
+  {
+   "block_id": "doc_026_p026_b001",
+   "type": "paragraph",
+   "page_number": 26,
+   "bbox": [
+    1462,
+    242,
+    2441,
+    510
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "in the account is overdue, the higher of the dunning levels for both items is used to determine the total dunning level of the dunning notice. The system creates dunning notices at the same dunning level until the dunning balance qualifies for the next dunning level.",
+   "section_id": "doc_026_sec_122"
+  },
+  {
+   "block_id": "doc_026_p026_b002",
+   "type": "list",
+   "page_number": 26,
+   "bbox": [
+    1416,
+    570,
+    2463,
+    1469
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Anitem does not qualify for the next dunning level based on the arrears days reached, but a new receivable is due for dunning. However, no dunning frequency is specified for the dunning level of this receivable, or the dunning frequency has already been exceeded. This means that the dunning run creates another dunning notice at the same dunning level."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The indicator Always Dun is set in the dunning level concerned. See the documentation for the indicator in Customizing."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The indicator Print All Items is set and the item is only an info item and therefore is not to be dunned."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You have manually set the old dunning level as new dunning level."
+    }
+   ],
+   "section_id": "doc_026_sec_122"
+  },
+  {
+   "block_id": "doc_026_p026_b003",
+   "type": "table",
+   "page_number": 26,
+   "bbox": [
+    148,
+    1569,
+    2463,
+    1722
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "A payment lock and an incoming payment method are set in the",
+     "The items in the contract account are paid from a different contract"
+    ],
+    [
+     "contract account. Despite this, the message Incoming Payment",
+     "account where no payment lock is set. SAP note 584562 contains"
+    ],
+    [
+     "Method Exists appears, and no dunning notice is created.",
+     "instructions on how you can consider payment locks of both"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "A payment lock and an incoming payment method are set in the",
+     "The items in the contract account are paid from a different contract"
+    ],
+    [
+     "contract account. Despite this, the message Incoming Payment",
+     "account where no payment lock is set. SAP note 584562 contains"
+    ],
+    [
+     "Method Exists appears, and no dunning notice is created.",
+     "instructions on how you can consider payment locks of both"
+    ]
+   ],
+   "section_id": "doc_026_sec_122"
+  },
+  {
+   "block_id": "doc_026_p026_b004",
+   "type": "paragraph",
+   "page_number": 26,
+   "bbox": [
+    1331,
+    1746,
+    1791,
+    1774
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "contract accounts involved.",
+   "section_id": "doc_026_sec_122"
+  },
+  {
+   "block_id": "doc_026_p026_b005",
+   "type": "table",
+   "page_number": 26,
+   "bbox": [
+    148,
+    1851,
+    2445,
+    1946
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1331
+   ],
+   "headers": [
+    "An item reaches a dunning level whose dunning frequency has not",
+    "The dunning run compares the dunning frequency of the dunning"
+   ],
+   "rows": [
+    [
+     "been reached.",
+     "level of the item with the dunning frequency of the dunning level of"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "An item reaches a dunning level whose dunning frequency has not",
+     "The dunning run compares the dunning frequency of the dunning"
+    ],
+    [
+     "been reached.",
+     "level of the item with the dunning frequency of the dunning level of"
+    ]
+   ],
+   "section_id": "doc_026_sec_122"
+  },
+  {
+   "block_id": "doc_026_p026_b006",
+   "type": "paragraph",
+   "page_number": 26,
+   "bbox": [
+    1330,
+    1969,
+    2448,
+    2116
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "the complete dunning notice. The dunning frequency should either grow with the dunning level, or remain the same; it should not be reduced.",
+   "section_id": "doc_026_sec_122"
+  },
+  {
+   "block_id": "doc_026_p026_b007",
+   "type": "table",
+   "page_number": 26,
+   "bbox": [
+    148,
+    2193,
+    2462,
+    2228
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "You expect one dunning notice but receive several.",
+     "The dunning run splits the dunned items into several groups. Check"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "You expect one dunning notice but receive several.",
+     "The dunning run splits the dunned items into several groups. Check"
+    ]
+   ],
+   "section_id": "doc_026_sec_122"
+  },
+  {
+   "block_id": "doc_026_p026_b008",
+   "type": "paragraph",
+   "page_number": 26,
+   "bbox": [
+    1330,
+    2252,
+    2410,
+    2461
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "the dunning grouping fields in Customizing, the dunning procedures of the individual items, and whether an alternative installment plan procedure has been maintained for the dunning procedure.",
+   "section_id": "doc_026_sec_122"
+  },
+  {
+   "block_id": "doc_026_p026_b009",
+   "type": "heading",
+   "page_number": 26,
+   "bbox": [
+    124,
+    2633,
+    1336,
+    2710
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "Valuating the Success of Dunning",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_123"
+  },
+  {
+   "block_id": "doc_026_p026_b010",
+   "type": "heading",
+   "page_number": 26,
+   "bbox": [
+    125,
+    2811,
+    225,
+    2856
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_124"
+  },
+  {
+   "block_id": "doc_026_p026_b011",
+   "type": "paragraph",
+   "page_number": 26,
+   "bbox": [
+    123,
+    2943,
+    2439,
+    3044
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "With the Success Valuation of Dunning mass activity, you can determine whether the dunnings that you executed in Collections Management and the dunning procedure or collection strategy you selected were successful.",
+   "section_id": "doc_026_sec_124"
+  },
+  {
+   "block_id": "doc_026_p026_b012",
+   "type": "heading",
+   "page_number": 26,
+   "bbox": [
+    126,
+    3156,
+    480,
+    3212
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Key Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_125"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "418a6b2446597fa4a95b84cec98bed8993b79a68609450edbd6ad31ee2ca1f57"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Troubleshooting",
+  "The item is an additional receivable whose main or"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_122",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_123",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_124",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_125",
+   "role": "starts_here"
+  }
+ ]
+}

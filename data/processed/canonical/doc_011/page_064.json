@@ -1,0 +1,268 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 64,
+ "source_page_hash": "4d5e982348b3bdacc9fbfe7b37f3d21204009f5ddb820bc060576daa33c041f9",
+ "is_cover_page": false,
+ "title": "Processing Rate Components",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nProcessing Rate Components\n\nUse\n\nConditional rates are only billed for the duration of a TOU exception. TOU exceptions are typically short in duration (< 1 day). TOU\nexceptions can be observed for a specific time during conditional billing.\n\nRate Proration\n\nDuring billing execution, the rates are first determined by rate determination and prorated for the billing period. In conditional\nbilling, this takes places for the basic rates as well as for the conditional rates. An additional proration takes place for the\nconditional rates as they do not cover the entire billing period. The propration principle is based on the smallest to-the-day\n\ncontainer. The periods in these containers are processed as valid periods. Any other periods that do not contain TOU exceptions\nare no longer taken into account in conditional billing.\n\nThe smallest to-the-day containers are determined as follows:\n\ne Thestart of the to-the-day container is the day on which the TOU exception takes place. If the TOU exception ends on the\nsame day, the container contains one day only.\n\ne Ifthe TOU exception lasts longer than one day, the end point of the container is the day on which the TOU exception ends.\nThe to-the-day container contains multiple days.\n\ne If multiple TOU exceptions take place on the same day, the smallest to-the-day containers for the TOU exceptions are\ngrouped into one container. The container contains one day.\n\ne If multiple TOU exceptions take place on consecutive days, and none of the exceptions last longer than one day, multiple\nseparate to-the-day containers are determined, each containing one day.\n\ne If multiple TOU exceptions take place on consecutive days and the exceptions do last longer than one day so that one TOU\nexception ends on the same day as another starts, the smallest to-the-day containers are grouped together. The start of\nthe grouped to-the-day container is the day on which the first TOU exception occurs; the end of the grouped to-the-day\ncontainer is the day on which the last TOU exception ends.\n\nThe following example illustrates the most important cases:\n\n31.01,\n\n01.01.\n\n",
+ "cleaned_text": "Processing Rate Components\n\nUse\n\nConditional rates are only billed for the duration of a TOU exception. TOU exceptions are typically short in duration (< 1 day). TOU exceptions can be observed for a specific time during conditional billing.\n\nRate Proration\n\nDuring billing execution, the rates are first determined by rate determination and prorated for the billing period. In conditional billing, this takes places for the basic rates as well as for the conditional rates. An additional proration takes place for the conditional rates as they do not cover the entire billing period. The propration principle is based on the smallest to-the-day container. The periods in these containers are processed as valid periods. Any other periods that do not contain TOU exceptions are no longer taken into account in conditional billing. The smallest to-the-day containers are determined as follows:\n\n- Thestart of the to-the-day container is the day on which the TOU exception takes place. If the TOU exception ends on the same day, the container contains one day only.\n\n- Ifthe TOU exception lasts longer than one day, the end point of the container is the day on which the TOU exception ends. The to-the-day container contains multiple days.\n\n- If multiple TOU exceptions take place on the same day, the smallest to-the-day containers for the TOU exceptions are grouped into one container. The container contains one day.\n\n- If multiple TOU exceptions take place on consecutive days, and none of the exceptions last longer than one day, multiple separate to-the-day containers are determined, each containing one day.\n\n- If multiple TOU exceptions take place on consecutive days and the exceptions do last longer than one day so that one TOU exception ends on the same day as another starts, the smallest to-the-day containers are grouped together. The start of\n\nthe grouped to-the-day container is the day on which the first TOU exception occurs; the end of the grouped to-the-day container is the day on which the last TOU exception ends. The following example illustrates the most important cases:\n\n31.01, 01.01.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p064_b000",
+   "type": "heading",
+   "page_number": 64,
+   "bbox": [
+    128,
+    130,
+    1197,
+    207
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Processing Rate Components",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_210"
+  },
+  {
+   "block_id": "doc_011_p064_b001",
+   "type": "heading",
+   "page_number": 64,
+   "bbox": [
+    125,
+    307,
+    225,
+    353
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_211"
+  },
+  {
+   "block_id": "doc_011_p064_b002",
+   "type": "paragraph",
+   "page_number": 64,
+   "bbox": [
+    123,
+    440,
+    2447,
+    540
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Conditional rates are only billed for the duration of a TOU exception. TOU exceptions are typically short in duration (< 1 day). TOU exceptions can be observed for a specific time during conditional billing.",
+   "section_id": "doc_011_sec_211"
+  },
+  {
+   "block_id": "doc_011_p064_b003",
+   "type": "heading",
+   "page_number": 64,
+   "bbox": [
+    126,
+    652,
+    527,
+    697
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [],
+   "text": "Rate Proration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_212"
+  },
+  {
+   "block_id": "doc_011_p064_b004",
+   "type": "paragraph",
+   "page_number": 64,
+   "bbox": [
+    122,
+    785,
+    2431,
+    1197
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "During billing execution, the rates are first determined by rate determination and prorated for the billing period. In conditional billing, this takes places for the basic rates as well as for the conditional rates. An additional proration takes place for the conditional rates as they do not cover the entire billing period. The propration principle is based on the smallest to-the-day container. The periods in these containers are processed as valid periods. Any other periods that do not contain TOU exceptions are no longer taken into account in conditional billing. The smallest to-the-day containers are determined as follows:",
+   "section_id": "doc_011_sec_212"
+  },
+  {
+   "block_id": "doc_011_p064_b005",
+   "type": "list",
+   "page_number": 64,
+   "bbox": [
+    207,
+    1281,
+    2457,
+    2045
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Thestart of the to-the-day container is the day on which the TOU exception takes place. If the TOU exception ends on the same day, the container contains one day only."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Ifthe TOU exception lasts longer than one day, the end point of the container is the day on which the TOU exception ends. The to-the-day container contains multiple days."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If multiple TOU exceptions take place on the same day, the smallest to-the-day containers for the TOU exceptions are grouped into one container. The container contains one day."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If multiple TOU exceptions take place on consecutive days, and none of the exceptions last longer than one day, multiple separate to-the-day containers are determined, each containing one day."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If multiple TOU exceptions take place on consecutive days and the exceptions do last longer than one day so that one TOU exception ends on the same day as another starts, the smallest to-the-day containers are grouped together. The start of"
+    }
+   ],
+   "section_id": "doc_011_sec_212"
+  },
+  {
+   "block_id": "doc_011_p064_b006",
+   "type": "paragraph",
+   "page_number": 64,
+   "bbox": [
+    122,
+    2069,
+    2406,
+    2294
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "the grouped to-the-day container is the day on which the first TOU exception occurs; the end of the grouped to-the-day container is the day on which the last TOU exception ends. The following example illustrates the most important cases:",
+   "section_id": "doc_011_sec_212"
+  },
+  {
+   "block_id": "doc_011_p064_b007",
+   "type": "paragraph",
+   "page_number": 64,
+   "bbox": [
+    168,
+    2534,
+    2433,
+    2584
+   ],
+   "ocr_confidence": 84.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "31.01, 01.01.",
+   "section_id": "doc_011_sec_212"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "4d5e982348b3bdacc9fbfe7b37f3d21204009f5ddb820bc060576daa33c041f9"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Processing Rate Components"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_210",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_211",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_212",
+   "role": "starts_here"
+  }
+ ]
+}

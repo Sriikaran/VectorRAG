@@ -1,0 +1,346 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 5,
+ "source_page_hash": "ce729da3ac94941a619ede846c20d04b8077aafd80f23f47a13b30daaf50e178",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nTo use this weighting procedure, allocate it to a weighting key in Customizing. You also have to make the following settings in\nCustomizing for SAP Utilities under |}/Device Management \u00bb Meter Reading Weighting Procedures \u00bb Degree Day Weighting\n\ne Define Temperature Areas\n\nThe temperature areas are used as criteria for differentiation during degree day weighting and thermal gas billing.\n\nDepending on whether you want to take average monthly degree day coefficients or degree day coefficients for an exact number of\ndays into account, you have make settings in the following activities:\n\ne Define Average Monthly Degree Day Coefficients\n\ne Define Degree Day Coefficients\n\n\u201cSe Example\n\nTo simplify the example, the same degree day coefficient has been defined for temperature area 0001 for every day of a month\nin Customizing under Define Average Degree Day Coefficients:\n\nDegree Day                   Degree Day Coefficient\n01.01.-31.01.                   20,00\n01.02.-28.02.                 18,00\n01.03.-31.03.                  15,00\n01.04.-30.04.                 10,00\n01.05.-31.05.                  5,00\n01.06.-30.06.                 1,00\n01.07.-31.07.                   1,00\n01.08.-31.08.                  5,00\n01.09.-30.09.                 10,00\n01.10.-31.10.                   15,00\n01.11.-30.11.                   18,00\n01.12.-31.12.                   20,00\n\nThe result of this is that the degree day coefficients for the summer months have a lower weighting during estimation than\nthose for the winter months. This is shown in the following figure:\n",
+ "cleaned_text": "To use this weighting procedure, allocate it to a weighting key in Customizing. You also have to make the following settings in Customizing for SAP Utilities under |}/Device Management \u00bb Meter Reading Weighting Procedures \u00bb Degree Day Weighting\n\n- Define Temperature Areas The temperature areas are used as criteria for differentiation during degree day weighting and thermal gas billing.\n\nDepending on whether you want to take average monthly degree day coefficients or degree day coefficients for an exact number of days into account, you have make settings in the following activities:\n\n- Define Average Monthly Degree Day Coefficients\n\n- Define Degree Day Coefficients\n\n\u201cSe Example To simplify the example, the same degree day coefficient has been defined for temperature area 0001 for every day of a month in Customizing under Define Average Degree Day Coefficients:\n\nDegree Day | Degree Day Coefficient\n\n01.01.-31.01. | 20,00\n\n01.02.-28.02. | 18,00\n\n01.03.-31.03. | 15,00\n\n01.04.-30.04. | 10,00\n\n01.05.-31.05. | 5,00\n\n01.06.-30.06. | 1,00\n\n01.07.-31.07. | 1,00\n\n01.08.-31.08. | 5,00\n\n01.09.-30.09. | 10,00\n\n01.10.-31.10. | 15,00\n\n01.11.-30.11. | 18,00\n\n01.12.-31.12. | 20,00\n\nThe result of this is that the degree day coefficients for the summer months have a lower weighting during estimation than those for the winter months. This is shown in the following figure:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p005_b000",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    134,
+    2416,
+    239
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "To use this weighting procedure, allocate it to a weighting key in Customizing. You also have to make the following settings in Customizing for SAP Utilities under |}/Device Management \u00bb Meter Reading Weighting Procedures \u00bb Degree Day Weighting",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p005_b001",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    319,
+    2307,
+    461
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Define Temperature Areas The temperature areas are used as criteria for differentiation during degree day weighting and thermal gas billing."
+    }
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p005_b002",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    123,
+    545,
+    2485,
+    645
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Depending on whether you want to take average monthly degree day coefficients or degree day coefficients for an exact number of days into account, you have make settings in the following activities:",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p005_b003",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    729,
+    1128,
+    868
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Define Average Monthly Degree Day Coefficients"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Define Degree Day Coefficients"
+    }
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p005_b004",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    151,
+    967,
+    2444,
+    1158
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "\u201cSe Example To simplify the example, the same degree day coefficient has been defined for temperature area 0001 for every day of a month in Customizing under Define Average Degree Day Coefficients:",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p005_b005",
+   "type": "table",
+   "page_number": 5,
+   "bbox": [
+    178,
+    1266,
+    1019,
+    2575
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    623
+   ],
+   "headers": [
+    "Degree Day",
+    "Degree Day Coefficient"
+   ],
+   "rows": [
+    [
+     "01.01.-31.01.",
+     "20,00"
+    ],
+    [
+     "01.02.-28.02.",
+     "18,00"
+    ],
+    [
+     "01.03.-31.03.",
+     "15,00"
+    ],
+    [
+     "01.04.-30.04.",
+     "10,00"
+    ],
+    [
+     "01.05.-31.05.",
+     "5,00"
+    ],
+    [
+     "01.06.-30.06.",
+     "1,00"
+    ],
+    [
+     "01.07.-31.07.",
+     "1,00"
+    ],
+    [
+     "01.08.-31.08.",
+     "5,00"
+    ],
+    [
+     "01.09.-30.09.",
+     "10,00"
+    ],
+    [
+     "01.10.-31.10.",
+     "15,00"
+    ],
+    [
+     "01.11.-30.11.",
+     "18,00"
+    ],
+    [
+     "01.12.-31.12.",
+     "20,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Degree Day",
+     "Degree Day Coefficient"
+    ],
+    [
+     "01.01.-31.01.",
+     "20,00"
+    ],
+    [
+     "01.02.-28.02.",
+     "18,00"
+    ],
+    [
+     "01.03.-31.03.",
+     "15,00"
+    ],
+    [
+     "01.04.-30.04.",
+     "10,00"
+    ],
+    [
+     "01.05.-31.05.",
+     "5,00"
+    ],
+    [
+     "01.06.-30.06.",
+     "1,00"
+    ],
+    [
+     "01.07.-31.07.",
+     "1,00"
+    ],
+    [
+     "01.08.-31.08.",
+     "5,00"
+    ],
+    [
+     "01.09.-30.09.",
+     "10,00"
+    ],
+    [
+     "01.10.-31.10.",
+     "15,00"
+    ],
+    [
+     "01.11.-30.11.",
+     "18,00"
+    ],
+    [
+     "01.12.-31.12.",
+     "20,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p005_b006",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    152,
+    2680,
+    2363,
+    2781
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The result of this is that the degree day coefficients for the summer months have a lower weighting during estimation than those for the winter months. This is shown in the following figure:",
+   "section_id": "doc_006_sec_008"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "ce729da3ac94941a619ede846c20d04b8077aafd80f23f47a13b30daaf50e178"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Weighting Procedure",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_008",
+   "role": "continues"
+  }
+ ]
+}

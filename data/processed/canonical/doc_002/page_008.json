@@ -1,0 +1,251 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 8,
+ "source_page_hash": "091249824fe265085e1523cef4468a9188050a4af7c47f3263331dbfe1d4cc53",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\ne Open items\n\ne Dunning information\n\n1 Note\n\nSee also the Customizing documentation for the individual components and the F1 field help.\n\nFeatures\n\nWhen a customer change is created, the system terminates the transfer contract using a move-out, and creates a new contract\nusing a move-in. The move-out date is set as the end of the billing period of the most recently invoiced billing document belonging\nto the transfer contract\n\nYou can also append an actual move-out date to the move-out, and an actual move-in date to the move-in. This enables you to\ndocument when the move-out customer actually vacated the apartment, and when the move-in customer occupied it. If this data\nbecomes valid at a future date, the changes to the business partner and contract account data of the move-out customer are\nstored as scheduled changes, with the actual move-out date as the validity date. The changes to the business partner and contract\naccount data are stored as scheduled changes for the move-in customer with the actual move-out date as the validity date.\n\nWhen you create a move-out, an adjustment reversal of the most recent billing document takes place for the transfer contract and\na new billing document is created with the value 08 (Customer Change). This billing document contains the billing amount \"O. The\nmost recent billed meter readings are also copied when the move-in is created. Note that constellations in the rate structure (such\nas period-end billing for monthly customers, basic monthly price and so on) can result in the billing documents from the\nadjustment reversal not having the amount \"0.\n\nDepending on the Customizing settings, no new meter reading results are entered. Instead, the last billed meter readings are\ncopied when the move-in is created (see SAP Note 503243).\n\nWhen you save the move-in document, the open items in the transfer contract can be posted to the target contract created as a\nresult of the move-in (this depends on the Customizing settings described above). This is only possible within the same company\ncode. Items that have already been paid are not reposted. You use the Transfer Items transaction (FP40) to do this.\n\nDepending on the Customizing setting you made previously, security deposits and dunning information can be transferred.\nInterest history and supplements are not copied during transfer of the open costs.\n\nBudget billing plans are treated as follows: They are deactivated by the move-out, once you have set the payment on account.\nDepending on the Customizing settings, a new budget billing plan is created from the deactivated budget billing plan when you\nsave the move-in document. You then allocate the credit payments using the account maintenance.\n\nThe customer change assigns a posting block to the transfer contracts. You can display this block in the move-out document. You\ncan change the block using methods ReleaseFicaLock and SetFicaLock of BOR object MOVEOUTDOC.\n\nConstraints\n\ne Open items that have been sent to a collection agency cannot be transferred.\n\ne Thereturns history is not transferred to the new target business partner.\n\ne The interest history and supplements are not copied when you transfer the open items.\n",
+ "cleaned_text": "- Open items\n\n- Dunning information\n\nNote See also the Customizing documentation for the individual components and the F1 field help.\n\nFeatures\n\nWhen a customer change is created, the system terminates the transfer contract using a move-out, and creates a new contract using a move-in. The move-out date is set as the end of the billing period of the most recently invoiced billing document belonging to the transfer contract You can also append an actual move-out date to the move-out, and an actual move-in date to the move-in. This enables you to document when the move-out customer actually vacated the apartment, and when the move-in customer occupied it. If this data becomes valid at a future date, the changes to the business partner and contract account data of the move-out customer are stored as scheduled changes, with the actual move-out date as the validity date. The changes to the business partner and contract account data are stored as scheduled changes for the move-in customer with the actual move-out date as the validity date. When you create a move-out, an adjustment reversal of the most recent billing document takes place for the transfer contract and a new billing document is created with the value 08 (Customer Change). This billing document contains the billing amount \"O. The most recent billed meter readings are also copied when the move-in is created. Note that constellations in the rate structure (such as period-end billing for monthly customers, basic monthly price and so on) can result in the billing documents from the adjustment reversal not having the amount \"0. Depending on the Customizing settings, no new meter reading results are entered. Instead, the last billed meter readings are copied when the move-in is created (see SAP Note 503243). When you save the move-in document, the open items in the transfer contract can be posted to the target contract created as a result of the move-in (this depends on the Customizing settings described above). This is only possible within the same company code. Items that have already been paid are not reposted. You use the Transfer Items transaction (FP40) to do this. Depending on the Customizing setting you made previously, security deposits and dunning information can be transferred. Interest history and supplements are not copied during transfer of the open costs. Budget billing plans are treated as follows: They are deactivated by the move-out, once you have set the payment on account. Depending on the Customizing settings, a new budget billing plan is created from the deactivated budget billing plan when you save the move-in document. You then allocate the credit payments using the account maintenance. The customer change assigns a posting block to the transfer contracts. You can display this block in the move-out document. You can change the block using methods ReleaseFicaLock and SetFicaLock of BOR object MOVEOUTDOC.\n\nConstraints\n\n- Open items that have been sent to a collection agency cannot be transferred.\n\n- Thereturns history is not transferred to the new target business partner.\n\n- The interest history and supplements are not copied when you transfer the open items.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    381,
+    310,
+    418
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p008_b000",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    207,
+    134,
+    626,
+    274
+   ],
+   "ocr_confidence": 90.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Open items"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Dunning information"
+    }
+   ],
+   "section_id": "doc_002_sec_026"
+  },
+  {
+   "block_id": "doc_002_p008_b001",
+   "type": "note",
+   "page_number": 8,
+   "bbox": [
+    151,
+    381,
+    1832,
+    494
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "label": "Note",
+   "text": "Note See also the Customizing documentation for the individual components and the F1 field help.",
+   "section_id": "doc_002_sec_026"
+  },
+  {
+   "block_id": "doc_002_p008_b002",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    126,
+    642,
+    361,
+    687
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_027"
+  },
+  {
+   "block_id": "doc_002_p008_b003",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    775,
+    2482,
+    2800
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "When a customer change is created, the system terminates the transfer contract using a move-out, and creates a new contract using a move-in. The move-out date is set as the end of the billing period of the most recently invoiced billing document belonging to the transfer contract You can also append an actual move-out date to the move-out, and an actual move-in date to the move-in. This enables you to document when the move-out customer actually vacated the apartment, and when the move-in customer occupied it. If this data becomes valid at a future date, the changes to the business partner and contract account data of the move-out customer are stored as scheduled changes, with the actual move-out date as the validity date. The changes to the business partner and contract account data are stored as scheduled changes for the move-in customer with the actual move-out date as the validity date. When you create a move-out, an adjustment reversal of the most recent billing document takes place for the transfer contract and a new billing document is created with the value 08 (Customer Change). This billing document contains the billing amount \"O. The most recent billed meter readings are also copied when the move-in is created. Note that constellations in the rate structure (such as period-end billing for monthly customers, basic monthly price and so on) can result in the billing documents from the adjustment reversal not having the amount \"0. Depending on the Customizing settings, no new meter reading results are entered. Instead, the last billed meter readings are copied when the move-in is created (see SAP Note 503243). When you save the move-in document, the open items in the transfer contract can be posted to the target contract created as a result of the move-in (this depends on the Customizing settings described above). This is only possible within the same company code. Items that have already been paid are not reposted. You use the Transfer Items transaction (FP40) to do this. Depending on the Customizing setting you made previously, security deposits and dunning information can be transferred. Interest history and supplements are not copied during transfer of the open costs. Budget billing plans are treated as follows: They are deactivated by the move-out, once you have set the payment on account. Depending on the Customizing settings, a new budget billing plan is created from the deactivated budget billing plan when you save the move-in document. You then allocate the credit payments using the account maintenance. The customer change assigns a posting block to the transfer contracts. You can display this block in the move-out document. You can change the block using methods ReleaseFicaLock and SetFicaLock of BOR object MOVEOUTDOC.",
+   "section_id": "doc_002_sec_027"
+  },
+  {
+   "block_id": "doc_002_p008_b004",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    123,
+    2884,
+    340,
+    2914
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Constraints",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_028"
+  },
+  {
+   "block_id": "doc_002_p008_b005",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    207,
+    3005,
+    1829,
+    3250
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Open items that have been sent to a collection agency cannot be transferred."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Thereturns history is not transferred to the new target business partner."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The interest history and supplements are not copied when you transfer the open items."
+    }
+   ],
+   "section_id": "doc_002_sec_028"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "091249824fe265085e1523cef4468a9188050a4af7c47f3263331dbfe1d4cc53"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Customer Change",
+  "Prerequisites",
+  "Customizing"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_026",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_002_sec_027",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_028",
+   "role": "starts_here"
+  }
+ ]
+}

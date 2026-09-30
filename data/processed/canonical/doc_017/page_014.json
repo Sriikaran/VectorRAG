@@ -1,0 +1,262 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_017",
+ "page_number": 14,
+ "source_page_hash": "9e173033adc05d3191d03e44c22f960ca14d25157c58f5ae890e4363332450d9",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nChoose Continue . A list of the change documents previously created appears.\n\nThe same procedure applies for the transactions Display Contract Account and Change Contract Account. In the menu of the\ndetail screen, choose Extras \u2014 Account Changes\n\nFeatures\n\nYou have to trigger the creation of the correspondence manually. The program selects all change documents created for the\nbusiness partner on the same day and then creates an individual correspondence. Only the change documents for the fields\ndefined in Customizing are considered in the correspondence. This means that the user can decide which master data changes he\nwants to follow and inform the customer about. Only actual changes to existing data and changes made on the current date are\nconsidered. This means that new master data, such as business partners and addresses, are not taken into account in the\ncorrespondence. You cannot list or individually select the selected changes for the correspondence before the correspondence is\ncreated. For correspondence type 0030 you can use events 1914 (print event) and 1915 (creation event). Read the documentation\nfor function modules FKK_SAMPLE_1914 and FKK_SAMPLE_1915. You can determine industry-specific additional data for the\ncontract reference with a module for event 1916 (FKK_SAMPLE_1916). The module FMCA_SAMPLE_1916 is defined for\ndetermining data for the contract object for the industry solution Contract Accounts Receivable and Payable for Public Sector .\nFI_CA_MASTERDATA is defined as the standard form class in Customizing. At the top level (document level), the form class\ncontains a 1:1 level to the business partner. The hierarchy below contains the level for the change documents, whereby the process\nlogic determines that first the change documents and then the planned change documents are listed (see application form\nexample FILCA_MASTERDATA_SAMPLE). In the application form, you can display the old and the new value for a changed field.\nNote that certain fields only contain IDs (table keys), that is, links to the actual data (for example, bank details ID for incoming\npayments). The determination of details for these IDs and other ID fields is not supported in the standard. However, you can\nimplement this in the customer-specific application form.\n\nActivities\n\nIn the menu of the transactions Change Business Partner, Display Business Partner, Change Contract Account , and Display\nContract Account , choose ExtrasAdditional ExtrasCorrespondence\n\nOn the processing screen that appears, make selections for the business partner, contract account, and contract reference and\nmake specifications for printing. You must specify a business partner. If you do not make any restrictions for the contract account\nand/or contract reference, changes to all contract accounts and contracts (contract references) of this business partner are\nconsidered, instead of only changes to the selected objects.\n\nConfirm your entries.\n\nThe correspondence is created.\n\nExample\n\nExample 1\n\nA customer informs you that she has recently married and informs you of her new last name. She requests written confirmation\nthat her data has been changed. Once the clerk has entered the new name in the field Last Name (BUTOOO-NAME_LAST) in the\ntransaction Change Business Partner , he creates a correspondence that documents the change made and sends it to the\ncustomer.\n\nExample 2\n",
+ "cleaned_text": "Choose Continue . A list of the change documents previously created appears. The same procedure applies for the transactions Display Contract Account and Change Contract Account. In the menu of the detail screen, choose Extras \u2014 Account Changes\n\nFeatures\n\nYou have to trigger the creation of the correspondence manually. The program selects all change documents created for the business partner on the same day and then creates an individual correspondence. Only the change documents for the fields defined in Customizing are considered in the correspondence. This means that the user can decide which master data changes he wants to follow and inform the customer about. Only actual changes to existing data and changes made on the current date are considered. This means that new master data, such as business partners and addresses, are not taken into account in the correspondence. You cannot list or individually select the selected changes for the correspondence before the correspondence is created. For correspondence type 0030 you can use events 1914 (print event) and 1915 (creation event). Read the documentation for function modules FKK_SAMPLE_1914 and FKK_SAMPLE_1915. You can determine industry-specific additional data for the contract reference with a module for event 1916 (FKK_SAMPLE_1916). The module FMCA_SAMPLE_1916 is defined for determining data for the contract object for the industry solution Contract Accounts Receivable and Payable for Public Sector . FI_CA_MASTERDATA is defined as the standard form class in Customizing. At the top level (document level), the form class contains a 1:1 level to the business partner. The hierarchy below contains the level for the change documents, whereby the process logic determines that first the change documents and then the planned change documents are listed (see application form example FILCA_MASTERDATA_SAMPLE). In the application form, you can display the old and the new value for a changed field. Note that certain fields only contain IDs (table keys), that is, links to the actual data (for example, bank details ID for incoming payments). The determination of details for these IDs and other ID fields is not supported in the standard. However, you can implement this in the customer-specific application form.\n\nActivities\n\nIn the menu of the transactions Change Business Partner, Display Business Partner, Change Contract Account , and Display\n\nContract Account , choose ExtrasAdditional ExtrasCorrespondence\n\nOn the processing screen that appears, make selections for the business partner, contract account, and contract reference and make specifications for printing. You must specify a business partner. If you do not make any restrictions for the contract account and/or contract reference, changes to all contract accounts and contracts (contract references) of this business partner are considered, instead of only changes to the selected objects. Confirm your entries. The correspondence is created.\n\nExample Example 1 A customer informs you that she has recently married and informs you of her new last name. She requests written confirmation that her data has been changed. Once the clerk has entered the new name in the field Last Name (BUTOOO-NAME_LAST) in the transaction Change Business Partner , he creates a correspondence that documents the change made and sends it to the customer.\n\nExample 2",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_017_p014_b000",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    122,
+    130,
+    2413,
+    357
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Choose Continue . A list of the change documents previously created appears. The same procedure applies for the transactions Display Contract Account and Change Contract Account. In the menu of the detail screen, choose Extras \u2014 Account Changes",
+   "section_id": "doc_017_sec_073"
+  },
+  {
+   "block_id": "doc_017_p014_b001",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    126,
+    468,
+    361,
+    513
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_074"
+  },
+  {
+   "block_id": "doc_017_p014_b002",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    122,
+    601,
+    2475,
+    1647
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You have to trigger the creation of the correspondence manually. The program selects all change documents created for the business partner on the same day and then creates an individual correspondence. Only the change documents for the fields defined in Customizing are considered in the correspondence. This means that the user can decide which master data changes he wants to follow and inform the customer about. Only actual changes to existing data and changes made on the current date are considered. This means that new master data, such as business partners and addresses, are not taken into account in the correspondence. You cannot list or individually select the selected changes for the correspondence before the correspondence is created. For correspondence type 0030 you can use events 1914 (print event) and 1915 (creation event). Read the documentation for function modules FKK_SAMPLE_1914 and FKK_SAMPLE_1915. You can determine industry-specific additional data for the contract reference with a module for event 1916 (FKK_SAMPLE_1916). The module FMCA_SAMPLE_1916 is defined for determining data for the contract object for the industry solution Contract Accounts Receivable and Payable for Public Sector . FI_CA_MASTERDATA is defined as the standard form class in Customizing. At the top level (document level), the form class contains a 1:1 level to the business partner. The hierarchy below contains the level for the change documents, whereby the process logic determines that first the change documents and then the planned change documents are listed (see application form example FILCA_MASTERDATA_SAMPLE). In the application form, you can display the old and the new value for a changed field. Note that certain fields only contain IDs (table keys), that is, links to the actual data (for example, bank details ID for incoming payments). The determination of details for these IDs and other ID fields is not supported in the standard. However, you can implement this in the customer-specific application form.",
+   "section_id": "doc_017_sec_074"
+  },
+  {
+   "block_id": "doc_017_p014_b003",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    123,
+    1759,
+    383,
+    1804
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_075"
+  },
+  {
+   "block_id": "doc_017_p014_b004",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    125,
+    1891,
+    2403,
+    1930
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "In the menu of the transactions Change Business Partner, Display Business Partner, Change Contract Account , and Display",
+   "section_id": "doc_017_sec_075"
+  },
+  {
+   "block_id": "doc_017_p014_b005",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    123,
+    1955,
+    1371,
+    1993
+   ],
+   "ocr_confidence": 91.2,
+   "flags": [],
+   "text": "Contract Account , choose ExtrasAdditional ExtrasCorrespondence",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_076"
+  },
+  {
+   "block_id": "doc_017_p014_b006",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    122,
+    2079,
+    2464,
+    2551
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "On the processing screen that appears, make selections for the business partner, contract account, and contract reference and make specifications for printing. You must specify a business partner. If you do not make any restrictions for the contract account and/or contract reference, changes to all contract accounts and contracts (contract references) of this business partner are considered, instead of only changes to the selected objects. Confirm your entries. The correspondence is created.",
+   "section_id": "doc_017_sec_076"
+  },
+  {
+   "block_id": "doc_017_p014_b007",
+   "type": "example",
+   "page_number": 14,
+   "bbox": [
+    122,
+    2663,
+    2433,
+    3135
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Example Example 1 A customer informs you that she has recently married and informs you of her new last name. She requests written confirmation that her data has been changed. Once the clerk has entered the new name in the field Last Name (BUTOOO-NAME_LAST) in the transaction Change Business Partner , he creates a correspondence that documents the change made and sends it to the customer.",
+   "section_id": "doc_017_sec_076"
+  },
+  {
+   "block_id": "doc_017_p014_b008",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    124,
+    3226,
+    313,
+    3263
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Example 2",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_077"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Accounts Overview",
+  "source_pdf": "17.pdf",
+  "reference_pdf": "17_Contract_Accounts_Overview.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Use to connect utility invoicing to receivables, payments and dunning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "9e173033adc05d3191d03e44c22f960ca14d25157c58f5ae890e4363332450d9"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Accounts Overview",
+  "Correspondence for Master Data Changes",
+  "Prerequisites"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_017_sec_073",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_017_sec_074",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_075",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_076",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_077",
+   "role": "starts_here"
+  }
+ ]
+}

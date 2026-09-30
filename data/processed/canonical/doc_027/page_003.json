@@ -1,0 +1,512 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_027",
+ "page_number": 3,
+ "source_page_hash": "7e03e85a5e94211b126783518eb7d9dac5e4b7d8d5fe0dc4fc109b347a94bcdb",
+ "is_cover_page": false,
+ "title": "Categories of Collection Units",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:16 AM\n1. To be able to use the service-oriented interface for submissions to collections, you have to activate it in Customizing for\nContract Accounts Receivable and Payable. To do this, in Customizing for Contract Accounts Receivable and Payable,\nchoose either |*Integration } Enterprise Services Make Central Settings for Enterprise Services \u201cJ or |}Business\n\nTransactions \u00bb Submit to Collections \u00bb Activation of Communication Through API or Enterprise Service\n\n1 Note\n\nFor more information about the dependencies related to activating the service-oriented interface, see the\ndocumentation for the indicator you use to activate the service-oriented interface.\n\n\u201c4S Caution\n\nIf you previously communicated with collection agencies by file, do not activate communication via Enterprise\nService/API until you have processed all the information that you received by file and stored in the system.\n\nAfter you have activated communication by using Enterprise Services or APIs, you can no longer process information\n\nthat you have received by file and stored in the system.\n\nWhen communicating with collection agencies by using files, the system saves the exchanged information in a different\ntable than when communicating with collection agencies by using the available Enterprise Services/APIs. If you switch\nto communication by using Enterprise Services/APls, you must migrate the data. To do this, in the SAP Easy Access\nscreen, choose |Administration \u00bb Migrate Collection Items for Service Communication J (transaction FPO3MIG).\n\n2. Then you make the necessary settings for collection agency postings in Customizing for Contract Accounts Receivable and\n\nPayable in the activities Define Specifications for Processing Collection Agency Information and Define Specifications\nfor Collection Agency Postings under |}/Business Transactions \u00bb Submit to Collection Agency\n\n3. You enter the allowed status information about the progress of processing at external collection agencies in Customizing\nfor Contract Accounts Receivable and Payable, under |)\u00abBusiness Transactions \u00bb Submit to Collection Agency \u00bb Define\nCategories of Collection Units\n\n4. You can classify collection units when you submit to collections; you enter the allowed categories in Customizing for\nContract Accounts Receivable and Payable, under |)Business Transactions \u00bb Submit to Collection Agency \u00bb Define\nCategories of Collection Units\n\n5. To display status information in the collection history, select the Coll. Hist. column in Customizing for Contract Accounts\nReceivable and Payable, under |Business Transactions } Submit to Collection Agency + Define Submission Status J and\n\nunder Maintain Status of Collection Units.\n\n6. In addition, define a variant for the collection history with the event 0007 Submit for Collection in Customizing for\nContract Accounts Receivable and Payable, under|}*Business Transactions \u00bb Dunning \u00bb Collection History \u00bb Define\nVariants\n\nRelated Information\n\nCommissioned Outstanding Collections Processing\n\nReleasing Receivables for Collection\n\nUse\n\nTha ralaaca nf nnoan (ctaticticral and nnarmal) itame ic crinnnrtad incliriding alen nartialhy naid itame rradit mamne and dicrniinte\n",
+ "cleaned_text": "1 To be able to use the service-oriented interface for submissions to collections, you have to activate it in Customizing for Contract Accounts Receivable and Payable. To do this, in Customizing for Contract Accounts Receivable and Payable,\n\nchoose either |*Integration } Enterprise Services Make Central Settings for Enterprise Services \u201cJ or |}Business Transactions \u00bb Submit to Collections \u00bb Activation of Communication Through API or Enterprise Service\n\nNote For more information about the dependencies related to activating the service-oriented interface, see the documentation for the indicator you use to activate the service-oriented interface.\n\nCaution If you previously communicated with collection agencies by file, do not activate communication via Enterprise Service/API until you have processed all the information that you received by file and stored in the system. After you have activated communication by using Enterprise Services or APIs, you can no longer process information that you have received by file and stored in the system. When communicating with collection agencies by using files, the system saves the exchanged information in a different table than when communicating with collection agencies by using the available Enterprise Services/APIs. If you switch to communication by using Enterprise Services/APls, you must migrate the data. To do this, in the SAP Easy Access screen, choose |Administration \u00bb Migrate Collection Items for Service Communication J (transaction FPO3MIG).\n\n2 Then you make the necessary settings for collection agency postings in Customizing for Contract Accounts Receivable and Payable in the activities Define Specifications for Processing Collection Agency Information and Define Specifications\n\nfor Collection Agency Postings under |}/Business Transactions \u00bb Submit to Collection Agency\n\n3 You enter the allowed status information about the progress of processing at external collection agencies in Customizing for Contract Accounts Receivable and Payable, under |)\u00abBusiness Transactions \u00bb Submit to Collection Agency \u00bb Define\n\nCategories of Collection Units\n\n4 You can classify collection units when you submit to collections; you enter the allowed categories in Customizing for Contract Accounts Receivable and Payable, under |)Business Transactions \u00bb Submit to Collection Agency \u00bb Define\n\nCategories of Collection Units\n\n5 To display status information in the collection history, select the Coll. Hist. column in Customizing for Contract Accounts Receivable and Payable, under |Business Transactions } Submit to Collection Agency + Define Submission Status J and\n\nunder Maintain Status of Collection Units.\n\n6 In addition, define a variant for the collection history with the event 0007 Submit for Collection in Customizing for Contract Accounts Receivable and Payable, under|}*Business Transactions \u00bb Dunning \u00bb Collection History \u00bb Define\n\nVariants\n\nRelated Information\n\nCommissioned Outstanding Collections Processing\n\nReleasing Receivables for Collection\n\nUse\n\nTha ralaaca nf nnoan (ctaticticral and nnarmal) itame ic crinnnrtad incliriding alen nartialhy naid itame rradit mamne and dicrniinte",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:16 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    445,
+    441,
+    482
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u201c4S",
+   "bbox": [
+    282,
+    737,
+    545,
+    781
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_027_p003_b000",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    214,
+    134,
+    2409,
+    234
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "To be able to use the service-oriented interface for submissions to collections, you have to activate it in Customizing for Contract Accounts Receivable and Payable. To do this, in Customizing for Contract Accounts Receivable and Payable,"
+    }
+   ],
+   "section_id": "doc_027_sec_005"
+  },
+  {
+   "block_id": "doc_027_p003_b001",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    253,
+    255,
+    2355,
+    367
+   ],
+   "ocr_confidence": 87.1,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "choose either |*Integration } Enterprise Services Make Central Settings for Enterprise Services \u201cJ or |}Business Transactions \u00bb Submit to Collections \u00bb Activation of Communication Through API or Enterprise Service",
+   "section_id": "doc_027_sec_005"
+  },
+  {
+   "block_id": "doc_027_p003_b002",
+   "type": "note",
+   "page_number": 3,
+   "bbox": [
+    282,
+    445,
+    2182,
+    625
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "label": "Note",
+   "text": "Note For more information about the dependencies related to activating the service-oriented interface, see the documentation for the indicator you use to activate the service-oriented interface.",
+   "section_id": "doc_027_sec_005"
+  },
+  {
+   "block_id": "doc_027_p003_b003",
+   "type": "note",
+   "page_number": 3,
+   "bbox": [
+    282,
+    737,
+    2430,
+    1386
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "label": "Caution",
+   "text": "Caution If you previously communicated with collection agencies by file, do not activate communication via Enterprise Service/API until you have processed all the information that you received by file and stored in the system. After you have activated communication by using Enterprise Services or APIs, you can no longer process information that you have received by file and stored in the system. When communicating with collection agencies by using files, the system saves the exchanged information in a different table than when communicating with collection agencies by using the available Enterprise Services/APIs. If you switch to communication by using Enterprise Services/APls, you must migrate the data. To do this, in the SAP Easy Access screen, choose |Administration \u00bb Migrate Collection Items for Service Communication J (transaction FPO3MIG).",
+   "section_id": "doc_027_sec_005"
+  },
+  {
+   "block_id": "doc_027_p003_b004",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    211,
+    1482,
+    2471,
+    1586
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Then you make the necessary settings for collection agency postings in Customizing for Contract Accounts Receivable and Payable in the activities Define Specifications for Processing Collection Agency Information and Define Specifications"
+    }
+   ],
+   "section_id": "doc_027_sec_005"
+  },
+  {
+   "block_id": "doc_027_p003_b005",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    253,
+    1605,
+    1974,
+    1652
+   ],
+   "ocr_confidence": 88.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "for Collection Agency Postings under |}/Business Transactions \u00bb Submit to Collection Agency",
+   "section_id": "doc_027_sec_005"
+  },
+  {
+   "block_id": "doc_027_p003_b006",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    211,
+    1711,
+    2432,
+    1816
+   ],
+   "ocr_confidence": 91.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "You enter the allowed status information about the progress of processing at external collection agencies in Customizing for Contract Accounts Receivable and Payable, under |)\u00abBusiness Transactions \u00bb Submit to Collection Agency \u00bb Define"
+    }
+   ],
+   "section_id": "doc_027_sec_005"
+  },
+  {
+   "block_id": "doc_027_p003_b007",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    254,
+    1835,
+    811,
+    1874
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Categories of Collection Units",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_006"
+  },
+  {
+   "block_id": "doc_027_p003_b008",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    210,
+    1940,
+    2348,
+    2045
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "You can classify collection units when you submit to collections; you enter the allowed categories in Customizing for Contract Accounts Receivable and Payable, under |)Business Transactions \u00bb Submit to Collection Agency \u00bb Define"
+    }
+   ],
+   "section_id": "doc_027_sec_006"
+  },
+  {
+   "block_id": "doc_027_p003_b009",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    254,
+    2065,
+    811,
+    2103
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Categories of Collection Units",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_007"
+  },
+  {
+   "block_id": "doc_027_p003_b010",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    211,
+    2166,
+    2474,
+    2272
+   ],
+   "ocr_confidence": 89.2,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "To display status information in the collection history, select the Coll. Hist. column in Customizing for Contract Accounts Receivable and Payable, under |Business Transactions } Submit to Collection Agency + Define Submission Status J and"
+    }
+   ],
+   "section_id": "doc_027_sec_007"
+  },
+  {
+   "block_id": "doc_027_p003_b011",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    255,
+    2294,
+    1032,
+    2325
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "under Maintain Status of Collection Units.",
+   "section_id": "doc_027_sec_007"
+  },
+  {
+   "block_id": "doc_027_p003_b012",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    211,
+    2396,
+    2341,
+    2501
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "In addition, define a variant for the collection history with the event 0007 Submit for Collection in Customizing for Contract Accounts Receivable and Payable, under|}*Business Transactions \u00bb Dunning \u00bb Collection History \u00bb Define"
+    }
+   ],
+   "section_id": "doc_027_sec_007"
+  },
+  {
+   "block_id": "doc_027_p003_b013",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    254,
+    2521,
+    407,
+    2551
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Variants",
+   "section_id": "doc_027_sec_007"
+  },
+  {
+   "block_id": "doc_027_p003_b014",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    2670,
+    680,
+    2715
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Related Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_008"
+  },
+  {
+   "block_id": "doc_027_p003_b015",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    123,
+    2796,
+    1051,
+    2834
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Commissioned Outstanding Collections Processing",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_027_sec_008"
+  },
+  {
+   "block_id": "doc_027_p003_b016",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    128,
+    2969,
+    1425,
+    3045
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Releasing Receivables for Collection",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_009"
+  },
+  {
+   "block_id": "doc_027_p003_b017",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    125,
+    3149,
+    225,
+    3194
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_010"
+  },
+  {
+   "block_id": "doc_027_p003_b018",
+   "type": "fragment",
+   "page_number": 3,
+   "bbox": [
+    122,
+    3278,
+    2416,
+    3300
+   ],
+   "ocr_confidence": 62.5,
+   "flags": [
+    "low_confidence_words:8",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Tha ralaaca nf nnoan (ctaticticral and nnarmal) itame ic crinnnrtad incliriding alen nartialhy naid itame rradit mamne and dicrniinte",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_027_sec_010"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.1087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Submission of Receivables to Collection Agency",
+  "source_pdf": "27.pdf",
+  "reference_pdf": "27_Submission_of_Receivables_to_Collection_Agency.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Useful for late-stage collections and external-agency lifecycle knowledge.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "7e03e85a5e94211b126783518eb7d9dac5e4b7d8d5fe0dc4fc109b347a94bcdb"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Submission of Receivables to Collection Agency",
+  "Services or APIs",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_027_sec_005",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_027_sec_006",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_007",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_008",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_009",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_010",
+   "role": "starts_here"
+  }
+ ]
+}

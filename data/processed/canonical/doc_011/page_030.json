@@ -1,0 +1,387 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 30,
+ "source_page_hash": "41c23771f2066ecb12f9c7b7ce8924d99fedd15c3d158113aa480dd2be173365",
+ "is_cover_page": false,
+ "title": "Selection of the Activation Type",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nThe priority controls which RTP components and other parameter allocations can be used during execution of the RTP\n\ninterface if multiple RTP components exist in the same activation payment. The priority analysis takes place for each\nparameter (see example 2)\n\n\u201c4S Caution\n\nAn RTP component with an activation type that is activated individually has a higher priority than an RTP component\nwith an activation type that is activated generally.\n\nIf you assign multiple RTP components with different activation types to the RTP interface, make sure that you give the\ncomponent with the activation type that is individually activated a higher priority than the other components.\n\n4. Choose ezuInsert Component.\n\nThe component is added to the tree structure on the left of the screen.\n\nThe settings on the Activation, Input Parameters, and Parameter Templates tab pages depend on the activation type that you\nselected.\n\nSelection of the Activation Type\nCase 1: Activation type \"Use and Activate Generally\" selected\n\nActivation\n\n1. In the Day From and Day To fields, enter the period for which you want the component to be valid.\no If you want the component to be active in this period, select the Activate field.\no If you do not want the component to be active in this period, leave the Activate field empty.\n2. Select @gTransfer.\n\nYour entries are then transferred to the list.\n\nYou can define multiple periods, whereby the component will be active in one period and inactive in the other. Repeat steps 1 and 2\nfor each definition of a period.\n\nInput Parameters\n\n1. Double click on an input parameter to select it.\n2. Enter the period for which you want the parameter to be valid.\n3. Allocate a profile, a role, or a constant value to the parameter.\n\nIf you allocate a role, the input parameter is given the profile values of the profile that is allocated to the interval meter to be\nbilled with the specified role when the RTP interface is executed.\n\n4. Select @pTransfer.\n\nYour entries are then transferred to the list.\n\nRepeat the steps for all input parameters.\n",
+ "cleaned_text": "The priority controls which RTP components and other parameter allocations can be used during execution of the RTP interface if multiple RTP components exist in the same activation payment. The priority analysis takes place for each parameter (see example 2)\n\nCaution An RTP component with an activation type that is activated individually has a higher priority than an RTP component with an activation type that is activated generally. If you assign multiple RTP components with different activation types to the RTP interface, make sure that you give the component with the activation type that is individually activated a higher priority than the other components.\n\n4 Choose ezuInsert Component. The component is added to the tree structure on the left of the screen.\n\nThe settings on the Activation, Input Parameters, and Parameter Templates tab pages depend on the activation type that you selected.\n\nSelection of the Activation Type\n\nCase 1: Activation type \"Use and Activate Generally\" selected\n\nActivation\n\n1 In the Day From and Day To fields, enter the period for which you want the component to be valid.\n\n- If you want the component to be active in this period, select the Activate field.\n\n- If you do not want the component to be active in this period, leave the Activate field empty.\n\n2 Select @gTransfer. Your entries are then transferred to the list.\n\nYou can define multiple periods, whereby the component will be active in one period and inactive in the other. Repeat steps 1 and 2 for each definition of a period.\n\nInput Parameters\n\n1 Double click on an input parameter to select it.\n\n2 Enter the period for which you want the parameter to be valid.\n\n3 Allocate a profile, a role, or a constant value to the parameter. If you allocate a role, the input parameter is given the profile values of the profile that is allocated to the interval meter to be billed with the specified role when the RTP interface is executed.\n\n4 Select @pTransfer. Your entries are then transferred to the list.\n\nRepeat the steps for all input parameters.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u201c4S",
+   "bbox": [
+    283,
+    377,
+    546,
+    421
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p030_b000",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    254,
+    134,
+    2397,
+    297
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The priority controls which RTP components and other parameter allocations can be used during execution of the RTP interface if multiple RTP components exist in the same activation payment. The priority analysis takes place for each parameter (see example 2)",
+   "section_id": "doc_011_sec_089"
+  },
+  {
+   "block_id": "doc_011_p030_b001",
+   "type": "note",
+   "page_number": 30,
+   "bbox": [
+    283,
+    377,
+    2430,
+    727
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Caution",
+   "text": "Caution An RTP component with an activation type that is activated individually has a higher priority than an RTP component with an activation type that is activated generally. If you assign multiple RTP components with different activation types to the RTP interface, make sure that you give the component with the activation type that is individually activated a higher priority than the other components.",
+   "section_id": "doc_011_sec_089"
+  },
+  {
+   "block_id": "doc_011_p030_b002",
+   "type": "list",
+   "page_number": 30,
+   "bbox": [
+    211,
+    820,
+    1528,
+    967
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Choose ezuInsert Component. The component is added to the tree structure on the left of the screen."
+    }
+   ],
+   "section_id": "doc_011_sec_089"
+  },
+  {
+   "block_id": "doc_011_p030_b003",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    122,
+    1054,
+    2409,
+    1147
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The settings on the Activation, Input Parameters, and Parameter Templates tab pages depend on the activation type that you selected.",
+   "section_id": "doc_011_sec_089"
+  },
+  {
+   "block_id": "doc_011_p030_b004",
+   "type": "heading",
+   "page_number": 30,
+   "bbox": [
+    125,
+    1266,
+    1010,
+    1323
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Selection of the Activation Type",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_090"
+  },
+  {
+   "block_id": "doc_011_p030_b005",
+   "type": "heading",
+   "page_number": 30,
+   "bbox": [
+    123,
+    1399,
+    1261,
+    1437
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Case 1: Activation type \"Use and Activate Generally\" selected",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_091"
+  },
+  {
+   "block_id": "doc_011_p030_b006",
+   "type": "heading",
+   "page_number": 30,
+   "bbox": [
+    123,
+    1521,
+    310,
+    1551
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Activation",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_092"
+  },
+  {
+   "block_id": "doc_011_p030_b007",
+   "type": "list",
+   "page_number": 30,
+   "bbox": [
+    212,
+    1643,
+    2028,
+    2083
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "In the Day From and Day To fields, enter the period for which you want the component to be valid."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "If you want the component to be active in this period, select the Activate field."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "If you do not want the component to be active in this period, leave the Activate field empty."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Select @gTransfer. Your entries are then transferred to the list."
+    }
+   ],
+   "section_id": "doc_011_sec_092"
+  },
+  {
+   "block_id": "doc_011_p030_b008",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    122,
+    2174,
+    2474,
+    2275
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You can define multiple periods, whereby the component will be active in one period and inactive in the other. Repeat steps 1 and 2 for each definition of a period.",
+   "section_id": "doc_011_sec_092"
+  },
+  {
+   "block_id": "doc_011_p030_b009",
+   "type": "heading",
+   "page_number": 30,
+   "bbox": [
+    125,
+    2358,
+    447,
+    2396
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Input Parameters",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_093"
+  },
+  {
+   "block_id": "doc_011_p030_b010",
+   "type": "list",
+   "page_number": 30,
+   "bbox": [
+    211,
+    2484,
+    2483,
+    3089
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Double click on an input parameter to select it."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter the period for which you want the parameter to be valid."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Allocate a profile, a role, or a constant value to the parameter. If you allocate a role, the input parameter is given the profile values of the profile that is allocated to the interval meter to be billed with the specified role when the RTP interface is executed."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Select @pTransfer. Your entries are then transferred to the list."
+    }
+   ],
+   "section_id": "doc_011_sec_093"
+  },
+  {
+   "block_id": "doc_011_p030_b011",
+   "type": "paragraph",
+   "page_number": 30,
+   "bbox": [
+    125,
+    3180,
+    872,
+    3217
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "Repeat the steps for all input parameters.",
+   "section_id": "doc_011_sec_093"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "41c23771f2066ecb12f9c7b7ce8924d99fedd15c3d158113aa480dd2be173365"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Define RTP Interface",
+  "Procedure",
+  "Result Parameters"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_089",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_090",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_091",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_092",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_093",
+   "role": "starts_here"
+  }
+ ]
+}

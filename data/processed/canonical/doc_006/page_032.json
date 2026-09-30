@@ -1,0 +1,460 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 32,
+ "source_page_hash": "f94041080dde4d90d56398f4012b617484ade1b0c00fe99538d69c42766d2ff0",
+ "is_cover_page": false,
+ "title": "Extrapolation with Billing Factor",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nExtrapolation with Billing Factor\n\nFeatures\n\nThe expected meter reading is calculated from the expected consumption with the help of special parameters (register factor,\nbilling factor, dimension conversion table). The following example shows the significance of the billing factor:\n\n1.5                       2\nBilling Ftr \u2014_|------------------------ |-----n--n nnn nnn nnn nnn nn anna nn -n=- |\n10                       12\nConv. Ftr _|------------------------ |--------------------------------- |\n2                        10\nReg. Ftr     |------------------------ |--------------------------------- |\nMR Result 0                   800                           ?kWh\n|\nMR Reas. |                    Y                             P\n08                   09                             01\n4000                                        kWh/Year\nPerCons,..._ |\u2014\u2014\u2014\u2014----\nWght Unit             400                      600\n<_<\nWght Port.            40%                     60%\n\nExplanations for Billing Factor\n\nExample\n\nWhen the device is installed, a period consumption value of 4,000 kWh/year is entered for the register.\nThe minimum portion of weighting in percent is 30%.\nThe sum of the weighting units for one year is 1,000.\n\nWith a weighting portion of 40%, period Y to | is representative. Therefore, extrapolation is based on the on the meter reading\nresults rather then the period consumption:\n\n1. Determination of meter reading difference 09 to 08:\n\n800 kWh - 0 kWh = 800 kWh\n2. Determination of consumption for 09 by multiplying the meter reading difference with the register factor:\n\n800 kWh * 2 = 1,600 kWh\n",
+ "cleaned_text": "Extrapolation with Billing Factor\n\nFeatures\n\nThe expected meter reading is calculated from the expected consumption with the help of special parameters (register factor, billing factor, dimension conversion table). The following example shows the significance of the billing factor:\n\n1.5 | 2\n\nBilling Ftr | \u2014_|------------------------ |-----n--n nnn nnn nnn nnn nn anna nn -n=- |\n\n10 | 12\n\nConv. Ftr | _|------------------------ |--------------------------------- |\n\n2 | 10\n\nReg. Ftr | |------------------------ |--------------------------------- |\n\nMR Result | 0 | 800 | ?kWh\n\n|\n\nMR Reas. | | | Y | P\n\n08 | 09 | 01\n\n4000 | kWh/Year\n\nPerCons,..._ | |\u2014\u2014\u2014\u2014----\n\nWght Unit | 400 | 600\n\n<_<\n\nWght Port. | 40% | 60%\n\nExplanations for Billing Factor\n\nExample When the device is installed, a period consumption value of 4,000 kWh/year is entered for the register. The minimum portion of weighting in percent is 30%. The sum of the weighting units for one year is 1,000. With a weighting portion of 40%, period Y to | is representative. Therefore, extrapolation is based on the on the meter reading results rather then the period consumption:\n\n1 Determination of meter reading difference 09 to 08: 800 kWh - 0 kWh = 800 kWh\n\n2 Determination of consumption for 09 by multiplying the meter reading difference with the register factor: 800 kWh * 2 = 1,600 kWh",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p032_b000",
+   "type": "heading",
+   "page_number": 32,
+   "bbox": [
+    128,
+    132,
+    1276,
+    207
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Extrapolation with Billing Factor",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_046"
+  },
+  {
+   "block_id": "doc_006_p032_b001",
+   "type": "heading",
+   "page_number": 32,
+   "bbox": [
+    126,
+    307,
+    361,
+    353
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p032_b002",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    122,
+    440,
+    2399,
+    540
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The expected meter reading is calculated from the expected consumption with the help of special parameters (register factor, billing factor, dimension conversion table). The following example shows the significance of the billing factor:",
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p032_b003",
+   "type": "table",
+   "page_number": 32,
+   "bbox": [
+    170,
+    653,
+    2223,
+    1294
+   ],
+   "ocr_confidence": 62.5,
+   "flags": [
+    "low_confidence_words:11",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    170,
+    578,
+    900,
+    1160,
+    1623,
+    2032
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "1.5",
+     "2"
+    ],
+    [
+     "Billing Ftr",
+     "\u2014_|------------------------ |-----n--n nnn nnn nnn nnn nn anna nn -n=- |"
+    ],
+    [
+     "10",
+     "12"
+    ],
+    [
+     "Conv. Ftr",
+     "_|------------------------ |--------------------------------- |"
+    ],
+    [
+     "2",
+     "10"
+    ],
+    [
+     "Reg. Ftr",
+     "|------------------------ |--------------------------------- |"
+    ],
+    [
+     "MR Result",
+     "0",
+     "800",
+     "?kWh"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "1.5",
+     "2"
+    ],
+    [
+     "Billing Ftr",
+     "\u2014_|------------------------ |-----n--n nnn nnn nnn nnn nn anna nn -n=- |"
+    ],
+    [
+     "10",
+     "12"
+    ],
+    [
+     "Conv. Ftr",
+     "_|------------------------ |--------------------------------- |"
+    ],
+    [
+     "2",
+     "10"
+    ],
+    [
+     "Reg. Ftr",
+     "|------------------------ |--------------------------------- |"
+    ],
+    [
+     "MR Result",
+     "0",
+     "800",
+     "?kWh"
+    ]
+   ],
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p032_b004",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    609,
+    1326,
+    2069,
+    1395
+   ],
+   "ocr_confidence": 44.8,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "|",
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p032_b005",
+   "type": "table",
+   "page_number": 32,
+   "bbox": [
+    167,
+    1429,
+    2127,
+    1859
+   ],
+   "ocr_confidence": 79.1,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 8,
+   "column_starts": [
+    167,
+    541,
+    587,
+    847,
+    1182,
+    1575,
+    1811,
+    2035
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR Reas.",
+     "|",
+     "Y",
+     "P"
+    ],
+    [
+     "08",
+     "09",
+     "01"
+    ],
+    [
+     "4000",
+     "kWh/Year"
+    ],
+    [
+     "PerCons,..._",
+     "|\u2014\u2014\u2014\u2014----"
+    ],
+    [
+     "Wght Unit",
+     "400",
+     "600"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR Reas.",
+     "|",
+     "Y",
+     "P"
+    ],
+    [
+     "08",
+     "09",
+     "01"
+    ],
+    [
+     "4000",
+     "kWh/Year"
+    ],
+    [
+     "PerCons,..._",
+     "|\u2014\u2014\u2014\u2014----"
+    ],
+    [
+     "Wght Unit",
+     "400",
+     "600"
+    ]
+   ],
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p032_b006",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    588,
+    1876,
+    2050,
+    1945
+   ],
+   "ocr_confidence": 0.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "<_<",
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p032_b007",
+   "type": "table",
+   "page_number": 32,
+   "bbox": [
+    167,
+    1962,
+    1727,
+    2031
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    167,
+    851,
+    1583
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Wght Port.",
+     "40%",
+     "60%"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Wght Port.",
+     "40%",
+     "60%"
+    ]
+   ],
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p032_b008",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    124,
+    2089,
+    605,
+    2124
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Explanations for Billing Factor",
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p032_b009",
+   "type": "example",
+   "page_number": 32,
+   "bbox": [
+    122,
+    2233,
+    2384,
+    2830
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Example When the device is installed, a period consumption value of 4,000 kWh/year is entered for the register. The minimum portion of weighting in percent is 30%. The sum of the weighting units for one year is 1,000. With a weighting portion of 40%, period Y to | is representative. Therefore, extrapolation is based on the on the meter reading results rather then the period consumption:",
+   "section_id": "doc_006_sec_047"
+  },
+  {
+   "block_id": "doc_006_p032_b010",
+   "type": "list",
+   "page_number": 32,
+   "bbox": [
+    212,
+    2913,
+    2157,
+    3256
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Determination of meter reading difference 09 to 08: 800 kWh - 0 kWh = 800 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Determination of consumption for 09 by multiplying the meter reading difference with the register factor: 800 kWh * 2 = 1,600 kWh"
+    }
+   ],
+   "section_id": "doc_006_sec_047"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 87,
+   "page_hash": "f94041080dde4d90d56398f4012b617484ade1b0c00fe99538d69c42766d2ff0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:34Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Extrapolation with Billing Factor"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_046",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_047",
+   "role": "starts_here"
+  }
+ ]
+}

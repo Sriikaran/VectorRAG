@@ -1,0 +1,646 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 28,
+ "source_page_hash": "8fd2f0b3e0b0273bbc80db5028528b022387a564aa72326ae99883b260386290",
+ "is_cover_page": false,
+ "title": "Example 3: Forecasts from previous periods and changes to period demand in the",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nThe minimum portion of weighting in percent is 30%.\n\nThe sum of the weighting units for one year is 1000.\n\nWith a weighting portion of 20%, period O09 to 08 is not representative. Therefore, extrapolation is based on the period demand\n\nrather than on the meter reading results:\n\nThe expected meter reading result is 200 kW.\n\nExample 3: Forecasts from previous periods and changes to period demand in the\nbase period\n\nMR Result 0                       15        80                      2? kW\n\u00ab_\nMR Reas. |                         C          Y                       Pp\n08                        10         09                      01\n200              220                                 kW/Year\nPerDem. \u00a9 |\u2014_7WANY\u2014_-_--\nWght Unit                      300                       100                       600\n| \u2014\u2014\u2014-------\u2014|-\u2014----- |\nWght Port.                         30%                        10%                        60%\n\nOn installation of the device, a period demand value of 200 kWh/year is entered for the register. This value is changed to 220 kWh\n/ year for the period 08 to 10.\n\nThe minimum portion of weighting in percent is 30%.\n\nThe sum of the weighting units for one year is 1000.\n\nWith a weighting portion of 10%, period O09 to 10 is not representative. The system goes back to the next meter reading result 08.\nWith 40%, the period O09 to 08 is representative, however, the period demand was changed within this period. Therefore,\nextrapolation is based on the period demand rather than on the meter reading results:\n\nThe expected meter reading result is 220 kW .\n\nExample 4: Forecasts from previous periods and changes to period demand not in\nthe base period\n\nAs no changes were made to the period demand within the base period, extrapolation is based on meter reading results rather\nthan on period demand.\n\nExample 5: Forecasts from previous periods and changes to period demand in the\nforecast period\n\nThe period demand can still be changed after the last meter reading result entry during the forecast period. This results in the\n\n\u00a3LAllLAvsinc\n",
+ "cleaned_text": "The minimum portion of weighting in percent is 30%. The sum of the weighting units for one year is 1000. With a weighting portion of 20%, period O09 to 08 is not representative. Therefore, extrapolation is based on the period demand rather than on the meter reading results: The expected meter reading result is 200 kW.\n\nExample 3: Forecasts from previous periods and changes to period demand in the\n\nbase period\n\nMR Result 0 | 15 | 80 | 2? kW\n\n\u00ab_\n\nMR Reas. | | | C | Y | Pp\n\n08 | 10 | 09 | 01\n\n200 | 220 | kW/Year\n\nPerDem. \u00a9 |\u2014_7WANY\u2014_-_--\n\nWght Unit | 300 | 100 | 600\n\n| \u2014\u2014\u2014-------\u2014|-\u2014----- |\n\nWght Port. | 30% | 10% | |\n\nOn installation of the device, a period demand value of 200 kWh/year is entered for the register. This value is changed to 220 kWh\n\n/ year for the period 08 to | kWh\n\nThe minimum portion of weighting 10. | in percent is\n\nThe sum of the weighting units for one year is 1000. With a weighting portion of 10%, period O09 to 10 is not representative. The system goes back to the next meter reading result 08.\n\nWith 40%, the period O09 to 08 is representative, however, the period demand was changed within this period. | 08.\n\nextrapolation is based on the period demand rather than on the meter reading | Therefore,\n\nThe expected meter reading result is 220 kW | results:\n\nExample 4: Forecasts from previous . | periods and changes to period demand not\n\nthe base | in\n\nAs no changes were made to the period demand within the base period, extrapolation is based on meter reading results rather\n\nthan on period | rather\n\nExample 5: Forecasts from previous periods and changes to period demand in the\n\nforecast | the\n\nThe period demand can still be changed after the last meter reading result entry during the forecast period. This results in the \u00a3LAllLAvsinc",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p028_b000",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    122,
+    134,
+    2414,
+    603
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "The minimum portion of weighting in percent is 30%. The sum of the weighting units for one year is 1000. With a weighting portion of 20%, period O09 to 08 is not representative. Therefore, extrapolation is based on the period demand rather than on the meter reading results: The expected meter reading result is 200 kW.",
+   "section_id": "doc_006_sec_036"
+  },
+  {
+   "block_id": "doc_006_p028_b001",
+   "type": "heading",
+   "page_number": 28,
+   "bbox": [
+    126,
+    714,
+    2403,
+    772
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Example 3: Forecasts from previous periods and changes to period demand in the",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b002",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    125,
+    780,
+    447,
+    837
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "base period",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b003",
+   "type": "table",
+   "page_number": 28,
+   "bbox": [
+    126,
+    909,
+    2402,
+    960
+   ],
+   "ocr_confidence": 86.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    126,
+    1194,
+    1509,
+    2236
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR Result 0",
+     "15",
+     "80",
+     "2? kW"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR Result 0",
+     "15",
+     "80",
+     "2? kW"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b004",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    515,
+    965,
+    607,
+    1093
+   ],
+   "ocr_confidence": 36.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "\u00ab_",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b005",
+   "type": "table",
+   "page_number": 28,
+   "bbox": [
+    126,
+    1070,
+    2315,
+    1286
+   ],
+   "ocr_confidence": 91.1,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 8,
+   "column_starts": [
+    126,
+    471,
+    502,
+    981,
+    1217,
+    1537,
+    2047,
+    2241
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR Reas.",
+     "|",
+     "C",
+     "Y",
+     "Pp"
+    ],
+    [
+     "08",
+     "10",
+     "09",
+     "01"
+    ],
+    [
+     "200",
+     "220",
+     "kW/Year"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR Reas.",
+     "|",
+     "C",
+     "Y",
+     "Pp"
+    ],
+    [
+     "08",
+     "10",
+     "09",
+     "01"
+    ],
+    [
+     "200",
+     "220",
+     "kW/Year"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b006",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    126,
+    1311,
+    2275,
+    1387
+   ],
+   "ocr_confidence": 20.0,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "PerDem. \u00a9 |\u2014_7WANY\u2014_-_--",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b007",
+   "type": "table",
+   "page_number": 28,
+   "bbox": [
+    123,
+    1478,
+    2000,
+    1545
+   ],
+   "ocr_confidence": 90.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    123,
+    822,
+    1358,
+    1883
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Wght Unit",
+     "300",
+     "100",
+     "600"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Wght Unit",
+     "300",
+     "100",
+     "600"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b008",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    515,
+    1558,
+    1555,
+    1625
+   ],
+   "ocr_confidence": 14.5,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "| \u2014\u2014\u2014-------\u2014|-\u2014----- |",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b009",
+   "type": "table",
+   "page_number": 28,
+   "bbox": [
+    123,
+    1558,
+    2277,
+    1710
+   ],
+   "ocr_confidence": 84.0,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    123,
+    845,
+    1365,
+    1563
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Wght Port.",
+     "30%",
+     "10%",
+     "|"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Wght Port.",
+     "30%",
+     "10%",
+     "|"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b010",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    123,
+    1643,
+    2375,
+    1821
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "On installation of the device, a period demand value of 200 kWh/year is entered for the register. This value is changed to 220 kWh",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b011",
+   "type": "table",
+   "page_number": 28,
+   "bbox": [
+    122,
+    1784,
+    2465,
+    2005
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    122,
+    761,
+    2389
+   ],
+   "headers": [
+    "/ year for the period 08 to",
+    "kWh"
+   ],
+   "rows": [
+    [
+     "The minimum portion of weighting 10.",
+     "in percent is"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "/ year for the period 08 to",
+     "kWh"
+    ],
+    [
+     "The minimum portion of weighting 10.",
+     "in percent is"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b012",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    122,
+    1968,
+    2382,
+    2252
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "The sum of the weighting units for one year is 1000. With a weighting portion of 10%, period O09 to 10 is not representative. The system goes back to the next meter reading result 08.",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b013",
+   "type": "table",
+   "page_number": 28,
+   "bbox": [
+    122,
+    2214,
+    2450,
+    2721
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    122,
+    1142,
+    1549,
+    2109,
+    2362,
+    2395
+   ],
+   "headers": [
+    "With 40%, the period O09 to 08 is representative, however, the period demand was changed within this period.",
+    "08."
+   ],
+   "rows": [
+    [
+     "extrapolation is based on the period demand rather than on the meter reading",
+     "Therefore,"
+    ],
+    [
+     "The expected meter reading result is 220 kW",
+     "results:"
+    ],
+    [
+     "Example 4: Forecasts from previous .",
+     "periods and changes to period demand not"
+    ],
+    [
+     "the base",
+     "in"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "With 40%, the period O09 to 08 is representative, however, the period demand was changed within this period.",
+     "08."
+    ],
+    [
+     "extrapolation is based on the period demand rather than on the meter reading",
+     "Therefore,"
+    ],
+    [
+     "The expected meter reading result is 220 kW",
+     "results:"
+    ],
+    [
+     "Example 4: Forecasts from previous .",
+     "periods and changes to period demand not"
+    ],
+    [
+     "the base",
+     "in"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b014",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    123,
+    2676,
+    2281,
+    2846
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "As no changes were made to the period demand within the base period, extrapolation is based on meter reading results rather",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b015",
+   "type": "table",
+   "page_number": 28,
+   "bbox": [
+    122,
+    2809,
+    2403,
+    2908
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    122,
+    2294
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "than on period",
+     "rather"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "than on period",
+     "rather"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b016",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    126,
+    2871,
+    2292,
+    3077
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Example 5: Forecasts from previous periods and changes to period demand in the",
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b017",
+   "type": "table",
+   "page_number": 28,
+   "bbox": [
+    122,
+    3021,
+    2402,
+    3132
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    122,
+    2312
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "forecast",
+     "the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "forecast",
+     "the"
+    ]
+   ],
+   "section_id": "doc_006_sec_037"
+  },
+  {
+   "block_id": "doc_006_p028_b018",
+   "type": "paragraph",
+   "page_number": 28,
+   "bbox": [
+    122,
+    3087,
+    2393,
+    3257
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The period demand can still be changed after the last meter reading result entry during the forecast period. This results in the \u00a3LAllLAvsinc",
+   "section_id": "doc_006_sec_037"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 64.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "8fd2f0b3e0b0273bbc80db5028528b022387a564aa72326ae99883b260386290"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:34Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Example 2:Forecasts from previous periods without minimum portions with period"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_036",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_037",
+   "role": "starts_here"
+  }
+ ]
+}

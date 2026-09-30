@@ -1,0 +1,488 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 10,
+ "source_page_hash": "b85ac6651616d41444aab4e3c4453f8b1f99d6ac84a65b01a75bc33e57369564",
+ "is_cover_page": false,
+ "title": "Degree day weighting with consumption to be weighted linearly",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\n{Calculation  of Degree Day Weighted Consumption\n\nDegree Day Annual (Degree Day\nPeriod Cons. |Weighting       Weighting                 eighted\nExtrapolation Date /* 90% [kWh] [Total            asof1.1.09              ns. [kWh]\n1.1.-01.31.2009      4500             620               [4595                         481\n1.1.-06.30.2009      4500             2495               4395                       554.61\n1.1.-12.31.2009      4500             4595               4395                       200\n\nResults of Extrapolation by Using Known Values\n\nNote: The results are rounded to 2 decimal places.\n\nee Example\n\nDegree day weighting with consumption to be weighted linearly\n\nThe following data and general conditions apply:\n\ne Register type: Cumulative consumption register\n\ne Weighting key: Degree day weighting\n\ne Mixed weighting: Consumption to be weighted linearly = 10 kWh with validity period June 1 to August 31.\ne Base period category: Previous period\n\ne Length of base period: 12 months\n\ne Period consumption = 5,000 kWh\n\nThe example contains a move-in on January 1, 2009 with an initial move-in meter reading. Extrapolation is executed three times\nbased on the period consumption with reference to the date of the move-in meter reading.\n\nFrom the consumption to be weighted linearly, you can derive that 920 kWh (92 days in the period June 1 to August 8 at 10\n\nkWh/day) is used during extrapolation for the linear consumption. The remaining 4,080 kWh from the period consumption are\nincorporated into extrapolation by means of degree day weighting and are distributed as shown in the figure Degree Day\nWeighting.\n\nThe following weighting totals are calculated in Customizing for the relevant periods:\n\nPeriod                                      Total for Degree Day Weighting\n\n01.01.2009 31.01.2009                 620\n",
+ "cleaned_text": "{Calculation of Degree Day Weighted Consumption\n\nDegree Day Annual (Degree Day\n\nPeriod Cons. |Weighting | Weighting | eighted\n\nExtrapolation Date /* 90% [kWh] [Total | asof1.1.09 | ns. [kWh]\n\n1.1.-01.31.2009 4500 | 620 | [4595 | 481\n\n1.1.-06.30.2009 4500 | 2495 | 4395 | 554.61\n\n1.1.-12.31.2009 4500 | 4595 | 4395 | 200\n\nResults of Extrapolation by Using Known Values Note: The results are rounded to 2 decimal places.\n\nee Example\n\nDegree day weighting with consumption to be weighted linearly\n\nThe following data and general conditions apply:\n\n- Register type: Cumulative consumption register\n\n- Weighting key: Degree day weighting\n\n- Mixed weighting: Consumption to be weighted linearly = 10 kWh with validity period June 1 to August 31.\n\n- Base period category: Previous period\n\n- Length of base period: 12 months\n\n- Period consumption = 5,000 kWh\n\nThe example contains a move-in on January 1, 2009 with an initial move-in meter reading. Extrapolation is executed three times based on the period consumption with reference to the date of the move-in meter reading. From the consumption to be weighted linearly, you can derive that 920 kWh (92 days in the period June 1 to August 8 at 10 kWh/day) is used during extrapolation for the linear consumption. The remaining 4,080 kWh from the period consumption are incorporated into extrapolation by means of degree day weighting and are distributed as shown in the figure Degree Day Weighting. The following weighting totals are calculated in Customizing for the relevant periods:\n\nPeriod | Total for Degree Day Weighting\n\n01.01.2009 31.01.2009 | 620",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p010_b000",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    452,
+    327,
+    1123,
+    371
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "{Calculation of Degree Day Weighted Consumption",
+   "section_id": "doc_006_sec_012"
+  },
+  {
+   "block_id": "doc_006_p010_b001",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    870,
+    548,
+    1294,
+    574
+   ],
+   "ocr_confidence": 84.6,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "Degree Day Annual (Degree Day",
+   "section_id": "doc_006_sec_012"
+  },
+  {
+   "block_id": "doc_006_p010_b002",
+   "type": "table",
+   "page_number": 10,
+   "bbox": [
+    201,
+    591,
+    1301,
+    663
+   ],
+   "ocr_confidence": 68.2,
+   "flags": [
+    "low_confidence_words:5",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    201,
+    463,
+    865,
+    1174
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Period Cons. |Weighting",
+     "Weighting",
+     "eighted"
+    ],
+    [
+     "Extrapolation Date /* 90% [kWh] [Total",
+     "asof1.1.09",
+     "ns. [kWh]"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Period Cons. |Weighting",
+     "Weighting",
+     "eighted"
+    ],
+    [
+     "Extrapolation Date /* 90% [kWh] [Total",
+     "asof1.1.09",
+     "ns. [kWh]"
+    ]
+   ],
+   "section_id": "doc_006_sec_012"
+  },
+  {
+   "block_id": "doc_006_p010_b003",
+   "type": "table",
+   "page_number": 10,
+   "bbox": [
+    201,
+    785,
+    1234,
+    829
+   ],
+   "ocr_confidence": 76.7,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    201,
+    661,
+    859,
+    1178
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "1.1.-01.31.2009 4500",
+     "620",
+     "[4595",
+     "481"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "1.1.-01.31.2009 4500",
+     "620",
+     "[4595",
+     "481"
+    ]
+   ],
+   "section_id": "doc_006_sec_012"
+  },
+  {
+   "block_id": "doc_006_p010_b004",
+   "type": "table",
+   "page_number": 10,
+   "bbox": [
+    201,
+    937,
+    1253,
+    969
+   ],
+   "ocr_confidence": 84.9,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    201,
+    661,
+    868,
+    1162
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "1.1.-06.30.2009 4500",
+     "2495",
+     "4395",
+     "554.61"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "1.1.-06.30.2009 4500",
+     "2495",
+     "4395",
+     "554.61"
+    ]
+   ],
+   "section_id": "doc_006_sec_012"
+  },
+  {
+   "block_id": "doc_006_p010_b005",
+   "type": "table",
+   "page_number": 10,
+   "bbox": [
+    201,
+    1089,
+    1212,
+    1121
+   ],
+   "ocr_confidence": 75.0,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    201,
+    658,
+    870,
+    1162
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "1.1.-12.31.2009 4500",
+     "4595",
+     "4395",
+     "200"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "1.1.-12.31.2009 4500",
+     "4595",
+     "4395",
+     "200"
+    ]
+   ],
+   "section_id": "doc_006_sec_012"
+  },
+  {
+   "block_id": "doc_006_p010_b006",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    153,
+    1221,
+    1061,
+    1371
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Results of Extrapolation by Using Known Values Note: The results are rounded to 2 decimal places.",
+   "section_id": "doc_006_sec_012"
+  },
+  {
+   "block_id": "doc_006_p010_b007",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    151,
+    1506,
+    433,
+    1560
+   ],
+   "ocr_confidence": 86.7,
+   "flags": [],
+   "text": "ee Example",
+   "section_id": "doc_006_sec_012"
+  },
+  {
+   "block_id": "doc_006_p010_b008",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    154,
+    1590,
+    1336,
+    1628
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Degree day weighting with consumption to be weighted linearly",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p010_b009",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    152,
+    1715,
+    1024,
+    1753
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The following data and general conditions apply:",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p010_b010",
+   "type": "list",
+   "page_number": 10,
+   "bbox": [
+    236,
+    1836,
+    2160,
+    2386
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Register type: Cumulative consumption register"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Weighting key: Degree day weighting"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Mixed weighting: Consumption to be weighted linearly = 10 kWh with validity period June 1 to August 31."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Base period category: Previous period"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Length of base period: 12 months"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Period consumption = 5,000 kWh"
+    }
+   ],
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p010_b011",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    152,
+    2470,
+    2456,
+    3004
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The example contains a move-in on January 1, 2009 with an initial move-in meter reading. Extrapolation is executed three times based on the period consumption with reference to the date of the move-in meter reading. From the consumption to be weighted linearly, you can derive that 920 kWh (92 days in the period June 1 to August 8 at 10 kWh/day) is used during extrapolation for the linear consumption. The remaining 4,080 kWh from the period consumption are incorporated into extrapolation by means of degree day weighting and are distributed as shown in the figure Degree Day Weighting. The following weighting totals are calculated in Customizing for the relevant periods:",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p010_b012",
+   "type": "table",
+   "page_number": 10,
+   "bbox": [
+    178,
+    3112,
+    1294,
+    3246
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    759
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Period",
+     "Total for Degree Day Weighting"
+    ],
+    [
+     "01.01.2009 31.01.2009",
+     "620"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Period",
+     "Total for Degree Day Weighting"
+    ],
+    [
+     "01.01.2009 31.01.2009",
+     "620"
+    ]
+   ],
+   "section_id": "doc_006_sec_013"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "b85ac6651616d41444aab4e3c4453f8b1f99d6ac84a65b01a75bc33e57369564"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Examples for Mixed Weighting",
+  "Procedures }",
+  "Formula for extrapolation:"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_012",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_013",
+   "role": "starts_here"
+  }
+ ]
+}

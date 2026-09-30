@@ -1,0 +1,133 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 10,
+ "source_page_hash": "b1d4ca65d1c35310170883432e35e73f3f0bf818b215736f70eeb90197a8f6f6",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nExample for Time-of-Use Pricing\n\n\u00ae Different prices depending on time blocks such as time of day, day type\n(week day, weekend day) or season type (summer, winter)\n\nRTP models are quantity-based. This means that prices are determined based on agreed reference quantities.\n",
+ "cleaned_text": "Example for Time-of-Use Pricing \u00ae Different prices depending on time blocks such as time of day, day type (week day, weekend day) or season type (summer, winter)\n\nRTP models are quantity-based. This means that prices are determined based on agreed reference quantities.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p010_b000",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    299,
+    1466,
+    2275,
+    1679
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Example for Time-of-Use Pricing \u00ae Different prices depending on time blocks such as time of day, day type (week day, weekend day) or season type (summer, winter)",
+   "section_id": "doc_011_sec_033"
+  },
+  {
+   "block_id": "doc_011_p010_b001",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    125,
+    1972,
+    2106,
+    2010
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "RTP models are quantity-based. This means that prices are determined based on agreed reference quantities.",
+   "section_id": "doc_011_sec_033"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 65,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "b1d4ca65d1c35310170883432e35e73f3f0bf818b215736f70eeb90197a8f6f6"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "RTP Billing",
+  "Purpose"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_033",
+   "role": "continues"
+  }
+ ]
+}

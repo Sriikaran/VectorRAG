@@ -1,0 +1,466 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 7,
+ "source_page_hash": "b0d1a3a000b901d22355a6c9463754607aeca9f94abb0e8b1e03acdeaeecd65a",
+ "is_cover_page": false,
+ "title": "Credit Rating Out",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nCredit Rating Out\n\nDefinition\n\nThe Credit Rating Out outbound service interface contains an operation that sends and queries credit ratings.\n\nTechnical Data\n\nEntity Type               Service Interface\nCategory                  SAP A2A\nDirection                  outbound\n\nQuery Credit Rating\n\nDefinition\n\nTo send debtors\u2019 credit ratings that are calculated in contract accounting.\n\nTechnical Data\n\nEntity Type                              Service Operation\n\nRelease State                           released\n\nTechnical Name                       FICARatingReplicateQuery_Out\nNamespace                             http://sap.com/xi/FICA Pie\nApplication Component              FI-CA\n\nCategory                                 SAP A2A\n\nDirection                                    outbound\n\nMode                                         asynchronous\n\nIdempotency                            not applicable\n\nP2P Communication Enabled       yes\n\nBusiness Context and Use\n\nThis outbound service operation sends debitor\u2019s credit rating information from your contract accounting system to the requesting\ncomponent.\n\nRelated Operations\n",
+ "cleaned_text": "Credit Rating Out\n\nDefinition\n\nThe Credit Rating Out outbound service interface contains an operation that sends and queries credit ratings.\n\nTechnical Data\n\nEntity Type | Service Interface\n\nCategory | SAP A2A\n\nDirection | outbound\n\nQuery Credit Rating\n\nDefinition\n\nTo send debtors\u2019 credit ratings that are calculated in contract accounting.\n\nTechnical Data\n\nEntity Type | Service Operation\n\nRelease State | released\n\nTechnical Name | FICARatingReplicateQuery_Out\n\nNamespace | http://sap.com/xi/FICA Pie\n\nApplication Component | FI-CA\n\nCategory | SAP A2A\n\nDirection | outbound\n\nMode | asynchronous\n\nIdempotency | not applicable\n\nP2P Communication Enabled | yes\n\nBusiness Context and Use\n\nThis outbound service operation sends debitor\u2019s credit rating information from your contract accounting system to the requesting component.\n\nRelated Operations",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p007_b000",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    125,
+    130,
+    753,
+    207
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Credit Rating Out",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_032"
+  },
+  {
+   "block_id": "doc_018_p007_b001",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    126,
+    307,
+    393,
+    353
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_033"
+  },
+  {
+   "block_id": "doc_018_p007_b002",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    440,
+    2104,
+    477
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The Credit Rating Out outbound service interface contains an operation that sends and queries credit ratings.",
+   "section_id": "doc_018_sec_033"
+  },
+  {
+   "block_id": "doc_018_p007_b003",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    123,
+    589,
+    530,
+    635
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_034"
+  },
+  {
+   "block_id": "doc_018_p007_b004",
+   "type": "table",
+   "page_number": 7,
+   "bbox": [
+    148,
+    744,
+    766,
+    986
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    482
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Interface"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "outbound"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Interface"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "outbound"
+    ]
+   ],
+   "section_id": "doc_018_sec_034"
+  },
+  {
+   "block_id": "doc_018_p007_b005",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    125,
+    1165,
+    841,
+    1242
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Query Credit Rating",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_035"
+  },
+  {
+   "block_id": "doc_018_p007_b006",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    126,
+    1342,
+    393,
+    1387
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_036"
+  },
+  {
+   "block_id": "doc_018_p007_b007",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    1475,
+    1448,
+    1513
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "To send debtors\u2019 credit ratings that are calculated in contract accounting.",
+   "section_id": "doc_018_sec_036"
+  },
+  {
+   "block_id": "doc_018_p007_b008",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    123,
+    1625,
+    530,
+    1670
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_037"
+  },
+  {
+   "block_id": "doc_018_p007_b009",
+   "type": "table",
+   "page_number": 7,
+   "bbox": [
+    148,
+    1779,
+    1256,
+    2767
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    725
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ],
+    [
+     "Technical Name",
+     "FICARatingReplicateQuery_Out"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA Pie"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "outbound"
+    ],
+    [
+     "Mode",
+     "asynchronous"
+    ],
+    [
+     "Idempotency",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "yes"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ],
+    [
+     "Technical Name",
+     "FICARatingReplicateQuery_Out"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA Pie"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "outbound"
+    ],
+    [
+     "Mode",
+     "asynchronous"
+    ],
+    [
+     "Idempotency",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "yes"
+    ]
+   ],
+   "section_id": "doc_018_sec_037"
+  },
+  {
+   "block_id": "doc_018_p007_b010",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    126,
+    2905,
+    853,
+    2951
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Business Context and Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_038"
+  },
+  {
+   "block_id": "doc_018_p007_b011",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    3036,
+    2479,
+    3139
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "This outbound service operation sends debitor\u2019s credit rating information from your contract accounting system to the requesting component.",
+   "section_id": "doc_018_sec_038"
+  },
+  {
+   "block_id": "doc_018_p007_b012",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    124,
+    3223,
+    482,
+    3260
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Related Operations",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_039"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "b0d1a3a000b901d22355a6c9463754607aeca9f94abb0e8b1e03acdeaeecd65a"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Credit Rating Out"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_032",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_033",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_034",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_035",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_036",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_037",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_038",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_039",
+   "role": "starts_here"
+  }
+ ]
+}

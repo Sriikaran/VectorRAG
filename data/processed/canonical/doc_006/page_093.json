@@ -1,0 +1,383 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 93,
+ "source_page_hash": "f8d11b5461b71dc909653a03d6e0ee705ef93dfb9d1c7981f3a05f350344ac3a",
+ "is_cover_page": false,
+ "title": "Defining the Quantity Determination Procedure",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nIf you have implemented one of the following business add-ins (BAdIs), check for your implementation project whether the\nimplementation is compatible with the quantity determination procedure Quantity Determination During Meter Reading:\n\nBusiness Add-In                                                                Description\n\nISU_USE_EASTE                                                                    Use of EASTE entries\n\nISU_BENDEF_EPVG                                                            ISU: User-defined consumption per weighting unit\nISU_GEWSCHL_EXTRAPOL                                                 ISU: Determination of weighting key in extrapolation/assessing\n\nDefining the Quantity Determination Procedure\n\nThe Quantity Determination Procedure determines how the energy quantity from meter reading results is determined or\ncalculated at register level.\n\n1 Note\n\nThe quantity determination procedure applies for all installations in which a device is installed.\n\nYou can use a quantity determination procedure to define the following for a register from a specified time:\n\n1. Quantity determination is to be performed during billing.\n\no This is the standard procedure that does not determine final quantities or consumption values until billing is\nperformed. This procedure is possible for cumulative and balancing consumption registers and demand registers.\n\n2. Quantity determination is to be performed during meter reading.\n\no This procedure determines the final quantities or consumption values during the meter reading. This procedure is\npossible for cumulative and balancing consumption registers. This is required during deregulation so that the\nconsumption values recorded can be sent to all authorized market participants in a timely manner.\n\nThe quantity determination procedures determined here are used exclusively for discretely read registers and not for interval\nregisters.\n\nUse\n\nImplementation phase (as part of an implementation project):\n\nYou can define the quantity determination procedure at register level for installations that already exist in the system: This can\ntake place for an entire division, for a division with a selection of installations, or for a division with a selection of meter reading\n\nunits. Use the conversion report REQD_SET_QDPROC_TO_REGISTER (see Defining the Quantity Determination Procedure for\nExisting Installations).\n\n4s Caution\n\nout the conversion.\n",
+ "cleaned_text": "If you have implemented one of the following business add-ins (BAdIs), check for your implementation project whether the implementation is compatible with the quantity determination procedure Quantity Determination During Meter Reading:\n\nBusiness Add-In | Description\n\nISU_USE_EASTE | Use of EASTE entries\n\nISU_BENDEF_EPVG | ISU: User-defined consumption per weighting unit\n\nISU_GEWSCHL_EXTRAPOL | ISU: Determination of weighting key in extrapolation/assessing\n\nDefining the Quantity Determination Procedure\n\nThe Quantity Determination Procedure determines how the energy quantity from meter reading results is determined or calculated at register level.\n\nNote The quantity determination procedure applies for all installations in which a device is installed.\n\nYou can use a quantity determination procedure to define the following for a register from a specified time:\n\n1 Quantity determination is to be performed during billing.\n\n- This is the standard procedure that does not determine final quantities or consumption values until billing is performed. This procedure is possible for cumulative and balancing consumption registers and demand registers.\n\n2 Quantity determination is to be performed during meter reading.\n\n- This procedure determines the final quantities or consumption values during the meter reading. This procedure is possible for cumulative and balancing consumption registers. This is required during deregulation so that the\n\nconsumption values recorded can be sent to all authorized market participants in a timely manner. The quantity determination procedures determined here are used exclusively for discretely read registers and not for interval registers.\n\nUse\n\nImplementation phase (as part of an implementation project):\n\nYou can define the quantity determination procedure at register level for installations that already exist in the system: This can take place for an entire division, for a division with a selection of installations, or for a division with a selection of meter reading units. Use the conversion report REQD_SET_QDPROC_TO_REGISTER (see Defining the Quantity Determination Procedure for Existing Installations). 4s Caution\n\nout the conversion.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1225,
+    310,
+    1262
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p093_b000",
+   "type": "paragraph",
+   "page_number": 93,
+   "bbox": [
+    124,
+    134,
+    2339,
+    235
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "If you have implemented one of the following business add-ins (BAdIs), check for your implementation project whether the implementation is compatible with the quantity determination procedure Quantity Determination During Meter Reading:",
+   "section_id": "doc_006_sec_252"
+  },
+  {
+   "block_id": "doc_006_p093_b001",
+   "type": "table",
+   "page_number": 93,
+   "bbox": [
+    149,
+    343,
+    2312,
+    701
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1256
+   ],
+   "headers": [
+    "Business Add-In",
+    "Description"
+   ],
+   "rows": [
+    [
+     "ISU_USE_EASTE",
+     "Use of EASTE entries"
+    ],
+    [
+     "ISU_BENDEF_EPVG",
+     "ISU: User-defined consumption per weighting unit"
+    ],
+    [
+     "ISU_GEWSCHL_EXTRAPOL",
+     "ISU: Determination of weighting key in extrapolation/assessing"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Business Add-In",
+     "Description"
+    ],
+    [
+     "ISU_USE_EASTE",
+     "Use of EASTE entries"
+    ],
+    [
+     "ISU_BENDEF_EPVG",
+     "ISU: User-defined consumption per weighting unit"
+    ],
+    [
+     "ISU_GEWSCHL_EXTRAPOL",
+     "ISU: Determination of weighting key in extrapolation/assessing"
+    ]
+   ],
+   "section_id": "doc_006_sec_252"
+  },
+  {
+   "block_id": "doc_006_p093_b002",
+   "type": "heading",
+   "page_number": 93,
+   "bbox": [
+    128,
+    869,
+    1834,
+    946
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Defining the Quantity Determination Procedure",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_253"
+  },
+  {
+   "block_id": "doc_006_p093_b003",
+   "type": "paragraph",
+   "page_number": 93,
+   "bbox": [
+    122,
+    1018,
+    2319,
+    1118
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The Quantity Determination Procedure determines how the energy quantity from meter reading results is determined or calculated at register level.",
+   "section_id": "doc_006_sec_253"
+  },
+  {
+   "block_id": "doc_006_p093_b004",
+   "type": "note",
+   "page_number": 93,
+   "bbox": [
+    151,
+    1225,
+    1856,
+    1338
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "label": "Note",
+   "text": "Note The quantity determination procedure applies for all installations in which a device is installed.",
+   "section_id": "doc_006_sec_253"
+  },
+  {
+   "block_id": "doc_006_p093_b005",
+   "type": "paragraph",
+   "page_number": 93,
+   "bbox": [
+    123,
+    1458,
+    2048,
+    1496
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You can use a quantity determination procedure to define the following for a register from a specified time:",
+   "section_id": "doc_006_sec_253"
+  },
+  {
+   "block_id": "doc_006_p093_b006",
+   "type": "list",
+   "page_number": 93,
+   "bbox": [
+    212,
+    1583,
+    2440,
+    2054
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Quantity determination is to be performed during billing."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "This is the standard procedure that does not determine final quantities or consumption values until billing is performed. This procedure is possible for cumulative and balancing consumption registers and demand registers."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Quantity determination is to be performed during meter reading."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "This procedure determines the final quantities or consumption values during the meter reading. This procedure is possible for cumulative and balancing consumption registers. This is required during deregulation so that the"
+    }
+   ],
+   "section_id": "doc_006_sec_253"
+  },
+  {
+   "block_id": "doc_006_p093_b007",
+   "type": "paragraph",
+   "page_number": 93,
+   "bbox": [
+    122,
+    2079,
+    2380,
+    2301
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "consumption values recorded can be sent to all authorized market participants in a timely manner. The quantity determination procedures determined here are used exclusively for discretely read registers and not for interval registers.",
+   "section_id": "doc_006_sec_253"
+  },
+  {
+   "block_id": "doc_006_p093_b008",
+   "type": "heading",
+   "page_number": 93,
+   "bbox": [
+    125,
+    2414,
+    225,
+    2458
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_254"
+  },
+  {
+   "block_id": "doc_006_p093_b009",
+   "type": "heading",
+   "page_number": 93,
+   "bbox": [
+    125,
+    2546,
+    1280,
+    2584
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Implementation phase (as part of an implementation project):",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_255"
+  },
+  {
+   "block_id": "doc_006_p093_b010",
+   "type": "paragraph",
+   "page_number": 93,
+   "bbox": [
+    122,
+    2667,
+    2407,
+    3036
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You can define the quantity determination procedure at register level for installations that already exist in the system: This can take place for an entire division, for a division with a selection of installations, or for a division with a selection of meter reading units. Use the conversion report REQD_SET_QDPROC_TO_REGISTER (see Defining the Quantity Determination Procedure for Existing Installations). 4s Caution",
+   "section_id": "doc_006_sec_255"
+  },
+  {
+   "block_id": "doc_006_p093_b011",
+   "type": "paragraph",
+   "page_number": 93,
+   "bbox": [
+    152,
+    3141,
+    497,
+    3171
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "out the conversion.",
+   "section_id": "doc_006_sec_255"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.093,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "f8d11b5461b71dc909653a03d6e0ee705ef93dfb9d1c7981f3a05f350344ac3a"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Check Company-Specific Starting Point",
+  "Enhancements and Business Add-Ins"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_252",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_253",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_254",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_255",
+   "role": "starts_here"
+  }
+ ]
+}

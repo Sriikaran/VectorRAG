@@ -1,0 +1,353 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 76,
+ "source_page_hash": "122c0c0555f18a0de1050e2e22ee89d69eb68fa333101dd604297efa407a56c0",
+ "is_cover_page": false,
+ "title": "Result",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n2. Choose the required address, for example, that you want to send a dunning notice to, by double-clicking it.\n\nResult\n\nThe selected address is transferred. In the contract account master record, the Fixed indicator next to the address field is now\nselected. It indicates that a specific address was selected and not the standard address of the business partner.\n\ni Note\n\nYou can use this function to select the address for each business partner in the contract account, regardless of whether this is\nthe owner of the contract account to be created or changed, or an alternative business partner (Such as the dunning recipient).\n\nIf you do not select an address, the default address of the contract account holder is used automatically for all business\ntransactions.\n\nCreating, Changing and Displaying Locks\n\nIn the contract account master record, there is one process lock field for dunning, posting, invoicing, correspondence dunning,\ninterest calculation, incoming payments, and outgoing payments respectively. You enter a lock reason in this field if you want to\nlock an account. You can set the lock for a limited period or set multiple locks for each business transaction.\n\nPrerequisites\n\nYou have maintained the lock reasons for dunning and payment in Customizing for Contract Accounts Receivable and Payable.\n\nProcedure\n\n1. Call up the contract account you want to change or display.\n\n2. Enter a lock reason in the Lock On field on the Change Contract Account: Dunning/Correspondence Data screen for\ndunning control, incoming or outgoing payments.\n\n3. If you want to set a lock for a limited period or if you want to set or display multiple locks, press the arrow key next to the\nLock field.\n\nA dialog box appears where you can display or enter the lock interval or the lock itself. You can also display the lock history from\nthis dialog box. Changes related to the locks are written in the lock history and are not logged with change documents.\n\nYou can change and delete locks in this dialog box.\nNote the following:\n\ne If you only specify one lock reason, the lock will be for an unlimited period of time.\n\ne If you only enter one lock reason, you can change or delete this. If multiple or limited-time locks have been set, press the\narrow key to make changes. You can then make changes in the dialog box that appears.\n\ne If you have set multiple or limited-time locks, the Lock field contains a ~ . In this case, choose the arrow key to display the\nlocks.\n",
+ "cleaned_text": "2 Choose the required address, for example, that you want to send a dunning notice to, by double-clicking it.\n\nResult\n\nThe selected address is transferred. In the contract account master record, the Fixed indicator next to the address field is now selected. It indicates that a specific address was selected and not the standard address of the business partner.\n\ni Note You can use this function to select the address for each business partner in the contract account, regardless of whether this is the owner of the contract account to be created or changed, or an alternative business partner (Such as the dunning recipient). If you do not select an address, the default address of the contract account holder is used automatically for all business transactions.\n\nCreating, Changing and Displaying Locks\n\nIn the contract account master record, there is one process lock field for dunning, posting, invoicing, correspondence dunning, interest calculation, incoming payments, and outgoing payments respectively. You enter a lock reason in this field if you want to lock an account. You can set the lock for a limited period or set multiple locks for each business transaction.\n\nPrerequisites\n\nYou have maintained the lock reasons for dunning and payment in Customizing for Contract Accounts Receivable and Payable.\n\nProcedure\n\n1 Call up the contract account you want to change or display.\n\n2 Enter a lock reason in the Lock On field on the Change Contract Account: Dunning/Correspondence Data screen for dunning control, incoming or outgoing payments.\n\n3 If you want to set a lock for a limited period or if you want to set or display multiple locks, press the arrow key next to the Lock field.\n\nA dialog box appears where you can display or enter the lock interval or the lock itself. You can also display the lock history from this dialog box. Changes related to the locks are written in the lock history and are not logged with change documents. You can change and delete locks in this dialog box. Note the following:\n\n- If you only specify one lock reason, the lock will be for an unlimited period of time.\n\n- If you only enter one lock reason, you can change or delete this. If multiple or limited-time locks have been set, press the arrow key to make changes. You can then make changes in the dialog box that appears.\n\n- If you have set multiple or limited-time locks, the Lock field contains a ~ . In this case, choose the arrow key to display the locks.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p076_b000",
+   "type": "list",
+   "page_number": 76,
+   "bbox": [
+    212,
+    134,
+    2170,
+    172
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Choose the required address, for example, that you want to send a dunning notice to, by double-clicking it."
+    }
+   ],
+   "section_id": "doc_001_sec_292"
+  },
+  {
+   "block_id": "doc_001_p076_b001",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    126,
+    284,
+    298,
+    329
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Result",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_293"
+  },
+  {
+   "block_id": "doc_001_p076_b002",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    122,
+    417,
+    2401,
+    517
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The selected address is transferred. In the contract account master record, the Fixed indicator next to the address field is now selected. It indicates that a specific address was selected and not the standard address of the business partner.",
+   "section_id": "doc_001_sec_293"
+  },
+  {
+   "block_id": "doc_001_p076_b003",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    151,
+    617,
+    2447,
+    980
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "i Note You can use this function to select the address for each business partner in the contract account, regardless of whether this is the owner of the contract account to be created or changed, or an alternative business partner (Such as the dunning recipient). If you do not select an address, the default address of the contract account holder is used automatically for all business transactions.",
+   "section_id": "doc_001_sec_293"
+  },
+  {
+   "block_id": "doc_001_p076_b004",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    125,
+    1169,
+    1602,
+    1245
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Creating, Changing and Displaying Locks",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_294"
+  },
+  {
+   "block_id": "doc_001_p076_b005",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    124,
+    1321,
+    2420,
+    1483
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "In the contract account master record, there is one process lock field for dunning, posting, invoicing, correspondence dunning, interest calculation, incoming payments, and outgoing payments respectively. You enter a lock reason in this field if you want to lock an account. You can set the lock for a limited period or set multiple locks for each business transaction.",
+   "section_id": "doc_001_sec_294"
+  },
+  {
+   "block_id": "doc_001_p076_b006",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    126,
+    1595,
+    492,
+    1652
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_295"
+  },
+  {
+   "block_id": "doc_001_p076_b007",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    123,
+    1728,
+    2407,
+    1766
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You have maintained the lock reasons for dunning and payment in Customizing for Contract Accounts Receivable and Payable.",
+   "section_id": "doc_001_sec_295"
+  },
+  {
+   "block_id": "doc_001_p076_b008",
+   "type": "heading",
+   "page_number": 76,
+   "bbox": [
+    126,
+    1878,
+    409,
+    1923
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_296"
+  },
+  {
+   "block_id": "doc_001_p076_b009",
+   "type": "list",
+   "page_number": 76,
+   "bbox": [
+    211,
+    2010,
+    2424,
+    2370
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Call up the contract account you want to change or display."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter a lock reason in the Lock On field on the Change Contract Account: Dunning/Correspondence Data screen for dunning control, incoming or outgoing payments."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "If you want to set a lock for a limited period or if you want to set or display multiple locks, press the arrow key next to the Lock field."
+    }
+   ],
+   "section_id": "doc_001_sec_296"
+  },
+  {
+   "block_id": "doc_001_p076_b010",
+   "type": "paragraph",
+   "page_number": 76,
+   "bbox": [
+    122,
+    2464,
+    2425,
+    2807
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "A dialog box appears where you can display or enter the lock interval or the lock itself. You can also display the lock history from this dialog box. Changes related to the locks are written in the lock history and are not logged with change documents. You can change and delete locks in this dialog box. Note the following:",
+   "section_id": "doc_001_sec_296"
+  },
+  {
+   "block_id": "doc_001_p076_b011",
+   "type": "list",
+   "page_number": 76,
+   "bbox": [
+    207,
+    2891,
+    2442,
+    3292
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you only specify one lock reason, the lock will be for an unlimited period of time."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you only enter one lock reason, you can change or delete this. If multiple or limited-time locks have been set, press the arrow key to make changes. You can then make changes in the dialog box that appears."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you have set multiple or limited-time locks, the Lock field contains a ~ . In this case, choose the arrow key to display the locks."
+    }
+   ],
+   "section_id": "doc_001_sec_296"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "122c0c0555f18a0de1050e2e22ee89d69eb68fa333101dd604297efa407a56c0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Selecting Addresses for Business Partners",
+  "Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_292",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_293",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_294",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_295",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_296",
+   "role": "starts_here"
+  }
+ ]
+}

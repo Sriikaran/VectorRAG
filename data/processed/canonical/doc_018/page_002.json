@@ -1,0 +1,413 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 2,
+ "source_page_hash": "0d92ad1cf5af6add9585dae236944053aa556dbf6f1529093186df6680866cbb",
+ "is_cover_page": false,
+ "title": "Contract Account",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nContract Account\n\nDefinition\n\nStructure element of ContractAccountsReceivableandPayableProcessing for entering and reporting all receivables and payables\nof one or more companies to one or more business partners. Contains guidelines and agreements with one or more business\npartners with regard to payments, dunning, interest calculation, and tax calculation for receivables and payables.\n\nTechnical Data\n\nEntity Type               Business Object\nTechnical Name        ContractAccount\n\nObject Category        Master Data Object\n\nBusiness Context and Use\n\nThis business object enables you to create and manage contract account master data. In Contract Accounts Receivable and\nPayable (FI-CA), each business partner-relevant posting is assigned to one business partner and to one contract account.\n\nThe contract account master record stores business partner-specific procedures that are used for posting and processing the line\nitems of a given contract account. This includes specifications for payments and dunning, for example.\n\nThis business object enables you to query the items of a contract account. Used in the Utilities Industry it contains the following\nservice operations:\n\ne Service interfaces:\n\no Query Contract Account In\n\ne Operations:\n\ne Find Contract Account by Business Partner\n\nCredit Commitment In\n\nDefinition\n\nThe Credit Commitment In inbound service interface contains an operation that queries credit commitments.\n\nTechnical Data\n\nEntity Type               Service Interface\n",
+ "cleaned_text": "Contract Account\n\nDefinition\n\nStructure element of ContractAccountsReceivableandPayableProcessing for entering and reporting all receivables and payables of one or more companies to one or more business partners. Contains guidelines and agreements with one or more business partners with regard to payments, dunning, interest calculation, and tax calculation for receivables and payables.\n\nTechnical Data\n\nEntity Type | Business Object\n\nTechnical Name | ContractAccount\n\nObject Category | Master Data Object\n\nBusiness Context and Use\n\nThis business object enables you to create and manage contract account master data. In Contract Accounts Receivable and Payable (FI-CA), each business partner-relevant posting is assigned to one business partner and to one contract account. The contract account master record stores business partner-specific procedures that are used for posting and processing the line items of a given contract account. This includes specifications for payments and dunning, for example. This business object enables you to query the items of a contract account. Used in the Utilities Industry it contains the following service operations:\n\n- Service interfaces:\n\n- Query Contract Account In\n\n- Operations:\n\n- Find Contract Account by Business Partner\n\nCredit Commitment In\n\nDefinition\n\nThe Credit Commitment In inbound service interface contains an operation that queries credit commitments.\n\nTechnical Data\n\nEntity Type | Service Interface",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    255,
+    761,
+    317
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Contract Account",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_001"
+  },
+  {
+   "block_id": "doc_018_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    435,
+    393,
+    481
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_002"
+  },
+  {
+   "block_id": "doc_018_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    564,
+    2469,
+    731
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Structure element of ContractAccountsReceivableandPayableProcessing for entering and reporting all receivables and payables of one or more companies to one or more business partners. Contains guidelines and agreements with one or more business partners with regard to payments, dunning, interest calculation, and tax calculation for receivables and payables.",
+   "section_id": "doc_018_sec_002"
+  },
+  {
+   "block_id": "doc_018_p002_b003",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    123,
+    843,
+    530,
+    888
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_003"
+  },
+  {
+   "block_id": "doc_018_p002_b004",
+   "type": "table",
+   "page_number": 2,
+   "bbox": [
+    148,
+    997,
+    848,
+    1246
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    524
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Business Object"
+    ],
+    [
+     "Technical Name",
+     "ContractAccount"
+    ],
+    [
+     "Object Category",
+     "Master Data Object"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Business Object"
+    ],
+    [
+     "Technical Name",
+     "ContractAccount"
+    ],
+    [
+     "Object Category",
+     "Master Data Object"
+    ]
+   ],
+   "section_id": "doc_018_sec_003"
+  },
+  {
+   "block_id": "doc_018_p002_b005",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    1381,
+    853,
+    1427
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Business Context and Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_004"
+  },
+  {
+   "block_id": "doc_018_p002_b006",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    1514,
+    2471,
+    1985
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "This business object enables you to create and manage contract account master data. In Contract Accounts Receivable and Payable (FI-CA), each business partner-relevant posting is assigned to one business partner and to one contract account. The contract account master record stores business partner-specific procedures that are used for posting and processing the line items of a given contract account. This includes specifications for payments and dunning, for example. This business object enables you to query the items of a contract account. Used in the Utilities Industry it contains the following service operations:",
+   "section_id": "doc_018_sec_004"
+  },
+  {
+   "block_id": "doc_018_p002_b007",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    2069,
+    1035,
+    2436
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Service interfaces:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Query Contract Account In"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Operations:"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Find Contract Account by Business Partner"
+    }
+   ],
+   "section_id": "doc_018_sec_004"
+  },
+  {
+   "block_id": "doc_018_p002_b008",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    2581,
+    934,
+    2643
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [],
+   "text": "Credit Commitment In",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_005"
+  },
+  {
+   "block_id": "doc_018_p002_b009",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    2757,
+    393,
+    2803
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_006"
+  },
+  {
+   "block_id": "doc_018_p002_b010",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    2891,
+    2103,
+    2928
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The Credit Commitment In inbound service interface contains an operation that queries credit commitments.",
+   "section_id": "doc_018_sec_006"
+  },
+  {
+   "block_id": "doc_018_p002_b011",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    123,
+    3041,
+    530,
+    3086
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_007"
+  },
+  {
+   "block_id": "doc_018_p002_b012",
+   "type": "table",
+   "page_number": 2,
+   "bbox": [
+    150,
+    3198,
+    766,
+    3233
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    483
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Interface"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Interface"
+    ]
+   ],
+   "section_id": "doc_018_sec_007"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "0d92ad1cf5af6add9585dae236944053aa556dbf6f1529093186df6680866cbb"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Contract Account"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_003",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_004",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_005",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_006",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_007",
+   "role": "starts_here"
+  }
+ ]
+}

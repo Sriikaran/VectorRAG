@@ -1,0 +1,434 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 20,
+ "source_page_hash": "9888baaa7f8a8beb8167552c108dd561d73f443a415eb3659bb2beb72c1a0bf0",
+ "is_cover_page": false,
+ "title": "Error Handling",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nError Handling\nTypical errors that may occur with this operation are:\n\ne No business partner ID is specified in the query\n\ne The business partner ID specified in the query is invalid\n\nMessage Types\n\ne ContractAccountAccountBalanceByCustomerQuery\n\ne ContractAccountAccountBalanceByCustomerResponse\n\nPrerequisites\n\nThe user has to have the required authorization to access the account balances for the specified contract accounts.\n\nNotes on SAP Implementation\n\nPrerequisites\nYou are using software component FI-CA (as of version FI-CA 6.02).\n\nYou have maintained the backend configuration of SAP Biller Direct in FI-CA (See Customizing for Contract Accounts Receivable\nand Payable under Integration -> Financial Supply Chain Management -> Biller Direct -> Basic Setting for Customer Portal in\n\nInternet ). Note that since this operation is based on the functions of SAP Biller Direct , its use is subject to the same license\nconditions.\n\nThe user has sufficient authorizations, in particular with regard to authorization object F_KK_EBPP.\nProcessing\n\nIf an external business partner ID is specified in the query, it has to be mapped to the corresponding internal business partner ID.\n\nThis mapping is carried out based on the definition of event 6600.\n\nMore Information\n\nFor information about corrections and frequently asked questions relating to this service, refer to SAP Note 1063631 (collective\nnote) .\n\nFind Contract Account Receivables Payables Register Item by ID\n\nDefinition\n\nTo find the register items of a contract account based on various selection criteria.\n",
+ "cleaned_text": "Error Handling\n\nTypical errors that may occur with this operation are:\n\n- No business partner ID is specified in the query\n\n- The business partner ID specified in the query is invalid\n\nMessage Types\n\n- ContractAccountAccountBalanceByCustomerQuery\n\n- ContractAccountAccountBalanceByCustomerResponse\n\nPrerequisites\n\nThe user has to have the required authorization to access the account balances for the specified contract accounts.\n\nNotes on SAP Implementation\n\nPrerequisites\n\nYou are using software component FI-CA (as of version FI-CA 6.02). You have maintained the backend configuration of SAP Biller Direct in FI-CA (See Customizing for Contract Accounts Receivable and Payable under Integration -> Financial Supply Chain Management -> Biller Direct -> Basic Setting for Customer Portal in Internet ). Note that since this operation is based on the functions of SAP Biller Direct , its use is subject to the same license conditions. The user has sufficient authorizations, in particular with regard to authorization object F_KK_EBPP.\n\nProcessing\n\nIf an external business partner ID is specified in the query, it has to be mapped to the corresponding internal business partner ID. This mapping is carried out based on the definition of event 6600.\n\nMore Information\n\nFor information about corrections and frequently asked questions relating to this service, refer to SAP Note 1063631 (collective note) .\n\nFind Contract Account Receivables Payables Register Item by ID\n\nDefinition\n\nTo find the register items of a contract account based on various selection criteria.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p020_b000",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    126,
+    126,
+    531,
+    183
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Error Handling",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_124"
+  },
+  {
+   "block_id": "doc_018_p020_b001",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    122,
+    259,
+    1078,
+    297
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Typical errors that may occur with this operation are:",
+   "section_id": "doc_018_sec_124"
+  },
+  {
+   "block_id": "doc_018_p020_b002",
+   "type": "list",
+   "page_number": 20,
+   "bbox": [
+    206,
+    381,
+    1251,
+    520
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "No business partner ID is specified in the query"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The business partner ID specified in the query is invalid"
+    }
+   ],
+   "section_id": "doc_018_sec_124"
+  },
+  {
+   "block_id": "doc_018_p020_b003",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    126,
+    633,
+    543,
+    689
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Message Types",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_125"
+  },
+  {
+   "block_id": "doc_018_p020_b004",
+   "type": "list",
+   "page_number": 20,
+   "bbox": [
+    206,
+    765,
+    1271,
+    905
+   ],
+   "ocr_confidence": 84.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ContractAccountAccountBalanceByCustomerQuery"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ContractAccountAccountBalanceByCustomerResponse"
+    }
+   ],
+   "section_id": "doc_018_sec_125"
+  },
+  {
+   "block_id": "doc_018_p020_b005",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    126,
+    1016,
+    492,
+    1073
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_126"
+  },
+  {
+   "block_id": "doc_018_p020_b006",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    122,
+    1149,
+    2213,
+    1187
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The user has to have the required authorization to access the account balances for the specified contract accounts.",
+   "section_id": "doc_018_sec_126"
+  },
+  {
+   "block_id": "doc_018_p020_b007",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    126,
+    1298,
+    970,
+    1356
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Notes on SAP Implementation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_127"
+  },
+  {
+   "block_id": "doc_018_p020_b008",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    124,
+    1432,
+    368,
+    1470
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_128"
+  },
+  {
+   "block_id": "doc_018_p020_b009",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    122,
+    1553,
+    2460,
+    2025
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "You are using software component FI-CA (as of version FI-CA 6.02). You have maintained the backend configuration of SAP Biller Direct in FI-CA (See Customizing for Contract Accounts Receivable and Payable under Integration -> Financial Supply Chain Management -> Biller Direct -> Basic Setting for Customer Portal in Internet ). Note that since this operation is based on the functions of SAP Biller Direct , its use is subject to the same license conditions. The user has sufficient authorizations, in particular with regard to authorization object F_KK_EBPP.",
+   "section_id": "doc_018_sec_128"
+  },
+  {
+   "block_id": "doc_018_p020_b010",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    124,
+    2109,
+    326,
+    2146
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Processing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_129"
+  },
+  {
+   "block_id": "doc_018_p020_b011",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    122,
+    2230,
+    2450,
+    2334
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "If an external business partner ID is specified in the query, it has to be mapped to the corresponding internal business partner ID. This mapping is carried out based on the definition of event 6600.",
+   "section_id": "doc_018_sec_129"
+  },
+  {
+   "block_id": "doc_018_p020_b012",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    126,
+    2446,
+    610,
+    2491
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "More Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_130"
+  },
+  {
+   "block_id": "doc_018_p020_b013",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    124,
+    2575,
+    2422,
+    2678
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "For information about corrections and frequently asked questions relating to this service, refer to SAP Note 1063631 (collective note) .",
+   "section_id": "doc_018_sec_130"
+  },
+  {
+   "block_id": "doc_018_p020_b014",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    128,
+    2825,
+    2443,
+    2901
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [],
+   "text": "Find Contract Account Receivables Payables Register Item by ID",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_131"
+  },
+  {
+   "block_id": "doc_018_p020_b015",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    126,
+    3001,
+    393,
+    3046
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_132"
+  },
+  {
+   "block_id": "doc_018_p020_b016",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    122,
+    3134,
+    1611,
+    3172
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "To find the register items of a contract account based on various selection criteria.",
+   "section_id": "doc_018_sec_132"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 64.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "9888baaa7f8a8beb8167552c108dd561d73f443a415eb3659bb2beb72c1a0bf0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Find Contract Account Account Balance by Customer",
+  "Error Handling"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_124",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_125",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_126",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_127",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_128",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_129",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_130",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_131",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_132",
+   "role": "starts_here"
+  }
+ ]
+}

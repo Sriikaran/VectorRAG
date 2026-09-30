@@ -1,0 +1,282 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_013",
+ "page_number": 2,
+ "source_page_hash": "279db6d3aba0e8797d63f1198ddba1fb445a86ff0401ebfa85be2627e8b441b0",
+ "is_cover_page": false,
+ "title": "Budget Billing Plan",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nBudget Billing Plan\n\nUse\n\nUtility companies normally bill for their services at the end of a supply period - in an annual consumption billing, for example.\n\nTherefore, they charge budget billing amounts during the supply period instead of the actual amount owed, in order to remain\nsolvent. You specify the budget billing amounts and the dates that are due in the budget billing plan. The budget billing plan is the\nbasis for charging budget billing amounts.\n\nWith budget billing plans, you manage the budget billing requests in a billing period in between two periodic bills.\n\nYou can use several budget billing procedures. Each of these have different ways of determining budget billing dates and amounts,\nmanaging budget billing data, and posting procedures:\n\ne Statistical budget billing procedure\ne Partial bill procedure\ne Payment plan procedure\n\ne Payment scheme\n\nFeatures\n\nYou can display and change active and inactive budget billing plans for a contract account. You can also display the following\ninformation:\n\ne Start and end of budget billing plan\ne Division\n\ne Budget billing amount\n\ne Billing period\n\ne Premise\n\ne Contract\n",
+ "cleaned_text": "Budget Billing Plan\n\nUse\n\nUtility companies normally bill for their services at the end of a supply period - in an annual consumption billing, for example. Therefore, they charge budget billing amounts during the supply period instead of the actual amount owed, in order to remain solvent. You specify the budget billing amounts and the dates that are due in the budget billing plan. The budget billing plan is the basis for charging budget billing amounts. With budget billing plans, you manage the budget billing requests in a billing period in between two periodic bills. You can use several budget billing procedures. Each of these have different ways of determining budget billing dates and amounts, managing budget billing data, and posting procedures:\n\n- Statistical budget billing procedure\n\n- Partial bill procedure\n\n- Payment plan procedure\n\n- Payment scheme\n\nFeatures\n\nYou can display and change active and inactive budget billing plans for a contract account. You can also display the following information:\n\n- Start and end of budget billing plan\n\n- Division\n\n- Budget billing amount\n\n- Billing period\n\n- Premise\n\n- Contract",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_013_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    256,
+    804,
+    332
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Budget Billing Plan",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_013_sec_000"
+  },
+  {
+   "block_id": "doc_013_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    435,
+    225,
+    481
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_013_sec_001"
+  },
+  {
+   "block_id": "doc_013_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    565,
+    2470,
+    1102
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Utility companies normally bill for their services at the end of a supply period - in an annual consumption billing, for example. Therefore, they charge budget billing amounts during the supply period instead of the actual amount owed, in order to remain solvent. You specify the budget billing amounts and the dates that are due in the budget billing plan. The budget billing plan is the basis for charging budget billing amounts. With budget billing plans, you manage the budget billing requests in a billing period in between two periodic bills. You can use several budget billing procedures. Each of these have different ways of determining budget billing dates and amounts, managing budget billing data, and posting procedures:",
+   "section_id": "doc_013_sec_001"
+  },
+  {
+   "block_id": "doc_013_p002_b003",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    1186,
+    888,
+    1529
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Statistical budget billing procedure"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Partial bill procedure"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Payment plan procedure"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Payment scheme"
+    }
+   ],
+   "section_id": "doc_013_sec_001"
+  },
+  {
+   "block_id": "doc_013_p002_b004",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    1642,
+    361,
+    1687
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_013_sec_002"
+  },
+  {
+   "block_id": "doc_013_p002_b005",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    1774,
+    2366,
+    1867
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You can display and change active and inactive budget billing plans for a contract account. You can also display the following information:",
+   "section_id": "doc_013_sec_002"
+  },
+  {
+   "block_id": "doc_013_p002_b006",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    1962,
+    888,
+    2505
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Start and end of budget billing plan"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Division"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Budget billing amount"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Billing period"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Premise"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Contract"
+    }
+   ],
+   "section_id": "doc_013_sec_002"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Budget Billing Plan",
+  "source_pdf": "13.pdf",
+  "reference_pdf": "13_Budget_Billing_Plan.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Important because interim/budget amounts can affect the customer balance independently of final consumption billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/021b182b0c47416c8fafed6/ebfd78a9?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "279db6d3aba0e8797d63f1198ddba1fb445a86ff0401ebfa85be2627e8b441b0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:41Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Budget Billing Plan"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_013_sec_000",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_013_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_013_sec_002",
+   "role": "starts_here"
+  }
+ ]
+}

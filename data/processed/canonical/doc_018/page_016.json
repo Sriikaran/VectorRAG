@@ -1,0 +1,470 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 16,
+ "source_page_hash": "290d1b9ce5350fe767085d2c3ec37de279e07604539129f418dbcf391e76b45d",
+ "is_cover_page": false,
+ "title": "Error Handling",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nThe response contains the payment terms (name and code) for the specified contract account.\n\nError Handling\n\nTypical errors that may occur with this operation are:\n\ne Nocontract account ID is specified in the query\n\ne Thecontract account ID specified in the query is invalid\n\nMessage Types\n\ne ContractAccountPaymentTermsBylDQuery\n\ne\u00a2 ContractAccountPaymentTermsBylDResponse\n\nPrerequisites\n\nThe user has to have the required authorization to read the specified contract account.\n\nNotes on SAP Implementation\nPrerequisites\nYou are using software component FI-CA (as of version FI-CA 6.02).\n\nYou have maintained the backend configuration of SAP Biller Direct in FI-CA (see Customizing for Contract Accounts Receivable\nand Payable under Integration -> Financial Supply Chain Management -> Biller Direct -> Basic Setting for Customer Portal in\n\nInternet ). Note that since this operation is based on the functions of SAP Biller Direct , its use is subject to the same license\nconditions.\n\nThe user has sufficient authorizations, in particular with regard to authorization object F_LKK_EBPP.\n\nProcessing\n\nIf an external contract account ID is specified in the query, it has to be mapped to the corresponding internal contract account ID.\nThis mapping is carried out based on the definition of event 6600.\n\nPayment Behaviour Summary In\n\nDefinition\n\nThe Payment Behaviour In inbound service interface contains an operation that queries payment behavior.\n\nTechnical Data\n\nEntity Type               Service Interface\n",
+ "cleaned_text": "The response contains the payment terms (name and code) for the specified contract account.\n\nError Handling\n\nTypical errors that may occur with this operation are:\n\n- Nocontract account ID is specified in the query\n\n- Thecontract account ID specified in the query is invalid\n\nMessage Types\n\n- ContractAccountPaymentTermsBylDQuery e\u00a2 ContractAccountPaymentTermsBylDResponse\n\nPrerequisites\n\nThe user has to have the required authorization to read the specified contract account.\n\nNotes on SAP Implementation\n\nPrerequisites\n\nYou are using software component FI-CA (as of version FI-CA 6.02). You have maintained the backend configuration of SAP Biller Direct in FI-CA (see Customizing for Contract Accounts Receivable and Payable under Integration -> Financial Supply Chain Management -> Biller Direct -> Basic Setting for Customer Portal in Internet ). Note that since this operation is based on the functions of SAP Biller Direct , its use is subject to the same license conditions. The user has sufficient authorizations, in particular with regard to authorization object F_LKK_EBPP.\n\nProcessing\n\nIf an external contract account ID is specified in the query, it has to be mapped to the corresponding internal contract account ID. This mapping is carried out based on the definition of event 6600.\n\nPayment Behaviour Summary In\n\nDefinition\n\nThe Payment Behaviour In inbound service interface contains an operation that queries payment behavior.\n\nTechnical Data\n\nEntity Type | Service Interface",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p016_b000",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    135,
+    1843,
+    172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The response contains the payment terms (name and code) for the specified contract account.",
+   "section_id": "doc_018_sec_095"
+  },
+  {
+   "block_id": "doc_018_p016_b001",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    126,
+    284,
+    531,
+    341
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Error Handling",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_096"
+  },
+  {
+   "block_id": "doc_018_p016_b002",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    417,
+    1078,
+    454
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Typical errors that may occur with this operation are:",
+   "section_id": "doc_018_sec_096"
+  },
+  {
+   "block_id": "doc_018_p016_b003",
+   "type": "list",
+   "page_number": 16,
+   "bbox": [
+    206,
+    539,
+    1256,
+    678
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Nocontract account ID is specified in the query"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Thecontract account ID specified in the query is invalid"
+    }
+   ],
+   "section_id": "doc_018_sec_096"
+  },
+  {
+   "block_id": "doc_018_p016_b004",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    126,
+    791,
+    543,
+    847
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Message Types",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_097"
+  },
+  {
+   "block_id": "doc_018_p016_b005",
+   "type": "list",
+   "page_number": 16,
+   "bbox": [
+    206,
+    923,
+    1106,
+    1063
+   ],
+   "ocr_confidence": 69.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ContractAccountPaymentTermsBylDQuery e\u00a2 ContractAccountPaymentTermsBylDResponse"
+    }
+   ],
+   "section_id": "doc_018_sec_097"
+  },
+  {
+   "block_id": "doc_018_p016_b006",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    126,
+    1175,
+    492,
+    1231
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_098"
+  },
+  {
+   "block_id": "doc_018_p016_b007",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    1307,
+    1692,
+    1345
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The user has to have the required authorization to read the specified contract account.",
+   "section_id": "doc_018_sec_098"
+  },
+  {
+   "block_id": "doc_018_p016_b008",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    126,
+    1456,
+    970,
+    1513
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Notes on SAP Implementation",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_099"
+  },
+  {
+   "block_id": "doc_018_p016_b009",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    124,
+    1590,
+    368,
+    1627
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_100"
+  },
+  {
+   "block_id": "doc_018_p016_b010",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    1711,
+    2460,
+    2183
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You are using software component FI-CA (as of version FI-CA 6.02). You have maintained the backend configuration of SAP Biller Direct in FI-CA (see Customizing for Contract Accounts Receivable and Payable under Integration -> Financial Supply Chain Management -> Biller Direct -> Basic Setting for Customer Portal in Internet ). Note that since this operation is based on the functions of SAP Biller Direct , its use is subject to the same license conditions. The user has sufficient authorizations, in particular with regard to authorization object F_LKK_EBPP.",
+   "section_id": "doc_018_sec_100"
+  },
+  {
+   "block_id": "doc_018_p016_b011",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    124,
+    2267,
+    326,
+    2304
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Processing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_101"
+  },
+  {
+   "block_id": "doc_018_p016_b012",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    2388,
+    2459,
+    2491
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "If an external contract account ID is specified in the query, it has to be mapped to the corresponding internal contract account ID. This mapping is carried out based on the definition of event 6600.",
+   "section_id": "doc_018_sec_101"
+  },
+  {
+   "block_id": "doc_018_p016_b013",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    128,
+    2637,
+    1298,
+    2713
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Payment Behaviour Summary In",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_102"
+  },
+  {
+   "block_id": "doc_018_p016_b014",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    126,
+    2814,
+    393,
+    2859
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_103"
+  },
+  {
+   "block_id": "doc_018_p016_b015",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    2947,
+    2050,
+    2985
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The Payment Behaviour In inbound service interface contains an operation that queries payment behavior.",
+   "section_id": "doc_018_sec_103"
+  },
+  {
+   "block_id": "doc_018_p016_b016",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    123,
+    3096,
+    530,
+    3141
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_104"
+  },
+  {
+   "block_id": "doc_018_p016_b017",
+   "type": "table",
+   "page_number": 16,
+   "bbox": [
+    150,
+    3254,
+    766,
+    3289
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    483
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Interface"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Interface"
+    ]
+   ],
+   "section_id": "doc_018_sec_104"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "290d1b9ce5350fe767085d2c3ec37de279e07604539129f418dbcf391e76b45d"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Read Contract Account Payment Terms",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_095",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_018_sec_096",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_097",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_098",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_099",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_100",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_101",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_102",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_103",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_104",
+   "role": "starts_here"
+  }
+ ]
+}

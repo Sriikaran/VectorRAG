@@ -1,0 +1,389 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 61,
+ "source_page_hash": "7de4f50911ed9fe194bf022d330289ece528501eb529bc322b35073d5a7aff39",
+ "is_cover_page": false,
+ "title": "Process Flow",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nYou can subsequently correct or change existing meter reading results in the system.\n\nProcess Flow\n\nYou can change the meter reading results by means of the upload process.\n\nSee Upload.\n\nYou can use the following transactions to correct meter reading results:\n\ne Correct Plausible Meter Reading Results\n\ne Correct Implausible Meter Reading Results\n\nResult\n\nThe meter reading results have been corrected or changed in the system.\n\nUpload\n\nUsage\n\nYou use this function to change or correct meter reading results by upload.\n\nIntegration\n\nBAPI BAPILMTRREADDOC_UPLOAD and the allocated IDoc of category ISU_MR_UPLOADO2 enable you to change meter reading\nresults.\n\nRead the documentation for BAP! BAPILMTRREADDOC_UPLOAD to find out how to fill the IDoc segments to change meter\nreading results.\n\nPrerequisites\n\nYou define in Customizing which meter reading results are to be changed during the upload process:\nCustomizing for |*SAP Utilities } Device Management } Meter Reading } Meter Reading Result } Change } Define Change\n\nProcess for Meter Reading Data.\n\nFeatures\n\nYou can use a PM service notification to trigger a request for a new meter reading for plausible and implausible meter reading\nresults. Using the upload process with basic IDoc category ISU_LMR_UPLOADO2, you can overwrite existing meter reading results\nwith new results.\n\nIDoc category ISU_LMR_UPLOADO2 consists of the following segments:\n",
+ "cleaned_text": "You can subsequently correct or change existing meter reading results in the system.\n\nProcess Flow\n\nYou can change the meter reading results by means of the upload process. See Upload. You can use the following transactions to correct meter reading results:\n\n- Correct Plausible Meter Reading Results\n\n- Correct Implausible Meter Reading Results\n\nResult\n\nThe meter reading results have been corrected or changed in the system.\n\nUpload\n\nUsage\n\nYou use this function to change or correct meter reading results by upload.\n\nIntegration\n\nBAPI BAPILMTRREADDOC_UPLOAD and the allocated IDoc of category ISU_MR_UPLOADO2 enable you to change meter reading results. Read the documentation for BAP! BAPILMTRREADDOC_UPLOAD to find out how to fill the IDoc segments to change meter reading results.\n\nPrerequisites\n\nYou define in Customizing which meter reading results are to be changed during the upload process: Customizing for |*SAP Utilities } Device Management } Meter Reading } Meter Reading Result } Change } Define Change Process for Meter Reading Data.\n\nFeatures\n\nYou can use a PM service notification to trigger a request for a new meter reading for plausible and implausible meter reading results. Using the upload process with basic IDoc category ISU_LMR_UPLOADO2, you can overwrite existing meter reading results with new results. IDoc category ISU_LMR_UPLOADO2 consists of the following segments:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p061_b000",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    123,
+    134,
+    1659,
+    172
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You can subsequently correct or change existing meter reading results in the system.",
+   "section_id": "doc_006_sec_127"
+  },
+  {
+   "block_id": "doc_006_p061_b001",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    126,
+    284,
+    487,
+    329
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Process Flow",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_128"
+  },
+  {
+   "block_id": "doc_006_p061_b002",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    123,
+    417,
+    1466,
+    698
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You can change the meter reading results by means of the upload process. See Upload. You can use the following transactions to correct meter reading results:",
+   "section_id": "doc_006_sec_128"
+  },
+  {
+   "block_id": "doc_006_p061_b003",
+   "type": "list",
+   "page_number": 61,
+   "bbox": [
+    207,
+    782,
+    1030,
+    924
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Correct Plausible Meter Reading Results"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Correct Implausible Meter Reading Results"
+    }
+   ],
+   "section_id": "doc_006_sec_128"
+  },
+  {
+   "block_id": "doc_006_p061_b004",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    126,
+    1037,
+    298,
+    1082
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Result",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_129"
+  },
+  {
+   "block_id": "doc_006_p061_b005",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    122,
+    1166,
+    1445,
+    1204
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The meter reading results have been corrected or changed in the system.",
+   "section_id": "doc_006_sec_129"
+  },
+  {
+   "block_id": "doc_006_p061_b006",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    128,
+    1354,
+    376,
+    1429
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Upload",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_130"
+  },
+  {
+   "block_id": "doc_006_p061_b007",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    125,
+    1529,
+    292,
+    1586
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Usage",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_131"
+  },
+  {
+   "block_id": "doc_006_p061_b008",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    123,
+    1662,
+    1472,
+    1700
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "You use this function to change or correct meter reading results by upload.",
+   "section_id": "doc_006_sec_131"
+  },
+  {
+   "block_id": "doc_006_p061_b009",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    127,
+    1812,
+    431,
+    1868
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_132"
+  },
+  {
+   "block_id": "doc_006_p061_b010",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    124,
+    1944,
+    2459,
+    2229
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "BAPI BAPILMTRREADDOC_UPLOAD and the allocated IDoc of category ISU_MR_UPLOADO2 enable you to change meter reading results. Read the documentation for BAP! BAPILMTRREADDOC_UPLOAD to find out how to fill the IDoc segments to change meter reading results.",
+   "section_id": "doc_006_sec_132"
+  },
+  {
+   "block_id": "doc_006_p061_b011",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    126,
+    2341,
+    492,
+    2397
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_133"
+  },
+  {
+   "block_id": "doc_006_p061_b012",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    123,
+    2473,
+    2369,
+    2699
+   ],
+   "ocr_confidence": 89.4,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "You define in Customizing which meter reading results are to be changed during the upload process: Customizing for |*SAP Utilities } Device Management } Meter Reading } Meter Reading Result } Change } Define Change Process for Meter Reading Data.",
+   "section_id": "doc_006_sec_133"
+  },
+  {
+   "block_id": "doc_006_p061_b013",
+   "type": "heading",
+   "page_number": 61,
+   "bbox": [
+    126,
+    2811,
+    361,
+    2856
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_134"
+  },
+  {
+   "block_id": "doc_006_p061_b014",
+   "type": "paragraph",
+   "page_number": 61,
+   "bbox": [
+    122,
+    2940,
+    2448,
+    3227
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You can use a PM service notification to trigger a request for a new meter reading for plausible and implausible meter reading results. Using the upload process with basic IDoc category ISU_LMR_UPLOADO2, you can overwrite existing meter reading results with new results. IDoc category ISU_LMR_UPLOADO2 consists of the following segments:",
+   "section_id": "doc_006_sec_134"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "7de4f50911ed9fe194bf022d330289ece528501eb529bc322b35073d5a7aff39"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Assessing",
+  "Features",
+  "Example 3 - No Assessing: Actual Meter Overflow (3-figure meter)"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_127",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_128",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_129",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_130",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_131",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_132",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_133",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_134",
+   "role": "starts_here"
+  }
+ ]
+}

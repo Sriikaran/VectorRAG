@@ -1,0 +1,462 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 8,
+ "source_page_hash": "624eba01df58046515a1c18ddc63c9e69e837f21c3f296a57ee72a67b3913aeb",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nThe Respond Credit Rating Query retrieves the credit rating information from the SAP Credit Management component.\n\nFeatures\n\nThe Query Credit Rating outbound services operation sends the debtor\u2019s rating that is calculated in contract accounting to the\nSAP Credit Management process component. This operation also requests the credit rating calculated in SAP Credit Management.\n\nMessage Types\n\ne FICA Rating Replicate Query\n\nNotes on SAP Implementation\n\nThis outbound service operation is called from the following transactions in the contract accounting back-end system:\n\ne Replication of Score ( FPCM2 ): The calculated rating of the debtors is sent asynchronously to the Credit Management\nsystem. The Credit Management system returns the overall credit rating of the debtors to the contract accounting system\nasynchronously.\n\ne Preparation of Master Data Change ( FPBPCR ): The calculated rating of the debtors is sent asynchronously to the credit\n\nmanagement system. The credit management system sends back the credit management master data that is relevant for a\nlater change of the contract account master data (with transaction FPBPCU ).\n\nTo enhance the proxy structure of this operation you can use the FI-CA event 4612.\nConfiguration\n\nYou need to activate the integration with credit management before you can use the contract accounting transactions to send the\n\noutbound service operation. You can do so in Customizing for Financial Accounting under Financial Supply Chain Management ->\nCredit Management -> Activate Credit Management\n\nDebt Recovery Score Processing In\n\nTechnical Data\n\nEntity Type            Service Interface\nCategory              SAP A2A\nDirection         inbound\n\nResponse Debt Recovery Score By Debtor Party\n\nDefinition\n\nTo receive the debt recovery score for a debtor.\n",
+ "cleaned_text": "The Respond Credit Rating Query retrieves the credit rating information from the SAP Credit Management component.\n\nFeatures\n\nThe Query Credit Rating outbound services operation sends the debtor\u2019s rating that is calculated in contract accounting to the SAP Credit Management process component. This operation also requests the credit rating calculated in SAP Credit Management.\n\nMessage Types\n\n- FICA Rating Replicate Query\n\nNotes on SAP Implementation\n\nThis outbound service operation is called from the following transactions in the contract accounting back-end system:\n\n- Replication of Score ( FPCM2 ): The calculated rating of the debtors is sent asynchronously to the Credit Management system. The Credit Management system returns the overall credit rating of the debtors to the contract accounting system asynchronously.\n\n- Preparation of Master Data Change ( FPBPCR ): The calculated rating of the debtors is sent asynchronously to the credit management system. The credit management system sends back the credit management master data that is relevant for a later change of the contract account master data (with transaction FPBPCU ).\n\nTo enhance the proxy structure of this operation you can use the FI-CA event 4612.\n\nConfiguration\n\nYou need to activate the integration with credit management before you can use the contract accounting transactions to send the outbound service operation. You can do so in Customizing for Financial Accounting under Financial Supply Chain Management -> Credit Management -> Activate Credit Management\n\nDebt Recovery Score Processing In\n\nTechnical Data\n\nEntity Type | Service Interface\n\nCategory | SAP A2A\n\nDirection | inbound\n\nResponse Debt Recovery Score By Debtor Party\n\nDefinition\n\nTo receive the debt recovery score for a debtor.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p008_b000",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    130,
+    2274,
+    177
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The Respond Credit Rating Query retrieves the credit rating information from the SAP Credit Management component.",
+   "section_id": "doc_018_sec_039"
+  },
+  {
+   "block_id": "doc_018_p008_b001",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    126,
+    284,
+    361,
+    329
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_040"
+  },
+  {
+   "block_id": "doc_018_p008_b002",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    417,
+    2483,
+    517
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The Query Credit Rating outbound services operation sends the debtor\u2019s rating that is calculated in contract accounting to the SAP Credit Management process component. This operation also requests the credit rating calculated in SAP Credit Management.",
+   "section_id": "doc_018_sec_040"
+  },
+  {
+   "block_id": "doc_018_p008_b003",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    126,
+    629,
+    543,
+    686
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Message Types",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_041"
+  },
+  {
+   "block_id": "doc_018_p008_b004",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    207,
+    762,
+    765,
+    800
+   ],
+   "ocr_confidence": 90.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "FICA Rating Replicate Query"
+    }
+   ],
+   "section_id": "doc_018_sec_041"
+  },
+  {
+   "block_id": "doc_018_p008_b005",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    126,
+    911,
+    970,
+    968
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Notes on SAP Implementation",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_042"
+  },
+  {
+   "block_id": "doc_018_p008_b006",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    1044,
+    2259,
+    1082
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "This outbound service operation is called from the following transactions in the contract accounting back-end system:",
+   "section_id": "doc_018_sec_042"
+  },
+  {
+   "block_id": "doc_018_p008_b007",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    207,
+    1166,
+    2482,
+    1559
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Replication of Score ( FPCM2 ): The calculated rating of the debtors is sent asynchronously to the Credit Management system. The Credit Management system returns the overall credit rating of the debtors to the contract accounting system asynchronously."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Preparation of Master Data Change ( FPBPCR ): The calculated rating of the debtors is sent asynchronously to the credit management system. The credit management system sends back the credit management master data that is relevant for a later change of the contract account master data (with transaction FPBPCU )."
+    }
+   ],
+   "section_id": "doc_018_sec_042"
+  },
+  {
+   "block_id": "doc_018_p008_b008",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    1642,
+    1614,
+    1680
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "To enhance the proxy structure of this operation you can use the FI-CA event 4612.",
+   "section_id": "doc_018_sec_042"
+  },
+  {
+   "block_id": "doc_018_p008_b009",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    123,
+    1764,
+    377,
+    1802
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Configuration",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_043"
+  },
+  {
+   "block_id": "doc_018_p008_b010",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    123,
+    1886,
+    2466,
+    2051
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You need to activate the integration with credit management before you can use the contract accounting transactions to send the outbound service operation. You can do so in Customizing for Financial Accounting under Financial Supply Chain Management -> Credit Management -> Activate Credit Management",
+   "section_id": "doc_018_sec_043"
+  },
+  {
+   "block_id": "doc_018_p008_b011",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    128,
+    2197,
+    1384,
+    2273
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "text": "Debt Recovery Score Processing In",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_044"
+  },
+  {
+   "block_id": "doc_018_p008_b012",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    122,
+    2349,
+    394,
+    2379
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_045"
+  },
+  {
+   "block_id": "doc_018_p008_b013",
+   "type": "table",
+   "page_number": 8,
+   "bbox": [
+    148,
+    2495,
+    766,
+    2734
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    483
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Interface"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Interface"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ]
+   ],
+   "section_id": "doc_018_sec_045"
+  },
+  {
+   "block_id": "doc_018_p008_b014",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    128,
+    2913,
+    1855,
+    2989
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Response Debt Recovery Score By Debtor Party",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_046"
+  },
+  {
+   "block_id": "doc_018_p008_b015",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    126,
+    3089,
+    393,
+    3135
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_047"
+  },
+  {
+   "block_id": "doc_018_p008_b016",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    3223,
+    969,
+    3260
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "To receive the debt recovery score for a debtor.",
+   "section_id": "doc_018_sec_047"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "624eba01df58046515a1c18ddc63c9e69e837f21c3f296a57ee72a67b3913aeb"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Query Credit Rating",
+  "Business Context and Use",
+  "Related Operations"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_039",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_018_sec_040",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_041",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_042",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_043",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_044",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_045",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_046",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_047",
+   "role": "starts_here"
+  }
+ ]
+}

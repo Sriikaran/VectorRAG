@@ -1,0 +1,290 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 65,
+ "source_page_hash": "3bd751065e8b956dcb77cd3bdd6ac24859efdca1af49d5d1c93d413e89c88ab4",
+ "is_cover_page": false,
+ "title": "Rate Proration",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nRate Proration\n\nThe billing period in the example is the month of January. Eight time-of-use exceptions (red boxes in the graphic) take place in the\nbilling period. These exception periods are:\n\ne TOU exception 1:17.01 9am to 10am\n\ne TOU exception 2: 17.01 1lam to 12pm\n\ne TOU exception 3:17.01 7pm to llpm\n\ne TOU exception 4: 17.01 10pm to 1lpm\n\ne TOU exception 5:17.01 7am to 2pm\n\ne TOU exception 6: 21.01 1pm to 22.01 - 1.30pm\ne TOU exception 7: 22.01 2pm to 23.01 - 6.45pm\n\ne TOU exception 8: 24.01 9am to 1.15pm\n\nThese time slices result in the following split in billing into the five smallest to-the-day containers T1 to T5 (orange boxes in the\ngraphic):\n\nTl contains three TOU exceptions from one day.\n\nT1, T2 and T3 are not grouped together even though they take place on consecutive days. This is because TOU exceptions 1 3, 4\nand 5 take place on different days and none of them last longer than one day.\n\nT4 contains multiple days and includes TOU exceptions 6 and 7, which do last longer than one day, whereby the end of TOU 6 and\nthe start of TOU 7 are both on the 22.01.\n\nT5 contains TOU exception 8.\n\nThe smallest to-the-day containers provide the basis for further processing.\n\nVariant Programs and Schema Structure\n\nWith regard to variant programs that are used in conditional rates and basic rates, there are few absolute restrictions. However, not\nall constellations yield usable results from a technical and business point of view. You should therefore make sure that billing\nschemas are technically and functionally set up properly for conditional billing. Take the following recommendations into account.\n\nPeriod Control\n\nIn conditional billing, period control plays an important role in valuating the different billing values represented by the operands.\nMake sure that you take the special features of period determination and period control into account when maintaining schemas.\n\nIn billing, conditional rates are always prorated in the smallest to-the-day containers. This means that the rate and the respective\nbilling components are no longer valid for the entire billing period. However, some variant programs require the entire billing period\nto be covered (for example, IF variants). If both operands cover different times, processing is terminated. This can happen, for\nexample, if for a comparison of two operand values, an operand has been defined for the entrie period while the other operand has\nbeen defined for a conditional rate that contains gaps.\n",
+ "cleaned_text": "Rate Proration\n\nThe billing period in the example is the month of January. Eight time-of-use exceptions (red boxes in the graphic) take place in the billing period. These exception periods are:\n\n- TOU exception 1:17.01 9am to 10am\n\n- TOU exception 2: 17.01 1lam to 12pm\n\n- TOU exception 3:17.01 7pm to llpm\n\n- TOU exception 4: 17.01 10pm to 1lpm\n\n- TOU exception 5:17.01 7am to 2pm\n\n- TOU exception 6: 21.01 1pm to 22.01 - 1.30pm\n\n- TOU exception 7: 22.01 2pm to 23.01 - 6.45pm\n\n- TOU exception 8: 24.01 9am to 1.15pm\n\nThese time slices result in the following split in billing into the five smallest to-the-day containers T1 to T5 (orange boxes in the graphic): Tl contains three TOU exceptions from one day. T1, T2 and T3 are not grouped together even though they take place on consecutive days. This is because TOU exceptions 1 3, 4 and 5 take place on different days and none of them last longer than one day. T4 contains multiple days and includes TOU exceptions 6 and 7, which do last longer than one day, whereby the end of TOU 6 and the start of TOU 7 are both on the 22.01. T5 contains TOU exception 8. The smallest to-the-day containers provide the basis for further processing.\n\nVariant Programs and Schema Structure\n\nWith regard to variant programs that are used in conditional rates and basic rates, there are few absolute restrictions. However, not all constellations yield usable results from a technical and business point of view. You should therefore make sure that billing schemas are technically and functionally set up properly for conditional billing. Take the following recommendations into account.\n\nPeriod Control\n\nIn conditional billing, period control plays an important role in valuating the different billing values represented by the operands. Make sure that you take the special features of period determination and period control into account when maintaining schemas. In billing, conditional rates are always prorated in the smallest to-the-day containers. This means that the rate and the respective billing components are no longer valid for the entire billing period. However, some variant programs require the entire billing period to be covered (for example, IF variants). If both operands cover different times, processing is terminated. This can happen, for example, if for a comparison of two operand values, an operand has been defined for the entrie period while the other operand has been defined for a conditional rate that contains gaps.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p065_b000",
+   "type": "heading",
+   "page_number": 65,
+   "bbox": [
+    124,
+    131,
+    355,
+    158
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [],
+   "text": "Rate Proration",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_213"
+  },
+  {
+   "block_id": "doc_011_p065_b001",
+   "type": "paragraph",
+   "page_number": 65,
+   "bbox": [
+    122,
+    246,
+    2464,
+    346
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The billing period in the example is the month of January. Eight time-of-use exceptions (red boxes in the graphic) take place in the billing period. These exception periods are:",
+   "section_id": "doc_011_sec_213"
+  },
+  {
+   "block_id": "doc_011_p065_b002",
+   "type": "list",
+   "page_number": 65,
+   "bbox": [
+    207,
+    430,
+    1084,
+    1184
+   ],
+   "ocr_confidence": 85.6,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "TOU exception 1:17.01 9am to 10am"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "TOU exception 2: 17.01 1lam to 12pm"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "TOU exception 3:17.01 7pm to llpm"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "TOU exception 4: 17.01 10pm to 1lpm"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "TOU exception 5:17.01 7am to 2pm"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "TOU exception 6: 21.01 1pm to 22.01 - 1.30pm"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "TOU exception 7: 22.01 2pm to 23.01 - 6.45pm"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "TOU exception 8: 24.01 9am to 1.15pm"
+    }
+   ],
+   "section_id": "doc_011_sec_213"
+  },
+  {
+   "block_id": "doc_011_p065_b003",
+   "type": "paragraph",
+   "page_number": 65,
+   "bbox": [
+    122,
+    1271,
+    2448,
+    2107
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "These time slices result in the following split in billing into the five smallest to-the-day containers T1 to T5 (orange boxes in the graphic): Tl contains three TOU exceptions from one day. T1, T2 and T3 are not grouped together even though they take place on consecutive days. This is because TOU exceptions 1 3, 4 and 5 take place on different days and none of them last longer than one day. T4 contains multiple days and includes TOU exceptions 6 and 7, which do last longer than one day, whereby the end of TOU 6 and the start of TOU 7 are both on the 22.01. T5 contains TOU exception 8. The smallest to-the-day containers provide the basis for further processing.",
+   "section_id": "doc_011_sec_213"
+  },
+  {
+   "block_id": "doc_011_p065_b004",
+   "type": "heading",
+   "page_number": 65,
+   "bbox": [
+    123,
+    2219,
+    1261,
+    2276
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Variant Programs and Schema Structure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_214"
+  },
+  {
+   "block_id": "doc_011_p065_b005",
+   "type": "paragraph",
+   "page_number": 65,
+   "bbox": [
+    123,
+    2352,
+    2485,
+    2514
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "With regard to variant programs that are used in conditional rates and basic rates, there are few absolute restrictions. However, not all constellations yield usable results from a technical and business point of view. You should therefore make sure that billing schemas are technically and functionally set up properly for conditional billing. Take the following recommendations into account.",
+   "section_id": "doc_011_sec_214"
+  },
+  {
+   "block_id": "doc_011_p065_b006",
+   "type": "heading",
+   "page_number": 65,
+   "bbox": [
+    124,
+    2601,
+    391,
+    2632
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Period Control",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_215"
+  },
+  {
+   "block_id": "doc_011_p065_b007",
+   "type": "paragraph",
+   "page_number": 65,
+   "bbox": [
+    122,
+    2723,
+    2482,
+    3198
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "In conditional billing, period control plays an important role in valuating the different billing values represented by the operands. Make sure that you take the special features of period determination and period control into account when maintaining schemas. In billing, conditional rates are always prorated in the smallest to-the-day containers. This means that the rate and the respective billing components are no longer valid for the entire billing period. However, some variant programs require the entire billing period to be covered (for example, IF variants). If both operands cover different times, processing is terminated. This can happen, for example, if for a comparison of two operand values, an operand has been defined for the entrie period while the other operand has been defined for a conditional rate that contains gaps.",
+   "section_id": "doc_011_sec_215"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "3bd751065e8b956dcb77cd3bdd6ac24859efdca1af49d5d1c93d413e89c88ab4"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Processing Rate Components",
+  "Rate Proration",
+  "Rate Proration"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_213",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_214",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_215",
+   "role": "starts_here"
+  }
+ ]
+}

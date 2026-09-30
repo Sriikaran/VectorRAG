@@ -1,0 +1,351 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 105,
+ "source_page_hash": "f301918dd251917edc6b1a037fcd3e64e22a1e5651ddc70845b0961cf5c3c5c0",
+ "is_cover_page": false,
+ "title": "PoD Service tab strip",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nIn the list on the tab strip, you can establish the settlement relevance of the point of delivery using the Settlement field.\n\nPoD Service tab strip\n\nOnce a move-in has taken place for the installation, to which this POD is allocated, all the services for this POD are displayed.\nYou must have defined the default mechanisms in the IDE menu under Services.\n\nService on the Basis of the Operational Area or Services on the Basis of Service Provider Relationships.\n\nYou define the default mechanism to be used in Customizing under |)}}SAP Utilities > Intercompany Data Exchange \u00bb Basic\nSettingsDefine Control Parameters.\n\nThe service can have various statuses, which can be identified using the following icons:\n\n&                                                                                           Service exists or is created when you save\n\ngy                                                                                             Optional service exits Is not created if you remove the data from\nthe Service provider field and save\n\na                                                                                           Optional service is proposed Is created if the Service Provider field\ncontains an entry If the entry is remove from the field, no service is\ncreated\n\nae                                                                                           Service exists but conflicts with the service proposed by the\n\nsystem Service either no longer exists in Customizing or is not\nproposed in the current circumstances because, for example a\ncontract (billable service) already exists for the same service type\n\nData Exchangetabstrip\n\nContains all the data exchange processesrelevant to the current point of delivery. The data exchange processes are only created at\nservice provider level. If you want to define a different due date control for individual points of delivery then you can redefine the\ncurrent definition for the given PoD.\n\nIf you click on a data exchange process the data exchange definitionappears.\n\nTo redefine a data exchange definition at point of delivery level, choose Redefine DATEX Definition . The definition appears.\n\nIn the list on the tabstrip you can recognize the redefinition by the ee symbol in the Redefinition column. The A symbol means\nthat the data exchange definitionwas imparted to the point of delivery by the service provider.\n\nTo undo a redefinition, choose tyUndo Redefine DATEX definition.\n\nIf you do not want a data exchange process to be active for the current point of delivery then you must first redefine it. The\ndefinition appears. Select the Inactive field and leave the dialog box.\n\nIn the list on the tab strip you can see whether a data exchange process is active by the Inactive field.\n\nTo synchronize scheduled data exchange tasks, choose BeSynchronize . For more information on synchronization see\nSynchronization of Scheduled Data Exchange Tasks .\n\n",
+ "cleaned_text": "In the list on the tab strip, you can establish the settlement relevance of the point of delivery using the Settlement field.\n\nPoD Service tab strip\n\nOnce a move-in has taken place for the installation, to which this POD is allocated, all the services for this POD are displayed. You must have defined the default mechanisms in the IDE menu under Services. Service on the Basis of the Operational Area or Services on the Basis of Service Provider Relationships. You define the default mechanism to be used in Customizing under |)}}SAP Utilities > Intercompany Data Exchange \u00bb Basic SettingsDefine Control Parameters. The service can have various statuses, which can be identified using the following icons:\n\n& | Service exists or is created when you save\n\ngy | Optional service exits Is not created if you remove the data from\n\nthe Service provider field and save\n\na | Optional service is proposed Is created if the Service Provider field\n\ncontains an entry If the entry is remove from the field, no service is created\n\nae | Service exists but conflicts with the service proposed by the\n\nsystem Service either no longer exists in Customizing or is not proposed in the current circumstances because, for example a contract (billable service) already exists for the same service type\n\nData Exchangetabstrip\n\nContains all the data exchange processesrelevant to the current point of delivery. The data exchange processes are only created at service provider level. If you want to define a different due date control for individual points of delivery then you can redefine the current definition for the given PoD. If you click on a data exchange process the data exchange definitionappears. To redefine a data exchange definition at point of delivery level, choose Redefine DATEX Definition . The definition appears. In the list on the tabstrip you can recognize the redefinition by the ee symbol in the Redefinition column. The A symbol means that the data exchange definitionwas imparted to the point of delivery by the service provider. To undo a redefinition, choose tyUndo Redefine DATEX definition. If you do not want a data exchange process to be active for the current point of delivery then you must first redefine it. The definition appears. Select the Inactive field and leave the dialog box. In the list on the tab strip you can see whether a data exchange process is active by the Inactive field. To synchronize scheduled data exchange tasks, choose BeSynchronize . For more information on synchronization see Synchronization of Scheduled Data Exchange Tasks .",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p105_b000",
+   "type": "paragraph",
+   "page_number": 105,
+   "bbox": [
+    125,
+    134,
+    2279,
+    172
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "In the list on the tab strip, you can establish the settlement relevance of the point of delivery using the Settlement field.",
+   "section_id": "doc_001_sec_410"
+  },
+  {
+   "block_id": "doc_001_p105_b001",
+   "type": "heading",
+   "page_number": 105,
+   "bbox": [
+    124,
+    256,
+    516,
+    294
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "PoD Service tab strip",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_411"
+  },
+  {
+   "block_id": "doc_001_p105_b002",
+   "type": "paragraph",
+   "page_number": 105,
+   "bbox": [
+    122,
+    377,
+    2372,
+    967
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Once a move-in has taken place for the installation, to which this POD is allocated, all the services for this POD are displayed. You must have defined the default mechanisms in the IDE menu under Services. Service on the Basis of the Operational Area or Services on the Basis of Service Provider Relationships. You define the default mechanism to be used in Customizing under |)}}SAP Utilities > Intercompany Data Exchange \u00bb Basic SettingsDefine Control Parameters. The service can have various statuses, which can be identified using the following icons:",
+   "section_id": "doc_001_sec_411"
+  },
+  {
+   "block_id": "doc_001_p105_b003",
+   "type": "table",
+   "page_number": 105,
+   "bbox": [
+    146,
+    1074,
+    2402,
+    1223
+   ],
+   "ocr_confidence": 89.4,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    146,
+    1332
+   ],
+   "headers": [
+    "&",
+    "Service exists or is created when you save"
+   ],
+   "rows": [
+    [
+     "gy",
+     "Optional service exits Is not created if you remove the data from"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "&",
+     "Service exists or is created when you save"
+    ],
+    [
+     "gy",
+     "Optional service exits Is not created if you remove the data from"
+    ]
+   ],
+   "section_id": "doc_001_sec_411"
+  },
+  {
+   "block_id": "doc_001_p105_b004",
+   "type": "paragraph",
+   "page_number": 105,
+   "bbox": [
+    1330,
+    1241,
+    1914,
+    1276
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "the Service provider field and save",
+   "section_id": "doc_001_sec_411"
+  },
+  {
+   "block_id": "doc_001_p105_b005",
+   "type": "table",
+   "page_number": 105,
+   "bbox": [
+    154,
+    1346,
+    2455,
+    1384
+   ],
+   "ocr_confidence": 91.2,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    154,
+    1332
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "a",
+     "Optional service is proposed Is created if the Service Provider field"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "a",
+     "Optional service is proposed Is created if the Service Provider field"
+    ]
+   ],
+   "section_id": "doc_001_sec_411"
+  },
+  {
+   "block_id": "doc_001_p105_b006",
+   "type": "paragraph",
+   "page_number": 105,
+   "bbox": [
+    1331,
+    1405,
+    2448,
+    1492
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "contains an entry If the entry is remove from the field, no service is created",
+   "section_id": "doc_001_sec_411"
+  },
+  {
+   "block_id": "doc_001_p105_b007",
+   "type": "table",
+   "page_number": 105,
+   "bbox": [
+    150,
+    1569,
+    2336,
+    1617
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1332
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "ae",
+     "Service exists but conflicts with the service proposed by the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "ae",
+     "Service exists but conflicts with the service proposed by the"
+    ]
+   ],
+   "section_id": "doc_001_sec_411"
+  },
+  {
+   "block_id": "doc_001_p105_b008",
+   "type": "paragraph",
+   "page_number": 105,
+   "bbox": [
+    1331,
+    1628,
+    2432,
+    1782
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "system Service either no longer exists in Customizing or is not proposed in the current circumstances because, for example a contract (billable service) already exists for the same service type",
+   "section_id": "doc_001_sec_411"
+  },
+  {
+   "block_id": "doc_001_p105_b009",
+   "type": "heading",
+   "page_number": 105,
+   "bbox": [
+    124,
+    1892,
+    547,
+    1930
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [],
+   "text": "Data Exchangetabstrip",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_412"
+  },
+  {
+   "block_id": "doc_001_p105_b010",
+   "type": "paragraph",
+   "page_number": 105,
+   "bbox": [
+    122,
+    2013,
+    2479,
+    3226
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "Contains all the data exchange processesrelevant to the current point of delivery. The data exchange processes are only created at service provider level. If you want to define a different due date control for individual points of delivery then you can redefine the current definition for the given PoD. If you click on a data exchange process the data exchange definitionappears. To redefine a data exchange definition at point of delivery level, choose Redefine DATEX Definition . The definition appears. In the list on the tabstrip you can recognize the redefinition by the ee symbol in the Redefinition column. The A symbol means that the data exchange definitionwas imparted to the point of delivery by the service provider. To undo a redefinition, choose tyUndo Redefine DATEX definition. If you do not want a data exchange process to be active for the current point of delivery then you must first redefine it. The definition appears. Select the Inactive field and leave the dialog box. In the list on the tab strip you can see whether a data exchange process is active by the Inactive field. To synchronize scheduled data exchange tasks, choose BeSynchronize . For more information on synchronization see Synchronization of Scheduled Data Exchange Tasks .",
+   "section_id": "doc_001_sec_412"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "f301918dd251917edc6b1a037fcd3e64e22a1e5651ddc70845b0961cf5c3c5c0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Point of Delivery (PoD)",
+  "Integration",
+  "Settlementtab strip"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_410",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_411",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_412",
+   "role": "starts_here"
+  }
+ ]
+}

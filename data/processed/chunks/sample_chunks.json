@@ -1,0 +1,370 @@
+[
+ {
+  "chunk_id": "doc_001_sec_363_chunk_001",
+  "parent_id": "doc_001_sec_363",
+  "document_id": "doc_001",
+  "section_path": [
+   "Utilities Master Data",
+   "Reallocate Point of Delivery/Installation to New Premise",
+   "Se Example"
+  ],
+  "pages": [
+   95,
+   96,
+   97
+  ],
+  "start_page": 95,
+  "end_page": 97,
+  "token_count": 757,
+  "chunk_types": [
+   "heading",
+   "list",
+   "paragraph",
+   "procedure",
+   "table"
+  ],
+  "covers_section_ids": [
+   "doc_001_sec_363",
+   "doc_001_sec_364",
+   "doc_001_sec_365",
+   "doc_001_sec_366",
+   "doc_001_sec_367",
+   "doc_001_sec_368",
+   "doc_001_sec_369"
+  ],
+  "quality_flags": [
+   "in_graphic_region",
+   "low_confidence_words:1",
+   "low_confidence_words:2",
+   "ocr_table_reconstruction:cell_split_by_x_gap"
+  ],
+  "retrieval_text": "Title: Utilities Master Data\nSection: Utilities Master Data > Reallocate Point of Delivery/Installation to New Premise > Se Example\nDocument: doc_001\n\nContent:\nYou have two installations that are allocated to a premise. Both installations have the same point of delivery:\n\nInstallation A\n\nHeaders: Premise | Premise\nRows:\nPremise | Premise\nV_ALT | V_ALT\n\nHeaders: (not detected in source)\nRows:\n\u201c | a\n\nPoint of Delivery ZP_XXX\n\nIdentification\n\n- If you specify installation A and a new premise V_NEU in transaction ES64, the system identifies installation A, installation B and point of delivery ZP_XXX.\n- If you specify installation B and a new premise V_NEU in transaction ES64, the system also identifies installation A, installation B and point of delivery ZP_XXX.\n- If you specify point of delivery ZP_XXX and a new premise V_NEU in transaction ES64, the system also identifies installation A, installation B and point of delivery ZP_XXX.\n\nReallocation\n\n- If move-in or move-out documents exist for the installations, the premise V_ALT is also replaced with the new premise V_NEU in these documents.\n- You can change the business partner address using the Business Add-In (BAdl) ISU_MOVEPODTOPREMISE_UP_BP_ADD in the default implementation.\n\nChecks\n\n- Thesystem checks whether a parked document exists for installation A or B as a default setting. If a parked document exists whose status has not been set to Completed, the system terminates the reallocation.\n- Three additional checks are performed in the BAdI ISU_LMOVEPODTOPREMISE_CHECK in the default implementation.\n\nee Example You have a point of delivery to which no installation is allocated.\n\nPoint of Delivery ZP_YYY\n\nPremise V_ALT\n\nReallocate Point of Delivery/Installation to New Premise - Example 2\n\nIdentification\n\nYou can specify the point of delivery ZP_YYY and a new premise V_NEU in the transaction ES64.\n\nReallocation\n\nFollowing reallocation, the system replaces the premise V_ALT in the point of delivery with the new premise V_NEU. The following checks and BAdIs apply to the two examples above:\n\nBAdlIs Three BAdls are available with the default implementations:\n\n  - Check for Switch Documents If at least one switch document with the status \"Active\" exists for the point of delivery or the installation to be\n\nreallocated, the system displays an error message.\n\n  - Check for Owner If the owner of the premise for the point of delivery or installation to be reallocated is not the same as the owner of\n\nthe new premise, the system displays a selection dialog box on which you must decide if it is really necessary to make the reallocation.\n\n  - Check for Regional Structure If the regional structure group or street or street section of the premise for the point of delivery or installation to be\n\nreallocated is not the same as the location of the new premise, the system displays a selection dialog box on which you must decide if it is really necessary to make the reallocation.\n\n2 BAdI ISU_LMOVEPODTOPREMISE_ADDRESS You can use this BAdI to decide whether the addresses of the old and new premise are to be displayed on the dialog box. In the default implementation, when the point of delivery or installation is reallocated to the new premise, the system\n\ndisplays a dialog box with the addresses of the old and new premise.\n\n3 BAdI ISU_LMOVEPODTOPREMISE_UP_BP_ADD If you use the transaction ES64 to allocate a different premise to a point of delivery or an installation, you can use this BAdI\n\nto change the address for the business partner.\n\nCRM Connection\n\nAll applications listed are replicated to CRM."
+ },
+ {
+  "chunk_id": "doc_002_sec_000_chunk_003",
+  "parent_id": "doc_002_sec_000",
+  "document_id": "doc_002",
+  "section_path": [
+   "Move-In/Out Overview"
+  ],
+  "pages": [
+   12,
+   13
+  ],
+  "start_page": 12,
+  "end_page": 13,
+  "token_count": 537,
+  "chunk_types": [
+   "heading",
+   "list",
+   "paragraph"
+  ],
+  "covers_section_ids": [
+   "doc_002_sec_043",
+   "doc_002_sec_044",
+   "doc_002_sec_045",
+   "doc_002_sec_046",
+   "doc_002_sec_047",
+   "doc_002_sec_048",
+   "doc_002_sec_049"
+  ],
+  "quality_flags": [
+   "low_confidence_words:3",
+   "merged_sibling_sections"
+  ],
+  "retrieval_text": "Title: Move-In/Out Overview\nSection: Move-In/Out Overview\nDocument: doc_002\n\nContent:\nUse\n\nYou can create a budget billing plan for every contract involved in a move-in, provided the BB procedure (budget billing plan active) field in the contract account contains the value 1 (Statistical procedure for budget billing collection) or 2 (Debit entry procedure for budget billing collection). You have the following options:\n\n- Create budget billing plan manually\n\nTo do this, choose the Budget billing plan pushbutton in move-in processing.\n\n- Create budget billing plan when data is saved\n\nTo have the system create a budget billing plan automatically when you save the move-in document, make the appropriate entry in the Create budget billing plan field in Customizing under |}'Move-In/Out \u00bb Move-In \u00bb Define Move-In Control Parameters on Contract Level. If necessary, you can also override the settings you have established in Customizing. To do this, choose |sExtras Control Parameters Jin move-in processing. You can choose whether to assign a budget billing amount that is valid for all due dates, or whether to have each amount calculated by the system. The budget billing due dates are result from the Scheduling component. The printout date of the first budget billing due date\n\nFor more information see the section on the Budget Billing Plan component.\n\nUse\n\nYou can request a security deposit in move-in processing, or, provided certain conditions have been met, adopt the security deposit of an existing contract.\n\nRe-Request Security Deposit\n\nCustomizing Settings\n\nIn Customizing under |)}Move-In/Out Move-In 's Define Move-In Control Parameters on Contract Level \u201cyou can configure the system so that security deposits are requested through move-in processing.You can request a cash security deposit, or arrange a non-cash security deposit with the customer.\n\n- Acash security deposit is created for each contract. In doing this, this system posts a request document for a cash security deposit in FI-CA.\n- Anon-cash security deposit is created for all the contracts involved in the move-in, for which a non-cash deposit is to be created.\n\nEntry Options on the Move-In Screen\n\nOn the move-in screen, on the tabstrip Contract Data , enter a reason for requesting the security deposit and the amount requested. Now, when you save the move-in document, the system automatically creates a security deposit. If you specified a reason for exempting the customer from a security deposit then one is not created. You can allocate a default value to the security deposit reason and amount using enhancement EC500001 (determine security deposit reason and amount). For more information see the section on Contract Accounts Receivable and Payable (FI-CA) including Security Deposits ."
+ },
+ {
+  "chunk_id": "doc_006_sec_231_chunk_001",
+  "parent_id": "doc_006_sec_231",
+  "document_id": "doc_006",
+  "section_path": [
+   "Reading Meters",
+   "Extrapolation"
+  ],
+  "pages": [
+   85,
+   86
+  ],
+  "start_page": 85,
+  "end_page": 86,
+  "token_count": 753,
+  "chunk_types": [
+   "heading",
+   "list",
+   "note",
+   "paragraph",
+   "procedure",
+   "table"
+  ],
+  "covers_section_ids": [
+   "doc_006_sec_231",
+   "doc_006_sec_232",
+   "doc_006_sec_233",
+   "doc_006_sec_234",
+   "doc_006_sec_235",
+   "doc_006_sec_236"
+  ],
+  "quality_flags": [
+   "low_confidence_words:1",
+   "low_confidence_words:3",
+   "ocr_table_reconstruction:cell_split_by_x_gap"
+  ],
+  "retrieval_text": "Title: Reading Meters\nSection: Reading Meters > Extrapolation\nDocument: doc_006\n\nContent:\nUse\n\nDuring the estimation procedure of extrapolation, a value is forecast for the entire base period. The steps described below are carried out automatically by the system and are not visible to the user. The description should explain the algorithm that derives an expected quantity from a quantity stored in the system and forecasts a meter reading result.\n\nFeatures\n\nWhen using the quantity determination procedure Quantity Determination During Meter Reading, extrapolation takes place as follows:\n\n1 The saved (and rounded) quantities from the meter reading results in the representative base period are added together as a basis for extrapolation.\n2 The system determines the weighting Y of the base period.\n3 The system determines the weighting Ye of the forecast period.\n4 The system determines the quantity Qe for the forecast date by multiplying the added quantity from the base period with the quotient of the weighting of the forecast period and the weighting of the base period.\n\nQ.=Q*(y\u00a5e/y)=(Q/y)* Ve\n\nFormula\n\nThe factor ( Q / Y) describes the Expected Weighted Consumption.\n\n5 From this forecast quantity Qe, that has not yet been rounded, the system calculates the estimated meter reading result Qe taking the relevant factors (such as the gas factors and register factors) into account. This is then rounded and saved according to the system settings.\n6 Taking into account the factors from the forecast period, the system determines the final consumption value from the difference between the estimated meter reading result E and the previous meter reading result MR1. The final consumption\n\nvalue is then rounded and saved.\n\nNote The system does not wait for actual gas factors for extrapolation, but determines the final quantity immediately. This means that no quantity determination triggers are generated.\n\nThe following figure shows extrapolation using a simple example. The abbreviations have the following meanings:\n\n- Q= Quantity\n- Qe = Forecasted quantity\n\n- MR= Meter reading result\n- E=Estimated meter reading result\n\nHeaders: (not detected in source)\nRows:\n12.31.2008 \u2014 06.30.2009 | 07.01.2009 \u2014 12.31.2009\n\nHeaders: 12/31/2008 | 6/30/2009 | 12/31/2009\nRows:\n12/31/2008 | 6/30/2009 | 12/31/2009\nMR | MR | E\n0 | 1\n\nExtrapolation In the example, the base period is between MRO and MR1; that is 12.31.2008 to 06.30.2009. In the example, the forecast period is between MR1 and E; that is 07.01.2009 to 12.31.2009.\n\nConstraints\n\nWhereas during the classical quantity determination procedure, you can exclude estimated values from being used as a basis for extrapolation, this is not possible when using the quantity determination procedure Quantity Determination During Meter Reading as the estimated quantities are also necessary as a basis for extrapolation. If you have selected the Ignore Estimated Meter Reading Results During Extrapolation checkbox in the control parameters in Customizing for Meter Reading Data Processing, the system ignores this setting as soon as a period exists in which the quantity determination procedure Quantity Determination During Meter Reading is used for a register. Customizing for|)*SAP Utilities \u00bb Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Parameters for Meter\n\nReading Data Processing"
+ },
+ {
+  "chunk_id": "doc_011_sec_019_chunk_001",
+  "parent_id": "doc_011_sec_019",
+  "document_id": "doc_011",
+  "section_path": [
+   "SAP Utilities Billing Procedure",
+   "Executing DPC Billing"
+  ],
+  "pages": [
+   6,
+   7
+  ],
+  "start_page": 6,
+  "end_page": 7,
+  "token_count": 757,
+  "chunk_types": [
+   "heading",
+   "list",
+   "note",
+   "paragraph"
+  ],
+  "covers_section_ids": [
+   "doc_011_sec_019",
+   "doc_011_sec_020",
+   "doc_011_sec_021",
+   "doc_011_sec_022",
+   "doc_011_sec_023",
+   "doc_011_sec_024"
+  ],
+  "quality_flags": [
+   "low_confidence_words:1"
+  ],
+  "retrieval_text": "Title: SAP Utilities Billing Procedure\nSection: SAP Utilities Billing Procedure > Executing DPC Billing\nDocument: doc_011\n\nContent:\nReal Meter Reading Results\n\nIf you want to use DPC with the basic category Determination of Current Periods via Meter Reading Results , dynamic backbilling must be executed every time a real meter reading result is entered. If it is not, meter overflows occur whenever the last estimated meter reading result in the Meter Reading Results table (EABL) is higher than the current real meter reading result that you have entered.\n\nee Example You enter real meter reading results during a meter replacement. The previous interim meter reading was estimated. You can use the Invoicing Grouping (R403) event to group the interim billing run and the next periodic billing run together on one bill.\n\nEstimated Meter Reading Results\n\nCaution If you use DPC with the basic category Estimation of Meter Reading Results in Billing , you should not save the estimated meter reading results in the Meter Reading Results table (EABL). Otherwise, you lose the benefits DPC with the basic category Estimation of Meter Reading Results in Billing has over DPC with the basic categoryDetermination of Current Periods via Meter Reading Results. In this case, you would have to perform dynamic backbilling for each real meter reading result entered, so as to avoid meter overflows.\n\nFloating Backbilling\n\nYou can use DPC with the basic category Estimation of Meter Reading Results in Billing to execute floating backbilling to the last real meter reading result. To do this, you must select a period to be created from the basic period category Current Period and Past in a Congruent Time Slice for all categories of schema steps for which you want to execute floating backbilling.\n\nCaution If you use dynamic period control from the basic category Estimation of Meter Reading Results in Billing , you should never print estimated meter reading results on a bill.\n\nThis could have been caused, for example, by a device replacement or an interim meter reading.\n\nAlternative Portion\n\nIf an alternative portion is defined in a contract, you can use variant QUANTI26 ( Simulate Billing Period ) to create a billing document until the scheduled meter reading date for the alternative portion. This means that all of a customer\u2019s contracts can be billed for the same period. The meter reading for the meter reading date of the alternative portion is extrapolated in the variant. The system then simulates a document up to the scheduled meter reading date. In the variant control, you can specify whether the document lines of the simulation document are transferred to the current billing document. For further information about the control options, see the documentation for variant QUANTI26.\n\nDynamic Backbilling\n\nYou can use several variant programs to execute dynamic backbilling. In these variant programs, dynamic backbilling is executed for schema steps that contain a dynamic backbilling group from the DYNBI step. The variant programs have different backbilling periods. If you maintain the dynamic backbilling group in one of the fields SDP1 to SDP5 (schema steps for reversal in dynamic period control), the amounts from the posting-relevant lines these schema steps generated in previous billing documents are transferred to the current document as negative amounts. If you maintain the dynamic backbilling group in the Schema Step for Dynamic Period Control , the period that you allocated to the time slice generator for the current category is dynamically backbilled. You can use the following variant programs for dynamic backbilling:\n\n- DYNBIO1 executes dynamic backbilling back to the last real meter reading result\n- DYNBIO2 dynamically backbills the schema steps from the previous document\n- DYNBIO3 dynamically backbills schema steps from the last dynamic backbilling\n- DYNBIO4 updates amounts from the correction periods in the billing period\n\nFor further information, see the documentation on the individual variants."
+ },
+ {
+  "chunk_id": "doc_018_sec_078_chunk_001",
+  "parent_id": "doc_018_sec_078",
+  "document_id": "doc_018",
+  "section_path": [
+   "Contract Account Business Object",
+   "Check Benefit Free Period"
+  ],
+  "pages": [
+   13,
+   14,
+   15
+  ],
+  "start_page": 13,
+  "end_page": 15,
+  "token_count": 748,
+  "chunk_types": [
+   "heading",
+   "list",
+   "note",
+   "paragraph",
+   "table"
+  ],
+  "covers_section_ids": [
+   "doc_018_sec_078",
+   "doc_018_sec_079",
+   "doc_018_sec_080",
+   "doc_018_sec_081",
+   "doc_018_sec_082",
+   "doc_018_sec_083",
+   "doc_018_sec_084",
+   "doc_018_sec_085",
+   "doc_018_sec_086",
+   "doc_018_sec_087",
+   "doc_018_sec_088",
+   "doc_018_sec_089",
+   "doc_018_sec_090"
+  ],
+  "quality_flags": [
+   "continues_from_previous_page:p12",
+   "low_confidence_words:2",
+   "ocr_table_reconstruction:cell_split_by_x_gap"
+  ],
+  "retrieval_text": "Title: Contract Account Business Object\nSection: Contract Account Business Object > Check Benefit Free Period\nDocument: doc_018\n\nContent:\nDefinition\n\nTo determine whether benefit exemption exists for an insurance policy for a claim period, due to payments that have not been made.\n\nTechnical Data\n\nHeaders: (not detected in source)\nRows:\nEntity Type | Service Operation\nRelease State | released\nTechnical Name | InsuranceContractBenefitFreePeriodBylnsuranceContractIDAndClaimPeriodQueryResponse_In\nNamespace | http://sap.com/xi/FS-CD/Global ri\nApplication Component | FS-CD\nWeb Service Definition (Back End) | INSURANCECONTRACTBENEFITFREEPE\nCategory | SAP A2A\nDirection | inbound\nMode | synchronous\nIdempotency | no\nChange/Update Behavior | not applicable\nP2P Communication Enabled | true\n\nBusiness Context and Use\n\nThe Check Benefit Free Period operation provides information about benefit-free periods. Benefit-free periods occur for an insurance contract if open items with a due date in the past are dunned, for example, and dunning levels defined in Customizing are reached within the corresponding dunning procedure. You can Use the Check Benefit Free Period operation in claim processing to check whether the insurer has to settle the claim or whether the insurer is benefit-free at the time where the claim happened due to missing payments from the customer.\n\nFeatures\n\nThe selection is done by the Insurance Contract Reference ID element, which is the internal ID of the underlying insurance object in Colletions/Disbursements. The operation returns the periods, in which the insurance contract was or is benefit-free.\n\nNote: The benefit-free periods are defined via dunning level categories. The dunning levels with dunning level categories 05 (benefit-free), 08 (legal proceedings - with automatic clearing), or O9 (legal proceedings - without automatic clearing) are regarded as benefit-free. The creation data of the dunning notice represents the start of the benefit-free period.\n\nError Handling\n\nError messages are returned in the error log.\n\nMessage Types\n\n- InsuranceContractBenefitFreePeriodBylnsuranceContractIDAndClaimPeriodQuery\n- InsuranceContractBenefitFreePeriodBylnsuranceContractIDAndClaimPeriodResponse\n\nPrerequisites\n\nYou can only use the Check Benefit Free Period operation if the business function SAP for Insurance: Collections/Disbursements 1 is active and if the dunning by dunning procedure for insurance companies is used.\n\nConstraints\n\nYou can only use the Check Benefit Free Period if you use the dunning by dunning procedures for insurance companies. Note that the start of the benefit-free period might be several days afterwards from a legal perspective, since it takes some days until the dunning letter reaches the customer and there might also be buffer for him to react.\n\nNotes on SAP Implementation\n\nConfiguration\n\nYou set the relevant dunning level categories in Customizing for Collections/Disbursements , under Business Transactions -> Dunning -> Dunning by Dunning Procedure -> Configure Dunning Procedure . The dunning levels with dunning level categories 05 (benefit-free), 08 (legal proceedings - with automatic clearing) or 09 (legal proceedings - without automatic clearing) are regarded as benefit-free.\n\n- Authority object F_KKDU, field FBTCH with value \u201803\u2019\n- Authority object F_KKKO_BUK, field BUKRS with value \u2018*\u2019 field ACTVT with value \u201803\u2019\n- Authority object F_KKKO_GSB, field GSBER with value \u2018*\u2019 field ACTVT with value \u201803\u2019\n\nEnhancements\n\nTo fill customer-defined fields you can use the V407 event.\n\nEnhancements\n\nTo fill customer-defined fields you can use the V407 event."
+ },
+ {
+  "chunk_id": "doc_020_sec_000_chunk_001",
+  "parent_id": "doc_020_sec_000",
+  "document_id": "doc_020",
+  "section_path": [
+   "Clearing Control in Incoming Payments"
+  ],
+  "pages": [
+   1,
+   2
+  ],
+  "start_page": 1,
+  "end_page": 2,
+  "token_count": 268,
+  "chunk_types": [
+   "heading",
+   "note",
+   "paragraph",
+   "table"
+  ],
+  "covers_section_ids": [
+   "doc_020_sec_000",
+   "doc_020_sec_001",
+   "doc_020_sec_002",
+   "doc_020_sec_003",
+   "doc_020_sec_004",
+   "doc_020_sec_005",
+   "doc_020_sec_006",
+   "doc_020_sec_007",
+   "doc_020_sec_008",
+   "doc_020_sec_009",
+   "doc_020_sec_010",
+   "doc_020_sec_011"
+  ],
+  "quality_flags": [
+   "in_graphic_region",
+   "low_confidence_words:1",
+   "low_confidence_words:2",
+   "ocr_table_reconstruction:cell_split_by_x_gap"
+  ],
+  "retrieval_text": "Title: Clearing Control in Incoming Payments\nSection: Clearing Control in Incoming Payments\nDocument: doc_020\n\nContent:\nWarning This document has been generated from SAP Help Portal and is an incomplete version of the official SAP product documentation. The information included in custom documentation may not reflect the arrangement of topics in SAP Help Portal, and may be missing important aspects and/or correlations to other topics. For this reason, it is not for production use. For more information, please visit https://help.sap.com/docs/disclaimer.\n\nDuring the processing of externally initiated payments, the system attempts in event 0110 to assign the payment amount to the open items. By default, the system posts unassigned amounts and partial amounts of a payment on account. Clearing control takes account of entries in the same fields, as in account maintenance. Additional postings, such as payments on account and expense and revenue postings, can also be set up.\n\nee Example A payment of 50- is received.\n\nHVORG\n\nPayable Amount\n\nTVORG\n\nHeaders: (not detected in source)\nRows:\n50 | Clearing Proposal\nXAKTP | AUGBW\n\nInvoice\n\nReceivable\n\nInvoice\n\nReceivable\n\nOn Account\n\nCredit\n\nBudget\n\nBilling\n\nAmount\n\nClearing Control in Incoming Payments\n\nReceivable\n\nOn Account\n\nHeaders: (not detected in source)\nRows:\nE_DIFFB | | 0 |\n\n| -10 |"
+ },
+ {
+  "chunk_id": "doc_024_sec_006_chunk_001",
+  "parent_id": "doc_024_sec_006",
+  "document_id": "doc_024",
+  "section_path": [
+   "Creating Installment Plans",
+   "Activities"
+  ],
+  "pages": [
+   2,
+   3
+  ],
+  "start_page": 2,
+  "end_page": 3,
+  "token_count": 549,
+  "chunk_types": [
+   "paragraph",
+   "procedure"
+  ],
+  "covers_section_ids": [
+   "doc_024_sec_006"
+  ],
+  "quality_flags": [
+   "low_confidence_words:1",
+   "low_confidence_words:2",
+   "low_confidence_words:6"
+  ],
+  "retrieval_text": "Title: Creating Installment Plans\nSection: Creating Installment Plans > Activities\nDocument: doc_024\n\nContent:\n1 In the SAP Easy Access screen, choose |}sAccount \u00bb Installment Plan \u00bb Create 4 (transaction FPR1).\n2 Enter the selection criteria for open items and posting parameters.\n3 Choose Continue.\n4 Enter the installment plan parameters. You can either copy default values to the initial screen using the Installment Plan Type or enter the installment plan parameters manually. You must enter the installment interval and the interval type, as well as the installment plan category. You can also enter a value for the Remaining Amt of field. The system creates an installment plan proposal based on the parameters set. There are two wavs to create an installment plan proposal.\n\n6 Enter values in the fields Rounding Amount and No. of Instmnts. The installment amount is calculated from the total sum of the original receivables, the rounding amount, and the number of installments. If you enter a rounding amount, the\n\nsystem automatically checks whether this amount complies with the rounding rules defined in Customizing. Regardless of whether you have the system create an installment plan proposal by entering the installment amount or by entering the rounding amount and number of installments, there may be a remaining amount when the individual installments are calculated. This is because the total of the individual installments must always equal the total of the original receivable (installment amount * number of installments + remaining amount = total of original receivable). In the Remaining Amount field, specify whether this remaining amount is to be included in the first or last installment, or ina new installment. If you set the Distribute indicator, the interest and charges are distributed over all of the due dates.\n\n7 Alist of selected items appears. Select the open items that you want to include in the installment plan. The start date defines the due date of the first installment. You can assign numerical key figures in the Prio column. This enables you to influence the clearing priority of\n\nthe selected original items when payments are received.\n\n8 Choose Continue. An Installment Plan Proposal appears, in which you can make the following changes:\n  - Add installments\n  - Delete installments\n  - Calculate or delete interest\n  - Create or delete an installment plan surcharge and/or an inflation surcharge The prerequisite in this case is that you activated the enhancement in Customizing under |)'Business Transactions Deferral and Installment Plans \u00bb Activate Installment Plan Enhancement for Charges/Interest\n  - Inthe bottom right hand corner of the screen, a table appears with the most important account balances (such as open amount, due amount, installment plan, credit). If you select a balance, the account balance display appears and you can see the corresponding items.\n9 Save the installment plan."
+ },
+ {
+  "chunk_id": "doc_026_sec_059_chunk_001",
+  "parent_id": "doc_026_sec_059",
+  "document_id": "doc_026",
+  "section_path": [
+   "FI-CA Dunning",
+   "Dunning Proposal Run",
+   "Activities"
+  ],
+  "pages": [
+   13,
+   14
+  ],
+  "start_page": 13,
+  "end_page": 14,
+  "token_count": 731,
+  "chunk_types": [
+   "note",
+   "paragraph",
+   "procedure"
+  ],
+  "covers_section_ids": [
+   "doc_026_sec_059"
+  ],
+  "quality_flags": [
+   "low_confidence_words:1",
+   "low_confidence_words:2",
+   "low_confidence_words:3"
+  ],
+  "retrieval_text": "Title: FI-CA Dunning\nSection: FI-CA Dunning > Dunning Proposal Run > Activities\nDocument: doc_026\n\nContent:\n1 To do this, in the SAP menu, choose |}Periodic Processing \u00bb For Contract Accounts \u00bb Dunning \u00bb Dunning Proposal Run (transaction FPVA).\n2 Enter a date and an ID that you can use to identify the run later.\n3 On the General Selections tab, enter the parameters that the program should use to select the items to be dunned. Using the dynamic selections, you can select the fields of the item (table DFKKOP). For selecting business partners or contract accounts, you can also use preselections for master data. Using these preselections, the system checks the specified master records against the interval limits of the mass activity, as if you had\n\nentered these as individual values for the business partner/contract account. In each interval, therefore, the system processes only those master records that are both within the interval limits and are part of the preselection. To switch back and forth between direct selection and preselection, choose the pushbuttons Ry Preselection (Switch to Preselection) and ay Direct Selection (Switch to Direct Selection) next to the input fields for the business partner and contract account. By choosing the (| Detail pushbutton, you can display the preselection that was entered.\n\n4 On the Dunning Parameters tab, specify the following parameters required for the dunning notices:\n  - Net due date of the items to be dunned (optional)\n  - Date of issue of the dunning notices As the date of issue, enter the date on which you plan to print the dunning notices. The system proposes the current date. Using the issue date, the system determines the days in arrears for the item due and the interval to the last dunning notice for the business partner. Using execution variants, you can postprocess the dunning proposal on the basis of any company-specific criteria in\n\nevent 300. If you set the Start Activity Run indicator, when you start the dunning proposal run, the system automatically starts the dunning activity run as well.\n\nNote that if you start the dunning activity run directly after the dunning proposal run, you can no longer postprocess dunning proposals.\n\n5 Run the program. For more information, see Functions for Scheduling Program Runs. You can postprocess the dunning proposal. To do this, check the application log of the dunning proposal run. For example,\n\nyou can exclude individual dunning notices from the dunning activity run by reversing the relevant dunning notices. Or you can remove dunning blocks that have been set in error. After you have completed postprocessing, delete the relevant dunning proposal run in the menu under |}Environment Delete Dunning Proposal \u201c. Then start a new dunning proposal run. You can start the dunning activity run directly afterwards by setting the Trigger Activity Run indicator, or you can start it manually in a separate step.\n\nNote The dunning proposal run checks whether there is a dunning notice that has not been executed for a business partner in the system. If this is the case, the dunning proposal run does not create a new dunning notice and issues a warning in the application log. The dunning proposal run considers dunning reductions that result from dispute cases in SAP Dispute Management, for example. The system distributes the dunning reductions to the dunning groups in event 0335 and reduces the dunning balance by this amount. SAP provides the sample function module FKK_SAMPLE_0335_DISPUTE for the deduction of amounts from dispute cases. Define the module as an installation-specific function module for event 0335."
+ },
+ {
+  "chunk_id": "doc_004_sec_001_chunk_001",
+  "parent_id": "doc_004_sec_001",
+  "document_id": "doc_004",
+  "section_path": [
+   "Move-Out Process",
+   "Move-Out"
+  ],
+  "pages": [
+   2,
+   3,
+   4
+  ],
+  "start_page": 2,
+  "end_page": 4,
+  "token_count": 650,
+  "chunk_types": [
+   "heading",
+   "paragraph"
+  ],
+  "covers_section_ids": [
+   "doc_004_sec_001",
+   "doc_004_sec_002",
+   "doc_004_sec_003",
+   "doc_004_sec_004",
+   "doc_004_sec_005",
+   "doc_004_sec_006",
+   "doc_004_sec_007",
+   "doc_004_sec_008",
+   "doc_004_sec_009",
+   "doc_004_sec_010",
+   "doc_004_sec_011",
+   "doc_004_sec_012",
+   "doc_004_sec_013"
+  ],
+  "quality_flags": [
+   "in_graphic_region",
+   "low_confidence_words:1",
+   "low_confidence_words:2",
+   "low_confidence_words:3",
+   "non_bold_layout_candidate:not_promoted_to_section"
+  ],
+  "retrieval_text": "Title: Move-Out Process\nSection: Move-Out Process > Move-Out\nDocument: doc_004\n\nContent:\nUse\n\nDuring the move-out transaction, you execute most of the activities required to cancel the customer's supply of utilities services. You make changes to the business partner master data that result from a move-out. You specifically end the allocation of a contract to an installation on the move-out date.\n\nMove-out\n\nInstallation |\n\nMove-out processing stops the active payment plans. A move-out confirmation letter and an immediate bill can also be triggered from the move-out.\n\nPrerequisites\n\nYou require one or more existing contracts with installations for the requested move-out date to create a move-out.\n\nFeatures\n\nbilling amounts whose print date is later than the move-out date are no longer requested. Budget billing amounts that have already been paid are cleared when the final billing is invoiced.\n\nOpen Items in Dunning\n\nOnce you have created the move-out. you have the option of applying an alternative dunning procedure to the contracts in the move-out. You can also deactivate the dunning procedure that is currently active by specifying a dunning block reason due to the move-out. This data can also be defined as default data by making the neessary Customizing settings.\n\nMove-Out Status\n\nIf you edit or display a move-out document, the system displays the move-out status for every contract. This shows how far you have completed move-out processing for this contract. The system calculates the minimum status from the move-out status and also displays this. This means that you have quick access to the status of overall move-out processing.\n\nMove-Out Documents\n\nIf you display move-out documents for a business partner or premise, the system displays documents for the last three months. If no documents exist for this period, the system displays the documents from the last six months.\n\nFinal Billing\n\nYou have the option of triggering an immediate bill for contracts in the move-out from move-out processing, once move-out status 05 (meter readings entered completely) has been reached for the entire move-out. During this process, billing, invoicing and then the bill print are accessed.\n\nActivities\n\nScreen Layout\n\nIn Customizing under |)sMove-In/Out Move-Out - Configure Tabs for Move-Out Screen \u201cJ, you can configure various views of the data available on the move-out screen. This consists of various tab pages that you can use to divide the data into various logical units according to your requirements. For more information, see Screen Layout.\n\nMove-Out Date\n\nYou can subsequently change the move-out date for a move-out that has already been created without affecting the date of the subsequent move-in. You cannot change the date for contracts that have already been billed or for a contract and customer change.\n\nActual Move-Out Date\n\nIn addition to the move-out date, you can also enter an alternative actual move-in date.\n\nSave\n\nCertain actions in the move-out (such as triggering a move-out confirmation letter) assume that the changes triggered by the\n\nYou can also save your changes in the move-out without leaving the move-out screen. To do this, choose Save and Hold.\n\nFinal Billing\n\nIn Customizing under |)*Move-In/Out Move-Out Define Move-Out Control Parameters at Contract Level 9, you can specify that an immediate bill is created automatically when the move-out id saved."
+ },
+ {
+  "chunk_id": "doc_006_sec_000_chunk_002",
+  "parent_id": "doc_006_sec_000",
+  "document_id": "doc_006",
+  "section_path": [
+   "Reading Meters"
+  ],
+  "pages": [
+   2
+  ],
+  "start_page": 2,
+  "end_page": 2,
+  "token_count": 335,
+  "chunk_types": [
+   "list",
+   "paragraph",
+   "table"
+  ],
+  "covers_section_ids": [
+   "doc_006_sec_001",
+   "doc_006_sec_002"
+  ],
+  "quality_flags": [
+   "in_graphic_region",
+   "low_confidence_words:7",
+   "merged_sibling_sections",
+   "ocr_table_reconstruction:cell_split_by_x_gap"
+  ],
+  "retrieval_text": "Title: Reading Meters\nSection: Reading Meters\nDocument: doc_006\n\nContent:\nYou can use this component to organize meter readings and meter reading results. Devices are either read periodically for periodic billing or aperiodically, such as for control meter readings and readings at the time of device replacement, removal, or disconnection. Devices can also be read for a certain activity, such as a move-in or a removal. In such cases, the meter reading is triggered directly by the activity, and not by the Meter Reading component. Periodic Meter Reading Process Periodic Meter Reading Process\n\nBilling Order\n\nHeaders: 5 | Meter Reading Entry + | \u201d\nRows:\n5 | Meter Reading Entry + | \u201d\nOrder Creation = \u2014\u2014> | Order Output | \u2014> | Validation | Billing\n; | Correction of Meter\nDownload to | Upload from Mobile | Reading Result\nMobile Device | Device / MDUS/ ... | .\n\nCorrection\n\nHeaders: (not detected in source)\nRows:\nMDUS Request | Market Communication | Estimation\nPrint Document | Manual Entry\n\nRelease\n\nHeaders: (not detected in source)\nRows:\nMeter Reading Order | Meter Reading Result | Billing Document\n\nFirst, the meter reading order is created and printed as a meter reading document or downloaded to an external entry system. The meter reading results are either entered manually or uploaded. They are then validated and corrected, if necessary. The results are then forwarded to the Contract Billing (IS-U-Bl) component.\n\nThe following Business Application Programming Interfaces (BAPI) are available in the Business Object Repository (BOR) for selecting meter reading orders and results:\n\n- MeterReadingDocument.GetList (select meter reading orders and results)\n- MeterReadingDocument.Upload (upload meter reading results)"
+ }
+]

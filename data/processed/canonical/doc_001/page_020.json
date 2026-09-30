@@ -1,0 +1,553 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 20,
+ "source_page_hash": "6a970f6eb81525187f3ecd9650674a99d50cec5b539e3262edac9220ab9d0e3c",
+ "is_cover_page": false,
+ "title": "Archiving Function",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nReplication Object                                    Type                                                        Publications\nBUPA_MAIN                 Simple Bulk                All Business Partners (MESG)\nBUPA_REL                  Simple Bulk                All Business Partner\n\nRelationships (MESG)\n\n4G Caution\nDo not create any subscriptions to publications of the replication object VEND_ MAIN for the S/4HANA system.\n\ni Note\n\nIf problems occur during business partner replication in your live system, you can display the status of BDoc messages\n\nfor the replication objects BUPA MAIN and BUPA REL. On the SAP Easy Access screen, choose |}sArchitecture and\nTechnology \u00bb Middleware \u00bb Monitoring \u00bb Message Flow \u00bb Display BDoc Message Summary\n\n4. In both the S/4HANA and CRM systems, create number ranges and assign them to groupings in Customizing for SAP\nBusiness Partner. To do so, choose |}Business Partner \u00bb Basic Settings } Number Ranges and Groupings\n\n1 Note\n\nThe groupings that you use in the CRM system for business partner distribution to the S/4HANA system have to agree\nwith those in the S/4HANA system and the other way around. The grouping criteria are used for determining the\nappropriate number range in the target system. It is not mandatory for the business partners to have the same numbers\nin the CRM and S/4HANA systems. If the numbers are the same, you have to ensure that you create large enough\nnumber ranges in the CRM and S/4HANA systems. In the target system (S/4HANA system) assign a number range with\nexternal number assignment to each grouping criterion that you use for identical numbering. In addition, you can\n\nactivate function module COM BUPA MWX_ MAP NUMRANGE in the S/4HANA system as explained below.\n\n5. Activate the function modules for CRM outbound data distribution in the CRM system. In the menu, choose |*System\nServices > Table Maintenance \u00bb Extended Table Maintenance 3 and call the view V_BUT CALL FU.\n\nActivate BDoc generation for the middleware. Activate the following function modules by setting the indicator in the Call\n\ncolumn. The position numbers specify the sequence in which the function modules are executed within a group with the\nsame event and object. Only the sequence of the numbers is important. That means that the absolute values of the items\ncan be different.\n\nEvent                     Object                   Item                       Function Module                                    Calling the\nArchiving Function\n\nCRMOU          BUPA           1000000         BUPA_OUTBOUND_BPS_ FILL CENTRAL | X\nCRMOU          BUPA           1200000         CRM_BUPA_OUTB_ BPS FILL_MD       X\nCRMOU          BUPA           1300000         CRM BUPA BDOC BPS FILL DATA     X\nCRMOU          BUPA           2000000         ABA_FSBP_OUTBOUND_BPS_ FILL      X\nCRMOU          BUPR           1000000         BUPA_OUTBOUND_BPR_FILL_CENTRAL | X\nCRMOU          BUPR           1200000         CRM BUPA OUTB BPR FILL MD       X\n\n",
+ "cleaned_text": "Replication Object | Type | Publications\n\nBUPA_MAIN | Simple Bulk | All Business Partners (MESG)\n\nBUPA_REL | Simple Bulk | All Business Partner\n\nRelationships (MESG)\n\nCaution Do not create any subscriptions to publications of the replication object VEND_ MAIN for the S/4HANA system.\n\ni Note If problems occur during business partner replication in your live system, you can display the status of BDoc messages for the replication objects BUPA MAIN and BUPA REL. On the SAP Easy Access screen, choose |}sArchitecture and Technology \u00bb Middleware \u00bb Monitoring \u00bb Message Flow \u00bb Display BDoc Message Summary\n\n4 In both the S/4HANA and CRM systems, create number ranges and assign them to groupings in Customizing for SAP Business Partner. To do so, choose |}Business Partner \u00bb Basic Settings } Number Ranges and Groupings\n\nNote The groupings that you use in the CRM system for business partner distribution to the S/4HANA system have to agree with those in the S/4HANA system and the other way around. The grouping criteria are used for determining the appropriate number range in the target system. It is not mandatory for the business partners to have the same numbers in the CRM and S/4HANA systems. If the numbers are the same, you have to ensure that you create large enough number ranges in the CRM and S/4HANA systems. In the target system (S/4HANA system) assign a number range with external number assignment to each grouping criterion that you use for identical numbering. In addition, you can activate function module COM BUPA MWX_ MAP NUMRANGE in the S/4HANA system as explained below.\n\n5 Activate the function modules for CRM outbound data distribution in the CRM system. In the menu, choose |*System\n\nServices > Table Maintenance \u00bb Extended Table Maintenance 3 and call the view V_BUT CALL | FU.\n\nActivate BDoc generation for the middleware. Activate the following function modules by setting the indicator in the Call column. The position numbers specify the sequence in which the function modules are executed within a group with the same event and object. Only the sequence of the numbers is important. That means that the absolute values of the items can be different.\n\nEvent | Object | Item | Function Module | Calling the\n\nArchiving Function\n\nCRMOU | BUPA | 1000000 | BUPA_OUTBOUND_BPS_ FILL CENTRAL | X\n\nCRMOU | BUPA | 1200000 | CRM_BUPA_OUTB_ BPS FILL_MD | X\n\nCRMOU | BUPA | 1300000 | CRM BUPA BDOC BPS FILL DATA | X\n\nCRMOU | BUPA | 2000000 | ABA_FSBP_OUTBOUND_BPS_ FILL | X\n\nCRMOU | BUPR | 1000000 | BUPA_OUTBOUND_BPR_FILL_CENTRAL | X\n\nCRMOU | BUPR | 1200000 | CRM BUPA OUTB BPR FILL MD | X",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "4G",
+   "bbox": [
+    283,
+    640,
+    546,
+    684
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    1386,
+    442,
+    1423
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p020_b000",
+   "type": "table",
+   "page_number": 20,
+   "bbox": [
+    281,
+    195,
+    2420,
+    443
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    281,
+    1024,
+    1769
+   ],
+   "headers": [
+    "Replication Object",
+    "Type",
+    "Publications"
+   ],
+   "rows": [
+    [
+     "BUPA_MAIN",
+     "Simple Bulk",
+     "All Business Partners (MESG)"
+    ],
+    [
+     "BUPA_REL",
+     "Simple Bulk",
+     "All Business Partner"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Replication Object",
+     "Type",
+     "Publications"
+    ],
+    [
+     "BUPA_MAIN",
+     "Simple Bulk",
+     "All Business Partners (MESG)"
+    ],
+    [
+     "BUPA_REL",
+     "Simple Bulk",
+     "All Business Partner"
+    ]
+   ],
+   "section_id": "doc_001_sec_056"
+  },
+  {
+   "block_id": "doc_001_p020_b001",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    1771,
+    462,
+    2231,
+    501
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [],
+   "text": "Relationships (MESG)",
+   "section_id": "doc_001_sec_056"
+  },
+  {
+   "block_id": "doc_001_p020_b002",
+   "type": "note",
+   "page_number": 20,
+   "bbox": [
+    283,
+    640,
+    2286,
+    773
+   ],
+   "ocr_confidence": 90.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Caution",
+   "text": "Caution Do not create any subscriptions to publications of the replication object VEND_ MAIN for the S/4HANA system.",
+   "section_id": "doc_001_sec_056"
+  },
+  {
+   "block_id": "doc_001_p020_b003",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    282,
+    883,
+    2429,
+    1137
+   ],
+   "ocr_confidence": 89.2,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "i Note If problems occur during business partner replication in your live system, you can display the status of BDoc messages for the replication objects BUPA MAIN and BUPA REL. On the SAP Easy Access screen, choose |}sArchitecture and Technology \u00bb Middleware \u00bb Monitoring \u00bb Message Flow \u00bb Display BDoc Message Summary",
+   "section_id": "doc_001_sec_056"
+  },
+  {
+   "block_id": "doc_001_p020_b004",
+   "type": "list",
+   "page_number": 20,
+   "bbox": [
+    211,
+    1225,
+    2373,
+    1313
+   ],
+   "ocr_confidence": 90.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "In both the S/4HANA and CRM systems, create number ranges and assign them to groupings in Customizing for SAP Business Partner. To do so, choose |}Business Partner \u00bb Basic Settings } Number Ranges and Groupings"
+    }
+   ],
+   "section_id": "doc_001_sec_056"
+  },
+  {
+   "block_id": "doc_001_p020_b005",
+   "type": "note",
+   "page_number": 20,
+   "bbox": [
+    282,
+    1386,
+    2456,
+    1884
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "label": "Note",
+   "text": "Note The groupings that you use in the CRM system for business partner distribution to the S/4HANA system have to agree with those in the S/4HANA system and the other way around. The grouping criteria are used for determining the appropriate number range in the target system. It is not mandatory for the business partners to have the same numbers in the CRM and S/4HANA systems. If the numbers are the same, you have to ensure that you create large enough number ranges in the CRM and S/4HANA systems. In the target system (S/4HANA system) assign a number range with external number assignment to each grouping criterion that you use for identical numbering. In addition, you can activate function module COM BUPA MWX_ MAP NUMRANGE in the S/4HANA system as explained below.",
+   "section_id": "doc_001_sec_056"
+  },
+  {
+   "block_id": "doc_001_p020_b006",
+   "type": "list",
+   "page_number": 20,
+   "bbox": [
+    211,
+    1977,
+    2375,
+    2016
+   ],
+   "ocr_confidence": 90.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Activate the function modules for CRM outbound data distribution in the CRM system. In the menu, choose |*System"
+    }
+   ],
+   "section_id": "doc_001_sec_056"
+  },
+  {
+   "block_id": "doc_001_p020_b007",
+   "type": "table",
+   "page_number": 20,
+   "bbox": [
+    264,
+    2021,
+    2097,
+    2071
+   ],
+   "ocr_confidence": 82.2,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    264,
+    2092
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Services > Table Maintenance \u00bb Extended Table Maintenance 3 and call the view V_BUT CALL",
+     "FU."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Services > Table Maintenance \u00bb Extended Table Maintenance 3 and call the view V_BUT CALL",
+     "FU."
+    ]
+   ],
+   "section_id": "doc_001_sec_056"
+  },
+  {
+   "block_id": "doc_001_p020_b008",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    254,
+    2119,
+    2441,
+    2339
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Activate BDoc generation for the middleware. Activate the following function modules by setting the indicator in the Call column. The position numbers specify the sequence in which the function modules are executed within a group with the same event and object. Only the sequence of the numbers is important. That means that the absolute values of the items can be different.",
+   "section_id": "doc_001_sec_056"
+  },
+  {
+   "block_id": "doc_001_p020_b009",
+   "type": "table",
+   "page_number": 20,
+   "bbox": [
+    281,
+    2468,
+    2321,
+    2512
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    281,
+    643,
+    1007,
+    1384,
+    2138
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Event",
+     "Object",
+     "Item",
+     "Function Module",
+     "Calling the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Event",
+     "Object",
+     "Item",
+     "Function Module",
+     "Calling the"
+    ]
+   ],
+   "section_id": "doc_001_sec_056"
+  },
+  {
+   "block_id": "doc_001_p020_b010",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    2137,
+    2532,
+    2459,
+    2566
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Archiving Function",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_057"
+  },
+  {
+   "block_id": "doc_001_p020_b011",
+   "type": "table",
+   "page_number": 20,
+   "bbox": [
+    281,
+    2631,
+    2159,
+    2875
+   ],
+   "ocr_confidence": 78.1,
+   "flags": [
+    "low_confidence_words:3",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    281,
+    644,
+    1008,
+    1383,
+    2137
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "CRMOU",
+     "BUPA",
+     "1000000",
+     "BUPA_OUTBOUND_BPS_ FILL CENTRAL | X"
+    ],
+    [
+     "CRMOU",
+     "BUPA",
+     "1200000",
+     "CRM_BUPA_OUTB_ BPS FILL_MD",
+     "X"
+    ],
+    [
+     "CRMOU",
+     "BUPA",
+     "1300000",
+     "CRM BUPA BDOC BPS FILL DATA",
+     "X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "CRMOU",
+     "BUPA",
+     "1000000",
+     "BUPA_OUTBOUND_BPS_ FILL CENTRAL | X"
+    ],
+    [
+     "CRMOU",
+     "BUPA",
+     "1200000",
+     "CRM_BUPA_OUTB_ BPS FILL_MD",
+     "X"
+    ],
+    [
+     "CRMOU",
+     "BUPA",
+     "1300000",
+     "CRM BUPA BDOC BPS FILL DATA",
+     "X"
+    ]
+   ],
+   "section_id": "doc_001_sec_057"
+  },
+  {
+   "block_id": "doc_001_p020_b012",
+   "type": "table",
+   "page_number": 20,
+   "bbox": [
+    281,
+    2986,
+    2159,
+    3230
+   ],
+   "ocr_confidence": 87.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    281,
+    644,
+    1006,
+    1382,
+    2136
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "CRMOU",
+     "BUPA",
+     "2000000",
+     "ABA_FSBP_OUTBOUND_BPS_ FILL",
+     "X"
+    ],
+    [
+     "CRMOU",
+     "BUPR",
+     "1000000",
+     "BUPA_OUTBOUND_BPR_FILL_CENTRAL | X"
+    ],
+    [
+     "CRMOU",
+     "BUPR",
+     "1200000",
+     "CRM BUPA OUTB BPR FILL MD",
+     "X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "CRMOU",
+     "BUPA",
+     "2000000",
+     "ABA_FSBP_OUTBOUND_BPS_ FILL",
+     "X"
+    ],
+    [
+     "CRMOU",
+     "BUPR",
+     "1000000",
+     "BUPA_OUTBOUND_BPR_FILL_CENTRAL | X"
+    ],
+    [
+     "CRMOU",
+     "BUPR",
+     "1200000",
+     "CRM BUPA OUTB BPR FILL MD",
+     "X"
+    ]
+   ],
+   "section_id": "doc_001_sec_057"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.1152,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "6a970f6eb81525187f3ecd9650674a99d50cec5b539e3262edac9220ab9d0e3c"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making Settings for CRM Middleware",
+  "Procedure",
+  "Register/Deregister Queues \u2122"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_056",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_057",
+   "role": "starts_here"
+  }
+ ]
+}

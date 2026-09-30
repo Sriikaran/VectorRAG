@@ -1,0 +1,365 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 2,
+ "source_page_hash": "db3bf06dbb92392b73dca5c94a1fc7a0676deed8e461c34da238df9e525470c3",
+ "is_cover_page": false,
+ "title": "Move-In/Out",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\n\nMove-In/Out\n\nPurpose\n\nThis component enables you to process a customer move-in or move-out. In the case of a move-in, you can create a business\n\npartner and contract account for the customer, or select existing ones. The contracts are then created and allocated to a utility\ninstallation.\n\nIn a move-out, you terminate the customer's contract. If anew customer moves into the installation, the installation is allocated to\nthis customer's contract.\n\nFor more information, see Move-In and Move-Out.\n\nIntegration\n\nLetters to the customer, such as welcome letters and move-out confirmations are created using the Print Workbench component.\nThe SAP Business Workflow component (BC-BMT-WFM) enables you to monitor and configure the workflow processes.\n\nFeatures\n\nYou can have the system trigger a number of activities automatically. You can:\n\ne process the entire transaction immediately and in full.\n\ne create a final bill for the move-out customer.\n\ne create a welcome letter for the move-in customer.\n\nYou can also configure the screen layout to suit your requirements.\n\nMove-In/Out Processing\n\nUse\n\nYou can use Move-In/Out Processing to process the following:\n\ne Move-in/out (move-out with subsequent move-in) for a premise\ne Move-in/out for a business partner\n\ne Move-in\n\ne Move-out\n\ne Contract change\n\nFrom the Move-In/Out initial screen, you can enter search parameters that act as transfer parameters for calling the move-in/out.\n\nTI... LL. ww kL Lg nw 2 LLL OL OCD LIB 2k LLCT ly CC@#=zxxE BLL), LI LT LL Cw 8} wil) Cw eLEOBSamseiee LXER LO.w we ' apopoo gp7 ee\n",
+ "cleaned_text": "Move-In/Out\n\nPurpose\n\nThis component enables you to process a customer move-in or move-out. In the case of a move-in, you can create a business partner and contract account for the customer, or select existing ones. The contracts are then created and allocated to a utility installation. In a move-out, you terminate the customer's contract. If anew customer moves into the installation, the installation is allocated to this customer's contract. For more information, see Move-In and Move-Out.\n\nIntegration\n\nLetters to the customer, such as welcome letters and move-out confirmations are created using the Print Workbench component. The SAP Business Workflow component (BC-BMT-WFM) enables you to monitor and configure the workflow processes.\n\nFeatures\n\nYou can have the system trigger a number of activities automatically. You can: e process the entire transaction immediately and in full. e create a final bill for the move-out customer. e create a welcome letter for the move-in customer. You can also configure the screen layout to suit your requirements.\n\nMove-In/Out Processing\n\nUse\n\nYou can use Move-In/Out Processing to process the following:\n\n- Move-in/out (move-out with subsequent move-in) for a premise\n\n- Move-in/out for a business partner\n\n- Move-in\n\n- Move-out\n\n- Contract change\n\nFrom the Move-In/Out initial screen, you can enter search parameters that act as transfer parameters for calling the move-in/out.\n\nTI... LL. ww kL Lg nw 2 LLL OL OCD LIB 2k LLCT ly CC@#=zxxE BLL), LI LT LL Cw 8} wil) Cw eLEOBSamseiee LXER LO.w we ' apopoo gp7 ee",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    255,
+    586,
+    317
+   ],
+   "ocr_confidence": 71.5,
+   "flags": [],
+   "text": "Move-In/Out",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_001"
+  },
+  {
+   "block_id": "doc_002_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    435,
+    352,
+    492
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Purpose",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_002"
+  },
+  {
+   "block_id": "doc_002_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    565,
+    2473,
+    1032
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "This component enables you to process a customer move-in or move-out. In the case of a move-in, you can create a business partner and contract account for the customer, or select existing ones. The contracts are then created and allocated to a utility installation. In a move-out, you terminate the customer's contract. If anew customer moves into the installation, the installation is allocated to this customer's contract. For more information, see Move-In and Move-Out.",
+   "section_id": "doc_002_sec_002"
+  },
+  {
+   "block_id": "doc_002_p002_b003",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    127,
+    1148,
+    431,
+    1205
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_003"
+  },
+  {
+   "block_id": "doc_002_p002_b004",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    1281,
+    2464,
+    1381
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Letters to the customer, such as welcome letters and move-out confirmations are created using the Print Workbench component. The SAP Business Workflow component (BC-BMT-WFM) enables you to monitor and configure the workflow processes.",
+   "section_id": "doc_002_sec_003"
+  },
+  {
+   "block_id": "doc_002_p002_b005",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    1493,
+    361,
+    1538
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_004"
+  },
+  {
+   "block_id": "doc_002_p002_b006",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    1626,
+    1523,
+    2114
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "You can have the system trigger a number of activities automatically. You can: e process the entire transaction immediately and in full. e create a final bill for the move-out customer. e create a welcome letter for the move-in customer. You can also configure the screen layout to suit your requirements.",
+   "section_id": "doc_002_sec_004"
+  },
+  {
+   "block_id": "doc_002_p002_b007",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    2263,
+    1007,
+    2339
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [],
+   "text": "Move-In/Out Processing",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_005"
+  },
+  {
+   "block_id": "doc_002_p002_b008",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    2439,
+    225,
+    2485
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_006"
+  },
+  {
+   "block_id": "doc_002_p002_b009",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    2572,
+    1250,
+    2610
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "You can use Move-In/Out Processing to process the following:",
+   "section_id": "doc_002_sec_006"
+  },
+  {
+   "block_id": "doc_002_p002_b010",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    2694,
+    1406,
+    3142
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Move-in/out (move-out with subsequent move-in) for a premise"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Move-in/out for a business partner"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Move-in"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Move-out"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Contract change"
+    }
+   ],
+   "section_id": "doc_002_sec_006"
+  },
+  {
+   "block_id": "doc_002_p002_b011",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    125,
+    3226,
+    2470,
+    3263
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "From the Move-In/Out initial screen, you can enter search parameters that act as transfer parameters for calling the move-in/out.",
+   "section_id": "doc_002_sec_006"
+  },
+  {
+   "block_id": "doc_002_p002_b012",
+   "type": "fragment",
+   "page_number": 2,
+   "bbox": [
+    124,
+    3281,
+    1879,
+    3300
+   ],
+   "ocr_confidence": 29.4,
+   "flags": [
+    "low_confidence_words:31",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "TI... LL. ww kL Lg nw 2 LLL OL OCD LIB 2k LLCT ly CC@#=zxxE BLL), LI LT LL Cw 8} wil) Cw eLEOBSamseiee LXER LO.w we ' apopoo gp7 ee",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_002_sec_006"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.0889,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 85,
+   "page_hash": "db3bf06dbb92392b73dca5c94a1fc7a0676deed8e461c34da238df9e525470c3"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Move-In/Out"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_003",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_004",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_005",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_006",
+   "role": "starts_here"
+  }
+ ]
+}

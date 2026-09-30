@@ -1,0 +1,370 @@
+OCR pipeline: mode=full docs=29 pages=501 engine=tesserocr 5.5.1 (Tesseract LSTM)
+  [2/501] doc_001 p  2:   674 chars,   95 words, conf=94, 0.98s
+  [3/501] doc_001 p  3:  2416 chars,  315 words, conf=94, 1.48s
+  [4/501] doc_001 p  4:  2548 chars,  389 words, conf=94, 1.52s
+  [5/501] doc_001 p  5:  2918 chars,  463 words, conf=94, 1.62s
+  [6/501] doc_001 p  6:  1951 chars,  317 words, conf=95, 1.12s
+  [7/501] doc_001 p  7:  2727 chars,  383 words, conf=93, 1.42s
+  [8/501] doc_001 p  8:  2569 chars,  401 words, conf=93, 1.48s
+  [9/501] doc_001 p  9:  3126 chars,  441 words, conf=94, 1.44s
+  [10/501] doc_001 p 10:  3167 chars,  493 words, conf=94, 1.75s
+  [11/501] doc_001 p 11:  2277 chars,  392 words, conf=94, 1.31s
+  [12/501] doc_001 p 12:  2235 chars,  361 words, conf=94, 1.12s
+  [13/501] doc_001 p 13:  2660 chars,  426 words, conf=94, 1.47s
+  [14/501] doc_001 p 14:  2874 chars,  472 words, conf=94, 1.47s
+  [15/501] doc_001 p 15:  2439 chars,  404 words, conf=93, 1.48s
+  [16/501] doc_001 p 16:  3166 chars,  541 words, conf=90, 1.62s
+  [17/501] doc_001 p 17:  2523 chars,  378 words, conf=89, 1.42s
+  [18/501] doc_001 p 18:  2524 chars,  363 words, conf=91, 1.26s
+  [19/501] doc_001 p 19:  2365 chars,  363 words, conf=90, 1.32s
+  [20/501] doc_001 p 20:  2997 chars,  414 words, conf=90, 1.21s
+  [21/501] doc_001 p 21:  2662 chars,  303 words, conf=87, 1.17s
+  [22/501] doc_001 p 22:  2513 chars,  308 words, conf=88, 1.03s
+  [23/501] doc_001 p 23:  1882 chars,  258 words, conf=86, 1.12s
+  [24/501] doc_001 p 24:  2725 chars,  292 words, conf=85, 1.24s
+  [25/501] doc_001 p 25:  2799 chars,  404 words, conf=89, 1.51s
+  [26/501] doc_001 p 26:  2607 chars,  329 words, conf=89, 1.4s
+  [27/501] doc_001 p 27:  2598 chars,  353 words, conf=92, 1.51s
+  [29/501] doc_001 p 28:  2744 chars,  358 words, conf=91, 1.63s
+  [30/501] doc_001 p 30:  2516 chars,  324 words, conf=91, 1.3s
+  [31/501] doc_001 p 31:  2466 chars,  310 words, conf=78, 1.18s
+  [32/501] doc_001 p 32:  1887 chars,  294 words, conf=94, 1.17s
+  [33/501] doc_001 p 33:  2949 chars,  255 words, conf=83, 1.07s
+  [34/501] doc_001 p 34:  2570 chars,  352 words, conf=93, 1.37s
+  [35/501] doc_001 p 35:  2025 chars,  310 words, conf=94, 1.32s
+  [36/501] doc_001 p 36:  2956 chars,  426 words, conf=90, 1.61s
+  [37/501] doc_001 p 37:  3046 chars,  458 words, conf=92, 1.7s
+  [38/501] doc_001 p 38:  2786 chars,  437 words, conf=93, 1.53s
+  [39/501] doc_001 p 39:  2356 chars,  373 words, conf=94, 1.47s
+  [40/501] doc_001 p 40:  2725 chars,  429 words, conf=94, 1.46s
+  [41/501] doc_001 p 41:  3545 chars,  556 words, conf=94, 1.81s
+  [42/501] doc_001 p 42:  2671 chars,  400 words, conf=93, 1.51s
+  [43/501] doc_001 p 43:  2356 chars,  364 words, conf=95, 1.43s
+  [44/501] doc_001 p 44:  2423 chars,  393 words, conf=94, 1.51s
+  [45/501] doc_001 p 45:  2751 chars,  446 words, conf=90, 1.65s
+  [46/501] doc_001 p 46:  3227 chars,  502 words, conf=94, 1.64s
+  [47/501] doc_001 p 47:  2973 chars,  280 words, conf=92, 1.08s
+  [48/501] doc_001 p 49:  2628 chars,  407 words, conf=93, 1.43s
+  [49/501] doc_001 p 48:  4332 chars,  710 words, conf=92, 1.84s
+  [50/501] doc_001 p 50:  1925 chars,  268 words, conf=93, 0.92s
+  [51/501] doc_001 p 51:  1848 chars,  277 words, conf=93, 1.06s
+  [52/501] doc_001 p 52:  2098 chars,  324 words, conf=93, 0.97s
+  [53/501] doc_001 p 53:  2358 chars,  355 words, conf=94, 1.38s
+  [54/501] doc_001 p 54:  1913 chars,  290 words, conf=93, 0.9s
+  [55/501] doc_001 p 55:  1913 chars,  293 words, conf=91, 1.15s
+  [56/501] doc_001 p 56:  3098 chars,  499 words, conf=95, 1.4s
+  [58/501] doc_001 p 57:  1710 chars,  245 words, conf=95, 0.99s
+  [59/501] doc_001 p 59:  1964 chars,  295 words, conf=93, 0.92s
+  [60/501] doc_001 p 60:  2099 chars,  323 words, conf=94, 1.23s
+  [61/501] doc_001 p 61:  2543 chars,  383 words, conf=93, 1.23s
+  [62/501] doc_001 p 62:  1963 chars,  297 words, conf=94, 1.13s
+  [63/501] doc_001 p 63:  1911 chars,  292 words, conf=91, 1.16s
+  [64/501] doc_001 p 65:  1710 chars,  245 words, conf=95, 1.08s
+  [65/501] doc_001 p 64:  3098 chars,  499 words, conf=95, 1.69s
+  [66/501] doc_001 p 66:  2115 chars,  287 words, conf=94, 1.29s
+  [67/501] doc_001 p 67:  2329 chars,  354 words, conf=95, 1.38s
+  [68/501] doc_001 p 68:  2257 chars,  357 words, conf=94, 1.37s
+  [69/501] doc_001 p 69:  2044 chars,  299 words, conf=95, 1.27s
+  [70/501] doc_001 p 70:  2133 chars,  303 words, conf=93, 1.18s
+  [71/501] doc_001 p 71:  1640 chars,  240 words, conf=95, 1.07s
+  [72/501] doc_001 p 72:  2258 chars,  301 words, conf=94, 1.27s
+  [73/501] doc_001 p 73:  1965 chars,  296 words, conf=95, 1.16s
+  [74/501] doc_001 p 75:  1664 chars,  257 words, conf=90, 0.98s
+  [75/501] doc_001 p 74:  2170 chars,  337 words, conf=94, 1.36s
+  [76/501] doc_001 p 77:  1445 chars,  223 words, conf=93, 1.06s
+  [77/501] doc_001 p 76:  2485 chars,  424 words, conf=95, 1.51s
+  [78/501] doc_001 p 79:  1766 chars,  278 words, conf=94, 1.11s
+  [79/501] doc_001 p 80:  1163 chars,  168 words, conf=92, 0.63s
+  [80/501] doc_001 p 78:  4296 chars,  661 words, conf=94, 2.25s
+  [81/501] doc_001 p 81:  1638 chars,  249 words, conf=94, 1.04s
+  [82/501] doc_001 p 83:  1325 chars,  196 words, conf=94, 0.81s
+  [83/501] doc_001 p 82:  3054 chars,  516 words, conf=95, 1.67s
+  [84/501] doc_001 p 84:  1329 chars,  202 words, conf=94, 0.75s
+  [85/501] doc_001 p 85:  2188 chars,  344 words, conf=95, 1.18s
+  [86/501] doc_001 p 86:  1432 chars,  217 words, conf=94, 0.7s
+  [87/501] doc_001 p 87:   958 chars,  124 words, conf=91, 0.6s
+  [88/501] doc_001 p 88:   668 chars,   98 words, conf=89, 0.58s
+  [89/501] doc_001 p 89:  2096 chars,  338 words, conf=92, 1.04s
+  [90/501] doc_001 p 90:  2714 chars,  437 words, conf=94, 1.29s
+  [91/501] doc_001 p 91:  1727 chars,  256 words, conf=94, 0.84s
+  [92/501] doc_001 p 92:  1654 chars,  221 words, conf=94, 0.89s
+  [93/501] doc_001 p 93:  1204 chars,  185 words, conf=91, 0.64s
+  [94/501] doc_001 p 95:  1065 chars,  161 words, conf=92, 0.61s
+  [95/501] doc_001 p 94:  2425 chars,  369 words, conf=93, 1.49s
+  [96/501] doc_001 p 96:  1203 chars,  182 words, conf=93, 0.7s
+  [97/501] doc_001 p 98:  1588 chars,  244 words, conf=92, 0.89s
+  [98/501] doc_001 p 97:  2104 chars,  349 words, conf=94, 1.25s
+  [99/501] doc_001 p 99:  2029 chars,  296 words, conf=95, 1.15s
+  [100/501] doc_001 p100:  2348 chars,  371 words, conf=94, 1.15s
+  [101/501] doc_001 p101:   992 chars,  151 words, conf=93, 0.71s
+  [102/501] doc_001 p102:   969 chars,  136 words, conf=92, 0.73s
+  [103/501] doc_001 p103:  2207 chars,  324 words, conf=93, 1.03s
+  [104/501] doc_001 p104:  2750 chars,  328 words, conf=94, 1.29s
+  [105/501] doc_001 p105:  2950 chars,  422 words, conf=93, 1.32s
+  [106/501] doc_001 p106:  1423 chars,  205 words, conf=93, 0.92s
+  [107/501] doc_001 p108:   796 chars,   78 words, conf=91, 0.52s
+  [108/501] doc_001 p107:  1769 chars,  220 words, conf=95, 0.94s
+  [109/501] doc_001 p109:  1056 chars,  124 words, conf=90, 0.51s
+  [110/501] doc_001 p110:   359 chars,   52 words, conf=89, 0.55s
+  [111/501] doc_001 p112:  1099 chars,   96 words, conf=84, 0.67s
+  [112/501] doc_001 p111:  1322 chars,  167 words, conf=85, 0.98s
+  [113/501] doc_001 p113:  1810 chars,  206 words, conf=91, 0.98s
+  [114/501] doc_001 p114:  1789 chars,  293 words, conf=94, 1.12s
+  [115/501] doc_001 p116:  2061 chars,  325 words, conf=95, 1.21s
+  [117/501] doc_001 p115:  3264 chars,  572 words, conf=92, 1.75s
+DOC_COMPLETE doc_001: 117/117 pages
+  [125/501] doc_002 p  8:  3216 chars,  519 words, conf=95, 1.73s
+DOC_COMPLETE doc_002: 21/21 pages
+DOC_COMPLETE doc_003: 7/7 pages
+DOC_COMPLETE doc_004: 2/2 pages
+DOC_COMPLETE doc_003: 1/1 pages
+  [150/501] doc_004 p  4:  2623 chars,  407 words, conf=92, 1.31s
+DOC_COMPLETE doc_004: 2/2 pages
+DOC_COMPLETE doc_005: 1/1 pages
+DOC_COMPLETE doc_004: 1/1 pages
+DOC_COMPLETE doc_005: 1/1 pages
+DOC_COMPLETE doc_006: 1/1 pages
+DOC_COMPLETE doc_005: 1/1 pages
+  [156/501] doc_006 p  2:  2258 chars,  255 words, conf=92, 1.15s
+  [157/501] doc_006 p  3:  1905 chars,  317 words, conf=87, 1.11s
+  [158/501] doc_006 p  4:  2053 chars,  312 words, conf=93, 1.29s
+  [159/501] doc_006 p  5:  1577 chars,  200 words, conf=94, 0.82s
+  [160/501] doc_006 p  6:  1794 chars,  153 words, conf=84, 0.69s
+  [161/501] doc_006 p  7:  1781 chars,  242 words, conf=93, 0.75s
+  [162/501] doc_006 p  8:  1333 chars,  184 words, conf=90, 0.79s
+  [163/501] doc_006 p  9:  1731 chars,  244 words, conf=95, 0.78s
+  [164/501] doc_006 p 10:  1846 chars,  246 words, conf=92, 0.98s
+  [165/501] doc_006 p 11:  1708 chars,  246 words, conf=94, 0.88s
+  [166/501] doc_006 p 12:  1293 chars,  221 words, conf=92, 0.79s
+  [167/501] doc_006 p 13:  1104 chars,  172 words, conf=92, 0.69s
+  [168/501] doc_006 p 14:   431 chars,   54 words, conf=93, 0.47s
+  [169/501] doc_006 p 15:  2242 chars,  334 words, conf=95, 1.3s
+  [170/501] doc_006 p 16:  1358 chars,  190 words, conf=85, 0.9s
+  [171/501] doc_006 p 17:  2121 chars,  294 words, conf=90, 1.32s
+  [172/501] doc_006 p 18:  1985 chars,  305 words, conf=88, 1.32s
+  [173/501] doc_006 p 19:  2021 chars,  310 words, conf=89, 1.23s
+  [174/501] doc_006 p 20:  2138 chars,  315 words, conf=88, 1.24s
+  [175/501] doc_006 p 22:  2241 chars,  315 words, conf=91, 1.19s
+  [176/501] doc_006 p 21:  2428 chars,  378 words, conf=89, 1.54s
+  [177/501] doc_006 p 23:  2050 chars,  297 words, conf=88, 1.14s
+  [178/501] doc_006 p 24:  2097 chars,  308 words, conf=91, 1.22s
+  [180/501] doc_006 p 25:  2098 chars,  314 words, conf=88, 1.36s
+  [181/501] doc_006 p 27:  1429 chars,  199 words, conf=86, 1.07s
+  [182/501] doc_006 p 28:  2078 chars,  309 words, conf=92, 1.04s
+  [183/501] doc_006 p 29:  2179 chars,  300 words, conf=91, 1.27s
+  [184/501] doc_006 p 30:  1699 chars,  239 words, conf=85, 1.15s
+  [185/501] doc_006 p 31:  2164 chars,  331 words, conf=91, 1.33s
+  [186/501] doc_006 p 32:  1629 chars,  207 words, conf=87, 0.91s
+  [187/501] doc_006 p 33:  2447 chars,  408 words, conf=94, 1.33s
+  [188/501] doc_006 p 34:  1837 chars,  309 words, conf=94, 1.03s
+  [189/501] doc_006 p 35:   248 chars,   33 words, conf=93, 0.35s
+  [190/501] doc_006 p 36:   169 chars,   23 words, conf=95, 0.33s
+  [191/501] doc_006 p 37:   157 chars,   20 words, conf=95, 0.31s
+  [192/501] doc_006 p 38:   313 chars,   47 words, conf=92, 0.36s
+  [193/501] doc_006 p 39:    58 chars,   11 words, conf=73, 0.28s
+  [194/501] doc_006 p 40:   551 chars,   93 words, conf=93, 0.48s
+  [195/501] doc_006 p 41:   762 chars,  123 words, conf=94, 0.64s
+  [196/501] doc_006 p 42:  1244 chars,  200 words, conf=94, 0.96s
+  [197/501] doc_006 p 43:  1652 chars,  274 words, conf=93, 1.09s
+  [198/501] doc_006 p 44:  1980 chars,  315 words, conf=95, 1.26s
+  [199/501] doc_006 p 45:  2862 chars,  440 words, conf=94, 1.65s
+  [200/501] doc_006 p 46:  1976 chars,  313 words, conf=95, 1.41s
+  [201/501] doc_006 p 47:  2540 chars,  410 words, conf=95, 1.66s
+  [202/501] doc_006 p 48:  2445 chars,  390 words, conf=93, 1.77s
+  [203/501] doc_006 p 49:  2737 chars,  421 words, conf=94, 1.71s
+  [204/501] doc_006 p 50:  2146 chars,  337 words, conf=94, 1.24s
+  [206/501] doc_006 p 51:  1613 chars,  251 words, conf=94, 1.0s
+  [207/501] doc_006 p 53:  1927 chars,  281 words, conf=93, 1.13s
+  [208/501] doc_006 p 54:  1946 chars,  314 words, conf=94, 1.13s
+  [209/501] doc_006 p 55:  1931 chars,  322 words, conf=94, 1.02s
+  [210/501] doc_006 p 56:  1661 chars,  270 words, conf=93, 0.77s
+  [211/501] doc_006 p 57:  1553 chars,  216 words, conf=91, 0.89s
+  [212/501] doc_006 p 58:  1863 chars,  269 words, conf=92, 0.8s
+  [213/501] doc_006 p 59:  1079 chars,  121 words, conf=86, 0.54s
+  [214/501] doc_006 p 60:   751 chars,   85 words, conf=84, 0.5s
+  [215/501] doc_006 p 61:  1420 chars,  213 words, conf=92, 0.87s
+  [216/501] doc_006 p 63:  1957 chars,  304 words, conf=93, 0.98s
+  [217/501] doc_006 p 62:  3088 chars,  504 words, conf=95, 1.53s
+  [218/501] doc_006 p 64:  1276 chars,  206 words, conf=95, 0.6s
+  [219/501] doc_006 p 65:  1816 chars,  275 words, conf=93, 0.88s
+  [220/501] doc_006 p 66:  1993 chars,  287 words, conf=93, 0.98s
+  [221/501] doc_006 p 67:  2875 chars,  433 words, conf=90, 1.58s
+  [222/501] doc_006 p 68:  2457 chars,  362 words, conf=92, 1.43s
+  [223/501] doc_006 p 69:  1591 chars,  220 words, conf=94, 0.94s
+  [224/501] doc_006 p 71:  2668 chars,  305 words, conf=92, 0.99s
+  [225/501] doc_006 p 70:  2488 chars,  393 words, conf=93, 1.45s
+  [226/501] doc_006 p 73:  1105 chars,  150 words, conf=95, 0.71s
+  [227/501] doc_006 p 72:  1822 chars,  266 words, conf=92, 0.95s
+  [228/501] doc_006 p 74:  1082 chars,  157 words, conf=95, 0.65s
+  [229/501] doc_006 p 75:  2504 chars,  360 words, conf=95, 1.28s
+  [230/501] doc_006 p 76:  1582 chars,  203 words, conf=94, 0.92s
+  [231/501] doc_006 p 77:  1691 chars,  236 words, conf=94, 1.03s
+  [232/501] doc_006 p 78:  2309 chars,  314 words, conf=94, 1.25s
+  [233/501] doc_006 p 79:  2848 chars,  418 words, conf=92, 1.53s
+  [234/501] doc_006 p 80:  2721 chars,  399 words, conf=94, 1.46s
+  [235/501] doc_006 p 81:  1363 chars,  222 words, conf=85, 0.98s
+  [236/501] doc_006 p 82:  2315 chars,  355 words, conf=92, 1.3s
+  [237/501] doc_006 p 83:  2103 chars,  317 words, conf=95, 1.04s
+  [238/501] doc_006 p 85:  2034 chars,  316 words, conf=94, 0.9s
+  [239/501] doc_006 p 84:  2812 chars,  409 words, conf=95, 1.5s
+  [240/501] doc_006 p 86:  1987 chars,  258 words, conf=94, 0.88s
+  [241/501] doc_006 p 87:  1466 chars,  202 words, conf=92, 0.84s
+  [242/501] doc_006 p 88:  1650 chars,  245 words, conf=89, 0.75s
+  [243/501] doc_006 p 90:  1303 chars,  212 words, conf=91, 0.66s
+  [244/501] doc_006 p 89:  2615 chars,  413 words, conf=93, 1.41s
+  [245/501] doc_006 p 91:  2221 chars,  307 words, conf=93, 0.96s
+  [246/501] doc_006 p 92:  3480 chars,  409 words, conf=92, 1.7s
+  [247/501] doc_006 p 93:  2447 chars,  305 words, conf=94, 0.99s
+  [248/501] doc_006 p 95:  2305 chars,  234 words, conf=93, 0.72s
+  [249/501] doc_006 p 94:  2051 chars,  242 words, conf=93, 1.03s
+  [250/501] doc_006 p 96:  2708 chars,  339 words, conf=91, 1.05s
+  [251/501] doc_006 p 97:  3051 chars,  441 words, conf=91, 1.72s
+  [252/501] doc_006 p 98:  2332 chars,  354 words, conf=94, 1.14s
+  [253/501] doc_006 p100:  1972 chars,  298 words, conf=95, 1.1s
+  [254/501] doc_006 p 99:  3123 chars,  465 words, conf=94, 1.73s
+  [255/501] doc_006 p101:  1158 chars,  178 words, conf=95, 0.76s
+  [256/501] doc_006 p102:  2313 chars,  287 words, conf=93, 1.27s
+  [257/501] doc_006 p103:  2280 chars,  334 words, conf=93, 1.28s
+DOC_COMPLETE doc_006: 103/103 pages
+DOC_COMPLETE doc_007: 1/1 pages
+  [260/501] doc_006 p104:  2387 chars,  390 words, conf=94, 1.37s
+DOC_COMPLETE doc_006: 1/1 pages
+DOC_COMPLETE doc_007: 3/3 pages
+DOC_COMPLETE doc_008: 2/2 pages
+DOC_COMPLETE doc_009: 9/9 pages
+  [275/501] doc_010 p  1:   713 chars,   86 words, conf=94, 0.49s
+DOC_COMPLETE doc_010: 1/1 pages
+DOC_COMPLETE doc_011: 1/1 pages
+DOC_COMPLETE doc_010: 1/1 pages
+  [278/501] doc_011 p  2:  2414 chars,  358 words, conf=94, 1.08s
+  [279/501] doc_011 p  3:  2028 chars,  294 words, conf=89, 1.0s
+  [280/501] doc_011 p  4:  2476 chars,  362 words, conf=93, 1.2s
+  [281/501] doc_011 p  5:  2905 chars,  459 words, conf=93, 1.39s
+  [282/501] doc_011 p  6:  2883 chars,  465 words, conf=94, 1.43s
+  [283/501] doc_011 p  7:  2479 chars,  378 words, conf=94, 1.14s
+  [284/501] doc_011 p  9:  2203 chars,  349 words, conf=95, 1.14s
+  [285/501] doc_011 p  8:  3458 chars,  552 words, conf=95, 1.71s
+  [286/501] doc_011 p 10:   289 chars,   45 words, conf=94, 0.43s
+  [287/501] doc_011 p 11:  1255 chars,  186 words, conf=90, 0.81s
+  [288/501] doc_011 p 12:   984 chars,  123 words, conf=89, 0.63s
+  [289/501] doc_011 p 14:  1221 chars,  203 words, conf=89, 0.92s
+  [290/501] doc_011 p 13:  1995 chars,  314 words, conf=92, 1.13s
+  [291/501] doc_011 p 16:   844 chars,   82 words, conf=88, 0.55s
+  [292/501] doc_011 p 15:  1426 chars,  236 words, conf=93, 0.75s
+  [293/501] doc_011 p 17:  1042 chars,  164 words, conf=90, 0.79s
+  [295/501] doc_011 p 18:  2046 chars,  305 words, conf=93, 0.98s
+  [296/501] doc_011 p 21:  1257 chars,  228 words, conf=88, 0.66s
+  [297/501] doc_011 p 20:  1801 chars,  288 words, conf=93, 1.0s
+  [298/501] doc_011 p 23:   356 chars,   53 words, conf=88, 0.39s
+  [299/501] doc_011 p 22:  1974 chars,  306 words, conf=95, 1.05s
+  [300/501] doc_011 p 24:  1835 chars,  262 words, conf=95, 0.89s
+  [301/501] doc_011 p 26:  1071 chars,  132 words, conf=86, 0.6s
+  [302/501] doc_011 p 25:  1692 chars,  257 words, conf=93, 1.12s
+  [303/501] doc_011 p 27:    80 chars,    9 words, conf=95, 0.28s
+  [304/501] doc_011 p 28:   744 chars,  113 words, conf=88, 0.66s
+  [305/501] doc_011 p 29:  2334 chars,  388 words, conf=92, 1.02s
+  [306/501] doc_011 p 30:  2079 chars,  350 words, conf=94, 1.16s
+  [307/501] doc_011 p 31:  2065 chars,  350 words, conf=93, 0.96s
+  [308/501] doc_011 p 33:  1886 chars,  340 words, conf=89, 0.99s
+  [309/501] doc_011 p 32:  2255 chars,  376 words, conf=90, 1.26s
+  [310/501] doc_011 p 34:  1558 chars,  275 words, conf=85, 0.79s
+  [311/501] doc_011 p 35:  1790 chars,  238 words, conf=86, 0.97s
+  [312/501] doc_011 p 36:  1370 chars,  187 words, conf=88, 0.94s
+  [313/501] doc_011 p 37:  1939 chars,  208 words, conf=93, 0.8s
+  [315/501] doc_011 p 40:  2182 chars,  307 words, conf=95, 0.86s
+  [316/501] doc_011 p 38:  2499 chars,  391 words, conf=91, 1.27s
+  [317/501] doc_011 p 41:  1745 chars,  274 words, conf=93, 0.81s
+  [318/501] doc_011 p 42:  2655 chars,  384 words, conf=90, 1.49s
+  [319/501] doc_011 p 43:  2099 chars,  332 words, conf=94, 1.13s
+  [320/501] doc_011 p 45:  2177 chars,  285 words, conf=92, 1.09s
+  [321/501] doc_011 p 44:  2707 chars,  360 words, conf=83, 1.44s
+  [322/501] doc_011 p 46:  1498 chars,  205 words, conf=89, 0.84s
+  [323/501] doc_011 p 47:  2565 chars,  400 words, conf=93, 1.34s
+  [324/501] doc_011 p 48:  2673 chars,  400 words, conf=93, 1.43s
+  [325/501] doc_011 p 49:  2137 chars,  340 words, conf=94, 1.13s
+  [326/501] doc_011 p 50:  2307 chars,  325 words, conf=87, 1.36s
+  [327/501] doc_011 p 51:  2788 chars,  447 words, conf=94, 1.33s
+  [328/501] doc_011 p 52:  2707 chars,  360 words, conf=83, 1.51s
+  [329/501] doc_011 p 53:  2757 chars,  374 words, conf=81, 1.62s
+  [330/501] doc_011 p 54:  2471 chars,  325 words, conf=91, 1.12s
+  [331/501] doc_011 p 55:  2231 chars,  333 words, conf=95, 1.11s
+  [332/501] doc_011 p 56:  2232 chars,  321 words, conf=85, 1.22s
+  [333/501] doc_011 p 57:  2152 chars,  321 words, conf=89, 1.26s
+  [334/501] doc_011 p 58:  1659 chars,  238 words, conf=93, 0.98s
+  [335/501] doc_011 p 59:  2384 chars,  359 words, conf=94, 1.18s
+  [336/501] doc_011 p 60:  1393 chars,  182 words, conf=94, 0.85s
+  [337/501] doc_011 p 61:  3461 chars,  366 words, conf=90, 1.43s
+  [338/501] doc_011 p 62:  2657 chars,  399 words, conf=95, 1.44s
+  [339/501] doc_011 p 63:  2704 chars,  329 words, conf=92, 0.99s
+  [340/501] doc_011 p 64:  2133 chars,  344 words, conf=95, 1.22s
+  [341/501] doc_011 p 65:  2506 chars,  416 words, conf=93, 1.23s
+  [342/501] doc_011 p 66:  1904 chars,  288 words, conf=94, 1.14s
+  [343/501] doc_011 p 67:  2872 chars,  361 words, conf=95, 1.09s
+  [344/501] doc_011 p 68:  2216 chars,  342 words, conf=95, 1.08s
+  [345/501] doc_011 p 69:  2416 chars,  370 words, conf=93, 1.31s
+  [346/501] doc_011 p 70:  1679 chars,  248 words, conf=91, 1.03s
+  [347/501] doc_011 p 72:  1840 chars,  285 words, conf=93, 1.05s
+  [348/501] doc_011 p 71:  3193 chars,  513 words, conf=93, 1.7s
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+  [349/501] doc_011 p 73:  2724 chars,  431 words, conf=94, 1.58s
+  [350/501] doc_011 p 74:  2542 chars,  402 words, conf=95, 1.4s
+  [351/501] doc_011 p 76:  2086 chars,  312 words, conf=95, 0.97s
+  [352/501] doc_011 p 75:  3400 chars,  522 words, conf=92, 1.86s
+DOC_COMPLETE doc_011: 76/76 pages
+DOC_COMPLETE doc_012: 1/1 pages
+  [355/501] doc_011 p 77:  3026 chars,  482 words, conf=95, 1.6s
+DOC_COMPLETE doc_011: 1/1 pages
+DOC_COMPLETE doc_012: 2/2 pages
+DOC_COMPLETE doc_013: 2/2 pages
+DOC_COMPLETE doc_014: 3/3 pages
+DOC_COMPLETE doc_015: 2/2 pages
+DOC_COMPLETE doc_016: 1/1 pages
+DOC_COMPLETE doc_015: 1/1 pages
+DOC_COMPLETE doc_016: 1/1 pages
+DOC_COMPLETE doc_017: 1/1 pages
+DOC_COMPLETE doc_016: 1/1 pages
+  [375/501] doc_017 p  7:  1926 chars,  267 words, conf=93, 0.88s
+DOC_COMPLETE doc_017: 16/16 pages
+DOC_COMPLETE doc_018: 1/1 pages
+DOC_COMPLETE doc_017: 1/1 pages
+  [400/501] doc_018 p 15:  1656 chars,  139 words, conf=92, 0.74s
+DOC_COMPLETE doc_018: 24/24 pages
+DOC_COMPLETE doc_019: 1/1 pages
+DOC_COMPLETE doc_018: 1/1 pages
+DOC_COMPLETE doc_019: 2/2 pages
+DOC_COMPLETE doc_020: 1/1 pages
+DOC_COMPLETE doc_021: 1/1 pages
+DOC_COMPLETE doc_020: 1/1 pages
+DOC_COMPLETE doc_021: 1/1 pages
+DOC_COMPLETE doc_022: 1/1 pages
+DOC_COMPLETE doc_021: 1/1 pages
+  [425/501] doc_022 p  5:  2153 chars,  308 words, conf=92, 1.31s
+DOC_COMPLETE doc_022: 8/8 pages
+DOC_COMPLETE doc_023: 2/2 pages
+DOC_COMPLETE doc_024: 3/3 pages
+DOC_COMPLETE doc_025: 3/3 pages
+  [450/501] doc_026 p 13:  2753 chars,  435 words, conf=93, 1.2s
+DOC_COMPLETE doc_026: 31/31 pages
+  [475/501] doc_027 p  7:  2573 chars,  401 words, conf=94, 1.46s
+DOC_COMPLETE doc_027: 10/10 pages
+DOC_COMPLETE doc_028: 2/2 pages
+DOC_COMPLETE doc_029: 1/1 pages
+DOC_COMPLETE doc_028: 1/1 pages
+  [500/501] doc_029 p 20:   907 chars,  134 words, conf=92, 0.5s
+DOC_COMPLETE doc_029: 19/19 pages
+OCR loop finished: processed_or_skipped=501 failures=0 elapsed=269.6s
+ocr_manifest.json written: pages_processed=501/501 failed=0 chars=998154 words=145856 mean_conf=92.5
+ALL_DONE

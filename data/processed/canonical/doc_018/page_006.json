@@ -1,0 +1,474 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 6,
+ "source_page_hash": "011d26fb13cf93ce2bafffe325604b210d53df5338e6da07cbdfaa0e7de2a512",
+ "is_cover_page": false,
+ "title": "Business Context and Use",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nBusiness Context and Use\n\nThis inbound service operation receives a business partner\u2019s credit rating, calculated and sent by your credit management system,\nto your contract accounting system.\n\nRelated Operations\n\nThe Respond Credit Rating Query outbound service operation sends the requested information from the Credit Management\nprocess component.\n\nFeatures\n\nThe Respond Credit Rating Query inbound service operation provides the credit rating and the credit risk class for the requested\nparty.\n\nError Handling\n\nForward Error Handling\n\nThe Respond Credit Rating Query inbound service operation supports Forward Error Handling (FEH). The following error\ncategories are used:\n\ne DCE: Determination & Conversion Error\n\ne PRE: Processing Error\n\nFor more information about the individual error categories, see the code list for the global data type LogltemCategoryCode .\n\nMessage Types\n\ne FICA Rating Replicate Response\n\nNotes on SAP Implementation\nThe software component CA-SOA-ESM-ERP-FIN and business process CREDAGYOO]1 are used to support forward error handling.\nThe inbound proxy implementation updates the following data in the Contract Accounts Receivable and Payable:\n\ne Credit rating as sent from Credit Management (Table DFKKCRH)\ne Credit Management Master Data (Table DFKKCMS)\n\ne Trigger for a change to Contract Accounting after a change to Credit Management master data. (You use the trigger(s) in\nthe mass activity transaction FPBPCU).\n\nThe ValidityPeriod of the CreditRiskClass is not supported.\n\nEnhancements\n\nYou can use the FI-CA event 4602 to enhance the Credit Management master data. You can also use this event to enhance the Cl-\n",
+ "cleaned_text": "Business Context and Use\n\nThis inbound service operation receives a business partner\u2019s credit rating, calculated and sent by your credit management system, to your contract accounting system.\n\nRelated Operations\n\nThe Respond Credit Rating Query outbound service operation sends the requested information from the Credit Management process component.\n\nFeatures\n\nThe Respond Credit Rating Query inbound service operation provides the credit rating and the credit risk class for the requested party.\n\nError Handling\n\nForward Error Handling\n\nThe Respond Credit Rating Query inbound service operation supports Forward Error Handling (FEH). The following error categories are used:\n\n- DCE: Determination & Conversion Error\n\n- PRE: Processing Error\n\nFor more information about the individual error categories, see the code list for the global data type LogltemCategoryCode .\n\nMessage Types\n\n- FICA Rating Replicate Response\n\nNotes on SAP Implementation\n\nThe software component CA-SOA-ESM-ERP-FIN and business process CREDAGYOO]1 are used to support forward error handling. The inbound proxy implementation updates the following data in the Contract Accounts Receivable and Payable:\n\n- Credit rating as sent from Credit Management (Table DFKKCRH)\n\n- Credit Management Master Data (Table DFKKCMS)\n\n- Trigger for a change to Contract Accounting after a change to Credit Management master data. (You use the trigger(s) in the mass activity transaction FPBPCU).\n\nThe ValidityPeriod of the CreditRiskClass is not supported.\n\nEnhancements\n\nYou can use the FI-CA event 4602 to enhance the Credit Management master data. You can also use this event to enhance the Cl-",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p006_b000",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    126,
+    125,
+    853,
+    172
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Business Context and Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_024"
+  },
+  {
+   "block_id": "doc_018_p006_b001",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    259,
+    2484,
+    359
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "This inbound service operation receives a business partner\u2019s credit rating, calculated and sent by your credit management system, to your contract accounting system.",
+   "section_id": "doc_018_sec_024"
+  },
+  {
+   "block_id": "doc_018_p006_b002",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    124,
+    443,
+    482,
+    481
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Related Operations",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_025"
+  },
+  {
+   "block_id": "doc_018_p006_b003",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    564,
+    2398,
+    668
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The Respond Credit Rating Query outbound service operation sends the requested information from the Credit Management process component.",
+   "section_id": "doc_018_sec_025"
+  },
+  {
+   "block_id": "doc_018_p006_b004",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    126,
+    780,
+    361,
+    826
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_026"
+  },
+  {
+   "block_id": "doc_018_p006_b005",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    910,
+    2442,
+    1013
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The Respond Credit Rating Query inbound service operation provides the credit rating and the credit risk class for the requested party.",
+   "section_id": "doc_018_sec_026"
+  },
+  {
+   "block_id": "doc_018_p006_b006",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    126,
+    1125,
+    531,
+    1182
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Error Handling",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_027"
+  },
+  {
+   "block_id": "doc_018_p006_b007",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    124,
+    1255,
+    555,
+    1292
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Forward Error Handling",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_028"
+  },
+  {
+   "block_id": "doc_018_p006_b008",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    1379,
+    2295,
+    1480
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "The Respond Credit Rating Query inbound service operation supports Forward Error Handling (FEH). The following error categories are used:",
+   "section_id": "doc_018_sec_028"
+  },
+  {
+   "block_id": "doc_018_p006_b009",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    207,
+    1563,
+    971,
+    1703
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "DCE: Determination & Conversion Error"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "PRE: Processing Error"
+    }
+   ],
+   "section_id": "doc_018_sec_028"
+  },
+  {
+   "block_id": "doc_018_p006_b010",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    125,
+    1787,
+    2361,
+    1825
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "text": "For more information about the individual error categories, see the code list for the global data type LogltemCategoryCode .",
+   "section_id": "doc_018_sec_028"
+  },
+  {
+   "block_id": "doc_018_p006_b011",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    126,
+    1936,
+    543,
+    1994
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Message Types",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_029"
+  },
+  {
+   "block_id": "doc_018_p006_b012",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    207,
+    2069,
+    832,
+    2107
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "FICA Rating Replicate Response"
+    }
+   ],
+   "section_id": "doc_018_sec_029"
+  },
+  {
+   "block_id": "doc_018_p006_b013",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    126,
+    2219,
+    970,
+    2275
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Notes on SAP Implementation",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_030"
+  },
+  {
+   "block_id": "doc_018_p006_b014",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    2352,
+    2448,
+    2511
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The software component CA-SOA-ESM-ERP-FIN and business process CREDAGYOO]1 are used to support forward error handling. The inbound proxy implementation updates the following data in the Contract Accounts Receivable and Payable:",
+   "section_id": "doc_018_sec_030"
+  },
+  {
+   "block_id": "doc_018_p006_b015",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    207,
+    2595,
+    2431,
+    2902
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Credit rating as sent from Credit Management (Table DFKKCRH)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Credit Management Master Data (Table DFKKCMS)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Trigger for a change to Contract Accounting after a change to Credit Management master data. (You use the trigger(s) in the mass activity transaction FPBPCU)."
+    }
+   ],
+   "section_id": "doc_018_sec_030"
+  },
+  {
+   "block_id": "doc_018_p006_b016",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    2986,
+    1180,
+    3024
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "text": "The ValidityPeriod of the CreditRiskClass is not supported.",
+   "section_id": "doc_018_sec_030"
+  },
+  {
+   "block_id": "doc_018_p006_b017",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    124,
+    3108,
+    400,
+    3138
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Enhancements",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_031"
+  },
+  {
+   "block_id": "doc_018_p006_b018",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    123,
+    3232,
+    2457,
+    3270
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "text": "You can use the FI-CA event 4602 to enhance the Credit Management master data. You can also use this event to enhance the Cl-",
+   "section_id": "doc_018_sec_031"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "011d26fb13cf93ce2bafffe325604b210d53df5338e6da07cbdfaa0e7de2a512"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Respond Credit Rating Query",
+  "Business Context and Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_024",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_025",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_026",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_027",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_028",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_029",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_030",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_031",
+   "role": "starts_here"
+  }
+ ]
+}

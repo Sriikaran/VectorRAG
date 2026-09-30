@@ -1,0 +1,297 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 17,
+ "source_page_hash": "ad6bf7fd2cfca16b8282dd2b60efa36fe20de2b9b0e41232598f734cc1eafe81",
+ "is_cover_page": false,
+ "title": "Move-Out",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\n\nMove-Out\n\nUse\n\nDuring the move-out transaction, you execute most of the activities required to cancel the customer's supply of utilities services.\nYou make changes to the business partner master data that result from a move-out. You specifically end the allocation of a\n\ncontract to an installation on the move-out date.\n\nMove-out\n\nInstallation |\n\nMove-out processing stops the active payment plans. A move-out confirmation letter and an immediate bill can also be triggered\n\nfrom the move-out.\n\nPrerequisites\n\nYou require one or more existing contracts with installations for the requested move-out date to create a move-out.\n\nFeatures\n\nBudget Billing Plan\n\nIn Customizing under IkMove-In/Out & Move-Out*s Define Move-Out Contro!] Parameters at Contract level \u2122 vou can snecifv\n",
+ "cleaned_text": "Move-Out\n\nUse\n\nDuring the move-out transaction, you execute most of the activities required to cancel the customer's supply of utilities services. You make changes to the business partner master data that result from a move-out. You specifically end the allocation of a contract to an installation on the move-out date.\n\nMove-out\n\nInstallation |\n\nMove-out processing stops the active payment plans. A move-out confirmation letter and an immediate bill can also be triggered from the move-out.\n\nPrerequisites\n\nYou require one or more existing contracts with installations for the requested move-out date to create a move-out.\n\nFeatures\n\nBudget Billing Plan\n\nIn Customizing under IkMove-In/Out & Move-Out*s Define Move-Out Contro!] Parameters at Contract level \u2122 vou can snecifv",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p017_b000",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    128,
+    130,
+    477,
+    192
+   ],
+   "ocr_confidence": 91.3,
+   "flags": [],
+   "text": "Move-Out",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_064"
+  },
+  {
+   "block_id": "doc_002_p017_b001",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    125,
+    307,
+    225,
+    353
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_065"
+  },
+  {
+   "block_id": "doc_002_p017_b002",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    122,
+    440,
+    2447,
+    595
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "During the move-out transaction, you execute most of the activities required to cancel the customer's supply of utilities services. You make changes to the business partner master data that result from a move-out. You specifically end the allocation of a contract to an installation on the move-out date.",
+   "section_id": "doc_002_sec_065"
+  },
+  {
+   "block_id": "doc_002_p017_b003",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    1119,
+    993,
+    1477,
+    1055
+   ],
+   "ocr_confidence": 90.9,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Move-out",
+   "section_id": "doc_002_sec_065"
+  },
+  {
+   "block_id": "doc_002_p017_b004",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    1116,
+    1178,
+    1455,
+    1230
+   ],
+   "ocr_confidence": 81.5,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Installation |",
+   "section_id": "doc_002_sec_065"
+  },
+  {
+   "block_id": "doc_002_p017_b005",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    122,
+    2523,
+    2443,
+    2619
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Move-out processing stops the active payment plans. A move-out confirmation letter and an immediate bill can also be triggered from the move-out.",
+   "section_id": "doc_002_sec_065"
+  },
+  {
+   "block_id": "doc_002_p017_b006",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    126,
+    2738,
+    492,
+    2794
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_066"
+  },
+  {
+   "block_id": "doc_002_p017_b007",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    122,
+    2868,
+    2201,
+    2905
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "You require one or more existing contracts with installations for the requested move-out date to create a move-out.",
+   "section_id": "doc_002_sec_066"
+  },
+  {
+   "block_id": "doc_002_p017_b008",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    126,
+    3018,
+    361,
+    3063
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_067"
+  },
+  {
+   "block_id": "doc_002_p017_b009",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    124,
+    3150,
+    475,
+    3188
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Budget Billing Plan",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_068"
+  },
+  {
+   "block_id": "doc_002_p017_b010",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    125,
+    3268,
+    2429,
+    3300
+   ],
+   "ocr_confidence": 68.7,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "In Customizing under IkMove-In/Out & Move-Out*s Define Move-Out Contro!] Parameters at Contract level \u2122 vou can snecifv",
+   "section_id": "doc_002_sec_068"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "ad6bf7fd2cfca16b8282dd2b60efa36fe20de2b9b0e41232598f734cc1eafe81"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Move-Out"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_064",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_065",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_066",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_067",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_068",
+   "role": "starts_here"
+  }
+ ]
+}

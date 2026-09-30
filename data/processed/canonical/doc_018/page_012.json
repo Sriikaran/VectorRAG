@@ -1,0 +1,431 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 12,
+ "source_page_hash": "68e3b0bdb982bd7d1b802e6ee4192b70a946447c300841a10c940dba41bca77f",
+ "is_cover_page": false,
+ "title": "Business Context and Use",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nTechnical Name                                 CreditWorthinessChangelnformation_In\nNamespace                                        http://sap.com/xi/FICA/Global m%,\nApplication Component                         FI-CA\n\nWeb Service Definition (Back End)           FKK_CREDITWORTHINESSCHGIN\nCategory                                            SAP A2A\n\nDirection                                            inbound\n\nMode                                                asynchronous\n\nIdempotency                                       not applicable\n\nChange/Update Behavior                      Typel\n\nP2P Communication Enabled                  yes\n\nBusiness Context and Use\n\nThe system displays the previous and new values to show you exactly how the debtor\u2019s credit worthiness rating has changed.\n\nRelated Operations\n\ne This inbound service operation has a corrsponding outbound service operation Inform of Credit Worthiness Change for the\nintegration with the SAP Credit Management process component.\n\nFeatures\n\nThe Change Contract Account based Credit Worthiness Change Infomation inbound operation receives information from the\nSAP Credit Management component. This is sent when a debtor\u2019s creditworthiness rating changes. This helps you to ensure that\nyour creditworthiness information is as up to date as possible\n\nThe services operation receives the following data:\n\ne Rating\n\ne Credit limit\n\ne Risk class\n\ne Blocking indicator and its reason code\n\ne Result of a performed credit check\n\nError Handling\n\nForward Error Handling\n\nThe Change Contract Account based Credit Worthiness Change Infomation inbound operation supports Forward Error Handling\n(FEH). The following error categories are used:\n",
+ "cleaned_text": "Technical Name | CreditWorthinessChangelnformation_In\n\nNamespace | http://sap.com/xi/FICA/Global m%,\n\nApplication Component | FI-CA\n\nWeb Service Definition (Back End) | FKK_CREDITWORTHINESSCHGIN\n\nCategory | SAP A2A\n\nDirection | inbound\n\nMode | asynchronous\n\nIdempotency | not applicable\n\nChange/Update Behavior | Typel\n\nP2P Communication Enabled | yes\n\nBusiness Context and Use\n\nThe system displays the previous and new values to show you exactly how the debtor\u2019s credit worthiness rating has changed.\n\nRelated Operations\n\n- This inbound service operation has a corrsponding outbound service operation Inform of Credit Worthiness Change for the integration with the SAP Credit Management process component.\n\nFeatures\n\nThe Change Contract Account based Credit Worthiness Change Infomation inbound operation receives information from the SAP Credit Management component. This is sent when a debtor\u2019s creditworthiness rating changes. This helps you to ensure that your creditworthiness information is as up to date as possible The services operation receives the following data:\n\n- Rating\n\n- Credit limit\n\n- Risk class\n\n- Blocking indicator and its reason code\n\n- Result of a performed credit check\n\nError Handling\n\nForward Error Handling\n\nThe Change Contract Account based Credit Worthiness Change Infomation inbound operation supports Forward Error Handling (FEH). The following error categories are used:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p012_b000",
+   "type": "table",
+   "page_number": 12,
+   "bbox": [
+    148,
+    156,
+    1539,
+    1144
+   ],
+   "ocr_confidence": 91.5,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continued_on_next_page:p13",
+    "continued_on_next_page:p13"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    867
+   ],
+   "headers": [
+    "Technical Name",
+    "CreditWorthinessChangelnformation_In"
+   ],
+   "rows": [
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global m%,"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "FKK_CREDITWORTHINESSCHGIN"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "asynchronous"
+    ],
+    [
+     "Idempotency",
+     "not applicable"
+    ],
+    [
+     "Change/Update Behavior",
+     "Typel"
+    ],
+    [
+     "P2P Communication Enabled",
+     "yes"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Technical Name",
+     "CreditWorthinessChangelnformation_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global m%,"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "FKK_CREDITWORTHINESSCHGIN"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "asynchronous"
+    ],
+    [
+     "Idempotency",
+     "not applicable"
+    ],
+    [
+     "Change/Update Behavior",
+     "Typel"
+    ],
+    [
+     "P2P Communication Enabled",
+     "yes"
+    ]
+   ],
+   "section_id": "doc_018_sec_070"
+  },
+  {
+   "block_id": "doc_018_p012_b001",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    126,
+    1279,
+    853,
+    1325
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Business Context and Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_071"
+  },
+  {
+   "block_id": "doc_018_p012_b002",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    122,
+    1412,
+    2381,
+    1450
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The system displays the previous and new values to show you exactly how the debtor\u2019s credit worthiness rating has changed.",
+   "section_id": "doc_018_sec_071"
+  },
+  {
+   "block_id": "doc_018_p012_b003",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    124,
+    1534,
+    482,
+    1572
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Related Operations",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_072"
+  },
+  {
+   "block_id": "doc_018_p012_b004",
+   "type": "list",
+   "page_number": 12,
+   "bbox": [
+    206,
+    1658,
+    2483,
+    1759
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "This inbound service operation has a corrsponding outbound service operation Inform of Credit Worthiness Change for the integration with the SAP Credit Management process component."
+    }
+   ],
+   "section_id": "doc_018_sec_072"
+  },
+  {
+   "block_id": "doc_018_p012_b005",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    126,
+    1871,
+    361,
+    1916
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_073"
+  },
+  {
+   "block_id": "doc_018_p012_b006",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    122,
+    2004,
+    2446,
+    2288
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The Change Contract Account based Credit Worthiness Change Infomation inbound operation receives information from the SAP Credit Management component. This is sent when a debtor\u2019s creditworthiness rating changes. This helps you to ensure that your creditworthiness information is as up to date as possible The services operation receives the following data:",
+   "section_id": "doc_018_sec_073"
+  },
+  {
+   "block_id": "doc_018_p012_b007",
+   "type": "list",
+   "page_number": 12,
+   "bbox": [
+    206,
+    2375,
+    944,
+    2820
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Rating"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Credit limit"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Risk class"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Blocking indicator and its reason code"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Result of a performed credit check"
+    }
+   ],
+   "section_id": "doc_018_sec_073"
+  },
+  {
+   "block_id": "doc_018_p012_b008",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    126,
+    2932,
+    531,
+    2989
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Error Handling",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_074"
+  },
+  {
+   "block_id": "doc_018_p012_b009",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    124,
+    3065,
+    555,
+    3103
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Forward Error Handling",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_075"
+  },
+  {
+   "block_id": "doc_018_p012_b010",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    122,
+    3187,
+    2469,
+    3290
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The Change Contract Account based Credit Worthiness Change Infomation inbound operation supports Forward Error Handling (FEH). The following error categories are used:",
+   "section_id": "doc_018_sec_075"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "68e3b0bdb982bd7d1b802e6ee4192b70a946447c300841a10c940dba41bca77f"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Information",
+  "Technical Data"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_070",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_018_sec_071",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_072",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_073",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_074",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_075",
+   "role": "starts_here"
+  }
+ ]
+}

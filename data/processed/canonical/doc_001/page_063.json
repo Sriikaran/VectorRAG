@@ -1,0 +1,380 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 63,
+ "source_page_hash": "78149068b17ef4f47e1c968e25202f59e07239a284e9f4727c233d12df7a8a48",
+ "is_cover_page": false,
+ "title": "Customer Change",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nPayment plans with the categories AMB and BBP cannot be transferred. If these kinds of payment plans exist, you cannot\nexecute a customer change.\n\ne Open items in deregulation\n\nIn SAP Utilities, you cannot use the Transfer Items (FP40) transaction to transfer open items in the deregulated scenario\nBill Processing by Third Party .\n\ne Collection item\nDocuments submitted to a collection agency cannot be transferred using the Transfer Items (FP40) transaction.\ne Creditworthiness data for business partner\n\nA business partner\u2019s creditworthiness data is not automatically transferred to the target business partner.\n\nCustomer Change\n\nUse\n\nYou use the customer change function to transfer the utilities contracts for a contract account, including any resulting receivables,\nbetween business partners.\n\nThis can for example be necessary when merging business partners.\nThe following functions are possible:\n\ne Create customer change\ne Process customer change subsequently\n\ne Reverse customer change\n\ne Transfer post open items due to customer change\n\nIntegration\n\nYou can access the customer change function under |\u00bbSAP Utilities Customer Service\u00bb Process Execution \u00bb Move-In/Out\nand then the menu option |}Other \u00bb Create / Cancel Customer Change\n\nPrerequisites\n\nBefore you can a execute customer change, the contracts to be transferred must have been invoiced at least once.\n\nIf you also want to transfer budget billing plans, the budget billing plan items must all be open. If necessary, you must reset all\nclearings and set the accrued receivables to payments on account. Therefore, we recommend that you execute the customer\nchange as close as possible to the last bill in order to avoid this preparatory work.\n\nCustomizing\n\nYou define customer change reasons in Customizing for SAP Utilities under |)Customer Service \u00bb Process Execution \u00bb Move-\n\ntom OF   = fe    =         e   =~   .       \u2014\n",
+ "cleaned_text": "Payment plans with the categories AMB and BBP cannot be transferred. If these kinds of payment plans exist, you cannot execute a customer change.\n\n- Open items in deregulation In SAP Utilities, you cannot use the Transfer Items (FP40) transaction to transfer open items in the deregulated scenario Bill Processing by Third Party .\n\n- Collection item Documents submitted to a collection agency cannot be transferred using the Transfer Items (FP40) transaction.\n\n- Creditworthiness data for business partner A business partner\u2019s creditworthiness data is not automatically transferred to the target business partner.\n\nCustomer Change\n\nUse\n\nYou use the customer change function to transfer the utilities contracts for a contract account, including any resulting receivables, between business partners. This can for example be necessary when merging business partners. The following functions are possible:\n\n- Create customer change\n\n- Process customer change subsequently\n\n- Reverse customer change\n\n- Transfer post open items due to customer change\n\nIntegration\n\nYou can access the customer change function under |\u00bbSAP Utilities Customer Service\u00bb Process Execution \u00bb Move-In/Out and then the menu option |}Other \u00bb Create / Cancel Customer Change\n\nPrerequisites\n\nBefore you can a execute customer change, the contracts to be transferred must have been invoiced at least once. If you also want to transfer budget billing plans, the budget billing plan items must all be open. If necessary, you must reset all clearings and set the accrued receivables to payments on account. Therefore, we recommend that you execute the customer change as close as possible to the last bill in order to avoid this preparatory work.\n\nCustomizing\n\nYou define customer change reasons in Customizing for SAP Utilities under |)Customer Service \u00bb Process Execution \u00bb Move-\n\ntom OF = fe = e =~ . \u2014",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p063_b000",
+   "type": "paragraph",
+   "page_number": 63,
+   "bbox": [
+    255,
+    134,
+    2448,
+    235
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Payment plans with the categories AMB and BBP cannot be transferred. If these kinds of payment plans exist, you cannot execute a customer change.",
+   "section_id": "doc_001_sec_223"
+  },
+  {
+   "block_id": "doc_001_p063_b001",
+   "type": "list",
+   "page_number": 63,
+   "bbox": [
+    207,
+    299,
+    2440,
+    914
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Open items in deregulation In SAP Utilities, you cannot use the Transfer Items (FP40) transaction to transfer open items in the deregulated scenario Bill Processing by Third Party ."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Collection item Documents submitted to a collection agency cannot be transferred using the Transfer Items (FP40) transaction."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Creditworthiness data for business partner A business partner\u2019s creditworthiness data is not automatically transferred to the target business partner."
+    }
+   ],
+   "section_id": "doc_001_sec_223"
+  },
+  {
+   "block_id": "doc_001_p063_b002",
+   "type": "heading",
+   "page_number": 63,
+   "bbox": [
+    125,
+    1060,
+    779,
+    1136
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Customer Change",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_224"
+  },
+  {
+   "block_id": "doc_001_p063_b003",
+   "type": "heading",
+   "page_number": 63,
+   "bbox": [
+    125,
+    1237,
+    225,
+    1282
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_225"
+  },
+  {
+   "block_id": "doc_001_p063_b004",
+   "type": "paragraph",
+   "page_number": 63,
+   "bbox": [
+    122,
+    1370,
+    2479,
+    1716
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You use the customer change function to transfer the utilities contracts for a contract account, including any resulting receivables, between business partners. This can for example be necessary when merging business partners. The following functions are possible:",
+   "section_id": "doc_001_sec_225"
+  },
+  {
+   "block_id": "doc_001_p063_b005",
+   "type": "list",
+   "page_number": 63,
+   "bbox": [
+    207,
+    1800,
+    1155,
+    2146
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create customer change"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Process customer change subsequently"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Reverse customer change"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Transfer post open items due to customer change"
+    }
+   ],
+   "section_id": "doc_001_sec_225"
+  },
+  {
+   "block_id": "doc_001_p063_b006",
+   "type": "heading",
+   "page_number": 63,
+   "bbox": [
+    127,
+    2258,
+    431,
+    2315
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_226"
+  },
+  {
+   "block_id": "doc_001_p063_b007",
+   "type": "paragraph",
+   "page_number": 63,
+   "bbox": [
+    123,
+    2384,
+    2390,
+    2497
+   ],
+   "ocr_confidence": 86.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "You can access the customer change function under |\u00bbSAP Utilities Customer Service\u00bb Process Execution \u00bb Move-In/Out and then the menu option |}Other \u00bb Create / Cancel Customer Change",
+   "section_id": "doc_001_sec_226"
+  },
+  {
+   "block_id": "doc_001_p063_b008",
+   "type": "heading",
+   "page_number": 63,
+   "bbox": [
+    126,
+    2604,
+    492,
+    2660
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_227"
+  },
+  {
+   "block_id": "doc_001_p063_b009",
+   "type": "paragraph",
+   "page_number": 63,
+   "bbox": [
+    123,
+    2733,
+    2386,
+    3021
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Before you can a execute customer change, the contracts to be transferred must have been invoiced at least once. If you also want to transfer budget billing plans, the budget billing plan items must all be open. If necessary, you must reset all clearings and set the accrued receivables to payments on account. Therefore, we recommend that you execute the customer change as close as possible to the last bill in order to avoid this preparatory work.",
+   "section_id": "doc_001_sec_227"
+  },
+  {
+   "block_id": "doc_001_p063_b010",
+   "type": "heading",
+   "page_number": 63,
+   "bbox": [
+    123,
+    3104,
+    357,
+    3142
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Customizing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_228"
+  },
+  {
+   "block_id": "doc_001_p063_b011",
+   "type": "paragraph",
+   "page_number": 63,
+   "bbox": [
+    123,
+    3222,
+    2409,
+    3268
+   ],
+   "ocr_confidence": 84.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "You define customer change reasons in Customizing for SAP Utilities under |)Customer Service \u00bb Process Execution \u00bb Move-",
+   "section_id": "doc_001_sec_228"
+  },
+  {
+   "block_id": "doc_001_p063_b012",
+   "type": "fragment",
+   "page_number": 63,
+   "bbox": [
+    171,
+    3281,
+    885,
+    3300
+   ],
+   "ocr_confidence": 38.8,
+   "flags": [
+    "low_confidence_words:9",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "tom OF = fe = e =~ . \u2014",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_228"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "78149068b17ef4f47e1c968e25202f59e07239a284e9f4727c233d12df7a8a48"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Objects and Enhancements in SAP Utilities",
+  "Constraints"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_223",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_224",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_225",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_226",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_227",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_228",
+   "role": "starts_here"
+  }
+ ]
+}

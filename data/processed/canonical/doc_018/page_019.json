@@ -1,0 +1,427 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 19,
+ "source_page_hash": "0f8d53252015eb32fb8164fe3aed2bc0ce7ad20b361ed73a7de14c1be27f3477",
+ "is_cover_page": false,
+ "title": "Find Contract Account Account Balance by Customer",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nThe service interface Query Contract Account In contains the inbound query operation (SAP A2X) for the business object\nContract Account.\n\nFind Contract Account Account Balance by Customer\n\nDefinition\n\nTo read the contract account balance of a specified business partner.\n\nTechnical Data\n\nEntity Type                                                                          Service Operation\n\nRelease State                                                                             released\n\nNotes on Release State\n\nTechnical Name                                                               ContractAccountAccountBalanceByCustomerQueryResponse_In\nNamespace                                                                         http://sap.com/xi/FI-CA/Global ite\n\nApplication Component                                                          FI-CA\n\nWeb Service Definition (Back End)                                           FKK_CONT_ACC_BALANCE_QR\n\nDirection                                                                             inbound\n\nMode                                                                                 synchronous\n\nIdempotency                                                                       no\n\nChange/Update Behavior                                                              not applicable\n\nP2P Communication Enabled                                                  true\n\nBusiness Context and Use\n\nThis inbound operation returns the current account balances of a specified business partner's contract accounts.\n\nFeatures\n\nThe operation reads the balances of a specified business partner\u2019s contract accounts. It finds open and due balance items as well\nas items that are 30, 60, or 90 days overdue.\n\nThe selection is based on the internal ID of the business partner to be considered. Specification of the business partner's external\nID is also possible, but in this case the external ID has to be mapped to the corresponding internal ID (see notes on SAP\nimplementation).\n\nThe response message returns the following balance items:\n",
+ "cleaned_text": "The service interface Query Contract Account In contains the inbound query operation (SAP A2X) for the business object Contract Account.\n\nFind Contract Account Account Balance by Customer\n\nDefinition\n\nTo read the contract account balance of a specified business partner.\n\nTechnical Data\n\nEntity Type | Service Operation\n\nRelease State | released\n\nNotes on Release State\n\nTechnical Name | ContractAccountAccountBalanceByCustomerQueryResponse_In\n\nNamespace | http://sap.com/xi/FI-CA/Global ite\n\nApplication Component | FI-CA\n\nWeb Service Definition (Back End) | FKK_CONT_ACC_BALANCE_QR\n\nDirection | inbound\n\nMode | synchronous\n\nIdempotency | no\n\nChange/Update Behavior | not applicable\n\nP2P Communication Enabled | true\n\nBusiness Context and Use\n\nThis inbound operation returns the current account balances of a specified business partner's contract accounts.\n\nFeatures\n\nThe operation reads the balances of a specified business partner\u2019s contract accounts. It finds open and due balance items as well as items that are 30, 60, or 90 days overdue. The selection is based on the internal ID of the business partner to be considered. Specification of the business partner's external ID is also possible, but in this case the external ID has to be mapped to the corresponding internal ID (see notes on SAP implementation). The response message returns the following balance items:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p019_b000",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    122,
+    134,
+    2331,
+    227
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "The service interface Query Contract Account In contains the inbound query operation (SAP A2X) for the business object Contract Account.",
+   "section_id": "doc_018_sec_117"
+  },
+  {
+   "block_id": "doc_018_p019_b001",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    128,
+    383,
+    2059,
+    460
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Find Contract Account Account Balance by Customer",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_118"
+  },
+  {
+   "block_id": "doc_018_p019_b002",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    126,
+    560,
+    393,
+    605
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_119"
+  },
+  {
+   "block_id": "doc_018_p019_b003",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    122,
+    693,
+    1368,
+    731
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "To read the contract account balance of a specified business partner.",
+   "section_id": "doc_018_sec_119"
+  },
+  {
+   "block_id": "doc_018_p019_b004",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    123,
+    843,
+    530,
+    888
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_120"
+  },
+  {
+   "block_id": "doc_018_p019_b005",
+   "type": "table",
+   "page_number": 19,
+   "bbox": [
+    150,
+    997,
+    1594,
+    1134
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1295
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ]
+   ],
+   "section_id": "doc_018_sec_120"
+  },
+  {
+   "block_id": "doc_018_p019_b006",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    150,
+    1211,
+    537,
+    1239
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Notes on Release State",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_121"
+  },
+  {
+   "block_id": "doc_018_p019_b007",
+   "type": "table",
+   "page_number": 19,
+   "bbox": [
+    148,
+    1316,
+    2389,
+    2192
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1293
+   ],
+   "headers": [
+    "Technical Name",
+    "ContractAccountAccountBalanceByCustomerQueryResponse_In"
+   ],
+   "rows": [
+    [
+     "Namespace",
+     "http://sap.com/xi/FI-CA/Global ite"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "FKK_CONT_ACC_BALANCE_QR"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Technical Name",
+     "ContractAccountAccountBalanceByCustomerQueryResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FI-CA/Global ite"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "FKK_CONT_ACC_BALANCE_QR"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "section_id": "doc_018_sec_121"
+  },
+  {
+   "block_id": "doc_018_p019_b008",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    126,
+    2333,
+    853,
+    2379
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Business Context and Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_122"
+  },
+  {
+   "block_id": "doc_018_p019_b009",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    122,
+    2467,
+    2173,
+    2504
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "This inbound operation returns the current account balances of a specified business partner's contract accounts.",
+   "section_id": "doc_018_sec_122"
+  },
+  {
+   "block_id": "doc_018_p019_b010",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    126,
+    2617,
+    361,
+    2662
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_123"
+  },
+  {
+   "block_id": "doc_018_p019_b011",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    122,
+    2749,
+    2463,
+    3221
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The operation reads the balances of a specified business partner\u2019s contract accounts. It finds open and due balance items as well as items that are 30, 60, or 90 days overdue. The selection is based on the internal ID of the business partner to be considered. Specification of the business partner's external ID is also possible, but in this case the external ID has to be mapped to the corresponding internal ID (see notes on SAP implementation). The response message returns the following balance items:",
+   "section_id": "doc_018_sec_123"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "0f8d53252015eb32fb8164fe3aed2bc0ce7ad20b361ed73a7de14c1be27f3477"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Query Contract Account In",
+  "Technical Data"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_117",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_018_sec_118",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_119",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_120",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_121",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_122",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_123",
+   "role": "starts_here"
+  }
+ ]
+}

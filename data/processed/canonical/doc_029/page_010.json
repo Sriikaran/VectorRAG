@@ -1,0 +1,321 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_029",
+ "page_number": 10,
+ "source_page_hash": "bfa0c6d97c8e07d7ca860653709f5c6d565ffd1ce115e6c362864568a188d635",
+ "is_cover_page": false,
+ "title": "Prerequisites",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:19 AM\ncorresponding plant.\n\nYou can use all Service Processing (CS-SE ) functions in the service orders/service notifications, as well as print them, and\ndownload them to another system. IS-U/CCS data is also available to you.\n\nService orders are generated using the same procedure described in the Work Management section.\n\nPrerequisites\n\nIf you want to generate a disconnection order, the disconnection document must have a reference object containing devices or\nflat-rate installations in its data environment.\n\nIn the event that open item accounting is blocked, the contract account must contain at least one current contract when the\ndisconnection order is generated.\n\nFeatures\n\nDuring generation of a disconnection order, you enter a planned disconnection date and the number of devices or flat-rate\ninstallations to be disconnected.\n\nThe system proposes all potential disconnection objects from the data environment of the reference object. In the disconnection\nprocessing variant, you can determine whether this proposal is to be division-dependent (according to the items of the contract\naccount that are relevant to disconnection).\n\nDisconnection orders cannot contain any installations or devices, for which a reason for guarantee of supply has been specified.\nThe same is true for disconnection objects that are already disconnected. You can generate a disconnection order for devices that\nare allocated to installations other than the installation from the environment of the reference object. However, a warning will be\ndisplayed so that the disconnection will not inadvertently affect other customers.\n\nThe Planned Disconnection Date and Time\n\nWhen you create a disconnection order, you specify a planned disconnection date and time ( Plan. Disc. Date and Disc.Time\nfields), indicating when an agent (or the system \u2014 in the case of remote disconnections) is to process the device disconnection.\n\nThe Agreed Date and Time\n\nIf notification is required, the system generates a notification work item . When the CRM agent assigned to this work item\ncontacts the customer, the customer can agree to the planned disconnection date and time, or propose a different one. The final\ndate and time agreed upon by both the CRM agent and the customer are called the agreed date and agreed time.\n\ne The agreed date and time can equal the planned disconnection date and time\n\ne The agreed date and time can be earlier than the planned disconnection date and time \u2014 in this case, the agreed date and\ntime must fall on or after the current date and time.\n\ne The agreed date and time can be later than the planned disconnection date and time \u2014 in this case, the agreed date must\nfall on or before:\n\no The maximum agreed date \u2014 this date is calculated by adding the planned disconnection date to the maximum\nagreed offset\n",
+ "cleaned_text": "corresponding plant.\n\nYou can use all Service Processing (CS-SE ) functions in the service orders/service notifications, as well as print them, and download them to another system. IS-U/CCS data is also available to you. Service orders are generated using the same procedure described in the Work Management section.\n\nPrerequisites\n\nIf you want to generate a disconnection order, the disconnection document must have a reference object containing devices or flat-rate installations in its data environment. In the event that open item accounting is blocked, the contract account must contain at least one current contract when the disconnection order is generated.\n\nFeatures\n\nDuring generation of a disconnection order, you enter a planned disconnection date and the number of devices or flat-rate installations to be disconnected. The system proposes all potential disconnection objects from the data environment of the reference object. In the disconnection processing variant, you can determine whether this proposal is to be division-dependent (according to the items of the contract account that are relevant to disconnection). Disconnection orders cannot contain any installations or devices, for which a reason for guarantee of supply has been specified. The same is true for disconnection objects that are already disconnected. You can generate a disconnection order for devices that are allocated to installations other than the installation from the environment of the reference object. However, a warning will be displayed so that the disconnection will not inadvertently affect other customers.\n\nThe Planned Disconnection Date and Time\n\nWhen you create a disconnection order, you specify a planned disconnection date and time ( Plan. Disc. Date and Disc.Time fields), indicating when an agent (or the system \u2014 in the case of remote disconnections) is to process the device disconnection.\n\nThe Agreed Date and Time\n\nIf notification is required, the system generates a notification work item . When the CRM agent assigned to this work item contacts the customer, the customer can agree to the planned disconnection date and time, or propose a different one. The final date and time agreed upon by both the CRM agent and the customer are called the agreed date and agreed time.\n\n- The agreed date and time can equal the planned disconnection date and time\n\n- The agreed date and time can be earlier than the planned disconnection date and time \u2014 in this case, the agreed date and time must fall on or after the current date and time.\n\n- The agreed date and time can be later than the planned disconnection date and time \u2014 in this case, the agreed date must fall on or before:\n\n- The maximum agreed date \u2014 this date is calculated by adding the planned disconnection date to the maximum agreed offset",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:19 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_029_p010_b000",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    152,
+    134,
+    526,
+    172
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "corresponding plant.",
+   "section_id": "doc_029_sec_034"
+  },
+  {
+   "block_id": "doc_029_p010_b001",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    123,
+    292,
+    2345,
+    514
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "You can use all Service Processing (CS-SE ) functions in the service orders/service notifications, as well as print them, and download them to another system. IS-U/CCS data is also available to you. Service orders are generated using the same procedure described in the Work Management section.",
+   "section_id": "doc_029_sec_034"
+  },
+  {
+   "block_id": "doc_029_p010_b002",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    126,
+    626,
+    492,
+    682
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_035"
+  },
+  {
+   "block_id": "doc_029_p010_b003",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    122,
+    759,
+    2411,
+    1046
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "If you want to generate a disconnection order, the disconnection document must have a reference object containing devices or flat-rate installations in its data environment. In the event that open item accounting is blocked, the contract account must contain at least one current contract when the disconnection order is generated.",
+   "section_id": "doc_029_sec_035"
+  },
+  {
+   "block_id": "doc_029_p010_b004",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    126,
+    1158,
+    361,
+    1203
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_036"
+  },
+  {
+   "block_id": "doc_029_p010_b005",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    122,
+    1291,
+    2469,
+    1949
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "During generation of a disconnection order, you enter a planned disconnection date and the number of devices or flat-rate installations to be disconnected. The system proposes all potential disconnection objects from the data environment of the reference object. In the disconnection processing variant, you can determine whether this proposal is to be division-dependent (according to the items of the contract account that are relevant to disconnection). Disconnection orders cannot contain any installations or devices, for which a reason for guarantee of supply has been specified. The same is true for disconnection objects that are already disconnected. You can generate a disconnection order for devices that are allocated to installations other than the installation from the environment of the reference object. However, a warning will be displayed so that the disconnection will not inadvertently affect other customers.",
+   "section_id": "doc_029_sec_036"
+  },
+  {
+   "block_id": "doc_029_p010_b006",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    122,
+    2034,
+    915,
+    2064
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The Planned Disconnection Date and Time",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_037"
+  },
+  {
+   "block_id": "doc_029_p010_b007",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    122,
+    2158,
+    2417,
+    2258
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "When you create a disconnection order, you specify a planned disconnection date and time ( Plan. Disc. Date and Disc.Time fields), indicating when an agent (or the system \u2014 in the case of remote disconnections) is to process the device disconnection.",
+   "section_id": "doc_029_sec_037"
+  },
+  {
+   "block_id": "doc_029_p010_b008",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    122,
+    2343,
+    616,
+    2380
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The Agreed Date and Time",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_038"
+  },
+  {
+   "block_id": "doc_029_p010_b009",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    123,
+    2464,
+    2438,
+    2630
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "If notification is required, the system generates a notification work item . When the CRM agent assigned to this work item contacts the customer, the customer can agree to the planned disconnection date and time, or propose a different one. The final date and time agreed upon by both the CRM agent and the customer are called the agreed date and agreed time.",
+   "section_id": "doc_029_sec_038"
+  },
+  {
+   "block_id": "doc_029_p010_b010",
+   "type": "list",
+   "page_number": 10,
+   "bbox": [
+    207,
+    2713,
+    2446,
+    3248
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The agreed date and time can equal the planned disconnection date and time"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The agreed date and time can be earlier than the planned disconnection date and time \u2014 in this case, the agreed date and time must fall on or after the current date and time."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The agreed date and time can be later than the planned disconnection date and time \u2014 in this case, the agreed date must fall on or before:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "The maximum agreed date \u2014 this date is calculated by adding the planned disconnection date to the maximum agreed offset"
+    }
+   ],
+   "section_id": "doc_029_sec_038"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Disconnection/Reconnection of a Utility Installation",
+  "source_pdf": "29.pdf",
+  "reference_pdf": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+  "category": "Disconnection & Reconnection",
+  "m2c_relevance": "Connects overdue debt/dunning to service actions while preserving the distinction between delinquency and disconnect eligibility.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "bfa0c6d97c8e07d7ca860653709f5c6d565ffd1ce115e6c362864568a188d635"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:47Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Disconnection/Reconnection of a Utility Installation",
+  "Disconnection Order Generation",
+  "Integration",
+  "Generating Service orders and Service Notifications"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_029_sec_034",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_029_sec_035",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_036",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_037",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_038",
+   "role": "starts_here"
+  }
+ ]
+}

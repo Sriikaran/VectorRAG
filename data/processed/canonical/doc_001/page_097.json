@@ -1,0 +1,463 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 97,
+ "source_page_hash": "10079ce35401c99fdf9aa8c9c41cb6b29c55bd24afe4f56f970d2ede9bf96947",
+ "is_cover_page": false,
+ "title": "CRM Connection",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\no Check for Switch Documents\n\nIf at least one switch document with the status \"Active\" exists for the point of delivery or the installation to be\nreallocated, the system displays an error message.\n\no Check for Owner\n\nIf the owner of the premise for the point of delivery or installation to be reallocated is not the same as the owner of\nthe new premise, the system displays a selection dialog box on which you must decide if it is really necessary to\nmake the reallocation.\n\no Check for Regional Structure\n\nIf the regional structure group or street or street section of the premise for the point of delivery or installation to be\nreallocated is not the same as the location of the new premise, the system displays a selection dialog box on which\nyou must decide if it is really necessary to make the reallocation.\n\n2. BAdI ISU_LMOVEPODTOPREMISE_ADDRESS\n\nYou can use this BAdI to decide whether the addresses of the old and new premise are to be displayed on the dialog box.\n\nIn the default implementation, when the point of delivery or installation is reallocated to the new premise, the system\ndisplays a dialog box with the addresses of the old and new premise.\n\n3. BAdI ISU_LMOVEPODTOPREMISE_UP_BP_ADD\n\nIf you use the transaction ES64 to allocate a different premise to a point of delivery or an installation, you can use this BAdI\nto change the address for the business partner.\n\nCRM Connection\n\nAll applications listed are replicated to CRM.\n\nTechnical Installation\n\nDefinition\n\nTechnical Installation\n\nUse\n\nYou can allocate one technical installation to a premise for each division.\n\nA piece of equipment that has already been created can also be allocated to the premise as a technical installation. However, to do\nthis make sure that the ISU field (IS-U data) in the Equipment category has not been selected. You find this field in IS-U\nCustomizing under |*Device Management \u00bb Technology \u00bb Device \u00bb Define IS-U Equipment Categories.\n\nAt present, you cannot change or delete a technical installation.\n\nIntegration\n\nTha tachnical inctallation ic craatad ac a nierea of Eqitinmeant\n",
+ "cleaned_text": "- Check for Switch Documents If at least one switch document with the status \"Active\" exists for the point of delivery or the installation to be\n\nreallocated, the system displays an error message.\n\n- Check for Owner If the owner of the premise for the point of delivery or installation to be reallocated is not the same as the owner of\n\nthe new premise, the system displays a selection dialog box on which you must decide if it is really necessary to make the reallocation.\n\n- Check for Regional Structure If the regional structure group or street or street section of the premise for the point of delivery or installation to be\n\nreallocated is not the same as the location of the new premise, the system displays a selection dialog box on which you must decide if it is really necessary to make the reallocation.\n\n2 BAdI ISU_LMOVEPODTOPREMISE_ADDRESS You can use this BAdI to decide whether the addresses of the old and new premise are to be displayed on the dialog box. In the default implementation, when the point of delivery or installation is reallocated to the new premise, the system\n\ndisplays a dialog box with the addresses of the old and new premise.\n\n3 BAdI ISU_LMOVEPODTOPREMISE_UP_BP_ADD If you use the transaction ES64 to allocate a different premise to a point of delivery or an installation, you can use this BAdI\n\nto change the address for the business partner.\n\nCRM Connection\n\nAll applications listed are replicated to CRM.\n\nTechnical Installation\n\nDefinition\n\nTechnical Installation\n\nUse\n\nYou can allocate one technical installation to a premise for each division. A piece of equipment that has already been created can also be allocated to the premise as a technical installation. However, to do this make sure that the ISU field (IS-U data) in the Equipment category has not been selected. You find this field in IS-U Customizing under |*Device Management \u00bb Technology \u00bb Device \u00bb Define IS-U Equipment Categories. At present, you cannot change or delete a technical installation.\n\nIntegration\n\nTha tachnical inctallation ic craatad ac a nierea of Eqitinmeant",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p097_b000",
+   "type": "list",
+   "page_number": 97,
+   "bbox": [
+    336,
+    134,
+    2358,
+    274
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Check for Switch Documents If at least one switch document with the status \"Active\" exists for the point of delivery or the installation to be"
+    }
+   ],
+   "section_id": "doc_001_sec_368"
+  },
+  {
+   "block_id": "doc_001_p097_b001",
+   "type": "paragraph",
+   "page_number": 97,
+   "bbox": [
+    387,
+    299,
+    1300,
+    336
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "reallocated, the system displays an error message.",
+   "section_id": "doc_001_sec_368"
+  },
+  {
+   "block_id": "doc_001_p097_b002",
+   "type": "list",
+   "page_number": 97,
+   "bbox": [
+    336,
+    404,
+    2450,
+    544
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Check for Owner If the owner of the premise for the point of delivery or installation to be reallocated is not the same as the owner of"
+    }
+   ],
+   "section_id": "doc_001_sec_368"
+  },
+  {
+   "block_id": "doc_001_p097_b003",
+   "type": "paragraph",
+   "page_number": 97,
+   "bbox": [
+    385,
+    568,
+    2398,
+    661
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "the new premise, the system displays a selection dialog box on which you must decide if it is really necessary to make the reallocation.",
+   "section_id": "doc_001_sec_368"
+  },
+  {
+   "block_id": "doc_001_p097_b004",
+   "type": "list",
+   "page_number": 97,
+   "bbox": [
+    336,
+    732,
+    2464,
+    875
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Check for Regional Structure If the regional structure group or street or street section of the premise for the point of delivery or installation to be"
+    }
+   ],
+   "section_id": "doc_001_sec_368"
+  },
+  {
+   "block_id": "doc_001_p097_b005",
+   "type": "paragraph",
+   "page_number": 97,
+   "bbox": [
+    385,
+    900,
+    2452,
+    1000
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "reallocated is not the same as the location of the new premise, the system displays a selection dialog box on which you must decide if it is really necessary to make the reallocation.",
+   "section_id": "doc_001_sec_368"
+  },
+  {
+   "block_id": "doc_001_p097_b006",
+   "type": "list",
+   "page_number": 97,
+   "bbox": [
+    212,
+    1064,
+    2421,
+    1309
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "BAdI ISU_LMOVEPODTOPREMISE_ADDRESS You can use this BAdI to decide whether the addresses of the old and new premise are to be displayed on the dialog box. In the default implementation, when the point of delivery or installation is reallocated to the new premise, the system"
+    }
+   ],
+   "section_id": "doc_001_sec_368"
+  },
+  {
+   "block_id": "doc_001_p097_b007",
+   "type": "paragraph",
+   "page_number": 97,
+   "bbox": [
+    255,
+    1334,
+    1485,
+    1371
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "displays a dialog box with the addresses of the old and new premise.",
+   "section_id": "doc_001_sec_368"
+  },
+  {
+   "block_id": "doc_001_p097_b008",
+   "type": "list",
+   "page_number": 97,
+   "bbox": [
+    211,
+    1435,
+    2469,
+    1575
+   ],
+   "ocr_confidence": 92.6,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "BAdI ISU_LMOVEPODTOPREMISE_UP_BP_ADD If you use the transaction ES64 to allocate a different premise to a point of delivery or an installation, you can use this BAdI"
+    }
+   ],
+   "section_id": "doc_001_sec_368"
+  },
+  {
+   "block_id": "doc_001_p097_b009",
+   "type": "paragraph",
+   "page_number": 97,
+   "bbox": [
+    254,
+    1600,
+    1107,
+    1637
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "to change the address for the business partner.",
+   "section_id": "doc_001_sec_368"
+  },
+  {
+   "block_id": "doc_001_p097_b010",
+   "type": "heading",
+   "page_number": 97,
+   "bbox": [
+    123,
+    1724,
+    436,
+    1755
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "CRM Connection",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_369"
+  },
+  {
+   "block_id": "doc_001_p097_b011",
+   "type": "paragraph",
+   "page_number": 97,
+   "bbox": [
+    123,
+    1846,
+    920,
+    1884
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "All applications listed are replicated to CRM.",
+   "section_id": "doc_001_sec_369"
+  },
+  {
+   "block_id": "doc_001_p097_b012",
+   "type": "heading",
+   "page_number": 97,
+   "bbox": [
+    123,
+    2030,
+    883,
+    2091
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Technical Installation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_370"
+  },
+  {
+   "block_id": "doc_001_p097_b013",
+   "type": "heading",
+   "page_number": 97,
+   "bbox": [
+    126,
+    2209,
+    393,
+    2254
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_371"
+  },
+  {
+   "block_id": "doc_001_p097_b014",
+   "type": "heading",
+   "page_number": 97,
+   "bbox": [
+    122,
+    2339,
+    502,
+    2369
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Technical Installation",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_371"
+  },
+  {
+   "block_id": "doc_001_p097_b015",
+   "type": "heading",
+   "page_number": 97,
+   "bbox": [
+    125,
+    2489,
+    225,
+    2534
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_372"
+  },
+  {
+   "block_id": "doc_001_p097_b016",
+   "type": "paragraph",
+   "page_number": 97,
+   "bbox": [
+    122,
+    2621,
+    2472,
+    3030
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You can allocate one technical installation to a premise for each division. A piece of equipment that has already been created can also be allocated to the premise as a technical installation. However, to do this make sure that the ISU field (IS-U data) in the Equipment category has not been selected. You find this field in IS-U Customizing under |*Device Management \u00bb Technology \u00bb Device \u00bb Define IS-U Equipment Categories. At present, you cannot change or delete a technical installation.",
+   "section_id": "doc_001_sec_372"
+  },
+  {
+   "block_id": "doc_001_p097_b017",
+   "type": "paragraph",
+   "page_number": 97,
+   "bbox": [
+    127,
+    3142,
+    431,
+    3199
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Integration",
+   "section_id": "doc_001_sec_372"
+  },
+  {
+   "block_id": "doc_001_p097_b018",
+   "type": "fragment",
+   "page_number": 97,
+   "bbox": [
+    122,
+    3275,
+    1206,
+    3300
+   ],
+   "ocr_confidence": 78.9,
+   "flags": [
+    "low_confidence_words:2",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Tha tachnical inctallation ic craatad ac a nierea of Eqitinmeant",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_372"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "10079ce35401c99fdf9aa8c9c41cb6b29c55bd24afe4f56f970d2ede9bf96947"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Reallocate Point of Delivery/Installation to New Premise",
+  "Se Example",
+  "Reallocation"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_368",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_369",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_370",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_371",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_372",
+   "role": "starts_here"
+  }
+ ]
+}

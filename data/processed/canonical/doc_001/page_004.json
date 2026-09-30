@@ -1,0 +1,388 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 4,
+ "source_page_hash": "3cb9be349ab564030314bc5419941b7e0e265945f076c521ed018e9eb6566b15",
+ "is_cover_page": false,
+ "title": "Industry Component Utilities",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nAs acontract partner receives services from the company and has to be billed for these services, you also have to define control\nand payment data on the contract partner. In addition to bank details, you can enter general data on the contract partner, such as\nthe business partner type and creditworthiness. Creditworthiness is determined and updated automatically, but you can overwrite\n\nthis.\nA company must have the following information on a contract partner:\n\ne Address: Name, form of address, academic title, name suffixes and prefixes, personal data, street address, postbox\naddress, communication methods\n\ne Control/Payment Transactions: Bank details and general data (creditworthiness)\n\ne Relationships: Relationships to other business partners (see Relationship Categories)\n\n1 Note\n\nIndustry Component Utilities\n\nIn the Utilities industry component, you can define additional data for the contract partner, for example, the following\ngeneral data:\n\n\u00a9 Driving license number\n\u00a9 Social insurance number (USA)\no Employee classification\n\no Account category (as default value for contract account)\n\nProcessing the Contract Partner\n\nBusiness partners in the role MKK can be processed in the SAP menu under |}#Master Data \u00bb Business Partner *. You can process\nall the roles of a business partner in transaction BP in the menu of the SAP Business Partner.\n\nYou can delete the role MKK as soon as there are no further contract accounts for a contract partner in the system. When you\n\ndelete the role MKK, the corresponding entry in the shadow table for this contract partner is automatically deleted.\n\nTax numbers for business partners\n\nYou can define any number of tax numbers for a contract partner. Tax numbers are assigned to tax number categories. Tax number\n\ncategories control the usage of tax numbers and checking these numbers. The system logs changes to the tax number in change\ndocuments.\n\n1 Note\n\nYou can manage address-independent data in the business partner (Multiple Address Handling in Customer Master Data). You\n\ncan for example define address-dependent tax numbers in the business partner. However, note that Contract Accounts\nReceivable and Payable only uses the tax number for the standard contract partner address.\n\nChecking dependencies of master data changes\n\nIf you have set the indicator Business Partner Dependency in Customizing for Contract Accounts Receivable and Payable under\nBasic Functions } Contract Partner \u00bb Activate Additional Checks for Master Data Changes to Business Partner 3, the system\n",
+ "cleaned_text": "As acontract partner receives services from the company and has to be billed for these services, you also have to define control and payment data on the contract partner. In addition to bank details, you can enter general data on the contract partner, such as the business partner type and creditworthiness. Creditworthiness is determined and updated automatically, but you can overwrite this. A company must have the following information on a contract partner:\n\n- Address: Name, form of address, academic title, name suffixes and prefixes, personal data, street address, postbox address, communication methods\n\n- Control/Payment Transactions: Bank details and general data (creditworthiness)\n\n- Relationships: Relationships to other business partners (see Relationship Categories)\n\nNote\n\nIndustry Component Utilities\n\nIn the Utilities industry component, you can define additional data for the contract partner, for example, the following general data: \u00a9 Driving license number \u00a9 Social insurance number (USA)\n\n- Employee classification\n\n- Account category (as default value for contract account)\n\nProcessing the Contract Partner\n\nBusiness partners in the role MKK can be processed in the SAP menu under |}#Master Data \u00bb Business Partner *. You can process all the roles of a business partner in transaction BP in the menu of the SAP Business Partner. You can delete the role MKK as soon as there are no further contract accounts for a contract partner in the system. When you delete the role MKK, the corresponding entry in the shadow table for this contract partner is automatically deleted.\n\nTax numbers for business partners\n\nYou can define any number of tax numbers for a contract partner. Tax numbers are assigned to tax number categories. Tax number categories control the usage of tax numbers and checking these numbers. The system logs changes to the tax number in change documents.\n\nNote You can manage address-independent data in the business partner (Multiple Address Handling in Customer Master Data). You can for example define address-dependent tax numbers in the business partner. However, note that Contract Accounts Receivable and Payable only uses the tax number for the standard contract partner address.\n\nChecking dependencies of master data changes\n\nIf you have set the indicator Business Partner Dependency in Customizing for Contract Accounts Receivable and Payable under Basic Functions } Contract Partner \u00bb Activate Additional Checks for Master Data Changes to Business Partner 3, the system",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    959,
+    442,
+    996
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    2703,
+    310,
+    2740
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p004_b000",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    134,
+    2476,
+    484
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "As acontract partner receives services from the company and has to be billed for these services, you also have to define control and payment data on the contract partner. In addition to bank details, you can enter general data on the contract partner, such as the business partner type and creditworthiness. Creditworthiness is determined and updated automatically, but you can overwrite this. A company must have the following information on a contract partner:",
+   "section_id": "doc_001_sec_008"
+  },
+  {
+   "block_id": "doc_001_p004_b001",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    207,
+    568,
+    2329,
+    876
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Address: Name, form of address, academic title, name suffixes and prefixes, personal data, street address, postbox address, communication methods"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Control/Payment Transactions: Bank details and general data (creditworthiness)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Relationships: Relationships to other business partners (see Relationship Categories)"
+    }
+   ],
+   "section_id": "doc_001_sec_008"
+  },
+  {
+   "block_id": "doc_001_p004_b002",
+   "type": "note",
+   "page_number": 4,
+   "bbox": [
+    282,
+    959,
+    442,
+    996
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "label": "Note",
+   "text": "Note",
+   "section_id": "doc_001_sec_008"
+  },
+  {
+   "block_id": "doc_001_p004_b003",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    286,
+    1038,
+    826,
+    1076
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Industry Component Utilities",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_009"
+  },
+  {
+   "block_id": "doc_001_p004_b004",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    283,
+    1140,
+    2398,
+    1447
+   ],
+   "ocr_confidence": 93.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "In the Utilities industry component, you can define additional data for the contract partner, for example, the following general data: \u00a9 Driving license number \u00a9 Social insurance number (USA)",
+   "section_id": "doc_001_sec_009"
+  },
+  {
+   "block_id": "doc_001_p004_b005",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    366,
+    1511,
+    1440,
+    1650
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Employee classification"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Account category (as default value for contract account)"
+    }
+   ],
+   "section_id": "doc_001_sec_009"
+  },
+  {
+   "block_id": "doc_001_p004_b006",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    124,
+    1797,
+    769,
+    1839
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Processing the Contract Partner",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_010"
+  },
+  {
+   "block_id": "doc_001_p004_b007",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    123,
+    1923,
+    2461,
+    2226
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Business partners in the role MKK can be processed in the SAP menu under |}#Master Data \u00bb Business Partner *. You can process all the roles of a business partner in transaction BP in the menu of the SAP Business Partner. You can delete the role MKK as soon as there are no further contract accounts for a contract partner in the system. When you delete the role MKK, the corresponding entry in the shadow table for this contract partner is automatically deleted.",
+   "section_id": "doc_001_sec_010"
+  },
+  {
+   "block_id": "doc_001_p004_b008",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    122,
+    2311,
+    815,
+    2351
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Tax numbers for business partners",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_011"
+  },
+  {
+   "block_id": "doc_001_p004_b009",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    123,
+    2434,
+    2483,
+    2593
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You can define any number of tax numbers for a contract partner. Tax numbers are assigned to tax number categories. Tax number categories control the usage of tax numbers and checking these numbers. The system logs changes to the tax number in change documents.",
+   "section_id": "doc_001_sec_011"
+  },
+  {
+   "block_id": "doc_001_p004_b010",
+   "type": "note",
+   "page_number": 4,
+   "bbox": [
+    151,
+    2703,
+    2430,
+    2945
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "label": "Note",
+   "text": "Note You can manage address-independent data in the business partner (Multiple Address Handling in Customer Master Data). You can for example define address-dependent tax numbers in the business partner. However, note that Contract Accounts Receivable and Payable only uses the tax number for the standard contract partner address.",
+   "section_id": "doc_001_sec_011"
+  },
+  {
+   "block_id": "doc_001_p004_b011",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    123,
+    3066,
+    1081,
+    3107
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Checking dependencies of master data changes",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_012"
+  },
+  {
+   "block_id": "doc_001_p004_b012",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    124,
+    3193,
+    2461,
+    3299
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "If you have set the indicator Business Partner Dependency in Customizing for Contract Accounts Receivable and Payable under Basic Functions } Contract Partner \u00bb Activate Additional Checks for Master Data Changes to Business Partner 3, the system",
+   "section_id": "doc_001_sec_012"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "3cb9be349ab564030314bc5419941b7e0e265945f076c521ed018e9eb6566b15"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:26Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Business Partner in the Contract Partner Role (MKK)",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_008",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_009",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_010",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_011",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_012",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,399 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 86,
+ "source_page_hash": "4a48ec035bfec22c858a6c6b62b456aace8bc2d543e1ba477ab815682870e8ae",
+ "is_cover_page": false,
+ "title": "Constraints",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\ne MR= Meter reading result\n\ne E=Estimated meter reading result\n\n12.31.2008 \u2014 06.30.2009                              07.01.2009 \u2014 12.31.2009\n\n12/31/2008                          6/30/2009                            12/31/2009\nMR                         MR                           E\n0                                                                                                                 1\nExtrapolation\n\nIn the example, the base period is between MRO and MR1; that is 12.31.2008 to 06.30.2009.\n\nIn the example, the forecast period is between MR1 and E; that is 07.01.2009 to 12.31.2009.\n\nConstraints\n\nWhereas during the classical quantity determination procedure, you can exclude estimated values from being used as a basis for\nextrapolation, this is not possible when using the quantity determination procedure Quantity Determination During Meter\nReading as the estimated quantities are also necessary as a basis for extrapolation. If you have selected the Ignore Estimated\nMeter Reading Results During Extrapolation checkbox in the control parameters in Customizing for Meter Reading Data\nProcessing, the system ignores this setting as soon as a period exists in which the quantity determination procedure Quantity\nDetermination During Meter Reading is used for a register.\n\nCustomizing for|)*SAP Utilities \u00bb Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Parameters for Meter\nReading Data Processing\n\nInterpolation\n\nUse\n\nDuring the estimation procedure of interpolation, a value is estimated between two existing values. These existing values can be\nactual values or estimated values.\n\nThe steps described below are carried out automatically by the system and are not visible to the user. The description should\n\nexplain the algorithm that uses the weighting procedure to distribute a quantity saved in the system and, from that, derives the\nestimated meter reading result.\n\nFeatures\n\nInterpolation Between Consecutive Meter Readings\n",
+ "cleaned_text": "- MR= Meter reading result\n\n- E=Estimated meter reading result\n\n12.31.2008 \u2014 06.30.2009 | 07.01.2009 \u2014 12.31.2009\n\n12/31/2008 | 6/30/2009 | 12/31/2009\n\nMR | MR | E\n\n0 | 1\n\nExtrapolation In the example, the base period is between MRO and MR1; that is 12.31.2008 to 06.30.2009. In the example, the forecast period is between MR1 and E; that is 07.01.2009 to 12.31.2009.\n\nConstraints\n\nWhereas during the classical quantity determination procedure, you can exclude estimated values from being used as a basis for extrapolation, this is not possible when using the quantity determination procedure Quantity Determination During Meter Reading as the estimated quantities are also necessary as a basis for extrapolation. If you have selected the Ignore Estimated Meter Reading Results During Extrapolation checkbox in the control parameters in Customizing for Meter Reading Data Processing, the system ignores this setting as soon as a period exists in which the quantity determination procedure Quantity Determination During Meter Reading is used for a register. Customizing for|)*SAP Utilities \u00bb Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Parameters for Meter\n\nReading Data Processing\n\nInterpolation\n\nUse\n\nDuring the estimation procedure of interpolation, a value is estimated between two existing values. These existing values can be actual values or estimated values. The steps described below are carried out automatically by the system and are not visible to the user. The description should explain the algorithm that uses the weighting procedure to distribute a quantity saved in the system and, from that, derives the estimated meter reading result.\n\nFeatures\n\nInterpolation Between Consecutive Meter Readings",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p086_b000",
+   "type": "list",
+   "page_number": 86,
+   "bbox": [
+    207,
+    136,
+    885,
+    281
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MR= Meter reading result"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "E=Estimated meter reading result"
+    }
+   ],
+   "section_id": "doc_006_sec_234"
+  },
+  {
+   "block_id": "doc_006_p086_b001",
+   "type": "table",
+   "page_number": 86,
+   "bbox": [
+    505,
+    381,
+    2052,
+    419
+   ],
+   "ocr_confidence": 89.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    505,
+    1511
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "12.31.2008 \u2014 06.30.2009",
+     "07.01.2009 \u2014 12.31.2009"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "12.31.2008 \u2014 06.30.2009",
+     "07.01.2009 \u2014 12.31.2009"
+    ]
+   ],
+   "section_id": "doc_006_sec_234"
+  },
+  {
+   "block_id": "doc_006_p086_b002",
+   "type": "table",
+   "page_number": 86,
+   "bbox": [
+    185,
+    870,
+    2418,
+    1034
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 8,
+   "column_starts": [
+    185,
+    241,
+    349,
+    1162,
+    1237,
+    1385,
+    2178,
+    2273
+   ],
+   "headers": [
+    "12/31/2008",
+    "6/30/2009",
+    "12/31/2009"
+   ],
+   "rows": [
+    [
+     "MR",
+     "MR",
+     "E"
+    ],
+    [
+     "0",
+     "1"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "12/31/2008",
+     "6/30/2009",
+     "12/31/2009"
+    ],
+    [
+     "MR",
+     "MR",
+     "E"
+    ],
+    [
+     "0",
+     "1"
+    ]
+   ],
+   "section_id": "doc_006_sec_234"
+  },
+  {
+   "block_id": "doc_006_p086_b003",
+   "type": "paragraph",
+   "page_number": 86,
+   "bbox": [
+    124,
+    1077,
+    1768,
+    1358
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Extrapolation In the example, the base period is between MRO and MR1; that is 12.31.2008 to 06.30.2009. In the example, the forecast period is between MR1 and E; that is 07.01.2009 to 12.31.2009.",
+   "section_id": "doc_006_sec_234"
+  },
+  {
+   "block_id": "doc_006_p086_b004",
+   "type": "heading",
+   "page_number": 86,
+   "bbox": [
+    124,
+    1469,
+    449,
+    1516
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Constraints",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_235"
+  },
+  {
+   "block_id": "doc_006_p086_b005",
+   "type": "paragraph",
+   "page_number": 86,
+   "bbox": [
+    123,
+    1599,
+    2464,
+    2083
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Whereas during the classical quantity determination procedure, you can exclude estimated values from being used as a basis for extrapolation, this is not possible when using the quantity determination procedure Quantity Determination During Meter Reading as the estimated quantities are also necessary as a basis for extrapolation. If you have selected the Ignore Estimated Meter Reading Results During Extrapolation checkbox in the control parameters in Customizing for Meter Reading Data Processing, the system ignores this setting as soon as a period exists in which the quantity determination procedure Quantity Determination During Meter Reading is used for a register. Customizing for|)*SAP Utilities \u00bb Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Parameters for Meter",
+   "section_id": "doc_006_sec_235"
+  },
+  {
+   "block_id": "doc_006_p086_b006",
+   "type": "heading",
+   "page_number": 86,
+   "bbox": [
+    124,
+    2103,
+    587,
+    2141
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Reading Data Processing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_236"
+  },
+  {
+   "block_id": "doc_006_p086_b007",
+   "type": "heading",
+   "page_number": 86,
+   "bbox": [
+    129,
+    2289,
+    588,
+    2365
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Interpolation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_237"
+  },
+  {
+   "block_id": "doc_006_p086_b008",
+   "type": "heading",
+   "page_number": 86,
+   "bbox": [
+    125,
+    2466,
+    225,
+    2511
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_238"
+  },
+  {
+   "block_id": "doc_006_p086_b009",
+   "type": "paragraph",
+   "page_number": 86,
+   "bbox": [
+    122,
+    2598,
+    2429,
+    2948
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "During the estimation procedure of interpolation, a value is estimated between two existing values. These existing values can be actual values or estimated values. The steps described below are carried out automatically by the system and are not visible to the user. The description should explain the algorithm that uses the weighting procedure to distribute a quantity saved in the system and, from that, derives the estimated meter reading result.",
+   "section_id": "doc_006_sec_238"
+  },
+  {
+   "block_id": "doc_006_p086_b010",
+   "type": "heading",
+   "page_number": 86,
+   "bbox": [
+    126,
+    3060,
+    361,
+    3106
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_239"
+  },
+  {
+   "block_id": "doc_006_p086_b011",
+   "type": "heading",
+   "page_number": 86,
+   "bbox": [
+    125,
+    3193,
+    1083,
+    3231
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Interpolation Between Consecutive Meter Readings",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_240"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.5,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "4a48ec035bfec22c858a6c6b62b456aace8bc2d543e1ba477ab815682870e8ae"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Extrapolation",
+  "Features",
+  "Formula"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_234",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_235",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_236",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_237",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_238",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_239",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_240",
+   "role": "starts_here"
+  }
+ ]
+}

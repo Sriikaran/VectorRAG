@@ -1,0 +1,472 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 3,
+ "source_page_hash": "404c1a03646ea1b87d7aa0ebb1d508d0f668d9dc2137afa3ef4c74b72eca6690",
+ "is_cover_page": false,
+ "title": "SAP Business Partner",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nSAP Business Partner\n\nThe SAP Business Partner represents an organization (company, branch), person, or group of persons or organizations in which\nyour company has a business interest.\n\nBusiness partners used in Contract Accounts Receivable and Payable must exist in the Contract Partner role MKK.\nYou can enter and manage your business partners centrally with regard to different business transactions.\nThis is particularly useful if a business partner plays different roles in an enterprise, such as a payer as well as a service recipient.\n\nA business partner can be created in various business partner roles and can assume additional business partner roles during the\ncourse of the business relationship. You do not have to enter the general data for a business partner each time, which avoids\nredundant data entry and retention.\n\nStructure\n\nThe following basic elements are available in the business partner data:\n\nConcept                                                                                                        Comment\n\nBusiness partner category                                                             The data available for your business transactions depends on the\nbusiness partner category.\n\nBusiness partner role                                                                  A business partner can take on different business partner roles,\nwhich enable different views of the business partner data\ndepending on the business function.\n\nBusiness partner relationship                                                      A relationship connects two business partners and is identified by\nthe business partner relationship category .\n\nBusiness partner group hierarchy                                                 You can use the business partner group hierarchy to represent the\nstructure of an organization.\n\nRelated Information\n\nSAP Business Partner\n\nBusiness Partner in the Contract Partner Role (MKK)\n\nUse\n\nYou use the business partner in Contract Accounts Receivable and Payable in the role of the contract partner (MKK).\n\nA contract partner is connected with the company through contract accounts and through the conclusion of contracts. Contract\naccounts can therefore only be assigned to a business partner and services billed accordingly if you have created this business\npartner in the role of contract partner in the business role MKK for role category MKK.\n",
+ "cleaned_text": "SAP Business Partner\n\nThe SAP Business Partner represents an organization (company, branch), person, or group of persons or organizations in which your company has a business interest. Business partners used in Contract Accounts Receivable and Payable must exist in the Contract Partner role MKK. You can enter and manage your business partners centrally with regard to different business transactions. This is particularly useful if a business partner plays different roles in an enterprise, such as a payer as well as a service recipient. A business partner can be created in various business partner roles and can assume additional business partner roles during the course of the business relationship. You do not have to enter the general data for a business partner each time, which avoids redundant data entry and retention.\n\nStructure\n\nThe following basic elements are available in the business partner data:\n\nConcept | Comment\n\nBusiness partner category | The data available for your business transactions depends on the\n\nbusiness partner category.\n\nBusiness partner role | A business partner can take on different business partner roles,\n\nwhich enable different views of the business partner data depending on the business function.\n\nBusiness partner relationship | A relationship connects two business partners and is identified by\n\nthe business partner relationship category .\n\nBusiness partner group hierarchy | You can use the business partner group hierarchy to represent the\n\nstructure of an organization.\n\nRelated Information\n\nSAP Business Partner\n\nBusiness Partner in the Contract Partner Role (MKK)\n\nUse\n\nYou use the business partner in Contract Accounts Receivable and Payable in the role of the contract partner (MKK). A contract partner is connected with the company through contract accounts and through the conclusion of contracts. Contract accounts can therefore only be assigned to a business partner and services billed accordingly if you have created this business partner in the role of contract partner in the business role MKK for role category MKK.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p003_b000",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    125,
+    130,
+    915,
+    192
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "SAP Business Partner",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_004"
+  },
+  {
+   "block_id": "doc_001_p003_b001",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    279,
+    2447,
+    1000
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The SAP Business Partner represents an organization (company, branch), person, or group of persons or organizations in which your company has a business interest. Business partners used in Contract Accounts Receivable and Payable must exist in the Contract Partner role MKK. You can enter and manage your business partners centrally with regard to different business transactions. This is particularly useful if a business partner plays different roles in an enterprise, such as a payer as well as a service recipient. A business partner can be created in various business partner roles and can assume additional business partner roles during the course of the business relationship. You do not have to enter the general data for a business partner each time, which avoids redundant data entry and retention.",
+   "section_id": "doc_001_sec_004"
+  },
+  {
+   "block_id": "doc_001_p003_b002",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    125,
+    1111,
+    391,
+    1157
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Structure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_005"
+  },
+  {
+   "block_id": "doc_001_p003_b003",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    1245,
+    1410,
+    1282
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The following basic elements are available in the business partner data:",
+   "section_id": "doc_001_sec_005"
+  },
+  {
+   "block_id": "doc_001_p003_b004",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    148,
+    1387,
+    2424,
+    1532
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Concept",
+     "Comment"
+    ],
+    [
+     "Business partner category",
+     "The data available for your business transactions depends on the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Concept",
+     "Comment"
+    ],
+    [
+     "Business partner category",
+     "The data available for your business transactions depends on the"
+    ]
+   ],
+   "section_id": "doc_001_sec_005"
+  },
+  {
+   "block_id": "doc_001_p003_b005",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    1332,
+    1556,
+    1777,
+    1591
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "business partner category.",
+   "section_id": "doc_001_sec_005"
+  },
+  {
+   "block_id": "doc_001_p003_b006",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    150,
+    1661,
+    2392,
+    1696
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Business partner role",
+     "A business partner can take on different business partner roles,"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Business partner role",
+     "A business partner can take on different business partner roles,"
+    ]
+   ],
+   "section_id": "doc_001_sec_005"
+  },
+  {
+   "block_id": "doc_001_p003_b007",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    1331,
+    1720,
+    2286,
+    1811
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "which enable different views of the business partner data depending on the business function.",
+   "section_id": "doc_001_sec_005"
+  },
+  {
+   "block_id": "doc_001_p003_b008",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    150,
+    1884,
+    2432,
+    1919
+   ],
+   "ocr_confidence": 87.3,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Business partner relationship",
+     "A relationship connects two business partners and is identified by"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Business partner relationship",
+     "A relationship connects two business partners and is identified by"
+    ]
+   ],
+   "section_id": "doc_001_sec_005"
+  },
+  {
+   "block_id": "doc_001_p003_b009",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    1330,
+    1943,
+    2061,
+    1978
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "the business partner relationship category .",
+   "section_id": "doc_001_sec_005"
+  },
+  {
+   "block_id": "doc_001_p003_b010",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    150,
+    2049,
+    2439,
+    2083
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Business partner group hierarchy",
+     "You can use the business partner group hierarchy to represent the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Business partner group hierarchy",
+     "You can use the business partner group hierarchy to represent the"
+    ]
+   ],
+   "section_id": "doc_001_sec_005"
+  },
+  {
+   "block_id": "doc_001_p003_b011",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    1331,
+    2108,
+    1805,
+    2142
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "structure of an organization.",
+   "section_id": "doc_001_sec_005"
+  },
+  {
+   "block_id": "doc_001_p003_b012",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    2278,
+    681,
+    2323
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Related Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_006"
+  },
+  {
+   "block_id": "doc_001_p003_b013",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    124,
+    2405,
+    518,
+    2435
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "SAP Business Partner",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_006"
+  },
+  {
+   "block_id": "doc_001_p003_b014",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    128,
+    2578,
+    2033,
+    2654
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "Business Partner in the Contract Partner Role (MKK)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_007"
+  },
+  {
+   "block_id": "doc_001_p003_b015",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    125,
+    2755,
+    225,
+    2800
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_008"
+  },
+  {
+   "block_id": "doc_001_p003_b016",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    123,
+    2887,
+    2442,
+    3178
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You use the business partner in Contract Accounts Receivable and Payable in the role of the contract partner (MKK). A contract partner is connected with the company through contract accounts and through the conclusion of contracts. Contract accounts can therefore only be assigned to a business partner and services billed accordingly if you have created this business partner in the role of contract partner in the business role MKK for role category MKK.",
+   "section_id": "doc_001_sec_008"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 60,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "404c1a03646ea1b87d7aa0ebb1d508d0f668d9dc2137afa3ef4c74b72eca6690"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:26Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "SAP Business Partner"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_004",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_005",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_006",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_007",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_008",
+   "role": "starts_here"
+  }
+ ]
+}

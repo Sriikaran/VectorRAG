@@ -1,0 +1,544 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_005",
+ "page_number": 3,
+ "source_page_hash": "bca65edad843dca4be0b5cf3cfc73cb1df69fc64991659df424fdc4489cef5e1",
+ "is_cover_page": false,
+ "title": "See Also",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:41 AM\n\ney\n\nWODIO\u201cN\n~\\. Device Category\n\n(Material)\n\nSS\n\nDevi\neon                               Purchase Order\n\n\\\\\n\n\u2019\nInstallation                   Serial Number =\nStructure                           Device Number\n\nGoods Receipt\n\nInstallation                               Device Stock (MM\nRemoval                                            Warehouse)\n\nMM is also used for the following functions in device flow:\n\nFunction                                                                                      Component\n\nProcurement                                                                                Purchase Requisition and Purchase Order from Purchasing (MM-\nPUR)\n\nDelivery                                                                                       Goods Receipt from Inventory Management (MM-IM)\n\nOutward Movement (such as scrapping or sales)                              Goods Issue and Return Deliveryfrom MM-IM\n\nStock Transfer                                                                  Goods Issue and Return Deliveryfrom MM-IM\n\nEquipment records are created automatically during goods receipt. Therefore, functions from the PM application component are\nused, including standard ordering functions and creation of maintenance plans or task lists. Billing is then carried out with the\nSales and Distribution (SD) component.\n\nSee Also\n\ne PM: Equipment\n\ne LO-MD: Material Master\n\ne MM-PUR: Purchase Requisitions, Purchase Orders\n",
+ "cleaned_text": "ey WODIO\u201cN\n\n~\\. | Device Category\n\n(Material) SS\n\nDevi\n\neon | Purchase Order\n\n\\\\ \u2019\n\nInstallation | Serial Number =\n\nStructure | Device Number\n\nGoods Receipt\n\nInstallation | Device Stock (MM\n\nRemoval | Warehouse)\n\nMM is also used for the following functions in device flow:\n\nFunction | Component\n\nProcurement | Purchase Requisition and Purchase Order from Purchasing (MM-\n\nPUR)\n\nDelivery | Goods Receipt from Inventory Management (MM-IM)\n\nOutward Movement (such as scrapping or sales) | Goods Issue and Return Deliveryfrom MM-IM\n\nStock Transfer | Goods Issue and Return Deliveryfrom MM-IM\n\nEquipment records are created automatically during goods receipt. Therefore, functions from the PM application component are used, including standard ordering functions and creation of maintenance plans or task lists. Billing is then carried out with the Sales and Distribution (SD) component.\n\nSee Also\n\n- PM: Equipment\n\n- LO-MD: Material Master\n\n- MM-PUR: Purchase Requisitions, Purchase Orders",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:41 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_005_p003_b000",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    172,
+    119,
+    1392,
+    417
+   ],
+   "ocr_confidence": 13.3,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region"
+   ],
+   "text": "ey WODIO\u201cN",
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b001",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    857,
+    195,
+    1391,
+    253
+   ],
+   "ocr_confidence": 71.3,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    857,
+    950
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "~\\.",
+     "Device Category"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "~\\.",
+     "Device Category"
+    ]
+   ],
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b002",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    1044,
+    187,
+    1471,
+    321
+   ],
+   "ocr_confidence": 67.6,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "(Material) SS",
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b003",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    1080,
+    518,
+    1193,
+    562
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Devi",
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b004",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    1005,
+    527,
+    2202,
+    645
+   ],
+   "ocr_confidence": 77.7,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    1005,
+    1777
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "eon",
+     "Purchase Order"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "eon",
+     "Purchase Order"
+    ]
+   ],
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b005",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    1014,
+    665,
+    1178,
+    947
+   ],
+   "ocr_confidence": 12.8,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region"
+   ],
+   "text": "\\\\ \u2019",
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b006",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    266,
+    975,
+    1409,
+    1107
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    266,
+    295,
+    968
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Installation",
+     "Serial Number ="
+    ],
+    [
+     "Structure",
+     "Device Number"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Installation",
+     "Serial Number ="
+    ],
+    [
+     "Structure",
+     "Device Number"
+    ]
+   ],
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b007",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    1789,
+    1015,
+    2187,
+    1071
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Goods Receipt",
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b008",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    248,
+    1305,
+    1696,
+    1468
+   ],
+   "ocr_confidence": 84.6,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    248,
+    278,
+    1219,
+    1296
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Installation",
+     "Device Stock (MM"
+    ],
+    [
+     "Removal",
+     "Warehouse)"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Installation",
+     "Device Stock (MM"
+    ],
+    [
+     "Removal",
+     "Warehouse)"
+    ]
+   ],
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b009",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    125,
+    1915,
+    1156,
+    1953
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "MM is also used for the following functions in device flow:",
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b010",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    149,
+    2062,
+    2441,
+    2206
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Function",
+     "Component"
+    ],
+    [
+     "Procurement",
+     "Purchase Requisition and Purchase Order from Purchasing (MM-"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Function",
+     "Component"
+    ],
+    [
+     "Procurement",
+     "Purchase Requisition and Purchase Order from Purchasing (MM-"
+    ]
+   ],
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b011",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    1333,
+    2226,
+    1416,
+    2261
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "PUR)",
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b012",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    148,
+    2327,
+    2241,
+    2580
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Delivery",
+     "Goods Receipt from Inventory Management (MM-IM)"
+    ],
+    [
+     "Outward Movement (such as scrapping or sales)",
+     "Goods Issue and Return Deliveryfrom MM-IM"
+    ],
+    [
+     "Stock Transfer",
+     "Goods Issue and Return Deliveryfrom MM-IM"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Delivery",
+     "Goods Receipt from Inventory Management (MM-IM)"
+    ],
+    [
+     "Outward Movement (such as scrapping or sales)",
+     "Goods Issue and Return Deliveryfrom MM-IM"
+    ],
+    [
+     "Stock Transfer",
+     "Goods Issue and Return Deliveryfrom MM-IM"
+    ]
+   ],
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b013",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    123,
+    2687,
+    2452,
+    2850
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Equipment records are created automatically during goods receipt. Therefore, functions from the PM application component are used, including standard ordering functions and creation of maintenance plans or task lists. Billing is then carried out with the Sales and Distribution (SD) component.",
+   "section_id": "doc_005_sec_003"
+  },
+  {
+   "block_id": "doc_005_p003_b014",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    123,
+    2937,
+    281,
+    2967
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "text": "See Also",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_005_sec_004"
+  },
+  {
+   "block_id": "doc_005_p003_b015",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    206,
+    3058,
+    1162,
+    3300
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "PM: Equipment"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "LO-MD: Material Master"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MM-PUR: Purchase Requisitions, Purchase Orders"
+    }
+   ],
+   "section_id": "doc_005_sec_004"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 70,
+  "body_stroke_median": 0.1395,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Device Management Overview",
+  "source_pdf": "5.pdf",
+  "reference_pdf": "05_Device_Management_Overview.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Establishes how physical metering assets connect to the Meter-to-Cash chain.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "bca65edad843dca4be0b5cf3cfc73cb1df69fc64991659df424fdc4489cef5e1"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Device Management Overview",
+  "Device Management",
+  "Integration"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_005_sec_003",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_005_sec_004",
+   "role": "starts_here"
+  }
+ ]
+}

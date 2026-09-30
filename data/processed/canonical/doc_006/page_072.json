@@ -1,0 +1,479 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 72,
+ "source_page_hash": "9b31294c6b19476ed68305108b03651dc451dee8db3beee1591697e2206f951e",
+ "is_cover_page": false,
+ "title": "Meter Reading Results",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nMeter Reading Results\n\nThe following functions are available in the lists of meter reading results:\n\ne On-demand meter reading\n\nFor the right kind of devices, you can use the pushbutton to request on-demand meter readings.\n\n1 Note\n\nA prerequisite is that you have activated the business function Advanced Metering Infrastructure (ISU AMTI_1).\n\ne AMI monitoring\n\nIf there are meter readings for the devices, you can use the pushbutton to navigate to the AMI monitor for one or more\nmeter readings.\n\n1 Note\n\nA prerequisite is that you have activated the business function Advanced Metering Infrastructure 2 (ISU AMI 2).\n\ne Quantity determination\n\nFor meter readings with a quantity determination trigger, you can use the pushbutton to carry out quantity determination.\n\n1 Note\n\nA prerequisite is that you have activated the business function Utilities, Quantity Determination (ISU QD 1).\n\nAutomatic Monitoring of Meter Reading Data\nTransaction EL32\n\nYou can use this transaction to monitor meter reading data and trigger automatic follow-on processing for selected meter reading\norders. For the follow-on processing actions, this transaction interprets the settings in Customizing for the automatic monitoring\n\nof meter reading data:\n\nCustomizing for|}*SAP Utilities } Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Automatic Monitoring of Meter\nReading Data\n\nFor more information about the automatic follow-on processing of meter reading orders, see the documentation for the\nCustomizing activity.\n\nPostprocessing of IDocs for Uploading Meter Reading Results\nTransaction ELDM\n\nYou can use this transaction to display the successfully and unsuccessfully posted meter reading documents after uploading\ndiscrete meter reading data (IDocs from category ISU_MR_UPLOAD).\n\nDevice Overview\n\nTransaction EL43\n",
+ "cleaned_text": "Meter Reading Results\n\nThe following functions are available in the lists of meter reading results:\n\n- On-demand meter reading For the right kind of devices, you can use the pushbutton to request on-demand meter readings.\n\nNote A prerequisite is that you have activated the business function Advanced Metering Infrastructure (ISU AMTI_1).\n\n- AMI monitoring If there are meter readings for the devices, you can use the pushbutton to navigate to the AMI monitor for one or more meter readings.\n\nNote A prerequisite is that you have activated the business function Advanced Metering Infrastructure 2 (ISU AMI 2).\n\n- Quantity determination For meter readings with a quantity determination trigger, you can use the pushbutton to carry out quantity determination.\n\nNote A prerequisite is that you have activated the business function Utilities, Quantity Determination (ISU QD 1).\n\nAutomatic Monitoring of Meter Reading Data\n\nTransaction EL32\n\nYou can use this transaction to monitor meter reading data and trigger automatic follow-on processing for selected meter reading orders. For the follow-on processing actions, this transaction interprets the settings in Customizing for the automatic monitoring of meter reading data: Customizing for|}*SAP Utilities } Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Automatic Monitoring of Meter\n\nReading Data\n\nFor more information about the automatic follow-on processing of meter reading orders, see the documentation for the Customizing activity.\n\nPostprocessing of IDocs for Uploading Meter Reading Results\n\nTransaction ELDM\n\nYou can use this transaction to display the successfully and unsuccessfully posted meter reading documents after uploading discrete meter reading data (IDocs from category ISU_MR_UPLOAD).\n\nDevice Overview\n\nTransaction EL43",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    604,
+    442,
+    641
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    1113,
+    442,
+    1150
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    1557,
+    442,
+    1594
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p072_b000",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    124,
+    134,
+    543,
+    172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Meter Reading Results",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_179"
+  },
+  {
+   "block_id": "doc_006_p072_b001",
+   "type": "paragraph",
+   "page_number": 72,
+   "bbox": [
+    122,
+    256,
+    1428,
+    294
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The following functions are available in the lists of meter reading results:",
+   "section_id": "doc_006_sec_179"
+  },
+  {
+   "block_id": "doc_006_p072_b002",
+   "type": "list",
+   "page_number": 72,
+   "bbox": [
+    207,
+    377,
+    1987,
+    520
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "On-demand meter reading For the right kind of devices, you can use the pushbutton to request on-demand meter readings."
+    }
+   ],
+   "section_id": "doc_006_sec_179"
+  },
+  {
+   "block_id": "doc_006_p072_b003",
+   "type": "note",
+   "page_number": 72,
+   "bbox": [
+    282,
+    604,
+    2333,
+    730
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Note",
+   "text": "Note A prerequisite is that you have activated the business function Advanced Metering Infrastructure (ISU AMTI_1).",
+   "section_id": "doc_006_sec_179"
+  },
+  {
+   "block_id": "doc_006_p072_b004",
+   "type": "list",
+   "page_number": 72,
+   "bbox": [
+    207,
+    825,
+    2388,
+    1026
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "AMI monitoring If there are meter readings for the devices, you can use the pushbutton to navigate to the AMI monitor for one or more meter readings."
+    }
+   ],
+   "section_id": "doc_006_sec_179"
+  },
+  {
+   "block_id": "doc_006_p072_b005",
+   "type": "note",
+   "page_number": 72,
+   "bbox": [
+    282,
+    1113,
+    2367,
+    1232
+   ],
+   "ocr_confidence": 84.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "label": "Note",
+   "text": "Note A prerequisite is that you have activated the business function Advanced Metering Infrastructure 2 (ISU AMI 2).",
+   "section_id": "doc_006_sec_179"
+  },
+  {
+   "block_id": "doc_006_p072_b006",
+   "type": "list",
+   "page_number": 72,
+   "bbox": [
+    207,
+    1330,
+    2457,
+    1473
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Quantity determination For meter readings with a quantity determination trigger, you can use the pushbutton to carry out quantity determination."
+    }
+   ],
+   "section_id": "doc_006_sec_179"
+  },
+  {
+   "block_id": "doc_006_p072_b007",
+   "type": "note",
+   "page_number": 72,
+   "bbox": [
+    282,
+    1557,
+    2285,
+    1683
+   ],
+   "ocr_confidence": 91.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "label": "Note",
+   "text": "Note A prerequisite is that you have activated the business function Utilities, Quantity Determination (ISU QD 1).",
+   "section_id": "doc_006_sec_179"
+  },
+  {
+   "block_id": "doc_006_p072_b008",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    123,
+    1797,
+    962,
+    1835
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Automatic Monitoring of Meter Reading Data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_180"
+  },
+  {
+   "block_id": "doc_006_p072_b009",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    122,
+    1920,
+    442,
+    1952
+   ],
+   "ocr_confidence": 90.8,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Transaction EL32",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_180"
+  },
+  {
+   "block_id": "doc_006_p072_b010",
+   "type": "paragraph",
+   "page_number": 72,
+   "bbox": [
+    123,
+    2043,
+    2469,
+    2335
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You can use this transaction to monitor meter reading data and trigger automatic follow-on processing for selected meter reading orders. For the follow-on processing actions, this transaction interprets the settings in Customizing for the automatic monitoring of meter reading data: Customizing for|}*SAP Utilities } Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Automatic Monitoring of Meter",
+   "section_id": "doc_006_sec_180"
+  },
+  {
+   "block_id": "doc_006_p072_b011",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    124,
+    2355,
+    370,
+    2393
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Reading Data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_181"
+  },
+  {
+   "block_id": "doc_006_p072_b012",
+   "type": "paragraph",
+   "page_number": 72,
+   "bbox": [
+    123,
+    2477,
+    2279,
+    2577
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "For more information about the automatic follow-on processing of meter reading orders, see the documentation for the Customizing activity.",
+   "section_id": "doc_006_sec_181"
+  },
+  {
+   "block_id": "doc_006_p072_b013",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    124,
+    2664,
+    1268,
+    2702
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [],
+   "text": "Postprocessing of IDocs for Uploading Meter Reading Results",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_182"
+  },
+  {
+   "block_id": "doc_006_p072_b014",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    122,
+    2788,
+    443,
+    2819
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Transaction ELDM",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_182"
+  },
+  {
+   "block_id": "doc_006_p072_b015",
+   "type": "paragraph",
+   "page_number": 72,
+   "bbox": [
+    123,
+    2911,
+    2378,
+    3011
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You can use this transaction to display the successfully and unsuccessfully posted meter reading documents after uploading discrete meter reading data (IDocs from category ISU_MR_UPLOAD).",
+   "section_id": "doc_006_sec_182"
+  },
+  {
+   "block_id": "doc_006_p072_b016",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    124,
+    3094,
+    427,
+    3125
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Device Overview",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_183"
+  },
+  {
+   "block_id": "doc_006_p072_b017",
+   "type": "paragraph",
+   "page_number": 72,
+   "bbox": [
+    122,
+    3221,
+    442,
+    3253
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [],
+   "text": "Transaction EL43",
+   "section_id": "doc_006_sec_183"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 64.5,
+  "body_stroke_median": 0.114,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "4 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "9b31294c6b19476ed68305108b03651dc451dee8db3beee1591697e2206f951e"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Monitoring of Meter Reading Results",
+  "Features",
+  "Meter Reading Results"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_179",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_180",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_181",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_182",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_183",
+   "role": "starts_here"
+  }
+ ]
+}

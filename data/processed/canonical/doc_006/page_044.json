@@ -1,0 +1,373 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 44,
+ "source_page_hash": "53d8fa01fc31d7160ea374a3dbd11e81e489d666597808b6a9861c65793bb086",
+ "is_cover_page": false,
+ "title": "Mass Changes to Meter Reading Units",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nIf you have selected this indicator for a meter reader in Customizing, you can use the Schedule Meter Reader transaction after\norder creation and before downloading the meter reading orders to external mobile data media to allocate meter reading orders or\n\nchange existing allocations.\n\nYou can find the transaction in the Utilities Industry menu under Device Management -> Meter Reading -> Meter Reading\nOrganization -> Schedule Meter Reader .\n\nMass Changes to Meter Reading Units\n\nUse\n\nYou use this function to change the meter reading unit in several installations for a key date.\n\nThis function supports the business process for changing meter reading units as a result of organizational changes or changes to\nareas. If for example new areas are to be supplied, this can mean that existing meter reading units become too large, meaning that\n\nnew meter reading units are added.\n\nPrerequisites\n\n1. Define parameter groups.\n\nYou enter the meter reading unit to be replaced, the new meter reading unit and the date on which the change is to take\n\nplace in the parameter groups.\n\nTo define parameter groups, in the Utilities Industry menu, choose|)}}Device Management \u00bb Meter Reading \u00bb Meter\n\nReading Organization \u00bb Define Parameter Groups\nFor more information, see the field help.\n\n2. Change the meter reading unit and allocate it to a parameter group.\n\nFeatures\n\nThe Mass Changes to Meter Reading Unit function performs the following changes:\n\nAll installations that are allocated to certain meter reading units and certain regional structure groups are allocated to a new meter\n\nreading unit on the date specified.\n\nMeter Reading Order\n\nPurpose\n\nThis component allows you to create a meter reading order for each register. The order contains register-specific data and\ninformation about the planned meter reading, such as the meter reader and the scheduled meter reading date. Meter reading\n\norders can be created for:\n\ne Meter readers from the utility company\n",
+ "cleaned_text": "If you have selected this indicator for a meter reader in Customizing, you can use the Schedule Meter Reader transaction after order creation and before downloading the meter reading orders to external mobile data media to allocate meter reading orders or change existing allocations. You can find the transaction in the Utilities Industry menu under Device Management -> Meter Reading -> Meter Reading Organization -> Schedule Meter Reader .\n\nMass Changes to Meter Reading Units\n\nUse\n\nYou use this function to change the meter reading unit in several installations for a key date. This function supports the business process for changing meter reading units as a result of organizational changes or changes to areas. If for example new areas are to be supplied, this can mean that existing meter reading units become too large, meaning that new meter reading units are added.\n\nPrerequisites\n\n1 Define parameter groups. You enter the meter reading unit to be replaced, the new meter reading unit and the date on which the change is to take place in the parameter groups.\n\nTo define parameter groups, in the Utilities Industry menu, choose|)}}Device Management \u00bb Meter Reading \u00bb Meter Reading Organization \u00bb Define Parameter Groups For more information, see the field help.\n\n2 Change the meter reading unit and allocate it to a parameter group.\n\nFeatures\n\nThe Mass Changes to Meter Reading Unit function performs the following changes: All installations that are allocated to certain meter reading units and certain regional structure groups are allocated to a new meter reading unit on the date specified.\n\nMeter Reading Order\n\nPurpose\n\nThis component allows you to create a meter reading order for each register. The order contains register-specific data and information about the planned meter reading, such as the meter reader and the scheduled meter reading date. Meter reading orders can be created for:\n\n- Meter readers from the utility company",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p044_b000",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    123,
+    134,
+    2479,
+    489
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "If you have selected this indicator for a meter reader in Customizing, you can use the Schedule Meter Reader transaction after order creation and before downloading the meter reading orders to external mobile data media to allocate meter reading orders or change existing allocations. You can find the transaction in the Utilities Industry menu under Device Management -> Meter Reading -> Meter Reading Organization -> Schedule Meter Reader .",
+   "section_id": "doc_006_sec_072"
+  },
+  {
+   "block_id": "doc_006_p044_b001",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    128,
+    629,
+    1502,
+    706
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Mass Changes to Meter Reading Units",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_073"
+  },
+  {
+   "block_id": "doc_006_p044_b002",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    125,
+    810,
+    225,
+    855
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_074"
+  },
+  {
+   "block_id": "doc_006_p044_b003",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    122,
+    939,
+    2474,
+    1227
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You use this function to change the meter reading unit in several installations for a key date. This function supports the business process for changing meter reading units as a result of organizational changes or changes to areas. If for example new areas are to be supplied, this can mean that existing meter reading units become too large, meaning that new meter reading units are added.",
+   "section_id": "doc_006_sec_074"
+  },
+  {
+   "block_id": "doc_006_p044_b004",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    126,
+    1339,
+    492,
+    1395
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_075"
+  },
+  {
+   "block_id": "doc_006_p044_b005",
+   "type": "list",
+   "page_number": 44,
+   "bbox": [
+    214,
+    1472,
+    2409,
+    1673
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Define parameter groups. You enter the meter reading unit to be replaced, the new meter reading unit and the date on which the change is to take place in the parameter groups."
+    }
+   ],
+   "section_id": "doc_006_sec_075"
+  },
+  {
+   "block_id": "doc_006_p044_b006",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    254,
+    1734,
+    2332,
+    1943
+   ],
+   "ocr_confidence": 90.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "To define parameter groups, in the Utilities Industry menu, choose|)}}Device Management \u00bb Meter Reading \u00bb Meter Reading Organization \u00bb Define Parameter Groups For more information, see the field help.",
+   "section_id": "doc_006_sec_075"
+  },
+  {
+   "block_id": "doc_006_p044_b007",
+   "type": "list",
+   "page_number": 44,
+   "bbox": [
+    212,
+    2007,
+    1474,
+    2045
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Change the meter reading unit and allocate it to a parameter group."
+    }
+   ],
+   "section_id": "doc_006_sec_075"
+  },
+  {
+   "block_id": "doc_006_p044_b008",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    126,
+    2157,
+    361,
+    2202
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_076"
+  },
+  {
+   "block_id": "doc_006_p044_b009",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    122,
+    2289,
+    2486,
+    2511
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The Mass Changes to Meter Reading Unit function performs the following changes: All installations that are allocated to certain meter reading units and certain regional structure groups are allocated to a new meter reading unit on the date specified.",
+   "section_id": "doc_006_sec_076"
+  },
+  {
+   "block_id": "doc_006_p044_b010",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    128,
+    2660,
+    879,
+    2736
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Meter Reading Order",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_077"
+  },
+  {
+   "block_id": "doc_006_p044_b011",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    126,
+    2837,
+    352,
+    2893
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Purpose",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_078"
+  },
+  {
+   "block_id": "doc_006_p044_b012",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    122,
+    2970,
+    2389,
+    3125
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "This component allows you to create a meter reading order for each register. The order contains register-specific data and information about the planned meter reading, such as the meter reader and the scheduled meter reading date. Meter reading orders can be created for:",
+   "section_id": "doc_006_sec_078"
+  },
+  {
+   "block_id": "doc_006_p044_b013",
+   "type": "list",
+   "page_number": 44,
+   "bbox": [
+    207,
+    3216,
+    964,
+    3254
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Meter readers from the utility company"
+    }
+   ],
+   "section_id": "doc_006_sec_078"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "53d8fa01fc31d7160ea374a3dbd11e81e489d666597808b6a9861c65793bb086"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Planning Meter Readers",
+  "Prerequisites"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_072",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_073",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_074",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_075",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_076",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_077",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_078",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 101,
+ "source_page_hash": "430f06db189aefc559a3b2f3b8cbb40a74a08b8aa6f17c31d790b2e44db76a07",
+ "is_cover_page": false,
+ "title": "Integration",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nYou can allocate logical registers or installations to a technical point of delivery. If you do this, the allocation applies\n\nto all the registers contained in the installation.\n\nA technical point of delivery distinguishes between the following point of delivery categories :\n\n=\u00bb Normal point of delivery category\n\n\u00ab Virtual point of delivery category\n\nA virtual point of delivery category is a summary of several normal point of delivery categories. For example,\nthe virtual point of delivery category can summarize the consumption of the normal point of delivery\n\ncategories.\n\nIn Customizing, you define point of delivery types and allocate these to the SAP predefined point of delivery\n\ncategories.\n\nIntegration\n\nThe graphic below depicts the integration of the point of delivery in the IS-U data model.\n\nNon-Billable\nService\n\nNon-Billable\nService\n\n=Billable Service\n\nDeregulation\n\nPoint of\n\nThe data model for the point of delivery is integrated in the following tables:\n",
+ "cleaned_text": "You can allocate logical registers or installations to a technical point of delivery. If you do this, the allocation applies to all the registers contained in the installation. A technical point of delivery distinguishes between the following point of delivery categories : =\u00bb Normal point of delivery category \u00ab Virtual point of delivery category A virtual point of delivery category is a summary of several normal point of delivery categories. For example, the virtual point of delivery category can summarize the consumption of the normal point of delivery categories. In Customizing, you define point of delivery types and allocate these to the SAP predefined point of delivery categories.\n\nIntegration\n\nThe graphic below depicts the integration of the point of delivery in the IS-U data model.\n\nNon-Billable Service Non-Billable Service =Billable Service\n\nDeregulation Point of\n\nThe data model for the point of delivery is integrated in the following tables:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p101_b000",
+   "type": "paragraph",
+   "page_number": 101,
+   "bbox": [
+    385,
+    134,
+    2474,
+    938
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "You can allocate logical registers or installations to a technical point of delivery. If you do this, the allocation applies to all the registers contained in the installation. A technical point of delivery distinguishes between the following point of delivery categories : =\u00bb Normal point of delivery category \u00ab Virtual point of delivery category A virtual point of delivery category is a summary of several normal point of delivery categories. For example, the virtual point of delivery category can summarize the consumption of the normal point of delivery categories. In Customizing, you define point of delivery types and allocate these to the SAP predefined point of delivery categories.",
+   "section_id": "doc_001_sec_390"
+  },
+  {
+   "block_id": "doc_001_p101_b001",
+   "type": "heading",
+   "page_number": 101,
+   "bbox": [
+    127,
+    1049,
+    431,
+    1106
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_391"
+  },
+  {
+   "block_id": "doc_001_p101_b002",
+   "type": "paragraph",
+   "page_number": 101,
+   "bbox": [
+    122,
+    1182,
+    1715,
+    1220
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The graphic below depicts the integration of the point of delivery in the IS-U data model.",
+   "section_id": "doc_001_sec_391"
+  },
+  {
+   "block_id": "doc_001_p101_b003",
+   "type": "paragraph",
+   "page_number": 101,
+   "bbox": [
+    309,
+    1466,
+    1559,
+    1550
+   ],
+   "ocr_confidence": 91.7,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Non-Billable Service Non-Billable Service =Billable Service",
+   "section_id": "doc_001_sec_391"
+  },
+  {
+   "block_id": "doc_001_p101_b004",
+   "type": "paragraph",
+   "page_number": 101,
+   "bbox": [
+    662,
+    1827,
+    1235,
+    1923
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Deregulation Point of",
+   "section_id": "doc_001_sec_391"
+  },
+  {
+   "block_id": "doc_001_p101_b005",
+   "type": "paragraph",
+   "page_number": 101,
+   "bbox": [
+    122,
+    3141,
+    1487,
+    3178
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The data model for the point of delivery is integrated in the following tables:",
+   "section_id": "doc_001_sec_391"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "430f06db189aefc559a3b2f3b8cbb40a74a08b8aa6f17c31d790b2e44db76a07"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Point of Delivery (PoD)",
+  "Structure",
+  "Point of Delivery Roles"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_390",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_391",
+   "role": "starts_here"
+  }
+ ]
+}

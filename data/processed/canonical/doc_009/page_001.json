@@ -1,0 +1,196 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_009",
+ "page_number": 1,
+ "source_page_hash": "9ec83994a7ecea9774f4e99f9979b0b811de54c950c01c09cc1986bf11c4aa94",
+ "is_cover_page": true,
+ "title": null,
+ "cover_area_title": "Device Management",
+ "raw_text": "9/29/26, 9:42 AM\n\nDevice Management\n\nGenerated on: 2026-09-29 09:42:53 GMT+O000\nSAP S/4HANA | 2025 FPSO1 (Feb 2026)\nPublic\n\nOriginal content: https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-\nUS&state=PRODUCTION&version=2025.001\n\nWarning\n\nThis document has been generated from SAP Help Portal and is an incomplete version of the official SAP product documentation.\nThe information included in custom documentation may not reflect the arrangement of topics in SAP Help Portal, and may be\nmissing important aspects and/or correlations to other topics. For this reason, it is not for production use.\n\nFor more information, please visit https://help.sap.com/docs/disclaimer.\n\n",
+ "cleaned_text": "Device Management\n\nGenerated on: 2026-09-29 09:42:53 GMT+O000\n\nSAP S/4HANA | 2025 FPSO1 (Feb 2026)\n\nPublic\n\nOriginal content: https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en- US&state=PRODUCTION&version=2025.001\n\nWarning This document has been generated from SAP Help Portal and is an incomplete version of the official SAP product documentation. The information included in custom documentation may not reflect the arrangement of topics in SAP Help Portal, and may be missing important aspects and/or correlations to other topics. For this reason, it is not for production use. For more information, please visit https://help.sap.com/docs/disclaimer.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_009_p001_b000",
+   "type": "document_title",
+   "page_number": 1,
+   "bbox": [
+    131,
+    484,
+    1261,
+    597
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Device Management",
+   "level": 1,
+   "title_kind": "cover_area_title",
+   "section_id": "doc_009_sec_000"
+  },
+  {
+   "block_id": "doc_009_p001_b001",
+   "type": "cover_meta",
+   "page_number": 1,
+   "bbox": [
+    123,
+    697,
+    1012,
+    727
+   ],
+   "ocr_confidence": 87.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Generated on: 2026-09-29 09:42:53 GMT+O000",
+   "section_id": "doc_009_sec_000"
+  },
+  {
+   "block_id": "doc_009_p001_b002",
+   "type": "cover_meta",
+   "page_number": 1,
+   "bbox": [
+    124,
+    818,
+    849,
+    856
+   ],
+   "ocr_confidence": 87.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "SAP S/4HANA | 2025 FPSO1 (Feb 2026)",
+   "section_id": "doc_009_sec_000"
+  },
+  {
+   "block_id": "doc_009_p001_b003",
+   "type": "cover_meta",
+   "page_number": 1,
+   "bbox": [
+    124,
+    940,
+    236,
+    971
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Public",
+   "section_id": "doc_009_sec_000"
+  },
+  {
+   "block_id": "doc_009_p001_b004",
+   "type": "cover_meta",
+   "page_number": 1,
+   "bbox": [
+    123,
+    1061,
+    2413,
+    1155
+   ],
+   "ocr_confidence": 83.5,
+   "flags": [],
+   "text": "Original content: https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en- US&state=PRODUCTION&version=2025.001",
+   "section_id": "doc_009_sec_000"
+  },
+  {
+   "block_id": "doc_009_p001_b005",
+   "type": "note",
+   "page_number": 1,
+   "bbox": [
+    122,
+    1357,
+    2466,
+    1764
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "label": "Warning",
+   "text": "Warning This document has been generated from SAP Help Portal and is an incomplete version of the official SAP product documentation. The information included in custom documentation may not reflect the arrangement of topics in SAP Help Portal, and may be missing important aspects and/or correlations to other topics. For this reason, it is not for production use. For more information, please visit https://help.sap.com/docs/disclaimer.",
+   "section_id": "doc_009_sec_000"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Estimation Procedure Details",
+  "source_pdf": "9.pdf",
+  "reference_pdf": "09_Estimation_Procedure_Details.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Use for advanced estimation logic and validation scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "9ec83994a7ecea9774f4e99f9979b0b811de54c950c01c09cc1986bf11c4aa94"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:37Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Estimation Procedure Details"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_009_sec_000",
+   "role": "starts_here"
+  }
+ ]
+}

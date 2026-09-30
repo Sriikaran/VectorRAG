@@ -1,0 +1,362 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 34,
+ "source_page_hash": "423f4ae633d757cc5593db542a8278cde91d614319ea01c99a2e389c6cd52f9b",
+ "is_cover_page": false,
+ "title": "Extrapolation of Demand from Billing",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nA rate is changed during a billing period. Consumption in the first half of the billing period is calculated using the old rate,\nwhereas consumption in the second half is calculated using the new rate. In order to do this, the meter reading at the time of\nthe rate change must be determined.\n\nThe proration meter reading is determined as follows:\n\n1. Determination of meter reading difference between C and Pz: 1,905 kWh - 1,000 kWh = 905 kWh\n2. Determination of consumption per weighting unit: 905 kWh : (90 + 91) =5 kWh\n3. Extrapolation of consumption for period from P2 to the time of data change (April 01, 1997): 5 kWh x 90 = 450 kWh\n\n4. Determination of proration meter reading at the time of the rate change by adding the consumption to the meter\nreading at P2: 1,000 kWh + 450 kWh = 1,450 kWh\n\nThe proration meter reading on April 01, 1997 is 1,450 kWh.\n\nExtrapolation of Demand from Billing\n\nUse\n\nIn meter reading, the highest demand value in a representative interval is used as the expected value for determining the expected\nmeter reading values from the previous period for demand registers.\n\nHowever, this demand value is not always sufficient for billing purposes. Therefore, for the extrapolation of demand values from\nbilling, the system calls a table of values, which are transferred to the extrapolation period. The source of these values can be any\n\nof the following:\n\ne Actual meter reading results from the extrapolation period\n\ne Period consumption values from the extrapolation period\n\ne Values from a comparable period from the base period\n\nPrerequisites\n\nThe base period does not have to be representative (as it does for extrapolation for meter reading).\n\nFeatures\n\nThe extrapolation of demand values from billing consists of the following steps:\n\n1. Determination of the extrapolation period\n",
+ "cleaned_text": "A rate is changed during a billing period. Consumption in the first half of the billing period is calculated using the old rate, whereas consumption in the second half is calculated using the new rate. In order to do this, the meter reading at the time of the rate change must be determined. The proration meter reading is determined as follows:\n\n1 Determination of meter reading difference between C and Pz: 1,905 kWh - 1,000 kWh = 905 kWh\n\n2 Determination of consumption per weighting unit: 905 kWh : (90 + 91) =5 kWh\n\n3 Extrapolation of consumption for period from P2 to the time of data change (April 01, 1997): 5 kWh x 90 = 450 kWh\n\n4 Determination of proration meter reading at the time of the rate change by adding the consumption to the meter reading at P2: 1,000 kWh + 450 kWh = 1,450 kWh\n\nThe proration meter reading on April 01, 1997 is 1,450 kWh.\n\nExtrapolation of Demand from Billing\n\nUse\n\nIn meter reading, the highest demand value in a representative interval is used as the expected value for determining the expected meter reading values from the previous period for demand registers. However, this demand value is not always sufficient for billing purposes. Therefore, for the extrapolation of demand values from billing, the system calls a table of values, which are transferred to the extrapolation period. The source of these values can be any of the following:\n\n- Actual meter reading results from the extrapolation period\n\n- Period consumption values from the extrapolation period\n\n- Values from a comparable period from the base period\n\nPrerequisites\n\nThe base period does not have to be representative (as it does for extrapolation for meter reading).\n\nFeatures\n\nThe extrapolation of demand values from billing consists of the following steps:\n\n1 Determination of the extrapolation period",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p034_b000",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    152,
+    130,
+    2401,
+    422
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "A rate is changed during a billing period. Consumption in the first half of the billing period is calculated using the old rate, whereas consumption in the second half is calculated using the new rate. In order to do this, the meter reading at the time of the rate change must be determined. The proration meter reading is determined as follows:",
+   "section_id": "doc_006_sec_049"
+  },
+  {
+   "block_id": "doc_006_p034_b001",
+   "type": "list",
+   "page_number": 34,
+   "bbox": [
+    240,
+    505,
+    2356,
+    915
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Determination of meter reading difference between C and Pz: 1,905 kWh - 1,000 kWh = 905 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Determination of consumption per weighting unit: 905 kWh : (90 + 91) =5 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Extrapolation of consumption for period from P2 to the time of data change (April 01, 1997): 5 kWh x 90 = 450 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Determination of proration meter reading at the time of the rate change by adding the consumption to the meter reading at P2: 1,000 kWh + 450 kWh = 1,450 kWh"
+    }
+   ],
+   "section_id": "doc_006_sec_049"
+  },
+  {
+   "block_id": "doc_006_p034_b002",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    152,
+    998,
+    1225,
+    1036
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "text": "The proration meter reading on April 01, 1997 is 1,450 kWh.",
+   "section_id": "doc_006_sec_049"
+  },
+  {
+   "block_id": "doc_006_p034_b003",
+   "type": "heading",
+   "page_number": 34,
+   "bbox": [
+    128,
+    1219,
+    1464,
+    1294
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Extrapolation of Demand from Billing",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_050"
+  },
+  {
+   "block_id": "doc_006_p034_b004",
+   "type": "heading",
+   "page_number": 34,
+   "bbox": [
+    125,
+    1395,
+    225,
+    1440
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_051"
+  },
+  {
+   "block_id": "doc_006_p034_b005",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    123,
+    1528,
+    2476,
+    1877
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "In meter reading, the highest demand value in a representative interval is used as the expected value for determining the expected meter reading values from the previous period for demand registers. However, this demand value is not always sufficient for billing purposes. Therefore, for the extrapolation of demand values from billing, the system calls a table of values, which are transferred to the extrapolation period. The source of these values can be any of the following:",
+   "section_id": "doc_006_sec_051"
+  },
+  {
+   "block_id": "doc_006_p034_b006",
+   "type": "list",
+   "page_number": 34,
+   "bbox": [
+    207,
+    1961,
+    1310,
+    2206
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Actual meter reading results from the extrapolation period"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Period consumption values from the extrapolation period"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Values from a comparable period from the base period"
+    }
+   ],
+   "section_id": "doc_006_sec_051"
+  },
+  {
+   "block_id": "doc_006_p034_b007",
+   "type": "heading",
+   "page_number": 34,
+   "bbox": [
+    126,
+    2318,
+    492,
+    2374
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_052"
+  },
+  {
+   "block_id": "doc_006_p034_b008",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    122,
+    2447,
+    1911,
+    2485
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The base period does not have to be representative (as it does for extrapolation for meter reading).",
+   "section_id": "doc_006_sec_052"
+  },
+  {
+   "block_id": "doc_006_p034_b009",
+   "type": "heading",
+   "page_number": 34,
+   "bbox": [
+    126,
+    2598,
+    361,
+    2643
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_053"
+  },
+  {
+   "block_id": "doc_006_p034_b010",
+   "type": "paragraph",
+   "page_number": 34,
+   "bbox": [
+    122,
+    2730,
+    1551,
+    2768
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The extrapolation of demand values from billing consists of the following steps:",
+   "section_id": "doc_006_sec_053"
+  },
+  {
+   "block_id": "doc_006_p034_b011",
+   "type": "list",
+   "page_number": 34,
+   "bbox": [
+    214,
+    2852,
+    1006,
+    2889
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Determination of the extrapolation period"
+    }
+   ],
+   "section_id": "doc_006_sec_053"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "423f4ae633d757cc5593db542a8278cde91d614319ea01c99a2e389c6cd52f9b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:34Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Proration of Meter Readings"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_049",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_050",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_051",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_052",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_053",
+   "role": "starts_here"
+  }
+ ]
+}

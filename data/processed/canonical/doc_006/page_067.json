@@ -1,0 +1,325 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 67,
+ "source_page_hash": "625b7a3a9135983c9e80e5302cdc647988192a17dc284b0a2cab73af36804af0",
+ "is_cover_page": false,
+ "title": "Variable Validations",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nIf you have activated the Quantity Determination business function (ISU_QD_1) and you use Quantity Determination Procedure\n03 - Quantity Determination During Meter Reading, you can activate and use the following check:\n\ne Check for Final Quantity\nThis check precedes the other validations and checks whether the quantity is a final quantity.\no If itis a final quantity, the other independent validations are based on this quantity.\n\no If itis not a final quantity, subsequent validations are not performed and the meter reading result is set to\nImplausible.\n\nThis check can only be performed automatically by the system if you select the Validation for Final Quantity checkbox in\nCustomizing for SAP Utilities under |}*Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Parameters\nfor Meter Reading Data Processing\n\nIf you do not select this checkbox, the validation for the final quantity does not take place and the other validations are\nperformed according to the Customizing settings, regardless of whether the quantity is provisional or final.\n\nVariable Validations\n\ne Zero consumption check\nThe system checks whether the consumption is zero and whether it is within the grace period for zero consumption.\n\ne Number of permitted meter readings by customer, estimations, or meter readings by customer and estimations exceeded\n\nThe system checks whether the number of consecutive meter readings defined in meter reading control has been\nexceeded.\n\ne Absolute, relative, and floating tolerance limits\n\nThe system uses the expected consumption from the comparison period to check whether the current consumption is\nwithin the tolerance limits. You enter the base period category of the comparison period in the installation. You define the\n\nnumber of comparison periods in Customizing for SAP Utilities under |}\u2018Device Management \u00bb Meter Reading\nValidations 3 Independent |}Validations \u00bb Define Validation Parameters for Validation Classes\n\n1 Note\n\nIf you have activated the Utilities, Quantity Determination business function (ISU QD_1) and you are using the\nquantity determination procedure Quantity Determination During Meter Reading in combination with the gas division,\nthe upper and lower limits for the meter readings are not displayed with the validation information. This applies in the\n\nfollowing transactions:\neo Monitoring of Meter Reading Results (transaction EL31)\n\u00a9 Single Entry (transaction EL28)\n\u00a9 Correct Plausible Meter Reading Results (transaction EL29)\n\ne Correct Implausible Meter Reading Results (transaction EL27)\n\ne Usage hours against previous period or fixed value\n\nUsage hours are determined by dividing the consumption from the period by the installed demand. The value is stored in an\n\nnnarand that vais can antar In Crictnmizing far CAD I Itilitiac rindar lk Navira Managamoant & \\datar Daadina & Validatinnc\n",
+ "cleaned_text": "If you have activated the Quantity Determination business function (ISU_QD_1) and you use Quantity Determination Procedure 03 - Quantity Determination During Meter Reading, you can activate and use the following check:\n\n- Check for Final Quantity This check precedes the other validations and checks whether the quantity is a final quantity.\n\n- If itis a final quantity, the other independent validations are based on this quantity.\n\n- If itis not a final quantity, subsequent validations are not performed and the meter reading result is set to Implausible.\n\nThis check can only be performed automatically by the system if you select the Validation for Final Quantity checkbox in Customizing for SAP Utilities under |}*Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Parameters for Meter Reading Data Processing If you do not select this checkbox, the validation for the final quantity does not take place and the other validations are performed according to the Customizing settings, regardless of whether the quantity is provisional or final.\n\nVariable Validations\n\n- Zero consumption check The system checks whether the consumption is zero and whether it is within the grace period for zero consumption.\n\n- Number of permitted meter readings by customer, estimations, or meter readings by customer and estimations exceeded The system checks whether the number of consecutive meter readings defined in meter reading control has been exceeded.\n\n- Absolute, relative, and floating tolerance limits The system uses the expected consumption from the comparison period to check whether the current consumption is within the tolerance limits. You enter the base period category of the comparison period in the installation. You define the number of comparison periods in Customizing for SAP Utilities under |}\u2018Device Management \u00bb Meter Reading\n\nValidations 3 Independent |}Validations \u00bb Define Validation Parameters for Validation Classes\n\nNote If you have activated the Utilities, Quantity Determination business function (ISU QD_1) and you are using the quantity determination procedure Quantity Determination During Meter Reading in combination with the gas division, the upper and lower limits for the meter readings are not displayed with the validation information. This applies in the following transactions: eo Monitoring of Meter Reading Results (transaction EL31) \u00a9 Single Entry (transaction EL28) \u00a9 Correct Plausible Meter Reading Results (transaction EL29)\n\n- Correct Implausible Meter Reading Results (transaction EL27)\n\n- Usage hours against previous period or fixed value Usage hours are determined by dividing the consumption from the period by the installed demand. The value is stored in an\n\nnnarand that vais can antar In Crictnmizing far CAD I Itilitiac rindar lk Navira Managamoant & \\datar Daadina & Validatinnc",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    2253,
+    442,
+    2290
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p067_b000",
+   "type": "paragraph",
+   "page_number": 67,
+   "bbox": [
+    123,
+    134,
+    2454,
+    235
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "If you have activated the Quantity Determination business function (ISU_QD_1) and you use Quantity Determination Procedure 03 - Quantity Determination During Meter Reading, you can activate and use the following check:",
+   "section_id": "doc_006_sec_156"
+  },
+  {
+   "block_id": "doc_006_p067_b001",
+   "type": "list",
+   "page_number": 67,
+   "bbox": [
+    207,
+    318,
+    2288,
+    727
+   ],
+   "ocr_confidence": 86.0,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Check for Final Quantity This check precedes the other validations and checks whether the quantity is a final quantity."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "If itis a final quantity, the other independent validations are based on this quantity."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "If itis not a final quantity, subsequent validations are not performed and the meter reading result is set to Implausible."
+    }
+   ],
+   "section_id": "doc_006_sec_156"
+  },
+  {
+   "block_id": "doc_006_p067_b002",
+   "type": "paragraph",
+   "page_number": 67,
+   "bbox": [
+    253,
+    791,
+    2486,
+    1122
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "This check can only be performed automatically by the system if you select the Validation for Final Quantity checkbox in Customizing for SAP Utilities under |}*Device Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Parameters for Meter Reading Data Processing If you do not select this checkbox, the validation for the final quantity does not take place and the other validations are performed according to the Customizing settings, regardless of whether the quantity is provisional or final.",
+   "section_id": "doc_006_sec_156"
+  },
+  {
+   "block_id": "doc_006_p067_b003",
+   "type": "heading",
+   "page_number": 67,
+   "bbox": [
+    123,
+    1234,
+    673,
+    1279
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [],
+   "text": "Variable Validations",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_157"
+  },
+  {
+   "block_id": "doc_006_p067_b004",
+   "type": "list",
+   "page_number": 67,
+   "bbox": [
+    207,
+    1367,
+    2455,
+    2112
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Zero consumption check The system checks whether the consumption is zero and whether it is within the grace period for zero consumption."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Number of permitted meter readings by customer, estimations, or meter readings by customer and estimations exceeded The system checks whether the number of consecutive meter readings defined in meter reading control has been exceeded."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Absolute, relative, and floating tolerance limits The system uses the expected consumption from the comparison period to check whether the current consumption is within the tolerance limits. You enter the base period category of the comparison period in the installation. You define the number of comparison periods in Customizing for SAP Utilities under |}\u2018Device Management \u00bb Meter Reading"
+    }
+   ],
+   "section_id": "doc_006_sec_157"
+  },
+  {
+   "block_id": "doc_006_p067_b005",
+   "type": "paragraph",
+   "page_number": 67,
+   "bbox": [
+    254,
+    2128,
+    1999,
+    2175
+   ],
+   "ocr_confidence": 77.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Validations 3 Independent |}Validations \u00bb Define Validation Parameters for Validation Classes",
+   "section_id": "doc_006_sec_157"
+  },
+  {
+   "block_id": "doc_006_p067_b006",
+   "type": "note",
+   "page_number": 67,
+   "bbox": [
+    282,
+    2253,
+    2439,
+    2879
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "label": "Note",
+   "text": "Note If you have activated the Utilities, Quantity Determination business function (ISU QD_1) and you are using the quantity determination procedure Quantity Determination During Meter Reading in combination with the gas division, the upper and lower limits for the meter readings are not displayed with the validation information. This applies in the following transactions: eo Monitoring of Meter Reading Results (transaction EL31) \u00a9 Single Entry (transaction EL28) \u00a9 Correct Plausible Meter Reading Results (transaction EL29)",
+   "section_id": "doc_006_sec_157"
+  },
+  {
+   "block_id": "doc_006_p067_b007",
+   "type": "list",
+   "page_number": 67,
+   "bbox": [
+    207,
+    2945,
+    2483,
+    3254
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Correct Implausible Meter Reading Results (transaction EL27)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Usage hours against previous period or fixed value Usage hours are determined by dividing the consumption from the period by the installed demand. The value is stored in an"
+    }
+   ],
+   "section_id": "doc_006_sec_157"
+  },
+  {
+   "block_id": "doc_006_p067_b008",
+   "type": "fragment",
+   "page_number": 67,
+   "bbox": [
+    255,
+    3274,
+    2425,
+    3300
+   ],
+   "ocr_confidence": 59.3,
+   "flags": [
+    "low_confidence_words:10",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "nnarand that vais can antar In Crictnmizing far CAD I Itilitiac rindar lk Navira Managamoant & \\datar Daadina & Validatinnc",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_006_sec_157"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "625b7a3a9135983c9e80e5302cdc647988192a17dc284b0a2cab73af36804af0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Validations",
+  "Fixed Validations"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_156",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_157",
+   "role": "starts_here"
+  }
+ ]
+}

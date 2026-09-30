@@ -1,0 +1,339 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 21,
+ "source_page_hash": "3c705a979b62242a8f0e47d4b1af75f13af8ddd937000bea92544ba959b29fc9",
+ "is_cover_page": false,
+ "title": "Business Context and Use",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nRelease State                                                          released\n\nTechnical Name                                                    ContractAccountERPReceivablesPayablesRegisterltemBylDQueryResponse_In\nNamespace                                                             http://sap.com/xi/FICA/Global ty\n\nApplication Component                                              FI-CA\n\nWeb Service Definition (Back End)                               ECC_CONTACC_ITEM_BYID_QR\n\nDirection                                                                 inbound\n\nMode                                                                     synchronous\n\nIdempotency                                                           no\n\nChange/Update Behavior                                           not applicable\n\nP2P Communication Enabled                                      true\n\nBusiness Context and Use\n\nThe inbound operation Find Contract Account Receivables Payables Register Item by ID returns the items of a contract\naccount according to specified selection criteria.\n\nRelated Operations\n\nThe operations Find Contract Account Split Item Group by Business Partner ID and Find Contract Account Split Item Group by\nElements can be used to return the items of a contract account based on other selection criteria.\n\nYou can use the operation Create Payment Directive to assign Splitltems to a PaymentDirective and thus release them for\n\ncollection by the corresponding payment run. The released Splitltems are grouped together if they are set to be paid by the same\npayment method.\n\nThe current operation returns items posted in FI-CA. To find items posted in FI-AR, you can use the operation Find Trade\nReceivables Payables Account Split Item Group by Customer ID which belongs to the process component Due Item Processing.\n\nThe corresponding message structures are very similar to the message structures used in the current operation.\n\nFeatures\n\nThe selection of contract accounts can be based on various criteria, including\n\ne external contract account ID\ne business partner IDs\n\n\u00a2 company codes to be read\n\ne item clearing status\n\ne arange of posting dates\n\ne earliest clearing date and latest due date (which an associated document must have in order to be included in the\nselection).\n",
+ "cleaned_text": "Release State | released\n\nTechnical Name | ContractAccountERPReceivablesPayablesRegisterltemBylDQueryResponse_In\n\nNamespace | http://sap.com/xi/FICA/Global ty\n\nApplication Component | FI-CA\n\nWeb Service Definition (Back End) | ECC_CONTACC_ITEM_BYID_QR\n\nDirection | inbound\n\nMode | synchronous\n\nIdempotency | no\n\nChange/Update Behavior | not applicable\n\nP2P Communication Enabled | true\n\nBusiness Context and Use\n\nThe inbound operation Find Contract Account Receivables Payables Register Item by ID returns the items of a contract account according to specified selection criteria.\n\nRelated Operations\n\nThe operations Find Contract Account Split Item Group by Business Partner ID and Find Contract Account Split Item Group by Elements can be used to return the items of a contract account based on other selection criteria. You can use the operation Create Payment Directive to assign Splitltems to a PaymentDirective and thus release them for collection by the corresponding payment run. The released Splitltems are grouped together if they are set to be paid by the same payment method. The current operation returns items posted in FI-CA. To find items posted in FI-AR, you can use the operation Find Trade Receivables Payables Account Split Item Group by Customer ID which belongs to the process component Due Item Processing. The corresponding message structures are very similar to the message structures used in the current operation.\n\nFeatures\n\nThe selection of contract accounts can be based on various criteria, including\n\ne external contract account ID e business partner IDs \u00a2 company codes to be read e item clearing status e arange of posting dates e earliest clearing date and latest due date (which an associated document must have in order to be included in the selection).",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p021_b000",
+   "type": "table",
+   "page_number": 21,
+   "bbox": [
+    148,
+    156,
+    2463,
+    1137
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1134
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Release State",
+     "released"
+    ],
+    [
+     "Technical Name",
+     "ContractAccountERPReceivablesPayablesRegisterltemBylDQueryResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global ty"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "ECC_CONTACC_ITEM_BYID_QR"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Release State",
+     "released"
+    ],
+    [
+     "Technical Name",
+     "ContractAccountERPReceivablesPayablesRegisterltemBylDQueryResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global ty"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "ECC_CONTACC_ITEM_BYID_QR"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "section_id": "doc_018_sec_132"
+  },
+  {
+   "block_id": "doc_018_p021_b001",
+   "type": "heading",
+   "page_number": 21,
+   "bbox": [
+    126,
+    1279,
+    853,
+    1325
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Business Context and Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_133"
+  },
+  {
+   "block_id": "doc_018_p021_b002",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    122,
+    1412,
+    2307,
+    1513
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "The inbound operation Find Contract Account Receivables Payables Register Item by ID returns the items of a contract account according to specified selection criteria.",
+   "section_id": "doc_018_sec_133"
+  },
+  {
+   "block_id": "doc_018_p021_b003",
+   "type": "heading",
+   "page_number": 21,
+   "bbox": [
+    124,
+    1600,
+    482,
+    1637
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Related Operations",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_134"
+  },
+  {
+   "block_id": "doc_018_p021_b004",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    122,
+    1721,
+    2454,
+    2317
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The operations Find Contract Account Split Item Group by Business Partner ID and Find Contract Account Split Item Group by Elements can be used to return the items of a contract account based on other selection criteria. You can use the operation Create Payment Directive to assign Splitltems to a PaymentDirective and thus release them for collection by the corresponding payment run. The released Splitltems are grouped together if they are set to be paid by the same payment method. The current operation returns items posted in FI-CA. To find items posted in FI-AR, you can use the operation Find Trade Receivables Payables Account Split Item Group by Customer ID which belongs to the process component Due Item Processing. The corresponding message structures are very similar to the message structures used in the current operation.",
+   "section_id": "doc_018_sec_134"
+  },
+  {
+   "block_id": "doc_018_p021_b005",
+   "type": "heading",
+   "page_number": 21,
+   "bbox": [
+    126,
+    2430,
+    361,
+    2475
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_135"
+  },
+  {
+   "block_id": "doc_018_p021_b006",
+   "type": "heading",
+   "page_number": 21,
+   "bbox": [
+    122,
+    2562,
+    1523,
+    2600
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "The selection of contract accounts can be based on various criteria, including",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_018_sec_135"
+  },
+  {
+   "block_id": "doc_018_p021_b007",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    206,
+    2684,
+    2314,
+    3300
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "e external contract account ID e business partner IDs \u00a2 company codes to be read e item clearing status e arange of posting dates e earliest clearing date and latest due date (which an associated document must have in order to be included in the selection).",
+   "section_id": "doc_018_sec_135"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "3c705a979b62242a8f0e47d4b1af75f13af8ddd937000bea92544ba959b29fc9"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Find Contract Account Receivables Payables Register Item by ID",
+  "Definition"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_132",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_018_sec_133",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_134",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_135",
+   "role": "starts_here"
+  }
+ ]
+}

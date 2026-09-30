@@ -1,0 +1,560 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 5,
+ "source_page_hash": "746216ebfd7f1ff7d85322280110e800565804613a69a8ffae1e590cdb599c65",
+ "is_cover_page": false,
+ "title": "Use",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\nUse\n\nMove-in and move-out processing have the following enhancements:\n\ne ECSBTIOI1 (IS-U move-in: determine application form)\n\nThis enhancement enables you to specify a default value for the application form used for the welcome letter.\n\ne ECSBTIO2 (IS-U move-in: determine budget billing amount)\n\nThis enhancement enables you to specify a default value for the budget billing amount.\n\ne ECSBTIO4 (IS-U move-in: determine transfer contract)\n\nThis enhancement enables you to specify a default value for the transfer contract.\n\ne EMDKOOOI!1 (IS-U utility contract: include subscreens and check fields)\n\nThis enhancement enables you to enter default values in contract fields. When you create a move-in, information about the\ninstallations that have to be allocated to the contract is transferred. The enhancement is run during every PBO (process before\noutput) on the move-in screen.\n\ne EC500001 (IS-U move-in: determine security deposit amount and reason)\n\nThis enhancement enables you to specify a default value for the amount of, and reason for a cash security deposit. It is run during\nevery PBO (process before output) on the move-in screen.\n\ne ECSBTOO1 (IS-U: move-out - determine default values for Customizing of table TE490A)\n\nThis enhancement is used, for example, to assign default data to the application form for the move-out confirmation.\n\ne ECSBTIO3 (IS-U move-in: user-defined checks)\n\nThis enhancement is used for checking field values on the move-in screen.\n\ne ECSBTOO2 (IS-U move-out: user-defined checks)\n\nThis enhancement is used for checking field values on the move-out screen.\n\ne ECSBTMRI (Indicator used to allocate default values to the Create service notification/order functions)\n\nFor more information, see Service Notifications and Orders.\n\ne ECSBTOO1 (IS-U: move-in/move-out \u2014 customer-specific messages in the information log (environment log)\n\nThis enhancement is used to add user-define messages in the environment log.\n\nEnhancements for the Screen Layout\n\nYou can include standard and user-defined fields for the contract account and business partner in direct maintenance. To do this,\nuse the following enhancements:\n",
+ "cleaned_text": "Use\n\nMove-in and move-out processing have the following enhancements:\n\n- ECSBTIOI1 (IS-U move-in: determine application form)\n\nThis enhancement enables you to specify a default value for the application form used for the welcome letter.\n\n- ECSBTIO2 (IS-U move-in: determine budget billing amount)\n\nThis enhancement enables you to specify a default value for the budget billing amount.\n\n- ECSBTIO4 (IS-U move-in: determine transfer contract)\n\nThis enhancement enables you to specify a default value for the transfer contract.\n\n- EMDKOOOI!1 (IS-U utility contract: include subscreens and check fields)\n\nThis enhancement enables you to enter default values in contract fields. When you create a move-in, information about the installations that have to be allocated to the contract is transferred. The enhancement is run during every PBO (process before output) on the move-in screen.\n\n- EC500001 (IS-U move-in: determine security deposit amount and reason)\n\nThis enhancement enables you to specify a default value for the amount of, and reason for a cash security deposit. It is run during every PBO (process before output) on the move-in screen.\n\n- ECSBTOO1 (IS-U: move-out - determine default values for Customizing of table TE490A)\n\nThis enhancement is used, for example, to assign default data to the application form for the move-out confirmation.\n\n- ECSBTIO3 (IS-U move-in: user-defined checks)\n\nThis enhancement is used for checking field values on the move-in screen.\n\n- ECSBTOO2 (IS-U move-out: user-defined checks)\n\nThis enhancement is used for checking field values on the move-out screen.\n\n- ECSBTMRI (Indicator used to allocate default values to the Create service notification/order functions)\n\nFor more information, see Service Notifications and Orders.\n\n- ECSBTOO1 (IS-U: move-in/move-out \u2014 customer-specific messages in the information log (environment log)\n\nThis enhancement is used to add user-define messages in the environment log.\n\nEnhancements for the Screen Layout\n\nYou can include standard and user-defined fields for the contract account and business partner in direct maintenance. To do this, use the following enhancements:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p005_b000",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    124,
+    135,
+    191,
+    165
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Use",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b001",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    125,
+    256,
+    1361,
+    294
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Move-in and move-out processing have the following enhancements:",
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b002",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    377,
+    1225,
+    415
+   ],
+   "ocr_confidence": 82.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ECSBTIOI1 (IS-U move-in: determine application form)"
+    }
+   ],
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b003",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    502,
+    2097,
+    540
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "This enhancement enables you to specify a default value for the application form used for the welcome letter.",
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b004",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    624,
+    1330,
+    662
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ECSBTIO2 (IS-U move-in: determine budget billing amount)"
+    }
+   ],
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b005",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    746,
+    1693,
+    783
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "This enhancement enables you to specify a default value for the budget billing amount.",
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b006",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    867,
+    1242,
+    905
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ECSBTIO4 (IS-U move-in: determine transfer contract)"
+    }
+   ],
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b007",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    989,
+    1603,
+    1026
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "This enhancement enables you to specify a default value for the transfer contract.",
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b008",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    1113,
+    1530,
+    1151
+   ],
+   "ocr_confidence": 84.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "EMDKOOOI!1 (IS-U utility contract: include subscreens and check fields)"
+    }
+   ],
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b009",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    1235,
+    2413,
+    1398
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "This enhancement enables you to enter default values in contract fields. When you create a move-in, information about the installations that have to be allocated to the contract is transferred. The enhancement is run during every PBO (process before output) on the move-in screen.",
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b010",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    1481,
+    1594,
+    1519
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "EC500001 (IS-U move-in: determine security deposit amount and reason)"
+    }
+   ],
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b011",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    1606,
+    2464,
+    1707
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "This enhancement enables you to specify a default value for the amount of, and reason for a cash security deposit. It is run during every PBO (process before output) on the move-in screen.",
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b012",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    1790,
+    1851,
+    1828
+   ],
+   "ocr_confidence": 88.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ECSBTOO1 (IS-U: move-out - determine default values for Customizing of table TE490A)"
+    }
+   ],
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b013",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    1912,
+    2231,
+    1949
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "This enhancement is used, for example, to assign default data to the application form for the move-out confirmation.",
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b014",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    2033,
+    1102,
+    2071
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ECSBTIO3 (IS-U move-in: user-defined checks)"
+    }
+   ],
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b015",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    2158,
+    1464,
+    2196
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "This enhancement is used for checking field values on the move-in screen.",
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b016",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    2280,
+    1146,
+    2317
+   ],
+   "ocr_confidence": 89.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ECSBTOO2 (IS-U move-out: user-defined checks)"
+    }
+   ],
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b017",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    2402,
+    1492,
+    2439
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "This enhancement is used for checking field values on the move-out screen.",
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b018",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    2522,
+    2142,
+    2560
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ECSBTMRI (Indicator used to allocate default values to the Create service notification/order functions)"
+    }
+   ],
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b019",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    125,
+    2644,
+    1207,
+    2678
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "For more information, see Service Notifications and Orders.",
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b020",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    2769,
+    2210,
+    2807
+   ],
+   "ocr_confidence": 89.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ECSBTOO1 (IS-U: move-in/move-out \u2014 customer-specific messages in the information log (environment log)"
+    }
+   ],
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b021",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    2891,
+    1555,
+    2929
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "This enhancement is used to add user-define messages in the environment log.",
+   "section_id": "doc_002_sec_015"
+  },
+  {
+   "block_id": "doc_002_p005_b022",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    124,
+    3013,
+    815,
+    3050
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Enhancements for the Screen Layout",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_016"
+  },
+  {
+   "block_id": "doc_002_p005_b023",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    123,
+    3134,
+    2451,
+    3234
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You can include standard and user-defined fields for the contract account and business partner in direct maintenance. To do this, use the following enhancements:",
+   "section_id": "doc_002_sec_016"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "746216ebfd7f1ff7d85322280110e800565804613a69a8ffae1e590cdb599c65"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Insert Contract",
+  "Prerequisites",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_015",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_016",
+   "role": "starts_here"
+  }
+ ]
+}

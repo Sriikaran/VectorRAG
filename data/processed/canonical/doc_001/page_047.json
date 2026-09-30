@@ -1,0 +1,563 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 47,
+ "source_page_hash": "cfae6caa82b00a0b7b16bc299623fd398011dacecca6937347b332732bdf20b2",
+ "is_cover_page": false,
+ "title": "Offset",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nApplication Object           Company Code                Rule Variant\n0001 (FI-CA Document) | CCDE                            RV_DOC_DE\n0001 (FI-CA Document) | CCFR                            RV_DOC_FR\n*                                    *                                     RV_GEN\n\nYou enter rule variant RV_GEN in Customizing in the Make Global Settings for Data Privacy Functions activity. This rule variant\nis then applied when a partner no longer has any transaction data.\n\nIf the norm is for partners to be blocked after 2 years, then you define the ILM rules without an application and rule variant.\n\nCondition Fields                                           Rule\nResidence Duration         Unit                            Time Reference/Time\nOffset\n2                                Years                           START_RET_ DATE\n\nIf a business partner is to be deleted according to the rule variants, then select the application and rule variant as condition\nfields and define the ILM rules.\n\nCondition Fields                                           Rule\n\nApplication Name          Application Rule            Retention Period            Unit                          Time Reference/Time\nVariant                                                                                    Offset\n\nMKK                          RV_DOC_DE                 10                            Years                         START_RET_DATE\n\nMKK                          RV_DOC FR                 8                             Years                         START RET DATE\n\nMKK                          RV_GEN                      4                             Years                         START_RET_ DATE\n\nAssume that the following two business partners do not have any open business transactions:\n\nBusiness Partner                      Company Code CCDE                Company Code CCFR                Other Data\n\nPARTNER1                              Last payment on 10/10/2010      Last payment on 11/11/2011        None\n\nPARTNER2                                No documents                           Documents exist, last payment | Correspondence from\non 01/01/2001                         09/09/2010\n\nYou start transaction BUPA PRE EOP on 01/01/2014. At this point in time, the residence period of two years has been\n\nexceeded by both partners. The program saves the following data (not an exhaustive list) for Contract Accounts Receivable and\n\nPayable (application name MKK) in table BUTSORT. It evaluates this data later during archiving of the SAP business partner.\nBusiness Partner                   Application Name                  Application Rule Variant          Start of the Retention Period\n\nPARTNER1                                         MKK                                                     RV_DOC_DE                                      10/10/2010\n\nPARTNER1                   MKK                         RV_DOC_FR                 11/11/2011\n",
+ "cleaned_text": "Application Object | Company Code | Rule Variant\n\n0001 (FI-CA Document) | CCDE | RV_DOC_DE\n\n0001 (FI-CA Document) | CCFR | RV_DOC_FR\n\n* | * | RV_GEN\n\nYou enter rule variant RV_GEN in Customizing in the Make Global Settings for Data Privacy Functions activity. This rule variant is then applied when a partner no longer has any transaction data. If the norm is for partners to be blocked after 2 years, then you define the ILM rules without an application and rule variant.\n\nCondition Fields | Rule\n\nResidence Duration | Unit | Time Reference/Time\n\nOffset\n\n2 | Years | START_RET_ DATE\n\nIf a business partner is to be deleted according to the rule variants, then select the application and rule variant as condition fields and define the ILM rules.\n\nCondition Fields | Rule\n\nApplication Name | Application Rule | Retention Period | Unit | Time Reference/Time\n\nVariant | Offset\n\nMKK | RV_DOC_DE | 10 | Years | START_RET_DATE\n\nMKK | RV_DOC FR | 8 | Years | START RET DATE\n\nMKK | RV_GEN | 4 | Years | START_RET_ DATE\n\nAssume that the following two business partners do not have any open business transactions:\n\nBusiness Partner | Company Code CCDE | Company Code CCFR | Other Data\n\nPARTNER1 | Last payment on 10/10/2010 | Last payment on 11/11/2011 | None\n\nPARTNER2 | No documents | Documents exist, last payment | Correspondence from\n\non 01/01/2001 | 09/09/2010\n\nYou start transaction BUPA PRE EOP on 01/01/2014. At this point in time, the residence period of two years has been exceeded by both partners. The program saves the following data (not an exhaustive list) for Contract Accounts Receivable and Payable (application name MKK) in table BUTSORT. It evaluates this data later during archiving of the SAP business partner.\n\nBusiness Partner | Application Name | Application Rule Variant | Start of the Retention Period\n\nPARTNER1 | MKK | RV_DOC_DE | 10/10/2010\n\nPARTNER1 | MKK | RV_DOC_FR | 11/11/2011",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p047_b000",
+   "type": "table",
+   "page_number": 47,
+   "bbox": [
+    177,
+    159,
+    1292,
+    512
+   ],
+   "ocr_confidence": 87.3,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    177,
+    630,
+    1083
+   ],
+   "headers": [
+    "Application Object",
+    "Company Code",
+    "Rule Variant"
+   ],
+   "rows": [
+    [
+     "0001 (FI-CA Document) | CCDE",
+     "RV_DOC_DE"
+    ],
+    [
+     "0001 (FI-CA Document) | CCFR",
+     "RV_DOC_FR"
+    ],
+    [
+     "*",
+     "*",
+     "RV_GEN"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Application Object",
+     "Company Code",
+     "Rule Variant"
+    ],
+    [
+     "0001 (FI-CA Document) | CCDE",
+     "RV_DOC_DE"
+    ],
+    [
+     "0001 (FI-CA Document) | CCFR",
+     "RV_DOC_FR"
+    ],
+    [
+     "*",
+     "*",
+     "RV_GEN"
+    ]
+   ],
+   "section_id": "doc_001_sec_152"
+  },
+  {
+   "block_id": "doc_001_p047_b001",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    153,
+    622,
+    2456,
+    845
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You enter rule variant RV_GEN in Customizing in the Make Global Settings for Data Privacy Functions activity. This rule variant is then applied when a partner no longer has any transaction data. If the norm is for partners to be blocked after 2 years, then you define the ILM rules without an application and rule variant.",
+   "section_id": "doc_001_sec_152"
+  },
+  {
+   "block_id": "doc_001_p047_b002",
+   "type": "table",
+   "page_number": 47,
+   "bbox": [
+    178,
+    954,
+    2402,
+    1097
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    178,
+    1102,
+    1563,
+    2023
+   ],
+   "headers": [
+    "Condition Fields",
+    "Rule"
+   ],
+   "rows": [
+    [
+     "Residence Duration",
+     "Unit",
+     "Time Reference/Time"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Condition Fields",
+     "Rule"
+    ],
+    [
+     "Residence Duration",
+     "Unit",
+     "Time Reference/Time"
+    ]
+   ],
+   "section_id": "doc_001_sec_152"
+  },
+  {
+   "block_id": "doc_001_p047_b003",
+   "type": "heading",
+   "page_number": 47,
+   "bbox": [
+    2023,
+    1119,
+    2128,
+    1147
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Offset",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_153"
+  },
+  {
+   "block_id": "doc_001_p047_b004",
+   "type": "table",
+   "page_number": 47,
+   "bbox": [
+    1100,
+    1218,
+    2350,
+    1265
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    1100,
+    1562,
+    2025
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "2",
+     "Years",
+     "START_RET_ DATE"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "2",
+     "Years",
+     "START_RET_ DATE"
+    ]
+   ],
+   "section_id": "doc_001_sec_153"
+  },
+  {
+   "block_id": "doc_001_p047_b005",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    152,
+    1370,
+    2375,
+    1462
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "If a business partner is to be deleted according to the rule variants, then select the application and rule variant as condition fields and define the ILM rules.",
+   "section_id": "doc_001_sec_153"
+  },
+  {
+   "block_id": "doc_001_p047_b006",
+   "type": "table",
+   "page_number": 47,
+   "bbox": [
+    177,
+    1579,
+    2402,
+    2103
+   ],
+   "ocr_confidence": 83.6,
+   "flags": [
+    "low_confidence_words:5",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    177,
+    639,
+    1100,
+    1562,
+    2023
+   ],
+   "headers": [
+    "Condition Fields",
+    "Rule"
+   ],
+   "rows": [
+    [
+     "Application Name",
+     "Application Rule",
+     "Retention Period",
+     "Unit",
+     "Time Reference/Time"
+    ],
+    [
+     "Variant",
+     "Offset"
+    ],
+    [
+     "MKK",
+     "RV_DOC_DE",
+     "10",
+     "Years",
+     "START_RET_DATE"
+    ],
+    [
+     "MKK",
+     "RV_DOC FR",
+     "8",
+     "Years",
+     "START RET DATE"
+    ],
+    [
+     "MKK",
+     "RV_GEN",
+     "4",
+     "Years",
+     "START_RET_ DATE"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Condition Fields",
+     "Rule"
+    ],
+    [
+     "Application Name",
+     "Application Rule",
+     "Retention Period",
+     "Unit",
+     "Time Reference/Time"
+    ],
+    [
+     "Variant",
+     "Offset"
+    ],
+    [
+     "MKK",
+     "RV_DOC_DE",
+     "10",
+     "Years",
+     "START_RET_DATE"
+    ],
+    [
+     "MKK",
+     "RV_DOC FR",
+     "8",
+     "Years",
+     "START RET DATE"
+    ],
+    [
+     "MKK",
+     "RV_GEN",
+     "4",
+     "Years",
+     "START_RET_ DATE"
+    ]
+   ],
+   "section_id": "doc_001_sec_153"
+  },
+  {
+   "block_id": "doc_001_p047_b007",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    152,
+    2204,
+    1848,
+    2242
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Assume that the following two business partners do not have any open business transactions:",
+   "section_id": "doc_001_sec_153"
+  },
+  {
+   "block_id": "doc_001_p047_b008",
+   "type": "table",
+   "page_number": 47,
+   "bbox": [
+    179,
+    2351,
+    2275,
+    2652
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    179,
+    755,
+    1331,
+    1908
+   ],
+   "headers": [
+    "Business Partner",
+    "Company Code CCDE",
+    "Company Code CCFR",
+    "Other Data"
+   ],
+   "rows": [
+    [
+     "PARTNER1",
+     "Last payment on 10/10/2010",
+     "Last payment on 11/11/2011",
+     "None"
+    ],
+    [
+     "PARTNER2",
+     "No documents",
+     "Documents exist, last payment | Correspondence from"
+    ],
+    [
+     "on 01/01/2001",
+     "09/09/2010"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Business Partner",
+     "Company Code CCDE",
+     "Company Code CCFR",
+     "Other Data"
+    ],
+    [
+     "PARTNER1",
+     "Last payment on 10/10/2010",
+     "Last payment on 11/11/2011",
+     "None"
+    ],
+    [
+     "PARTNER2",
+     "No documents",
+     "Documents exist, last payment | Correspondence from"
+    ],
+    [
+     "on 01/01/2001",
+     "09/09/2010"
+    ]
+   ],
+   "section_id": "doc_001_sec_153"
+  },
+  {
+   "block_id": "doc_001_p047_b009",
+   "type": "paragraph",
+   "page_number": 47,
+   "bbox": [
+    152,
+    2764,
+    2449,
+    2935
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "You start transaction BUPA PRE EOP on 01/01/2014. At this point in time, the residence period of two years has been exceeded by both partners. The program saves the following data (not an exhaustive list) for Contract Accounts Receivable and Payable (application name MKK) in table BUTSORT. It evaluates this data later during archiving of the SAP business partner.",
+   "section_id": "doc_001_sec_153"
+  },
+  {
+   "block_id": "doc_001_p047_b010",
+   "type": "table",
+   "page_number": 47,
+   "bbox": [
+    179,
+    3044,
+    2323,
+    3295
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    179,
+    727,
+    1276,
+    1825
+   ],
+   "headers": [
+    "Business Partner",
+    "Application Name",
+    "Application Rule Variant",
+    "Start of the Retention Period"
+   ],
+   "rows": [
+    [
+     "PARTNER1",
+     "MKK",
+     "RV_DOC_DE",
+     "10/10/2010"
+    ],
+    [
+     "PARTNER1",
+     "MKK",
+     "RV_DOC_FR",
+     "11/11/2011"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Business Partner",
+     "Application Name",
+     "Application Rule Variant",
+     "Start of the Retention Period"
+    ],
+    [
+     "PARTNER1",
+     "MKK",
+     "RV_DOC_DE",
+     "10/10/2010"
+    ],
+    [
+     "PARTNER1",
+     "MKK",
+     "RV_DOC_FR",
+     "11/11/2011"
+    ]
+   ],
+   "section_id": "doc_001_sec_153"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.0952,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "cfae6caa82b00a0b7b16bc299623fd398011dacecca6937347b332732bdf20b2"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "System Configuration",
+  "Use",
+  "Rule Variants"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_152",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_153",
+   "role": "starts_here"
+  }
+ ]
+}

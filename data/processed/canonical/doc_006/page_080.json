@@ -1,0 +1,293 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 80,
+ "source_page_hash": "a1a2a4264cfb46ca6cd1f8ffd5b61f86a68e97f3bbb3dfac5236f5b1d3e0ad72",
+ "is_cover_page": false,
+ "title": "Rolling Changeover",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nTo change over the installations in your system to the quantity determination procedure that is defined for a division in\nCustomizing, and that is valid as of a defined key date, you have to use a report to convert the installations at register level. This\nreport has to interpret the Customizing settings and apply them to the installations.\n\nYou can use the Define Quantity Determination Procedure report (REQD_SET QDPROC_ TO REGISTER) for this purpose. This\nreport changes the quantity determination procedure on the key date defined in Customizing.\n\nAlternatively, you can use the report as a template to create a company-specific changeover report in your project.\nRolling Changeover\n\nWith this method, you change over the installations in your system that are assigned to a selected division to the quantity\n\ndetermination procedure in different stages. If you choose the changeover date so that the installations are changed over after\nbilling, you avoid having to enter additional measurement data on the changeover date and you achieve a clear differentiation\nbetween the quantity determination procedures.\n\nTo change over the installations in your system to the quantity determination procedure defined in Customizing, you have to use a\nreport to convert the installations at register level. This report has to interpret the Customizing settings and apply them to the\n\ninstallations. The report also has to move the from-date of the quantity determination procedure so that the changeover date is\ndifferent from the key date defined in Customizing.\n\nYou can use the Define Quantity Determination Procedure report (REQD_ SET QDPROC_TO REGISTER) for this purpose. You\ncan also implement the method Change From-Date of Quantity Determination Procedure (CHANGE VALID FROM EADZ QD) of\nBAdI Quantity Determination Procedure (ISU QD PROC).\n\nAlternatively, you can use the report as a template to create a company-specific changeover report in your project.\n\nUse\n\nFor more information about the changeover of quantity determination procedures and about the Define Quantity Determination\nProcedure report, see Define Quantity Determination Procedure for Existing Installations.\n\nConcepts\n\nRead the information in the following sections to familiarize yourself with the functions and concepts of the quantity determination\nprocedure Quantity Determination During Meter Reading. Alternatively, choose the following links to access information about\nthe concepts behind this quantity determination procedure.\n\ne Change Meter Reading Results\n\ne Quantity Determination Trigger Concept\n\ne Check for Final Determined Consumption in Technical Transactions\n\ne Estimation Procedure\n\nChange Meter Reading Results\n",
+ "cleaned_text": "To change over the installations in your system to the quantity determination procedure that is defined for a division in Customizing, and that is valid as of a defined key date, you have to use a report to convert the installations at register level. This report has to interpret the Customizing settings and apply them to the installations. You can use the Define Quantity Determination Procedure report (REQD_SET QDPROC_ TO REGISTER) for this purpose. This report changes the quantity determination procedure on the key date defined in Customizing. Alternatively, you can use the report as a template to create a company-specific changeover report in your project.\n\nRolling Changeover\n\nWith this method, you change over the installations in your system that are assigned to a selected division to the quantity determination procedure in different stages. If you choose the changeover date so that the installations are changed over after billing, you avoid having to enter additional measurement data on the changeover date and you achieve a clear differentiation between the quantity determination procedures. To change over the installations in your system to the quantity determination procedure defined in Customizing, you have to use a report to convert the installations at register level. This report has to interpret the Customizing settings and apply them to the installations. The report also has to move the from-date of the quantity determination procedure so that the changeover date is different from the key date defined in Customizing. You can use the Define Quantity Determination Procedure report (REQD_ SET QDPROC_TO REGISTER) for this purpose. You can also implement the method Change From-Date of Quantity Determination Procedure (CHANGE VALID FROM EADZ QD) of BAdI Quantity Determination Procedure (ISU QD PROC). Alternatively, you can use the report as a template to create a company-specific changeover report in your project.\n\nUse\n\nFor more information about the changeover of quantity determination procedures and about the Define Quantity Determination Procedure report, see Define Quantity Determination Procedure for Existing Installations.\n\nConcepts\n\nRead the information in the following sections to familiarize yourself with the functions and concepts of the quantity determination procedure Quantity Determination During Meter Reading. Alternatively, choose the following links to access information about the concepts behind this quantity determination procedure.\n\n- Change Meter Reading Results\n\n- Quantity Determination Trigger Concept\n\n- Check for Final Determined Consumption in Technical Transactions\n\n- Estimation Procedure\n\nChange Meter Reading Results",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p080_b000",
+   "type": "paragraph",
+   "page_number": 80,
+   "bbox": [
+    122,
+    134,
+    2434,
+    609
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "To change over the installations in your system to the quantity determination procedure that is defined for a division in Customizing, and that is valid as of a defined key date, you have to use a report to convert the installations at register level. This report has to interpret the Customizing settings and apply them to the installations. You can use the Define Quantity Determination Procedure report (REQD_SET QDPROC_ TO REGISTER) for this purpose. This report changes the quantity determination procedure on the key date defined in Customizing. Alternatively, you can use the report as a template to create a company-specific changeover report in your project.",
+   "section_id": "doc_006_sec_217"
+  },
+  {
+   "block_id": "doc_006_p080_b001",
+   "type": "heading",
+   "page_number": 80,
+   "bbox": [
+    124,
+    693,
+    483,
+    731
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Rolling Changeover",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_218"
+  },
+  {
+   "block_id": "doc_006_p080_b002",
+   "type": "paragraph",
+   "page_number": 80,
+   "bbox": [
+    122,
+    815,
+    2486,
+    1736
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "With this method, you change over the installations in your system that are assigned to a selected division to the quantity determination procedure in different stages. If you choose the changeover date so that the installations are changed over after billing, you avoid having to enter additional measurement data on the changeover date and you achieve a clear differentiation between the quantity determination procedures. To change over the installations in your system to the quantity determination procedure defined in Customizing, you have to use a report to convert the installations at register level. This report has to interpret the Customizing settings and apply them to the installations. The report also has to move the from-date of the quantity determination procedure so that the changeover date is different from the key date defined in Customizing. You can use the Define Quantity Determination Procedure report (REQD_ SET QDPROC_TO REGISTER) for this purpose. You can also implement the method Change From-Date of Quantity Determination Procedure (CHANGE VALID FROM EADZ QD) of BAdI Quantity Determination Procedure (ISU QD PROC). Alternatively, you can use the report as a template to create a company-specific changeover report in your project.",
+   "section_id": "doc_006_sec_218"
+  },
+  {
+   "block_id": "doc_006_p080_b003",
+   "type": "heading",
+   "page_number": 80,
+   "bbox": [
+    125,
+    1848,
+    225,
+    1893
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_219"
+  },
+  {
+   "block_id": "doc_006_p080_b004",
+   "type": "paragraph",
+   "page_number": 80,
+   "bbox": [
+    124,
+    1977,
+    2450,
+    2081
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "For more information about the changeover of quantity determination procedures and about the Define Quantity Determination Procedure report, see Define Quantity Determination Procedure for Existing Installations.",
+   "section_id": "doc_006_sec_219"
+  },
+  {
+   "block_id": "doc_006_p080_b005",
+   "type": "heading",
+   "page_number": 80,
+   "bbox": [
+    125,
+    2226,
+    467,
+    2302
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Concepts",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_220"
+  },
+  {
+   "block_id": "doc_006_p080_b006",
+   "type": "paragraph",
+   "page_number": 80,
+   "bbox": [
+    122,
+    2378,
+    2486,
+    2541
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Read the information in the following sections to familiarize yourself with the functions and concepts of the quantity determination procedure Quantity Determination During Meter Reading. Alternatively, choose the following links to access information about the concepts behind this quantity determination procedure.",
+   "section_id": "doc_006_sec_220"
+  },
+  {
+   "block_id": "doc_006_p080_b007",
+   "type": "list",
+   "page_number": 80,
+   "bbox": [
+    206,
+    2625,
+    1468,
+    2963
+   ],
+   "ocr_confidence": 92.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change Meter Reading Results"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Quantity Determination Trigger Concept"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Check for Final Determined Consumption in Technical Transactions"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Estimation Procedure"
+    }
+   ],
+   "section_id": "doc_006_sec_220"
+  },
+  {
+   "block_id": "doc_006_p080_b008",
+   "type": "heading",
+   "page_number": 80,
+   "bbox": [
+    125,
+    3116,
+    1235,
+    3193
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Change Meter Reading Results",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_221"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "a1a2a4264cfb46ca6cd1f8ffd5b61f86a68e97f3bbb3dfac5236f5b1d3e0ad72"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Notes About the Time of the Changeover",
+  "Use",
+  "Changeover on Key Date"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_217",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_218",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_219",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_220",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_221",
+   "role": "starts_here"
+  }
+ ]
+}

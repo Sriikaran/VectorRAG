@@ -1,0 +1,435 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 78,
+ "source_page_hash": "b821fb3b9722615f5ba8581ca6674e2fc28a7584aa858d918895c0c303350654",
+ "is_cover_page": false,
+ "title": "Constraints",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nConstraints\n\nRegister Relationships\n\nRegister relationships for the following register relationship types in the gas division cannot be used in conjunction with the\nquantity determination procedure Quantity Determination During Meter Reading:\n\ne 05-Volume correction factor relationship\n\ne 06- Volume correction factor calculation\n\n4S Caution\n\nCheck whether such register relationships exist in your system. For divisions in which installations have these register\nrelationships, you cannot change over to the quantity determination procedure Quantity Determination During Meter Reading\nwithout consulting SAP. The conversion report does not check this itself.\n\nIf you do not take this into account, data inconsistencies can occur.\n\nVolume Correction Factor Procedures\n\nVolume correction factor procedures with the following special procedures in the gas division cannot be used in conjunction with\nthe quantity determination procedure Quantity Determination During Meter Reading:\n\ne Register relationship ZZ\n\ne Register relationship ZE\n\n4s Caution\n\nCheck whether you use such special procedures in your system. For divisions in which installations have these special\n\nprocedures, you cannot change over to the quantity determination procedure Quantity Determination During Meter Reading\nwithout consulting SAP. The conversion report does not check this itself.\n\nIf you do not take this into account, data inconsistencies can occur.\nDynamic Period Control\n\nDynamic period control cannot be used in conjunction with the quantity determination procedure Quantity Determination During\nMeter Reading. When attempting to change over installations with dynamic period control to the quantity determination\n\nprocedure Quantity Determination During Meter Reading, the consistency checks identify these installations. If you still want to\nexecute quantity determination during meter reading, you cannot use dynamic period control.\n\nFor more information, see\nDynamic Period Control\nAssessing\n\nAssessing cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter\nReading. If you still want to use the quantity determination procedure Quantity Determination During Meter Reading, be aware\nthat the Assessed event cannot be triggered during meter reading.\n",
+ "cleaned_text": "Constraints\n\nRegister Relationships\n\nRegister relationships for the following register relationship types in the gas division cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading:\n\n- 05-Volume correction factor relationship\n\n- 06- Volume correction factor calculation\n\nCaution Check whether such register relationships exist in your system. For divisions in which installations have these register relationships, you cannot change over to the quantity determination procedure Quantity Determination During Meter Reading without consulting SAP. The conversion report does not check this itself.\n\nIf you do not take this into account, data inconsistencies can occur.\n\nVolume Correction Factor Procedures\n\nVolume correction factor procedures with the following special procedures in the gas division cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading:\n\n- Register relationship ZZ\n\n- Register relationship ZE\n\n4s Caution Check whether you use such special procedures in your system. For divisions in which installations have these special procedures, you cannot change over to the quantity determination procedure Quantity Determination During Meter Reading without consulting SAP. The conversion report does not check this itself.\n\nIf you do not take this into account, data inconsistencies can occur.\n\nDynamic Period Control\n\nDynamic period control cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading. When attempting to change over installations with dynamic period control to the quantity determination procedure Quantity Determination During Meter Reading, the consistency checks identify these installations. If you still want to execute quantity determination during meter reading, you cannot use dynamic period control.\n\nFor more information, see\n\nDynamic Period Control\n\nAssessing\n\nAssessing cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading. If you still want to use the quantity determination procedure Quantity Determination During Meter Reading, be aware that the Assessed event cannot be triggered during meter reading.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "4S",
+   "bbox": [
+    151,
+    804,
+    414,
+    848
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p078_b000",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    124,
+    125,
+    449,
+    172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Constraints",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_208"
+  },
+  {
+   "block_id": "doc_006_p078_b001",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    124,
+    259,
+    541,
+    297
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Register Relationships",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_209"
+  },
+  {
+   "block_id": "doc_006_p078_b002",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    123,
+    381,
+    2347,
+    481
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Register relationships for the following register relationship types in the gas division cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading:",
+   "section_id": "doc_006_sec_209"
+  },
+  {
+   "block_id": "doc_006_p078_b003",
+   "type": "list",
+   "page_number": 78,
+   "bbox": [
+    207,
+    564,
+    1020,
+    700
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "05-Volume correction factor relationship"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "06- Volume correction factor calculation"
+    }
+   ],
+   "section_id": "doc_006_sec_209"
+  },
+  {
+   "block_id": "doc_006_p078_b004",
+   "type": "note",
+   "page_number": 78,
+   "bbox": [
+    151,
+    804,
+    2457,
+    1053
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Caution",
+   "text": "Caution Check whether such register relationships exist in your system. For divisions in which installations have these register relationships, you cannot change over to the quantity determination procedure Quantity Determination During Meter Reading without consulting SAP. The conversion report does not check this itself.",
+   "section_id": "doc_006_sec_209"
+  },
+  {
+   "block_id": "doc_006_p078_b005",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    125,
+    1173,
+    1335,
+    1210
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "If you do not take this into account, data inconsistencies can occur.",
+   "section_id": "doc_006_sec_209"
+  },
+  {
+   "block_id": "doc_006_p078_b006",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    123,
+    1294,
+    823,
+    1324
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Volume Correction Factor Procedures",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_210"
+  },
+  {
+   "block_id": "doc_006_p078_b007",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    122,
+    1419,
+    2444,
+    1519
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Volume correction factor procedures with the following special procedures in the gas division cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading:",
+   "section_id": "doc_006_sec_210"
+  },
+  {
+   "block_id": "doc_006_p078_b008",
+   "type": "list",
+   "page_number": 78,
+   "bbox": [
+    207,
+    1603,
+    686,
+    1742
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Register relationship ZZ"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Register relationship ZE"
+    }
+   ],
+   "section_id": "doc_006_sec_210"
+  },
+  {
+   "block_id": "doc_006_p078_b009",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    151,
+    1842,
+    2428,
+    2091
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "4s Caution Check whether you use such special procedures in your system. For divisions in which installations have these special procedures, you cannot change over to the quantity determination procedure Quantity Determination During Meter Reading without consulting SAP. The conversion report does not check this itself.",
+   "section_id": "doc_006_sec_210"
+  },
+  {
+   "block_id": "doc_006_p078_b010",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    125,
+    2211,
+    1335,
+    2249
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "If you do not take this into account, data inconsistencies can occur.",
+   "section_id": "doc_006_sec_210"
+  },
+  {
+   "block_id": "doc_006_p078_b011",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    124,
+    2332,
+    565,
+    2370
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Dynamic Period Control",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_211"
+  },
+  {
+   "block_id": "doc_006_p078_b012",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    123,
+    2454,
+    2475,
+    2682
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Dynamic period control cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading. When attempting to change over installations with dynamic period control to the quantity determination procedure Quantity Determination During Meter Reading, the consistency checks identify these installations. If you still want to execute quantity determination during meter reading, you cannot use dynamic period control.",
+   "section_id": "doc_006_sec_211"
+  },
+  {
+   "block_id": "doc_006_p078_b013",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    125,
+    2766,
+    587,
+    2800
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "For more information, see",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_211"
+  },
+  {
+   "block_id": "doc_006_p078_b014",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    122,
+    2888,
+    551,
+    2925
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Dynamic Period Control",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_211"
+  },
+  {
+   "block_id": "doc_006_p078_b015",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    123,
+    3009,
+    308,
+    3047
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Assessing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_212"
+  },
+  {
+   "block_id": "doc_006_p078_b016",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    122,
+    3133,
+    2434,
+    3296
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Assessing cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading. If you still want to use the quantity determination procedure Quantity Determination During Meter Reading, be aware that the Assessed event cannot be triggered during meter reading.",
+   "section_id": "doc_006_sec_212"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "b821fb3b9722615f5ba8581ca6674e2fc28a7584aa858d918895c0c303350654"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Important Notes",
+  "Constraints"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_208",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_209",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_210",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_211",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_212",
+   "role": "starts_here"
+  }
+ ]
+}

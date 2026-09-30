@@ -1,0 +1,375 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_017",
+ "page_number": 13,
+ "source_page_hash": "dc7662db494d452004a4a8d95dde1e2f715032c7478aeb8ea2a622c5186c0f9b",
+ "is_cover_page": false,
+ "title": "Implementation Information",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nTo change a contract account, select the desired contract account in the list and press Change. This takes you to the app\nfor changing contract accounts.\n\ne Create contract accounts\n\nTo create a new contract account, press Create. This takes you to the app for creating contract accounts.\n\ni Note\n\nFrom the Manage Contract Accounts app, you can access the following transactions:\n\ne Create Contract Account (transaction CAA1)\ne Change Contract Account (transaction CAA2)\n\ne Display Contract Account (transaction CAA3)\n\nImplementation Information\n\nIn the SAP Fiori Apps Reference Library, see the details for the Manage Contract Accounts app.\n\nRelated Information\n\nCreating, Changing, and Displaying Contract Accounts\n\nCorrespondence for Master Data Changes\n\nUse\n\nUsing correspondence type 0030 (master data change), you can follow immediate and planned changes to the master data of\nyour business partners (business partner, contract account, contract reference).\n\nPrerequisites\n\nIn the Implementation Guide for Contract Accounts Receivable and Payable , under Basic FunctionsCorrespondenceDefine\nFields for Creating Master Data Changes , you have entered the tables to be considered for the correspondence (for example,\nBUTOOO \u2014 general business partner data). You can only define tables that contain object classes defined by SAP, since the key for\nselecting the change documents is different for each object class and is created in module FKK_SAMPLE_1915. If you want other\ntables and therefore object classes to be considered, a program enhancement is necessary. The object classes defined by SAP are\ndelivered in system table TFKO7OQC, which contains the following entries: ADRESSE, ADRESSE2, BUPA_BUP, FMCA_PSOB,\nFMCA_PSOBVKK, MKK_VKONT. When you enter a table in Customizing, the system automatically checks whether your entry is\nvalid. Use the input help to display the valid entries. Once you have entered the tables, in a second step, you define the fields to be\nmonitored for each table (for example, STREET in table ADRC). If the system writes a change document for a field that you have\ndefined here in Customizing, this field is displayed in the correspondence. To determine which tables and fields you have to enter in\n\nCustomizing, proceed as follows:\nIn the menu, choose Display Business Partner or Change Business Partner .\n\nFntear a hiicinace nartner cnacify the ccrraan calactinn and choncea Cantinisra\n",
+ "cleaned_text": "To change a contract account, select the desired contract account in the list and press Change. This takes you to the app for changing contract accounts.\n\n- Create contract accounts To create a new contract account, press Create. This takes you to the app for creating contract accounts.\n\ni Note From the Manage Contract Accounts app, you can access the following transactions:\n\n- Create Contract Account (transaction CAA1)\n\n- Change Contract Account (transaction CAA2)\n\n- Display Contract Account (transaction CAA3)\n\nImplementation Information\n\nIn the SAP Fiori Apps Reference Library, see the details for the Manage Contract Accounts app.\n\nRelated Information\n\nCreating, Changing, and Displaying Contract Accounts\n\nCorrespondence for Master Data Changes\n\nUse\n\nUsing correspondence type 0030 (master data change), you can follow immediate and planned changes to the master data of your business partners (business partner, contract account, contract reference).\n\nPrerequisites\n\nIn the Implementation Guide for Contract Accounts Receivable and Payable , under Basic FunctionsCorrespondenceDefine Fields for Creating Master Data Changes , you have entered the tables to be considered for the correspondence (for example, BUTOOO \u2014 general business partner data). You can only define tables that contain object classes defined by SAP, since the key for selecting the change documents is different for each object class and is created in module FKK_SAMPLE_1915. If you want other tables and therefore object classes to be considered, a program enhancement is necessary. The object classes defined by SAP are delivered in system table TFKO7OQC, which contains the following entries: ADRESSE, ADRESSE2, BUPA_BUP, FMCA_PSOB, FMCA_PSOBVKK, MKK_VKONT. When you enter a table in Customizing, the system automatically checks whether your entry is valid. Use the input help to display the valid entries. Once you have entered the tables, in a second step, you define the fields to be monitored for each table (for example, STREET in table ADRC). If the system writes a change document for a field that you have defined here in Customizing, this field is displayed in the correspondence. To determine which tables and fields you have to enter in Customizing, proceed as follows: In the menu, choose Display Business Partner or Change Business Partner .\n\nFntear a hiicinace nartner cnacify the ccrraan calactinn and choncea Cantinisra",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_017_p013_b000",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    254,
+    134,
+    2436,
+    235
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "To change a contract account, select the desired contract account in the list and press Change. This takes you to the app for changing contract accounts.",
+   "section_id": "doc_017_sec_068"
+  },
+  {
+   "block_id": "doc_017_p013_b001",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    207,
+    299,
+    2149,
+    441
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create contract accounts To create a new contract account, press Create. This takes you to the app for creating contract accounts."
+    }
+   ],
+   "section_id": "doc_017_sec_068"
+  },
+  {
+   "block_id": "doc_017_p013_b002",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    151,
+    541,
+    1691,
+    662
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "i Note From the Manage Contract Accounts app, you can access the following transactions:",
+   "section_id": "doc_017_sec_068"
+  },
+  {
+   "block_id": "doc_017_p013_b003",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    236,
+    745,
+    1128,
+    987
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create Contract Account (transaction CAA1)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change Contract Account (transaction CAA2)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display Contract Account (transaction CAA3)"
+    }
+   ],
+   "section_id": "doc_017_sec_068"
+  },
+  {
+   "block_id": "doc_017_p013_b004",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    127,
+    1165,
+    916,
+    1221
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Implementation Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_069"
+  },
+  {
+   "block_id": "doc_017_p013_b005",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    125,
+    1294,
+    1835,
+    1332
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "In the SAP Fiori Apps Reference Library, see the details for the Manage Contract Accounts app.",
+   "section_id": "doc_017_sec_069"
+  },
+  {
+   "block_id": "doc_017_p013_b006",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    126,
+    1443,
+    681,
+    1489
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Related Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_070"
+  },
+  {
+   "block_id": "doc_017_p013_b007",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    123,
+    1569,
+    1106,
+    1608
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Creating, Changing, and Displaying Contract Accounts",
+   "section_id": "doc_017_sec_070"
+  },
+  {
+   "block_id": "doc_017_p013_b008",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    125,
+    1746,
+    1650,
+    1823
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Correspondence for Master Data Changes",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_071"
+  },
+  {
+   "block_id": "doc_017_p013_b009",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    125,
+    1923,
+    225,
+    1969
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_072"
+  },
+  {
+   "block_id": "doc_017_p013_b010",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    122,
+    2056,
+    2403,
+    2156
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Using correspondence type 0030 (master data change), you can follow immediate and planned changes to the master data of your business partners (business partner, contract account, contract reference).",
+   "section_id": "doc_017_sec_072"
+  },
+  {
+   "block_id": "doc_017_p013_b011",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    126,
+    2269,
+    492,
+    2325
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_073"
+  },
+  {
+   "block_id": "doc_017_p013_b012",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    122,
+    2401,
+    2487,
+    3192
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "In the Implementation Guide for Contract Accounts Receivable and Payable , under Basic FunctionsCorrespondenceDefine Fields for Creating Master Data Changes , you have entered the tables to be considered for the correspondence (for example, BUTOOO \u2014 general business partner data). You can only define tables that contain object classes defined by SAP, since the key for selecting the change documents is different for each object class and is created in module FKK_SAMPLE_1915. If you want other tables and therefore object classes to be considered, a program enhancement is necessary. The object classes defined by SAP are delivered in system table TFKO7OQC, which contains the following entries: ADRESSE, ADRESSE2, BUPA_BUP, FMCA_PSOB, FMCA_PSOBVKK, MKK_VKONT. When you enter a table in Customizing, the system automatically checks whether your entry is valid. Use the input help to display the valid entries. Once you have entered the tables, in a second step, you define the fields to be monitored for each table (for example, STREET in table ADRC). If the system writes a change document for a field that you have defined here in Customizing, this field is displayed in the correspondence. To determine which tables and fields you have to enter in Customizing, proceed as follows: In the menu, choose Display Business Partner or Change Business Partner .",
+   "section_id": "doc_017_sec_073"
+  },
+  {
+   "block_id": "doc_017_p013_b013",
+   "type": "fragment",
+   "page_number": 13,
+   "bbox": [
+    125,
+    3275,
+    1497,
+    3300
+   ],
+   "ocr_confidence": 67.7,
+   "flags": [
+    "low_confidence_words:4",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Fntear a hiicinace nartner cnacify the ccrraan calactinn and choncea Cantinisra",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_017_sec_073"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Accounts Overview",
+  "source_pdf": "17.pdf",
+  "reference_pdf": "17_Contract_Accounts_Overview.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Use to connect utility invoicing to receivables, payments and dunning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "dc7662db494d452004a4a8d95dde1e2f715032c7478aeb8ea2a622c5186c0f9b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Accounts Overview",
+  "Manage Contract Accounts",
+  "Key Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_017_sec_068",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_017_sec_069",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_070",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_071",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_072",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_073",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "doc_001": {
+  "title_curated": "Utilities Master Data",
+  "title_detected_on_cover": "Master Data",
+  "sections": 443,
+  "headings": 475,
+  "headings_by_level": {
+   "2": 84,
+   "3": 154,
+   "4": 204
+  },
+  "heading_candidates_low_confidence": 33,
+  "paragraphs": 615,
+  "lists": 177,
+  "list_items": 449,
+  "tables": 137,
+  "tables_without_detected_header": 89,
+  "notes": 55,
+  "examples": 6,
+  "fragments": 16,
+  "pages_without_own_heading": 16,
+  "detection_issues": [
+   "table on p24->p25 flagged as continuation (not merged; evidence kept per page)",
+   "table on p57->p58 flagged as continuation (not merged; evidence kept per page)",
+   "table on p65->p66 flagged as continuation (not merged; evidence kept per page)"
+  ],
+  "sample_section_paths": [
+   [
+    "Utilities Master Data",
+    "Master Data"
+   ],
+   [
+    "Utilities Master Data",
+    "SAP Business Partner"
+   ],
+   [
+    "Utilities Master Data",
+    "Business Partner in the Contract Partner Role (MKK)",
+    "Use"
+   ]
+  ]
+ },
+ "doc_002": {
+  "title_curated": "Move-In/Out Overview",
+  "title_detected_on_cover": "Customer Service",
+  "sections": 90,
+  "headings": 94,
+  "headings_by_level": {
+   "2": 19,
+   "3": 39,
+   "4": 31
+  },
+  "heading_candidates_low_confidence": 5,
+  "paragraphs": 114,
+  "lists": 41,
+  "list_items": 85,
+  "tables": 7,
+  "tables_without_detected_header": 7,
+  "notes": 3,
+  "examples": 0,
+  "fragments": 3,
+  "pages_without_own_heading": 1,
+  "detection_issues": [],
+  "sample_section_paths": [
+   [
+    "Move-In/Out Overview",
+    "Move-In/Out"
+   ],
+   [
+    "Move-In/Out Overview",
+    "Move-In/Out Processing",
+    "Use"
+   ],
+   [
+    "Move-In/Out Overview",
+    "Move-In/Out Processing",
+    "Features",
+    "Subsequent processing of move-ins and move-outs"
+   ]
+  ]
+ },
+ "doc_004": {
+  "title_curated": "Move-Out Process",
+  "title_detected_on_cover": "Customer Service",
+  "sections": 22,
+  "headings": 22,
+  "headings_by_level": {
+   "2": 4,
+   "3": 6,
+   "4": 11
+  },
+  "heading_candidates_low_confidence": 1,
+  "paragraphs": 22,
+  "lists": 3,
+  "list_items": 7,
+  "tables": 0,
+  "tables_without_detected_header": 0,
+  "notes": 1,
+  "examples": 0,
+  "fragments": 2,
+  "pages_without_own_heading": 1,
+  "detection_issues": [],
+  "sample_section_paths": [
+   [
+    "Move-Out Process",
+    "Move-Out"
+   ],
+   [
+    "Move-Out Process",
+    "Move-Out",
+    "Features"
+   ],
+   [
+    "Move-Out Process",
+    "Move-Out",
+    "Activities",
+    "Save"
+   ]
+  ]
+ },
+ "doc_006": {
+  "title_curated": "Reading Meters",
+  "title_detected_on_cover": "Device Management",
+  "sections": 294,
+  "headings": 338,
+  "headings_by_level": {
+   "2": 67,
+   "3": 130,
+   "4": 97
+  },
+  "heading_candidates_low_confidence": 44,
+  "paragraphs": 534,
+  "lists": 186,
+  "list_items": 465,
+  "tables": 159,
+  "tables_without_detected_header": 133,
+  "notes": 29,
+  "examples": 7,
+  "fragments": 18,
+  "pages_without_own_heading": 10,
+  "detection_issues": [
+   "page 2: top-level heading 'Reading Meters' equals document title; merged into root section",
+   "page 2: level 3 heading 'Purpose' had no parent candidate; attached to root",
+   "page 2: level 3 heading 'Integration' had no parent candidate; attached to root"
+  ],
+  "sample_section_paths": [
+   [
+    "Reading Meters"
+   ],
+   [
+    "Reading Meters",
+    "Definition"
+   ],
+   [
+    "Reading Meters",
+    "Weighting Procedure",
+    "Use"
+   ]
+  ]
+ },
+ "doc_011": {
+  "title_curated": "SAP Utilities Billing Procedure",
+  "title_detected_on_cover": "Invoicing",
+  "sections": 267,
+  "headings": 291,
+  "headings_by_level": {
+   "2": 59,
+   "3": 102,
+   "4": 105
+  },
+  "heading_candidates_low_confidence": 25,
+  "paragraphs": 433,
+  "lists": 136,
+  "list_items": 339,
+  "tables": 92,
+  "tables_without_detected_header": 69,
+  "notes": 21,
+  "examples": 5,
+  "fragments": 7,
+  "pages_without_own_heading": 4,
+  "detection_issues": [],
+  "sample_section_paths": [
+   [
+    "SAP Utilities Billing Procedure",
+    "Billing Procedure"
+   ],
+   [
+    "SAP Utilities Billing Procedure",
+    "Backbilling and Period-End Billing",
+    "Features"
+   ],
+   [
+    "SAP Utilities Billing Procedure",
+    "Dynamic Period Control (DPC)",
+    "Use"
+   ]
+  ]
+ },
+ "doc_018": {
+  "title_curated": "Contract Account Business Object",
+  "title_detected_on_cover": "Enterprise Services in Financials",
+  "sections": 165,
+  "headings": 166,
+  "headings_by_level": {
+   "2": 29,
+   "3": 101,
+   "4": 34
+  },
+  "heading_candidates_low_confidence": 2,
+  "paragraphs": 106,
+  "lists": 31,
+  "list_items": 83,
+  "tables": 28,
+  "tables_without_detected_header": 25,
+  "notes": 2,
+  "examples": 0,
+  "fragments": 2,
+  "pages_without_own_heading": 1,
+  "detection_issues": [
+   "table on p12->p13 flagged as continuation (not merged; evidence kept per page)",
+   "table on p24->p25 flagged as continuation (not merged; evidence kept per page)"
+  ],
+  "sample_section_paths": [
+   [
+    "Contract Account Business Object",
+    "Contract Account"
+   ],
+   [
+    "Contract Account Business Object",
+    "Find Credit Commitment by Debitor"
+   ],
+   [
+    "Contract Account Business Object",
+    "Find Credit Commitment by Debitor",
+    "Features",
+    "Credit Commitment Query"
+   ]
+  ]
+ },
+ "doc_026": {
+  "title_curated": "FI-CA Dunning",
+  "title_detected_on_cover": "Contract Accounting",
+  "sections": 137,
+  "headings": 148,
+  "headings_by_level": {
+   "2": 28,
+   "3": 73,
+   "4": 35
+  },
+  "heading_candidates_low_confidence": 12,
+  "paragraphs": 177,
+  "lists": 42,
+  "list_items": 102,
+  "tables": 13,
+  "tables_without_detected_header": 11,
+  "notes": 11,
+  "examples": 2,
+  "fragments": 4,
+  "pages_without_own_heading": 1,
+  "detection_issues": [
+   "table on p16->p17 flagged as continuation (not merged; evidence kept per page)"
+  ],
+  "sample_section_paths": [
+   [
+    "FI-CA Dunning",
+    "Dunning"
+   ],
+   [
+    "FI-CA Dunning",
+    "Dunning",
+    "Process Flow"
+   ],
+   [
+    "FI-CA Dunning",
+    "Dunning Procedure"
+   ]
+  ]
+ },
+ "doc_029": {
+  "title_curated": "Disconnection/Reconnection of a Utility Installation",
+  "title_detected_on_cover": "Customer Service",
+  "sections": 73,
+  "headings": 82,
+  "headings_by_level": {
+   "2": 9,
+   "3": 27,
+   "4": 37
+  },
+  "heading_candidates_low_confidence": 9,
+  "paragraphs": 111,
+  "lists": 24,
+  "list_items": 68,
+  "tables": 12,
+  "tables_without_detected_header": 5,
+  "notes": 4,
+  "examples": 0,
+  "fragments": 3,
+  "pages_without_own_heading": 1,
+  "detection_issues": [
+   "page 2: top-level heading 'Disconnection/Reconnection of a Utility Installation' equals document title; merged into root section",
+   "page 2: level 3 heading 'Use' had no parent candidate; attached to root",
+   "page 2: level 3 heading 'Integration' had no parent candidate; attached to root"
+  ],
+  "sample_section_paths": [
+   [
+    "Disconnection/Reconnection of a Utility Installation"
+   ],
+   [
+    "Disconnection/Reconnection of a Utility Installation",
+    "Integration",
+    "Confirming Disconnection and Reconnection Order Data"
+   ],
+   [
+    "Disconnection/Reconnection of a Utility Installation",
+    "Process",
+    "Main Workflow for Disconnection/Reconnection/Collection"
+   ]
+  ]
+ }
+}

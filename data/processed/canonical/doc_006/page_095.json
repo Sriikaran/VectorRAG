@@ -1,0 +1,801 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 95,
+ "source_page_hash": "6698c4d3c83bf6d106c0c1fb4c911921e01c2481d9ab0b4e070d57d5a98d80a4",
+ "is_cover_page": false,
+ "title": "Determination",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nDevice                          Register                       Valid from                    Valid to                         Quantity\nDetermination\nProcedure\nNNN                  1                     January 01, 2011       December 31, 9999     02\n\nIn this case, the quantity determination procedure = 02 - Quantity Determination During Billing\n\no Fora full installation at the electricity installation on May 01, 2011:\n\nDevice                           Register                        Valid from                     Valid to                          Quantity\nDetermination\nProcedure\nNNN                                 1                                       May 01, 2011                    December 31, 9999          02\n\n3. For a billing-related installation:\n\no For an installation at the first installation (electricity installation) on January 01, 2011:\n\nDevice                           Register                        Valid from                     Valid to                          Quantity\nDetermination\nProcedure\nNNN                                 1                                       January 01, 2011              December 31, 9999          02\n\nThe first installation is always regarded as the leading installation here.\n\no During installation at the second installation (gas installation) on May O01, 2011, which is the leading installation\naccording to the BAdI ISU_QD_PROC.\n\nDevice                           Register                        Valid from                     Valid to                          Quantity\nDetermination\nProcedure\n\nNNN                 1                    January O1, 2011       April 30, 2011          02\n\nNNN                               1                                     May 01, 2011                   December 31, 9999         03\n\nIn this case, the quantity determination procedure = 02 Quantity Determination During Billing and 03 - Quantity\nDetermination During Meter Reading\n\n1 Note\n\nIf you install a device in several installations, you must implement the interface method IF_EX_ISU_QD_PROC-\n>GET_LEADING_INSTALLATION in the BAdI ISU_QD_PROC to define which installation is the leading installation.\n\n4. For a replacement:\n\na. If the quantity determination procedure for the old device was already defined before the replacement:\n",
+ "cleaned_text": "Device | Register | Valid from | Valid to | Quantity\n\nDetermination\n\nProcedure\n\nNNN | 1 | January 01, 2011 | December 31, 9999 | 02\n\nIn this case, the quantity determination procedure = 02 - Quantity Determination During Billing\n\n- Fora full installation at the electricity installation on May 01, 2011:\n\nDevice | Register | Valid from | Valid to | Quantity\n\nDetermination\n\nProcedure\n\nNNN | 1 | May 01, 2011 | December 31, 9999 | 02\n\n3 For a billing-related installation:\n\n- For an installation at the first installation (electricity installation) on January 01, 2011:\n\nDevice | Register | Valid from | Valid to | Quantity\n\nDetermination\n\nProcedure\n\nNNN | 1 | January 01, 2011 | December 31, 9999 | 02\n\nThe first installation is always regarded as the leading installation here.\n\n- During installation at the second installation (gas installation) on May O01, 2011, which is the leading installation according to the BAdI ISU_QD_PROC.\n\nDevice | Register | Valid from | Valid to | Quantity\n\nDetermination\n\nProcedure\n\nNNN | 1 | January O1, 2011 | April 30, 2011 | 02\n\nNNN | 1 | May 01, 2011 | December 31, 9999 | 03\n\nIn this case, the quantity determination procedure = 02 Quantity Determination During Billing and 03 - Quantity Determination During Meter Reading\n\nNote If you install a device in several installations, you must implement the interface method IF_EX_ISU_QD_PROC- >GET_LEADING_INSTALLATION in the BAdI ISU_QD_PROC to define which installation is the leading installation.\n\n4 For a replacement: a. If the quantity determination procedure for the old device was already defined before the replacement:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    414,
+    2884,
+    573,
+    2921
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p095_b000",
+   "type": "table",
+   "page_number": 95,
+   "bbox": [
+    412,
+    195,
+    2260,
+    231
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    412,
+    841,
+    1264,
+    1681,
+    2110
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Device",
+     "Register",
+     "Valid from",
+     "Valid to",
+     "Quantity"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Device",
+     "Register",
+     "Valid from",
+     "Valid to",
+     "Quantity"
+    ]
+   ],
+   "section_id": "doc_006_sec_259"
+  },
+  {
+   "block_id": "doc_006_p095_b001",
+   "type": "heading",
+   "page_number": 95,
+   "bbox": [
+    2111,
+    255,
+    2359,
+    283
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Determination",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_260"
+  },
+  {
+   "block_id": "doc_006_p095_b002",
+   "type": "heading",
+   "page_number": 95,
+   "bbox": [
+    2111,
+    314,
+    2287,
+    342
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "Procedure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_261"
+  },
+  {
+   "block_id": "doc_006_p095_b003",
+   "type": "table",
+   "page_number": 95,
+   "bbox": [
+    413,
+    419,
+    2152,
+    454
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    413,
+    841,
+    1264,
+    1683,
+    2111
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "NNN",
+     "1",
+     "January 01, 2011",
+     "December 31, 9999",
+     "02"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "NNN",
+     "1",
+     "January 01, 2011",
+     "December 31, 9999",
+     "02"
+    ]
+   ],
+   "section_id": "doc_006_sec_261"
+  },
+  {
+   "block_id": "doc_006_p095_b004",
+   "type": "paragraph",
+   "page_number": 95,
+   "bbox": [
+    388,
+    578,
+    2101,
+    616
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "In this case, the quantity determination procedure = 02 - Quantity Determination During Billing",
+   "section_id": "doc_006_sec_261"
+  },
+  {
+   "block_id": "doc_006_p095_b005",
+   "type": "list",
+   "page_number": 95,
+   "bbox": [
+    336,
+    683,
+    1571,
+    721
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Fora full installation at the electricity installation on May 01, 2011:"
+    }
+   ],
+   "section_id": "doc_006_sec_261"
+  },
+  {
+   "block_id": "doc_006_p095_b006",
+   "type": "table",
+   "page_number": 95,
+   "bbox": [
+    412,
+    842,
+    2254,
+    887
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    412,
+    835,
+    1257,
+    1676,
+    2103
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Device",
+     "Register",
+     "Valid from",
+     "Valid to",
+     "Quantity"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Device",
+     "Register",
+     "Valid from",
+     "Valid to",
+     "Quantity"
+    ]
+   ],
+   "section_id": "doc_006_sec_261"
+  },
+  {
+   "block_id": "doc_006_p095_b007",
+   "type": "heading",
+   "page_number": 95,
+   "bbox": [
+    2105,
+    903,
+    2352,
+    930
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Determination",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_262"
+  },
+  {
+   "block_id": "doc_006_p095_b008",
+   "type": "heading",
+   "page_number": 95,
+   "bbox": [
+    2105,
+    961,
+    2280,
+    990
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Procedure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_263"
+  },
+  {
+   "block_id": "doc_006_p095_b009",
+   "type": "table",
+   "page_number": 95,
+   "bbox": [
+    413,
+    1070,
+    2146,
+    1105
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    413,
+    835,
+    1259,
+    1678,
+    2104
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "NNN",
+     "1",
+     "May 01, 2011",
+     "December 31, 9999",
+     "02"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "NNN",
+     "1",
+     "May 01, 2011",
+     "December 31, 9999",
+     "02"
+    ]
+   ],
+   "section_id": "doc_006_sec_263"
+  },
+  {
+   "block_id": "doc_006_p095_b010",
+   "type": "list",
+   "page_number": 95,
+   "bbox": [
+    211,
+    1228,
+    1921,
+    1368
+   ],
+   "ocr_confidence": 90.9,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "For a billing-related installation:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "For an installation at the first installation (electricity installation) on January 01, 2011:"
+    }
+   ],
+   "section_id": "doc_006_sec_263"
+  },
+  {
+   "block_id": "doc_006_p095_b011",
+   "type": "table",
+   "page_number": 95,
+   "bbox": [
+    412,
+    1490,
+    2254,
+    1533
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    412,
+    835,
+    1257,
+    1676,
+    2103
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Device",
+     "Register",
+     "Valid from",
+     "Valid to",
+     "Quantity"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Device",
+     "Register",
+     "Valid from",
+     "Valid to",
+     "Quantity"
+    ]
+   ],
+   "section_id": "doc_006_sec_263"
+  },
+  {
+   "block_id": "doc_006_p095_b012",
+   "type": "heading",
+   "page_number": 95,
+   "bbox": [
+    2105,
+    1553,
+    2352,
+    1581
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Determination",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_264"
+  },
+  {
+   "block_id": "doc_006_p095_b013",
+   "type": "heading",
+   "page_number": 95,
+   "bbox": [
+    2105,
+    1612,
+    2280,
+    1640
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Procedure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_265"
+  },
+  {
+   "block_id": "doc_006_p095_b014",
+   "type": "table",
+   "page_number": 95,
+   "bbox": [
+    413,
+    1717,
+    2146,
+    1752
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    413,
+    835,
+    1257,
+    1678,
+    2104
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "NNN",
+     "1",
+     "January 01, 2011",
+     "December 31, 9999",
+     "02"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "NNN",
+     "1",
+     "January 01, 2011",
+     "December 31, 9999",
+     "02"
+    ]
+   ],
+   "section_id": "doc_006_sec_265"
+  },
+  {
+   "block_id": "doc_006_p095_b015",
+   "type": "paragraph",
+   "page_number": 95,
+   "bbox": [
+    385,
+    1879,
+    1662,
+    1917
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The first installation is always regarded as the leading installation here.",
+   "section_id": "doc_006_sec_265"
+  },
+  {
+   "block_id": "doc_006_p095_b016",
+   "type": "list",
+   "page_number": 95,
+   "bbox": [
+    336,
+    1981,
+    2381,
+    2081
+   ],
+   "ocr_confidence": 89.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "During installation at the second installation (gas installation) on May O01, 2011, which is the leading installation according to the BAdI ISU_QD_PROC."
+    }
+   ],
+   "section_id": "doc_006_sec_265"
+  },
+  {
+   "block_id": "doc_006_p095_b017",
+   "type": "table",
+   "page_number": 95,
+   "bbox": [
+    412,
+    2206,
+    2261,
+    2242
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    412,
+    836,
+    1259,
+    1679,
+    2111
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Device",
+     "Register",
+     "Valid from",
+     "Valid to",
+     "Quantity"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Device",
+     "Register",
+     "Valid from",
+     "Valid to",
+     "Quantity"
+    ]
+   ],
+   "section_id": "doc_006_sec_265"
+  },
+  {
+   "block_id": "doc_006_p095_b018",
+   "type": "heading",
+   "page_number": 95,
+   "bbox": [
+    2112,
+    2266,
+    2360,
+    2294
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Determination",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_266"
+  },
+  {
+   "block_id": "doc_006_p095_b019",
+   "type": "heading",
+   "page_number": 95,
+   "bbox": [
+    2112,
+    2324,
+    2288,
+    2353
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Procedure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_267"
+  },
+  {
+   "block_id": "doc_006_p095_b020",
+   "type": "table",
+   "page_number": 95,
+   "bbox": [
+    413,
+    2430,
+    2153,
+    2573
+   ],
+   "ocr_confidence": 92.6,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    413,
+    836,
+    1259,
+    1679,
+    2112
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "NNN",
+     "1",
+     "January O1, 2011",
+     "April 30, 2011",
+     "02"
+    ],
+    [
+     "NNN",
+     "1",
+     "May 01, 2011",
+     "December 31, 9999",
+     "03"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "NNN",
+     "1",
+     "January O1, 2011",
+     "April 30, 2011",
+     "02"
+    ],
+    [
+     "NNN",
+     "1",
+     "May 01, 2011",
+     "December 31, 9999",
+     "03"
+    ]
+   ],
+   "section_id": "doc_006_sec_267"
+  },
+  {
+   "block_id": "doc_006_p095_b021",
+   "type": "paragraph",
+   "page_number": 95,
+   "bbox": [
+    388,
+    2697,
+    2404,
+    2797
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "In this case, the quantity determination procedure = 02 Quantity Determination During Billing and 03 - Quantity Determination During Meter Reading",
+   "section_id": "doc_006_sec_267"
+  },
+  {
+   "block_id": "doc_006_p095_b022",
+   "type": "note",
+   "page_number": 95,
+   "bbox": [
+    414,
+    2884,
+    2458,
+    3063
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "label": "Note",
+   "text": "Note If you install a device in several installations, you must implement the interface method IF_EX_ISU_QD_PROC- >GET_LEADING_INSTALLATION in the BAdI ISU_QD_PROC to define which installation is the leading installation.",
+   "section_id": "doc_006_sec_267"
+  },
+  {
+   "block_id": "doc_006_p095_b023",
+   "type": "list",
+   "page_number": 95,
+   "bbox": [
+    211,
+    3163,
+    2239,
+    3300
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "For a replacement: a. If the quantity determination procedure for the old device was already defined before the replacement:"
+    }
+   ],
+   "section_id": "doc_006_sec_267"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 60.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "6698c4d3c83bf6d106c0c1fb4c911921e01c2481d9ab0b4e070d57d5a98d80a4"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Conversion of Quantity Determination Indicator for Existing Installations",
+  "Technical Transactions"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_259",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_260",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_261",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_262",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_263",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_264",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_265",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_266",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_267",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 39,
+ "source_page_hash": "da67d3668e56738f6d40cfac66e243470d77644093b6e49086017c31c73b81a2",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\n|x\u00bb x\n\nBase period\n\n|x\u00bb x\n\nBase period\n\n",
+ "cleaned_text": "|x\u00bb | x\n\nBase period\n\n|x\u00bb | x\n\nBase period",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p039_b000",
+   "type": "table",
+   "page_number": 39,
+   "bbox": [
+    768,
+    957,
+    1363,
+    1040
+   ],
+   "ocr_confidence": 2.4,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    768,
+    1176
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "|x\u00bb",
+     "x"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "|x\u00bb",
+     "x"
+    ]
+   ],
+   "section_id": "doc_006_sec_054"
+  },
+  {
+   "block_id": "doc_006_p039_b001",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    800,
+    1127,
+    1113,
+    1178
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Base period",
+   "section_id": "doc_006_sec_054"
+  },
+  {
+   "block_id": "doc_006_p039_b002",
+   "type": "table",
+   "page_number": 39,
+   "bbox": [
+    768,
+    2635,
+    1363,
+    2718
+   ],
+   "ocr_confidence": 2.4,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    768,
+    1176
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "|x\u00bb",
+     "x"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "|x\u00bb",
+     "x"
+    ]
+   ],
+   "section_id": "doc_006_sec_054"
+  },
+  {
+   "block_id": "doc_006_p039_b003",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    800,
+    2805,
+    1113,
+    2856
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Base period",
+   "section_id": "doc_006_sec_054"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 73,
+   "page_hash": "da67d3668e56738f6d40cfac66e243470d77644093b6e49086017c31c73b81a2"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:34Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Extrapolation of Demand from Billing",
+  "Features",
+  "Schedule records"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_054",
+   "role": "continues"
+  }
+ ]
+}

@@ -1,0 +1,278 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_004",
+ "page_number": 2,
+ "source_page_hash": "57f998a08f0e4202b0127a3c6a3e56cf64e9c86cb9dab61f6013d11a38865a15",
+ "is_cover_page": false,
+ "title": "Move-Out",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:41 AM\n\nMove-Out\n\nUse\n\nDuring the move-out transaction, you execute most of the activities required to cancel the customer's supply of utilities services.\nYou make changes to the business partner master data that result from a move-out. You specifically end the allocation of a\ncontract to an installation on the move-out date.\n\nMove-out\n\nInstallation |\n\nMove-out processing stops the active payment plans. A move-out confirmation letter and an immediate bill can also be triggered\n\nfrom the move-out.\n\nPrerequisites\n\nYou require one or more existing contracts with installations for the requested move-out date to create a move-out.\n\nFeatures\n\nRiidacat Rillingo Dian\n",
+ "cleaned_text": "Move-Out\n\nUse\n\nDuring the move-out transaction, you execute most of the activities required to cancel the customer's supply of utilities services. You make changes to the business partner master data that result from a move-out. You specifically end the allocation of a contract to an installation on the move-out date.\n\nMove-out\n\nInstallation |\n\nMove-out processing stops the active payment plans. A move-out confirmation letter and an immediate bill can also be triggered from the move-out.\n\nPrerequisites\n\nYou require one or more existing contracts with installations for the requested move-out date to create a move-out.\n\nFeatures\n\nRiidacat Rillingo Dian",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:41 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_004_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    255,
+    477,
+    317
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [],
+   "text": "Move-Out",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_004_sec_001"
+  },
+  {
+   "block_id": "doc_004_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    435,
+    225,
+    481
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_004_sec_002"
+  },
+  {
+   "block_id": "doc_004_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    565,
+    2447,
+    723
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "During the move-out transaction, you execute most of the activities required to cancel the customer's supply of utilities services. You make changes to the business partner master data that result from a move-out. You specifically end the allocation of a contract to an installation on the move-out date.",
+   "section_id": "doc_004_sec_002"
+  },
+  {
+   "block_id": "doc_004_p002_b003",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    1119,
+    1120,
+    1477,
+    1181
+   ],
+   "ocr_confidence": 91.1,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Move-out",
+   "section_id": "doc_004_sec_002"
+  },
+  {
+   "block_id": "doc_004_p002_b004",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    1116,
+    1305,
+    1455,
+    1357
+   ],
+   "ocr_confidence": 69.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Installation |",
+   "section_id": "doc_004_sec_002"
+  },
+  {
+   "block_id": "doc_004_p002_b005",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    2651,
+    2443,
+    2744
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Move-out processing stops the active payment plans. A move-out confirmation letter and an immediate bill can also be triggered from the move-out.",
+   "section_id": "doc_004_sec_002"
+  },
+  {
+   "block_id": "doc_004_p002_b006",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    2863,
+    492,
+    2920
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_004_sec_003"
+  },
+  {
+   "block_id": "doc_004_p002_b007",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    2996,
+    2201,
+    3034
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "You require one or more existing contracts with installations for the requested move-out date to create a move-out.",
+   "section_id": "doc_004_sec_003"
+  },
+  {
+   "block_id": "doc_004_p002_b008",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    3146,
+    361,
+    3191
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_004_sec_004"
+  },
+  {
+   "block_id": "doc_004_p002_b009",
+   "type": "fragment",
+   "page_number": 2,
+   "bbox": [
+    124,
+    3279,
+    475,
+    3300
+   ],
+   "ocr_confidence": 65.4,
+   "flags": [
+    "low_confidence_words:1",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Riidacat Rillingo Dian",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_004_sec_004"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-Out Process",
+  "source_pdf": "4.pdf",
+  "reference_pdf": "04_Move_Out_Process.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use for service stop, final meter reading, final billing and downstream account effects.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "57f998a08f0e4202b0127a3c6a3e56cf64e9c86cb9dab61f6013d11a38865a15"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:32Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-Out Process",
+  "Move-Out"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_004_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_004_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_004_sec_003",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_004_sec_004",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,432 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_029",
+ "page_number": 4,
+ "source_page_hash": "dbef31709d5bfc6188deafc3a5180bb755dd73f3856f56a986776183158f13c3",
+ "is_cover_page": false,
+ "title": "Time",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:19 AM\n\nRelease\n\nt\n\nCreate disc. doc.\nworkflow (ISUDISC12)\n\nt\n\nConfirm disc.\norder workflow\n\n(ISUDISCREP12)\n\nt\n\n|\nCreate disc.\n\ndoc.\n(Disconnect.\nCreated)\n\nInferrupt disc.\nworkflow\n\n(ISUDISCBREAK)\n\n!\nTrigger disc.\n\nrequest\n(Disconnect.\nDisconOrderCrea)\n\n|\nDisc. order\n\ncreaied (Disaction.\nDisconordercreated)\n\nMove-out occurred (Disconnect.\n\n\u00ab\u2014MoveOutOccured) or disc. reason           *\n\nobsolete (Disconnect.DisconReasonObsolete)\n\nReconn. Order\ncreated\n\n(Disaction.\n\nReconordercreated)\n\nCreate reconn.\norder\n(Disconnect.Recon\nordercrea)\n\nTime\n\nComplete\n\nWorkflow Model\n\nConfirm reconn, order\n\nVforkflow\n(ISURECREP12)\n\nCreate reconn. order\nWorkflow (ISUREC12)\n\nThe process flow of the main workflow for Disconnection/Reconnection is as follows:\n\nCustomer payment\nor\n\nmove-out\n\nAnalyse disconnection\ndocument status.\n\nDisconnection carried\nout?\n\nThe Reverse Disconnection Workflow (ISUDISCSTORN) is not depicted in this model since it would affect clarity.\n\nYou can configure the system to generate a contract-related proposal for the object to be disconnected/reconnected. You do this\n\nin Customizing under Define Processing Variants for Disconnection Documents. You can change this proposal in dialog.\n\n\u201c4S Caution\n\nWorkflows and Remote Disconnection and Reconnection of AMI Devices\n\nIf you are working in an advanced metering infrastructure (AMI) environment , you cannot integrate activities that feature\n\nremote disconnection and reconnection of AMI devices (such as advanced meters or smart meters) into SAP Business\n\nWorkflow processes \u2014 this would conflict with the direct communication processing used for these devices.\n\nInstead, you need to adjust your operating procedures to manually execute any workflow step related to remote disconnection\n\nand reconnection activit\n\nies.\n\nNicnnnnanntinn /Dannnnanntinn nf oo / ltilitinc Ipnctallatinn\n",
+ "cleaned_text": "Release\n\nt Create disc. doc. workflow (ISUDISC12) t Confirm disc. order workflow (ISUDISCREP12) t | Create disc. doc. (Disconnect. Created) Inferrupt disc. workflow (ISUDISCBREAK) ! Trigger disc. request (Disconnect. DisconOrderCrea) | Disc. order creaied (Disaction. Disconordercreated)\n\nMove-out occurred (Disconnect.\n\n\u00ab\u2014MoveOutOccured) or disc. reason | *\n\nobsolete (Disconnect.DisconReasonObsolete)\n\nReconn. Order created (Disaction. Reconordercreated) Create reconn. order (Disconnect.Recon ordercrea)\n\nTime\n\nComplete\n\nWorkflow Model\n\nConfirm reconn, order Vforkflow (ISURECREP12) Create reconn. order Workflow (ISUREC12)\n\nThe process flow of the main workflow for Disconnection/Reconnection is as follows: Customer payment or move-out\n\nAnalyse disconnection document status. Disconnection carried out?\n\nThe Reverse Disconnection Workflow (ISUDISCSTORN) is not depicted in this model since it would affect clarity. You can configure the system to generate a contract-related proposal for the object to be disconnected/reconnected. You do this in Customizing under Define Processing Variants for Disconnection Documents. You can change this proposal in dialog.\n\nCaution\n\nWorkflows and Remote Disconnection and Reconnection of AMI Devices\n\nIf you are working in an advanced metering infrastructure (AMI) environment , you cannot integrate activities that feature remote disconnection and reconnection of AMI devices (such as advanced meters or smart meters) into SAP Business Workflow processes \u2014 this would conflict with the direct communication processing used for these devices. Instead, you need to adjust your operating procedures to manually execute any workflow step related to remote disconnection and reconnection activit ies.\n\nNicnnnnanntinn /Dannnnanntinn nf oo / ltilitinc Ipnctallatinn",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:19 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u201c4S",
+   "bbox": [
+    151,
+    2522,
+    414,
+    2566
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_029_p004_b000",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    220,
+    306,
+    388,
+    351
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Release",
+   "section_id": "doc_029_sec_008"
+  },
+  {
+   "block_id": "doc_029_p004_b001",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    182,
+    266,
+    1740,
+    1038
+   ],
+   "ocr_confidence": 81.0,
+   "flags": [
+    "low_confidence_words:6",
+    "in_graphic_region"
+   ],
+   "text": "t Create disc. doc. workflow (ISUDISC12) t Confirm disc. order workflow (ISUDISCREP12) t | Create disc. doc. (Disconnect. Created) Inferrupt disc. workflow (ISUDISCBREAK) ! Trigger disc. request (Disconnect. DisconOrderCrea) | Disc. order creaied (Disaction. Disconordercreated)",
+   "section_id": "doc_029_sec_008"
+  },
+  {
+   "block_id": "doc_029_p004_b002",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    828,
+    881,
+    1500,
+    924
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Move-out occurred (Disconnect.",
+   "section_id": "doc_029_sec_008"
+  },
+  {
+   "block_id": "doc_029_p004_b003",
+   "type": "table",
+   "page_number": 4,
+   "bbox": [
+    734,
+    937,
+    1704,
+    980
+   ],
+   "ocr_confidence": 71.1,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    734,
+    1686
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "\u00ab\u2014MoveOutOccured) or disc. reason",
+     "*"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "\u00ab\u2014MoveOutOccured) or disc. reason",
+     "*"
+    ]
+   ],
+   "section_id": "doc_029_sec_008"
+  },
+  {
+   "block_id": "doc_029_p004_b004",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    828,
+    996,
+    1796,
+    1038
+   ],
+   "ocr_confidence": 90.2,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "obsolete (Disconnect.DisconReasonObsolete)",
+   "section_id": "doc_029_sec_008"
+  },
+  {
+   "block_id": "doc_029_p004_b005",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    703,
+    1222,
+    1765,
+    1453
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Reconn. Order created (Disaction. Reconordercreated) Create reconn. order (Disconnect.Recon ordercrea)",
+   "section_id": "doc_029_sec_008"
+  },
+  {
+   "block_id": "doc_029_p004_b006",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    195,
+    1472,
+    285,
+    1503
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Time",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_009"
+  },
+  {
+   "block_id": "doc_029_p004_b007",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    218,
+    1654,
+    411,
+    1696
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Complete",
+   "section_id": "doc_029_sec_009"
+  },
+  {
+   "block_id": "doc_029_p004_b008",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    121,
+    1961,
+    379,
+    1988
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Workflow Model",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_010"
+  },
+  {
+   "block_id": "doc_029_p004_b009",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    664,
+    1618,
+    1832,
+    1775
+   ],
+   "ocr_confidence": 81.8,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region"
+   ],
+   "text": "Confirm reconn, order Vforkflow (ISURECREP12) Create reconn. order Workflow (ISUREC12)",
+   "section_id": "doc_029_sec_010"
+  },
+  {
+   "block_id": "doc_029_p004_b010",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    863,
+    2353,
+    2113
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "The process flow of the main workflow for Disconnection/Reconnection is as follows: Customer payment or move-out",
+   "section_id": "doc_029_sec_010"
+  },
+  {
+   "block_id": "doc_029_p004_b011",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    1958,
+    1276,
+    2429,
+    1483
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Analyse disconnection document status. Disconnection carried out?",
+   "section_id": "doc_029_sec_010"
+  },
+  {
+   "block_id": "doc_029_p004_b012",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    2199,
+    2449,
+    2423
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "The Reverse Disconnection Workflow (ISUDISCSTORN) is not depicted in this model since it would affect clarity. You can configure the system to generate a contract-related proposal for the object to be disconnected/reconnected. You do this in Customizing under Define Processing Variants for Disconnection Documents. You can change this proposal in dialog.",
+   "section_id": "doc_029_sec_010"
+  },
+  {
+   "block_id": "doc_029_p004_b013",
+   "type": "note",
+   "page_number": 4,
+   "bbox": [
+    151,
+    2522,
+    414,
+    2566
+   ],
+   "ocr_confidence": 64.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Caution",
+   "text": "Caution",
+   "section_id": "doc_029_sec_010"
+  },
+  {
+   "block_id": "doc_029_p004_b014",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    153,
+    2608,
+    1455,
+    2639
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Workflows and Remote Disconnection and Reconnection of AMI Devices",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_011"
+  },
+  {
+   "block_id": "doc_029_p004_b015",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    152,
+    2730,
+    2434,
+    3072
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "If you are working in an advanced metering infrastructure (AMI) environment , you cannot integrate activities that feature remote disconnection and reconnection of AMI devices (such as advanced meters or smart meters) into SAP Business Workflow processes \u2014 this would conflict with the direct communication processing used for these devices. Instead, you need to adjust your operating procedures to manually execute any workflow step related to remote disconnection and reconnection activit ies.",
+   "section_id": "doc_029_sec_011"
+  },
+  {
+   "block_id": "doc_029_p004_b016",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    128,
+    3262,
+    2060,
+    3300
+   ],
+   "ocr_confidence": 41.4,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "text": "Nicnnnnanntinn /Dannnnanntinn nf oo / ltilitinc Ipnctallatinn",
+   "section_id": "doc_029_sec_011"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 58.0,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Disconnection/Reconnection of a Utility Installation",
+  "source_pdf": "29.pdf",
+  "reference_pdf": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+  "category": "Disconnection & Reconnection",
+  "m2c_relevance": "Connects overdue debt/dunning to service actions while preserving the distinction between delinquency and disconnect eligibility.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 89,
+   "page_hash": "dbef31709d5bfc6188deafc3a5180bb755dd73f3856f56a986776183158f13c3"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:47Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Disconnection/Reconnection of a Utility Installation",
+  "Process",
+  "Main Workflow for Disconnection/Reconnection/Collection"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_029_sec_008",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_029_sec_009",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_010",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_011",
+   "role": "starts_here"
+  }
+ ]
+}

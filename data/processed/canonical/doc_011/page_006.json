@@ -1,0 +1,357 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 6,
+ "source_page_hash": "d0fbe56958582b03144fb7d49b9511680ef04336fca2bb99b59836e19c317f82",
+ "is_cover_page": false,
+ "title": "Executing DPC Billing",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\ne Use the Deactivation for Individual Installation program ( RELDELEB) if you have set the Estim. in Bill. indicator but real\n\nmeter reading results already exist for the date selected. This generates meter reading orders for the billing order. In the\nbilling order, the value in the Estim. in Bill. field changes from Billing Estimates Value from Meter Reading Unit (01) to\n\nBilling Does Not Estimate Value Deleted by Individual report(04) .\n\ne Use the Activation for Individual Installation program (RELSETEB) ifEstim. in Bill. is not maintained and there are no\nmeter reading results available for the periodic meter reading date. The existing meter reading orders are deleted; the\nvalue in the Estimated in Billing field changes to Billing Estimates Value Changed by Individual Report (03) .\n\ne The Activation for Multiple Installations program (RELSETEBMASS) executes the changes described above for all\n\ninstallations that do not have any real meter reading results in an interval.\n\nExecuting DPC Billing\n\nReal Meter Reading Results\n\nIf you want to use DPC with the basic category Determination of Current Periods via Meter Reading Results , dynamic backbilling\nmust be executed every time a real meter reading result is entered. If it is not, meter overflows occur whenever the last estimated\n\nmeter reading result in the Meter Reading Results table (EABL) is higher than the current real meter reading result that you have\n\nentered.\n\nee Example\nYou enter real meter reading results during a meter replacement. The previous interim meter reading was estimated. You can\nuse the Invoicing Grouping (R403) event to group the interim billing run and the next periodic billing run together on one bill.\n\nEstimated Meter Reading Results\n\n4S Caution\n\nIf you use DPC with the basic category Estimation of Meter Reading Results in Billing , you should not save the estimated\nmeter reading results in the Meter Reading Results table (EABL). Otherwise, you lose the benefits DPC with the basic category\nEstimation of Meter Reading Results in Billing has over DPC with the basic categoryDetermination of Current Periods via\nMeter Reading Results. In this case, you would have to perform dynamic backbilling for each real meter reading result entered,\n\nso as to avoid meter overflows.\n\nFloating Backbilling\n\nYou can use DPC with the basic category Estimation of Meter Reading Results in Billing to execute floating backbilling to the last\n\nreal meter reading result.\n\nTo do this, you must select a period to be created from the basic period category Current Period and Past in a Congruent Time\nSlice for all categories of schema steps for which you want to execute floating backbilling.\n\n4 Caution\nIf you use dynamic period control from the basic category Estimation of Meter Reading Results in Billing , you should never\n\nprint estimated meter reading results on a bill.\n",
+ "cleaned_text": "- Use the Deactivation for Individual Installation program ( RELDELEB) if you have set the Estim. in Bill. indicator but real meter reading results already exist for the date selected. This generates meter reading orders for the billing order. In the billing order, the value in the Estim. in Bill. field changes from Billing Estimates Value from Meter Reading Unit (01) to Billing Does Not Estimate Value Deleted by Individual report(04) .\n\n- Use the Activation for Individual Installation program (RELSETEB) ifEstim. in Bill. is not maintained and there are no meter reading results available for the periodic meter reading date. The existing meter reading orders are deleted; the\n\nvalue in the Estimated in Billing field changes to Billing Estimates Value Changed by Individual Report (03) .\n\n- The Activation for Multiple Installations program (RELSETEBMASS) executes the changes described above for all installations that do not have any real meter reading results in an interval.\n\nExecuting DPC Billing\n\nReal Meter Reading Results\n\nIf you want to use DPC with the basic category Determination of Current Periods via Meter Reading Results , dynamic backbilling must be executed every time a real meter reading result is entered. If it is not, meter overflows occur whenever the last estimated meter reading result in the Meter Reading Results table (EABL) is higher than the current real meter reading result that you have entered.\n\nee Example You enter real meter reading results during a meter replacement. The previous interim meter reading was estimated. You can use the Invoicing Grouping (R403) event to group the interim billing run and the next periodic billing run together on one bill.\n\nEstimated Meter Reading Results\n\nCaution If you use DPC with the basic category Estimation of Meter Reading Results in Billing , you should not save the estimated meter reading results in the Meter Reading Results table (EABL). Otherwise, you lose the benefits DPC with the basic category Estimation of Meter Reading Results in Billing has over DPC with the basic categoryDetermination of Current Periods via Meter Reading Results. In this case, you would have to perform dynamic backbilling for each real meter reading result entered, so as to avoid meter overflows.\n\nFloating Backbilling\n\nYou can use DPC with the basic category Estimation of Meter Reading Results in Billing to execute floating backbilling to the last real meter reading result. To do this, you must select a period to be created from the basic period category Current Period and Past in a Congruent Time Slice for all categories of schema steps for which you want to execute floating backbilling.\n\nCaution If you use dynamic period control from the basic category Estimation of Meter Reading Results in Billing , you should never print estimated meter reading results on a bill.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "4S",
+   "bbox": [
+    151,
+    2016,
+    414,
+    2060
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "4",
+   "bbox": [
+    151,
+    3054,
+    414,
+    3099
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p006_b000",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    206,
+    134,
+    2466,
+    527
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Use the Deactivation for Individual Installation program ( RELDELEB) if you have set the Estim. in Bill. indicator but real meter reading results already exist for the date selected. This generates meter reading orders for the billing order. In the billing order, the value in the Estim. in Bill. field changes from Billing Estimates Value from Meter Reading Unit (01) to Billing Does Not Estimate Value Deleted by Individual report(04) ."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Use the Activation for Individual Installation program (RELSETEB) ifEstim. in Bill. is not maintained and there are no meter reading results available for the periodic meter reading date. The existing meter reading orders are deleted; the"
+    }
+   ],
+   "section_id": "doc_011_sec_018"
+  },
+  {
+   "block_id": "doc_011_p006_b001",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    254,
+    551,
+    2237,
+    590
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "text": "value in the Estimated in Billing field changes to Billing Estimates Value Changed by Individual Report (03) .",
+   "section_id": "doc_011_sec_018"
+  },
+  {
+   "block_id": "doc_011_p006_b002",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    206,
+    652,
+    2335,
+    757
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The Activation for Multiple Installations program (RELSETEBMASS) executes the changes described above for all installations that do not have any real meter reading results in an interval."
+    }
+   ],
+   "section_id": "doc_011_sec_018"
+  },
+  {
+   "block_id": "doc_011_p006_b003",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    128,
+    903,
+    902,
+    979
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Executing DPC Billing",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_019"
+  },
+  {
+   "block_id": "doc_011_p006_b004",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    126,
+    1079,
+    889,
+    1136
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Real Meter Reading Results",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_020"
+  },
+  {
+   "block_id": "doc_011_p006_b005",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    123,
+    1212,
+    2484,
+    1433
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "If you want to use DPC with the basic category Determination of Current Periods via Meter Reading Results , dynamic backbilling must be executed every time a real meter reading result is entered. If it is not, meter overflows occur whenever the last estimated meter reading result in the Meter Reading Results table (EABL) is higher than the current real meter reading result that you have entered.",
+   "section_id": "doc_011_sec_020"
+  },
+  {
+   "block_id": "doc_011_p006_b006",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    151,
+    1536,
+    2410,
+    1723
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "ee Example You enter real meter reading results during a meter replacement. The previous interim meter reading was estimated. You can use the Invoicing Grouping (R403) event to group the interim billing run and the next periodic billing run together on one bill.",
+   "section_id": "doc_011_sec_020"
+  },
+  {
+   "block_id": "doc_011_p006_b007",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    126,
+    1871,
+    1055,
+    1928
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Estimated Meter Reading Results",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_021"
+  },
+  {
+   "block_id": "doc_011_p006_b008",
+   "type": "note",
+   "page_number": 6,
+   "bbox": [
+    151,
+    2016,
+    2446,
+    2385
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Caution",
+   "text": "Caution If you use DPC with the basic category Estimation of Meter Reading Results in Billing , you should not save the estimated meter reading results in the Meter Reading Results table (EABL). Otherwise, you lose the benefits DPC with the basic category Estimation of Meter Reading Results in Billing has over DPC with the basic categoryDetermination of Current Periods via Meter Reading Results. In this case, you would have to perform dynamic backbilling for each real meter reading result entered, so as to avoid meter overflows.",
+   "section_id": "doc_011_sec_021"
+  },
+  {
+   "block_id": "doc_011_p006_b009",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    126,
+    2538,
+    675,
+    2595
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [],
+   "text": "Floating Backbilling",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_022"
+  },
+  {
+   "block_id": "doc_011_p006_b010",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    2670,
+    2464,
+    2958
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You can use DPC with the basic category Estimation of Meter Reading Results in Billing to execute floating backbilling to the last real meter reading result. To do this, you must select a period to be created from the basic period category Current Period and Past in a Congruent Time Slice for all categories of schema steps for which you want to execute floating backbilling.",
+   "section_id": "doc_011_sec_022"
+  },
+  {
+   "block_id": "doc_011_p006_b011",
+   "type": "note",
+   "page_number": 6,
+   "bbox": [
+    151,
+    3054,
+    2399,
+    3245
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "label": "Caution",
+   "text": "Caution If you use dynamic period control from the basic category Estimation of Meter Reading Results in Billing , you should never print estimated meter reading results on a bill.",
+   "section_id": "doc_011_sec_022"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "d0fbe56958582b03144fb7d49b9511680ef04336fca2bb99b59836e19c317f82"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Processing Meter Reading Data in Dynamic Period Control",
+  "Programs"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_018",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_019",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_020",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_021",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_022",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,259 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_028",
+ "page_number": 3,
+ "source_page_hash": "a9e5978f68e5aa63b9d34f874a09214880a967d598de84b33ce03038a456f2f2",
+ "is_cover_page": false,
+ "title": "Related Information",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:16 AM\n4. You can classify collection units when you submit to collections; you enter the allowed categories in Customizing for\n\nContract Accounts Receivable and Payable, under |)\u00bbBusiness Transactions \u00bb Submit to Collection Agency \u00bb Define\nCategories of Collection Units 9.\n\n5. To display status information in the collection history, select the Coll. Hist. column in Customizing for Contract Accounts\nReceivable and Payable, under |}Business Transactions \u00bb Submit to Collection Agency > Define Submission Status Jand\nunder Maintain Status of Collection Units.\n\n6. In addition, define a variant for the collection history with the event 0007 Submit for Collection in Customizing for\nContract Accounts Receivable and Payable, under|}Business Transactions \u00bb Dunning > Collection History \u00bb Define\nVariants J.\n\nRelated Information\n\nCommissioned Outstanding Collections Processing\n",
+ "cleaned_text": "4 You can classify collection units when you submit to collections; you enter the allowed categories in Customizing for Contract Accounts Receivable and Payable, under |)\u00bbBusiness Transactions \u00bb Submit to Collection Agency \u00bb Define\n\nCategories of Collection Units 9.\n\n5 To display status information in the collection history, select the Coll. Hist. column in Customizing for Contract Accounts Receivable and Payable, under |}Business Transactions \u00bb Submit to Collection Agency > Define Submission Status Jand\n\nunder Maintain Status of Collection Units.\n\n6 In addition, define a variant for the collection history with the event 0007 Submit for Collection in Customizing for Contract Accounts Receivable and Payable, under|}Business Transactions \u00bb Dunning > Collection History \u00bb Define\n\nVariants J.\n\nRelated Information\n\nCommissioned Outstanding Collections Processing",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:16 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_028_p003_b000",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    210,
+    134,
+    2348,
+    245
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "You can classify collection units when you submit to collections; you enter the allowed categories in Customizing for Contract Accounts Receivable and Payable, under |)\u00bbBusiness Transactions \u00bb Submit to Collection Agency \u00bb Define"
+    }
+   ],
+   "section_id": "doc_028_sec_004"
+  },
+  {
+   "block_id": "doc_028_p003_b001",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    254,
+    259,
+    855,
+    303
+   ],
+   "ocr_confidence": 88.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Categories of Collection Units 9.",
+   "section_id": "doc_028_sec_004"
+  },
+  {
+   "block_id": "doc_028_p003_b002",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    211,
+    364,
+    2474,
+    467
+   ],
+   "ocr_confidence": 93.3,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "To display status information in the collection history, select the Coll. Hist. column in Customizing for Contract Accounts Receivable and Payable, under |}Business Transactions \u00bb Submit to Collection Agency > Define Submission Status Jand"
+    }
+   ],
+   "section_id": "doc_028_sec_004"
+  },
+  {
+   "block_id": "doc_028_p003_b003",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    255,
+    489,
+    1032,
+    521
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "under Maintain Status of Collection Units.",
+   "section_id": "doc_028_sec_004"
+  },
+  {
+   "block_id": "doc_028_p003_b004",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    211,
+    591,
+    2341,
+    697
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "In addition, define a variant for the collection history with the event 0007 Submit for Collection in Customizing for Contract Accounts Receivable and Payable, under|}Business Transactions \u00bb Dunning > Collection History \u00bb Define"
+    }
+   ],
+   "section_id": "doc_028_sec_004"
+  },
+  {
+   "block_id": "doc_028_p003_b005",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    254,
+    716,
+    451,
+    760
+   ],
+   "ocr_confidence": 74.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Variants J.",
+   "section_id": "doc_028_sec_004"
+  },
+  {
+   "block_id": "doc_028_p003_b006",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    869,
+    680,
+    915
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Related Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_028_sec_005"
+  },
+  {
+   "block_id": "doc_028_p003_b007",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    123,
+    992,
+    1051,
+    1031
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Commissioned Outstanding Collections Processing",
+   "section_id": "doc_028_sec_005"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.1147,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Collection Agency APIs and Enterprise Services",
+  "source_pdf": "28.pdf",
+  "reference_pdf": "28_Collection_Agency_APIs_and_Enterprise_Services.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Important for modern API/service integration knowledge beyond file-based exchanges.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "a9e5978f68e5aa63b9d34f874a09214880a967d598de84b33ce03038a456f2f2"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:47Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Collection Agency APIs and Enterprise Services",
+  "Services or APIs",
+  "Activities"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_028_sec_004",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_028_sec_005",
+   "role": "starts_here"
+  }
+ ]
+}

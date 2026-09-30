@@ -1,0 +1,901 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 6,
+ "source_page_hash": "6d655cf368bc2deec80414577c08cbb54c13573e4ba76bac06435f0d3866b427",
+ "is_cover_page": false,
+ "title": "Degree day weighting",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\noa]\n=\n=  20                                                                                             SS\nSle                                                                            \u2014\u2014\u2014\na)\n\u2018bp 15                    \u2014\u2014                                                         \u2014\u2014<$=\n10                             \u2014\u2014\u2014                                      SS\n5                                       SSS                   \u2014\u2014\na                                                _\u2014$\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014 |\n|\nO1 Jan.    O1 Feb. O01 Mar.     O41 Apr.    Ol May  O1 Jun.    O1 Jul.     O1 Aug.    O1 Sep.    O1 Oct.    O1WNov. Of Dec. O71 Jan.\nDate\nDegree day weighting\n\nThe system calculates the total of the weighting values for a month. In the example, this results in the following weighting\nvalues per month:\n\nMonth                                     Total of Weighting Values\n01                                             620,00\n02                                            540,00\n03                                            465,00\n04                                            300,00\n05                                            155,00\n06                                            30,00\n07                                            31,00\n08                                            155,00\n09                                            300,00\n10                                             465,00\nll                                             540,00\n12                                             620,00\n\nThe total of the weighting values is 4,221.00.\n\nThe following parameters also apply:\n\ne The base period is one year.\n\ne The period consumption is used as a basis for estimation. The period consumption is 1,000 kWh.\n\nYou want to determine the expected consumption for 02.01.\n",
+ "cleaned_text": "oa] =\n\n= 20 | SS\n\nSle | \u2014\u2014\u2014\n\na)\n\n\u2018bp 15 | \u2014\u2014 | \u2014\u2014<$=\n\n10 | \u2014\u2014\u2014 | SS\n\n5 | SSS | \u2014\u2014\n\na | _\u2014$\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014 |\n\n|\n\nO1 Jan. | O1 Feb. | O01 Mar. | O41 Apr. | Ol May | O1 Jun. | O1 Jul. | O1 Aug. | O1 Sep. | O1 Oct. | O1WNov. Of Dec. O71 Jan.\n\nDate\n\nDegree day weighting\n\nThe system calculates the total of the weighting values for a month. In the example, this results in the following weighting values per month:\n\nMonth | Total of Weighting Values\n\n01 | 620,00\n\n02 | 540,00\n\n03 | 465,00\n\n04 | 300,00\n\n05 | 155,00\n\n06 | 30,00\n\n07 | 31,00\n\n08 | 155,00\n\n09 | 300,00\n\n10 | 465,00\n\nll | 540,00\n\n12 | 620,00\n\nThe total of the weighting values is 4,221.00.\n\nThe following parameters also apply:\n\n- The base period is one year.\n\n- The period consumption is used as a basis for estimation. The period consumption is 1,000 kWh.\n\nYou want to determine the expected consumption for 02.01.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p006_b000",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    174,
+    328,
+    210,
+    381
+   ],
+   "ocr_confidence": 35.5,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region"
+   ],
+   "text": "oa] =",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b001",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    167,
+    374,
+    2462,
+    454
+   ],
+   "ocr_confidence": 27.5,
+   "flags": [
+    "low_confidence_words:4",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    167,
+    319,
+    2089,
+    2248
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "= 20",
+     "SS"
+    ],
+    [
+     "Sle",
+     "\u2014\u2014\u2014"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "= 20",
+     "SS"
+    ],
+    [
+     "Sle",
+     "\u2014\u2014\u2014"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b002",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    174,
+    441,
+    210,
+    465
+   ],
+   "ocr_confidence": 16.0,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "a)",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b003",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    167,
+    466,
+    2091,
+    767
+   ],
+   "ocr_confidence": 39.5,
+   "flags": [
+    "low_confidence_words:10",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 9,
+   "column_starts": [
+    167,
+    249,
+    647,
+    834,
+    1011,
+    1198,
+    1561,
+    1744,
+    1925
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "\u2018bp 15",
+     "\u2014\u2014",
+     "\u2014\u2014<$="
+    ],
+    [
+     "10",
+     "\u2014\u2014\u2014",
+     "SS"
+    ],
+    [
+     "5",
+     "SSS",
+     "\u2014\u2014"
+    ],
+    [
+     "a",
+     "_\u2014$\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014 |"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "\u2018bp 15",
+     "\u2014\u2014",
+     "\u2014\u2014<$="
+    ],
+    [
+     "10",
+     "\u2014\u2014\u2014",
+     "SS"
+    ],
+    [
+     "5",
+     "SSS",
+     "\u2014\u2014"
+    ],
+    [
+     "a",
+     "_\u2014$\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014 |"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b004",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    1378,
+    762,
+    1381,
+    796
+   ],
+   "ocr_confidence": 68.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "|",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b005",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    263,
+    815,
+    2445,
+    847
+   ],
+   "ocr_confidence": 67.9,
+   "flags": [
+    "low_confidence_words:8",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 11,
+   "column_starts": [
+    263,
+    446,
+    610,
+    810,
+    983,
+    1147,
+    1330,
+    1511,
+    1694,
+    1874,
+    2057
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "O1 Jan.",
+     "O1 Feb.",
+     "O01 Mar.",
+     "O41 Apr.",
+     "Ol May",
+     "O1 Jun.",
+     "O1 Jul.",
+     "O1 Aug.",
+     "O1 Sep.",
+     "O1 Oct.",
+     "O1WNov. Of Dec. O71 Jan."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "O1 Jan.",
+     "O1 Feb.",
+     "O01 Mar.",
+     "O41 Apr.",
+     "Ol May",
+     "O1 Jun.",
+     "O1 Jul.",
+     "O1 Aug.",
+     "O1 Sep.",
+     "O1 Oct.",
+     "O1WNov. Of Dec. O71 Jan."
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b006",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    2315,
+    890,
+    2411,
+    924
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Date",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b007",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    153,
+    1044,
+    503,
+    1079
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Degree day weighting",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b008",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    152,
+    1156,
+    2340,
+    1256
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The system calculates the total of the weighting values for a month. In the example, this results in the following weighting values per month:",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b009",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    179,
+    1365,
+    1091,
+    1401
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    179,
+    658
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Month",
+     "Total of Weighting Values"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Month",
+     "Total of Weighting Values"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b010",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    178,
+    1470,
+    779,
+    1502
+   ],
+   "ocr_confidence": 88.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    660
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "01",
+     "620,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "01",
+     "620,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b011",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    178,
+    1579,
+    780,
+    1610
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    659
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "02",
+     "540,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "02",
+     "540,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b012",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    178,
+    1684,
+    779,
+    1715
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    659
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "03",
+     "465,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "03",
+     "465,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b013",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    178,
+    1789,
+    782,
+    1821
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    659
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "04",
+     "300,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "04",
+     "300,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b014",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    178,
+    1894,
+    771,
+    1926
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    660
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "05",
+     "155,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "05",
+     "155,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b015",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    178,
+    2003,
+    757,
+    2034
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    659
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "06",
+     "30,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "06",
+     "30,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b016",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    178,
+    2108,
+    751,
+    2139
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    659
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "07",
+     "31,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "07",
+     "31,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b017",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    178,
+    2212,
+    771,
+    2244
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    660
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "08",
+     "155,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "08",
+     "155,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b018",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    178,
+    2318,
+    782,
+    2349
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    659
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "09",
+     "300,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "09",
+     "300,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b019",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    178,
+    2423,
+    779,
+    2454
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    659
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "10",
+     "465,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "10",
+     "465,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b020",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    178,
+    2531,
+    780,
+    2563
+   ],
+   "ocr_confidence": 82.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    659
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "ll",
+     "540,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "ll",
+     "540,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b021",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    178,
+    2636,
+    779,
+    2668
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    178,
+    660
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "12",
+     "620,00"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "12",
+     "620,00"
+    ]
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b022",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    152,
+    2779,
+    954,
+    2817
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The total of the weighting values is 4,221.00.",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b023",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    152,
+    2904,
+    814,
+    2942
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The following parameters also apply:",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b024",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    236,
+    3026,
+    2033,
+    3170
+   ],
+   "ocr_confidence": 92.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The base period is one year."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The period consumption is used as a basis for estimation. The period consumption is 1,000 kWh."
+    }
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p006_b025",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    152,
+    3249,
+    1235,
+    3286
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You want to determine the expected consumption for 02.01.",
+   "section_id": "doc_006_sec_008"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 43,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 84,
+   "page_hash": "6d655cf368bc2deec80414577c08cbb54c13573e4ba76bac06435f0d3866b427"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Weighting Procedure",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_008",
+   "role": "continues"
+  }
+ ]
+}

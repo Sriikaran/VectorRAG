@@ -1,0 +1,364 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 49,
+ "source_page_hash": "de90fba5be0b52bb560355eec5f2e03cee9e942eef0052c56b74e09c0d6e0990",
+ "is_cover_page": false,
+ "title": "Constraints",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nErrors, which means that you have to repeat the MDUS request.\n\n3. Billing\n\nYou use the appropriate mass billing transactions in the Billing menu. The SAP system only selects the billing orders with\n\nthe MDUS status Request Confirmed Successfully, and processes them as follows:\na. The SAP system analyzes the billing order again using the billing-relevant data.\n\nb. The SAP system checks whether the results of the MDUS request match the billing order, or whether the billing\nrelevant data has changed.\n\n=\u00bb Nochange: The billing order is billed. The individual results of the MDUS request are aggregated again for the\n\noperands.\n\n= Change: The results of the MDUS request cannot be billed because, for example, a price has changed during\nthe billing period. The billing order is given the status Request Billed with Errors. You must repeat the MDUS\n\nrequest.\n\nConstraints\n\nYou can only perform a billing simulation for profile values in an external system for billing orders for which billing is possible. Other\nforms of simulation (such as unbilled revenue reporting or budget billing) are only possible for profile values that have been saved\n\nin the SAP System.\n\nBilling in combination with period-end billing, backbilling, or billing in advance is only possible with restrictions. Operands that\nreceive values from the MDUS request can only be used in rate steps that belong to the periodic billing period.\n\nProfiles in SAP and MDUS Systems\n\nUse\n\nProfiles exist in the Meter Data Unification and Synchronization system (MDUS system) and in the SAP system, but with the\nfollowing distinction:\n\ne MDUS system: Profile header and detailed profile values\n\ne SAP system:Profile header\n\nSettings in the SAP System\n\nMake the following settings to specify that the profile values are not managed in the SAP system:\n\ne Define a role for the profile allocation (for the register) in Customizing as follows:\no Role category Measurement\n\no Select the Profile Values in External System checkbox.\n\nPath: Customizing for Energy Data Management under |)}Profile Management > Profile Allocation \u00bb Define Roles for\nProfile Allocation\n",
+ "cleaned_text": "Errors, which means that you have to repeat the MDUS request.\n\n3 Billing You use the appropriate mass billing transactions in the Billing menu. The SAP system only selects the billing orders with the MDUS status Request Confirmed Successfully, and processes them as follows: a. The SAP system analyzes the billing order again using the billing-relevant data. b. The SAP system checks whether the results of the MDUS request match the billing order, or whether the billing relevant data has changed. =\u00bb Nochange: The billing order is billed. The individual results of the MDUS request are aggregated again for the operands.\n\n= Change: The results of the MDUS request cannot be billed because, for example, a price has changed during the billing period. The billing order is given the status Request Billed with Errors. You must repeat the MDUS request.\n\nConstraints\n\nYou can only perform a billing simulation for profile values in an external system for billing orders for which billing is possible. Other forms of simulation (such as unbilled revenue reporting or budget billing) are only possible for profile values that have been saved in the SAP System. Billing in combination with period-end billing, backbilling, or billing in advance is only possible with restrictions. Operands that receive values from the MDUS request can only be used in rate steps that belong to the periodic billing period.\n\nProfiles in SAP and MDUS Systems\n\nUse\n\nProfiles exist in the Meter Data Unification and Synchronization system (MDUS system) and in the SAP system, but with the following distinction:\n\n- MDUS system: Profile header and detailed profile values\n\n- SAP system:Profile header\n\nSettings in the SAP System Make the following settings to specify that the profile values are not managed in the SAP system:\n\n- Define a role for the profile allocation (for the register) in Customizing as follows:\n\n- Role category Measurement\n\n- Select the Profile Values in External System checkbox.\n\nPath: Customizing for Energy Data Management under |)}Profile Management > Profile Allocation \u00bb Define Roles for\n\nProfile Allocation",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p049_b000",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    387,
+    134,
+    1537,
+    172
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Errors, which means that you have to repeat the MDUS request.",
+   "section_id": "doc_011_sec_149"
+  },
+  {
+   "block_id": "doc_011_p049_b001",
+   "type": "list",
+   "page_number": 49,
+   "bbox": [
+    211,
+    236,
+    2484,
+    875
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Billing You use the appropriate mass billing transactions in the Billing menu. The SAP system only selects the billing orders with the MDUS status Request Confirmed Successfully, and processes them as follows: a. The SAP system analyzes the billing order again using the billing-relevant data. b. The SAP system checks whether the results of the MDUS request match the billing order, or whether the billing relevant data has changed. =\u00bb Nochange: The billing order is billed. The individual results of the MDUS request are aggregated again for the operands."
+    }
+   ],
+   "section_id": "doc_011_sec_149"
+  },
+  {
+   "block_id": "doc_011_p049_b002",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    469,
+    939,
+    2473,
+    1102
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "= Change: The results of the MDUS request cannot be billed because, for example, a price has changed during the billing period. The billing order is given the status Request Billed with Errors. You must repeat the MDUS request.",
+   "section_id": "doc_011_sec_149"
+  },
+  {
+   "block_id": "doc_011_p049_b003",
+   "type": "heading",
+   "page_number": 49,
+   "bbox": [
+    124,
+    1213,
+    449,
+    1259
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Constraints",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_150"
+  },
+  {
+   "block_id": "doc_011_p049_b004",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    122,
+    1346,
+    2488,
+    1696
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "You can only perform a billing simulation for profile values in an external system for billing orders for which billing is possible. Other forms of simulation (such as unbilled revenue reporting or budget billing) are only possible for profile values that have been saved in the SAP System. Billing in combination with period-end billing, backbilling, or billing in advance is only possible with restrictions. Operands that receive values from the MDUS request can only be used in rate steps that belong to the periodic billing period.",
+   "section_id": "doc_011_sec_150"
+  },
+  {
+   "block_id": "doc_011_p049_b005",
+   "type": "heading",
+   "page_number": 49,
+   "bbox": [
+    128,
+    1842,
+    1390,
+    1918
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Profiles in SAP and MDUS Systems",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_151"
+  },
+  {
+   "block_id": "doc_011_p049_b006",
+   "type": "heading",
+   "page_number": 49,
+   "bbox": [
+    125,
+    2022,
+    225,
+    2067
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_152"
+  },
+  {
+   "block_id": "doc_011_p049_b007",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    122,
+    2151,
+    2360,
+    2255
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Profiles exist in the Meter Data Unification and Synchronization system (MDUS system) and in the SAP system, but with the following distinction:",
+   "section_id": "doc_011_sec_152"
+  },
+  {
+   "block_id": "doc_011_p049_b008",
+   "type": "list",
+   "page_number": 49,
+   "bbox": [
+    207,
+    2339,
+    1274,
+    2478
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MDUS system: Profile header and detailed profile values"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "SAP system:Profile header"
+    }
+   ],
+   "section_id": "doc_011_sec_152"
+  },
+  {
+   "block_id": "doc_011_p049_b009",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    125,
+    2590,
+    1872,
+    2761
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Settings in the SAP System Make the following settings to specify that the profile values are not managed in the SAP system:",
+   "section_id": "doc_011_sec_152"
+  },
+  {
+   "block_id": "doc_011_p049_b010",
+   "type": "list",
+   "page_number": 49,
+   "bbox": [
+    207,
+    2845,
+    1710,
+    3086
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Define a role for the profile allocation (for the register) in Customizing as follows:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Role category Measurement"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Select the Profile Values in External System checkbox."
+    }
+   ],
+   "section_id": "doc_011_sec_152"
+  },
+  {
+   "block_id": "doc_011_p049_b011",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    256,
+    3149,
+    2381,
+    3195
+   ],
+   "ocr_confidence": 88.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Path: Customizing for Energy Data Management under |)}Profile Management > Profile Allocation \u00bb Define Roles for",
+   "section_id": "doc_011_sec_152"
+  },
+  {
+   "block_id": "doc_011_p049_b012",
+   "type": "heading",
+   "page_number": 49,
+   "bbox": [
+    256,
+    3216,
+    570,
+    3247
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Profile Allocation",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_153"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "de90fba5be0b52bb560355eec5f2e03cee9e942eef0052c56b74e09c0d6e0990"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "System",
+  "Billing Process in Detail"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_149",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_150",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_151",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_152",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_153",
+   "role": "starts_here"
+  }
+ ]
+}

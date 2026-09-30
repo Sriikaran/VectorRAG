@@ -1,0 +1,346 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 94,
+ "source_page_hash": "81ae08e07ed971e1c69116c7bb629320e90f8c8c03d8a0be1936d22be8e92706",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\ne It does not belong to a device group.\n\ne There are no register relationships to other devices.\n\ne Itis not a controlling or controlled device.\n\ne Itis the original device that was installed.\n\nIn case 2 the devices installed in the device installations, whose allocations to the higher-level connection object are to be changed,\nmust meet the following conditions:\n\ne There are no register relationships to devices from other device locations.\n\ne There is no allocation to a controlling or controlled device from another device location.\n\ne They are the original devices that were installed.\n\nFeatures\n\nChange the Allocation of Premise/Connection Object and Device/Device Location\n\nAn installation has been inadvertently installed in the wrong connection object. It is possible to correct this error without canceling\nthe entire operation, and must be executed again for the correct connection object.\n\nThis is made possible by using the Change Allocation of Premise/Connection Object and Device/Device Location transaction.\nThis allows you to assign authorization to specific agents and process the operation in one step.\n\nThe fields that must be processed \u2014 Premise, Connection Object, Connection Object (New), Device Location (Old), Device\nLocation (New), and Device \u2014 are all found on one screen.\n\nThe input help for the respective change transactions are used for the premise, connection object, and device location. The input\nhelp for the Device Replacement transaction is used for the device.\n\nChoose the Reassign button to trigger the allocation changes.\nIf errors occur during the check, the corresponding messages are displayed in the status line.\nChange the Allocation of Premise/Connection Object and Device Location/Connection Object\n\nThe connection object is divided into two connection objects. The premises and devices with the installed devices are to be\nallocated to a new connection object. This is to be executed without it being necessary to cancel the installed devices, create new\npremises/device locations, and reinstall the devices.\n\nThe fields that must be processed \u2014 Connection Object (Old), Connection Object (New), Premise, and Device Location \u2014 are all\nfound on one screen.\n\nReallocate Point of Delivery/Installation to New Premise\n\nUse\n\nYour can use the transaction ES6Z4 to reallocate a noint of deliverv or an installation to a different nremise. This transaction contains\n",
+ "cleaned_text": "- It does not belong to a device group.\n\n- There are no register relationships to other devices.\n\n- Itis not a controlling or controlled device.\n\n- Itis the original device that was installed.\n\nIn case 2 the devices installed in the device installations, whose allocations to the higher-level connection object are to be changed, must meet the following conditions:\n\n- There are no register relationships to devices from other device locations.\n\n- There is no allocation to a controlling or controlled device from another device location.\n\n- They are the original devices that were installed.\n\nFeatures\n\nChange the Allocation of Premise/Connection Object and Device/Device Location\n\nAn installation has been inadvertently installed in the wrong connection object. It is possible to correct this error without canceling the entire operation, and must be executed again for the correct connection object. This is made possible by using the Change Allocation of Premise/Connection Object and Device/Device Location transaction. This allows you to assign authorization to specific agents and process the operation in one step. The fields that must be processed \u2014 Premise, Connection Object, Connection Object (New), Device Location (Old), Device Location (New), and Device \u2014 are all found on one screen. The input help for the respective change transactions are used for the premise, connection object, and device location. The input help for the Device Replacement transaction is used for the device. Choose the Reassign button to trigger the allocation changes. If errors occur during the check, the corresponding messages are displayed in the status line.\n\nChange the Allocation of Premise/Connection Object and Device Location/Connection Object\n\nThe connection object is divided into two connection objects. The premises and devices with the installed devices are to be allocated to a new connection object. This is to be executed without it being necessary to cancel the installed devices, create new premises/device locations, and reinstall the devices. The fields that must be processed \u2014 Connection Object (Old), Connection Object (New), Premise, and Device Location \u2014 are all found on one screen.\n\nReallocate Point of Delivery/Installation to New Premise\n\nUse\n\nYour can use the transaction ES6Z4 to reallocate a noint of deliverv or an installation to a different nremise. This transaction contains",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p094_b000",
+   "type": "list",
+   "page_number": 94,
+   "bbox": [
+    207,
+    134,
+    1185,
+    481
+   ],
+   "ocr_confidence": 88.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "It does not belong to a device group."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "There are no register relationships to other devices."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Itis not a controlling or controlled device."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Itis the original device that was installed."
+    }
+   ],
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p094_b001",
+   "type": "paragraph",
+   "page_number": 94,
+   "bbox": [
+    124,
+    564,
+    2488,
+    665
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "In case 2 the devices installed in the device installations, whose allocations to the higher-level connection object are to be changed, must meet the following conditions:",
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p094_b002",
+   "type": "list",
+   "page_number": 94,
+   "bbox": [
+    207,
+    749,
+    1831,
+    994
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "There are no register relationships to devices from other device locations."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "There is no allocation to a controlling or controlled device from another device location."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "They are the original devices that were installed."
+    }
+   ],
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p094_b003",
+   "type": "heading",
+   "page_number": 94,
+   "bbox": [
+    126,
+    1106,
+    361,
+    1150
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_357"
+  },
+  {
+   "block_id": "doc_001_p094_b004",
+   "type": "heading",
+   "page_number": 94,
+   "bbox": [
+    123,
+    1235,
+    1650,
+    1273
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [],
+   "text": "Change the Allocation of Premise/Connection Object and Device/Device Location",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_358"
+  },
+  {
+   "block_id": "doc_001_p094_b005",
+   "type": "paragraph",
+   "page_number": 94,
+   "bbox": [
+    122,
+    1360,
+    2481,
+    2258
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "An installation has been inadvertently installed in the wrong connection object. It is possible to correct this error without canceling the entire operation, and must be executed again for the correct connection object. This is made possible by using the Change Allocation of Premise/Connection Object and Device/Device Location transaction. This allows you to assign authorization to specific agents and process the operation in one step. The fields that must be processed \u2014 Premise, Connection Object, Connection Object (New), Device Location (Old), Device Location (New), and Device \u2014 are all found on one screen. The input help for the respective change transactions are used for the premise, connection object, and device location. The input help for the Device Replacement transaction is used for the device. Choose the Reassign button to trigger the allocation changes. If errors occur during the check, the corresponding messages are displayed in the status line.",
+   "section_id": "doc_001_sec_358"
+  },
+  {
+   "block_id": "doc_001_p094_b006",
+   "type": "heading",
+   "page_number": 94,
+   "bbox": [
+    123,
+    2345,
+    1875,
+    2383
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "Change the Allocation of Premise/Connection Object and Device Location/Connection Object",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_359"
+  },
+  {
+   "block_id": "doc_001_p094_b007",
+   "type": "paragraph",
+   "page_number": 94,
+   "bbox": [
+    122,
+    2467,
+    2454,
+    2809
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The connection object is divided into two connection objects. The premises and devices with the installed devices are to be allocated to a new connection object. This is to be executed without it being necessary to cancel the installed devices, create new premises/device locations, and reinstall the devices. The fields that must be processed \u2014 Connection Object (Old), Connection Object (New), Premise, and Device Location \u2014 are all found on one screen.",
+   "section_id": "doc_001_sec_359"
+  },
+  {
+   "block_id": "doc_001_p094_b008",
+   "type": "heading",
+   "page_number": 94,
+   "bbox": [
+    128,
+    2963,
+    2148,
+    3039
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "text": "Reallocate Point of Delivery/Installation to New Premise",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_360"
+  },
+  {
+   "block_id": "doc_001_p094_b009",
+   "type": "heading",
+   "page_number": 94,
+   "bbox": [
+    125,
+    3139,
+    225,
+    3184
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_361"
+  },
+  {
+   "block_id": "doc_001_p094_b010",
+   "type": "paragraph",
+   "page_number": 94,
+   "bbox": [
+    122,
+    3272,
+    2486,
+    3300
+   ],
+   "ocr_confidence": 87.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Your can use the transaction ES6Z4 to reallocate a noint of deliverv or an installation to a different nremise. This transaction contains",
+   "section_id": "doc_001_sec_361"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "81ae08e07ed971e1c69116c7bb629320e90f8c8c03d8a0be1936d22be8e92706"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Change Connection Object in Premise",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_356",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_357",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_358",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_359",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_360",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_361",
+   "role": "starts_here"
+  }
+ ]
+}

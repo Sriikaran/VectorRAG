@@ -1,0 +1,421 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 25,
+ "source_page_hash": "a8f70485c1dc5a710f1575006b7d29e54365a6a027e225502db6f56c4d024706",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nVendor      BP           X\n\n5. Synchronize the business partner (BP) with the customer (CUSTOMER).\n\no Assign the business partner grouping to the account group of the customer. In SAP Customizing choose |}Cross-\nApplication Components > Master Data Synchronization > Customer/Vendor Integration > Business Partner\nSettings > Settings for Customer Integration \u00bb Field Assignment for Customer Integration > Assign Keys >\n\nDefine Number Assignment for Direction BP to Customer 9. If you set the Same Number indicator, then the\n\nS/4HANA system uses identical numbers for the business partner (BP) and the customer (CUSTOMER).\n\n1 Note\n\nYou create and assign number ranges for customer accounts in SAP Customizing under |)}Financial Accounting\n\n(New) \u00bb Accounts Receivable and Accounts Payable > Customer Accounts \u00bb Master Data > Preparations for\nCreating Customer Master Data 9.\n\n1 Note\n\nYou create and assign number ranges for business partners in SAP Customizing under |)\u00bbCross-Application\nComponents SAP Business Partner > Business Partner Basic Settings } Number Ranges and Groupings 9.\n\nee Example\nThe following table shows example entries. In making your own settings, use the business partner groupings and\naccount groups you need.\n\nGrouping             Short name           Account Group      Meaning                                        Same Numbers\nBPIN       Internal     CUST       Customers (int. no. asgmnt)\nBPEX       External     CUNA       Customers (ext. no. asgmnt) | X\n\no Check if an entry exists for the role category MKK with the name Contract Partner for the synchronization; in\nSAP Customizing, choose |}Cross-Application Components } Master Data Synchronization > Customer/Vendor\nIntegration > Business Partner Settings Settings for Customer Integration } Set BP Role Category for\nDirection BP to Customer J.\n\nMake sure that the required entry fields and entries for the business partner (BP) and the customer agree with each\nother. If they do not, then the system terminates the synchronization.\n\n6. Synchronize customers (CUSTOMER) and business partners (BP).\n\ni Note\n\nThe following settings are relevant only if you want the system to automatically create a business partner when a\ncustomer is created.\n\no Assign the attributes of a business partner grouping to an account group (customer). In SAP Customizing choose |)\u00bb\nCross-Application Components \u00bb Master Data Synchronization > Customer/Vendor Integration > Business\nPartner Settings > Settings for Customer Integration > Field Assignment for Customer Integration > Assign\nKeys \u00bb Define Number Assignment for Direction Customer to BP %. The following table shows example entries. In\n\nmalingn vwniir nvasin cattingac pica tha attri itac nf Arpicinnce nartnayr orniiningnc and annniint orniinc wnt nnann\n",
+ "cleaned_text": "Vendor | BP | X\n\n5 Synchronize the business partner (BP) with the customer (CUSTOMER).\n\n- Assign the business partner grouping to the account group of the customer. In SAP Customizing choose |}Cross- Application Components > Master Data Synchronization > Customer/Vendor Integration > Business Partner Settings > Settings for Customer Integration \u00bb Field Assignment for Customer Integration > Assign Keys > Define Number Assignment for Direction BP to Customer 9. If you set the Same Number indicator, then the\n\nS/4HANA system uses identical numbers for the business partner (BP) and the customer (CUSTOMER).\n\nNote You create and assign number ranges for customer accounts in SAP Customizing under |)}Financial Accounting (New) \u00bb Accounts Receivable and Accounts Payable > Customer Accounts \u00bb Master Data > Preparations for Creating Customer Master Data 9.\n\nNote You create and assign number ranges for business partners in SAP Customizing under |)\u00bbCross-Application Components SAP Business Partner > Business Partner Basic Settings } Number Ranges and Groupings 9.\n\nee Example The following table shows example entries. In making your own settings, use the business partner groupings and account groups you need.\n\nGrouping | Short name | Account Group | Meaning | Same Numbers\n\nBPIN | Internal | CUST | Customers (int. no. asgmnt)\n\nBPEX | External | CUNA | Customers (ext. no. asgmnt) | X\n\n- Check if an entry exists for the role category MKK with the name Contract Partner for the synchronization; in SAP Customizing, choose |}Cross-Application Components } Master Data Synchronization > Customer/Vendor Integration > Business Partner Settings Settings for Customer Integration } Set BP Role Category for\n\nDirection BP to Customer J. Make sure that the required entry fields and entries for the business partner (BP) and the customer agree with each other. If they do not, then the system terminates the synchronization.\n\n6 Synchronize customers (CUSTOMER) and business partners (BP). i Note The following settings are relevant only if you want the system to automatically create a business partner when a customer is created.\n\n- Assign the attributes of a business partner grouping to an account group (customer). In SAP Customizing choose |)\u00bb Cross-Application Components \u00bb Master Data Synchronization > Customer/Vendor Integration > Business Partner Settings > Settings for Customer Integration > Field Assignment for Customer Integration > Assign Keys \u00bb Define Number Assignment for Direction Customer to BP %. The following table shows example entries. In\n\nmalingn vwniir nvasin cattingac pica tha attri itac nf Arpicinnce nartnayr orniiningnc and annniint orniinc wnt nnann",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    414,
+    778,
+    573,
+    815
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    414,
+    1139,
+    573,
+    1176
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p025_b000",
+   "type": "table",
+   "page_number": 25,
+   "bbox": [
+    279,
+    154,
+    800,
+    185
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continues_from_previous_page:p24",
+    "continues_from_previous_page:p24"
+   ],
+   "columns": 3,
+   "column_starts": [
+    279,
+    530,
+    778
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Vendor",
+     "BP",
+     "X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Vendor",
+     "BP",
+     "X"
+    ]
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p025_b001",
+   "type": "list",
+   "page_number": 25,
+   "bbox": [
+    211,
+    312,
+    2431,
+    634
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Synchronize the business partner (BP) with the customer (CUSTOMER)."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Assign the business partner grouping to the account group of the customer. In SAP Customizing choose |}Cross- Application Components > Master Data Synchronization > Customer/Vendor Integration > Business Partner Settings > Settings for Customer Integration \u00bb Field Assignment for Customer Integration > Assign Keys > Define Number Assignment for Direction BP to Customer 9. If you set the Same Number indicator, then the"
+    }
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p025_b002",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    386,
+    656,
+    2272,
+    695
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "S/4HANA system uses identical numbers for the business partner (BP) and the customer (CUSTOMER).",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p025_b003",
+   "type": "note",
+   "page_number": 25,
+   "bbox": [
+    414,
+    778,
+    2434,
+    1025
+   ],
+   "ocr_confidence": 88.4,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "label": "Note",
+   "text": "Note You create and assign number ranges for customer accounts in SAP Customizing under |)}Financial Accounting (New) \u00bb Accounts Receivable and Accounts Payable > Customer Accounts \u00bb Master Data > Preparations for Creating Customer Master Data 9.",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p025_b004",
+   "type": "note",
+   "page_number": 25,
+   "bbox": [
+    414,
+    1139,
+    2450,
+    1324
+   ],
+   "ocr_confidence": 88.6,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "label": "Note",
+   "text": "Note You create and assign number ranges for business partners in SAP Customizing under |)\u00bbCross-Application Components SAP Business Partner > Business Partner Basic Settings } Number Ranges and Groupings 9.",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p025_b005",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    414,
+    1434,
+    2445,
+    1621
+   ],
+   "ocr_confidence": 92.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "ee Example The following table shows example entries. In making your own settings, use the business partner groupings and account groups you need.",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p025_b006",
+   "type": "table",
+   "page_number": 25,
+   "bbox": [
+    441,
+    1742,
+    2412,
+    1998
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    441,
+    780,
+    1128,
+    1463,
+    2146
+   ],
+   "headers": [
+    "Grouping",
+    "Short name",
+    "Account Group",
+    "Meaning",
+    "Same Numbers"
+   ],
+   "rows": [
+    [
+     "BPIN",
+     "Internal",
+     "CUST",
+     "Customers (int. no. asgmnt)"
+    ],
+    [
+     "BPEX",
+     "External",
+     "CUNA",
+     "Customers (ext. no. asgmnt) | X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Grouping",
+     "Short name",
+     "Account Group",
+     "Meaning",
+     "Same Numbers"
+    ],
+    [
+     "BPIN",
+     "Internal",
+     "CUST",
+     "Customers (int. no. asgmnt)"
+    ],
+    [
+     "BPEX",
+     "External",
+     "CUNA",
+     "Customers (ext. no. asgmnt) | X"
+    ]
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p025_b007",
+   "type": "list",
+   "page_number": 25,
+   "bbox": [
+    336,
+    2183,
+    2449,
+    2352
+   ],
+   "ocr_confidence": 91.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Check if an entry exists for the role category MKK with the name Contract Partner for the synchronization; in SAP Customizing, choose |}Cross-Application Components } Master Data Synchronization > Customer/Vendor Integration > Business Partner Settings Settings for Customer Integration } Set BP Role Category for"
+    }
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p025_b008",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    386,
+    2371,
+    2479,
+    2577
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Direction BP to Customer J. Make sure that the required entry fields and entries for the business partner (BP) and the customer agree with each other. If they do not, then the system terminates the synchronization.",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p025_b009",
+   "type": "list",
+   "page_number": 25,
+   "bbox": [
+    211,
+    2636,
+    2482,
+    3259
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "Synchronize customers (CUSTOMER) and business partners (BP). i Note The following settings are relevant only if you want the system to automatically create a business partner when a customer is created."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Assign the attributes of a business partner grouping to an account group (customer). In SAP Customizing choose |)\u00bb Cross-Application Components \u00bb Master Data Synchronization > Customer/Vendor Integration > Business Partner Settings > Settings for Customer Integration > Field Assignment for Customer Integration > Assign Keys \u00bb Define Number Assignment for Direction Customer to BP %. The following table shows example entries. In"
+    }
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p025_b010",
+   "type": "fragment",
+   "page_number": 25,
+   "bbox": [
+    387,
+    3282,
+    2289,
+    3300
+   ],
+   "ocr_confidence": 41.5,
+   "flags": [
+    "low_confidence_words:11",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "malingn vwniir nvasin cattingac pica tha attri itac nf Arpicinnce nartnayr orniiningnc and annniint orniinc wnt nnann",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_100"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1364,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 89,
+   "page_hash": "a8f70485c1dc5a710f1575006b7d29e54365a6a027e225502db6f56c4d024706"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making Settings for Customer/Vendor Integration",
+  "Context"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_100",
+   "role": "continues"
+  }
+ ]
+}

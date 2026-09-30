@@ -1,0 +1,420 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_029",
+ "page_number": 5,
+ "source_page_hash": "81f4f6e310aa01e4011c37469178f31d282229b67576e6d405382655351de436",
+ "is_cover_page": false,
+ "title": "Process Flow",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:19 AM\n\nDisconnections and reconnections are managed in disconnection documents . These log the progress of the individual business\ntransactions.\n\nThe system provides functions that you can use in the workflows created for process control. These functions exist as methods of\nthe DISCONNECT business object (utility disconnection).\n\nSAP IS-U provides you with reference workflows for all disconnection reasons. You can use them as examples and templates for\nyour own workflows.\n\nProcess Flow\n\nThe process flow is usually as follows:\n\nDisconnection reason occurs\n\nOverview of disconnection reasons\n\nDisconnection reason                               Triggering type                                        Triggered by\n\nDisconnection dunning level reached in          Automatic                                               Dunning run\naccounts receivable and payable\n\nVacant status                                                Automatic                                                    Move-out without move-in\nCustomer request                                          Manual                                                         Front office, for example\nTechnical causes                                       Manual                                                   Front office, for example\n\nCreate disconnection document\n\nDuring creation of a disconnection document, you determine the processing variant based on the disconnection reason and the\nreference object of the disconnection document. Some of the basic settings are stored in this processing variant. You can influence\nthis process by means of a user exit.\n\nIf the account receivable and payable is blocked, a disconnection document is automatically created for each account containing\nitems that have reached the disconnection level.\n\nRelease disconnection document\n\nThe disconnection document must have been released in order to carry out the next steps. This procedure is useful if you do not\n\nwant all of the disconnection documents to immediately lead to disconnection. This is the case, if, for example, you only want to\ncarry out 100 disconnections per day from a pool of 2500 possible disconnections.\n\nThe individual disconnection documents are released during document processing.\nYou can activate or deactivate the release requirement for disconnection documents in the processing variant for disconnection.\n\nGenerate disconnection order\n\nDisconnection orders are generated for released disconnection documents. All of the devices and flat-rate installations that belong\nto the reference object of the disconnection document are proposed for disconnection.\n",
+ "cleaned_text": "Disconnections and reconnections are managed in disconnection documents . These log the progress of the individual business transactions. The system provides functions that you can use in the workflows created for process control. These functions exist as methods of the DISCONNECT business object (utility disconnection). SAP IS-U provides you with reference workflows for all disconnection reasons. You can use them as examples and templates for your own workflows.\n\nProcess Flow\n\nThe process flow is usually as follows:\n\nDisconnection reason occurs\n\nOverview of disconnection reasons\n\nDisconnection reason | Triggering type | Triggered by\n\nDisconnection dunning level reached in | Automatic | Dunning run\n\naccounts receivable and payable\n\nVacant status | Automatic | Move-out without move-in\n\nCustomer request | Manual | Front office, for example\n\nTechnical causes | Manual | Front office, for example\n\nCreate disconnection document\n\nDuring creation of a disconnection document, you determine the processing variant based on the disconnection reason and the reference object of the disconnection document. Some of the basic settings are stored in this processing variant. You can influence this process by means of a user exit. If the account receivable and payable is blocked, a disconnection document is automatically created for each account containing items that have reached the disconnection level.\n\nRelease disconnection document\n\nThe disconnection document must have been released in order to carry out the next steps. This procedure is useful if you do not want all of the disconnection documents to immediately lead to disconnection. This is the case, if, for example, you only want to carry out 100 disconnections per day from a pool of 2500 possible disconnections. The individual disconnection documents are released during document processing. You can activate or deactivate the release requirement for disconnection documents in the processing variant for disconnection.\n\nGenerate disconnection order\n\nDisconnection orders are generated for released disconnection documents. All of the devices and flat-rate installations that belong to the reference object of the disconnection document are proposed for disconnection.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:19 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_029_p005_b000",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    134,
+    2465,
+    606
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Disconnections and reconnections are managed in disconnection documents . These log the progress of the individual business transactions. The system provides functions that you can use in the workflows created for process control. These functions exist as methods of the DISCONNECT business object (utility disconnection). SAP IS-U provides you with reference workflows for all disconnection reasons. You can use them as examples and templates for your own workflows.",
+   "section_id": "doc_029_sec_011"
+  },
+  {
+   "block_id": "doc_029_p005_b001",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    126,
+    718,
+    487,
+    763
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "Process Flow",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_012"
+  },
+  {
+   "block_id": "doc_029_p005_b002",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    851,
+    801,
+    888
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "The process flow is usually as follows:",
+   "section_id": "doc_029_sec_012"
+  },
+  {
+   "block_id": "doc_029_p005_b003",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    125,
+    972,
+    647,
+    1002
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Disconnection reason occurs",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_013"
+  },
+  {
+   "block_id": "doc_029_p005_b004",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    1024,
+    1103,
+    1589,
+    1131
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Overview of disconnection reasons",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_014"
+  },
+  {
+   "block_id": "doc_029_p005_b005",
+   "type": "table",
+   "page_number": 5,
+   "bbox": [
+    149,
+    1195,
+    1938,
+    1339
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    149,
+    936,
+    1725
+   ],
+   "headers": [
+    "Disconnection reason",
+    "Triggering type",
+    "Triggered by"
+   ],
+   "rows": [
+    [
+     "Disconnection dunning level reached in",
+     "Automatic",
+     "Dunning run"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Disconnection reason",
+     "Triggering type",
+     "Triggered by"
+    ],
+    [
+     "Disconnection dunning level reached in",
+     "Automatic",
+     "Dunning run"
+    ]
+   ],
+   "section_id": "doc_029_sec_014"
+  },
+  {
+   "block_id": "doc_029_p005_b006",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    148,
+    1359,
+    693,
+    1394
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "accounts receivable and payable",
+   "section_id": "doc_029_sec_014"
+  },
+  {
+   "block_id": "doc_029_p005_b007",
+   "type": "table",
+   "page_number": 5,
+   "bbox": [
+    148,
+    1460,
+    2163,
+    1713
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    148,
+    937,
+    1727
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Vacant status",
+     "Automatic",
+     "Move-out without move-in"
+    ],
+    [
+     "Customer request",
+     "Manual",
+     "Front office, for example"
+    ],
+    [
+     "Technical causes",
+     "Manual",
+     "Front office, for example"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Vacant status",
+     "Automatic",
+     "Move-out without move-in"
+    ],
+    [
+     "Customer request",
+     "Manual",
+     "Front office, for example"
+    ],
+    [
+     "Technical causes",
+     "Manual",
+     "Front office, for example"
+    ]
+   ],
+   "section_id": "doc_029_sec_014"
+  },
+  {
+   "block_id": "doc_029_p005_b008",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    123,
+    1819,
+    704,
+    1850
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Create disconnection document",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_015"
+  },
+  {
+   "block_id": "doc_029_p005_b009",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    1942,
+    2487,
+    2284
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "During creation of a disconnection document, you determine the processing variant based on the disconnection reason and the reference object of the disconnection document. Some of the basic settings are stored in this processing variant. You can influence this process by means of a user exit. If the account receivable and payable is blocked, a disconnection document is automatically created for each account containing items that have reached the disconnection level.",
+   "section_id": "doc_029_sec_015"
+  },
+  {
+   "block_id": "doc_029_p005_b010",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    125,
+    2375,
+    724,
+    2405
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Release disconnection document",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_016"
+  },
+  {
+   "block_id": "doc_029_p005_b011",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    2497,
+    2443,
+    2905
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The disconnection document must have been released in order to carry out the next steps. This procedure is useful if you do not want all of the disconnection documents to immediately lead to disconnection. This is the case, if, for example, you only want to carry out 100 disconnections per day from a pool of 2500 possible disconnections. The individual disconnection documents are released during document processing. You can activate or deactivate the release requirement for disconnection documents in the processing variant for disconnection.",
+   "section_id": "doc_029_sec_016"
+  },
+  {
+   "block_id": "doc_029_p005_b012",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    123,
+    2989,
+    664,
+    3020
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Generate disconnection order",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p005_b013",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    3114,
+    2486,
+    3214
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Disconnection orders are generated for released disconnection documents. All of the devices and flat-rate installations that belong to the reference object of the disconnection document are proposed for disconnection.",
+   "section_id": "doc_029_sec_017"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.093,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Disconnection/Reconnection of a Utility Installation",
+  "source_pdf": "29.pdf",
+  "reference_pdf": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+  "category": "Disconnection & Reconnection",
+  "m2c_relevance": "Connects overdue debt/dunning to service actions while preserving the distinction between delinquency and disconnect eligibility.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "81f4f6e310aa01e4011c37469178f31d282229b67576e6d405382655351de436"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:47Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Disconnection/Reconnection of a Utility Installation",
+  "Process",
+  "Workflows and Remote Disconnection and Reconnection of AMI Devices"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_029_sec_011",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_029_sec_012",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_013",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_014",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_015",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_016",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_017",
+   "role": "starts_here"
+  }
+ ]
+}

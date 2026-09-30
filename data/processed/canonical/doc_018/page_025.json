@@ -1,0 +1,436 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 25,
+ "source_page_hash": "17c4cdc932fa111a8458a9863ceb99d2850b16ff38d24736f195c68940a121ec",
+ "is_cover_page": false,
+ "title": "Message Types",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nApplication Component                                                            FI-CA\nWeb Service Definition (Back End)                                             FKK_CASIGRPBYELEMQR\nDirection                                                                               inbound\nMode                                                                                   synchronous\nIdempotency                                                                          no\nChange/Update Behavior                                                            not applicable\nP2P Communication Enabled                                                     true\nMessage Types\n\ne ContractAccountERPSplitltemGroupByElementsQuery_sync\n\ne ContractAccountERPSplitltemGroupByElementsResponse_sync\n\nFind Contract Account by Business Partner\n\nDefinition\n\nThe service performs a query for all Contract Accounts assigned to a Business Partner.\n\nTechnical Data\n\nEntity Type                                                                   Service Operation\n\nRelease State                                                               not defined\n\nTechnical Name                                                        ContractAccountERPByBusinessPartnerQueryResponse_In\nNamespace                                                                  http://sap.com/xi/FICA/Global2 Phe\nApplication Component                                                  FI-CA\n\nWeb Service Definition (Back End)                                    FKK_CONTRACCTBYBPQR\nCategory                                                                           A2X\n\nDirection                                                                           inbound\n\nMode                                                                                synchronous\n\nIdempotency                                                                     no\n\nChange/Update Behavior                                                      not applicable\n\nP2P Communication Enabled                                           true\n",
+ "cleaned_text": "Application Component | FI-CA\n\nWeb Service Definition (Back End) | FKK_CASIGRPBYELEMQR\n\nDirection | inbound\n\nMode | synchronous\n\nIdempotency | no\n\nChange/Update Behavior | not applicable\n\nP2P Communication Enabled | true\n\nMessage Types\n\n- ContractAccountERPSplitltemGroupByElementsQuery_sync\n\n- ContractAccountERPSplitltemGroupByElementsResponse_sync\n\nFind Contract Account by Business Partner\n\nDefinition\n\nThe service performs a query for all Contract Accounts assigned to a Business Partner.\n\nTechnical Data\n\nEntity Type | Service Operation\n\nRelease State | not defined\n\nTechnical Name | ContractAccountERPByBusinessPartnerQueryResponse_In\n\nNamespace | http://sap.com/xi/FICA/Global2 Phe\n\nApplication Component | FI-CA\n\nWeb Service Definition (Back End) | FKK_CONTRACCTBYBPQR\n\nCategory | A2X\n\nDirection | inbound\n\nMode | synchronous\n\nIdempotency | no\n\nChange/Update Behavior | not applicable\n\nP2P Communication Enabled | true",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p025_b000",
+   "type": "table",
+   "page_number": 25,
+   "bbox": [
+    148,
+    156,
+    1764,
+    822
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continues_from_previous_page:p24",
+    "continues_from_previous_page:p24"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1323
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "FKK_CASIGRPBYELEMQR"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "FKK_CASIGRPBYELEMQR"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "section_id": "doc_018_sec_154"
+  },
+  {
+   "block_id": "doc_018_p025_b001",
+   "type": "heading",
+   "page_number": 25,
+   "bbox": [
+    126,
+    964,
+    543,
+    1021
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Message Types",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_155"
+  },
+  {
+   "block_id": "doc_018_p025_b002",
+   "type": "list",
+   "page_number": 25,
+   "bbox": [
+    207,
+    1097,
+    1424,
+    1236
+   ],
+   "ocr_confidence": 79.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ContractAccountERPSplitltemGroupByElementsQuery_sync"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ContractAccountERPSplitltemGroupByElementsResponse_sync"
+    }
+   ],
+   "section_id": "doc_018_sec_155"
+  },
+  {
+   "block_id": "doc_018_p025_b003",
+   "type": "heading",
+   "page_number": 25,
+   "bbox": [
+    128,
+    1382,
+    1687,
+    1458
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Find Contract Account by Business Partner",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_156"
+  },
+  {
+   "block_id": "doc_018_p025_b004",
+   "type": "heading",
+   "page_number": 25,
+   "bbox": [
+    126,
+    1562,
+    393,
+    1608
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_157"
+  },
+  {
+   "block_id": "doc_018_p025_b005",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    122,
+    1691,
+    1692,
+    1730
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The service performs a query for all Contract Accounts assigned to a Business Partner.",
+   "section_id": "doc_018_sec_157"
+  },
+  {
+   "block_id": "doc_018_p025_b006",
+   "type": "heading",
+   "page_number": 25,
+   "bbox": [
+    123,
+    1841,
+    530,
+    1886
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_158"
+  },
+  {
+   "block_id": "doc_018_p025_b007",
+   "type": "table",
+   "page_number": 25,
+   "bbox": [
+    148,
+    1999,
+    2201,
+    3191
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1198
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "not defined"
+    ],
+    [
+     "Technical Name",
+     "ContractAccountERPByBusinessPartnerQueryResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global2 Phe"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "FKK_CONTRACCTBYBPQR"
+    ],
+    [
+     "Category",
+     "A2X"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "not defined"
+    ],
+    [
+     "Technical Name",
+     "ContractAccountERPByBusinessPartnerQueryResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global2 Phe"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "FKK_CONTRACCTBYBPQR"
+    ],
+    [
+     "Category",
+     "A2X"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "section_id": "doc_018_sec_158"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 105,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "17c4cdc932fa111a8458a9863ceb99d2850b16ff38d24736f195c68940a121ec"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Find Contract Account Split Item Group by Elements",
+  "Technical Data"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_154",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_018_sec_155",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_156",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_157",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_158",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,412 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_019",
+ "page_number": 3,
+ "source_page_hash": "ef780f5eb2e1188e4a5a7b9e84cc5b5c6260f5d7a90f6428d7375abbba8d3e1b",
+ "is_cover_page": false,
+ "title": "Examples for How to Configure Views",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nThe details view of individual payment lots shows various statistics, such as the following:\n\ne Payment usage within a payment lot\n\ne Duration of clarification activities\n\ne Level of automation within one payment lot\n\n1 Note\n\nIf you are using SAP Cash Application, add-on for contract accounting, the details view of individual payment lots shows the\nproposal rate.\n\nExamples for How to Configure Views\n\nTo display the total payment amount in relation to the open payment amount in a lot, select the following:\n\ne Chart: Combined Stacked Line Chart\ne Dimension: Lot\ne Measure: Amount of Open Items\n\ne Measure: Total Payment Amount\nTo display the total amount in relation to the number of items in a lot, select the following:\n\ne Chart: Combined Column Line Chart with 2 Y-Axes\ne Dimension: Lot\ne Measure: Number of Items in Lot / Axis 1\n\ne Measure: Total Payment Amount / Axis 2\nTo display percentages, select the following:\n\ne Chart: 100% Stacked Column Chart\ne Dimension: House Bank\n\ne Measure: Payments in Clarification\n\ne Measure: Payments Posted Manually\n\ne Measure: Payments Posted Automatically\n\nSAP Fiori Implementation Information\n\nIn the SAP Fiori Apps Reference Library, see the details for the Analyze Incoming Payments app.\n\n",
+ "cleaned_text": "The details view of individual payment lots shows various statistics, such as the following:\n\n- Payment usage within a payment lot\n\n- Duration of clarification activities\n\n- Level of automation within one payment lot\n\nNote If you are using SAP Cash Application, add-on for contract accounting, the details view of individual payment lots shows the proposal rate.\n\nExamples for How to Configure Views\n\nTo display the total payment amount in relation to the open payment amount in a lot, select the following:\n\n- Chart: Combined Stacked Line Chart\n\n- Dimension: Lot\n\n- Measure: Amount of Open Items\n\n- Measure: Total Payment Amount\n\nTo display the total amount in relation to the number of items in a lot, select the following:\n\n- Chart: Combined Column Line Chart with 2 Y-Axes\n\n- Dimension: Lot\n\n- Measure: Number of Items in Lot / Axis 1\n\n- Measure: Total Payment Amount / Axis 2\n\nTo display percentages, select the following:\n\n- Chart: 100% Stacked Column Chart\n\n- Dimension: House Bank\n\n- Measure: Payments in Clarification\n\n- Measure: Payments Posted Manually\n\n- Measure: Payments Posted Automatically\n\nSAP Fiori Implementation Information\n\nIn the SAP Fiori Apps Reference Library, see the details for the Analyze Incoming Payments app.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    607,
+    310,
+    644
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_019_p003_b000",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    134,
+    1739,
+    172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The details view of individual payment lots shows various statistics, such as the following:",
+   "section_id": "doc_019_sec_002"
+  },
+  {
+   "block_id": "doc_019_p003_b001",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    207,
+    256,
+    1035,
+    501
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Payment usage within a payment lot"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Duration of clarification activities"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Level of automation within one payment lot"
+    }
+   ],
+   "section_id": "doc_019_sec_002"
+  },
+  {
+   "block_id": "doc_019_p003_b002",
+   "type": "note",
+   "page_number": 3,
+   "bbox": [
+    151,
+    607,
+    2386,
+    790
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "label": "Note",
+   "text": "Note If you are using SAP Cash Application, add-on for contract accounting, the details view of individual payment lots shows the proposal rate.",
+   "section_id": "doc_019_sec_002"
+  },
+  {
+   "block_id": "doc_019_p003_b003",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    124,
+    910,
+    867,
+    952
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Examples for How to Configure Views",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_019_sec_003"
+  },
+  {
+   "block_id": "doc_019_p003_b004",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    1038,
+    2024,
+    1076
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "To display the total payment amount in relation to the open payment amount in a lot, select the following:",
+   "section_id": "doc_019_sec_003"
+  },
+  {
+   "block_id": "doc_019_p003_b005",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    207,
+    1160,
+    941,
+    1507
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Chart: Combined Stacked Line Chart"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Dimension: Lot"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Measure: Amount of Open Items"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Measure: Total Payment Amount"
+    }
+   ],
+   "section_id": "doc_019_sec_003"
+  },
+  {
+   "block_id": "doc_019_p003_b006",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    1590,
+    1740,
+    1628
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "To display the total amount in relation to the number of items in a lot, select the following:",
+   "section_id": "doc_019_sec_003"
+  },
+  {
+   "block_id": "doc_019_p003_b007",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    207,
+    1711,
+    1189,
+    2059
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Chart: Combined Column Line Chart with 2 Y-Axes"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Dimension: Lot"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Measure: Number of Items in Lot / Axis 1"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Measure: Total Payment Amount / Axis 2"
+    }
+   ],
+   "section_id": "doc_019_sec_003"
+  },
+  {
+   "block_id": "doc_019_p003_b008",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    2142,
+    914,
+    2180
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "To display percentages, select the following:",
+   "section_id": "doc_019_sec_003"
+  },
+  {
+   "block_id": "doc_019_p003_b009",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    207,
+    2263,
+    1031,
+    2713
+   ],
+   "ocr_confidence": 85.3,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Chart: 100% Stacked Column Chart"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Dimension: House Bank"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Measure: Payments in Clarification"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Measure: Payments Posted Manually"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Measure: Payments Posted Automatically"
+    }
+   ],
+   "section_id": "doc_019_sec_003"
+  },
+  {
+   "block_id": "doc_019_p003_b010",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    124,
+    2823,
+    1190,
+    2880
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "SAP Fiori Implementation Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_019_sec_004"
+  },
+  {
+   "block_id": "doc_019_p003_b011",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    125,
+    2956,
+    1853,
+    2994
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "In the SAP Fiori Apps Reference Library, see the details for the Analyze Incoming Payments app.",
+   "section_id": "doc_019_sec_004"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Analyze Incoming Payments",
+  "source_pdf": "19.pdf",
+  "reference_pdf": "19_Analyze_Incoming_Payments.pdf",
+  "category": "Payments & Clearing",
+  "m2c_relevance": "Useful for operations, exception management and payment-analysis scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "ef780f5eb2e1188e4a5a7b9e84cc5b5c6260f5d7a90f6428d7375abbba8d3e1b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Analyze Incoming Payments",
+  "Key Features",
+  "Views"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_019_sec_002",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_019_sec_003",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_019_sec_004",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,548 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 31,
+ "source_page_hash": "6f20e611e8553629231ecd73b448497887252b0c8565247edabd32218fb4e72e",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nKNA1            EDIT            X                2                                  1                EDIT            Change\nLFA1          DISPLAY      X             1                            1             DISPLAY      Display\nLFA1            EDIT            X                2                                  1                EDIT            Change\n\n*) Object category 1 = Business Object\n\n7. Define the layout for postprocessing orders.\n\no Specify how the tab pages are displayed in the order area. To do so, in SAP Customizing choose |}*Cross-Application\nComponents >\u00bb General Application Functions > Postprocessing Office \u00bb Display System Settings for the\nPostprocessing Office 3 and select Display Order Area.\n\nReference Sequence | PAI                                     PBO                                    Function for Data Refresh\n\nSTD1     1                            MDS PPO ORDER SCR_ISDAT MDS PPO ORDER SCR RI\n\nSTD2     2       MDS PPO ORDER SCR _FCODE MDS PPO ORDER SCR _ISDAT | MDS PPO ORDER SCR RI\n\nPAI: Using this function module, you can react to user actions.\n\nPBO: Function modules that are used for reading data before the order data is displayed.\n\nRefresh: Function modules for updating data.\n\no Specify how the tab pages are displayed in the object area. To do so, in SAP Customizing choose |}Cross-\nApplication Components \u00bb General Application Functions \u00bb Postprocessing Office \u00bb Display System Settings for\nthe Postprocessing Office 3 and select Display Object Area.\n\nObj.Type Process Obj.Role PAI                                                   PBO                                                 Refresh\n*)\n\nBUS1006 | CVI 01 2         MDS PPO BP_FCODE         MDS PPO BP_ISDAT         MDS_ PPO BP_REFR\nBUS1006 | CVI 02 2         MDS PPO _BP_FCODE         MDS_PPO_BP_ISDAT         MDS_PPO_BP_REFR\nBUS1006 | CVI_ 03 | 1        MDS PPO _BP_FCODE         MDS_PPO_BP_ISDAT         MDS_ PPO BP_REFR\nBUS1006 | CVI 04/1        MDS PPO BP_FCODE         MDS PPO BP_ISDAT         MDS_ PPO BP_REFR\nKNA1          CVI 01) 1             MDS PPO CUSTOMER FCODE MDS PPO CUSTOMER ISDAT MDS PPO CUSTOME\nKNA1      CVI 03 2         MDS PPO CUSTOMER _FCODE MDS PPO CUSTOMER _ISDAT MDS PPO CUSTOME\nLFA1      CVI 02/1        MDS PPO VENDOR _FCODE     MDS_PPO_VENDOR_ISDAT     MDS_PPO_VENDOR_\nLFA1          CVI_04 | 2             MDS PPO VENDOR _FCODE        MDS PPO _VENDOR_ISDAT       MDS PPO VENDOR _\n\n*) Object Role:\n\n1\u2014 Alain nhiact\n",
+ "cleaned_text": "KNA1 | EDIT | X | 2 | 1 | EDIT | Change\n\nLFA1 | DISPLAY | X | 1 | 1 | DISPLAY | Display\n\nLFA1 | EDIT | X | 2 | 1 | EDIT | Change\n\n*) Object category 1 = Business Object\n\n7 Define the layout for postprocessing orders.\n\n- Specify how the tab pages are displayed in the order area. To do so, in SAP Customizing choose |}*Cross-Application Components >\u00bb General Application Functions > Postprocessing Office \u00bb Display System Settings for the Postprocessing Office 3 and select Display Order Area.\n\nReference Sequence | PAI | PBO | Function for Data Refresh\n\nSTD1 | 1 | MDS PPO ORDER SCR_ISDAT MDS PPO ORDER SCR RI\n\nSTD2 | 2 | MDS PPO ORDER SCR _FCODE MDS PPO ORDER SCR _ISDAT | MDS PPO ORDER SCR RI\n\nPAI: Using this function module, you can react to user actions. PBO: Function modules that are used for reading data before the order data is displayed. Refresh: Function modules for updating data.\n\n- Specify how the tab pages are displayed in the object area. To do so, in SAP Customizing choose |}Cross- Application Components \u00bb General Application Functions \u00bb Postprocessing Office \u00bb Display System Settings for the Postprocessing Office 3 and select Display Object Area.\n\nObj.Type | Process Obj.Role PAI | PBO | Refresh\n\n*)\n\nBUS1006 | CVI 01 2 | MDS PPO BP_FCODE | MDS PPO BP_ISDAT | MDS_ PPO BP_REFR\n\nBUS1006 | CVI 02 2 | MDS PPO _BP_FCODE | MDS_PPO_BP_ISDAT | MDS_PPO_BP_REFR\n\nBUS1006 | CVI_ 03 | 1 | MDS PPO _BP_FCODE | MDS_PPO_BP_ISDAT | MDS_ PPO BP_REFR\n\nBUS1006 | CVI 04/1 | MDS PPO BP_FCODE | MDS PPO BP_ISDAT | MDS_ PPO BP_REFR\n\nKNA1 | CVI 01) 1 | MDS PPO CUSTOMER FCODE MDS PPO CUSTOMER ISDAT MDS PPO CUSTOME\n\nKNA1 | CVI 03 2 | MDS PPO CUSTOMER _FCODE MDS PPO CUSTOMER _ISDAT MDS PPO CUSTOME\n\nLFA1 | CVI 02/1 | MDS PPO VENDOR _FCODE | MDS_PPO_VENDOR_ISDAT | MDS_PPO_VENDOR_\n\nLFA1 | CVI_04 | 2 | MDS PPO VENDOR _FCODE | MDS PPO _VENDOR_ISDAT | MDS PPO VENDOR _\n\n*) Object Role:\n\n1\u2014 Alain nhiact",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p031_b000",
+   "type": "table",
+   "page_number": 31,
+   "bbox": [
+    281,
+    154,
+    2397,
+    406
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 7,
+   "column_starts": [
+    281,
+    560,
+    837,
+    1119,
+    1679,
+    1957,
+    2236
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "KNA1",
+     "EDIT",
+     "X",
+     "2",
+     "1",
+     "EDIT",
+     "Change"
+    ],
+    [
+     "LFA1",
+     "DISPLAY",
+     "X",
+     "1",
+     "1",
+     "DISPLAY",
+     "Display"
+    ],
+    [
+     "LFA1",
+     "EDIT",
+     "X",
+     "2",
+     "1",
+     "EDIT",
+     "Change"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "KNA1",
+     "EDIT",
+     "X",
+     "2",
+     "1",
+     "EDIT",
+     "Change"
+    ],
+    [
+     "LFA1",
+     "DISPLAY",
+     "X",
+     "1",
+     "1",
+     "DISPLAY",
+     "Display"
+    ],
+    [
+     "LFA1",
+     "EDIT",
+     "X",
+     "2",
+     "1",
+     "EDIT",
+     "Change"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p031_b001",
+   "type": "paragraph",
+   "page_number": 31,
+   "bbox": [
+    255,
+    528,
+    952,
+    567
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "*) Object category 1 = Business Object",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p031_b002",
+   "type": "list",
+   "page_number": 31,
+   "bbox": [
+    212,
+    634,
+    2481,
+    903
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "7",
+     "text": "Define the layout for postprocessing orders."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Specify how the tab pages are displayed in the order area. To do so, in SAP Customizing choose |}*Cross-Application Components >\u00bb General Application Functions > Postprocessing Office \u00bb Display System Settings for the Postprocessing Office 3 and select Display Order Area."
+    }
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p031_b003",
+   "type": "table",
+   "page_number": 31,
+   "bbox": [
+    412,
+    1019,
+    2488,
+    1279
+   ],
+   "ocr_confidence": 77.2,
+   "flags": [
+    "low_confidence_words:9",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    412,
+    635,
+    853,
+    1443,
+    2034
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Reference Sequence | PAI",
+     "PBO",
+     "Function for Data Refresh"
+    ],
+    [
+     "STD1",
+     "1",
+     "MDS PPO ORDER SCR_ISDAT MDS PPO ORDER SCR RI"
+    ],
+    [
+     "STD2",
+     "2",
+     "MDS PPO ORDER SCR _FCODE MDS PPO ORDER SCR _ISDAT | MDS PPO ORDER SCR RI"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Reference Sequence | PAI",
+     "PBO",
+     "Function for Data Refresh"
+    ],
+    [
+     "STD1",
+     "1",
+     "MDS PPO ORDER SCR_ISDAT MDS PPO ORDER SCR RI"
+    ],
+    [
+     "STD2",
+     "2",
+     "MDS PPO ORDER SCR _FCODE MDS PPO ORDER SCR _ISDAT | MDS PPO ORDER SCR RI"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p031_b004",
+   "type": "paragraph",
+   "page_number": 31,
+   "bbox": [
+    388,
+    1455,
+    1984,
+    1700
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "PAI: Using this function module, you can react to user actions. PBO: Function modules that are used for reading data before the order data is displayed. Refresh: Function modules for updating data.",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p031_b005",
+   "type": "list",
+   "page_number": 31,
+   "bbox": [
+    336,
+    1763,
+    2467,
+    1931
+   ],
+   "ocr_confidence": 91.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Specify how the tab pages are displayed in the object area. To do so, in SAP Customizing choose |}Cross- Application Components \u00bb General Application Functions \u00bb Postprocessing Office \u00bb Display System Settings for the Postprocessing Office 3 and select Display Object Area."
+    }
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p031_b006",
+   "type": "table",
+   "page_number": 31,
+   "bbox": [
+    411,
+    2052,
+    2269,
+    2087
+   ],
+   "ocr_confidence": 72.3,
+   "flags": [
+    "low_confidence_words:3",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    411,
+    625,
+    1574,
+    2141
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Obj.Type",
+     "Process Obj.Role PAI",
+     "PBO",
+     "Refresh"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Obj.Type",
+     "Process Obj.Role PAI",
+     "PBO",
+     "Refresh"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p031_b007",
+   "type": "paragraph",
+   "page_number": 31,
+   "bbox": [
+    812,
+    2111,
+    842,
+    2146
+   ],
+   "ocr_confidence": 88.3,
+   "flags": [],
+   "text": "*)",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p031_b008",
+   "type": "table",
+   "page_number": 31,
+   "bbox": [
+    412,
+    2269,
+    2492,
+    3059
+   ],
+   "ocr_confidence": 59.6,
+   "flags": [
+    "low_confidence_words:49",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    412,
+    625,
+    1006,
+    1573,
+    2139
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "BUS1006 | CVI 01 2",
+     "MDS PPO BP_FCODE",
+     "MDS PPO BP_ISDAT",
+     "MDS_ PPO BP_REFR"
+    ],
+    [
+     "BUS1006 | CVI 02 2",
+     "MDS PPO _BP_FCODE",
+     "MDS_PPO_BP_ISDAT",
+     "MDS_PPO_BP_REFR"
+    ],
+    [
+     "BUS1006 | CVI_ 03 | 1",
+     "MDS PPO _BP_FCODE",
+     "MDS_PPO_BP_ISDAT",
+     "MDS_ PPO BP_REFR"
+    ],
+    [
+     "BUS1006 | CVI 04/1",
+     "MDS PPO BP_FCODE",
+     "MDS PPO BP_ISDAT",
+     "MDS_ PPO BP_REFR"
+    ],
+    [
+     "KNA1",
+     "CVI 01) 1",
+     "MDS PPO CUSTOMER FCODE MDS PPO CUSTOMER ISDAT MDS PPO CUSTOME"
+    ],
+    [
+     "KNA1",
+     "CVI 03 2",
+     "MDS PPO CUSTOMER _FCODE MDS PPO CUSTOMER _ISDAT MDS PPO CUSTOME"
+    ],
+    [
+     "LFA1",
+     "CVI 02/1",
+     "MDS PPO VENDOR _FCODE",
+     "MDS_PPO_VENDOR_ISDAT",
+     "MDS_PPO_VENDOR_"
+    ],
+    [
+     "LFA1",
+     "CVI_04 | 2",
+     "MDS PPO VENDOR _FCODE",
+     "MDS PPO _VENDOR_ISDAT",
+     "MDS PPO VENDOR _"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "BUS1006 | CVI 01 2",
+     "MDS PPO BP_FCODE",
+     "MDS PPO BP_ISDAT",
+     "MDS_ PPO BP_REFR"
+    ],
+    [
+     "BUS1006 | CVI 02 2",
+     "MDS PPO _BP_FCODE",
+     "MDS_PPO_BP_ISDAT",
+     "MDS_PPO_BP_REFR"
+    ],
+    [
+     "BUS1006 | CVI_ 03 | 1",
+     "MDS PPO _BP_FCODE",
+     "MDS_PPO_BP_ISDAT",
+     "MDS_ PPO BP_REFR"
+    ],
+    [
+     "BUS1006 | CVI 04/1",
+     "MDS PPO BP_FCODE",
+     "MDS PPO BP_ISDAT",
+     "MDS_ PPO BP_REFR"
+    ],
+    [
+     "KNA1",
+     "CVI 01) 1",
+     "MDS PPO CUSTOMER FCODE MDS PPO CUSTOMER ISDAT MDS PPO CUSTOME"
+    ],
+    [
+     "KNA1",
+     "CVI 03 2",
+     "MDS PPO CUSTOMER _FCODE MDS PPO CUSTOMER _ISDAT MDS PPO CUSTOME"
+    ],
+    [
+     "LFA1",
+     "CVI 02/1",
+     "MDS PPO VENDOR _FCODE",
+     "MDS_PPO_VENDOR_ISDAT",
+     "MDS_PPO_VENDOR_"
+    ],
+    [
+     "LFA1",
+     "CVI_04 | 2",
+     "MDS PPO VENDOR _FCODE",
+     "MDS PPO _VENDOR_ISDAT",
+     "MDS PPO VENDOR _"
+    ]
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p031_b009",
+   "type": "paragraph",
+   "page_number": 31,
+   "bbox": [
+    386,
+    3176,
+    647,
+    3214
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "text": "*) Object Role:",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p031_b010",
+   "type": "fragment",
+   "page_number": 31,
+   "bbox": [
+    386,
+    3279,
+    656,
+    3300
+   ],
+   "ocr_confidence": 49.2,
+   "flags": [
+    "low_confidence_words:2",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "1\u2014 Alain nhiact",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_104"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59,
+  "body_stroke_median": 0.1319,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 78,
+   "page_hash": "6f20e611e8553629231ecd73b448497887252b0c8565247edabd32218fb4e72e"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making Settings for the Postprocessing Office",
+  "Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_104",
+   "role": "continues"
+  }
+ ]
+}

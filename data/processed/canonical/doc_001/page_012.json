@@ -1,0 +1,360 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 12,
+ "source_page_hash": "82a4a9a009c8e720402779c532e719096b95134fcdb6da98641b1190c6c0a79f",
+ "is_cover_page": false,
+ "title": "Change in the future",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nThe system saves the planned changes for the contract accounts affected.\n\nChange in the future\n\nThe change function does not apply for payment cards. Therefore, it is not possible to change data of a payment card for a date in\nthe future.\n\nYou can change the use of the payment card in contract accounts (and possibly in contracts). The system saves these changes as\nplanned changes.\n\nDeletion in the future:\n\nThe payment card remains in the master data of the business partner.\n\nThe system saves the planned changes for the contract accounts affected.\n\nTriggering Follow-Up Actions\n\nUse\n\nWith the transaction Change Payment Data you can trigger various follow-up actions.\n\nPrerequisites\n\nIn Customizing for Contract Accounts Receivable and Payable, under |)Basic Functions \u00bb Contract Partner \u00bb Changes to\nPayment Transactions \u00bb Define Rules for Follow-Up Actions 4), you have defined sets of rules and assigned these to the relevant\ncompany codes.\n\nFeatures\n\nBased on your Customizing settings, the system determines the set of rules to be used. In this process, the system uses the\nstandard company code of the contract accounts and contracts that are affected by the change of payment data. Once the set of\n\nrules is determined, then the system determines the follow-up actions when you save the data. This determination is also\ndependent on your current operating mode (display, change, delete). The system displays the follow-up actions in a separate\ndialog box.\n\n1 Note\n\nThe system displays the follow-up actions as long as you did not suppress the display in your Customizing settings.\n\nYou can also display the dialog box during processing by choosing the pushbutton Simulate Follow-On Actions .\n\nDirectly below the company code, the system lists all follow-up actions, for which it can determine at least one affected object. If a\n\nfollow-up action is assigned to several sets of rules, and these sets of rules are active in the same company code, then the system\ndisplays the follow-up action only once in each company code.\n\nThe system lists the objects affected by a follow-up action (such as, locks, dunning notices, or returns) directly under the follow-up\naction, and independently of the set of rules.\n",
+ "cleaned_text": "The system saves the planned changes for the contract accounts affected.\n\nChange in the future\n\nThe change function does not apply for payment cards. Therefore, it is not possible to change data of a payment card for a date in the future. You can change the use of the payment card in contract accounts (and possibly in contracts). The system saves these changes as planned changes.\n\nDeletion in the future:\n\nThe payment card remains in the master data of the business partner. The system saves the planned changes for the contract accounts affected.\n\nTriggering Follow-Up Actions\n\nUse\n\nWith the transaction Change Payment Data you can trigger various follow-up actions.\n\nPrerequisites\n\nIn Customizing for Contract Accounts Receivable and Payable, under |)Basic Functions \u00bb Contract Partner \u00bb Changes to Payment Transactions \u00bb Define Rules for Follow-Up Actions 4), you have defined sets of rules and assigned these to the relevant company codes.\n\nFeatures\n\nBased on your Customizing settings, the system determines the set of rules to be used. In this process, the system uses the standard company code of the contract accounts and contracts that are affected by the change of payment data. Once the set of rules is determined, then the system determines the follow-up actions when you save the data. This determination is also dependent on your current operating mode (display, change, delete). The system displays the follow-up actions in a separate dialog box.\n\nNote The system displays the follow-up actions as long as you did not suppress the display in your Customizing settings. You can also display the dialog box during processing by choosing the pushbutton Simulate Follow-On Actions .\n\nDirectly below the company code, the system lists all follow-up actions, for which it can determine at least one affected object. If a follow-up action is assigned to several sets of rules, and these sets of rules are active in the same company code, then the system displays the follow-up action only once in each company code. The system lists the objects affected by a follow-up action (such as, locks, dunning notices, or returns) directly under the follow-up action, and independently of the set of rules.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    2572,
+    310,
+    2609
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p012_b000",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    122,
+    134,
+    1468,
+    172
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The system saves the planned changes for the contract accounts affected.",
+   "section_id": "doc_001_sec_034"
+  },
+  {
+   "block_id": "doc_001_p012_b001",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    123,
+    256,
+    491,
+    294
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Change in the future",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_034"
+  },
+  {
+   "block_id": "doc_001_p012_b002",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    122,
+    378,
+    2462,
+    665
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The change function does not apply for payment cards. Therefore, it is not possible to change data of a payment card for a date in the future. You can change the use of the payment card in contract accounts (and possibly in contracts). The system saves these changes as planned changes.",
+   "section_id": "doc_001_sec_034"
+  },
+  {
+   "block_id": "doc_001_p012_b003",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    125,
+    749,
+    513,
+    779
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Deletion in the future:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_035"
+  },
+  {
+   "block_id": "doc_001_p012_b004",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    122,
+    871,
+    1468,
+    1033
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The payment card remains in the master data of the business partner. The system saves the planned changes for the contract accounts affected.",
+   "section_id": "doc_001_sec_035"
+  },
+  {
+   "block_id": "doc_001_p012_b005",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    123,
+    1180,
+    1154,
+    1255
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Triggering Follow-Up Actions",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_036"
+  },
+  {
+   "block_id": "doc_001_p012_b006",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    125,
+    1355,
+    225,
+    1400
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_037"
+  },
+  {
+   "block_id": "doc_001_p012_b007",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    123,
+    1488,
+    1673,
+    1526
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "With the transaction Change Payment Data you can trigger various follow-up actions.",
+   "section_id": "doc_001_sec_037"
+  },
+  {
+   "block_id": "doc_001_p012_b008",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    126,
+    1638,
+    492,
+    1694
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_038"
+  },
+  {
+   "block_id": "doc_001_p012_b009",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    123,
+    1766,
+    2454,
+    1933
+   ],
+   "ocr_confidence": 89.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "In Customizing for Contract Accounts Receivable and Payable, under |)Basic Functions \u00bb Contract Partner \u00bb Changes to Payment Transactions \u00bb Define Rules for Follow-Up Actions 4), you have defined sets of rules and assigned these to the relevant company codes.",
+   "section_id": "doc_001_sec_038"
+  },
+  {
+   "block_id": "doc_001_p012_b010",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    126,
+    2046,
+    361,
+    2090
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p012_b011",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    123,
+    2178,
+    2453,
+    2468
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Based on your Customizing settings, the system determines the set of rules to be used. In this process, the system uses the standard company code of the contract accounts and contracts that are affected by the change of payment data. Once the set of rules is determined, then the system determines the follow-up actions when you save the data. This determination is also dependent on your current operating mode (display, change, delete). The system displays the follow-up actions in a separate dialog box.",
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p012_b012",
+   "type": "note",
+   "page_number": 12,
+   "bbox": [
+    151,
+    2572,
+    2233,
+    2810
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "label": "Note",
+   "text": "Note The system displays the follow-up actions as long as you did not suppress the display in your Customizing settings. You can also display the dialog box during processing by choosing the pushbutton Simulate Follow-On Actions .",
+   "section_id": "doc_001_sec_039"
+  },
+  {
+   "block_id": "doc_001_p012_b013",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    122,
+    2930,
+    2480,
+    3280
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Directly below the company code, the system lists all follow-up actions, for which it can determine at least one affected object. If a follow-up action is assigned to several sets of rules, and these sets of rules are active in the same company code, then the system displays the follow-up action only once in each company code. The system lists the objects affected by a follow-up action (such as, locks, dunning notices, or returns) directly under the follow-up action, and independently of the set of rules.",
+   "section_id": "doc_001_sec_039"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "82a4a9a009c8e720402779c532e719096b95134fcdb6da98641b1190c6c0a79f"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Special Features of Changes with Effect in the Future",
+  "Deletion in the future"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_034",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_035",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_036",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_037",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_038",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_039",
+   "role": "starts_here"
+  }
+ ]
+}

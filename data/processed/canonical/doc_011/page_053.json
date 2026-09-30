@@ -1,0 +1,940 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 53,
+ "source_page_hash": "5568b0a634331c79850f64217120aac808572385ebf58bfaf5a653aee6cd6b60",
+ "is_cover_page": false,
+ "title": "Reuse of Rate and Interface for Other Customer Groups",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nReuse of Rate and Interface for Other Customer Groups\n\n1. You can copy a time-of-use interface (Create from Template) and change the consumption periods.\n\n2.|n the rate facts, allocate the new interface to a different fact group (for example, Residential Customers South).\n\n3. For the operands, enter the same result parameters as operand values.\n\nMDUS Request and Billing with Examples\n\nThe following figure uses examples to show how profile values from the MDUS system are used in billing in the SAP system.\n\nSAP System\n\nTime-of-Use Interface: Consumption Times A\n\nSeason DayGroup From\u2014Te Formula           Output Par. Result Par..\n\nWeekday           :         f                    :         Consumption |OFF_PEAK\n\nfMonthhy billing)                                                           ;       5679 Demand        Maxirnum         DEN MAX\n\n:    ;                                                                       5680 Cons. above\u2019 |Cons. an-peak + JON PEAK\nBil tor duly 31, 2008                                                                      below limit           cons. peak load =| CRIT PEAK\n\nInstalltn 1234: Register 1 \u2014 Profile 9393                                18:00-23:59 |5678 Cons.        Consumption |OFF_PEAK\n\nMDUS status: Req. Must Be Created                 Weekend \u2014_|00:00-23:59 5678 Cons. OFF_PEAK\n\nMDUS Request\n\nProfile: 9383\n\nReq-     duby 1-34, 2008, Surnrmer,\nitem:     Weekday O0:00-07 59\n\nFormel: 56/738 Consumption\n\nMDUS       Formula (algorithm)\n\n5678 Consumption\nSystem 5679 Demand\n\n5680 Cons. aboverbelow limit\n\nProfile\n(values)\n\nResults of MDUS request: July 1-31 2009\n\nProf. Season/DayiFrom-To Formula      Result\nSu Wday 00:00-07:59 |5678 Cons.   18 kKWh ****}.\n\n9383 |suwdayoso0-1759 |5679Demand  |3.3 kW (Max)\n\n| Billing:\n\n| July 31, 2009\nConsumption Price\n, 488 kWh x 0,16\n\n210 KA x 0.20\n34kvvh x 035\n\nMaximum: 3,8 kv\n\nSu Wday 08:00-17:59     5680 Cons.         210 kWh\nabove/below limit 134 kh\n\nSu Wday 18:00-23:59 [6678 Cons.     169 kWh 4\n\ne1>4. CONS_OFFPEAK x Price 4 ---fe===4\n:    2. CONS_ONPEAK x Price2\n\n3. CONS_CRITPEAK x Price 3\n\nSummer Weekend   5678 Cons.    201kKWh ef | 4...\n\nBilling Order, MDUS Request and Billing with Examples\n\nThis section explains the numbered elements of the figure above:\n\n1. Billing order and time-of-use interface\n\nInstallation 1234 is billed on a monthly basis with a residential customer rate (interval meter rate for time-of-use interface).\nThe profile values of the register are stored in the MDUS system. The next billing order is scheduled for July 31, 2009\n(MDUS status Request Must Be Created).\n\n2. MDUS request\n\nAftar analyzing all hilllno-ralavant data the SAP evctam crreateac 5 raqiiact itame for the nariod Jilly 1-21 PONS f(aceciimntion:\n",
+ "cleaned_text": "Reuse of Rate and Interface for Other Customer Groups\n\n1 You can copy a time-of-use interface (Create from Template) and change the consumption periods.\n\n2.|n the rate facts, allocate the new interface to a different fact group (for example, Residential Customers South).\n\n3 For the operands, enter the same result parameters as operand values.\n\nMDUS Request and Billing with Examples\n\nThe following figure uses examples to show how profile values from the MDUS system are used in billing in the SAP system.\n\nSAP System Time-of-Use Interface: Consumption Times A\n\nSeason DayGroup | From\u2014Te | Formula | Output Par. | Result Par..\n\nWeekday | : | f | : | Consumption |OFF_PEAK\n\nfMonthhy billing) | ; | 5679 Demand | Maxirnum | DEN MAX\n\n: | ; | 5680 Cons. above\u2019 |Cons. an-peak + JON PEAK\n\nBil tor duly 31, 2008 | below limit | cons. peak load =| CRIT PEAK\n\nInstalltn 1234: Register 1 \u2014 Profile 9393 | 18:00-23:59 |5678 Cons. | Consumption |OFF_PEAK\n\nMDUS status: Req. Must Be Created | Weekend \u2014_|00:00-23:59 5678 Cons. | OFF_PEAK\n\nMDUS Request Profile: 9383\n\nReq- | duby 1-34, 2008, Surnrmer,\n\nitem: | Weekday O0:00-07 59\n\nFormel: 56/738 Consumption\n\nMDUS | Formula (algorithm)\n\n5678 Consumption\n\nSystem | 5679 Demand\n\n5680 Cons. aboverbelow limit Profile (values)\n\nResults of MDUS request: July 1-31 2009\n\nProf. Season/DayiFrom-To | Formula | Result\n\nSu Wday 00:00-07:59 | |5678 Cons. | 18 kKWh ****}.\n\n9383 |suwdayoso0-1759 | |5679Demand | |3.3 kW (Max)\n\n| Billing: | July 31, 2009 Consumption Price , 488 kWh x 0,16 210 KA x 0.20 34kvvh x 035 Maximum: 3,8 kv\n\nSu Wday 08:00-17:59 | 5680 Cons. | 210 kWh\n\nabove/below limit 134 kh\n\nSu Wday 18:00-23:59 | [6678 Cons. | 169 kWh 4\n\ne1>4. CONS_OFFPEAK x Price 4 ---fe===4\n\n: | 2. CONS_ONPEAK x Price2\n\n3 CONS_CRITPEAK x Price 3\n\nSummer Weekend | 5678 Cons. | 201kKWh ef | 4...\n\nBilling Order, MDUS Request and Billing with Examples This section explains the numbered elements of the figure above:\n\n1 Billing order and time-of-use interface Installation 1234 is billed on a monthly basis with a residential customer rate (interval meter rate for time-of-use interface).\n\nThe profile values of the register are stored in the MDUS system. The next billing order is scheduled for July 31, 2009 (MDUS status Request Must Be Created).\n\n2 MDUS request\n\nAftar analyzing all hilllno-ralavant data the SAP evctam crreateac 5 raqiiact itame for the nariod Jilly 1-21 PONS f(aceciimntion:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p053_b000",
+   "type": "heading",
+   "page_number": 53,
+   "bbox": [
+    124,
+    134,
+    1164,
+    172
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Reuse of Rate and Interface for Other Customer Groups",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_170"
+  },
+  {
+   "block_id": "doc_011_p053_b001",
+   "type": "list",
+   "page_number": 53,
+   "bbox": [
+    214,
+    256,
+    2055,
+    294
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "You can copy a time-of-use interface (Create from Template) and change the consumption periods."
+    }
+   ],
+   "section_id": "doc_011_sec_170"
+  },
+  {
+   "block_id": "doc_011_p053_b002",
+   "type": "paragraph",
+   "page_number": 53,
+   "bbox": [
+    212,
+    358,
+    2275,
+    396
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "2.|n the rate facts, allocate the new interface to a different fact group (for example, Residential Customers South).",
+   "section_id": "doc_011_sec_170"
+  },
+  {
+   "block_id": "doc_011_p053_b003",
+   "type": "list",
+   "page_number": 53,
+   "bbox": [
+    211,
+    463,
+    1534,
+    500
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "For the operands, enter the same result parameters as operand values."
+    }
+   ],
+   "section_id": "doc_011_sec_170"
+  },
+  {
+   "block_id": "doc_011_p053_b004",
+   "type": "heading",
+   "page_number": 53,
+   "bbox": [
+    128,
+    646,
+    1613,
+    722
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "MDUS Request and Billing with Examples",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_171"
+  },
+  {
+   "block_id": "doc_011_p053_b005",
+   "type": "paragraph",
+   "page_number": 53,
+   "bbox": [
+    122,
+    798,
+    2347,
+    836
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The following figure uses examples to show how profile values from the MDUS system are used in billing in the SAP system.",
+   "section_id": "doc_011_sec_171"
+  },
+  {
+   "block_id": "doc_011_p053_b006",
+   "type": "paragraph",
+   "page_number": 53,
+   "bbox": [
+    162,
+    933,
+    2144,
+    1016
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "SAP System Time-of-Use Interface: Consumption Times A",
+   "section_id": "doc_011_sec_171"
+  },
+  {
+   "block_id": "doc_011_p053_b007",
+   "type": "table",
+   "page_number": 53,
+   "bbox": [
+    184,
+    1046,
+    2396,
+    1388
+   ],
+   "ocr_confidence": 70.5,
+   "flags": [
+    "low_confidence_words:16",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 12,
+   "column_starts": [
+    184,
+    213,
+    292,
+    935,
+    1095,
+    1365,
+    1398,
+    1534,
+    1606,
+    1804,
+    1922,
+    2193
+   ],
+   "headers": [
+    "Season DayGroup",
+    "From\u2014Te",
+    "Formula",
+    "Output Par.",
+    "Result Par.."
+   ],
+   "rows": [
+    [
+     "Weekday",
+     ":",
+     "f",
+     ":",
+     "Consumption |OFF_PEAK"
+    ],
+    [
+     "fMonthhy billing)",
+     ";",
+     "5679 Demand",
+     "Maxirnum",
+     "DEN MAX"
+    ],
+    [
+     ":",
+     ";",
+     "5680 Cons. above\u2019 |Cons. an-peak + JON PEAK"
+    ],
+    [
+     "Bil tor duly 31, 2008",
+     "below limit",
+     "cons. peak load =| CRIT PEAK"
+    ],
+    [
+     "Installtn 1234: Register 1 \u2014 Profile 9393",
+     "18:00-23:59 |5678 Cons.",
+     "Consumption |OFF_PEAK"
+    ],
+    [
+     "MDUS status: Req. Must Be Created",
+     "Weekend \u2014_|00:00-23:59 5678 Cons.",
+     "OFF_PEAK"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Season DayGroup",
+     "From\u2014Te",
+     "Formula",
+     "Output Par.",
+     "Result Par.."
+    ],
+    [
+     "Weekday",
+     ":",
+     "f",
+     ":",
+     "Consumption |OFF_PEAK"
+    ],
+    [
+     "fMonthhy billing)",
+     ";",
+     "5679 Demand",
+     "Maxirnum",
+     "DEN MAX"
+    ],
+    [
+     ":",
+     ";",
+     "5680 Cons. above\u2019 |Cons. an-peak + JON PEAK"
+    ],
+    [
+     "Bil tor duly 31, 2008",
+     "below limit",
+     "cons. peak load =| CRIT PEAK"
+    ],
+    [
+     "Installtn 1234: Register 1 \u2014 Profile 9393",
+     "18:00-23:59 |5678 Cons.",
+     "Consumption |OFF_PEAK"
+    ],
+    [
+     "MDUS status: Req. Must Be Created",
+     "Weekend \u2014_|00:00-23:59 5678 Cons.",
+     "OFF_PEAK"
+    ]
+   ],
+   "section_id": "doc_011_sec_171"
+  },
+  {
+   "block_id": "doc_011_p053_b008",
+   "type": "paragraph",
+   "page_number": 53,
+   "bbox": [
+    609,
+    1514,
+    1116,
+    1630
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "MDUS Request Profile: 9383",
+   "section_id": "doc_011_sec_171"
+  },
+  {
+   "block_id": "doc_011_p053_b009",
+   "type": "table",
+   "page_number": 53,
+   "bbox": [
+    609,
+    1655,
+    1138,
+    1745
+   ],
+   "ocr_confidence": 65.1,
+   "flags": [
+    "low_confidence_words:4",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    609,
+    780
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Req-",
+     "duby 1-34, 2008, Surnrmer,"
+    ],
+    [
+     "item:",
+     "Weekday O0:00-07 59"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Req-",
+     "duby 1-34, 2008, Surnrmer,"
+    ],
+    [
+     "item:",
+     "Weekday O0:00-07 59"
+    ]
+   ],
+   "section_id": "doc_011_sec_171"
+  },
+  {
+   "block_id": "doc_011_p053_b010",
+   "type": "paragraph",
+   "page_number": 53,
+   "bbox": [
+    609,
+    1773,
+    1097,
+    1809
+   ],
+   "ocr_confidence": 86.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Formel: 56/738 Consumption",
+   "section_id": "doc_011_sec_171"
+  },
+  {
+   "block_id": "doc_011_p053_b011",
+   "type": "table",
+   "page_number": 53,
+   "bbox": [
+    1592,
+    1507,
+    2388,
+    1558
+   ],
+   "ocr_confidence": 84.5,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    1592,
+    1915
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MDUS",
+     "Formula (algorithm)"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MDUS",
+     "Formula (algorithm)"
+    ]
+   ],
+   "section_id": "doc_011_sec_171"
+  },
+  {
+   "block_id": "doc_011_p053_b012",
+   "type": "heading",
+   "page_number": 53,
+   "bbox": [
+    1879,
+    1580,
+    2265,
+    1616
+   ],
+   "ocr_confidence": 91.9,
+   "flags": [],
+   "text": "5678 Consumption",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b013",
+   "type": "table",
+   "page_number": 53,
+   "bbox": [
+    1592,
+    1587,
+    2157,
+    1659
+   ],
+   "ocr_confidence": 88.3,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    1592,
+    1881
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "System",
+     "5679 Demand"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "System",
+     "5679 Demand"
+    ]
+   ],
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b014",
+   "type": "paragraph",
+   "page_number": 53,
+   "bbox": [
+    1881,
+    1681,
+    2422,
+    1872
+   ],
+   "ocr_confidence": 75.0,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "5680 Cons. aboverbelow limit Profile (values)",
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b015",
+   "type": "paragraph",
+   "page_number": 53,
+   "bbox": [
+    177,
+    2009,
+    1167,
+    2055
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Results of MDUS request: July 1-31 2009",
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b016",
+   "type": "table",
+   "page_number": 53,
+   "bbox": [
+    174,
+    2084,
+    1292,
+    2256
+   ],
+   "ocr_confidence": 47.1,
+   "flags": [
+    "low_confidence_words:13",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    174,
+    307,
+    684,
+    1014
+   ],
+   "headers": [
+    "Prof. Season/DayiFrom-To",
+    "Formula",
+    "Result"
+   ],
+   "rows": [
+    [
+     "Su Wday 00:00-07:59",
+     "|5678 Cons.",
+     "18 kKWh ****}."
+    ],
+    [
+     "9383 |suwdayoso0-1759",
+     "|5679Demand",
+     "|3.3 kW (Max)"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Prof. Season/DayiFrom-To",
+     "Formula",
+     "Result"
+    ],
+    [
+     "Su Wday 00:00-07:59",
+     "|5678 Cons.",
+     "18 kKWh ****}."
+    ],
+    [
+     "9383 |suwdayoso0-1759",
+     "|5679Demand",
+     "|3.3 kW (Max)"
+    ]
+   ],
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b017",
+   "type": "paragraph",
+   "page_number": 53,
+   "bbox": [
+    2043,
+    2133,
+    2432,
+    2504
+   ],
+   "ocr_confidence": 71.4,
+   "flags": [
+    "low_confidence_words:5",
+    "in_graphic_region"
+   ],
+   "text": "| Billing: | July 31, 2009 Consumption Price , 488 kWh x 0,16 210 KA x 0.20 34kvvh x 035 Maximum: 3,8 kv",
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b018",
+   "type": "table",
+   "page_number": 53,
+   "bbox": [
+    307,
+    2299,
+    1159,
+    2335
+   ],
+   "ocr_confidence": 68.6,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    307,
+    686,
+    1014
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Su Wday 08:00-17:59",
+     "5680 Cons.",
+     "210 kWh"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Su Wday 08:00-17:59",
+     "5680 Cons.",
+     "210 kWh"
+    ]
+   ],
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b019",
+   "type": "paragraph",
+   "page_number": 53,
+   "bbox": [
+    686,
+    2345,
+    1138,
+    2379
+   ],
+   "ocr_confidence": 68.9,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region"
+   ],
+   "text": "above/below limit 134 kh",
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b020",
+   "type": "table",
+   "page_number": 53,
+   "bbox": [
+    307,
+    2393,
+    1292,
+    2458
+   ],
+   "ocr_confidence": 56.9,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    307,
+    684,
+    1014
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Su Wday 18:00-23:59",
+     "[6678 Cons.",
+     "169 kWh 4"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Su Wday 18:00-23:59",
+     "[6678 Cons.",
+     "169 kWh 4"
+    ]
+   ],
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b021",
+   "type": "paragraph",
+   "page_number": 53,
+   "bbox": [
+    1285,
+    2302,
+    2067,
+    2376
+   ],
+   "ocr_confidence": 58.1,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region"
+   ],
+   "text": "e1>4. CONS_OFFPEAK x Price 4 ---fe===4",
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b022",
+   "type": "table",
+   "page_number": 53,
+   "bbox": [
+    1285,
+    2379,
+    1898,
+    2417
+   ],
+   "ocr_confidence": 79.6,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    1285,
+    1384
+   ],
+   "headers": null,
+   "rows": [
+    [
+     ":",
+     "2. CONS_ONPEAK x Price2"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     ":",
+     "2. CONS_ONPEAK x Price2"
+    ]
+   ],
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b023",
+   "type": "list",
+   "page_number": 53,
+   "bbox": [
+    1384,
+    2430,
+    1905,
+    2477
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "CONS_CRITPEAK x Price 3"
+    }
+   ],
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b024",
+   "type": "table",
+   "page_number": 53,
+   "bbox": [
+    307,
+    2476,
+    1454,
+    2534
+   ],
+   "ocr_confidence": 75.6,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    307,
+    684,
+    1012
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Summer Weekend",
+     "5678 Cons.",
+     "201kKWh ef | 4..."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Summer Weekend",
+     "5678 Cons.",
+     "201kKWh ef | 4..."
+    ]
+   ],
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b025",
+   "type": "paragraph",
+   "page_number": 53,
+   "bbox": [
+    122,
+    2604,
+    1300,
+    2754
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Billing Order, MDUS Request and Billing with Examples This section explains the numbered elements of the figure above:",
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b026",
+   "type": "list",
+   "page_number": 53,
+   "bbox": [
+    214,
+    2842,
+    2476,
+    2981
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Billing order and time-of-use interface Installation 1234 is billed on a monthly basis with a residential customer rate (interval meter rate for time-of-use interface)."
+    }
+   ],
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b027",
+   "type": "paragraph",
+   "page_number": 53,
+   "bbox": [
+    254,
+    3005,
+    2357,
+    3106
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The profile values of the register are stored in the MDUS system. The next billing order is scheduled for July 31, 2009 (MDUS status Request Must Be Created).",
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b028",
+   "type": "list",
+   "page_number": 53,
+   "bbox": [
+    212,
+    3170,
+    523,
+    3208
+   ],
+   "ocr_confidence": 91.3,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "MDUS request"
+    }
+   ],
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p053_b029",
+   "type": "fragment",
+   "page_number": 53,
+   "bbox": [
+    256,
+    3275,
+    2485,
+    3300
+   ],
+   "ocr_confidence": 64.1,
+   "flags": [
+    "low_confidence_words:7",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Aftar analyzing all hilllno-ralavant data the SAP evctam crreateac 5 raqiiact itame for the nariod Jilly 1-21 PONS f(aceciimntion:",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_011_sec_172"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 57.5,
+  "body_stroke_median": 0.0909,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 81,
+   "page_hash": "5568b0a634331c79850f64217120aac808572385ebf58bfaf5a653aee6cd6b60"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Map Consumption Times from Time-of-Use Interface in Rate",
+  "Procedure",
+  "Reuse of Rate and Interface for Other Customer Groups"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_170",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_171",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_172",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,334 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 37,
+ "source_page_hash": "3ee5a3f2f0fe166f6174f941b1386bc452531e0d1fb1a66be2a2cdaecc896091",
+ "is_cover_page": false,
+ "title": "Note for the industry component Insurance",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\ne Synchronizes the central blocking indicator (BUT000 - XPCPT) in the shadow table of Contract Accounts Receivable and\nPayable (assuming this table is active)\n\ne Sets a posting block in all contract account relationships of the business partner\n\nIn this way, the posting of new open items is prevented centrally. It is not possible to remove this block.\ne Sets the deletion flag for all contract account relationships of the business partner\ne Deletes and updates the trigger for exchanging messages with SAP Credit Management\n\nIf there was existing communication with SAP Credit Management, this prevents new communication.\n\ne Blocks the user in SAP Tax Payer Online Service (if one exists)\n\nThis prevents a taxpayer from logging on.\n\n1 Note\n\nYou can add additional customer-specific actions (see Customizing for Cross-Application Components under |}Data\nProtection \u00bb Blocking and Unblocking of Data \u00bb Business Partner \u00bb Business Add-Ins (BAdIs) \u00bb BAdI: Export of SoRT Details\nof Blocked/Unblocked BP to App-Specific Memory %).\n\nAfter business partners have been blocked, you can restrict access to their master data and transaction data using authorization\ngroups. To do so, you enter an authorization group, for which only specific users have authorization, on the contract account of the\nbusiness partner. Define the authorization group in Customizing for Contract Accounts Receivable and Payable under |)Technical\nSettings * Data Protection \u00bb Enter Authorization Group for Contract Account Relationships 3. When a business partner is\n\nblocked (transaction BUPA_PRE_EOP), the system enters this authorization group in the contract account relationships of the\nbusiness partner.\n\n1 Note\n\nNote for the industry component Insurance\n\nFor insurance object relationships, you enter authorization groups in Customizing for Contract Accounts Receivable and\nPayable under |}Technical Settings \u00bb Data Protection \u00bb Define Authorization Groups for Insurance Object Relationships\n\nWhen you unblock a business partner, the shadow table is synchronized, the posting lock is removed, and the deletion flag and\nauthorization group on the contract account and insurance object (industry component Insurance (FS-CD)) are reset to how they\nwere before the business partner was blocked. Contract Accounts Receivable and Payable does not perform any other actions\nbeyond these.\n\nCheck for End of Purpose in Contract Accounts Receivable and\nPayable\n\nMass activity Check Bus. Partner Can Be Blocked (transaction FPDPR1 in the SAP Easy Access screen under |}*Periodic\nProcessing \u00bb For Data Protection \u201c) checks in Contract Accounts Receivable and Payable and its industry components whether\nthe end of purpose has been reached for a business partner and determines the retention start. The result of the analysis is stored\n\nin database tables DFKKDPR_BP and DFKKDPR_BP_ SORT and is analyzed further in transaction BUPA _PRE_EOP.\n\nYou can use transaction Parallel Billing by Direct Call (FPDPR_ BP SIM in the SAP Easy Access screen under |}\u00bbPeriodic\n",
+ "cleaned_text": "- Synchronizes the central blocking indicator (BUT000 - XPCPT) in the shadow table of Contract Accounts Receivable and Payable (assuming this table is active)\n\n- Sets a posting block in all contract account relationships of the business partner In this way, the posting of new open items is prevented centrally. It is not possible to remove this block.\n\n- Sets the deletion flag for all contract account relationships of the business partner\n\n- Deletes and updates the trigger for exchanging messages with SAP Credit Management If there was existing communication with SAP Credit Management, this prevents new communication.\n\n- Blocks the user in SAP Tax Payer Online Service (if one exists) This prevents a taxpayer from logging on.\n\nNote You can add additional customer-specific actions (see Customizing for Cross-Application Components under |}Data Protection \u00bb Blocking and Unblocking of Data \u00bb Business Partner \u00bb Business Add-Ins (BAdIs) \u00bb BAdI: Export of SoRT Details of Blocked/Unblocked BP to App-Specific Memory %).\n\nAfter business partners have been blocked, you can restrict access to their master data and transaction data using authorization groups. To do so, you enter an authorization group, for which only specific users have authorization, on the contract account of the business partner. Define the authorization group in Customizing for Contract Accounts Receivable and Payable under |)Technical Settings * Data Protection \u00bb Enter Authorization Group for Contract Account Relationships 3. When a business partner is blocked (transaction BUPA_PRE_EOP), the system enters this authorization group in the contract account relationships of the business partner.\n\nNote\n\nNote for the industry component Insurance\n\nFor insurance object relationships, you enter authorization groups in Customizing for Contract Accounts Receivable and Payable under |}Technical Settings \u00bb Data Protection \u00bb Define Authorization Groups for Insurance Object Relationships\n\nWhen you unblock a business partner, the shadow table is synchronized, the posting lock is removed, and the deletion flag and authorization group on the contract account and insurance object (industry component Insurance (FS-CD)) are reset to how they were before the business partner was blocked. Contract Accounts Receivable and Payable does not perform any other actions beyond these.\n\nCheck for End of Purpose in Contract Accounts Receivable and\n\nPayable\n\nMass activity Check Bus. Partner Can Be Blocked (transaction FPDPR1 in the SAP Easy Access screen under |}*Periodic Processing \u00bb For Data Protection \u201c) checks in Contract Accounts Receivable and Payable and its industry components whether the end of purpose has been reached for a business partner and determines the retention start. The result of the analysis is stored in database tables DFKKDPR_BP and DFKKDPR_BP_ SORT and is analyzed further in transaction BUPA _PRE_EOP. You can use transaction Parallel Billing by Direct Call (FPDPR_ BP SIM in the SAP Easy Access screen under |}\u00bbPeriodic",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1060,
+    310,
+    1098
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1885,
+    310,
+    1922
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p037_b000",
+   "type": "list",
+   "page_number": 37,
+   "bbox": [
+    207,
+    136,
+    2424,
+    958
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Synchronizes the central blocking indicator (BUT000 - XPCPT) in the shadow table of Contract Accounts Receivable and Payable (assuming this table is active)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Sets a posting block in all contract account relationships of the business partner In this way, the posting of new open items is prevented centrally. It is not possible to remove this block."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Sets the deletion flag for all contract account relationships of the business partner"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Deletes and updates the trigger for exchanging messages with SAP Credit Management If there was existing communication with SAP Credit Management, this prevents new communication."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Blocks the user in SAP Tax Payer Online Service (if one exists) This prevents a taxpayer from logging on."
+    }
+   ],
+   "section_id": "doc_001_sec_120"
+  },
+  {
+   "block_id": "doc_001_p037_b001",
+   "type": "note",
+   "page_number": 37,
+   "bbox": [
+    151,
+    1060,
+    2455,
+    1303
+   ],
+   "ocr_confidence": 90.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Note",
+   "text": "Note You can add additional customer-specific actions (see Customizing for Cross-Application Components under |}Data Protection \u00bb Blocking and Unblocking of Data \u00bb Business Partner \u00bb Business Add-Ins (BAdIs) \u00bb BAdI: Export of SoRT Details of Blocked/Unblocked BP to App-Specific Memory %).",
+   "section_id": "doc_001_sec_120"
+  },
+  {
+   "block_id": "doc_001_p037_b002",
+   "type": "paragraph",
+   "page_number": 37,
+   "bbox": [
+    122,
+    1422,
+    2477,
+    1779
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "After business partners have been blocked, you can restrict access to their master data and transaction data using authorization groups. To do so, you enter an authorization group, for which only specific users have authorization, on the contract account of the business partner. Define the authorization group in Customizing for Contract Accounts Receivable and Payable under |)Technical Settings * Data Protection \u00bb Enter Authorization Group for Contract Account Relationships 3. When a business partner is blocked (transaction BUPA_PRE_EOP), the system enters this authorization group in the contract account relationships of the business partner.",
+   "section_id": "doc_001_sec_120"
+  },
+  {
+   "block_id": "doc_001_p037_b003",
+   "type": "note",
+   "page_number": 37,
+   "bbox": [
+    151,
+    1885,
+    310,
+    1922
+   ],
+   "ocr_confidence": 85.1,
+   "flags": [],
+   "label": "Note",
+   "text": "Note",
+   "section_id": "doc_001_sec_120"
+  },
+  {
+   "block_id": "doc_001_p037_b004",
+   "type": "heading",
+   "page_number": 37,
+   "bbox": [
+    154,
+    1961,
+    963,
+    1999
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Note for the industry component Insurance",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_121"
+  },
+  {
+   "block_id": "doc_001_p037_b005",
+   "type": "paragraph",
+   "page_number": 37,
+   "bbox": [
+    154,
+    2086,
+    2367,
+    2191
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [],
+   "text": "For insurance object relationships, you enter authorization groups in Customizing for Contract Accounts Receivable and Payable under |}Technical Settings \u00bb Data Protection \u00bb Define Authorization Groups for Insurance Object Relationships",
+   "section_id": "doc_001_sec_121"
+  },
+  {
+   "block_id": "doc_001_p037_b006",
+   "type": "paragraph",
+   "page_number": 37,
+   "bbox": [
+    123,
+    2306,
+    2464,
+    2531
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "When you unblock a business partner, the shadow table is synchronized, the posting lock is removed, and the deletion flag and authorization group on the contract account and insurance object (industry component Insurance (FS-CD)) are reset to how they were before the business partner was blocked. Contract Accounts Receivable and Payable does not perform any other actions beyond these.",
+   "section_id": "doc_001_sec_121"
+  },
+  {
+   "block_id": "doc_001_p037_b007",
+   "type": "heading",
+   "page_number": 37,
+   "bbox": [
+    125,
+    2680,
+    2392,
+    2756
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Check for End of Purpose in Contract Accounts Receivable and",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_122"
+  },
+  {
+   "block_id": "doc_001_p037_b008",
+   "type": "heading",
+   "page_number": 37,
+   "bbox": [
+    128,
+    2766,
+    404,
+    2842
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Payable",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_123"
+  },
+  {
+   "block_id": "doc_001_p037_b009",
+   "type": "paragraph",
+   "page_number": 37,
+   "bbox": [
+    122,
+    2919,
+    2475,
+    3283
+   ],
+   "ocr_confidence": 87.0,
+   "flags": [
+    "low_confidence_words:9"
+   ],
+   "text": "Mass activity Check Bus. Partner Can Be Blocked (transaction FPDPR1 in the SAP Easy Access screen under |}*Periodic Processing \u00bb For Data Protection \u201c) checks in Contract Accounts Receivable and Payable and its industry components whether the end of purpose has been reached for a business partner and determines the retention start. The result of the analysis is stored in database tables DFKKDPR_BP and DFKKDPR_BP_ SORT and is analyzed further in transaction BUPA _PRE_EOP. You can use transaction Parallel Billing by Direct Call (FPDPR_ BP SIM in the SAP Easy Access screen under |}\u00bbPeriodic",
+   "section_id": "doc_001_sec_123"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.5,
+  "body_stroke_median": 0.0976,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "3ee5a3f2f0fe166f6174f941b1386bc452531e0d1fb1a66be2a2cdaecc896091"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Blocking and Unblocking of Business Partners"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_120",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_121",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_122",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_123",
+   "role": "starts_here"
+  }
+ ]
+}

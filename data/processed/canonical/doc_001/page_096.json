@@ -1,0 +1,336 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 96,
+ "source_page_hash": "e0545cbf8bf06cf1518433a36ec0ca662eceffffe2997a97e4bfb396c392f7b0",
+ "is_cover_page": false,
+ "title": "Checks",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\ne If move-in or move-out documents exist for the installations, the premise V_ALT is also replaced with the new premise\n\nV_NEU in these documents.\n\ne You can change the business partner address using the Business Add-In (BAdl)\nISU_MOVEPODTOPREMISE_UP_BP_ADD in the default implementation.\n\nChecks\n\ne Thesystem checks whether a parked document exists for installation A or B as a default setting. If a parked document\nexists whose status has not been set to Completed, the system terminates the reallocation.\n\ne Three additional checks are performed in the BAdI ISU_LMOVEPODTOPREMISE_CHECK in the default implementation.\n\nee Example\n\nYou have a point of delivery to which no installation is allocated.\n\nPoint of Delivery\nZP_YYY\n\nPremise\nV_ALT\n\nReallocate Point of Delivery/Installation to New Premise - Example 2\nIdentification\n\nYou can specify the point of delivery ZP_YYY and a new premise V_NEU in the transaction ES64.\n\nReallocation\n\nFollowing reallocation, the system replaces the premise V_ALT in the point of delivery with the new premise V_NEU.\n\nThe following checks and BAdIs apply to the two examples above:\n\nBAdlIs\n\nThree BAdls are available with the default implementations:\n",
+ "cleaned_text": "- If move-in or move-out documents exist for the installations, the premise V_ALT is also replaced with the new premise V_NEU in these documents.\n\n- You can change the business partner address using the Business Add-In (BAdl) ISU_MOVEPODTOPREMISE_UP_BP_ADD in the default implementation.\n\nChecks\n\n- Thesystem checks whether a parked document exists for installation A or B as a default setting. If a parked document exists whose status has not been set to Completed, the system terminates the reallocation.\n\n- Three additional checks are performed in the BAdI ISU_LMOVEPODTOPREMISE_CHECK in the default implementation.\n\nee Example You have a point of delivery to which no installation is allocated.\n\nPoint of Delivery ZP_YYY\n\nPremise V_ALT\n\nReallocate Point of Delivery/Installation to New Premise - Example 2\n\nIdentification\n\nYou can specify the point of delivery ZP_YYY and a new premise V_NEU in the transaction ES64.\n\nReallocation\n\nFollowing reallocation, the system replaces the premise V_ALT in the point of delivery with the new premise V_NEU. The following checks and BAdIs apply to the two examples above:\n\nBAdlIs Three BAdls are available with the default implementations:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p096_b000",
+   "type": "list",
+   "page_number": 96,
+   "bbox": [
+    236,
+    134,
+    2410,
+    402
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If move-in or move-out documents exist for the installations, the premise V_ALT is also replaced with the new premise V_NEU in these documents."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can change the business partner address using the Business Add-In (BAdl) ISU_MOVEPODTOPREMISE_UP_BP_ADD in the default implementation."
+    }
+   ],
+   "section_id": "doc_001_sec_365"
+  },
+  {
+   "block_id": "doc_001_p096_b001",
+   "type": "heading",
+   "page_number": 96,
+   "bbox": [
+    153,
+    486,
+    288,
+    516
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Checks",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_366"
+  },
+  {
+   "block_id": "doc_001_p096_b002",
+   "type": "list",
+   "page_number": 96,
+   "bbox": [
+    236,
+    607,
+    2419,
+    809
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Thesystem checks whether a parked document exists for installation A or B as a default setting. If a parked document exists whose status has not been set to Completed, the system terminates the reallocation."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Three additional checks are performed in the BAdI ISU_LMOVEPODTOPREMISE_CHECK in the default implementation."
+    }
+   ],
+   "section_id": "doc_001_sec_366"
+  },
+  {
+   "block_id": "doc_001_p096_b003",
+   "type": "paragraph",
+   "page_number": 96,
+   "bbox": [
+    151,
+    971,
+    1297,
+    1095
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "ee Example You have a point of delivery to which no installation is allocated.",
+   "section_id": "doc_001_sec_366"
+  },
+  {
+   "block_id": "doc_001_p096_b004",
+   "type": "paragraph",
+   "page_number": 96,
+   "bbox": [
+    362,
+    1365,
+    718,
+    1464
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Point of Delivery ZP_YYY",
+   "section_id": "doc_001_sec_366"
+  },
+  {
+   "block_id": "doc_001_p096_b005",
+   "type": "paragraph",
+   "page_number": 96,
+   "bbox": [
+    456,
+    2017,
+    634,
+    2116
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Premise V_ALT",
+   "section_id": "doc_001_sec_366"
+  },
+  {
+   "block_id": "doc_001_p096_b006",
+   "type": "paragraph",
+   "page_number": 96,
+   "bbox": [
+    153,
+    2332,
+    1257,
+    2366
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "Reallocate Point of Delivery/Installation to New Premise - Example 2",
+   "section_id": "doc_001_sec_366"
+  },
+  {
+   "block_id": "doc_001_p096_b007",
+   "type": "heading",
+   "page_number": 96,
+   "bbox": [
+    154,
+    2444,
+    399,
+    2474
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Identification",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_367"
+  },
+  {
+   "block_id": "doc_001_p096_b008",
+   "type": "paragraph",
+   "page_number": 96,
+   "bbox": [
+    152,
+    2565,
+    1893,
+    2603
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "You can specify the point of delivery ZP_YYY and a new premise V_NEU in the transaction ES64.",
+   "section_id": "doc_001_sec_367"
+  },
+  {
+   "block_id": "doc_001_p096_b009",
+   "type": "heading",
+   "page_number": 96,
+   "bbox": [
+    154,
+    2690,
+    381,
+    2721
+   ],
+   "ocr_confidence": 91.1,
+   "flags": [],
+   "text": "Reallocation",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_368"
+  },
+  {
+   "block_id": "doc_001_p096_b010",
+   "type": "paragraph",
+   "page_number": 96,
+   "bbox": [
+    152,
+    2812,
+    2228,
+    2971
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "Following reallocation, the system replaces the premise V_ALT in the point of delivery with the new premise V_NEU. The following checks and BAdIs apply to the two examples above:",
+   "section_id": "doc_001_sec_368"
+  },
+  {
+   "block_id": "doc_001_p096_b011",
+   "type": "paragraph",
+   "page_number": 96,
+   "bbox": [
+    122,
+    3091,
+    1200,
+    3250
+   ],
+   "ocr_confidence": 80.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "BAdlIs Three BAdls are available with the default implementations:",
+   "section_id": "doc_001_sec_368"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "e0545cbf8bf06cf1518433a36ec0ca662eceffffe2997a97e4bfb396c392f7b0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Reallocate Point of Delivery/Installation to New Premise",
+  "Se Example",
+  "Reallocation"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_365",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_366",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_367",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_368",
+   "role": "starts_here"
+  }
+ ]
+}

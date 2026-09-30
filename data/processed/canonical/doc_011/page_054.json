@@ -1,0 +1,569 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 54,
+ "source_page_hash": "2ddf8bce63b5385a581e5e9f60b2f1cac4d99ff34c1949aa4cd0958e645d0836",
+ "is_cover_page": false,
+ "title": "Simulation of Time-of-Use Billing",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n2009, weekday, 00:00-07:59) is a consumption value of 118kWh).\n\n3. Rate and Billing\n\nAs the items of the MDUS request match the billing order (no billing-relevant changes), the order can be billed. In the first\n\nrate step, the RTP operand CONS OFFPEAK adds together all the consumption values of the MDUS request used by the\nresult parameter OFFPEAK and multiplies the total consumption by a price: (118 kWh + 169 kWh + 201 kWh) x 0,16. The\nremaining rate steps follow.\n\nSimulation of Time-of-Use Billing\n\nUse\n\nThe time-of-use interface provides you with a simulation mode that you can use to simulate billing of externally saved profile\nvalues in SAP for Utilities.\n\nThe following forms of simulation are supported:\n\ne Budget billing simulation (for example for a move-in) except in the express transaction Change Budget Billing Amount\n(transactionEA61EX)\n\ne Billing simulation without a billable billing order\n\nPrerequisites\n\nYou have activated the business function Utilities, Advanced Metering Infrastructure 4 (ISU AMI 4) and also made the\nfollowing settings in Customizing and in the SAP menu:\n\nActivity                                                                                                         Path:\n\nDefine Consumption Pattern                                                  Customizing for |}*SAP Utilities > Contract Billing > Billing Master\nData \u00bb AMI: Time-of-Use Interface \u00bb Define Consumption Pattern\n\nAssign Synthetic Profile to Consumption Pattern                           SAP menu under |}#Utilities Industry \u00bb Billing \u00bb Master Data\nAMI: Time-of-Use Interface \u00bb Change Allocation of Consumption\nPattern to Profile\n\nEdit time-of-use interface by specifying a time-of-use period for the | Customizing for||*SAP Utilities \u00bb Contract Billing \u00bb Billing Master\nentire quantity                                                                        Data \u00bb AMI: Time-of-Use Interface > Edit TOU Interface\n\nor\n\nSAP menu under |} Utilities Industry \u00bb Billing \u00bb Master Data\nAMI: Time-of-Use Interface Edit Time-of-Use Interface\n\nGenerate Profile Values for Synthetic Profile                                   SAP menu for the |#Utilities Industry \u00bb Energy Data Management\nProfile Management Profile Header\n\nEnter Period Consumption for Interval Meters                                Using the move-in process\n\nor by making a manual entry using the SAP menu for the ||\u00bbUtilities\nIndustry Device Management * Installation Installation\n",
+ "cleaned_text": "2009, weekday, 00:00-07:59) is a consumption value of 118kWh).\n\n3 Rate and Billing As the items of the MDUS request match the billing order (no billing-relevant changes), the order can be billed. In the first rate step, the RTP operand CONS OFFPEAK adds together all the consumption values of the MDUS request used by the result parameter OFFPEAK and multiplies the total consumption by a price: (118 kWh + 169 kWh + 201 kWh) x 0,16. The remaining rate steps follow.\n\nSimulation of Time-of-Use Billing\n\nUse\n\nThe time-of-use interface provides you with a simulation mode that you can use to simulate billing of externally saved profile values in SAP for Utilities. The following forms of simulation are supported:\n\n- Budget billing simulation (for example for a move-in) except in the express transaction Change Budget Billing Amount (transactionEA61EX)\n\n- Billing simulation without a billable billing order\n\nPrerequisites You have activated the business function Utilities, Advanced Metering Infrastructure 4 (ISU AMI 4) and also made the following settings in Customizing and in the SAP menu:\n\nActivity | Path:\n\nDefine Consumption Pattern | Customizing for |}*SAP Utilities > Contract Billing > Billing Master\n\nData \u00bb AMI: Time-of-Use Interface \u00bb Define Consumption Pattern\n\nAssign Synthetic Profile to Consumption Pattern | SAP menu under |}#Utilities Industry \u00bb Billing \u00bb Master Data\n\nAMI: Time-of-Use Interface \u00bb Change Allocation of Consumption\n\nPattern to Profile\n\nEdit time-of-use interface by specifying a time-of-use period for the | Customizing for||*SAP Utilities \u00bb Contract Billing \u00bb Billing Master\n\nentire quantity | Data \u00bb AMI: Time-of-Use Interface > Edit TOU Interface\n\nor SAP menu under |} Utilities Industry \u00bb Billing \u00bb Master Data\n\nAMI: Time-of-Use Interface Edit Time-of-Use Interface\n\nGenerate Profile Values for Synthetic Profile | SAP menu for the |#Utilities Industry \u00bb Energy Data Management\n\nProfile Management Profile Header\n\nEnter Period Consumption for Interval Meters | Using the move-in process\n\nor by making a manual entry using the SAP menu for the ||\u00bbUtilities Industry Device Management * Installation Installation",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p054_b000",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    255,
+    134,
+    1454,
+    172
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [],
+   "text": "2009, weekday, 00:00-07:59) is a consumption value of 118kWh).",
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p054_b001",
+   "type": "list",
+   "page_number": 54,
+   "bbox": [
+    211,
+    236,
+    2447,
+    573
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Rate and Billing As the items of the MDUS request match the billing order (no billing-relevant changes), the order can be billed. In the first rate step, the RTP operand CONS OFFPEAK adds together all the consumption values of the MDUS request used by the result parameter OFFPEAK and multiplies the total consumption by a price: (118 kWh + 169 kWh + 201 kWh) x 0,16. The remaining rate steps follow."
+    }
+   ],
+   "section_id": "doc_011_sec_172"
+  },
+  {
+   "block_id": "doc_011_p054_b002",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    125,
+    721,
+    1316,
+    798
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "Simulation of Time-of-Use Billing",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_173"
+  },
+  {
+   "block_id": "doc_011_p054_b003",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    125,
+    898,
+    225,
+    944
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_174"
+  },
+  {
+   "block_id": "doc_011_p054_b004",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    122,
+    1031,
+    2368,
+    1253
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The time-of-use interface provides you with a simulation mode that you can use to simulate billing of externally saved profile values in SAP for Utilities. The following forms of simulation are supported:",
+   "section_id": "doc_011_sec_174"
+  },
+  {
+   "block_id": "doc_011_p054_b005",
+   "type": "list",
+   "page_number": 54,
+   "bbox": [
+    206,
+    1337,
+    2401,
+    1545
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Budget billing simulation (for example for a move-in) except in the express transaction Change Budget Billing Amount (transactionEA61EX)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Billing simulation without a billable billing order"
+    }
+   ],
+   "section_id": "doc_011_sec_174"
+  },
+  {
+   "block_id": "doc_011_p054_b006",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    122,
+    1658,
+    2317,
+    1894
+   ],
+   "ocr_confidence": 88.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Prerequisites You have activated the business function Utilities, Advanced Metering Infrastructure 4 (ISU AMI 4) and also made the following settings in Customizing and in the SAP menu:",
+   "section_id": "doc_011_sec_174"
+  },
+  {
+   "block_id": "doc_011_p054_b007",
+   "type": "table",
+   "page_number": 54,
+   "bbox": [
+    148,
+    1999,
+    2451,
+    2147
+   ],
+   "ocr_confidence": 89.5,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1332
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Activity",
+     "Path:"
+    ],
+    [
+     "Define Consumption Pattern",
+     "Customizing for |}*SAP Utilities > Contract Billing > Billing Master"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Activity",
+     "Path:"
+    ],
+    [
+     "Define Consumption Pattern",
+     "Customizing for |}*SAP Utilities > Contract Billing > Billing Master"
+    ]
+   ],
+   "section_id": "doc_011_sec_174"
+  },
+  {
+   "block_id": "doc_011_p054_b008",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    1333,
+    2163,
+    2456,
+    2206
+   ],
+   "ocr_confidence": 90.4,
+   "flags": [],
+   "text": "Data \u00bb AMI: Time-of-Use Interface \u00bb Define Consumption Pattern",
+   "section_id": "doc_011_sec_174"
+  },
+  {
+   "block_id": "doc_011_p054_b009",
+   "type": "table",
+   "page_number": 54,
+   "bbox": [
+    148,
+    2310,
+    2348,
+    2355
+   ],
+   "ocr_confidence": 84.8,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1332
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Assign Synthetic Profile to Consumption Pattern",
+     "SAP menu under |}#Utilities Industry \u00bb Billing \u00bb Master Data"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Assign Synthetic Profile to Consumption Pattern",
+     "SAP menu under |}#Utilities Industry \u00bb Billing \u00bb Master Data"
+    ]
+   ],
+   "section_id": "doc_011_sec_174"
+  },
+  {
+   "block_id": "doc_011_p054_b010",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    1340,
+    2369,
+    2450,
+    2413
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "text": "AMI: Time-of-Use Interface \u00bb Change Allocation of Consumption",
+   "section_id": "doc_011_sec_174"
+  },
+  {
+   "block_id": "doc_011_p054_b011",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    1333,
+    2430,
+    1628,
+    2458
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Pattern to Profile",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_175"
+  },
+  {
+   "block_id": "doc_011_p054_b012",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    150,
+    2534,
+    2451,
+    2578
+   ],
+   "ocr_confidence": 88.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Edit time-of-use interface by specifying a time-of-use period for the | Customizing for||*SAP Utilities \u00bb Contract Billing \u00bb Billing Master",
+   "section_id": "doc_011_sec_175"
+  },
+  {
+   "block_id": "doc_011_p054_b013",
+   "type": "table",
+   "page_number": 54,
+   "bbox": [
+    148,
+    2593,
+    2279,
+    2637
+   ],
+   "ocr_confidence": 91.2,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1333
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "entire quantity",
+     "Data \u00bb AMI: Time-of-Use Interface > Edit TOU Interface"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "entire quantity",
+     "Data \u00bb AMI: Time-of-Use Interface > Edit TOU Interface"
+    ]
+   ],
+   "section_id": "doc_011_sec_175"
+  },
+  {
+   "block_id": "doc_011_p054_b014",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    1331,
+    2700,
+    2348,
+    2827
+   ],
+   "ocr_confidence": 76.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "or SAP menu under |} Utilities Industry \u00bb Billing \u00bb Master Data",
+   "section_id": "doc_011_sec_175"
+  },
+  {
+   "block_id": "doc_011_p054_b015",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    1340,
+    2844,
+    2303,
+    2872
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [],
+   "text": "AMI: Time-of-Use Interface Edit Time-of-Use Interface",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_176"
+  },
+  {
+   "block_id": "doc_011_p054_b016",
+   "type": "table",
+   "page_number": 54,
+   "bbox": [
+    148,
+    2948,
+    2449,
+    2992
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1332
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Generate Profile Values for Synthetic Profile",
+     "SAP menu for the |#Utilities Industry \u00bb Energy Data Management"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Generate Profile Values for Synthetic Profile",
+     "SAP menu for the |#Utilities Industry \u00bb Energy Data Management"
+    ]
+   ],
+   "section_id": "doc_011_sec_176"
+  },
+  {
+   "block_id": "doc_011_p054_b017",
+   "type": "heading",
+   "page_number": 54,
+   "bbox": [
+    1365,
+    3008,
+    2001,
+    3043
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Profile Management Profile Header",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_177"
+  },
+  {
+   "block_id": "doc_011_p054_b018",
+   "type": "table",
+   "page_number": 54,
+   "bbox": [
+    150,
+    3116,
+    1774,
+    3151
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1333
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Enter Period Consumption for Interval Meters",
+     "Using the move-in process"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Enter Period Consumption for Interval Meters",
+     "Using the move-in process"
+    ]
+   ],
+   "section_id": "doc_011_sec_177"
+  },
+  {
+   "block_id": "doc_011_p054_b019",
+   "type": "paragraph",
+   "page_number": 54,
+   "bbox": [
+    1331,
+    3211,
+    2456,
+    3300
+   ],
+   "ocr_confidence": 87.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "or by making a manual entry using the SAP menu for the ||\u00bbUtilities Industry Device Management * Installation Installation",
+   "section_id": "doc_011_sec_177"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 61.5,
+  "body_stroke_median": 0.1364,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "2ddf8bce63b5385a581e5e9f60b2f1cac4d99ff34c1949aa4cd0958e645d0836"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "MDUS Request and Billing with Examples",
+  "5678 Consumption"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_172",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_173",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_174",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_175",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_176",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_177",
+   "role": "starts_here"
+  }
+ ]
+}

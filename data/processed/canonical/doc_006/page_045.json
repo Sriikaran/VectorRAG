@@ -1,0 +1,373 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 45,
+ "source_page_hash": "73c03f6e69f3dde98d796511cac44ceb5a76e420dcd009a0575cc86dfaa5e95b",
+ "is_cover_page": false,
+ "title": "Integration",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nIntegration\n\nTypes of meter readings and their scheduled dates are defined in the Portioning and Scheduling (IS-U-BF-PS) component. You\ncan override the scheduled meter reading type and select another type of meter reading. For example, instead of selecting the\nmeter reading by the customer, you can create an order for a meter reader. In addition, you can specify dates for aperiodic meter\nreadings manually.\n\nBusiness Repository\n\nThe Business Object Repository (BOR) contains the following Business Application Programming Interface (BAPI) for selecting\nmeter reading orders and results:\n\ne MeterReadingDocument.GetList (selection of meter reading orders or results)\nFor more information about BAPIs see the following documentation:\n\ne For general information, see the BAP! User Manual and the BAP! Program Manual\n\ne For more detailed information, see the documentation of the individual BAPIs.\n\nFeatures\n\nYou can reverse meter reading orders. If meter reading results exist at the time of the reversal, you can either delete them or retain\nthem for use in another meter reading order.\n\nDuring meter reading order creation, you control the sequence of meter readings of different categories. You have the following\noptions:\n\ne You can enter a fixed schedule in the schedule master record for the meter reading unit. To do this, you select the Use MR\n\ncat. from sched. rec. field during order creation (individual or mass order creation). The system then creates meter reading\norders for meter readings in the category you have entered.\n\nSe Example\n\nYou want to read meters every month. To reduce the number of meter readers, you allow for two estimations and one\nsubsequent reading by a meter reader. You enter meter reading dates for each month with the corresponding schedule\nmeter reading category in the meter reading unit. The sequence of the dates is retained even if the customer moves out,\nfor example.\n\ne You can define meter reading control settings in Customizing under Device Management -> Meter Reading -> Basic\nSettings. During mass order creation, you enter a scheduled meter reading category. The system checks whether meter\nreading control settings permit this meter reading category for the installation and then creates meter reading orders for\nthe installations accordingly.\n\nee Example\nYou want to allow each installation to be read by the customer twice and then once by the meter reader. You define\n\nmeter reading control settings accordingly in Customizing and enter them in the installation. You perform mass order\ncreation twice for each meter reading, the first time with customer reading as the scheduled meter reading category,\nand the second time with meter reading by the utility as the scheduled category.\n\nMeter readinoe date           09 30.                           2010.                            11.30.\n",
+ "cleaned_text": "Integration\n\nTypes of meter readings and their scheduled dates are defined in the Portioning and Scheduling (IS-U-BF-PS) component. You can override the scheduled meter reading type and select another type of meter reading. For example, instead of selecting the meter reading by the customer, you can create an order for a meter reader. In addition, you can specify dates for aperiodic meter readings manually.\n\nBusiness Repository\n\nThe Business Object Repository (BOR) contains the following Business Application Programming Interface (BAPI) for selecting meter reading orders and results:\n\n- MeterReadingDocument.GetList (selection of meter reading orders or results)\n\nFor more information about BAPIs see the following documentation:\n\n- For general information, see the BAP! User Manual and the BAP! Program Manual\n\n- For more detailed information, see the documentation of the individual BAPIs.\n\nFeatures\n\nYou can reverse meter reading orders. If meter reading results exist at the time of the reversal, you can either delete them or retain them for use in another meter reading order. During meter reading order creation, you control the sequence of meter readings of different categories. You have the following options:\n\n- You can enter a fixed schedule in the schedule master record for the meter reading unit. To do this, you select the Use MR cat. from sched. rec. field during order creation (individual or mass order creation). The system then creates meter reading orders for meter readings in the category you have entered. Se Example You want to read meters every month. To reduce the number of meter readers, you allow for two estimations and one subsequent reading by a meter reader. You enter meter reading dates for each month with the corresponding schedule meter reading category in the meter reading unit. The sequence of the dates is retained even if the customer moves out,\n\nfor example.\n\n- You can define meter reading control settings in Customizing under Device Management -> Meter Reading -> Basic Settings. During mass order creation, you enter a scheduled meter reading category. The system checks whether meter reading control settings permit this meter reading category for the installation and then creates meter reading orders for\n\nthe installations accordingly. ee Example You want to allow each installation to be read by the customer twice and then once by the meter reader. You define meter reading control settings accordingly in Customizing and enter them in the installation. You perform mass order creation twice for each meter reading, the first time with customer reading as the scheduled meter reading category, and the second time with meter reading by the utility as the scheduled category.\n\nMeter readinoe date 09 30. 2010. 11.30.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p045_b000",
+   "type": "heading",
+   "page_number": 45,
+   "bbox": [
+    127,
+    127,
+    431,
+    183
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_079"
+  },
+  {
+   "block_id": "doc_006_p045_b001",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    122,
+    259,
+    2447,
+    484
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Types of meter readings and their scheduled dates are defined in the Portioning and Scheduling (IS-U-BF-PS) component. You can override the scheduled meter reading type and select another type of meter reading. For example, instead of selecting the meter reading by the customer, you can create an order for a meter reader. In addition, you can specify dates for aperiodic meter readings manually.",
+   "section_id": "doc_006_sec_079"
+  },
+  {
+   "block_id": "doc_006_p045_b002",
+   "type": "heading",
+   "page_number": 45,
+   "bbox": [
+    124,
+    572,
+    504,
+    609
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Business Repository",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_080"
+  },
+  {
+   "block_id": "doc_006_p045_b003",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    122,
+    693,
+    2421,
+    793
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "The Business Object Repository (BOR) contains the following Business Application Programming Interface (BAPI) for selecting meter reading orders and results:",
+   "section_id": "doc_006_sec_080"
+  },
+  {
+   "block_id": "doc_006_p045_b004",
+   "type": "list",
+   "page_number": 45,
+   "bbox": [
+    207,
+    877,
+    1664,
+    914
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MeterReadingDocument.GetList (selection of meter reading orders or results)"
+    }
+   ],
+   "section_id": "doc_006_sec_080"
+  },
+  {
+   "block_id": "doc_006_p045_b005",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    125,
+    998,
+    1352,
+    1036
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [],
+   "text": "For more information about BAPIs see the following documentation:",
+   "section_id": "doc_006_sec_080"
+  },
+  {
+   "block_id": "doc_006_p045_b006",
+   "type": "list",
+   "page_number": 45,
+   "bbox": [
+    207,
+    1123,
+    1722,
+    1259
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "For general information, see the BAP! User Manual and the BAP! Program Manual"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "For more detailed information, see the documentation of the individual BAPIs."
+    }
+   ],
+   "section_id": "doc_006_sec_080"
+  },
+  {
+   "block_id": "doc_006_p045_b007",
+   "type": "heading",
+   "page_number": 45,
+   "bbox": [
+    126,
+    1375,
+    361,
+    1420
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_081"
+  },
+  {
+   "block_id": "doc_006_p045_b008",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    122,
+    1508,
+    2474,
+    1792
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "You can reverse meter reading orders. If meter reading results exist at the time of the reversal, you can either delete them or retain them for use in another meter reading order. During meter reading order creation, you control the sequence of meter readings of different categories. You have the following options:",
+   "section_id": "doc_006_sec_081"
+  },
+  {
+   "block_id": "doc_006_p045_b009",
+   "type": "list",
+   "page_number": 45,
+   "bbox": [
+    207,
+    1876,
+    2484,
+    2367
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can enter a fixed schedule in the schedule master record for the meter reading unit. To do this, you select the Use MR cat. from sched. rec. field during order creation (individual or mass order creation). The system then creates meter reading orders for meter readings in the category you have entered. Se Example You want to read meters every month. To reduce the number of meter readers, you allow for two estimations and one subsequent reading by a meter reader. You enter meter reading dates for each month with the corresponding schedule meter reading category in the meter reading unit. The sequence of the dates is retained even if the customer moves out,"
+    }
+   ],
+   "section_id": "doc_006_sec_081"
+  },
+  {
+   "block_id": "doc_006_p045_b010",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    283,
+    2395,
+    504,
+    2432
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "for example.",
+   "section_id": "doc_006_sec_081"
+  },
+  {
+   "block_id": "doc_006_p045_b011",
+   "type": "list",
+   "page_number": 45,
+   "bbox": [
+    207,
+    2532,
+    2438,
+    2695
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can define meter reading control settings in Customizing under Device Management -> Meter Reading -> Basic Settings. During mass order creation, you enter a scheduled meter reading category. The system checks whether meter reading control settings permit this meter reading category for the installation and then creates meter reading orders for"
+    }
+   ],
+   "section_id": "doc_006_sec_081"
+  },
+  {
+   "block_id": "doc_006_p045_b012",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    254,
+    2720,
+    2403,
+    3149
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "the installations accordingly. ee Example You want to allow each installation to be read by the customer twice and then once by the meter reader. You define meter reading control settings accordingly in Customizing and enter them in the installation. You perform mass order creation twice for each meter reading, the first time with customer reading as the scheduled meter reading category, and the second time with meter reading by the utility as the scheduled category.",
+   "section_id": "doc_006_sec_081"
+  },
+  {
+   "block_id": "doc_006_p045_b013",
+   "type": "fragment",
+   "page_number": 45,
+   "bbox": [
+    311,
+    3274,
+    1771,
+    3300
+   ],
+   "ocr_confidence": 78.5,
+   "flags": [
+    "low_confidence_words:1",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Meter readinoe date 09 30. 2010. 11.30.",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_006_sec_081"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "73c03f6e69f3dde98d796511cac44ceb5a76e420dcd009a0575cc86dfaa5e95b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:34Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Meter Reading Order",
+  "Integration"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_079",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_080",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_081",
+   "role": "starts_here"
+  }
+ ]
+}

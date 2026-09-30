@@ -1,0 +1,270 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 97,
+ "source_page_hash": "9d630a0c95a29965d2cfa6debccea960a36f0787f0ac59b3e46205ac8be6cdc8",
+ "is_cover_page": false,
+ "title": "Defining the QD Procedure for Existing Installations",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\n7. For a technical removal:\n\nThe quantity determination procedure is not defined or changed for a technical removal. When the technical removal takes\n\nplace, the quantity determination procedure should already have been changed.\n\n8. For a modification:\n\na. lf the quantity determination procedure for the device was defined before the modification:\n\n=\u00bb The system defines or changes the quantity determination procedure if the field Interval Length ID, Division\n\nCategory,Reactive, Apparent or Active Registers, is changed, or according to the Customizing setting made\nunder |*SAP Utilities + Device Management \u00bb Installation + Basic Settings } Define System Parameters\n\nfor Installation/Removal/Replacement\n\nIf you change the field Register Category, Register Code, the system determines the quantity determination\nprocedure according to the Customizing settings. If you modify other fields or have not made the\nCustomizing setting under |*SAP Utilities 5 Device Management * Installation } Basic Settings Define\nSystem Parameters for Installation/Removal/Replacement 9, the system does not change the quantity\n\ndetermination procedure.\n\nb. If the quantity determination procedure for the device was not defined before the modification:\n\n= The quantity determination procedure for the device is defined for the billing-relevant period.\n\n9. Changing the logical register number:\n\na. If the quantity determination procedure for the device was defined before the logical register number was changed:\n\n= If anew placeholder for a logical register number on screen is generated, the system determines the quantity\n\ndetermination procedure from the Customizing settings, or from the Customizing settings and the BAdI\nimplementation ISU_QD_PROC, if the device is installed in multiple installations.\n\nIf a terminated placeholder for a logical register number on screen is extended, the system determines the\nquantity determination procedure for the new period from the Customizing settings and the BAdI\n\nimplementation ISU_QD_PROC, if the device is installed in multiple installations.\n\nIf a current placeholder for a logical register number on screen is terminated, the system restricts the\nquantity determination procedure to the current date minus a day.\n\nb. If the quantity determination procedure for the device was not defined before the logical register number was\n\nchanged:\n\n= The quantity determination procedure for the device is defined for the billing-relevant period.\n\nDefining the QD Procedure for Existing Installations\n\nDefinition\n\nYou can use conversion report REQD_SET_QDPROC_TO_REGISTER to define the quantity determination procedure at register\nlevel for installations that already exist in the system. This can take place for an entire division, for a division with a selection of\n\ninstallations, or for a division with a selection of meter reading units. A combination of a selection of installations and meter\n\nreading units is possible.\n\nYou can only access the report with a selected division. The report selects:\n",
+ "cleaned_text": "7 For a technical removal: The quantity determination procedure is not defined or changed for a technical removal. When the technical removal takes place, the quantity determination procedure should already have been changed.\n\n8 For a modification: a. lf the quantity determination procedure for the device was defined before the modification: =\u00bb The system defines or changes the quantity determination procedure if the field Interval Length ID, Division Category,Reactive, Apparent or Active Registers, is changed, or according to the Customizing setting made under |*SAP Utilities + Device Management \u00bb Installation + Basic Settings } Define System Parameters\n\nfor Installation/Removal/Replacement If you change the field Register Category, Register Code, the system determines the quantity determination procedure according to the Customizing settings. If you modify other fields or have not made the Customizing setting under |*SAP Utilities 5 Device Management * Installation } Basic Settings Define System Parameters for Installation/Removal/Replacement 9, the system does not change the quantity determination procedure. b. If the quantity determination procedure for the device was not defined before the modification: = The quantity determination procedure for the device is defined for the billing-relevant period.\n\n9 Changing the logical register number: a. If the quantity determination procedure for the device was defined before the logical register number was changed: = If anew placeholder for a logical register number on screen is generated, the system determines the quantity determination procedure from the Customizing settings, or from the Customizing settings and the BAdI implementation ISU_QD_PROC, if the device is installed in multiple installations. If a terminated placeholder for a logical register number on screen is extended, the system determines the\n\nquantity determination procedure for the new period from the Customizing settings and the BAdI implementation ISU_QD_PROC, if the device is installed in multiple installations. If a current placeholder for a logical register number on screen is terminated, the system restricts the quantity determination procedure to the current date minus a day. b. If the quantity determination procedure for the device was not defined before the logical register number was changed: = The quantity determination procedure for the device is defined for the billing-relevant period.\n\nDefining the QD Procedure for Existing Installations\n\nDefinition\n\nYou can use conversion report REQD_SET_QDPROC_TO_REGISTER to define the quantity determination procedure at register level for installations that already exist in the system. This can take place for an entire division, for a division with a selection of installations, or for a division with a selection of meter reading units. A combination of a selection of installations and meter reading units is possible.\n\nYou can only access the report with a selected division. The report selects:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p097_b000",
+   "type": "list",
+   "page_number": 97,
+   "bbox": [
+    211,
+    134,
+    2478,
+    775
+   ],
+   "ocr_confidence": 88.5,
+   "flags": [
+    "low_confidence_words:8"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "7",
+     "text": "For a technical removal: The quantity determination procedure is not defined or changed for a technical removal. When the technical removal takes place, the quantity determination procedure should already have been changed."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "8",
+     "text": "For a modification: a. lf the quantity determination procedure for the device was defined before the modification: =\u00bb The system defines or changes the quantity determination procedure if the field Interval Length ID, Division Category,Reactive, Apparent or Active Registers, is changed, or according to the Customizing setting made under |*SAP Utilities + Device Management \u00bb Installation + Basic Settings } Define System Parameters"
+    }
+   ],
+   "section_id": "doc_006_sec_271"
+  },
+  {
+   "block_id": "doc_006_p097_b001",
+   "type": "paragraph",
+   "page_number": 97,
+   "bbox": [
+    346,
+    798,
+    2479,
+    1394
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "for Installation/Removal/Replacement If you change the field Register Category, Register Code, the system determines the quantity determination procedure according to the Customizing settings. If you modify other fields or have not made the Customizing setting under |*SAP Utilities 5 Device Management * Installation } Basic Settings Define System Parameters for Installation/Removal/Replacement 9, the system does not change the quantity determination procedure. b. If the quantity determination procedure for the device was not defined before the modification: = The quantity determination procedure for the device is defined for the billing-relevant period.",
+   "section_id": "doc_006_sec_271"
+  },
+  {
+   "block_id": "doc_006_p097_b002",
+   "type": "list",
+   "page_number": 97,
+   "bbox": [
+    211,
+    1458,
+    2488,
+    1930
+   ],
+   "ocr_confidence": 91.3,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "9",
+     "text": "Changing the logical register number: a. If the quantity determination procedure for the device was defined before the logical register number was changed: = If anew placeholder for a logical register number on screen is generated, the system determines the quantity determination procedure from the Customizing settings, or from the Customizing settings and the BAdI implementation ISU_QD_PROC, if the device is installed in multiple installations. If a terminated placeholder for a logical register number on screen is extended, the system determines the"
+    }
+   ],
+   "section_id": "doc_006_sec_271"
+  },
+  {
+   "block_id": "doc_006_p097_b003",
+   "type": "paragraph",
+   "page_number": 97,
+   "bbox": [
+    346,
+    1954,
+    2362,
+    2491
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "quantity determination procedure for the new period from the Customizing settings and the BAdI implementation ISU_QD_PROC, if the device is installed in multiple installations. If a current placeholder for a logical register number on screen is terminated, the system restricts the quantity determination procedure to the current date minus a day. b. If the quantity determination procedure for the device was not defined before the logical register number was changed: = The quantity determination procedure for the device is defined for the billing-relevant period.",
+   "section_id": "doc_006_sec_271"
+  },
+  {
+   "block_id": "doc_006_p097_b004",
+   "type": "heading",
+   "page_number": 97,
+   "bbox": [
+    128,
+    2637,
+    1982,
+    2713
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Defining the QD Procedure for Existing Installations",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_272"
+  },
+  {
+   "block_id": "doc_006_p097_b005",
+   "type": "heading",
+   "page_number": 97,
+   "bbox": [
+    126,
+    2814,
+    393,
+    2859
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_273"
+  },
+  {
+   "block_id": "doc_006_p097_b006",
+   "type": "paragraph",
+   "page_number": 97,
+   "bbox": [
+    123,
+    2946,
+    2406,
+    3175
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You can use conversion report REQD_SET_QDPROC_TO_REGISTER to define the quantity determination procedure at register level for installations that already exist in the system. This can take place for an entire division, for a division with a selection of installations, or for a division with a selection of meter reading units. A combination of a selection of installations and meter reading units is possible.",
+   "section_id": "doc_006_sec_273"
+  },
+  {
+   "block_id": "doc_006_p097_b007",
+   "type": "heading",
+   "page_number": 97,
+   "bbox": [
+    123,
+    3259,
+    1489,
+    3296
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You can only access the report with a selected division. The report selects:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_274"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "9d630a0c95a29965d2cfa6debccea960a36f0787f0ac59b3e46205ac8be6cdc8"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Conversion of Quantity Determination Indicator for Existing Installations",
+  "Technical Transactions",
+  "Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_271",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_272",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_273",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_274",
+   "role": "starts_here"
+  }
+ ]
+}

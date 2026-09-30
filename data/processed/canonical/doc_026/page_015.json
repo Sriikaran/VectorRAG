@@ -1,0 +1,338 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 15,
+ "source_page_hash": "1c8d667cc3f14208a50dd9f8bab1db50412f70ba061a96400d3da7ec75f48b63",
+ "is_cover_page": false,
+ "title": "Activities",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\nIf you run the dunning activity run in simulation mode, you can also test the correspondence creation. If you simulate a run again,\nbut print after the first simulation run, in the second simulation the correspondence container is filled again and you can repeat the\nprint. However, if you do not print between two simulation runs, the data in the correspondence container is overwritten and you\n\ncan only print once at the end.\n\nActivities\n\nYou schedule and start a dunning activity run in the same way as for a dunning proposal run. On the tab page General Selections,\nenter the run parameters for the dunning proposal run that you want to execute and then schedule the program run. For detailed\ninformation, see Functions for Scheduling Program Runs.\n\nIn the dunning activity run, you can revise the dunning activities defined in Customizing. In event 0351, you can add or delete\ndunning activities dependent on information from the dunning header (for example, business partner).\n\nThe program does not process business partners and contract accounts, for which locks exist during the program run due to\n\ndialog processing. Depending on whether you choose the \u201cBusiness Partner\u201d or \u201cContract Account\u201d as the parallelization object,\nthe program records all business partners or contract accounts that could not be processed. The job that processes the last\ninterval (this does not have to be the interval with the highest number) selects the business partners and contract accounts that\nwere not processed during the first attempt. If the reason for the lock no longer exists at that time, these business partners or\ncontract accounts are processed, and therefore there is no need to schedule the run again.\n\nInterest Calculation for Dunning Items\n\nUse\n\nIf you want to charge interest on items to be dunned, you can link the interest calculation to a dunning level.\n\nFeatures\n\nIf the calculation of interest on items to be dunned is defined for a dunning level, the dunning activity run calculates interest on\nitems with this dunning level automatically.\n\nIt does this using the item interest calculation application component. The interest calculation is based on the interest calculation\nrule of the interest key defined in the dunning level. The interest is posted in accordance with the specifications in the system\n\nsettings for the dunning level.\n\nActivities\n\nTo enable item interest calculation in the dunning activities run, you have to make the following settings in the Implementation\nGuide for Contract Accounts Receivable and Payable :\n\nIf necessary, define the interest key that you want to assign to the dunning level under Business TransactionsInterest\nCalculationltem Interest CalculationDefine Interest Keys . The interest key contains the interest calculation rules to be used for\nthe interest calculation, and you can define these in the same section of the IMG in the activity Define Interest Calculation Rules .\n\nActivate the interest calculation in the dunning activity run and assign the interest key to the required dunning level of the dunning\nprocedure. You do this by double-clicking on the required dunning level of the dunning procedure concerned under Business\n\nPe eee aLtn ee TA emlimyw Alatiannnfawntiawsiven TA rememlimw Deen eervAiiver Llavraismist alan mala the feallaisnnnm w~ntthiwnnwer:\n",
+ "cleaned_text": "If you run the dunning activity run in simulation mode, you can also test the correspondence creation. If you simulate a run again, but print after the first simulation run, in the second simulation the correspondence container is filled again and you can repeat the print. However, if you do not print between two simulation runs, the data in the correspondence container is overwritten and you can only print once at the end.\n\nActivities\n\nYou schedule and start a dunning activity run in the same way as for a dunning proposal run. On the tab page General Selections, enter the run parameters for the dunning proposal run that you want to execute and then schedule the program run. For detailed information, see Functions for Scheduling Program Runs. In the dunning activity run, you can revise the dunning activities defined in Customizing. In event 0351, you can add or delete dunning activities dependent on information from the dunning header (for example, business partner). The program does not process business partners and contract accounts, for which locks exist during the program run due to dialog processing. Depending on whether you choose the \u201cBusiness Partner\u201d or \u201cContract Account\u201d as the parallelization object, the program records all business partners or contract accounts that could not be processed. The job that processes the last interval (this does not have to be the interval with the highest number) selects the business partners and contract accounts that were not processed during the first attempt. If the reason for the lock no longer exists at that time, these business partners or contract accounts are processed, and therefore there is no need to schedule the run again.\n\nInterest Calculation for Dunning Items\n\nUse\n\nIf you want to charge interest on items to be dunned, you can link the interest calculation to a dunning level.\n\nFeatures\n\nIf the calculation of interest on items to be dunned is defined for a dunning level, the dunning activity run calculates interest on items with this dunning level automatically. It does this using the item interest calculation application component. The interest calculation is based on the interest calculation rule of the interest key defined in the dunning level. The interest is posted in accordance with the specifications in the system settings for the dunning level.\n\nActivities\n\nTo enable item interest calculation in the dunning activities run, you have to make the following settings in the Implementation\n\nGuide for Contract Accounts Receivable and Payable :\n\nIf necessary, define the interest key that you want to assign to the dunning level under Business TransactionsInterest Calculationltem Interest CalculationDefine Interest Keys . The interest key contains the interest calculation rules to be used for the interest calculation, and you can define these in the same section of the IMG in the activity Define Interest Calculation Rules . Activate the interest calculation in the dunning activity run and assign the interest key to the required dunning level of the dunning procedure. You do this by double-clicking on the required dunning level of the dunning procedure concerned under Business\n\nPe eee aLtn ee TA emlimyw Alatiannnfawntiawsiven TA rememlimw Deen eervAiiver Llavraismist alan mala the feallaisnnnm w~ntthiwnnwer:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p015_b000",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    123,
+    134,
+    2488,
+    363
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "If you run the dunning activity run in simulation mode, you can also test the correspondence creation. If you simulate a run again, but print after the first simulation run, in the second simulation the correspondence container is filled again and you can repeat the print. However, if you do not print between two simulation runs, the data in the correspondence container is overwritten and you can only print once at the end.",
+   "section_id": "doc_026_sec_063"
+  },
+  {
+   "block_id": "doc_026_p015_b001",
+   "type": "heading",
+   "page_number": 15,
+   "bbox": [
+    123,
+    474,
+    383,
+    519
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_064"
+  },
+  {
+   "block_id": "doc_026_p015_b002",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    122,
+    604,
+    2457,
+    1391
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You schedule and start a dunning activity run in the same way as for a dunning proposal run. On the tab page General Selections, enter the run parameters for the dunning proposal run that you want to execute and then schedule the program run. For detailed information, see Functions for Scheduling Program Runs. In the dunning activity run, you can revise the dunning activities defined in Customizing. In event 0351, you can add or delete dunning activities dependent on information from the dunning header (for example, business partner). The program does not process business partners and contract accounts, for which locks exist during the program run due to dialog processing. Depending on whether you choose the \u201cBusiness Partner\u201d or \u201cContract Account\u201d as the parallelization object, the program records all business partners or contract accounts that could not be processed. The job that processes the last interval (this does not have to be the interval with the highest number) selects the business partners and contract accounts that were not processed during the first attempt. If the reason for the lock no longer exists at that time, these business partners or contract accounts are processed, and therefore there is no need to schedule the run again.",
+   "section_id": "doc_026_sec_064"
+  },
+  {
+   "block_id": "doc_026_p015_b003",
+   "type": "heading",
+   "page_number": 15,
+   "bbox": [
+    129,
+    1539,
+    1505,
+    1616
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Interest Calculation for Dunning Items",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_065"
+  },
+  {
+   "block_id": "doc_026_p015_b004",
+   "type": "heading",
+   "page_number": 15,
+   "bbox": [
+    125,
+    1716,
+    225,
+    1762
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_066"
+  },
+  {
+   "block_id": "doc_026_p015_b005",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    125,
+    1849,
+    2061,
+    1887
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "If you want to charge interest on items to be dunned, you can link the interest calculation to a dunning level.",
+   "section_id": "doc_026_sec_066"
+  },
+  {
+   "block_id": "doc_026_p015_b006",
+   "type": "heading",
+   "page_number": 15,
+   "bbox": [
+    126,
+    2000,
+    361,
+    2044
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_067"
+  },
+  {
+   "block_id": "doc_026_p015_b007",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    123,
+    2132,
+    2463,
+    2481
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "If the calculation of interest on items to be dunned is defined for a dunning level, the dunning activity run calculates interest on items with this dunning level automatically. It does this using the item interest calculation application component. The interest calculation is based on the interest calculation rule of the interest key defined in the dunning level. The interest is posted in accordance with the specifications in the system settings for the dunning level.",
+   "section_id": "doc_026_sec_067"
+  },
+  {
+   "block_id": "doc_026_p015_b008",
+   "type": "heading",
+   "page_number": 15,
+   "bbox": [
+    123,
+    2594,
+    383,
+    2639
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_068"
+  },
+  {
+   "block_id": "doc_026_p015_b009",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    122,
+    2723,
+    2401,
+    2761
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "To enable item interest calculation in the dunning activities run, you have to make the following settings in the Implementation",
+   "section_id": "doc_026_sec_068"
+  },
+  {
+   "block_id": "doc_026_p015_b010",
+   "type": "heading",
+   "page_number": 15,
+   "bbox": [
+    123,
+    2788,
+    1116,
+    2827
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "Guide for Contract Accounts Receivable and Payable :",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_069"
+  },
+  {
+   "block_id": "doc_026_p015_b011",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    122,
+    2911,
+    2475,
+    3260
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "If necessary, define the interest key that you want to assign to the dunning level under Business TransactionsInterest Calculationltem Interest CalculationDefine Interest Keys . The interest key contains the interest calculation rules to be used for the interest calculation, and you can define these in the same section of the IMG in the activity Define Interest Calculation Rules . Activate the interest calculation in the dunning activity run and assign the interest key to the required dunning level of the dunning procedure. You do this by double-clicking on the required dunning level of the dunning procedure concerned under Business",
+   "section_id": "doc_026_sec_069"
+  },
+  {
+   "block_id": "doc_026_p015_b012",
+   "type": "fragment",
+   "page_number": 15,
+   "bbox": [
+    123,
+    3281,
+    1852,
+    3300
+   ],
+   "ocr_confidence": 27.0,
+   "flags": [
+    "low_confidence_words:16",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Pe eee aLtn ee TA emlimyw Alatiannnfawntiawsiven TA rememlimw Deen eervAiiver Llavraismist alan mala the feallaisnnnm w~ntthiwnnwer:",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_026_sec_069"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "1c8d667cc3f14208a50dd9f8bab1db50412f70ba061a96400d3da7ec75f48b63"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Dunning Activity Runs",
+  "Key Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_063",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_064",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_065",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_066",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_067",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_068",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_069",
+   "role": "starts_here"
+  }
+ ]
+}

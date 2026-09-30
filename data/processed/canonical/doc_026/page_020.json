@@ -1,0 +1,324 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 20,
+ "source_page_hash": "f03762d6392c983299c8800ba483ae1c7de3819c1ac27ac58859accce98a8bae",
+ "is_cover_page": false,
+ "title": "Dunning by Telephone",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n3. On the General Selections tab, specify the ID of the dunning proposal run that you want to reverse.\n\n4. Execute the run.\n\nFor more information about scheduling the run, see Functions for Scheduling Program Runs.\n\nDunning by Telephone\n\nKey Features\n\nIf you define the function module FKK_SAMPLE_0350_TEL_ITEM as dunning activity in Customizing, the dunning activity run\nautomatically includes business partners that receive a dunning notice in a telephone list. You can then use this list to contact the\nbusiness partners concerned by telephone.\n\nTo process the telephone list, you can use the Dunning Telephone List transaction (transaction FPDUTL) in the SAP Easy Access\nscreen, under: |}Periodic Processing \u00bb For Contract Accounts \u00bb Dunning Notice 3. Several clerks can use this transaction\nsimultaneously. If the call to the dunned business partner has been made, the clerk responsible can set the entry in the list to\n\u201cCompleted\u201d. To give a business partner information during the telephone call, you can use the detailed information for an entry in\nthe telephone list, for example, to access the account balance, to access the objects linked to the dunning notice, and to access\nanother function that you call up installation-specific in event 9011. To document the communication with the business partner in\nthe system, the clerk can also create customer contacts manually or automatically \u2014 depending on how the system is configured.\nIf aclerk has removed an entry from the list for processing, this entry is locked for processing for other clerks. Once processing is\ncomplete, the clerk can set an entry to \u201cCompleted\u201d again, or place it back in the list.\n\nWhen you reverse a dunning notice or a dunning run, the system can automatically delete entries in the telephone list. To do this,\nuse function module FKK_SAMPLE_0395_TEL_ITEM in event 0395. The entry is deleted regardless of its status at this point.\n\nUsing correspondence type 3003, you can use the correspondence recipient control to enter an alternative business partner in the\n\ntelephone list.\n\nAuthorizations\n\nThe activities in the telephone list are protected by the authorization object F_LKKDUTL.\n\nConnection to mySAP CRM\n\nIf you do not process the list created by the dunning activity run in Contract Accounts Receivable and Payable with the transaction\nDunning Notices Telephone List, but want to forward it to an external system, for example, the call center in mySAP CRM, you\nhave to implement events 9010, 9012, and 9013. You can forward the list as follows:\n\ne Automatically in the dunning run\nDefine the function module FKK_TRANSFER_CALL_LIST_1799 in event 1799.\ne Independently of the dunning run\n\nTo do this, start report RFKKMADUTLTRAMF. Make sure you read the report documentation.\n\nUsing an installation-specific function module for event 0395, you keep mySAP CRM up-to-date after you have transferred the\ndata, for example, if an entry is removed from the telephone list again as the result of a reversal of a dunning notice.\n",
+ "cleaned_text": "3 On the General Selections tab, specify the ID of the dunning proposal run that you want to reverse.\n\n4 Execute the run.\n\nFor more information about scheduling the run, see Functions for Scheduling Program Runs.\n\nDunning by Telephone\n\nKey Features\n\nIf you define the function module FKK_SAMPLE_0350_TEL_ITEM as dunning activity in Customizing, the dunning activity run automatically includes business partners that receive a dunning notice in a telephone list. You can then use this list to contact the business partners concerned by telephone. To process the telephone list, you can use the Dunning Telephone List transaction (transaction FPDUTL) in the SAP Easy Access screen, under: |}Periodic Processing \u00bb For Contract Accounts \u00bb Dunning Notice 3. Several clerks can use this transaction simultaneously. If the call to the dunned business partner has been made, the clerk responsible can set the entry in the list to \u201cCompleted\u201d. To give a business partner information during the telephone call, you can use the detailed information for an entry in the telephone list, for example, to access the account balance, to access the objects linked to the dunning notice, and to access another function that you call up installation-specific in event 9011. To document the communication with the business partner in the system, the clerk can also create customer contacts manually or automatically \u2014 depending on how the system is configured. If aclerk has removed an entry from the list for processing, this entry is locked for processing for other clerks. Once processing is complete, the clerk can set an entry to \u201cCompleted\u201d again, or place it back in the list. When you reverse a dunning notice or a dunning run, the system can automatically delete entries in the telephone list. To do this, use function module FKK_SAMPLE_0395_TEL_ITEM in event 0395. The entry is deleted regardless of its status at this point. Using correspondence type 3003, you can use the correspondence recipient control to enter an alternative business partner in the telephone list.\n\nAuthorizations\n\nThe activities in the telephone list are protected by the authorization object F_LKKDUTL.\n\nConnection to mySAP CRM\n\nIf you do not process the list created by the dunning activity run in Contract Accounts Receivable and Payable with the transaction Dunning Notices Telephone List, but want to forward it to an external system, for example, the call center in mySAP CRM, you have to implement events 9010, 9012, and 9013. You can forward the list as follows:\n\n- Automatically in the dunning run Define the function module FKK_TRANSFER_CALL_LIST_1799 in event 1799.\n\n- Independently of the dunning run To do this, start report RFKKMADUTLTRAMF. Make sure you read the report documentation.\n\nUsing an installation-specific function module for event 0395, you keep mySAP CRM up-to-date after you have transferred the data, for example, if an entry is removed from the telephone list again as the result of a reversal of a dunning notice.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p020_b000",
+   "type": "list",
+   "page_number": 20,
+   "bbox": [
+    211,
+    134,
+    2040,
+    266
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "On the General Selections tab, specify the ID of the dunning proposal run that you want to reverse."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Execute the run."
+    }
+   ],
+   "section_id": "doc_026_sec_093"
+  },
+  {
+   "block_id": "doc_026_p020_b001",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    125,
+    354,
+    1791,
+    399
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "For more information about scheduling the run, see Functions for Scheduling Program Runs.",
+   "section_id": "doc_026_sec_093"
+  },
+  {
+   "block_id": "doc_026_p020_b002",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    128,
+    545,
+    921,
+    621
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Dunning by Telephone",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_094"
+  },
+  {
+   "block_id": "doc_026_p020_b003",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    126,
+    721,
+    480,
+    778
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Key Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_095"
+  },
+  {
+   "block_id": "doc_026_p020_b004",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    122,
+    854,
+    2482,
+    2018
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "If you define the function module FKK_SAMPLE_0350_TEL_ITEM as dunning activity in Customizing, the dunning activity run automatically includes business partners that receive a dunning notice in a telephone list. You can then use this list to contact the business partners concerned by telephone. To process the telephone list, you can use the Dunning Telephone List transaction (transaction FPDUTL) in the SAP Easy Access screen, under: |}Periodic Processing \u00bb For Contract Accounts \u00bb Dunning Notice 3. Several clerks can use this transaction simultaneously. If the call to the dunned business partner has been made, the clerk responsible can set the entry in the list to \u201cCompleted\u201d. To give a business partner information during the telephone call, you can use the detailed information for an entry in the telephone list, for example, to access the account balance, to access the objects linked to the dunning notice, and to access another function that you call up installation-specific in event 9011. To document the communication with the business partner in the system, the clerk can also create customer contacts manually or automatically \u2014 depending on how the system is configured. If aclerk has removed an entry from the list for processing, this entry is locked for processing for other clerks. Once processing is complete, the clerk can set an entry to \u201cCompleted\u201d again, or place it back in the list. When you reverse a dunning notice or a dunning run, the system can automatically delete entries in the telephone list. To do this, use function module FKK_SAMPLE_0395_TEL_ITEM in event 0395. The entry is deleted regardless of its status at this point. Using correspondence type 3003, you can use the correspondence recipient control to enter an alternative business partner in the telephone list.",
+   "section_id": "doc_026_sec_095"
+  },
+  {
+   "block_id": "doc_026_p020_b005",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    123,
+    2102,
+    398,
+    2132
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Authorizations",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_096"
+  },
+  {
+   "block_id": "doc_026_p020_b006",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    122,
+    2224,
+    1701,
+    2262
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The activities in the telephone list are protected by the authorization object F_LKKDUTL.",
+   "section_id": "doc_026_sec_096"
+  },
+  {
+   "block_id": "doc_026_p020_b007",
+   "type": "heading",
+   "page_number": 20,
+   "bbox": [
+    123,
+    2348,
+    631,
+    2387
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Connection to mySAP CRM",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_097"
+  },
+  {
+   "block_id": "doc_026_p020_b008",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    124,
+    2470,
+    2475,
+    2633
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "If you do not process the list created by the dunning activity run in Contract Accounts Receivable and Payable with the transaction Dunning Notices Telephone List, but want to forward it to an external system, for example, the call center in mySAP CRM, you have to implement events 9010, 9012, and 9013. You can forward the list as follows:",
+   "section_id": "doc_026_sec_097"
+  },
+  {
+   "block_id": "doc_026_p020_b009",
+   "type": "list",
+   "page_number": 20,
+   "bbox": [
+    207,
+    2716,
+    1916,
+    3063
+   ],
+   "ocr_confidence": 91.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Automatically in the dunning run Define the function module FKK_TRANSFER_CALL_LIST_1799 in event 1799."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Independently of the dunning run To do this, start report RFKKMADUTLTRAMF. Make sure you read the report documentation."
+    }
+   ],
+   "section_id": "doc_026_sec_097"
+  },
+  {
+   "block_id": "doc_026_p020_b010",
+   "type": "paragraph",
+   "page_number": 20,
+   "bbox": [
+    123,
+    3146,
+    2409,
+    3247
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Using an installation-specific function module for event 0395, you keep mySAP CRM up-to-date after you have transferred the data, for example, if an entry is removed from the telephone list again as the result of a reversal of a dunning notice.",
+   "section_id": "doc_026_sec_097"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.0889,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "f03762d6392c983299c8800ba483ae1c7de3819c1ac27ac58859accce98a8bae"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Reversing a Dunning Run",
+  "Activities"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_093",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_094",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_095",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_096",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_097",
+   "role": "starts_here"
+  }
+ ]
+}

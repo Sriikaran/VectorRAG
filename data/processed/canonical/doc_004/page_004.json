@@ -1,0 +1,374 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_004",
+ "page_number": 4,
+ "source_page_hash": "40392034d5923163af05f1fabc0be997953bc77c1cdbf8f0cb8f49464289d665",
+ "is_cover_page": false,
+ "title": "Final Billing",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:41 AM\nYou can also save your changes in the move-out without leaving the move-out screen. To do this, choose Save and Hold.\n\nFinal Billing\n\nIn Customizing under |)*Move-In/Out  Move-Out Define Move-Out Control Parameters at Contract Level 9, you can specify that\n\nan immediate bill is created automatically when the move-out id saved.\n\nMaster Data (Move-Out)\n\nUse\n\nIf the move-out date is in a period for which one of the installations was already billed, the system does not permit you to create\nthe move-out. You must reverse the billing before you can process the move-out.\n\nYou can find additional information in the section on the Master data component.\n\nYou can save changes to business partner and contract account data as scheduled changes. This means that the changes are not\n\nactivated until a future date. This date is determined by subtracting the interval period defined in Customizing from the move-out\ndate. For more information on how to define the interval period, see Customizing under |\\\u00bbSAP Utilities } Customer Service\nProcess Execution \u00bb Move-In/Move-Out \u00bb Define System Parameters for Move-in and Move-Out 3). Scheduled changes are\nactivated by report BUSPCDACT (activation of scheduled change documents for an application object).\n\nMove-out Confirmation Letter\n\nUse\n\nWhen you create or change a move-out, you can print a move-out confirmation letter. To do this, use the application form of the\n\nform class IS_U_CS_MOVE_OUT_NOTIFICATION. You must define this application form in Customizing under |)*Move-In/Out\nMove-Out } Define Move-Out Confirmation Letter 3 ). Under |'Move-Out \u00bb Define Move-Out Control Parameters at Document\nLevel > , you can configure the system to automatically use u user-defined an application form each time you attempt to print a\nmove-out confirmation letter.\n\nYou can find additional information on creating an application form in the section on the Print workbench component.\n\nMeter Reading Data (Move-Out)\n\nUse\n\nWhen you create a move-out, the system automatically creates a meter reading order for all the meter reading-relevant registers\nthat belong to the devices allocated to the installation for billing purposes. A prerequisite is that you have not entered a meter\nreading.\n\nIn Customizing under |Utilities Industry + Customer Service > Process Execution > Move-In/Out \u00bb Move-Out * Define Move-\nOut Control Parameters at Contract Level %, you can determine how these meter reading orders are processed.\n\ne Allregisters to be read by the customer (according to the planned meter reading type) can be printed on a card for meter\n\nraading Avs Rnirctnmar\n",
+ "cleaned_text": "You can also save your changes in the move-out without leaving the move-out screen. To do this, choose Save and Hold.\n\nFinal Billing\n\nIn Customizing under |)*Move-In/Out Move-Out Define Move-Out Control Parameters at Contract Level 9, you can specify that an immediate bill is created automatically when the move-out id saved.\n\nMaster Data (Move-Out)\n\nUse\n\nIf the move-out date is in a period for which one of the installations was already billed, the system does not permit you to create the move-out. You must reverse the billing before you can process the move-out. You can find additional information in the section on the Master data component. You can save changes to business partner and contract account data as scheduled changes. This means that the changes are not activated until a future date. This date is determined by subtracting the interval period defined in Customizing from the move-out date. For more information on how to define the interval period, see Customizing under |\\\u00bbSAP Utilities } Customer Service Process Execution \u00bb Move-In/Move-Out \u00bb Define System Parameters for Move-in and Move-Out 3). Scheduled changes are activated by report BUSPCDACT (activation of scheduled change documents for an application object).\n\nMove-out Confirmation Letter\n\nUse\n\nWhen you create or change a move-out, you can print a move-out confirmation letter. To do this, use the application form of the form class IS_U_CS_MOVE_OUT_NOTIFICATION. You must define this application form in Customizing under |)*Move-In/Out Move-Out } Define Move-Out Confirmation Letter 3 ). Under |'Move-Out \u00bb Define Move-Out Control Parameters at Document Level > , you can configure the system to automatically use u user-defined an application form each time you attempt to print a move-out confirmation letter. You can find additional information on creating an application form in the section on the Print workbench component.\n\nMeter Reading Data (Move-Out)\n\nUse\n\nWhen you create a move-out, the system automatically creates a meter reading order for all the meter reading-relevant registers that belong to the devices allocated to the installation for billing purposes. A prerequisite is that you have not entered a meter reading. In Customizing under |Utilities Industry + Customer Service > Process Execution > Move-In/Out \u00bb Move-Out * Define Move- Out Control Parameters at Contract Level %, you can determine how these meter reading orders are processed.\n\n- Allregisters to be read by the customer (according to the planned meter reading type) can be printed on a card for meter\n\nraading Avs Rnirctnmar",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:41 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_004_p004_b000",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    123,
+    134,
+    2284,
+    172
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "You can also save your changes in the move-out without leaving the move-out screen. To do this, choose Save and Hold.",
+   "section_id": "doc_004_sec_012"
+  },
+  {
+   "block_id": "doc_004_p004_b001",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    124,
+    256,
+    338,
+    294
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Final Billing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_004_sec_013"
+  },
+  {
+   "block_id": "doc_004_p004_b002",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    123,
+    373,
+    2471,
+    481
+   ],
+   "ocr_confidence": 89.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "In Customizing under |)*Move-In/Out Move-Out Define Move-Out Control Parameters at Contract Level 9, you can specify that an immediate bill is created automatically when the move-out id saved.",
+   "section_id": "doc_004_sec_013"
+  },
+  {
+   "block_id": "doc_004_p004_b003",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    128,
+    627,
+    1004,
+    703
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [],
+   "text": "Master Data (Move-Out)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_004_sec_014"
+  },
+  {
+   "block_id": "doc_004_p004_b004",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    124,
+    779,
+    191,
+    808
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_004_sec_015"
+  },
+  {
+   "block_id": "doc_004_p004_b005",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    900,
+    2462,
+    1496
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "If the move-out date is in a period for which one of the installations was already billed, the system does not permit you to create the move-out. You must reverse the billing before you can process the move-out. You can find additional information in the section on the Master data component. You can save changes to business partner and contract account data as scheduled changes. This means that the changes are not activated until a future date. This date is determined by subtracting the interval period defined in Customizing from the move-out date. For more information on how to define the interval period, see Customizing under |\\\u00bbSAP Utilities } Customer Service Process Execution \u00bb Move-In/Move-Out \u00bb Define System Parameters for Move-in and Move-Out 3). Scheduled changes are activated by report BUSPCDACT (activation of scheduled change documents for an application object).",
+   "section_id": "doc_004_sec_015"
+  },
+  {
+   "block_id": "doc_004_p004_b006",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    128,
+    1645,
+    1206,
+    1706
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Move-out Confirmation Letter",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_004_sec_016"
+  },
+  {
+   "block_id": "doc_004_p004_b007",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    124,
+    1794,
+    191,
+    1824
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Use",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_004_sec_017"
+  },
+  {
+   "block_id": "doc_004_p004_b008",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    1915,
+    2477,
+    2327
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "text": "When you create or change a move-out, you can print a move-out confirmation letter. To do this, use the application form of the form class IS_U_CS_MOVE_OUT_NOTIFICATION. You must define this application form in Customizing under |)*Move-In/Out Move-Out } Define Move-Out Confirmation Letter 3 ). Under |'Move-Out \u00bb Define Move-Out Control Parameters at Document Level > , you can configure the system to automatically use u user-defined an application form each time you attempt to print a move-out confirmation letter. You can find additional information on creating an application form in the section on the Print workbench component.",
+   "section_id": "doc_004_sec_017"
+  },
+  {
+   "block_id": "doc_004_p004_b009",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    128,
+    2476,
+    1279,
+    2553
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "text": "Meter Reading Data (Move-Out)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_004_sec_018"
+  },
+  {
+   "block_id": "doc_004_p004_b010",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    125,
+    2653,
+    225,
+    2698
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_004_sec_019"
+  },
+  {
+   "block_id": "doc_004_p004_b011",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    2785,
+    2442,
+    3135
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "When you create a move-out, the system automatically creates a meter reading order for all the meter reading-relevant registers that belong to the devices allocated to the installation for billing purposes. A prerequisite is that you have not entered a meter reading. In Customizing under |Utilities Industry + Customer Service > Process Execution > Move-In/Out \u00bb Move-Out * Define Move- Out Control Parameters at Contract Level %, you can determine how these meter reading orders are processed.",
+   "section_id": "doc_004_sec_019"
+  },
+  {
+   "block_id": "doc_004_p004_b012",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    207,
+    3219,
+    2443,
+    3257
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Allregisters to be read by the customer (according to the planned meter reading type) can be printed on a card for meter"
+    }
+   ],
+   "section_id": "doc_004_sec_019"
+  },
+  {
+   "block_id": "doc_004_p004_b013",
+   "type": "fragment",
+   "page_number": 4,
+   "bbox": [
+    256,
+    3282,
+    627,
+    3300
+   ],
+   "ocr_confidence": 39.1,
+   "flags": [
+    "low_confidence_words:2",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "raading Avs Rnirctnmar",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_004_sec_019"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-Out Process",
+  "source_pdf": "4.pdf",
+  "reference_pdf": "04_Move_Out_Process.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use for service stop, final meter reading, final billing and downstream account effects.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "40392034d5923163af05f1fabc0be997953bc77c1cdbf8f0cb8f49464289d665"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:32Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-Out Process",
+  "Move-Out",
+  "Activities",
+  "Save"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_004_sec_012",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_004_sec_013",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_004_sec_014",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_004_sec_015",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_004_sec_016",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_004_sec_017",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_004_sec_018",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_004_sec_019",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,332 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 87,
+ "source_page_hash": "878c43676f88e9bce93723b211dffd7ae0a6bd6d59f84115c95d2ada1f30bc78",
+ "is_cover_page": false,
+ "title": "Se Example",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nSupplier\nSUPP\n\nGrid usage               nergy supply\n\ncontract                        contract\n$.Prov:DISTO1                    S.Prov: SUPP\n\nInvoicing: SUPP              Invoicing: SUPP\nPymt class: CP                   Pymt class: \u2018 *\n\nInstallation                Installation\n\n5S. Type: DIST                   S.Type: SUPP\nBilling: DIST01                Billing: SUPP\n\nThe payment process is determined from the combination of the payment class and service provider DISTO1. Subsequent\nprocessing of the incoming bill (when and how payment is made) is determined from the payment process.\n\n3. Invoicing by another service provider (distributor's perspective)\n\nSe Example\n\nThe distributor sends the bill to the supplier. The supplier invoices the bill as billing agent.\n\nThe distributor has created a grid usage contract in which they are entered as the service provider, and the supplier SUPP is\nentered as the invoicing service provider.\n",
+ "cleaned_text": "Supplier SUPP\n\nGrid usage | nergy supply\n\ncontract | contract\n\n$.Prov:DISTO1 | S.Prov: SUPP\n\nInvoicing: SUPP | Invoicing: SUPP\n\nPymt class: CP | Pymt class: \u2018 *\n\nInstallation | Installation\n\n5S. Type: DIST | S.Type: SUPP\n\nBilling: DIST01 | Billing: SUPP\n\nThe payment process is determined from the combination of the payment class and service provider DISTO1. Subsequent processing of the incoming bill (when and how payment is made) is determined from the payment process.\n\n3 Invoicing by another service provider (distributor's perspective)\n\nSe Example\n\nThe distributor sends the bill to the supplier. The supplier invoices the bill as billing agent.\n\nThe distributor has created a grid usage contract in which they are entered as the service provider, and the supplier SUPP is entered as the invoicing service provider.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p087_b000",
+   "type": "paragraph",
+   "page_number": 87,
+   "bbox": [
+    837,
+    239,
+    1308,
+    440
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Supplier SUPP",
+   "section_id": "doc_001_sec_341"
+  },
+  {
+   "block_id": "doc_001_p087_b001",
+   "type": "table",
+   "page_number": 87,
+   "bbox": [
+    462,
+    1074,
+    1712,
+    1446
+   ],
+   "ocr_confidence": 85.6,
+   "flags": [
+    "low_confidence_words:4",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    462,
+    495,
+    541,
+    1209,
+    1245,
+    1288
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Grid usage",
+     "nergy supply"
+    ],
+    [
+     "contract",
+     "contract"
+    ],
+    [
+     "$.Prov:DISTO1",
+     "S.Prov: SUPP"
+    ],
+    [
+     "Invoicing: SUPP",
+     "Invoicing: SUPP"
+    ],
+    [
+     "Pymt class: CP",
+     "Pymt class: \u2018 *"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Grid usage",
+     "nergy supply"
+    ],
+    [
+     "contract",
+     "contract"
+    ],
+    [
+     "$.Prov:DISTO1",
+     "S.Prov: SUPP"
+    ],
+    [
+     "Invoicing: SUPP",
+     "Invoicing: SUPP"
+    ],
+    [
+     "Pymt class: CP",
+     "Pymt class: \u2018 *"
+    ]
+   ],
+   "section_id": "doc_001_sec_341"
+  },
+  {
+   "block_id": "doc_001_p087_b002",
+   "type": "table",
+   "page_number": 87,
+   "bbox": [
+    495,
+    1701,
+    1633,
+    1919
+   ],
+   "ocr_confidence": 70.7,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    495,
+    1212
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Installation",
+     "Installation"
+    ],
+    [
+     "5S. Type: DIST",
+     "S.Type: SUPP"
+    ],
+    [
+     "Billing: DIST01",
+     "Billing: SUPP"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Installation",
+     "Installation"
+    ],
+    [
+     "5S. Type: DIST",
+     "S.Type: SUPP"
+    ],
+    [
+     "Billing: DIST01",
+     "Billing: SUPP"
+    ]
+   ],
+   "section_id": "doc_001_sec_341"
+  },
+  {
+   "block_id": "doc_001_p087_b003",
+   "type": "paragraph",
+   "page_number": 87,
+   "bbox": [
+    254,
+    2539,
+    2455,
+    2640
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The payment process is determined from the combination of the payment class and service provider DISTO1. Subsequent processing of the incoming bill (when and how payment is made) is determined from the payment process.",
+   "section_id": "doc_001_sec_341"
+  },
+  {
+   "block_id": "doc_001_p087_b004",
+   "type": "list",
+   "page_number": 87,
+   "bbox": [
+    211,
+    2703,
+    1442,
+    2741
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Invoicing by another service provider (distributor's perspective)"
+    }
+   ],
+   "section_id": "doc_001_sec_341"
+  },
+  {
+   "block_id": "doc_001_p087_b005",
+   "type": "heading",
+   "page_number": 87,
+   "bbox": [
+    151,
+    2840,
+    433,
+    2895
+   ],
+   "ocr_confidence": 73.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Se Example",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_342"
+  },
+  {
+   "block_id": "doc_001_p087_b006",
+   "type": "paragraph",
+   "page_number": 87,
+   "bbox": [
+    152,
+    2927,
+    1765,
+    2965
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The distributor sends the bill to the supplier. The supplier invoices the bill as billing agent.",
+   "section_id": "doc_001_sec_342"
+  },
+  {
+   "block_id": "doc_001_p087_b007",
+   "type": "paragraph",
+   "page_number": 87,
+   "bbox": [
+    122,
+    3084,
+    2359,
+    3185
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The distributor has created a grid usage contract in which they are entered as the service provider, and the supplier SUPP is entered as the invoicing service provider.",
+   "section_id": "doc_001_sec_342"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 72,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "878c43676f88e9bce93723b211dffd7ae0a6bd6d59f84115c95d2ada1f30bc78"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Payment Class"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_341",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_342",
+   "role": "starts_here"
+  }
+ ]
+}

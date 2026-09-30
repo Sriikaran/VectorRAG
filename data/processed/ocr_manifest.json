@@ -1,0 +1,319 @@
+{
+ "generated_at": "2026-09-30T14:02:24Z",
+ "run_mode": "full",
+ "ocr_engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+ "processing_settings": {
+  "oem": 1,
+  "psm": 3,
+  "dpi": 300,
+  "language": "eng",
+  "colorspace": "grayscale",
+  "variables": {
+   "preserve_interword_spaces": "1"
+  },
+  "tessdata_dir": "/home/user/VectorRAG/tessdata",
+  "render": "full page via PyMuPDF (never per-image-block)"
+ },
+ "started_at": "2026-09-30T14:02:24Z",
+ "finished_at": "2026-09-30T14:02:24Z",
+ "total_documents": 29,
+ "total_pages": 501,
+ "pages_processed": 501,
+ "pages_failed": 0,
+ "pages_with_text": 501,
+ "total_characters": 998154,
+ "total_words": 145856,
+ "mean_confidence": 92.5,
+ "documents": [
+  {
+   "document_id": "doc_001",
+   "source_pdf": "1.pdf",
+   "expected_pages": 117,
+   "pages_ocr_completed": 117,
+   "pages_with_text": 117,
+   "total_characters": 255230,
+   "total_words": 37532,
+   "mean_confidence": 92.4
+  },
+  {
+   "document_id": "doc_002",
+   "source_pdf": "2.pdf",
+   "expected_pages": 21,
+   "pages_ocr_completed": 21,
+   "pages_with_text": 21,
+   "total_characters": 47379,
+   "total_words": 7384,
+   "mean_confidence": 92.8
+  },
+  {
+   "document_id": "doc_003",
+   "source_pdf": "3.pdf",
+   "expected_pages": 8,
+   "pages_ocr_completed": 8,
+   "pages_with_text": 8,
+   "total_characters": 19147,
+   "total_words": 2954,
+   "mean_confidence": 93.2
+  },
+  {
+   "document_id": "doc_004",
+   "source_pdf": "4.pdf",
+   "expected_pages": 5,
+   "pages_ocr_completed": 5,
+   "pages_with_text": 5,
+   "total_characters": 8819,
+   "total_words": 1351,
+   "mean_confidence": 93.0
+  },
+  {
+   "document_id": "doc_005",
+   "source_pdf": "5.pdf",
+   "expected_pages": 3,
+   "pages_ocr_completed": 3,
+   "pages_with_text": 3,
+   "total_characters": 3588,
+   "total_words": 413,
+   "mean_confidence": 93.0
+  },
+  {
+   "document_id": "doc_006",
+   "source_pdf": "6.pdf",
+   "expected_pages": 105,
+   "pages_ocr_completed": 105,
+   "pages_with_text": 105,
+   "total_characters": 195098,
+   "total_words": 28363,
+   "mean_confidence": 92.0
+  },
+  {
+   "document_id": "doc_007",
+   "source_pdf": "7.pdf",
+   "expected_pages": 4,
+   "pages_ocr_completed": 4,
+   "pages_with_text": 4,
+   "total_characters": 5218,
+   "total_words": 671,
+   "mean_confidence": 93.2
+  },
+  {
+   "document_id": "doc_008",
+   "source_pdf": "8.pdf",
+   "expected_pages": 2,
+   "pages_ocr_completed": 2,
+   "pages_with_text": 2,
+   "total_characters": 954,
+   "total_words": 117,
+   "mean_confidence": 94.5
+  },
+  {
+   "document_id": "doc_009",
+   "source_pdf": "9.pdf",
+   "expected_pages": 9,
+   "pages_ocr_completed": 9,
+   "pages_with_text": 9,
+   "total_characters": 16244,
+   "total_words": 2365,
+   "mean_confidence": 92.3
+  },
+  {
+   "document_id": "doc_010",
+   "source_pdf": "10.pdf",
+   "expected_pages": 2,
+   "pages_ocr_completed": 2,
+   "pages_with_text": 2,
+   "total_characters": 2636,
+   "total_words": 397,
+   "mean_confidence": 93.0
+  },
+  {
+   "document_id": "doc_011",
+   "source_pdf": "11.pdf",
+   "expected_pages": 78,
+   "pages_ocr_completed": 78,
+   "pages_with_text": 78,
+   "total_characters": 160639,
+   "total_words": 24004,
+   "mean_confidence": 91.7
+  },
+  {
+   "document_id": "doc_012",
+   "source_pdf": "12.pdf",
+   "expected_pages": 3,
+   "pages_ocr_completed": 3,
+   "pages_with_text": 3,
+   "total_characters": 2591,
+   "total_words": 377,
+   "mean_confidence": 94.0
+  },
+  {
+   "document_id": "doc_013",
+   "source_pdf": "13.pdf",
+   "expected_pages": 2,
+   "pages_ocr_completed": 2,
+   "pages_with_text": 2,
+   "total_characters": 1852,
+   "total_words": 269,
+   "mean_confidence": 94.0
+  },
+  {
+   "document_id": "doc_014",
+   "source_pdf": "14.pdf",
+   "expected_pages": 3,
+   "pages_ocr_completed": 3,
+   "pages_with_text": 3,
+   "total_characters": 3643,
+   "total_words": 529,
+   "mean_confidence": 94.7
+  },
+  {
+   "document_id": "doc_015",
+   "source_pdf": "15.pdf",
+   "expected_pages": 3,
+   "pages_ocr_completed": 3,
+   "pages_with_text": 3,
+   "total_characters": 4404,
+   "total_words": 671,
+   "mean_confidence": 94.0
+  },
+  {
+   "document_id": "doc_016",
+   "source_pdf": "16.pdf",
+   "expected_pages": 3,
+   "pages_ocr_completed": 3,
+   "pages_with_text": 3,
+   "total_characters": 2939,
+   "total_words": 434,
+   "mean_confidence": 93.7
+  },
+  {
+   "document_id": "doc_017",
+   "source_pdf": "17.pdf",
+   "expected_pages": 18,
+   "pages_ocr_completed": 18,
+   "pages_with_text": 18,
+   "total_characters": 36529,
+   "total_words": 5657,
+   "mean_confidence": 93.6
+  },
+  {
+   "document_id": "doc_018",
+   "source_pdf": "18.pdf",
+   "expected_pages": 26,
+   "pages_ocr_completed": 26,
+   "pages_with_text": 26,
+   "total_characters": 45138,
+   "total_words": 5224,
+   "mean_confidence": 93.3
+  },
+  {
+   "document_id": "doc_019",
+   "source_pdf": "19.pdf",
+   "expected_pages": 3,
+   "pages_ocr_completed": 3,
+   "pages_with_text": 3,
+   "total_characters": 4104,
+   "total_words": 636,
+   "mean_confidence": 94.0
+  },
+  {
+   "document_id": "doc_020",
+   "source_pdf": "20.pdf",
+   "expected_pages": 2,
+   "pages_ocr_completed": 2,
+   "pages_with_text": 2,
+   "total_characters": 1518,
+   "total_words": 204,
+   "mean_confidence": 92.5
+  },
+  {
+   "document_id": "doc_021",
+   "source_pdf": "21.pdf",
+   "expected_pages": 3,
+   "pages_ocr_completed": 3,
+   "pages_with_text": 3,
+   "total_characters": 4186,
+   "total_words": 431,
+   "mean_confidence": 94.0
+  },
+  {
+   "document_id": "doc_022",
+   "source_pdf": "22.pdf",
+   "expected_pages": 9,
+   "pages_ocr_completed": 9,
+   "pages_with_text": 9,
+   "total_characters": 17908,
+   "total_words": 2406,
+   "mean_confidence": 90.8
+  },
+  {
+   "document_id": "doc_023",
+   "source_pdf": "23.pdf",
+   "expected_pages": 2,
+   "pages_ocr_completed": 2,
+   "pages_with_text": 2,
+   "total_characters": 1898,
+   "total_words": 275,
+   "mean_confidence": 94.5
+  },
+  {
+   "document_id": "doc_024",
+   "source_pdf": "24.pdf",
+   "expected_pages": 3,
+   "pages_ocr_completed": 3,
+   "pages_with_text": 3,
+   "total_characters": 5593,
+   "total_words": 841,
+   "mean_confidence": 93.7
+  },
+  {
+   "document_id": "doc_025",
+   "source_pdf": "25.pdf",
+   "expected_pages": 3,
+   "pages_ocr_completed": 3,
+   "pages_with_text": 3,
+   "total_characters": 4687,
+   "total_words": 676,
+   "mean_confidence": 93.3
+  },
+  {
+   "document_id": "doc_026",
+   "source_pdf": "26.pdf",
+   "expected_pages": 31,
+   "pages_ocr_completed": 31,
+   "pages_with_text": 31,
+   "total_characters": 76667,
+   "total_words": 11691,
+   "mean_confidence": 93.1
+  },
+  {
+   "document_id": "doc_027",
+   "source_pdf": "27.pdf",
+   "expected_pages": 10,
+   "pages_ocr_completed": 10,
+   "pages_with_text": 10,
+   "total_characters": 24496,
+   "total_words": 3688,
+   "mean_confidence": 92.8
+  },
+  {
+   "document_id": "doc_028",
+   "source_pdf": "28.pdf",
+   "expected_pages": 3,
+   "pages_ocr_completed": 3,
+   "pages_with_text": 3,
+   "total_characters": 4826,
+   "total_words": 668,
+   "mean_confidence": 92.0
+  },
+  {
+   "document_id": "doc_029",
+   "source_pdf": "29.pdf",
+   "expected_pages": 20,
+   "pages_ocr_completed": 20,
+   "pages_with_text": 20,
+   "total_characters": 40223,
+   "total_words": 5628,
+   "mean_confidence": 92.9
+  }
+ ]
+}

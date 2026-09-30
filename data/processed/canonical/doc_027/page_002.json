@@ -1,0 +1,392 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_027",
+ "page_number": 2,
+ "source_page_hash": "cb59848012637c3379515834d9d7ab47cba63d37d6b0603686ae48fd3885cac4",
+ "is_cover_page": false,
+ "title": "Submission of Receivables to Collection Agency",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:16 AM\n\nSubmission of Receivables to Collection Agency\n\nPurpose\n\nYou can use the following functions to submit receivables, make required postings, and process the exchange of information with\n\ncollection agencies:\n\ne Releasing Receivables for Collection\n\ne Submission of Receivables to Collection Agency\n\ne Processing and Managing Collection Items\n\ne Recalling Submitted Receivables\n\ne Forwarding Information to Collection Agencies\n\ne Processing of Incoming Information from Collection Agencies\n\nProcess Flow\n\nIn the system receivables are submitted in two steps. First you have to release the items for collection. Then you can submit the\nreleased items. The collection items created are recorded in the system. You can carry out the release and submission of the items\nmanually, automatically as a mass run, or automatically in other business transactions. The system can determine the collection\nagency to which the receivables are to be submitted automatically during release or you can specify a collection agency when you\nsubmit. For the submission, the system checks whether the items entered manually or selected by the release run have a status\nthat permits submission. For each collection agency, it creates a list and/or a submission file with all information relevant for\ncollecting the receivables and calls the corresponding API for the submission. You can generally submit all items with Receivable\nReleased for Submission (01) or Receivable Called Back (09) status.\n\nCommunicating with Collection Agencies by Using Enterprise\nServices or APIs\n\nUse\n\nYou can communicate with your collection agencies by using files (creation of submission and information files, import of\ncollection agency files) or by using Enterprise Services or APIs. SAP provides the necessary APIs and Enterprise Services, and a\nservice-oriented interface. If you activate the service-oriented interface, it replaces the file interface and offers the following\n\nadditional functions:\n\ne Groupings of collection items for submission, along with external grouping information (external collection cases or court\ncases), are supported by the application in the form of collection units.\n\ne External status information on the progress of processing is integrated in the submitting company's own status information\nby using the collection history (SAP Easy Access screen: |\u00bbAccount Further Information \u00bb Collection History\n\n(transaction FPCOLLHIST).\n\ne Pavments renorted by the collection agency result in the nostinge of receivables which are credited to the collection acencv.\n",
+ "cleaned_text": "Submission of Receivables to Collection Agency\n\nPurpose\n\nYou can use the following functions to submit receivables, make required postings, and process the exchange of information with collection agencies:\n\n- Releasing Receivables for Collection\n\n- Submission of Receivables to Collection Agency\n\n- Processing and Managing Collection Items\n\n- Recalling Submitted Receivables\n\n- Forwarding Information to Collection Agencies\n\n- Processing of Incoming Information from Collection Agencies\n\nProcess Flow\n\nIn the system receivables are submitted in two steps. First you have to release the items for collection. Then you can submit the released items. The collection items created are recorded in the system. You can carry out the release and submission of the items manually, automatically as a mass run, or automatically in other business transactions. The system can determine the collection agency to which the receivables are to be submitted automatically during release or you can specify a collection agency when you submit. For the submission, the system checks whether the items entered manually or selected by the release run have a status that permits submission. For each collection agency, it creates a list and/or a submission file with all information relevant for collecting the receivables and calls the corresponding API for the submission. You can generally submit all items with Receivable Released for Submission (01) or Receivable Called Back (09) status.\n\nCommunicating with Collection Agencies by Using Enterprise\n\nServices or APIs\n\nUse\n\nYou can communicate with your collection agencies by using files (creation of submission and information files, import of collection agency files) or by using Enterprise Services or APIs. SAP provides the necessary APIs and Enterprise Services, and a service-oriented interface. If you activate the service-oriented interface, it replaces the file interface and offers the following additional functions:\n\n- Groupings of collection items for submission, along with external grouping information (external collection cases or court cases), are supported by the application in the form of collection units.\n\n- External status information on the progress of processing is integrated in the submitting company's own status information by using the collection history (SAP Easy Access screen: |\u00bbAccount Further Information \u00bb Collection History\n\n(transaction FPCOLLHIST).\n\n- Pavments renorted by the collection agency result in the nostinge of receivables which are credited to the collection acencv.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:16 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_027_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    254,
+    1855,
+    331
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Submission of Receivables to Collection Agency",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_000"
+  },
+  {
+   "block_id": "doc_027_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    435,
+    351,
+    490
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Purpose",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_001"
+  },
+  {
+   "block_id": "doc_027_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    564,
+    2442,
+    667
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You can use the following functions to submit receivables, make required postings, and process the exchange of information with collection agencies:",
+   "section_id": "doc_027_sec_001"
+  },
+  {
+   "block_id": "doc_027_p002_b003",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    206,
+    750,
+    1362,
+    1299
+   ],
+   "ocr_confidence": 93.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Releasing Receivables for Collection"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Submission of Receivables to Collection Agency"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Processing and Managing Collection Items"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Recalling Submitted Receivables"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Forwarding Information to Collection Agencies"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Processing of Incoming Information from Collection Agencies"
+    }
+   ],
+   "section_id": "doc_027_sec_001"
+  },
+  {
+   "block_id": "doc_027_p002_b004",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    1411,
+    487,
+    1457
+   ],
+   "ocr_confidence": 97.0,
+   "flags": [],
+   "text": "Process Flow",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_002"
+  },
+  {
+   "block_id": "doc_027_p002_b005",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    1544,
+    2472,
+    2021
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "In the system receivables are submitted in two steps. First you have to release the items for collection. Then you can submit the released items. The collection items created are recorded in the system. You can carry out the release and submission of the items manually, automatically as a mass run, or automatically in other business transactions. The system can determine the collection agency to which the receivables are to be submitted automatically during release or you can specify a collection agency when you submit. For the submission, the system checks whether the items entered manually or selected by the release run have a status that permits submission. For each collection agency, it creates a list and/or a submission file with all information relevant for collecting the receivables and calls the corresponding API for the submission. You can generally submit all items with Receivable Released for Submission (01) or Receivable Called Back (09) status.",
+   "section_id": "doc_027_sec_002"
+  },
+  {
+   "block_id": "doc_027_p002_b006",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    2169,
+    2336,
+    2245
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Communicating with Collection Agencies by Using Enterprise",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_003"
+  },
+  {
+   "block_id": "doc_027_p002_b007",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    2255,
+    709,
+    2316
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Services or APIs",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_004"
+  },
+  {
+   "block_id": "doc_027_p002_b008",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    2431,
+    225,
+    2476
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_005"
+  },
+  {
+   "block_id": "doc_027_p002_b009",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    2563,
+    2419,
+    2784
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "You can communicate with your collection agencies by using files (creation of submission and information files, import of collection agency files) or by using Enterprise Services or APIs. SAP provides the necessary APIs and Enterprise Services, and a service-oriented interface. If you activate the service-oriented interface, it replaces the file interface and offers the following additional functions:",
+   "section_id": "doc_027_sec_005"
+  },
+  {
+   "block_id": "doc_027_p002_b010",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    206,
+    2875,
+    2484,
+    3143
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Groupings of collection items for submission, along with external grouping information (external collection cases or court cases), are supported by the application in the form of collection units."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "External status information on the progress of processing is integrated in the submitting company's own status information by using the collection history (SAP Easy Access screen: |\u00bbAccount Further Information \u00bb Collection History"
+    }
+   ],
+   "section_id": "doc_027_sec_005"
+  },
+  {
+   "block_id": "doc_027_p002_b011",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    255,
+    3168,
+    763,
+    3208
+   ],
+   "ocr_confidence": 78.6,
+   "flags": [],
+   "text": "(transaction FPCOLLHIST).",
+   "section_id": "doc_027_sec_005"
+  },
+  {
+   "block_id": "doc_027_p002_b012",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    3272,
+    2469,
+    3300
+   ],
+   "ocr_confidence": 85.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Pavments renorted by the collection agency result in the nostinge of receivables which are credited to the collection acencv."
+    }
+   ],
+   "section_id": "doc_027_sec_005"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Submission of Receivables to Collection Agency",
+  "source_pdf": "27.pdf",
+  "reference_pdf": "27_Submission_of_Receivables_to_Collection_Agency.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Useful for late-stage collections and external-agency lifecycle knowledge.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "cb59848012637c3379515834d9d7ab47cba63d37d6b0603686ae48fd3885cac4"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Submission of Receivables to Collection Agency"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_027_sec_000",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_027_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_003",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_004",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_005",
+   "role": "starts_here"
+  }
+ ]
+}

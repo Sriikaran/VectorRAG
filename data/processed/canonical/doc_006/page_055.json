@@ -1,0 +1,436 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 55,
+ "source_page_hash": "21c5e4a1410df8b31fc79b29a144a1e7ec17827f8d45c49a1c5915e415f5dcb9",
+ "is_cover_page": false,
+ "title": "Use",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nUse\n\nYou can use this function to enter a large number of meter reading results manually. Fast entry is normally used for periodic meter\nreadings.\n\nPrerequisites\n\nBefore you can use this function you must create a meter reading order. Once the meter reading order has been created, meter\nreading documents are printed and distributed to meter readers. The data to be entered, such as meter readings, notes, or the\nmeter reading date, is usually copied from the meter reading documents.\n\nFeatures\n\nThere are two types of fast entry:\ne Fast entry without correction\n\nWhen meter reading results are entered, the meter reading is validated (if there is zero consumption, for example). If the meter\nreading result fails the validation, it is reset and must be processed in a further step (by the agent, for example). It is not possible to\nrelease the meter reading during fast entry without correction.\n\ne Fast entry with correction\n\nIf the meter reading fails the validation, it can be released during fast entry with correction.\n\nActivities\nInitial Screen\n\nAll meter readings that are allocated to a single meter reading unit and that have the same target meter reading date can be\nentered together. Data to be entered, such as the meter reading unit, target meter reading date, and meter reading reason can be\n\ncopied from the meter reading documents. If no target meter reading date is entered, a list appears containing target meter\nreading dates for which meter reading orders exist.\n\nEntry Screen\n\nAn empty table appears on the entry screen. There is a unique entry number for each meter reading. This number is used to\nidentify and display the corresponding meter reading order for the readings.\n\nYou can specify the following meter reading data for fast entry:\n\ne Entry number (only for fast entry)\ne Meter reading\ne Meter reading date\n\ne Note from meter reader\n\ne Actual meter reading type\n\nRAAdaAep preatHar\n",
+ "cleaned_text": "Use\n\nYou can use this function to enter a large number of meter reading results manually. Fast entry is normally used for periodic meter readings.\n\nPrerequisites\n\nBefore you can use this function you must create a meter reading order. Once the meter reading order has been created, meter reading documents are printed and distributed to meter readers. The data to be entered, such as meter readings, notes, or the meter reading date, is usually copied from the meter reading documents.\n\nFeatures\n\nThere are two types of fast entry:\n\n- Fast entry without correction\n\nWhen meter reading results are entered, the meter reading is validated (if there is zero consumption, for example). If the meter reading result fails the validation, it is reset and must be processed in a further step (by the agent, for example). It is not possible to release the meter reading during fast entry without correction.\n\n- Fast entry with correction\n\nIf the meter reading fails the validation, it can be released during fast entry with correction.\n\nActivities\n\nInitial Screen\n\nAll meter readings that are allocated to a single meter reading unit and that have the same target meter reading date can be entered together. Data to be entered, such as the meter reading unit, target meter reading date, and meter reading reason can be copied from the meter reading documents. If no target meter reading date is entered, a list appears containing target meter reading dates for which meter reading orders exist.\n\nEntry Screen\n\nAn empty table appears on the entry screen. There is a unique entry number for each meter reading. This number is used to identify and display the corresponding meter reading order for the readings. You can specify the following meter reading data for fast entry:\n\n- Entry number (only for fast entry)\n\n- Meter reading\n\n- Meter reading date\n\n- Note from meter reader\n\n- Actual meter reading type\n\nRAAdaAep preatHar",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p055_b000",
+   "type": "heading",
+   "page_number": 55,
+   "bbox": [
+    125,
+    126,
+    225,
+    172
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_110"
+  },
+  {
+   "block_id": "doc_006_p055_b001",
+   "type": "paragraph",
+   "page_number": 55,
+   "bbox": [
+    123,
+    259,
+    2474,
+    359
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You can use this function to enter a large number of meter reading results manually. Fast entry is normally used for periodic meter readings.",
+   "section_id": "doc_006_sec_110"
+  },
+  {
+   "block_id": "doc_006_p055_b002",
+   "type": "heading",
+   "page_number": 55,
+   "bbox": [
+    126,
+    471,
+    492,
+    528
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_111"
+  },
+  {
+   "block_id": "doc_006_p055_b003",
+   "type": "paragraph",
+   "page_number": 55,
+   "bbox": [
+    124,
+    604,
+    2416,
+    767
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Before you can use this function you must create a meter reading order. Once the meter reading order has been created, meter reading documents are printed and distributed to meter readers. The data to be entered, such as meter readings, notes, or the meter reading date, is usually copied from the meter reading documents.",
+   "section_id": "doc_006_sec_111"
+  },
+  {
+   "block_id": "doc_006_p055_b004",
+   "type": "heading",
+   "page_number": 55,
+   "bbox": [
+    126,
+    879,
+    361,
+    924
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_112"
+  },
+  {
+   "block_id": "doc_006_p055_b005",
+   "type": "paragraph",
+   "page_number": 55,
+   "bbox": [
+    122,
+    1012,
+    718,
+    1049
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "There are two types of fast entry:",
+   "section_id": "doc_006_sec_112"
+  },
+  {
+   "block_id": "doc_006_p055_b006",
+   "type": "list",
+   "page_number": 55,
+   "bbox": [
+    207,
+    1134,
+    777,
+    1171
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Fast entry without correction"
+    }
+   ],
+   "section_id": "doc_006_sec_112"
+  },
+  {
+   "block_id": "doc_006_p055_b007",
+   "type": "paragraph",
+   "page_number": 55,
+   "bbox": [
+    123,
+    1255,
+    2488,
+    1421
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "When meter reading results are entered, the meter reading is validated (if there is zero consumption, for example). If the meter reading result fails the validation, it is reset and must be processed in a further step (by the agent, for example). It is not possible to release the meter reading during fast entry without correction.",
+   "section_id": "doc_006_sec_112"
+  },
+  {
+   "block_id": "doc_006_p055_b008",
+   "type": "list",
+   "page_number": 55,
+   "bbox": [
+    207,
+    1505,
+    716,
+    1542
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Fast entry with correction"
+    }
+   ],
+   "section_id": "doc_006_sec_112"
+  },
+  {
+   "block_id": "doc_006_p055_b009",
+   "type": "paragraph",
+   "page_number": 55,
+   "bbox": [
+    125,
+    1626,
+    1762,
+    1663
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "If the meter reading fails the validation, it can be released during fast entry with correction.",
+   "section_id": "doc_006_sec_112"
+  },
+  {
+   "block_id": "doc_006_p055_b010",
+   "type": "heading",
+   "page_number": 55,
+   "bbox": [
+    123,
+    1776,
+    383,
+    1821
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_113"
+  },
+  {
+   "block_id": "doc_006_p055_b011",
+   "type": "heading",
+   "page_number": 55,
+   "bbox": [
+    125,
+    1908,
+    357,
+    1939
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Initial Screen",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_113"
+  },
+  {
+   "block_id": "doc_006_p055_b012",
+   "type": "paragraph",
+   "page_number": 55,
+   "bbox": [
+    123,
+    2030,
+    2454,
+    2258
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "All meter readings that are allocated to a single meter reading unit and that have the same target meter reading date can be entered together. Data to be entered, such as the meter reading unit, target meter reading date, and meter reading reason can be copied from the meter reading documents. If no target meter reading date is entered, a list appears containing target meter reading dates for which meter reading orders exist.",
+   "section_id": "doc_006_sec_113"
+  },
+  {
+   "block_id": "doc_006_p055_b013",
+   "type": "heading",
+   "page_number": 55,
+   "bbox": [
+    125,
+    2342,
+    354,
+    2380
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Entry Screen",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_113"
+  },
+  {
+   "block_id": "doc_006_p055_b014",
+   "type": "paragraph",
+   "page_number": 55,
+   "bbox": [
+    123,
+    2464,
+    2358,
+    2689
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "An empty table appears on the entry screen. There is a unique entry number for each meter reading. This number is used to identify and display the corresponding meter reading order for the readings. You can specify the following meter reading data for fast entry:",
+   "section_id": "doc_006_sec_113"
+  },
+  {
+   "block_id": "doc_006_p055_b015",
+   "type": "list",
+   "page_number": 55,
+   "bbox": [
+    207,
+    2772,
+    864,
+    3221
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Entry number (only for fast entry)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Meter reading"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Meter reading date"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Note from meter reader"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Actual meter reading type"
+    }
+   ],
+   "section_id": "doc_006_sec_113"
+  },
+  {
+   "block_id": "doc_006_p055_b016",
+   "type": "fragment",
+   "page_number": 55,
+   "bbox": [
+    256,
+    3285,
+    489,
+    3300
+   ],
+   "ocr_confidence": 1.0,
+   "flags": [
+    "low_confidence_words:2",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "RAAdaAep preatHar",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_006_sec_113"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "21c5e4a1410df8b31fc79b29a144a1e7ec17827f8d45c49a1c5915e415f5dcb9"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Upload",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_110",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_111",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_112",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_113",
+   "role": "starts_here"
+  }
+ ]
+}

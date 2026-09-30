@@ -1,0 +1,357 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 15,
+ "source_page_hash": "d01487a594ac8a05d89a676ec5ce1849b7acf38621f39c30104dc6fff2eb5d78",
+ "is_cover_page": false,
+ "title": "Special case 2: Alternative Payment Details",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nYou have selected the Incoming and Outgoing Payments transfer type. There is an alternative payer, but not an alternative\npayee.\n\no You save without taking any other actions first. The bank details or payment card that were entered are only saved in\nthe master data of the contract account holder.\n\no You select the contract account and save. The system stores the bank details or payment card as the bank details\nfor outgoing payments.\n\neo You delete the alternative payer in the contract account, select the contract account and save. The system stores\nthe bank details or payment card as the details for incoming and outgoing payments.\n\ne Case 2:\nYou have chosen the Incoming Payments transfer type. There is an alternative payer, but not an alternative payee.\n\neo You save without taking any other actions first. The system stores the entered bank details or payment card only in\nthe master record of the contract account holder.\n\no You delete the alternative payer in the contract account, select the contract account and save. The bank details or\npayment card are stored as payment details for incoming payments.\n\nSpecial case 2: Alternative Payment Details\n\nIn the following cases, the Re icon is displayed in the Alt. Pymt Dtls column.\n\ne Case l:\nThe payment details entered in the contract account are different from those that you have selected.\nee Example\n\nThe bank details ID for incoming payments that is entered in the contract account is 001; however, in the dropdown list,\nyou have selected bank details ID 002. The Incoming Payments transfer type is selected.\n\ne Case 2:\n\nYou have selected the Incoming and Outgoing Payments transfer type. The existing payment details differ from one\nanother.\n\nee Example\nOn the contract account, bank details ID 001 is entered for incoming payments, and for outgoing payments bank details\nID 002 is entered.\n\nThe system handles a contract account with differing payment details as follows:\n\no To prevent unintentional changes being made to the contract account, the system does not select the contract\naccount. However, you can select the contract account for changes.\n\no Byclicking onthe (Re icon, you can go to maintenance of the contract account and make any necessary changes.\n\nSpecial case 3: Business Partner Is Payer or Payee.\n\nIf the entered business partner is not the contract account holder, but is entered in the contract account as the alternative payer or\n",
+ "cleaned_text": "You have selected the Incoming and Outgoing Payments transfer type. There is an alternative payer, but not an alternative payee.\n\n- You save without taking any other actions first. The bank details or payment card that were entered are only saved in the master data of the contract account holder.\n\n- You select the contract account and save. The system stores the bank details or payment card as the bank details for outgoing payments.\n\neo You delete the alternative payer in the contract account, select the contract account and save. The system stores the bank details or payment card as the details for incoming and outgoing payments.\n\n- Case 2: You have chosen the Incoming Payments transfer type. There is an alternative payer, but not an alternative payee. eo You save without taking any other actions first. The system stores the entered bank details or payment card only in the master record of the contract account holder.\n\n- You delete the alternative payer in the contract account, select the contract account and save. The bank details or payment card are stored as payment details for incoming payments.\n\nSpecial case 2: Alternative Payment Details\n\nIn the following cases, the Re icon is displayed in the Alt. Pymt Dtls column.\n\n- Case l: The payment details entered in the contract account are different from those that you have selected. ee Example The bank details ID for incoming payments that is entered in the contract account is 001; however, in the dropdown list,\n\nyou have selected bank details ID 002. The Incoming Payments transfer type is selected.\n\n- Case 2: You have selected the Incoming and Outgoing Payments transfer type. The existing payment details differ from one another. ee Example On the contract account, bank details ID 001 is entered for incoming payments, and for outgoing payments bank details ID 002 is entered.\n\nThe system handles a contract account with differing payment details as follows:\n\n- To prevent unintentional changes being made to the contract account, the system does not select the contract account. However, you can select the contract account for changes.\n\n- Byclicking onthe (Re icon, you can go to maintenance of the contract account and make any necessary changes.\n\nSpecial case 3: Business Partner Is Payer or Payee. If the entered business partner is not the contract account holder, but is entered in the contract account as the alternative payer or",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p015_b000",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    254,
+    134,
+    2469,
+    235
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You have selected the Incoming and Outgoing Payments transfer type. There is an alternative payer, but not an alternative payee.",
+   "section_id": "doc_001_sec_044"
+  },
+  {
+   "block_id": "doc_001_p015_b001",
+   "type": "list",
+   "page_number": 15,
+   "bbox": [
+    336,
+    299,
+    2486,
+    567
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "You save without taking any other actions first. The bank details or payment card that were entered are only saved in the master data of the contract account holder."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "You select the contract account and save. The system stores the bank details or payment card as the bank details for outgoing payments."
+    }
+   ],
+   "section_id": "doc_001_sec_044"
+  },
+  {
+   "block_id": "doc_001_p015_b002",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    336,
+    630,
+    2425,
+    731
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "eo You delete the alternative payer in the contract account, select the contract account and save. The system stores the bank details or payment card as the details for incoming and outgoing payments.",
+   "section_id": "doc_001_sec_044"
+  },
+  {
+   "block_id": "doc_001_p015_b003",
+   "type": "list",
+   "page_number": 15,
+   "bbox": [
+    207,
+    798,
+    2456,
+    1269
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Case 2: You have chosen the Incoming Payments transfer type. There is an alternative payer, but not an alternative payee. eo You save without taking any other actions first. The system stores the entered bank details or payment card only in the master record of the contract account holder."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "You delete the alternative payer in the contract account, select the contract account and save. The bank details or payment card are stored as payment details for incoming payments."
+    }
+   ],
+   "section_id": "doc_001_sec_044"
+  },
+  {
+   "block_id": "doc_001_p015_b004",
+   "type": "heading",
+   "page_number": 15,
+   "bbox": [
+    125,
+    1381,
+    1337,
+    1438
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Special case 2: Alternative Payment Details",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_045"
+  },
+  {
+   "block_id": "doc_001_p015_b005",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    125,
+    1503,
+    1493,
+    1561
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "In the following cases, the Re icon is displayed in the Alt. Pymt Dtls column.",
+   "section_id": "doc_001_sec_045"
+  },
+  {
+   "block_id": "doc_001_p015_b006",
+   "type": "list",
+   "page_number": 15,
+   "bbox": [
+    207,
+    1636,
+    2439,
+    1976
+   ],
+   "ocr_confidence": 91.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Case l: The payment details entered in the contract account are different from those that you have selected. ee Example The bank details ID for incoming payments that is entered in the contract account is 001; however, in the dropdown list,"
+    }
+   ],
+   "section_id": "doc_001_sec_045"
+  },
+  {
+   "block_id": "doc_001_p015_b007",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    283,
+    2000,
+    1893,
+    2039
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "you have selected bank details ID 002. The Incoming Payments transfer type is selected.",
+   "section_id": "doc_001_sec_045"
+  },
+  {
+   "block_id": "doc_001_p015_b008",
+   "type": "list",
+   "page_number": 15,
+   "bbox": [
+    207,
+    2138,
+    2448,
+    2599
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Case 2: You have selected the Incoming and Outgoing Payments transfer type. The existing payment details differ from one another. ee Example On the contract account, bank details ID 001 is entered for incoming payments, and for outgoing payments bank details ID 002 is entered."
+    }
+   ],
+   "section_id": "doc_001_sec_045"
+  },
+  {
+   "block_id": "doc_001_p015_b009",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    254,
+    2707,
+    1713,
+    2745
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The system handles a contract account with differing payment details as follows:",
+   "section_id": "doc_001_sec_045"
+  },
+  {
+   "block_id": "doc_001_p015_b010",
+   "type": "list",
+   "page_number": 15,
+   "bbox": [
+    336,
+    2809,
+    2422,
+    3023
+   ],
+   "ocr_confidence": 90.0,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "To prevent unintentional changes being made to the contract account, the system does not select the contract account. However, you can select the contract account for changes."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Byclicking onthe (Re icon, you can go to maintenance of the contract account and make any necessary changes."
+    }
+   ],
+   "section_id": "doc_001_sec_045"
+  },
+  {
+   "block_id": "doc_001_p015_b011",
+   "type": "paragraph",
+   "page_number": 15,
+   "bbox": [
+    124,
+    3125,
+    2488,
+    3293
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Special case 3: Business Partner Is Payer or Payee. If the entered business partner is not the contract account holder, but is entered in the contract account as the alternative payer or",
+   "section_id": "doc_001_sec_045"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "d01487a594ac8a05d89a676ec5ce1849b7acf38621f39c30104dc6fff2eb5d78"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:26Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Special case 1: Alterative Payer or Payee",
+  "How does the system behave when you save the changed contract account?"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_044",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_045",
+   "role": "starts_here"
+  }
+ ]
+}

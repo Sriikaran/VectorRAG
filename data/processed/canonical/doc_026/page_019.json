@@ -1,0 +1,390 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 19,
+ "source_page_hash": "e119a68c56932c6d1e0066fba698d5a2388c1e58180d65e26a0ed1f42c7c72b6",
+ "is_cover_page": false,
+ "title": "Archiving Dunning Notices",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\nFor the correspondence types Dunning and Correspondence Dunning (0003 and 0020), charges schedules defined in a\ncorrespondence variant have no effect.\n\nArchiving Dunning Notices\n\nUse\n\nYou can archive dunning notices optically.\n\nActivities\n\nIn the Implementation Guide for Contract Accounts Receivable and Payable, under |)'Basic Functions \u00bb Correspondence\nArchiving \u00bb Define Archives for Paper Records | , you can define which object type is to be used for archiving. Object type\nBUS4401 is used as standard for dunning notices. If however, you use object type CA_LDUNNING for correspondence type 0003,\nthe selected dunning activity creates an entry in the correspondence container, and the print program archives the paper records,\nyou can also store the dunning letters under the dunning key in the archive. If you specify key fields from the dunning header in the\nBusiness Document Navigator , you can also find dunning notices, for example, under the class name CA_DUNNING and class\ntype BO . Note that you cannot change the archiving object in Customizing in the meantime.\n\nReversing a Dunning Run\n\nUse\n\nIf a dunning activity run has not been performed correctly (for example, incorrect issue date), or if individual items of the dunning\nactivity run have not been successfully posted, because, for example, individual business partners were locked by a parallel\n\nprocess, you can use the Mass Reversal of Dunning Notices function (transaction FPVC) to reverse a complete dunning proposal\nrun or the dunning notices not run successfully, and to reset all entries with errors in the dunning activity run.\n\nKey Features\n\nThe system resets either the whole run or the items that were not successfully posted and marks the relevant entries in the\ndunning history as being reversed. The system determines and reverses the charges and interest posted during the dunning\nactivity run and resets the creditworthiness for the customer in question. To reset additional dunning activities, you have to define\n\na function module for event 0395 for each activity.\n\nThe reversed entries in the dunning history are not included in the dunning level determination for the next dunning proposal run.\n\n1 Note\nNote for the Industry Component Utilities Industry\n\nThe lock document created by the dunning notice is deactivated.\n\nActivities\n",
+ "cleaned_text": "For the correspondence types Dunning and Correspondence Dunning (0003 and 0020), charges schedules defined in a correspondence variant have no effect.\n\nArchiving Dunning Notices\n\nUse\n\nYou can archive dunning notices optically.\n\nActivities\n\nIn the Implementation Guide for Contract Accounts Receivable and Payable, under |)'Basic Functions \u00bb Correspondence Archiving \u00bb Define Archives for Paper Records | , you can define which object type is to be used for archiving. Object type BUS4401 is used as standard for dunning notices. If however, you use object type CA_LDUNNING for correspondence type 0003, the selected dunning activity creates an entry in the correspondence container, and the print program archives the paper records, you can also store the dunning letters under the dunning key in the archive. If you specify key fields from the dunning header in the Business Document Navigator , you can also find dunning notices, for example, under the class name CA_DUNNING and class type BO . Note that you cannot change the archiving object in Customizing in the meantime.\n\nReversing a Dunning Run\n\nUse\n\nIf a dunning activity run has not been performed correctly (for example, incorrect issue date), or if individual items of the dunning activity run have not been successfully posted, because, for example, individual business partners were locked by a parallel process, you can use the Mass Reversal of Dunning Notices function (transaction FPVC) to reverse a complete dunning proposal run or the dunning notices not run successfully, and to reset all entries with errors in the dunning activity run.\n\nKey Features\n\nThe system resets either the whole run or the items that were not successfully posted and marks the relevant entries in the dunning history as being reversed. The system determines and reverses the charges and interest posted during the dunning activity run and resets the creditworthiness for the customer in question. To reset additional dunning activities, you have to define a function module for event 0395 for each activity. The reversed entries in the dunning history are not included in the dunning level determination for the next dunning proposal run.\n\nNote\n\nNote for the Industry Component Utilities Industry\n\nThe lock document created by the dunning notice is deactivated.\n\nActivities",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    2776,
+    310,
+    2812
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p019_b000",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    123,
+    134,
+    2299,
+    235
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "text": "For the correspondence types Dunning and Correspondence Dunning (0003 and 0020), charges schedules defined in a correspondence variant have no effect.",
+   "section_id": "doc_026_sec_085"
+  },
+  {
+   "block_id": "doc_026_p019_b001",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    124,
+    385,
+    1084,
+    460
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Archiving Dunning Notices",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_086"
+  },
+  {
+   "block_id": "doc_026_p019_b002",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    125,
+    560,
+    225,
+    605
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_087"
+  },
+  {
+   "block_id": "doc_026_p019_b003",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    123,
+    693,
+    873,
+    731
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "You can archive dunning notices optically.",
+   "section_id": "doc_026_sec_087"
+  },
+  {
+   "block_id": "doc_026_p019_b004",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    123,
+    843,
+    383,
+    887
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_088"
+  },
+  {
+   "block_id": "doc_026_p019_b005",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    122,
+    971,
+    2480,
+    1391
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "In the Implementation Guide for Contract Accounts Receivable and Payable, under |)'Basic Functions \u00bb Correspondence Archiving \u00bb Define Archives for Paper Records | , you can define which object type is to be used for archiving. Object type BUS4401 is used as standard for dunning notices. If however, you use object type CA_LDUNNING for correspondence type 0003, the selected dunning activity creates an entry in the correspondence container, and the print program archives the paper records, you can also store the dunning letters under the dunning key in the archive. If you specify key fields from the dunning header in the Business Document Navigator , you can also find dunning notices, for example, under the class name CA_DUNNING and class type BO . Note that you cannot change the archiving object in Customizing in the meantime.",
+   "section_id": "doc_026_sec_088"
+  },
+  {
+   "block_id": "doc_026_p019_b006",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    128,
+    1538,
+    1024,
+    1613
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Reversing a Dunning Run",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_089"
+  },
+  {
+   "block_id": "doc_026_p019_b007",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    125,
+    1716,
+    225,
+    1762
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_090"
+  },
+  {
+   "block_id": "doc_026_p019_b008",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    123,
+    1846,
+    2460,
+    2077
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "If a dunning activity run has not been performed correctly (for example, incorrect issue date), or if individual items of the dunning activity run have not been successfully posted, because, for example, individual business partners were locked by a parallel process, you can use the Mass Reversal of Dunning Notices function (transaction FPVC) to reverse a complete dunning proposal run or the dunning notices not run successfully, and to reset all entries with errors in the dunning activity run.",
+   "section_id": "doc_026_sec_090"
+  },
+  {
+   "block_id": "doc_026_p019_b009",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    126,
+    2189,
+    480,
+    2246
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Key Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_091"
+  },
+  {
+   "block_id": "doc_026_p019_b010",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    122,
+    2322,
+    2465,
+    2672
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The system resets either the whole run or the items that were not successfully posted and marks the relevant entries in the dunning history as being reversed. The system determines and reverses the charges and interest posted during the dunning activity run and resets the creditworthiness for the customer in question. To reset additional dunning activities, you have to define a function module for event 0395 for each activity. The reversed entries in the dunning history are not included in the dunning level determination for the next dunning proposal run.",
+   "section_id": "doc_026_sec_091"
+  },
+  {
+   "block_id": "doc_026_p019_b011",
+   "type": "note",
+   "page_number": 19,
+   "bbox": [
+    151,
+    2776,
+    310,
+    2812
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "label": "Note",
+   "text": "Note",
+   "section_id": "doc_026_sec_091"
+  },
+  {
+   "block_id": "doc_026_p019_b012",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    154,
+    2854,
+    1100,
+    2892
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Note for the Industry Component Utilities Industry",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_092"
+  },
+  {
+   "block_id": "doc_026_p019_b013",
+   "type": "paragraph",
+   "page_number": 19,
+   "bbox": [
+    152,
+    2976,
+    1323,
+    3014
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "The lock document created by the dunning notice is deactivated.",
+   "section_id": "doc_026_sec_092"
+  },
+  {
+   "block_id": "doc_026_p019_b014",
+   "type": "heading",
+   "page_number": 19,
+   "bbox": [
+    123,
+    3162,
+    383,
+    3207
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_093"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.0889,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "e119a68c56932c6d1e0066fba698d5a2388c1e58180d65e26a0ed1f42c7c72b6"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Calculating Charges",
+  "Use",
+  "Activitiac"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_085",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_086",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_087",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_088",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_089",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_090",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_091",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_092",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_093",
+   "role": "starts_here"
+  }
+ ]
+}

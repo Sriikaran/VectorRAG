@@ -1,0 +1,412 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 9,
+ "source_page_hash": "436c8573d6622eff6d7f0aa9a9d05f26c4bbd86f6f941b6a8d30a357c4b982dc",
+ "is_cover_page": false,
+ "title": "Business Context and Use",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nEntity Type                                                                      Service Operation\n\nRelease State                                                                   not defined\n\nTechnical Name                                                            CreditAgencyReportERPDebtRecoveryScoreByDebtorPartyResponse_In\nNamespace                                                                     http://sap.com/xi/FICA/Global2 rie\nApplication Component                                                      FI-CA\n\nCategory                                                                         SAP A2A\n\nDirection                                                                               inbound\n\nMode                                                                                    asynchronous\n\nIdempotency                                                                    not applicable\n\nChange/Update Behavior                                                   Typel\n\nP2P Communication Enabled                                               no\n\nBusiness Context and Use\n\nThe debt recovery score can be used to determine whether items of a business partner should be submitted to an external\ncollection agency or a legal dunnning system.\n\nThe inbound service operation Response Debt Recovery Score By Debtor Party can be used to update the debt recovery score for\nthe relevant business partners. The actual submission of the items can then depend on this debt recovery score.\n\nFeatures\n\nThe inbound service operation Response Debt Recovery Score By Debtor Party updates the debt recovery score for the specified\n\nbusiness partner(s).\n\nTo determine the debt recovery score of business partners specify the business partner numbers.\n\nError Handling\n\nForward Error Handling\n\nThe inbound service operation Response Debt Recovery Score By Debtor Party uses Forward Error Handling (FEH) . The\nclassified error category is Determination & Conversion Error . In case of such an error, the entire inbound service operation fails\nand no updates are executed. You can then repeat the processing or discard all information.\n\nMessage Types\n\ne CreditAgencyReportERPDebtRecoveryScoreByDebtorPartyResponse\n\nDebt Recovery Score Processing Out\n",
+ "cleaned_text": "Entity Type | Service Operation\n\nRelease State | not defined\n\nTechnical Name | CreditAgencyReportERPDebtRecoveryScoreByDebtorPartyResponse_In\n\nNamespace | http://sap.com/xi/FICA/Global2 rie\n\nApplication Component | FI-CA\n\nCategory | SAP A2A\n\nDirection | inbound\n\nMode | asynchronous\n\nIdempotency | not applicable\n\nChange/Update Behavior | Typel\n\nP2P Communication Enabled | no\n\nBusiness Context and Use\n\nThe debt recovery score can be used to determine whether items of a business partner should be submitted to an external collection agency or a legal dunnning system. The inbound service operation Response Debt Recovery Score By Debtor Party can be used to update the debt recovery score for the relevant business partners. The actual submission of the items can then depend on this debt recovery score.\n\nFeatures\n\nThe inbound service operation Response Debt Recovery Score By Debtor Party updates the debt recovery score for the specified business partner(s). To determine the debt recovery score of business partners specify the business partner numbers.\n\nError Handling\n\nForward Error Handling\n\nThe inbound service operation Response Debt Recovery Score By Debtor Party uses Forward Error Handling (FEH) . The classified error category is Determination & Conversion Error . In case of such an error, the entire inbound service operation fails and no updates are executed. You can then repeat the processing or discard all information.\n\nMessage Types\n\n- CreditAgencyReportERPDebtRecoveryScoreByDebtorPartyResponse\n\nDebt Recovery Score Processing Out",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p009_b000",
+   "type": "table",
+   "page_number": 9,
+   "bbox": [
+    148,
+    159,
+    2463,
+    1246
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1246
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "not defined"
+    ],
+    [
+     "Technical Name",
+     "CreditAgencyReportERPDebtRecoveryScoreByDebtorPartyResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global2 rie"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "asynchronous"
+    ],
+    [
+     "Idempotency",
+     "not applicable"
+    ],
+    [
+     "Change/Update Behavior",
+     "Typel"
+    ],
+    [
+     "P2P Communication Enabled",
+     "no"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "not defined"
+    ],
+    [
+     "Technical Name",
+     "CreditAgencyReportERPDebtRecoveryScoreByDebtorPartyResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global2 rie"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "asynchronous"
+    ],
+    [
+     "Idempotency",
+     "not applicable"
+    ],
+    [
+     "Change/Update Behavior",
+     "Typel"
+    ],
+    [
+     "P2P Communication Enabled",
+     "no"
+    ]
+   ],
+   "section_id": "doc_018_sec_047"
+  },
+  {
+   "block_id": "doc_018_p009_b001",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    126,
+    1387,
+    853,
+    1433
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Business Context and Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_048"
+  },
+  {
+   "block_id": "doc_018_p009_b002",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    1521,
+    2487,
+    1808
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The debt recovery score can be used to determine whether items of a business partner should be submitted to an external collection agency or a legal dunnning system. The inbound service operation Response Debt Recovery Score By Debtor Party can be used to update the debt recovery score for the relevant business partners. The actual submission of the items can then depend on this debt recovery score.",
+   "section_id": "doc_018_sec_048"
+  },
+  {
+   "block_id": "doc_018_p009_b003",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    126,
+    1920,
+    361,
+    1965
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_049"
+  },
+  {
+   "block_id": "doc_018_p009_b004",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    2050,
+    2474,
+    2275
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "The inbound service operation Response Debt Recovery Score By Debtor Party updates the debt recovery score for the specified business partner(s). To determine the debt recovery score of business partners specify the business partner numbers.",
+   "section_id": "doc_018_sec_049"
+  },
+  {
+   "block_id": "doc_018_p009_b005",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    126,
+    2387,
+    531,
+    2444
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Error Handling",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_050"
+  },
+  {
+   "block_id": "doc_018_p009_b006",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    124,
+    2520,
+    555,
+    2557
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Forward Error Handling",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_051"
+  },
+  {
+   "block_id": "doc_018_p009_b007",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    2641,
+    2458,
+    2804
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "The inbound service operation Response Debt Recovery Score By Debtor Party uses Forward Error Handling (FEH) . The classified error category is Determination & Conversion Error . In case of such an error, the entire inbound service operation fails and no updates are executed. You can then repeat the processing or discard all information.",
+   "section_id": "doc_018_sec_051"
+  },
+  {
+   "block_id": "doc_018_p009_b008",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    126,
+    2916,
+    543,
+    2972
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Message Types",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_052"
+  },
+  {
+   "block_id": "doc_018_p009_b009",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    207,
+    3048,
+    1512,
+    3086
+   ],
+   "ocr_confidence": 87.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "CreditAgencyReportERPDebtRecoveryScoreByDebtorPartyResponse"
+    }
+   ],
+   "section_id": "doc_018_sec_052"
+  },
+  {
+   "block_id": "doc_018_p009_b010",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    128,
+    3235,
+    1452,
+    3300
+   ],
+   "ocr_confidence": 79.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Debt Recovery Score Processing Out",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_053"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "436c8573d6622eff6d7f0aa9a9d05f26c4bbd86f6f941b6a8d30a357c4b982dc"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Response Debt Recovery Score By Debtor Party",
+  "Definition"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_047",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_018_sec_048",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_049",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_050",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_051",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_052",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_053",
+   "role": "starts_here"
+  }
+ ]
+}

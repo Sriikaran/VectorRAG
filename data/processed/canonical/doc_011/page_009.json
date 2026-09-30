@@ -1,0 +1,189 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 9,
+ "source_page_hash": "b072638130005dc7023eb6e0f9354e3d1142c1c82e85f33b70ac0c5faaa99460",
+ "is_cover_page": false,
+ "title": "Corrections fr. Dyn. Backbilling in the Periodic Billing Period",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nCorrections fr. Dyn. Backbilling in the Periodic Billing Period\n\nBillings that are based on estimated meter reading results must be corrected during the next actual meter reading. The difference\nbetween the dynamic backbilled consumption and the consumption from the estimated period must be billed in the current\nperiodic billing period. To do this, update the billed consumption in the facts for any billing periods with estimated meter readings.\nChoose variant control ,Update Sum in the Future\u2019 For periodic billing based on actual meter reading results, use the time slice\ngenerator to determine a period that belongs to period basic category \u201c3\u201d (Current period and past in a congruent time slice). You\nuse variant DYNBIO5 to update the consumption in the periodic billing period and to subtract the consumption from the facts. If\n\nthe estimations were too high, it is possible that a negative consumption value is billed.\n\nPrice changes in the dynamic backbilling period, for example, are not taken into account in this procedure. You have the option to\ncopy amounts and consumption values from backbilling periods to the periodic billing period. You use variants DYNBIO4 or\nDYNBIO5 for this purpose.\n\nRTP Billing\n\nPurpose\n\nThe billing of interval-related data (profiles) is called real time pricing billing (RTP billing). RTP billing allows you to define rates and\nprices freely across intervals and therefore enables you to structure contracts that are required in a deregulated energy market\nmore freely.\n\nRTP billing is based on rate models that evaluate energy requirements over a period of time. Consumption (and demand if\n\nnecessary) are measured for each interval (for example %4-hour, \u00a52-hour) or for each rate period (for example peak and off-peak).\nThe price for kWh of consumption, or kW/kWA demand is determined for every interval. This means the price may vary for every\ninterval.\n\nYou can use RTP billing to calculate time-of-use pricing models and RTP models. You can define prices in advance or adjust prices\nto the spot price defined by the energy market.\n\nTime-of-use pricing models are time-based. This means that prices are determined based on time groups.\n",
+ "cleaned_text": "Corrections fr. Dyn. Backbilling in the Periodic Billing Period\n\nBillings that are based on estimated meter reading results must be corrected during the next actual meter reading. The difference between the dynamic backbilled consumption and the consumption from the estimated period must be billed in the current periodic billing period. To do this, update the billed consumption in the facts for any billing periods with estimated meter readings. Choose variant control ,Update Sum in the Future\u2019 For periodic billing based on actual meter reading results, use the time slice generator to determine a period that belongs to period basic category \u201c3\u201d (Current period and past in a congruent time slice). You use variant DYNBIO5 to update the consumption in the periodic billing period and to subtract the consumption from the facts. If the estimations were too high, it is possible that a negative consumption value is billed. Price changes in the dynamic backbilling period, for example, are not taken into account in this procedure. You have the option to copy amounts and consumption values from backbilling periods to the periodic billing period. You use variants DYNBIO4 or DYNBIO5 for this purpose.\n\nRTP Billing\n\nPurpose\n\nThe billing of interval-related data (profiles) is called real time pricing billing (RTP billing). RTP billing allows you to define rates and prices freely across intervals and therefore enables you to structure contracts that are required in a deregulated energy market more freely. RTP billing is based on rate models that evaluate energy requirements over a period of time. Consumption (and demand if necessary) are measured for each interval (for example %4-hour, \u00a52-hour) or for each rate period (for example peak and off-peak). The price for kWh of consumption, or kW/kWA demand is determined for every interval. This means the price may vary for every interval. You can use RTP billing to calculate time-of-use pricing models and RTP models. You can define prices in advance or adjust prices to the spot price defined by the energy market. Time-of-use pricing models are time-based. This means that prices are determined based on time groups.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p009_b000",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    125,
+    130,
+    2272,
+    207
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Corrections fr. Dyn. Backbilling in the Periodic Billing Period",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_031"
+  },
+  {
+   "block_id": "doc_011_p009_b001",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    279,
+    2467,
+    945
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Billings that are based on estimated meter reading results must be corrected during the next actual meter reading. The difference between the dynamic backbilled consumption and the consumption from the estimated period must be billed in the current periodic billing period. To do this, update the billed consumption in the facts for any billing periods with estimated meter readings. Choose variant control ,Update Sum in the Future\u2019 For periodic billing based on actual meter reading results, use the time slice generator to determine a period that belongs to period basic category \u201c3\u201d (Current period and past in a congruent time slice). You use variant DYNBIO5 to update the consumption in the periodic billing period and to subtract the consumption from the facts. If the estimations were too high, it is possible that a negative consumption value is billed. Price changes in the dynamic backbilling period, for example, are not taken into account in this procedure. You have the option to copy amounts and consumption values from backbilling periods to the periodic billing period. You use variants DYNBIO4 or DYNBIO5 for this purpose.",
+   "section_id": "doc_011_sec_031"
+  },
+  {
+   "block_id": "doc_011_p009_b002",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    128,
+    1095,
+    514,
+    1170
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "RTP Billing",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_032"
+  },
+  {
+   "block_id": "doc_011_p009_b003",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    126,
+    1270,
+    352,
+    1327
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Purpose",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_033"
+  },
+  {
+   "block_id": "doc_011_p009_b004",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    1404,
+    2480,
+    2187
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The billing of interval-related data (profiles) is called real time pricing billing (RTP billing). RTP billing allows you to define rates and prices freely across intervals and therefore enables you to structure contracts that are required in a deregulated energy market more freely. RTP billing is based on rate models that evaluate energy requirements over a period of time. Consumption (and demand if necessary) are measured for each interval (for example %4-hour, \u00a52-hour) or for each rate period (for example peak and off-peak). The price for kWh of consumption, or kW/kWA demand is determined for every interval. This means the price may vary for every interval. You can use RTP billing to calculate time-of-use pricing models and RTP models. You can define prices in advance or adjust prices to the spot price defined by the energy market. Time-of-use pricing models are time-based. This means that prices are determined based on time groups.",
+   "section_id": "doc_011_sec_033"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "b072638130005dc7023eb6e0f9354e3d1142c1c82e85f33b70ac0c5faaa99460"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Corrections fr. Dyn. Backbilling in the Periodic Billing Period"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_031",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_032",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_033",
+   "role": "starts_here"
+  }
+ ]
+}

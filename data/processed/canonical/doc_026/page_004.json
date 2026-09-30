@@ -1,0 +1,279 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 4,
+ "source_page_hash": "0c2c89275a6a6a0dec579ed9c611a78ea16b1b68bbfc3d564407971d5e090d04",
+ "is_cover_page": false,
+ "title": "Dunning Levels",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\nYou can assign dunning procedures to contract accounts, provider accounts, and/or individual open items.\n\nAt document item level, the dunning procedure overrides the dunning procedure defined at contract account level or provider\ncontract level for this line item.\n\nIf a dunning procedure is not defined at document level, provider contract level, or contract account level, the document in\nquestion is not included in the dunning run.\n\nThe dunning proposal run determines whether an item is due for dunning by means of the dunning procedure.\n\ni Note\n\nIn the Insurance industry-specific component, master data (insurance objects and/or contract accounts) are connected to a\ndunning procedure by means of dunning variants. You can assign a dunning procedure at document level.\n\nDunning Levels\n\nDefinition\n\nDunning levels control the dunning process flow and describe the individual processing steps of a dunning procedure. Both the\nindividual items in a dunning notice and the dunning notice itself have a dunning level. Depending on the dunning procedure, a\ndunning notice can contain items with different dunning levels. The dunning level of the dunning notice is usually the highest\ndunning level for the items contained in the dunning notice.\n\nUse\n\nThe dunning program assigns dunning levels to overdue items once a specific number of days in arrears has passed. The system\ncalculates the days in arrears from the due date or the deferral date of the open items for dunning, whichever is the greatest. The\n\npoint in time at which the dunning level is executed is controlled by the number of days in arrears and the dunning frequency.\n\nThe dunning program automatically assigns the next dunning level to dunned items. In the dunning history, you can also set the\nnext dunning level for an item manually. The dunning levels are assigned to the dunning notice and the individual items in the\ndunning notice, but not to the contract account in question. Dunning levels are optional; you do not have to use them.\n\nYou maintain and configure dunning levels in the activity Configure Dunning Procedure . Using dunning level types that you define\n\nin the activity Define Dunning Level Types , you can assign a classification to the dunning levels.\n\nYou can use the new dunning level that an item in the dunning proposal run contains as a grouping criterion . This means that you\ncan ensure that items in a dunning notice have the same dunning level.\n\nStructure\n\nIn a dunning level you can define:\n\ne Which dunning charges and interest you want to levy\ne From which amount and after how many days in arrears overdue items reach the next dunning level\n\ne Whether interest on arrears should be calculated for the dunned items\n",
+ "cleaned_text": "You can assign dunning procedures to contract accounts, provider accounts, and/or individual open items. At document item level, the dunning procedure overrides the dunning procedure defined at contract account level or provider contract level for this line item. If a dunning procedure is not defined at document level, provider contract level, or contract account level, the document in question is not included in the dunning run. The dunning proposal run determines whether an item is due for dunning by means of the dunning procedure. i Note In the Insurance industry-specific component, master data (insurance objects and/or contract accounts) are connected to a dunning procedure by means of dunning variants. You can assign a dunning procedure at document level.\n\nDunning Levels\n\nDefinition\n\nDunning levels control the dunning process flow and describe the individual processing steps of a dunning procedure. Both the individual items in a dunning notice and the dunning notice itself have a dunning level. Depending on the dunning procedure, a dunning notice can contain items with different dunning levels. The dunning level of the dunning notice is usually the highest dunning level for the items contained in the dunning notice.\n\nUse\n\nThe dunning program assigns dunning levels to overdue items once a specific number of days in arrears has passed. The system calculates the days in arrears from the due date or the deferral date of the open items for dunning, whichever is the greatest. The point in time at which the dunning level is executed is controlled by the number of days in arrears and the dunning frequency. The dunning program automatically assigns the next dunning level to dunned items. In the dunning history, you can also set the next dunning level for an item manually. The dunning levels are assigned to the dunning notice and the individual items in the dunning notice, but not to the contract account in question. Dunning levels are optional; you do not have to use them. You maintain and configure dunning levels in the activity Configure Dunning Procedure . Using dunning level types that you define in the activity Define Dunning Level Types , you can assign a classification to the dunning levels. You can use the new dunning level that an item in the dunning proposal run contains as a grouping criterion . This means that you can ensure that items in a dunning notice have the same dunning level.\n\nStructure\n\nIn a dunning level you can define:\n\n- Which dunning charges and interest you want to levy\n\n- From which amount and after how many days in arrears overdue items reach the next dunning level\n\n- Whether interest on arrears should be calculated for the dunned items",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p004_b000",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    134,
+    2407,
+    948
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "You can assign dunning procedures to contract accounts, provider accounts, and/or individual open items. At document item level, the dunning procedure overrides the dunning procedure defined at contract account level or provider contract level for this line item. If a dunning procedure is not defined at document level, provider contract level, or contract account level, the document in question is not included in the dunning run. The dunning proposal run determines whether an item is due for dunning by means of the dunning procedure. i Note In the Insurance industry-specific component, master data (insurance objects and/or contract accounts) are connected to a dunning procedure by means of dunning variants. You can assign a dunning procedure at document level.",
+   "section_id": "doc_026_sec_007"
+  },
+  {
+   "block_id": "doc_026_p004_b001",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    128,
+    1133,
+    669,
+    1209
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Dunning Levels",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_008"
+  },
+  {
+   "block_id": "doc_026_p004_b002",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    126,
+    1309,
+    393,
+    1354
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_009"
+  },
+  {
+   "block_id": "doc_026_p004_b003",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    123,
+    1442,
+    2408,
+    1667
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Dunning levels control the dunning process flow and describe the individual processing steps of a dunning procedure. Both the individual items in a dunning notice and the dunning notice itself have a dunning level. Depending on the dunning procedure, a dunning notice can contain items with different dunning levels. The dunning level of the dunning notice is usually the highest dunning level for the items contained in the dunning notice.",
+   "section_id": "doc_026_sec_009"
+  },
+  {
+   "block_id": "doc_026_p004_b004",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    125,
+    1779,
+    225,
+    1824
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_010"
+  },
+  {
+   "block_id": "doc_026_p004_b005",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    1912,
+    2474,
+    2695
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "The dunning program assigns dunning levels to overdue items once a specific number of days in arrears has passed. The system calculates the days in arrears from the due date or the deferral date of the open items for dunning, whichever is the greatest. The point in time at which the dunning level is executed is controlled by the number of days in arrears and the dunning frequency. The dunning program automatically assigns the next dunning level to dunned items. In the dunning history, you can also set the next dunning level for an item manually. The dunning levels are assigned to the dunning notice and the individual items in the dunning notice, but not to the contract account in question. Dunning levels are optional; you do not have to use them. You maintain and configure dunning levels in the activity Configure Dunning Procedure . Using dunning level types that you define in the activity Define Dunning Level Types , you can assign a classification to the dunning levels. You can use the new dunning level that an item in the dunning proposal run contains as a grouping criterion . This means that you can ensure that items in a dunning notice have the same dunning level.",
+   "section_id": "doc_026_sec_010"
+  },
+  {
+   "block_id": "doc_026_p004_b006",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    125,
+    2807,
+    391,
+    2853
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Structure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_011"
+  },
+  {
+   "block_id": "doc_026_p004_b007",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    125,
+    2940,
+    716,
+    2978
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [],
+   "text": "In a dunning level you can define:",
+   "section_id": "doc_026_sec_011"
+  },
+  {
+   "block_id": "doc_026_p004_b008",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    207,
+    3062,
+    2044,
+    3295
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Which dunning charges and interest you want to levy"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "From which amount and after how many days in arrears overdue items reach the next dunning level"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Whether interest on arrears should be calculated for the dunned items"
+    }
+   ],
+   "section_id": "doc_026_sec_011"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "0c2c89275a6a6a0dec579ed9c611a78ea16b1b68bbfc3d564407971d5e090d04"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Dunning Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_007",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_008",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_009",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_010",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_011",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,327 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 14,
+ "source_page_hash": "57785e9fa0cb396b1bbd5a20c8c078cea7a7d239c47f79d1c26ff49c25b29463",
+ "is_cover_page": false,
+ "title": "Dunning Activity Runs",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\nNote that if you start the dunning activity run directly after the dunning proposal run, you can no longer\npostprocess dunning proposals.\n\n5. Run the program. For more information, see Functions for Scheduling Program Runs.\n\nYou can postprocess the dunning proposal. To do this, check the application log of the dunning proposal run. For example,\nyou can exclude individual dunning notices from the dunning activity run by reversing the relevant dunning notices. Or you\ncan remove dunning blocks that have been set in error.\n\nAfter you have completed postprocessing, delete the relevant dunning proposal run in the menu under |}Environment\nDelete Dunning Proposal \u201c. Then start a new dunning proposal run. You can start the dunning activity run directly\nafterwards by setting the Trigger Activity Run indicator, or you can start it manually in a separate step.\n\n1 Note\n\nThe dunning proposal run checks whether there is a dunning notice that has not been executed for a business partner in\nthe system. If this is the case, the dunning proposal run does not create a new dunning notice and issues a warning in\nthe application log.\n\nThe dunning proposal run considers dunning reductions that result from dispute cases in SAP Dispute Management,\nfor example. The system distributes the dunning reductions to the dunning groups in event 0335 and reduces the\n\ndunning balance by this amount. SAP provides the sample function module FKK_SAMPLE_0335_DISPUTE for the\ndeduction of amounts from dispute cases. Define the module as an installation-specific function module for event 0335.\n\nDunning Activity Runs\n\nUse\n\nOnce you have executed the dunning proposal run successfully, start the second subprocess of the dunning run \u2014 the dunning\nactivity run.\n\nPrerequisites\n\n1. You have successfully completed the dunning proposal run.\n\n2. You have carried out the preparations required for creating dunning letters (see Creating Printed Records).\n\nKey Features\n\nThe dunning activity run determines and runs the dunning activities defined in the dunning procedures and dunning levels. A\ndunning activity run relates only to those overdue items determined in a dunning proposal run.\n\nIf the dunning activity run carried out a dunning activity successfully, it sets the print date in the dunning proposal. The print date\nis the same as the run date.\n\nIf errors occurred during the execution of the dunning activities run, the system only sets the print date in some of the dunning\nheaders. If the cause of the error is in the dunning proposal, you have to reverse the dunning notices concerned. If the cause of the\nerror is in the dunning activity run, you have to correct the error and then start the dunning activity run again for this dunning\nproposal run. In this second run, the dunning activity run only processes the dunning notices that have not been executed yet, that\n",
+ "cleaned_text": "Note that if you start the dunning activity run directly after the dunning proposal run, you can no longer postprocess dunning proposals.\n\n5 Run the program. For more information, see Functions for Scheduling Program Runs. You can postprocess the dunning proposal. To do this, check the application log of the dunning proposal run. For example,\n\nyou can exclude individual dunning notices from the dunning activity run by reversing the relevant dunning notices. Or you can remove dunning blocks that have been set in error. After you have completed postprocessing, delete the relevant dunning proposal run in the menu under |}Environment Delete Dunning Proposal \u201c. Then start a new dunning proposal run. You can start the dunning activity run directly afterwards by setting the Trigger Activity Run indicator, or you can start it manually in a separate step.\n\nNote The dunning proposal run checks whether there is a dunning notice that has not been executed for a business partner in the system. If this is the case, the dunning proposal run does not create a new dunning notice and issues a warning in the application log. The dunning proposal run considers dunning reductions that result from dispute cases in SAP Dispute Management, for example. The system distributes the dunning reductions to the dunning groups in event 0335 and reduces the dunning balance by this amount. SAP provides the sample function module FKK_SAMPLE_0335_DISPUTE for the deduction of amounts from dispute cases. Define the module as an installation-specific function module for event 0335.\n\nDunning Activity Runs\n\nUse\n\nOnce you have executed the dunning proposal run successfully, start the second subprocess of the dunning run \u2014 the dunning activity run.\n\nPrerequisites\n\n1 You have successfully completed the dunning proposal run.\n\n2 You have carried out the preparations required for creating dunning letters (see Creating Printed Records).\n\nKey Features\n\nThe dunning activity run determines and runs the dunning activities defined in the dunning procedures and dunning levels. A dunning activity run relates only to those overdue items determined in a dunning proposal run. If the dunning activity run carried out a dunning activity successfully, it sets the print date in the dunning proposal. The print date is the same as the run date. If errors occurred during the execution of the dunning activities run, the system only sets the print date in some of the dunning headers. If the cause of the error is in the dunning proposal, you have to reverse the dunning notices concerned. If the cause of the error is in the dunning activity run, you have to correct the error and then start the dunning activity run again for this dunning proposal run. In this second run, the dunning activity run only processes the dunning notices that have not been executed yet, that",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    916,
+    442,
+    953
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p014_b000",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    417,
+    134,
+    2280,
+    235
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Note that if you start the dunning activity run directly after the dunning proposal run, you can no longer postprocess dunning proposals.",
+   "section_id": "doc_026_sec_059"
+  },
+  {
+   "block_id": "doc_026_p014_b001",
+   "type": "list",
+   "page_number": 14,
+   "bbox": [
+    211,
+    331,
+    2447,
+    474
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Run the program. For more information, see Functions for Scheduling Program Runs. You can postprocess the dunning proposal. To do this, check the application log of the dunning proposal run. For example,"
+    }
+   ],
+   "section_id": "doc_026_sec_059"
+  },
+  {
+   "block_id": "doc_026_p014_b002",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    253,
+    502,
+    2457,
+    830
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "you can exclude individual dunning notices from the dunning activity run by reversing the relevant dunning notices. Or you can remove dunning blocks that have been set in error. After you have completed postprocessing, delete the relevant dunning proposal run in the menu under |}Environment Delete Dunning Proposal \u201c. Then start a new dunning proposal run. You can start the dunning activity run directly afterwards by setting the Trigger Activity Run indicator, or you can start it manually in a separate step.",
+   "section_id": "doc_026_sec_059"
+  },
+  {
+   "block_id": "doc_026_p014_b003",
+   "type": "note",
+   "page_number": 14,
+   "bbox": [
+    282,
+    916,
+    2454,
+    1450
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "label": "Note",
+   "text": "Note The dunning proposal run checks whether there is a dunning notice that has not been executed for a business partner in the system. If this is the case, the dunning proposal run does not create a new dunning notice and issues a warning in the application log. The dunning proposal run considers dunning reductions that result from dispute cases in SAP Dispute Management, for example. The system distributes the dunning reductions to the dunning groups in event 0335 and reduces the dunning balance by this amount. SAP provides the sample function module FKK_SAMPLE_0335_DISPUTE for the deduction of amounts from dispute cases. Define the module as an installation-specific function module for event 0335.",
+   "section_id": "doc_026_sec_059"
+  },
+  {
+   "block_id": "doc_026_p014_b004",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    128,
+    1633,
+    919,
+    1708
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Dunning Activity Runs",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_060"
+  },
+  {
+   "block_id": "doc_026_p014_b005",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    125,
+    1808,
+    225,
+    1854
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_061"
+  },
+  {
+   "block_id": "doc_026_p014_b006",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    123,
+    1941,
+    2399,
+    2041
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "Once you have executed the dunning proposal run successfully, start the second subprocess of the dunning run \u2014 the dunning activity run.",
+   "section_id": "doc_026_sec_061"
+  },
+  {
+   "block_id": "doc_026_p014_b007",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    126,
+    2154,
+    492,
+    2210
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_062"
+  },
+  {
+   "block_id": "doc_026_p014_b008",
+   "type": "list",
+   "page_number": 14,
+   "bbox": [
+    212,
+    2286,
+    2179,
+    2426
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "You have successfully completed the dunning proposal run."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "You have carried out the preparations required for creating dunning letters (see Creating Printed Records)."
+    }
+   ],
+   "section_id": "doc_026_sec_062"
+  },
+  {
+   "block_id": "doc_026_p014_b009",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    126,
+    2538,
+    480,
+    2595
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Key Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_063"
+  },
+  {
+   "block_id": "doc_026_p014_b010",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    122,
+    2671,
+    2478,
+    3270
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "The dunning activity run determines and runs the dunning activities defined in the dunning procedures and dunning levels. A dunning activity run relates only to those overdue items determined in a dunning proposal run. If the dunning activity run carried out a dunning activity successfully, it sets the print date in the dunning proposal. The print date is the same as the run date. If errors occurred during the execution of the dunning activities run, the system only sets the print date in some of the dunning headers. If the cause of the error is in the dunning proposal, you have to reverse the dunning notices concerned. If the cause of the error is in the dunning activity run, you have to correct the error and then start the dunning activity run again for this dunning proposal run. In this second run, the dunning activity run only processes the dunning notices that have not been executed yet, that",
+   "section_id": "doc_026_sec_063"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.0889,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "57785e9fa0cb396b1bbd5a20c8c078cea7a7d239c47f79d1c26ff49c25b29463"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Dunning Proposal Run",
+  "Activities"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_059",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_060",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_061",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_062",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_063",
+   "role": "starts_here"
+  }
+ ]
+}

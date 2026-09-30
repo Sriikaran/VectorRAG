@@ -1,0 +1,392 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 46,
+ "source_page_hash": "75270fb848e3b1e32f7b3d703d23730f0854a6aa635a639476654e120fd35a24",
+ "is_cover_page": false,
+ "title": "Meter Reading Order Creation",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nOne order each is created for September 30 and October 30 during the first order creation run for installation 1.\nHowever, the meter reading control settings no longer allow this for November 30. A meter reading order is not created\nfor the installation until the second order creation run (scheduled meter reading category is MR by customer).\n\nThe utility company reads meters on October 30 for installation 2 because the customer has moved out. A meter\nreading order is created for November 30 during the first order creation run as permitted by the meter reading control\nsettings.\n\nMeter Reading Order Creation\n\nPurpose\n\nThis component allows you to create:\n\ne Individual meter reading orders\n\nThese orders are usually created for aperiodic billing (for example, for interim and control billings or if a meter reading unit\nis handed over to another utility company).\n\nYou can also create single orders for periodic billing if an order has to be created again due to a mistake, for example.\ne Mass meter reading orders\n\nIn the case of periodic meter readings, orders for several meter reading units can be created simultaneously.\nMeter reading orders are not created for flat-rate installations because these installations do not contain metering devices.\n\nYou can also create a service order or notification for aperiodic orders.\n\nIntegration\n\nYou can transfer data to external systems using IDoc ISU_LRPL_ORDER.\nFurther information on |Docs:\n\ne For general information, see |Doc Interface/Electronic Data Interchange\n\ne For detailed information, see Using Documentation Tools\n\nSingle Order Creation\n\nUse\n\nSingle orders are generally created for aperiodic billing. You might need to create single orders for interim and control billings, or if\na meter reading unit is handed over to another utility company, for example. You can also create single orders for periodic billing if\nan order has to be created again due to a mistake, for example.\n\nInteoration\n",
+ "cleaned_text": "One order each is created for September 30 and October 30 during the first order creation run for installation 1. However, the meter reading control settings no longer allow this for November 30. A meter reading order is not created for the installation until the second order creation run (scheduled meter reading category is MR by customer). The utility company reads meters on October 30 for installation 2 because the customer has moved out. A meter reading order is created for November 30 during the first order creation run as permitted by the meter reading control settings.\n\nMeter Reading Order Creation\n\nPurpose\n\nThis component allows you to create:\n\n- Individual meter reading orders These orders are usually created for aperiodic billing (for example, for interim and control billings or if a meter reading unit is handed over to another utility company).\n\nYou can also create single orders for periodic billing if an order has to be created again due to a mistake, for example.\n\n- Mass meter reading orders In the case of periodic meter readings, orders for several meter reading units can be created simultaneously.\n\nMeter reading orders are not created for flat-rate installations because these installations do not contain metering devices. You can also create a service order or notification for aperiodic orders.\n\nIntegration\n\nYou can transfer data to external systems using IDoc ISU_LRPL_ORDER. Further information on |Docs:\n\n- For general information, see |Doc Interface/Electronic Data Interchange\n\n- For detailed information, see Using Documentation Tools\n\nSingle Order Creation\n\nUse\n\nSingle orders are generally created for aperiodic billing. You might need to create single orders for interim and control billings, or if a meter reading unit is handed over to another utility company, for example. You can also create single orders for periodic billing if an order has to be created again due to a mistake, for example.\n\nInteoration",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p046_b000",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    283,
+    134,
+    2426,
+    527
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "One order each is created for September 30 and October 30 during the first order creation run for installation 1. However, the meter reading control settings no longer allow this for November 30. A meter reading order is not created for the installation until the second order creation run (scheduled meter reading category is MR by customer). The utility company reads meters on October 30 for installation 2 because the customer has moved out. A meter reading order is created for November 30 during the first order creation run as permitted by the meter reading control settings.",
+   "section_id": "doc_006_sec_081"
+  },
+  {
+   "block_id": "doc_006_p046_b001",
+   "type": "heading",
+   "page_number": 46,
+   "bbox": [
+    128,
+    708,
+    1208,
+    785
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Meter Reading Order Creation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_082"
+  },
+  {
+   "block_id": "doc_006_p046_b002",
+   "type": "heading",
+   "page_number": 46,
+   "bbox": [
+    126,
+    889,
+    352,
+    945
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "Purpose",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_083"
+  },
+  {
+   "block_id": "doc_006_p046_b003",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    122,
+    1018,
+    795,
+    1056
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "This component allows you to create:",
+   "section_id": "doc_006_sec_083"
+  },
+  {
+   "block_id": "doc_006_p046_b004",
+   "type": "list",
+   "page_number": 46,
+   "bbox": [
+    207,
+    1143,
+    2464,
+    1345
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Individual meter reading orders These orders are usually created for aperiodic billing (for example, for interim and control billings or if a meter reading unit is handed over to another utility company)."
+    }
+   ],
+   "section_id": "doc_006_sec_083"
+  },
+  {
+   "block_id": "doc_006_p046_b005",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    254,
+    1409,
+    2359,
+    1447
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You can also create single orders for periodic billing if an order has to be created again due to a mistake, for example.",
+   "section_id": "doc_006_sec_083"
+  },
+  {
+   "block_id": "doc_006_p046_b006",
+   "type": "list",
+   "page_number": 46,
+   "bbox": [
+    207,
+    1512,
+    2211,
+    1654
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Mass meter reading orders In the case of periodic meter readings, orders for several meter reading units can be created simultaneously."
+    }
+   ],
+   "section_id": "doc_006_sec_083"
+  },
+  {
+   "block_id": "doc_006_p046_b007",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    123,
+    1738,
+    2342,
+    1897
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Meter reading orders are not created for flat-rate installations because these installations do not contain metering devices. You can also create a service order or notification for aperiodic orders.",
+   "section_id": "doc_006_sec_083"
+  },
+  {
+   "block_id": "doc_006_p046_b008",
+   "type": "heading",
+   "page_number": 46,
+   "bbox": [
+    127,
+    2009,
+    431,
+    2066
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_084"
+  },
+  {
+   "block_id": "doc_006_p046_b009",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    123,
+    2141,
+    1405,
+    2293
+   ],
+   "ocr_confidence": 91.2,
+   "flags": [],
+   "text": "You can transfer data to external systems using IDoc ISU_LRPL_ORDER. Further information on |Docs:",
+   "section_id": "doc_006_sec_084"
+  },
+  {
+   "block_id": "doc_006_p046_b010",
+   "type": "list",
+   "page_number": 46,
+   "bbox": [
+    207,
+    2385,
+    1553,
+    2524
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "For general information, see |Doc Interface/Electronic Data Interchange"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "For detailed information, see Using Documentation Tools"
+    }
+   ],
+   "section_id": "doc_006_sec_084"
+  },
+  {
+   "block_id": "doc_006_p046_b011",
+   "type": "heading",
+   "page_number": 46,
+   "bbox": [
+    126,
+    2673,
+    903,
+    2749
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Single Order Creation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_085"
+  },
+  {
+   "block_id": "doc_006_p046_b012",
+   "type": "heading",
+   "page_number": 46,
+   "bbox": [
+    125,
+    2850,
+    225,
+    2895
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_086"
+  },
+  {
+   "block_id": "doc_006_p046_b013",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    123,
+    2982,
+    2471,
+    3145
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Single orders are generally created for aperiodic billing. You might need to create single orders for interim and control billings, or if a meter reading unit is handed over to another utility company, for example. You can also create single orders for periodic billing if an order has to be created again due to a mistake, for example.",
+   "section_id": "doc_006_sec_086"
+  },
+  {
+   "block_id": "doc_006_p046_b014",
+   "type": "heading",
+   "page_number": 46,
+   "bbox": [
+    127,
+    3258,
+    431,
+    3300
+   ],
+   "ocr_confidence": 91.2,
+   "flags": [],
+   "text": "Inteoration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_087"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "75270fb848e3b1e32f7b3d703d23730f0854a6aa635a639476654e120fd35a24"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:34Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Meter Reading Order",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_081",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_082",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_083",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_084",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_085",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_086",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_087",
+   "role": "starts_here"
+  }
+ ]
+}

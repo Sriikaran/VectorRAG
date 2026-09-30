@@ -1,0 +1,391 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 50,
+ "source_page_hash": "25acd8b51a57a50abbc588f640cbc0df46eba6729772dac6dcdd6ddd9e013d56",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\ne Meter reading results (optional)\n\ne Billing orders\n\nReversal may be necessary in the following cases:\n\ne You determine the scheduling data was incorrect after you created periodic meter reading orders for a meter reading unit.\n\ne You enter an incorrect device when creating a control meter reading order.\n\nFeatures\n\nOn the initial screen you can choose whether the meter reading results:\n\ne Are to be deleted\n\nMeter reading orders, meter reading results, and billing orders are deleted. New meter reading orders are created when\nmeter reading order creation is carried out again.\n\ne Arenot to be deleted\n\nOnly meter reading orders and billing orders are deleted, not meter reading results. When meter reading order creation is\ncarried out again, ew meter reading orders are only created for devices that were not read. No new meter reading orders are\ncreated for devices that have already been read, as the corresponding meter reading results were not deleted.\n\nMeter reading orders and results that have already been billed can only be reversed if the corresponding billing documents have\nbeen reversed first. You can find the reversal transactions for Billing in the Utilities Industry menu under |Billing } Billing\n\nExecution \u00bb Reversal\n\nMeter reading results that were entered during installation, replacement, or removal of devices can only be reversed in the\nrespective reversal transactions for installation, replacement, or removal. They can then be deleted. You can find the reversal\ntransactions for installation/replacement/removal in the Utilities Industry menu under |}}Device Management * Installation\n\nOrder Output\n\nPurpose\n\nThis component allows you to:\ne Print meter reading documents\n\nYou can print meter reading orders or forms for meter reading by the customer, depending on the type of meter reading\nscheduled.\n\ne Download meter reading order via raw data interface (RDI)\nYou can download orders as a spool file or an IDoc.\n\nYou can transfer orders via an RDI to external entry systems, such as MDE devices (mobile data entry) and document readers\n(download), or print them from external printing systems.\n",
+ "cleaned_text": "- Meter reading results (optional)\n\n- Billing orders\n\nReversal may be necessary in the following cases:\n\n- You determine the scheduling data was incorrect after you created periodic meter reading orders for a meter reading unit.\n\n- You enter an incorrect device when creating a control meter reading order.\n\nFeatures\n\nOn the initial screen you can choose whether the meter reading results:\n\n- Are to be deleted Meter reading orders, meter reading results, and billing orders are deleted. New meter reading orders are created when meter reading order creation is carried out again.\n\n- Arenot to be deleted Only meter reading orders and billing orders are deleted, not meter reading results. When meter reading order creation is carried out again, ew meter reading orders are only created for devices that were not read. No new meter reading orders are created for devices that have already been read, as the corresponding meter reading results were not deleted.\n\nMeter reading orders and results that have already been billed can only be reversed if the corresponding billing documents have been reversed first. You can find the reversal transactions for Billing in the Utilities Industry menu under |Billing } Billing Execution \u00bb Reversal Meter reading results that were entered during installation, replacement, or removal of devices can only be reversed in the respective reversal transactions for installation, replacement, or removal. They can then be deleted. You can find the reversal transactions for installation/replacement/removal in the Utilities Industry menu under |}}Device Management * Installation\n\nOrder Output\n\nPurpose\n\nThis component allows you to:\n\n- Print meter reading documents\n\nYou can print meter reading orders or forms for meter reading by the customer, depending on the type of meter reading scheduled.\n\n- Download meter reading order via raw data interface (RDI)\n\nYou can download orders as a spool file or an IDoc. You can transfer orders via an RDI to external entry systems, such as MDE devices (mobile data entry) and document readers (download), or print them from external printing systems.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p050_b000",
+   "type": "list",
+   "page_number": 50,
+   "bbox": [
+    207,
+    134,
+    827,
+    274
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Meter reading results (optional)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Billing orders"
+    }
+   ],
+   "section_id": "doc_006_sec_097"
+  },
+  {
+   "block_id": "doc_006_p050_b001",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    125,
+    358,
+    1017,
+    395
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Reversal may be necessary in the following cases:",
+   "section_id": "doc_006_sec_097"
+  },
+  {
+   "block_id": "doc_006_p050_b002",
+   "type": "list",
+   "page_number": 50,
+   "bbox": [
+    207,
+    483,
+    2456,
+    622
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You determine the scheduling data was incorrect after you created periodic meter reading orders for a meter reading unit."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You enter an incorrect device when creating a control meter reading order."
+    }
+   ],
+   "section_id": "doc_006_sec_097"
+  },
+  {
+   "block_id": "doc_006_p050_b003",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    126,
+    734,
+    361,
+    780
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_098"
+  },
+  {
+   "block_id": "doc_006_p050_b004",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    123,
+    867,
+    1409,
+    905
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "On the initial screen you can choose whether the meter reading results:",
+   "section_id": "doc_006_sec_098"
+  },
+  {
+   "block_id": "doc_006_p050_b005",
+   "type": "list",
+   "page_number": 50,
+   "bbox": [
+    207,
+    989,
+    2488,
+    1522
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Are to be deleted Meter reading orders, meter reading results, and billing orders are deleted. New meter reading orders are created when meter reading order creation is carried out again."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Arenot to be deleted Only meter reading orders and billing orders are deleted, not meter reading results. When meter reading order creation is carried out again, ew meter reading orders are only created for devices that were not read. No new meter reading orders are created for devices that have already been read, as the corresponding meter reading results were not deleted."
+    }
+   ],
+   "section_id": "doc_006_sec_098"
+  },
+  {
+   "block_id": "doc_006_p050_b006",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    122,
+    1606,
+    2430,
+    2023
+   ],
+   "ocr_confidence": 92.7,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "Meter reading orders and results that have already been billed can only be reversed if the corresponding billing documents have been reversed first. You can find the reversal transactions for Billing in the Utilities Industry menu under |Billing } Billing Execution \u00bb Reversal Meter reading results that were entered during installation, replacement, or removal of devices can only be reversed in the respective reversal transactions for installation, replacement, or removal. They can then be deleted. You can find the reversal transactions for installation/replacement/removal in the Utilities Industry menu under |}}Device Management * Installation",
+   "section_id": "doc_006_sec_098"
+  },
+  {
+   "block_id": "doc_006_p050_b007",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    125,
+    2167,
+    604,
+    2243
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Order Output",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_099"
+  },
+  {
+   "block_id": "doc_006_p050_b008",
+   "type": "heading",
+   "page_number": 50,
+   "bbox": [
+    126,
+    2344,
+    352,
+    2401
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Purpose",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_100"
+  },
+  {
+   "block_id": "doc_006_p050_b009",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    122,
+    2477,
+    670,
+    2514
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "This component allows you to:",
+   "section_id": "doc_006_sec_100"
+  },
+  {
+   "block_id": "doc_006_p050_b010",
+   "type": "list",
+   "page_number": 50,
+   "bbox": [
+    207,
+    2599,
+    821,
+    2636
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Print meter reading documents"
+    }
+   ],
+   "section_id": "doc_006_sec_100"
+  },
+  {
+   "block_id": "doc_006_p050_b011",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    123,
+    2720,
+    2283,
+    2813
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You can print meter reading orders or forms for meter reading by the customer, depending on the type of meter reading scheduled.",
+   "section_id": "doc_006_sec_100"
+  },
+  {
+   "block_id": "doc_006_p050_b012",
+   "type": "list",
+   "page_number": 50,
+   "bbox": [
+    207,
+    2907,
+    1311,
+    2945
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Download meter reading order via raw data interface (RDI)"
+    }
+   ],
+   "section_id": "doc_006_sec_100"
+  },
+  {
+   "block_id": "doc_006_p050_b013",
+   "type": "paragraph",
+   "page_number": 50,
+   "bbox": [
+    123,
+    3029,
+    2389,
+    3250
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "You can download orders as a spool file or an IDoc. You can transfer orders via an RDI to external entry systems, such as MDE devices (mobile data entry) and document readers (download), or print them from external printing systems.",
+   "section_id": "doc_006_sec_100"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "25acd8b51a57a50abbc588f640cbc0df46eba6729772dac6dcdd6ddd9e013d56"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Reversal",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_097",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_098",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_099",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_100",
+   "role": "starts_here"
+  }
+ ]
+}

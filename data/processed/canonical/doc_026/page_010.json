@@ -1,0 +1,519 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 10,
+ "source_page_hash": "e838ec730294eada05d9a26db9c823f254d08d5bb66a80ba634042d3942ac8ee",
+ "is_cover_page": false,
+ "title": "A charges document is due with the oldest items",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n\nSystem Requirements\n\nSystem Requirements\n\nUp to a specific base amount, a minimum charge is to be levied. A\npercentage charge is to be calculated for the portion of the dunning\namount that exceeds this base amount.\n\nCharges are to be restricted to a maximum when interest is posted.\n\nA charges document is due with the oldest items\n\nSystem Requirements\n\nInterest is not to be calculated on penalty charges and charges\n\nPenalty charges and charges are to be dunned with the main\nreceivables causing the charges and with the same dunning level\n\nPenalty charges and charges should not contribute to the dunning\nbalance\n\nProcedure\n\nEnhancements * Define Customer-Specific Function Modules\n\nProcedure\n\nIn the Implementation Guide for Contract Accounts Receivable\nand Payable , under |}}Business Transactions > Dunning Notices\n,in the\n\ncolumn Offset Charge in the charges schedule, define an offset\n\nConfigure Charges Schedule for Dunning Procedure\n\nthat you calculate according to the following formula:\n\nOffset = Minimum charge \u2014 (base amount * percentage/100)\n\nThe base amount is 50 EUR, minimum charge 5 EUR (= 1%)\nOffset = 5 \u2014 50* 1/100 = 4.5\n\nDo not make an entry in the Maximum Charge field in the charges\n\nschedule since this charges restriction refers to the interest\ncalculation (see |*Business Transactions \u00bb Dunning Notices\n\nConfigure Charges Schedule for Dunning Procedure 49 ).Instead,\nset the indicator Interest before Charges in the dunning level (see\n\nBusiness Transactions } Dunning Notices } Configure Dunning\nProcedure | ) and define the function module\n\nFKK_SPECIALCHARGE_0360 (or another customer-defined\nfunction module with other limit amounts) for event 0360.\n\nIn the standard, the due date of the charges document is the\n\ncurrent system date.You can change the due date of the charges\ndocument in a customer-defined function module for event 0360\n\nthat first calls the function module FKK_SAMPLE_0360 or (for\ncharges restriction) FKK_SPECIALCHARGE_0360.The example\ncoding in function module ZFKK_SAMPLE_0360 calls the module\nFKK_SPECIALCHARGE_0360 and transfers the due date of the\n\noldest main receivable to the charges document as due date.Define\nthe function module in the Implementation Guide for Contract\n\nAccounts Receivable and Payable under\nEnhancements \u00bb Define Customer-Specific Function Modules\n\nProgram\n\nProcedure\n\nDefine a rule for additinal receivables where the indicator Subject\nto Interest is not set.To do this, in the Implementation Guide for\n\nContract Accounts Receivable and Payable choose\nTransactions \u00bb Additional Receivables Define Rules for\n\nBusiness\n\nAdditional Receivables\n\nIn the dunning procedure set the indicator Dun New Documents\nImmediately for the dunning level.\n\nDo not set the indicator Consider for Calculation of Dunning\nBalance in the rule for additional receivables.\n",
+ "cleaned_text": "System Requirements\n\nSystem Requirements Up to a specific base amount, a minimum charge is to be levied. A percentage charge is to be calculated for the portion of the dunning amount that exceeds this base amount.\n\nCharges are to be restricted to a maximum when interest is posted.\n\nA charges document is due with the oldest items\n\nSystem Requirements\n\nInterest is not to be calculated on penalty charges and charges\n\nPenalty charges and charges are to be dunned with the main receivables causing the charges and with the same dunning level Penalty charges and charges should not contribute to the dunning balance\n\nProcedure\n\nEnhancements * Define Customer-Specific Function Modules\n\nProcedure\n\nIn the Implementation Guide for Contract Accounts Receivable and Payable , under |}}Business Transactions > Dunning Notices ,in the column Offset Charge in the charges schedule, define an offset\n\nConfigure Charges Schedule for Dunning Procedure\n\nthat you calculate according to the following formula: Offset = Minimum charge \u2014 (base amount * percentage/100) The base amount is 50 EUR, minimum charge 5 EUR (= 1%) Offset = 5 \u2014 50* 1/100 = 4.5 Do not make an entry in the Maximum Charge field in the charges schedule since this charges restriction refers to the interest calculation (see |*Business Transactions \u00bb Dunning Notices Configure Charges Schedule for Dunning Procedure 49 ).Instead, set the indicator Interest before Charges in the dunning level (see Business Transactions } Dunning Notices } Configure Dunning Procedure | ) and define the function module FKK_SPECIALCHARGE_0360 (or another customer-defined function module with other limit amounts) for event 0360. In the standard, the due date of the charges document is the current system date.You can change the due date of the charges document in a customer-defined function module for event 0360 that first calls the function module FKK_SAMPLE_0360 or (for charges restriction) FKK_SPECIALCHARGE_0360.The example coding in function module ZFKK_SAMPLE_0360 calls the module FKK_SPECIALCHARGE_0360 and transfers the due date of the oldest main receivable to the charges document as due date.Define the function module in the Implementation Guide for Contract\n\nAccounts Receivable and Payable under\n\nEnhancements \u00bb Define Customer-Specific Function Modules\n\nProgram\n\nProcedure\n\nDefine a rule for additinal receivables where the indicator Subject to Interest is not set.To do this, in the Implementation Guide for\n\nContract Accounts Receivable and Payable choose\n\nTransactions \u00bb Additional Receivables Define Rules for\n\nBusiness\n\nAdditional Receivables\n\nIn the dunning procedure set the indicator Dun New Documents Immediately for the dunning level. Do not set the indicator Consider for Calculation of Dunning Balance in the rule for additional receivables.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p010_b000",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    149,
+    159,
+    530,
+    195
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "System Requirements",
+   "section_id": "doc_026_sec_035"
+  },
+  {
+   "block_id": "doc_026_p010_b001",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    148,
+    409,
+    1280,
+    661
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "System Requirements Up to a specific base amount, a minimum charge is to be levied. A percentage charge is to be calculated for the portion of the dunning amount that exceeds this base amount.",
+   "section_id": "doc_026_sec_035"
+  },
+  {
+   "block_id": "doc_026_p010_b002",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    148,
+    1125,
+    1274,
+    1160
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Charges are to be restricted to a maximum when interest is posted.",
+   "section_id": "doc_026_sec_035"
+  },
+  {
+   "block_id": "doc_026_p010_b003",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    148,
+    1700,
+    963,
+    1736
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "A charges document is due with the oldest items",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_026_sec_035"
+  },
+  {
+   "block_id": "doc_026_p010_b004",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    149,
+    2453,
+    530,
+    2488
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "System Requirements",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_036"
+  },
+  {
+   "block_id": "doc_026_p010_b005",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    150,
+    2561,
+    1198,
+    2596
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Interest is not to be calculated on penalty charges and charges",
+   "section_id": "doc_026_sec_036"
+  },
+  {
+   "block_id": "doc_026_p010_b006",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    149,
+    2900,
+    1256,
+    3151
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Penalty charges and charges are to be dunned with the main receivables causing the charges and with the same dunning level Penalty charges and charges should not contribute to the dunning balance",
+   "section_id": "doc_026_sec_036"
+  },
+  {
+   "block_id": "doc_026_p010_b007",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    1332,
+    159,
+    1508,
+    188
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Procedure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_037"
+  },
+  {
+   "block_id": "doc_026_p010_b008",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    1333,
+    238,
+    2393,
+    281
+   ],
+   "ocr_confidence": 87.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Enhancements * Define Customer-Specific Function Modules",
+   "section_id": "doc_026_sec_037"
+  },
+  {
+   "block_id": "doc_026_p010_b009",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    1332,
+    410,
+    1508,
+    438
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Procedure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_038"
+  },
+  {
+   "block_id": "doc_026_p010_b010",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    1331,
+    514,
+    2423,
+    727
+   ],
+   "ocr_confidence": 91.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "In the Implementation Guide for Contract Accounts Receivable and Payable , under |}}Business Transactions > Dunning Notices ,in the column Offset Charge in the charges schedule, define an offset",
+   "section_id": "doc_026_sec_038"
+  },
+  {
+   "block_id": "doc_026_p010_b011",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    1340,
+    632,
+    2234,
+    667
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Configure Charges Schedule for Dunning Procedure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_039"
+  },
+  {
+   "block_id": "doc_026_p010_b012",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    1330,
+    751,
+    2460,
+    2202
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [
+    "low_confidence_words:9"
+   ],
+   "text": "that you calculate according to the following formula: Offset = Minimum charge \u2014 (base amount * percentage/100) The base amount is 50 EUR, minimum charge 5 EUR (= 1%) Offset = 5 \u2014 50* 1/100 = 4.5 Do not make an entry in the Maximum Charge field in the charges schedule since this charges restriction refers to the interest calculation (see |*Business Transactions \u00bb Dunning Notices Configure Charges Schedule for Dunning Procedure 49 ).Instead, set the indicator Interest before Charges in the dunning level (see Business Transactions } Dunning Notices } Configure Dunning Procedure | ) and define the function module FKK_SPECIALCHARGE_0360 (or another customer-defined function module with other limit amounts) for event 0360. In the standard, the due date of the charges document is the current system date.You can change the due date of the charges document in a customer-defined function module for event 0360 that first calls the function module FKK_SAMPLE_0360 or (for charges restriction) FKK_SPECIALCHARGE_0360.The example coding in function module ZFKK_SAMPLE_0360 calls the module FKK_SPECIALCHARGE_0360 and transfers the due date of the oldest main receivable to the charges document as due date.Define the function module in the Implementation Guide for Contract",
+   "section_id": "doc_026_sec_039"
+  },
+  {
+   "block_id": "doc_026_p010_b013",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    1331,
+    2226,
+    2017,
+    2261
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Accounts Receivable and Payable under",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_040"
+  },
+  {
+   "block_id": "doc_026_p010_b014",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    1333,
+    2280,
+    2393,
+    2324
+   ],
+   "ocr_confidence": 83.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Enhancements \u00bb Define Customer-Specific Function Modules",
+   "section_id": "doc_026_sec_040"
+  },
+  {
+   "block_id": "doc_026_p010_b015",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    2062,
+    2226,
+    2207,
+    2261
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Program",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_041"
+  },
+  {
+   "block_id": "doc_026_p010_b016",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    1332,
+    2453,
+    1508,
+    2481
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Procedure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_042"
+  },
+  {
+   "block_id": "doc_026_p010_b017",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    1330,
+    2561,
+    2429,
+    2652
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Define a rule for additinal receivables where the indicator Subject to Interest is not set.To do this, in the Implementation Guide for",
+   "section_id": "doc_026_sec_042"
+  },
+  {
+   "block_id": "doc_026_p010_b018",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    1331,
+    2676,
+    2200,
+    2711
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Contract Accounts Receivable and Payable choose",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_043"
+  },
+  {
+   "block_id": "doc_026_p010_b019",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    1330,
+    2731,
+    2303,
+    2774
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [],
+   "text": "Transactions \u00bb Additional Receivables Define Rules for",
+   "section_id": "doc_026_sec_043"
+  },
+  {
+   "block_id": "doc_026_p010_b020",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    2246,
+    2676,
+    2400,
+    2704
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Business",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_044"
+  },
+  {
+   "block_id": "doc_026_p010_b021",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    1331,
+    2795,
+    1723,
+    2823
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Additional Receivables",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_045"
+  },
+  {
+   "block_id": "doc_026_p010_b022",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    1333,
+    2900,
+    2411,
+    3151
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "In the dunning procedure set the indicator Dun New Documents Immediately for the dunning level. Do not set the indicator Consider for Calculation of Dunning Balance in the rule for additional receivables.",
+   "section_id": "doc_026_sec_045"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59.0,
+  "body_stroke_median": 0.1364,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "e838ec730294eada05d9a26db9c823f254d08d5bb66a80ba634042d3942ac8ee"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Calculation of Interest and Charges According to Fiscal Code",
+  "Activities",
+  "Receivable and Payable"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_035",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_036",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_037",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_038",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_039",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_040",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_041",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_042",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_043",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_044",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_045",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,426 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 70,
+ "source_page_hash": "27ebd3b14dca36d6c7db2cb1aea2c7f569e6ada77f4560538b4dabfc83ec0f06",
+ "is_cover_page": false,
+ "title": "More Information",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nYou define TOU exception programs in Customizing in the activity Define Time-of-Use Exception Program.\n\nChoose one of the following paths in SAP Customizing:\n\n\u00a2 |}SAP Utilities > Contract Billing > Billing Master Data AMI: Time-of-Use Interface > Define Time-of-Use Exception\nProgram 3.\n\ne |PSAP Utilities >} Advanced Metering Infrastructure > Time-of-Use Interface > Define Time-of-Use Exception Program 9\n\nMore Information\n\nFor concept information, see Time-of-Use Exception Program\n\nFor application information, see the documentation for the Customizing activity and the field help (F1).\n\nCreate Billing Schema Extension\n\nUse\n\nYou define a billing schema extension to perform conditional billing. You do this from a billing schema.\n\nTo create a schema extension, proceed as follows:\n\n1. Select the Execute Conditional Billing Program indicator in the schema.\n2. From the schema header, choose Schema Steps or the following menu path |}\u00bbGoto \u00bb Schema Steps 9.\n\n3. From the schema steps, choose Schema Extension or the following menu path |)\u00bbGoto \u00bb Schema Extension \u00a5.\n\nMore Information\n\nFor more information about the billing schema extension concept, see\n\nBilling Schema Extension\n\nActivities in Production Operation\n\nYou monitor and edit TOU exceptions and the associated TOU exception responses on a daily basis. You can use the following\ntransactions to do so, for which more information is available from the respective link below:\n\ne Monitor and Edit Time-of-Use Exceptions\n\ne Monitor and Edit Time-of-Use Exception Responses\n\nTo reduce your database load, you can archive TOU exceptions and exception responses.\n\nMonitor and Edit Time-of-Use Exceptions\n",
+ "cleaned_text": "You define TOU exception programs in Customizing in the activity Define Time-of-Use Exception Program. Choose one of the following paths in SAP Customizing: \u00a2 |}SAP Utilities > Contract Billing > Billing Master Data AMI: Time-of-Use Interface > Define Time-of-Use Exception Program 3. e |PSAP Utilities >} Advanced Metering Infrastructure > Time-of-Use Interface > Define Time-of-Use Exception Program 9\n\nMore Information\n\nFor concept information, see Time-of-Use Exception Program\n\nFor application information, see the documentation for the Customizing activity and the field help (F1).\n\nCreate Billing Schema Extension\n\nUse\n\nYou define a billing schema extension to perform conditional billing. You do this from a billing schema. To create a schema extension, proceed as follows:\n\n1 Select the Execute Conditional Billing Program indicator in the schema.\n\n2 From the schema header, choose Schema Steps or the following menu path |}\u00bbGoto \u00bb Schema Steps 9.\n\n3 From the schema steps, choose Schema Extension or the following menu path |)\u00bbGoto \u00bb Schema Extension \u00a5.\n\nMore Information\n\nFor more information about the billing schema extension concept, see\n\nBilling Schema Extension\n\nActivities in Production Operation\n\nYou monitor and edit TOU exceptions and the associated TOU exception responses on a daily basis. You can use the following transactions to do so, for which more information is available from the respective link below:\n\n- Monitor and Edit Time-of-Use Exceptions\n\n- Monitor and Edit Time-of-Use Exception Responses\n\nTo reduce your database load, you can archive TOU exceptions and exception responses.\n\nMonitor and Edit Time-of-Use Exceptions",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p070_b000",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    123,
+    134,
+    2455,
+    585
+   ],
+   "ocr_confidence": 87.0,
+   "flags": [
+    "low_confidence_words:7"
+   ],
+   "text": "You define TOU exception programs in Customizing in the activity Define Time-of-Use Exception Program. Choose one of the following paths in SAP Customizing: \u00a2 |}SAP Utilities > Contract Billing > Billing Master Data AMI: Time-of-Use Interface > Define Time-of-Use Exception Program 3. e |PSAP Utilities >} Advanced Metering Infrastructure > Time-of-Use Interface > Define Time-of-Use Exception Program 9",
+   "section_id": "doc_011_sec_226"
+  },
+  {
+   "block_id": "doc_011_p070_b001",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    126,
+    694,
+    611,
+    740
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "More Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_227"
+  },
+  {
+   "block_id": "doc_011_p070_b002",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    125,
+    828,
+    1232,
+    866
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "For concept information, see Time-of-Use Exception Program",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_227"
+  },
+  {
+   "block_id": "doc_011_p070_b003",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    125,
+    949,
+    1975,
+    987
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "For application information, see the documentation for the Customizing activity and the field help (F1).",
+   "section_id": "doc_011_sec_227"
+  },
+  {
+   "block_id": "doc_011_p070_b004",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    125,
+    1132,
+    1299,
+    1209
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Create Billing Schema Extension",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_228"
+  },
+  {
+   "block_id": "doc_011_p070_b005",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    125,
+    1312,
+    225,
+    1358
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_229"
+  },
+  {
+   "block_id": "doc_011_p070_b006",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    122,
+    1442,
+    1957,
+    1604
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You define a billing schema extension to perform conditional billing. You do this from a billing schema. To create a schema extension, proceed as follows:",
+   "section_id": "doc_011_sec_229"
+  },
+  {
+   "block_id": "doc_011_p070_b007",
+   "type": "list",
+   "page_number": 70,
+   "bbox": [
+    211,
+    1688,
+    2246,
+    1935
+   ],
+   "ocr_confidence": 88.6,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Select the Execute Conditional Billing Program indicator in the schema."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "From the schema header, choose Schema Steps or the following menu path |}\u00bbGoto \u00bb Schema Steps 9."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "From the schema steps, choose Schema Extension or the following menu path |)\u00bbGoto \u00bb Schema Extension \u00a5."
+    }
+   ],
+   "section_id": "doc_011_sec_229"
+  },
+  {
+   "block_id": "doc_011_p070_b008",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    126,
+    2042,
+    611,
+    2087
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "More Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_230"
+  },
+  {
+   "block_id": "doc_011_p070_b009",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    125,
+    2175,
+    1387,
+    2212
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "For more information about the billing schema extension concept, see",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_230"
+  },
+  {
+   "block_id": "doc_011_p070_b010",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    125,
+    2296,
+    579,
+    2333
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Billing Schema Extension",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_230"
+  },
+  {
+   "block_id": "doc_011_p070_b011",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    124,
+    2482,
+    1342,
+    2559
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Activities in Production Operation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_231"
+  },
+  {
+   "block_id": "doc_011_p070_b012",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    122,
+    2631,
+    2377,
+    2731
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You monitor and edit TOU exceptions and the associated TOU exception responses on a daily basis. You can use the following transactions to do so, for which more information is available from the respective link below:",
+   "section_id": "doc_011_sec_231"
+  },
+  {
+   "block_id": "doc_011_p070_b013",
+   "type": "list",
+   "page_number": 70,
+   "bbox": [
+    207,
+    2819,
+    1182,
+    2958
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Monitor and Edit Time-of-Use Exceptions"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Monitor and Edit Time-of-Use Exception Responses"
+    }
+   ],
+   "section_id": "doc_011_sec_231"
+  },
+  {
+   "block_id": "doc_011_p070_b014",
+   "type": "paragraph",
+   "page_number": 70,
+   "bbox": [
+    122,
+    3041,
+    1719,
+    3080
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "To reduce your database load, you can archive TOU exceptions and exception responses.",
+   "section_id": "doc_011_sec_231"
+  },
+  {
+   "block_id": "doc_011_p070_b015",
+   "type": "heading",
+   "page_number": 70,
+   "bbox": [
+    128,
+    3229,
+    1607,
+    3300
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "text": "Monitor and Edit Time-of-Use Exceptions",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_232"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1364,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "27ebd3b14dca36d6c7db2cb1aea2c7f569e6ada77f4560538b4dabfc83ec0f06"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Setting Up Conditional Billing"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_226",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_227",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_228",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_229",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_230",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_231",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_232",
+   "role": "starts_here"
+  }
+ ]
+}

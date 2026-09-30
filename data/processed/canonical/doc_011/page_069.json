@@ -1,0 +1,366 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 69,
+ "source_page_hash": "e2f1ed5c3179bb0546023bf4cf45387bc96babd6b5ba9a58b3e0287f7a239718",
+ "is_cover_page": false,
+ "title": "More Information",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nThe formula class that supports critical peak prices CL_ISU FASTEDM FORMULA CPP contains an algorithm that calculates the\nactual consumption for a time-of-use exception period including past periods. These quantities are available from the results\nparameters of formula execution in the billing process as operand values and can be used in rate calculations. The algorithm in this\n\nformula represents a typical CPP rate. You can use this TOU formula as a basis for additional project-specific formula\nimplementations.\n\nMore Information\n\nFor more information, see the documentation for the formula class CL_ISU FASTEDM FORMULA CPP in the system.\n\nSetting Up Conditional Billing\n\nYou must perform the following activities to set up conditional billing:\n\n1. Define time-of-use exception programs.\n\nYou use TOU exception programs for example to represent demand response programs in the SAP IS-U system. TOU\nexception programs bundle TOU exceptions and create the connection between the conditional billing program and the\nTOU exception.\n\nFor more information, see\n\nDefining Time-of-Use Exception Programs\n\n2. Design rate constructs for conditional billing.\n\na. Define the rates that you want to use as basic rates and those that you want to use as conditional rates. Use the\nrates in a corresponding schema and in rate determination. Select the Execute Conditional Billing Program\nindicator in the schema and the rate category.\n\n1 Note\n\nYou can us\u00e9 a billing schema for which this indicator is selected, in a rate category for which this indicator is not\n\nselected. If you do so however, the system ignores all conditional rates for the billing schema extension during\nbilling.\n\nb. Select the Assignment to a Conditional Rate Allowed indicator in the time-of-use interface. This enables the time-\nof-use interface to be assigned to a rate that is to be used as a conditional rate in a billing schema extension.\n3. Create billing schema extensions for the schemas.\nFor more information, see\nCreate Billing Schema Extension\n4. Define conditional billing programs in the billing schema extension and assign them to TOU exception programs.\n\nAssigning conditional billing programs to TOU exception programs executes the corresponding rates in the billing schema\nextension for an active TOU exception.\n\n5. Define rate relationships between basic rates and conditional rates in the billing schema extension.\n",
+ "cleaned_text": "The formula class that supports critical peak prices CL_ISU FASTEDM FORMULA CPP contains an algorithm that calculates the actual consumption for a time-of-use exception period including past periods. These quantities are available from the results parameters of formula execution in the billing process as operand values and can be used in rate calculations. The algorithm in this formula represents a typical CPP rate. You can use this TOU formula as a basis for additional project-specific formula implementations.\n\nMore Information\n\nFor more information, see the documentation for the formula class CL_ISU FASTEDM FORMULA | CPP in the system.\n\nSetting Up Conditional Billing\n\nYou must perform the following activities to set up conditional billing:\n\n1 Define time-of-use exception programs. You use TOU exception programs for example to represent demand response programs in the SAP IS-U system. TOU exception programs bundle TOU exceptions and create the connection between the conditional billing program and the\n\nTOU exception. For more information, see Defining Time-of-Use Exception Programs\n\n2 Design rate constructs for conditional billing. a. Define the rates that you want to use as basic rates and those that you want to use as conditional rates. Use the rates in a corresponding schema and in rate determination. Select the Execute Conditional Billing Program indicator in the schema and the rate category.\n\nNote You can us\u00e9 a billing schema for which this indicator is selected, in a rate category for which this indicator is not selected. If you do so however, the system ignores all conditional rates for the billing schema extension during billing. b. Select the Assignment to a Conditional Rate Allowed indicator in the time-of-use interface. This enables the time-of-use interface to be assigned to a rate that is to be used as a conditional rate in a billing schema extension.\n\n3 Create billing schema extensions for the schemas. For more information, see\n\nCreate Billing Schema Extension\n\n4 Define conditional billing programs in the billing schema extension and assign them to TOU exception programs. Assigning conditional billing programs to TOU exception programs executes the corresponding rates in the billing schema extension for an active TOU exception.\n\n5 Define rate relationships between basic rates and conditional rates in the billing schema extension.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    414,
+    2020,
+    573,
+    2057
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p069_b000",
+   "type": "paragraph",
+   "page_number": 69,
+   "bbox": [
+    122,
+    132,
+    2485,
+    428
+   ],
+   "ocr_confidence": 92.6,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "The formula class that supports critical peak prices CL_ISU FASTEDM FORMULA CPP contains an algorithm that calculates the actual consumption for a time-of-use exception period including past periods. These quantities are available from the results parameters of formula execution in the billing process as operand values and can be used in rate calculations. The algorithm in this formula represents a typical CPP rate. You can use this TOU formula as a basis for additional project-specific formula implementations.",
+   "section_id": "doc_011_sec_224"
+  },
+  {
+   "block_id": "doc_011_p069_b001",
+   "type": "heading",
+   "page_number": 69,
+   "bbox": [
+    126,
+    541,
+    611,
+    586
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "More Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_225"
+  },
+  {
+   "block_id": "doc_011_p069_b002",
+   "type": "table",
+   "page_number": 69,
+   "bbox": [
+    125,
+    671,
+    2261,
+    721
+   ],
+   "ocr_confidence": 78.6,
+   "flags": [
+    "low_confidence_words:4",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    125,
+    1954
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "For more information, see the documentation for the formula class CL_ISU FASTEDM FORMULA",
+     "CPP in the system."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "For more information, see the documentation for the formula class CL_ISU FASTEDM FORMULA",
+     "CPP in the system."
+    ]
+   ],
+   "section_id": "doc_011_sec_225"
+  },
+  {
+   "block_id": "doc_011_p069_b003",
+   "type": "heading",
+   "page_number": 69,
+   "bbox": [
+    126,
+    860,
+    1188,
+    936
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Setting Up Conditional Billing",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_226"
+  },
+  {
+   "block_id": "doc_011_p069_b004",
+   "type": "paragraph",
+   "page_number": 69,
+   "bbox": [
+    123,
+    1012,
+    1370,
+    1049
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You must perform the following activities to set up conditional billing:",
+   "section_id": "doc_011_sec_226"
+  },
+  {
+   "block_id": "doc_011_p069_b005",
+   "type": "list",
+   "page_number": 69,
+   "bbox": [
+    214,
+    1134,
+    2406,
+    1335
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Define time-of-use exception programs. You use TOU exception programs for example to represent demand response programs in the SAP IS-U system. TOU exception programs bundle TOU exceptions and create the connection between the conditional billing program and the"
+    }
+   ],
+   "section_id": "doc_011_sec_226"
+  },
+  {
+   "block_id": "doc_011_p069_b006",
+   "type": "paragraph",
+   "page_number": 69,
+   "bbox": [
+    254,
+    1360,
+    1012,
+    1605
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "TOU exception. For more information, see Defining Time-of-Use Exception Programs",
+   "section_id": "doc_011_sec_226"
+  },
+  {
+   "block_id": "doc_011_p069_b007",
+   "type": "list",
+   "page_number": 69,
+   "bbox": [
+    212,
+    1668,
+    2399,
+    1936
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Design rate constructs for conditional billing. a. Define the rates that you want to use as basic rates and those that you want to use as conditional rates. Use the rates in a corresponding schema and in rate determination. Select the Execute Conditional Billing Program indicator in the schema and the rate category."
+    }
+   ],
+   "section_id": "doc_011_sec_226"
+  },
+  {
+   "block_id": "doc_011_p069_b008",
+   "type": "note",
+   "page_number": 69,
+   "bbox": [
+    346,
+    2020,
+    2455,
+    2462
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "label": "Note",
+   "text": "Note You can us\u00e9 a billing schema for which this indicator is selected, in a rate category for which this indicator is not selected. If you do so however, the system ignores all conditional rates for the billing schema extension during billing. b. Select the Assignment to a Conditional Rate Allowed indicator in the time-of-use interface. This enables the time-of-use interface to be assigned to a rate that is to be used as a conditional rate in a billing schema extension.",
+   "section_id": "doc_011_sec_226"
+  },
+  {
+   "block_id": "doc_011_p069_b009",
+   "type": "list",
+   "page_number": 69,
+   "bbox": [
+    211,
+    2529,
+    1163,
+    2665
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Create billing schema extensions for the schemas. For more information, see"
+    }
+   ],
+   "section_id": "doc_011_sec_226"
+  },
+  {
+   "block_id": "doc_011_p069_b010",
+   "type": "paragraph",
+   "page_number": 69,
+   "bbox": [
+    255,
+    2732,
+    841,
+    2771
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Create Billing Schema Extension",
+   "section_id": "doc_011_sec_226"
+  },
+  {
+   "block_id": "doc_011_p069_b011",
+   "type": "list",
+   "page_number": 69,
+   "bbox": [
+    211,
+    2835,
+    2453,
+    3142
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Define conditional billing programs in the billing schema extension and assign them to TOU exception programs. Assigning conditional billing programs to TOU exception programs executes the corresponding rates in the billing schema extension for an active TOU exception."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Define rate relationships between basic rates and conditional rates in the billing schema extension."
+    }
+   ],
+   "section_id": "doc_011_sec_226"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.0889,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "e2f1ed5c3179bb0546023bf4cf45387bc96babd6b5ba9a58b3e0287f7a239718"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Critical Peak Pricing",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_224",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_225",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_226",
+   "role": "starts_here"
+  }
+ ]
+}

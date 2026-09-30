@@ -1,0 +1,425 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 77,
+ "source_page_hash": "1e2379b2604c309a509f7a1d857006544e0b60de9419f2a6ea4f07d3eb96cb30",
+ "is_cover_page": false,
+ "title": "Manage Contract Accounts",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nThe contract account is locked for the business transaction selected either for a limited or unlimited amount of time, depending on\nthe lock reason.\n\nManage Contract Accounts\n\nThe Manage Contract Accounts (F5474) app provides a central entry point for contract account maintenance.\n\nKey Features\n\nYou can use this app to do the following:\n\ne Display a list of contract accounts\n\nFilter the list according to your needs, for example, by business partner and company code\ne Display a contract account by clicking on it\ne Change a contract account\n\nTo change a contract account, select the desired contract account in the list and press Change. This takes you to the app\nfor changing contract accounts.\n\ne Create contract accounts\n\nTo create a new contract account, press Create. This takes you to the app for creating contract accounts.\n\n1 Note\n\nFrom the Manage Contract Accounts app, you can access the following transactions:\n\ne Create Contract Account (transaction CAA1)\ne Change Contract Account (transaction CAA2)\n\ne Display Contract Account (transaction CAA3)\n\nImplementation Information\n\nIn the SAP Fiori Apps Reference Library, see the details for the Manage Contract Accounts app.\n\nRelated Information\n\nCreating, Changing, and Displaying Contract Accounts\n\nCorrespondence for Master Data Changes\n\nUse\n\nUsing corresnondence tvne 0030 (master data change) vou can follow immediate and nlanned changes to the master data of\n",
+ "cleaned_text": "The contract account is locked for the business transaction selected either for a limited or unlimited amount of time, depending on the lock reason.\n\nManage Contract Accounts\n\nThe Manage Contract Accounts (F5474) app provides a central entry point for contract account maintenance.\n\nKey Features\n\nYou can use this app to do the following:\n\n- Display a list of contract accounts Filter the list according to your needs, for example, by business partner and company code\n\n- Display a contract account by clicking on it\n\n- Change a contract account To change a contract account, select the desired contract account in the list and press Change. This takes you to the app for changing contract accounts.\n\n- Create contract accounts To create a new contract account, press Create. This takes you to the app for creating contract accounts.\n\nNote From the Manage Contract Accounts app, you can access the following transactions:\n\n- Create Contract Account (transaction CAA1)\n\n- Change Contract Account (transaction CAA2)\n\n- Display Contract Account (transaction CAA3)\n\nImplementation Information\n\nIn the SAP Fiori Apps Reference Library, see the details for the Manage Contract Accounts app.\n\nRelated Information\n\nCreating, Changing, and Displaying Contract Accounts\n\nCorrespondence for Master Data Changes\n\nUse\n\nUsing corresnondence tvne 0030 (master data change) vou can follow immediate and nlanned changes to the master data of",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1760,
+    310,
+    1798
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p077_b000",
+   "type": "paragraph",
+   "page_number": 77,
+   "bbox": [
+    122,
+    134,
+    2487,
+    227
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The contract account is locked for the business transaction selected either for a limited or unlimited amount of time, depending on the lock reason.",
+   "section_id": "doc_001_sec_296"
+  },
+  {
+   "block_id": "doc_001_p077_b001",
+   "type": "heading",
+   "page_number": 77,
+   "bbox": [
+    128,
+    383,
+    1109,
+    460
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Manage Contract Accounts",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_297"
+  },
+  {
+   "block_id": "doc_001_p077_b002",
+   "type": "paragraph",
+   "page_number": 77,
+   "bbox": [
+    122,
+    534,
+    2134,
+    573
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "The Manage Contract Accounts (F5474) app provides a central entry point for contract account maintenance.",
+   "section_id": "doc_001_sec_297"
+  },
+  {
+   "block_id": "doc_001_p077_b003",
+   "type": "heading",
+   "page_number": 77,
+   "bbox": [
+    126,
+    685,
+    480,
+    741
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Key Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_298"
+  },
+  {
+   "block_id": "doc_001_p077_b004",
+   "type": "paragraph",
+   "page_number": 77,
+   "bbox": [
+    123,
+    818,
+    843,
+    855
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You can use this app to do the following:",
+   "section_id": "doc_001_sec_298"
+  },
+  {
+   "block_id": "doc_001_p077_b005",
+   "type": "list",
+   "page_number": 77,
+   "bbox": [
+    206,
+    935,
+    2436,
+    1657
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display a list of contract accounts Filter the list according to your needs, for example, by business partner and company code"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display a contract account by clicking on it"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change a contract account To change a contract account, select the desired contract account in the list and press Change. This takes you to the app for changing contract accounts."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create contract accounts To create a new contract account, press Create. This takes you to the app for creating contract accounts."
+    }
+   ],
+   "section_id": "doc_001_sec_298"
+  },
+  {
+   "block_id": "doc_001_p077_b006",
+   "type": "note",
+   "page_number": 77,
+   "bbox": [
+    151,
+    1760,
+    1691,
+    1878
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "label": "Note",
+   "text": "Note From the Manage Contract Accounts app, you can access the following transactions:",
+   "section_id": "doc_001_sec_298"
+  },
+  {
+   "block_id": "doc_001_p077_b007",
+   "type": "list",
+   "page_number": 77,
+   "bbox": [
+    236,
+    1961,
+    1128,
+    2203
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create Contract Account (transaction CAA1)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change Contract Account (transaction CAA2)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display Contract Account (transaction CAA3)"
+    }
+   ],
+   "section_id": "doc_001_sec_298"
+  },
+  {
+   "block_id": "doc_001_p077_b008",
+   "type": "heading",
+   "page_number": 77,
+   "bbox": [
+    127,
+    2380,
+    916,
+    2437
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Implementation Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_299"
+  },
+  {
+   "block_id": "doc_001_p077_b009",
+   "type": "paragraph",
+   "page_number": 77,
+   "bbox": [
+    125,
+    2509,
+    1835,
+    2548
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "In the SAP Fiori Apps Reference Library, see the details for the Manage Contract Accounts app.",
+   "section_id": "doc_001_sec_299"
+  },
+  {
+   "block_id": "doc_001_p077_b010",
+   "type": "heading",
+   "page_number": 77,
+   "bbox": [
+    126,
+    2659,
+    681,
+    2705
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Related Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_300"
+  },
+  {
+   "block_id": "doc_001_p077_b011",
+   "type": "paragraph",
+   "page_number": 77,
+   "bbox": [
+    123,
+    2785,
+    1106,
+    2824
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Creating, Changing, and Displaying Contract Accounts",
+   "section_id": "doc_001_sec_300"
+  },
+  {
+   "block_id": "doc_001_p077_b012",
+   "type": "heading",
+   "page_number": 77,
+   "bbox": [
+    125,
+    2962,
+    1650,
+    3039
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Correspondence for Master Data Changes",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_301"
+  },
+  {
+   "block_id": "doc_001_p077_b013",
+   "type": "heading",
+   "page_number": 77,
+   "bbox": [
+    125,
+    3139,
+    225,
+    3184
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_302"
+  },
+  {
+   "block_id": "doc_001_p077_b014",
+   "type": "paragraph",
+   "page_number": 77,
+   "bbox": [
+    124,
+    3272,
+    2403,
+    3300
+   ],
+   "ocr_confidence": 85.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Using corresnondence tvne 0030 (master data change) vou can follow immediate and nlanned changes to the master data of",
+   "section_id": "doc_001_sec_302"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "1e2379b2604c309a509f7a1d857006544e0b60de9419f2a6ea4f07d3eb96cb30"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Creating, Changing and Displaying Locks",
+  "Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_296",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_297",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_298",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_299",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_300",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_301",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_302",
+   "role": "starts_here"
+  }
+ ]
+}

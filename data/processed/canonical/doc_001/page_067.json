@@ -1,0 +1,371 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 67,
+ "source_page_hash": "aeb64671866e657da141601eaa780e3a50c50c6de846f3424284eda9c2bac2fc",
+ "is_cover_page": false,
+ "title": "Insurance(FS-CD) Industry Component",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nIn Utilities ,one contract account contains all those contracts belonging to one business partner for which the same payment and\ndunning terms apply. You assign your business partner contracts to the contract accounts. Although one contract account can\ncontain more than one contract, each individual contract is assigned to one contract account only. This does not apply to one-time\n\naccounts.\nFor more information on contracts, see the Utility/Disposal Contracts section in the Utilities Industry component.\nInsurance(FS-CD) Industry Component\n\nYou assign contracts to the contract accounts for which there is a business partner. Each contract is only assigned to one contract\naccount, however one contract account may have several contracts assigned to it.\n\nContract account master data is usually created and changed from the operational system using an interface.\nIndustry ComponentPublic Sector Contract Accounts Receivable and Payable(PSCD)\n\nYou set up the contract accounts of a business partner for the relevant taxes (property tax, income tax, and so on). You assign\ncontract objects to a contract account for which relevant taxes are levied. If different taxes are levied for a contract object, you can\nmake assignments to several contract accounts.\n\nFor more information about the contract objects, see the documentation for the industry-specific component Public Sector\nContract Accounts Receivable and Payable under Contract Object .\n\nContract Account Category\n\nDefinition\n\nAcontract account category defines certain attributes for a contract account.\n\nUse\n\nYou have to assign a contract account category to each contract account when you create it. The fields that appear when you\ncreate a contract account are among the things controlled by the contract account category.\n\nStructure\nThe contract account category determines the following contract account attributes:\n\ne Whether you are allowed to assign only one business partner or more than one to a contract account\ne Whether you are allowed to assign only one contract or more than one\n\ne Whether you are allowed to maintain a contract account online\n\ne The number range that is allowed for external or internal number assignment\n\ne Whether it is a collective bill account (industry component Utilities )\n\ne Whether it is a one-time account\n",
+ "cleaned_text": "In Utilities ,one contract account contains all those contracts belonging to one business partner for which the same payment and dunning terms apply. You assign your business partner contracts to the contract accounts. Although one contract account can contain more than one contract, each individual contract is assigned to one contract account only. This does not apply to one-time accounts. For more information on contracts, see the Utility/Disposal Contracts section in the Utilities Industry component.\n\nInsurance(FS-CD) Industry Component\n\nYou assign contracts to the contract accounts for which there is a business partner. Each contract is only assigned to one contract account, however one contract account may have several contracts assigned to it. Contract account master data is usually created and changed from the operational system using an interface.\n\nIndustry ComponentPublic Sector Contract Accounts Receivable and Payable(PSCD)\n\nYou set up the contract accounts of a business partner for the relevant taxes (property tax, income tax, and so on). You assign contract objects to a contract account for which relevant taxes are levied. If different taxes are levied for a contract object, you can make assignments to several contract accounts. For more information about the contract objects, see the documentation for the industry-specific component Public Sector Contract Accounts Receivable and Payable under Contract Object .\n\nContract Account Category\n\nDefinition\n\nAcontract account category defines certain attributes for a contract account.\n\nUse\n\nYou have to assign a contract account category to each contract account when you create it. The fields that appear when you create a contract account are among the things controlled by the contract account category.\n\nStructure\n\nThe contract account category determines the following contract account attributes:\n\n- Whether you are allowed to assign only one business partner or more than one to a contract account\n\n- Whether you are allowed to assign only one contract or more than one\n\n- Whether you are allowed to maintain a contract account online\n\n- The number range that is allowed for external or internal number assignment\n\n- Whether it is a collective bill account (industry component Utilities )\n\n- Whether it is a one-time account",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p067_b000",
+   "type": "paragraph",
+   "page_number": 67,
+   "bbox": [
+    123,
+    134,
+    2482,
+    485
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "In Utilities ,one contract account contains all those contracts belonging to one business partner for which the same payment and dunning terms apply. You assign your business partner contracts to the contract accounts. Although one contract account can contain more than one contract, each individual contract is assigned to one contract account only. This does not apply to one-time accounts. For more information on contracts, see the Utility/Disposal Contracts section in the Utilities Industry component.",
+   "section_id": "doc_001_sec_242"
+  },
+  {
+   "block_id": "doc_001_p067_b001",
+   "type": "heading",
+   "page_number": 67,
+   "bbox": [
+    125,
+    568,
+    855,
+    606
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [],
+   "text": "Insurance(FS-CD) Industry Component",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_243"
+  },
+  {
+   "block_id": "doc_001_p067_b002",
+   "type": "paragraph",
+   "page_number": 67,
+   "bbox": [
+    123,
+    690,
+    2477,
+    914
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You assign contracts to the contract accounts for which there is a business partner. Each contract is only assigned to one contract account, however one contract account may have several contracts assigned to it. Contract account master data is usually created and changed from the operational system using an interface.",
+   "section_id": "doc_001_sec_243"
+  },
+  {
+   "block_id": "doc_001_p067_b003",
+   "type": "heading",
+   "page_number": 67,
+   "bbox": [
+    125,
+    998,
+    1710,
+    1036
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "text": "Industry ComponentPublic Sector Contract Accounts Receivable and Payable(PSCD)",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_244"
+  },
+  {
+   "block_id": "doc_001_p067_b004",
+   "type": "paragraph",
+   "page_number": 67,
+   "bbox": [
+    123,
+    1120,
+    2474,
+    1470
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You set up the contract accounts of a business partner for the relevant taxes (property tax, income tax, and so on). You assign contract objects to a contract account for which relevant taxes are levied. If different taxes are levied for a contract object, you can make assignments to several contract accounts. For more information about the contract objects, see the documentation for the industry-specific component Public Sector Contract Accounts Receivable and Payable under Contract Object .",
+   "section_id": "doc_001_sec_244"
+  },
+  {
+   "block_id": "doc_001_p067_b005",
+   "type": "heading",
+   "page_number": 67,
+   "bbox": [
+    125,
+    1615,
+    1116,
+    1692
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Contract Account Category",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_245"
+  },
+  {
+   "block_id": "doc_001_p067_b006",
+   "type": "heading",
+   "page_number": 67,
+   "bbox": [
+    126,
+    1795,
+    393,
+    1840
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_246"
+  },
+  {
+   "block_id": "doc_001_p067_b007",
+   "type": "paragraph",
+   "page_number": 67,
+   "bbox": [
+    123,
+    1925,
+    1528,
+    1963
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Acontract account category defines certain attributes for a contract account.",
+   "section_id": "doc_001_sec_246"
+  },
+  {
+   "block_id": "doc_001_p067_b008",
+   "type": "heading",
+   "page_number": 67,
+   "bbox": [
+    125,
+    2075,
+    225,
+    2120
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_247"
+  },
+  {
+   "block_id": "doc_001_p067_b009",
+   "type": "paragraph",
+   "page_number": 67,
+   "bbox": [
+    123,
+    2207,
+    2378,
+    2308
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You have to assign a contract account category to each contract account when you create it. The fields that appear when you create a contract account are among the things controlled by the contract account category.",
+   "section_id": "doc_001_sec_247"
+  },
+  {
+   "block_id": "doc_001_p067_b010",
+   "type": "heading",
+   "page_number": 67,
+   "bbox": [
+    125,
+    2419,
+    391,
+    2465
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Structure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_248"
+  },
+  {
+   "block_id": "doc_001_p067_b011",
+   "type": "paragraph",
+   "page_number": 67,
+   "bbox": [
+    122,
+    2552,
+    1658,
+    2590
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The contract account category determines the following contract account attributes:",
+   "section_id": "doc_001_sec_248"
+  },
+  {
+   "block_id": "doc_001_p067_b012",
+   "type": "list",
+   "page_number": 67,
+   "bbox": [
+    207,
+    2674,
+    2073,
+    3217
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Whether you are allowed to assign only one business partner or more than one to a contract account"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Whether you are allowed to assign only one contract or more than one"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Whether you are allowed to maintain a contract account online"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The number range that is allowed for external or internal number assignment"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Whether it is a collective bill account (industry component Utilities )"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Whether it is a one-time account"
+    }
+   ],
+   "section_id": "doc_001_sec_248"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "aeb64671866e657da141601eaa780e3a50c50c6de846f3424284eda9c2bac2fc"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Contract Accounts",
+  "Features",
+  "Telecommunications(IS-T) component"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_242",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_243",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_244",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_245",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_246",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_247",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_248",
+   "role": "starts_here"
+  }
+ ]
+}

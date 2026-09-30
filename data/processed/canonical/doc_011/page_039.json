@@ -1,0 +1,475 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 39,
+ "source_page_hash": "e2b1a78c70c24e0751b1506cbf80340ef3c66fc23ad2cc4235321622c07709f5",
+ "is_cover_page": false,
+ "title": "RTP Interface",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\ne Have you generated the RTP components that are used in the RTP interface?\n\nRTP Interface\n\ne Have you allocated the correct operand categories to the result parameters?\n\ne Have you allocated the correct result function to the result parameters?\n\ne Have you allocated the correct unit of measurement (matching the operand category) to the result parameters?\n\ne Have you allocated the correct activation types to the components?\n\nThe following activation types exist:\n\ne Use and activate generally\n\nYou use this activation type for components that are to be activated for all installations that are allocated the RTP interface.\n\ne Use and activate individually\n\nYou use this activation type for components that are only to be activated for a single installation.\n\ne Use individually and activate generally\n\nYou use this activation type for components that are to be activated for particular installations whose activation period, however, is\ncentrally controlled from the RTP interface.\n\ne Are the components correctly prioritized in the interface?\n\nAn RTP component with an activation type that is activated individually has a higher priority than an RTP component with an\nactivation type that is activated generally.\n\nIf you allocate several RTP components with different activation types to the RTP interface, make sure components with an\nactivation type that is activated individually have a higher priority than the other components.\n\ne Are the components for the period to be billed activated?\n\nActivation Type                                         Activation\n\nUse and activate generally                             At RTP interface level\n\nUse and activate individually                         At installation level\n\nUse individually and activate generally             At RTP interface level and at installation level\n\ne Areall parameters supplied with values?\n\nYou must have allocated a profile, a profile allocation role or a constant value to all parameters.\n\nIf you want to define the component code allocations as default, you can carry out the allocation to the parameters of the Default\ncomponent code.\n",
+ "cleaned_text": "- Have you generated the RTP components that are used in the RTP interface?\n\nRTP Interface\n\n- Have you allocated the correct operand categories to the result parameters?\n\n- Have you allocated the correct result function to the result parameters?\n\n- Have you allocated the correct unit of measurement (matching the operand category) to the result parameters?\n\n- Have you allocated the correct activation types to the components?\n\nThe following activation types exist:\n\n- Use and activate generally\n\nYou use this activation type for components that are to be activated for all installations that are allocated the RTP interface.\n\n- Use and activate individually\n\nYou use this activation type for components that are only to be activated for a single installation.\n\n- Use individually and activate generally\n\nYou use this activation type for components that are to be activated for particular installations whose activation period, however, is centrally controlled from the RTP interface.\n\n- Are the components correctly prioritized in the interface?\n\nAn RTP component with an activation type that is activated individually has a higher priority than an RTP component with an activation type that is activated generally. If you allocate several RTP components with different activation types to the RTP interface, make sure components with an activation type that is activated individually have a higher priority than the other components.\n\n- Are the components for the period to be billed activated?\n\nActivation Type | Activation\n\nUse and activate generally | At RTP interface level\n\nUse and activate individually | At installation level\n\nUse individually and activate generally | At RTP interface level and at installation level\n\n- Areall parameters supplied with values?\n\nYou must have allocated a profile, a profile allocation role or a constant value to all parameters. If you want to define the component code allocations as default, you can carry out the allocation to the parameters of the Default component code.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p039_b000",
+   "type": "list",
+   "page_number": 39,
+   "bbox": [
+    207,
+    134,
+    1643,
+    172
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Have you generated the RTP components that are used in the RTP interface?"
+    }
+   ],
+   "section_id": "doc_011_sec_108"
+  },
+  {
+   "block_id": "doc_011_p039_b001",
+   "type": "heading",
+   "page_number": 39,
+   "bbox": [
+    124,
+    256,
+    377,
+    286
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "RTP Interface",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b002",
+   "type": "list",
+   "page_number": 39,
+   "bbox": [
+    207,
+    377,
+    2279,
+    763
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Have you allocated the correct operand categories to the result parameters?"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Have you allocated the correct result function to the result parameters?"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Have you allocated the correct unit of measurement (matching the operand category) to the result parameters?"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Have you allocated the correct activation types to the components?"
+    }
+   ],
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b003",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    122,
+    848,
+    765,
+    885
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The following activation types exist:",
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b004",
+   "type": "list",
+   "page_number": 39,
+   "bbox": [
+    207,
+    969,
+    729,
+    1007
+   ],
+   "ocr_confidence": 91.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Use and activate generally"
+    }
+   ],
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b005",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    123,
+    1094,
+    2351,
+    1131
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "You use this activation type for components that are to be activated for all installations that are allocated the RTP interface.",
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b006",
+   "type": "list",
+   "page_number": 39,
+   "bbox": [
+    207,
+    1215,
+    769,
+    1253
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Use and activate individually"
+    }
+   ],
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b007",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    123,
+    1337,
+    1862,
+    1375
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "You use this activation type for components that are only to be activated for a single installation.",
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b008",
+   "type": "list",
+   "page_number": 39,
+   "bbox": [
+    207,
+    1458,
+    945,
+    1496
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Use individually and activate generally"
+    }
+   ],
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b009",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    123,
+    1580,
+    2484,
+    1683
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "You use this activation type for components that are to be activated for particular installations whose activation period, however, is centrally controlled from the RTP interface.",
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b010",
+   "type": "list",
+   "page_number": 39,
+   "bbox": [
+    207,
+    1767,
+    1294,
+    1805
+   ],
+   "ocr_confidence": 74.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Are the components correctly prioritized in the interface?"
+    }
+   ],
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b011",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    123,
+    1889,
+    2374,
+    2176
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "An RTP component with an activation type that is activated individually has a higher priority than an RTP component with an activation type that is activated generally. If you allocate several RTP components with different activation types to the RTP interface, make sure components with an activation type that is activated individually have a higher priority than the other components.",
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b012",
+   "type": "list",
+   "page_number": 39,
+   "bbox": [
+    207,
+    2260,
+    1288,
+    2298
+   ],
+   "ocr_confidence": 85.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Are the components for the period to be billed activated?"
+    }
+   ],
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b013",
+   "type": "table",
+   "page_number": 39,
+   "bbox": [
+    148,
+    2407,
+    1704,
+    2757
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    951
+   ],
+   "headers": [
+    "Activation Type",
+    "Activation"
+   ],
+   "rows": [
+    [
+     "Use and activate generally",
+     "At RTP interface level"
+    ],
+    [
+     "Use and activate individually",
+     "At installation level"
+    ],
+    [
+     "Use individually and activate generally",
+     "At RTP interface level and at installation level"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Activation Type",
+     "Activation"
+    ],
+    [
+     "Use and activate generally",
+     "At RTP interface level"
+    ],
+    [
+     "Use and activate individually",
+     "At installation level"
+    ],
+    [
+     "Use individually and activate generally",
+     "At RTP interface level and at installation level"
+    ]
+   ],
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b014",
+   "type": "list",
+   "page_number": 39,
+   "bbox": [
+    207,
+    2868,
+    984,
+    2905
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Areall parameters supplied with values?"
+    }
+   ],
+   "section_id": "doc_011_sec_109"
+  },
+  {
+   "block_id": "doc_011_p039_b015",
+   "type": "paragraph",
+   "page_number": 39,
+   "bbox": [
+    123,
+    2989,
+    2458,
+    3214
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You must have allocated a profile, a profile allocation role or a constant value to all parameters. If you want to define the component code allocations as default, you can carry out the allocation to the parameters of the Default component code.",
+   "section_id": "doc_011_sec_109"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 66,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "e2b1a78c70c24e0751b1506cbf80340ef3c66fc23ad2cc4235321622c07709f5"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Example: RTP Interface and Rate",
+  "RTP Component MAX"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_108",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_109",
+   "role": "starts_here"
+  }
+ ]
+}

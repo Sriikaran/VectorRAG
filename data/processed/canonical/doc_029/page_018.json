@@ -1,0 +1,319 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_029",
+ "page_number": 18,
+ "source_page_hash": "f670d58bfc78a7db008ee88d9ab38b5ae0d8ece6a10f5eb6d25d2174d3d2ce79",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:19 AM\nGenerating Service orders and Service Notifications\n\nYou can generate a service order or a service notification in the Service Processing (CS-SE) component that corresponds to a\nreconnection order in an IS-U reconnection document (note however, that if notification is required, the system can only generate\nservice orders after you have set the agreed date and the notification work item is closed).\n\n1 Note\n\nYou can also configure the system to automatically propose a maintenance planning plant for the service order. If there is an\norder code, but no maintenance planning plant has been specified for the order, then the system automatically determines the\ncorresponding plant.\n\nYou can use all Service Processing (CS-SE ) functions in the service orders/service notifications, as well as print them, and\ndownload them to another system. IS-U/CCS data is also available to you.\n\nService orders are generated using the same procedure described in the Work Management section.\n\nPrerequisites\n\nYou can only generate a reconnection order if the disconnection document contains disconnection objects that have either already\nbeen disconnected or are planned for disconnection. Prior to executing a reconnection, you do not have to enter a disconnection in\n\nthe system. This simplifies processing in cases where a quick reconnection is desirable after the disconnection reason has been\ncanceled.\n\nFeatures\n\nReconnection orders are generated in the same manner as disconnection orders.\n\nActivities\nReconnection orders are usually generated in a workflow step. You can also generate them directly using the Change\nDisconnection Document transaction (from the SAP Easy Access menu, select |)UtilitiesIndustry > CustomerService \u00bb Process\n\nExecution \u00bb Disconnection/Reconnection).\n\nIf you are working in an advanced metering infrastructure (AMI) environment, the system can generate the reconnection order\nautomatically during the dunning run. For more information, see Advanced Metering Infrastructure .\n\nReconnection Entry\n\nUse\n\nAfter the reconnection has been carried out at the customer site, you enter the accompanying data in the system. You can also\nconfirm the corresponding reconnection order.\n\nIntegration\n\nYou can perform the following activities during reconnection:\n",
+ "cleaned_text": "Generating Service orders and Service Notifications You can generate a service order or a service notification in the Service Processing (CS-SE) component that corresponds to a reconnection order in an IS-U reconnection document (note however, that if notification is required, the system can only generate service orders after you have set the agreed date and the notification work item is closed).\n\nNote You can also configure the system to automatically propose a maintenance planning plant for the service order. If there is an order code, but no maintenance planning plant has been specified for the order, then the system automatically determines the corresponding plant.\n\nYou can use all Service Processing (CS-SE ) functions in the service orders/service notifications, as well as print them, and download them to another system. IS-U/CCS data is also available to you. Service orders are generated using the same procedure described in the Work Management section.\n\nPrerequisites You can only generate a reconnection order if the disconnection document contains disconnection objects that have either already been disconnected or are planned for disconnection. Prior to executing a reconnection, you do not have to enter a disconnection in the system. This simplifies processing in cases where a quick reconnection is desirable after the disconnection reason has been canceled.\n\nFeatures\n\nReconnection orders are generated in the same manner as disconnection orders.\n\nActivities\n\nReconnection orders are usually generated in a workflow step. You can also generate them directly using the Change Disconnection Document transaction (from the SAP Easy Access menu, select |)UtilitiesIndustry > CustomerService \u00bb Process Execution \u00bb Disconnection/Reconnection). If you are working in an advanced metering infrastructure (AMI) environment, the system can generate the reconnection order automatically during the dunning run. For more information, see Advanced Metering Infrastructure .\n\nReconnection Entry\n\nUse After the reconnection has been carried out at the customer site, you enter the accompanying data in the system. You can also confirm the corresponding reconnection order.\n\nIntegration\n\nYou can perform the following activities during reconnection:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:19 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    525,
+    310,
+    562
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_029_p018_b000",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    123,
+    134,
+    2462,
+    422
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Generating Service orders and Service Notifications You can generate a service order or a service notification in the Service Processing (CS-SE) component that corresponds to a reconnection order in an IS-U reconnection document (note however, that if notification is required, the system can only generate service orders after you have set the agreed date and the notification work item is closed).",
+   "section_id": "doc_029_sec_064"
+  },
+  {
+   "block_id": "doc_029_p018_b001",
+   "type": "note",
+   "page_number": 18,
+   "bbox": [
+    151,
+    525,
+    2438,
+    767
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "label": "Note",
+   "text": "Note You can also configure the system to automatically propose a maintenance planning plant for the service order. If there is an order code, but no maintenance planning plant has been specified for the order, then the system automatically determines the corresponding plant.",
+   "section_id": "doc_029_sec_064"
+  },
+  {
+   "block_id": "doc_029_p018_b002",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    123,
+    886,
+    2345,
+    1112
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "You can use all Service Processing (CS-SE ) functions in the service orders/service notifications, as well as print them, and download them to another system. IS-U/CCS data is also available to you. Service orders are generated using the same procedure described in the Work Management section.",
+   "section_id": "doc_029_sec_064"
+  },
+  {
+   "block_id": "doc_029_p018_b003",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    122,
+    1224,
+    2486,
+    1574
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Prerequisites You can only generate a reconnection order if the disconnection document contains disconnection objects that have either already been disconnected or are planned for disconnection. Prior to executing a reconnection, you do not have to enter a disconnection in the system. This simplifies processing in cases where a quick reconnection is desirable after the disconnection reason has been canceled.",
+   "section_id": "doc_029_sec_064"
+  },
+  {
+   "block_id": "doc_029_p018_b004",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    126,
+    1694,
+    361,
+    1739
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_065"
+  },
+  {
+   "block_id": "doc_029_p018_b005",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    125,
+    1827,
+    1587,
+    1864
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Reconnection orders are generated in the same manner as disconnection orders.",
+   "section_id": "doc_029_sec_065"
+  },
+  {
+   "block_id": "doc_029_p018_b006",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    123,
+    1975,
+    383,
+    2021
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_066"
+  },
+  {
+   "block_id": "doc_029_p018_b007",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    123,
+    2108,
+    2458,
+    2456
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Reconnection orders are usually generated in a workflow step. You can also generate them directly using the Change Disconnection Document transaction (from the SAP Easy Access menu, select |)UtilitiesIndustry > CustomerService \u00bb Process Execution \u00bb Disconnection/Reconnection). If you are working in an advanced metering infrastructure (AMI) environment, the system can generate the reconnection order automatically during the dunning run. For more information, see Advanced Metering Infrastructure .",
+   "section_id": "doc_029_sec_066"
+  },
+  {
+   "block_id": "doc_029_p018_b008",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    128,
+    2605,
+    838,
+    2680
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Reconnection Entry",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_067"
+  },
+  {
+   "block_id": "doc_029_p018_b009",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    123,
+    2753,
+    2410,
+    2978
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use After the reconnection has been carried out at the customer site, you enter the accompanying data in the system. You can also confirm the corresponding reconnection order.",
+   "section_id": "doc_029_sec_067"
+  },
+  {
+   "block_id": "doc_029_p018_b010",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    125,
+    3062,
+    320,
+    3099
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Integration",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_029_sec_067"
+  },
+  {
+   "block_id": "doc_029_p018_b011",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    123,
+    3183,
+    1219,
+    3221
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You can perform the following activities during reconnection:",
+   "section_id": "doc_029_sec_067"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Disconnection/Reconnection of a Utility Installation",
+  "source_pdf": "29.pdf",
+  "reference_pdf": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+  "category": "Disconnection & Reconnection",
+  "m2c_relevance": "Connects overdue debt/dunning to service actions while preserving the distinction between delinquency and disconnect eligibility.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "f670d58bfc78a7db008ee88d9ab38b5ae0d8ece6a10f5eb6d25d2174d3d2ce79"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:47Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Disconnection/Reconnection of a Utility Installation",
+  "Reconnection Order Generation",
+  "Integration",
+  "Generating Customer Notifications"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_029_sec_064",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_029_sec_065",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_066",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_067",
+   "role": "starts_here"
+  }
+ ]
+}

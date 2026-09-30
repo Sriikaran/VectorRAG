@@ -1,0 +1,423 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_024",
+ "page_number": 2,
+ "source_page_hash": "5667a5c3a57745726622bf32011754e4311ff5bdcaf58dcc425217ae491c4c59",
+ "is_cover_page": false,
+ "title": "Creating Installment Plans",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n\nCreating Installment Plans\n\nUse\n\nYou create an installment plan when both of the following apply:\n\ne There are one or more open items on the contract account of a business partner.\n\ne The business partner is unable to meet his/her payment obligations in accordance with the usual payment rules.\n\nPrerequisites\n\nTo be able to prioritize the clearing of original items when payments are received, you set the Clrg Priority indicator. You do so in\nCustomizing for Contract Accounts Payable and Receivable, under: |}*Business Transactions \u00bb Deferral and Installment Plan\nActivate Additional Installment Plan Enhancement\n\nKey Features\n\nWhen you calculate interest, the system creates an interest document automatically. When you enter a charge amount, the system\nposts a document for the installment plan charges. During posting, interest and charges documents are automatically transferred\nto the installment plan for the original receivables (see Charging Interest and Surcharges for Installment Plans).\n\n1 Note\nWhen you create an installment plan, the system copies the company code, contract, business area, and business place from\n\nthe original item (in the standard system), as long as these fields have the same value in all original items selected. If you do not\nwant to fill these fields in the installment plan, or want to enter other values, you can do this by defining event 3000 accordingly\n(see the documentation of the sample function module FKK_SAMPLE_3000),.\n\nThe system can calculate the first installment as a percentage of the total amount of the installment plan. To do this, under:\nBusiness Transactions Deferral and Installment Plan Define Categories for Installment Plan \u201c3, specify a percentage and\nactivate the enhancement under |*Business Transactions \u00bb Deferral and Installment Plan Activate Installment Plan\n\nEnhancement for Surcharges/Interest\n\nWhen you use a Suitable installment plan category, the system calculates the first installment as a percentage.\n\nActivities\n1. In the SAP Easy Access screen, choose |}sAccount \u00bb Installment Plan \u00bb Create 4 (transaction FPR1).\n2. Enter the selection criteria for open items and posting parameters.\n\n3. Choose Continue.\n\n4. Enter the installment plan parameters. You can either copy default values to the initial screen using the Installment Plan\nType or enter the installment plan parameters manually. You must enter the installment interval and the interval type, as\n\nwell as the installment plan category. You can also enter a value for the Remaining Amt of field. The system creates an\ninstallment plan proposal based on the parameters set. There are two wavs to create an installment plan proposal.\n",
+ "cleaned_text": "Creating Installment Plans\n\nUse\n\nYou create an installment plan when both of the following apply:\n\n- There are one or more open items on the contract account of a business partner.\n\n- The business partner is unable to meet his/her payment obligations in accordance with the usual payment rules.\n\nPrerequisites\n\nTo be able to prioritize the clearing of original items when payments are received, you set the Clrg Priority indicator. You do so in Customizing for Contract Accounts Payable and Receivable, under: |}*Business Transactions \u00bb Deferral and Installment Plan\n\nActivate Additional Installment Plan Enhancement\n\nKey Features\n\nWhen you calculate interest, the system creates an interest document automatically. When you enter a charge amount, the system posts a document for the installment plan charges. During posting, interest and charges documents are automatically transferred to the installment plan for the original receivables (see Charging Interest and Surcharges for Installment Plans).\n\nNote When you create an installment plan, the system copies the company code, contract, business area, and business place from the original item (in the standard system), as long as these fields have the same value in all original items selected. If you do not want to fill these fields in the installment plan, or want to enter other values, you can do this by defining event 3000 accordingly (see the documentation of the sample function module FKK_SAMPLE_3000),.\n\nThe system can calculate the first installment as a percentage of the total amount of the installment plan. To do this, under: Business Transactions Deferral and Installment Plan Define Categories for Installment Plan \u201c3, specify a percentage and activate the enhancement under |*Business Transactions \u00bb Deferral and Installment Plan Activate Installment Plan\n\nEnhancement for Surcharges/Interest\n\nWhen you use a Suitable installment plan category, the system calculates the first installment as a percentage.\n\nActivities\n\n1 In the SAP Easy Access screen, choose |}sAccount \u00bb Installment Plan \u00bb Create 4 (transaction FPR1).\n\n2 Enter the selection criteria for open items and posting parameters.\n\n3 Choose Continue.\n\n4 Enter the installment plan parameters. You can either copy default values to the initial screen using the Installment Plan Type or enter the installment plan parameters manually. You must enter the installment interval and the interval type, as well as the installment plan category. You can also enter a value for the Remaining Amt of field. The system creates an installment plan proposal based on the parameters set. There are two wavs to create an installment plan proposal.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1750,
+    310,
+    1788
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_024_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    255,
+    1082,
+    331
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Creating Installment Plans",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_024_sec_000"
+  },
+  {
+   "block_id": "doc_024_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    435,
+    225,
+    481
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_024_sec_001"
+  },
+  {
+   "block_id": "doc_024_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    565,
+    1272,
+    603
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You create an installment plan when both of the following apply:",
+   "section_id": "doc_024_sec_001"
+  },
+  {
+   "block_id": "doc_024_p002_b003",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    690,
+    2293,
+    829
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "There are one or more open items on the contract account of a business partner."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The business partner is unable to meet his/her payment obligations in accordance with the usual payment rules."
+    }
+   ],
+   "section_id": "doc_024_sec_001"
+  },
+  {
+   "block_id": "doc_024_p002_b004",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    941,
+    492,
+    998
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_024_sec_002"
+  },
+  {
+   "block_id": "doc_024_p002_b005",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    1073,
+    2433,
+    1178
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "To be able to prioritize the clearing of original items when payments are received, you set the Clrg Priority indicator. You do so in Customizing for Contract Accounts Payable and Receivable, under: |}*Business Transactions \u00bb Deferral and Installment Plan",
+   "section_id": "doc_024_sec_002"
+  },
+  {
+   "block_id": "doc_024_p002_b006",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    132,
+    1199,
+    1073,
+    1230
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Activate Additional Installment Plan Enhancement",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_024_sec_003"
+  },
+  {
+   "block_id": "doc_024_p002_b007",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    1348,
+    480,
+    1405
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Key Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_024_sec_004"
+  },
+  {
+   "block_id": "doc_024_p002_b008",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    1481,
+    2483,
+    1644
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "When you calculate interest, the system creates an interest document automatically. When you enter a charge amount, the system posts a document for the installment plan charges. During posting, interest and charges documents are automatically transferred to the installment plan for the original receivables (see Charging Interest and Surcharges for Installment Plans).",
+   "section_id": "doc_024_sec_004"
+  },
+  {
+   "block_id": "doc_024_p002_b009",
+   "type": "note",
+   "page_number": 2,
+   "bbox": [
+    151,
+    1750,
+    2458,
+    2055
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Note",
+   "text": "Note When you create an installment plan, the system copies the company code, contract, business area, and business place from the original item (in the standard system), as long as these fields have the same value in all original items selected. If you do not want to fill these fields in the installment plan, or want to enter other values, you can do this by defining event 3000 accordingly (see the documentation of the sample function module FKK_SAMPLE_3000),.",
+   "section_id": "doc_024_sec_004"
+  },
+  {
+   "block_id": "doc_024_p002_b010",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    2175,
+    2393,
+    2341
+   ],
+   "ocr_confidence": 91.7,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "The system can calculate the first installment as a percentage of the total amount of the installment plan. To do this, under: Business Transactions Deferral and Installment Plan Define Categories for Installment Plan \u201c3, specify a percentage and activate the enhancement under |*Business Transactions \u00bb Deferral and Installment Plan Activate Installment Plan",
+   "section_id": "doc_024_sec_004"
+  },
+  {
+   "block_id": "doc_024_p002_b011",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    124,
+    2364,
+    837,
+    2403
+   ],
+   "ocr_confidence": 93.4,
+   "flags": [],
+   "text": "Enhancement for Surcharges/Interest",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_024_sec_005"
+  },
+  {
+   "block_id": "doc_024_p002_b012",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    2483,
+    2115,
+    2529
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "When you use a Suitable installment plan category, the system calculates the first installment as a percentage.",
+   "section_id": "doc_024_sec_005"
+  },
+  {
+   "block_id": "doc_024_p002_b013",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    123,
+    2636,
+    383,
+    2682
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_024_sec_006"
+  },
+  {
+   "block_id": "doc_024_p002_b014",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    211,
+    2767,
+    2424,
+    3300
+   ],
+   "ocr_confidence": 91.5,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "In the SAP Easy Access screen, choose |}sAccount \u00bb Installment Plan \u00bb Create 4 (transaction FPR1)."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter the selection criteria for open items and posting parameters."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Choose Continue."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Enter the installment plan parameters. You can either copy default values to the initial screen using the Installment Plan Type or enter the installment plan parameters manually. You must enter the installment interval and the interval type, as well as the installment plan category. You can also enter a value for the Remaining Amt of field. The system creates an installment plan proposal based on the parameters set. There are two wavs to create an installment plan proposal."
+    }
+   ],
+   "section_id": "doc_024_sec_006"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Creating Installment Plans",
+  "source_pdf": "24.pdf",
+  "reference_pdf": "24_Creating_Installment_Plans.pdf",
+  "category": "Payment Arrangements / Installment Plans",
+  "m2c_relevance": "Useful for eligibility, setup and downstream clearing/dunning reasoning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "5667a5c3a57745726622bf32011754e4311ff5bdcaf58dcc425217ae491c4c59"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:44Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Creating Installment Plans"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_024_sec_000",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_024_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_024_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_024_sec_003",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_024_sec_004",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_024_sec_005",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_024_sec_006",
+   "role": "starts_here"
+  }
+ ]
+}

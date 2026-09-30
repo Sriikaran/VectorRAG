@@ -1,0 +1,332 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_003",
+ "page_number": 8,
+ "source_page_hash": "81fd45aa1431ff8c7f3e929ddf1d396ccba2329ad776ed3cb44288ade7a80ac6",
+ "is_cover_page": false,
+ "title": "Settings/Enterprise Structure Define Default Layout for Tabs",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:41 AM\nYou have the following options:\n\ne If you want to use the standard SAP layout, do not make any changes.\n\ne If you want to define your own layout then establish the following settings:\n\no a.In Customizing, choose |)*Move-In/Out \u00bb Move-In \u00bb Configure Tabs for Move-In Screen |). Here you can define\nyour own layout.\n\no b.Enter the layout in Customizing as a default layout in Customizing under |}*SAP Utilities \u00bb Basic\nSettings/Enterprise Structure Define Default Layout for Tabs\n\nService Notifications and Orders\n\nUse\n\nIn Customizing under |sDevice Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Parameters fir Meter Reading\nData Processing, 3 you can configure the system to create a service order or service notification for the move-in meter reading\n(provided that plausible meter readings do not already exist for the metering devices). You can establish this settings separately\nfor each division.Customizing entries with an empty company code key are relevant to this process, since the system does not yet\n\nknow the company code in move-in initial processing. You can use enhancement ECSBTMRI]I (Assign default values for creation of\nservice notifications/orders).\n\nYou can also do this in Customizing under |}\u00bbDevice Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Group for\nCreation of Multiple MR Orders \u00a7., you define whether the system creates service notifications or service orders, and whether\nthese or stored at device, device location or connection object level.\n\nAlternatively, you can integrate the creation of service notifications and orders into a workflow, in which case creation is not\nimmediate but postponed. You do this in Customizing under Define System Parameters for Move-In and Move-Out . Prerequisites\nfor this are the method MovelnDocument.MeterReadingServicelnitiate (Trigger service management for meter reading) and the\nparameter DelayedMeterReadServ V in event MovelnDocument.Created for object type MOVEINDOC (move-in document).\n\nIf you reverse a move-in, the system adjusts the status of the service notifications/orders generated during move-in creation as\n\nfollows:\n\ne The status Completed is allocated to the service notifications.\ne The status Not executed is allocated to service orders that were not released.\n\ne The status Technically completed is allocated to service orders that were released.\n\nIf you change a move-in date, the system proceeds as though the move-in had been reversed and re-created for another date.\n\nFeatures\n\nOn the move-in screen, you can have the system generate a service order or notification, regardless of the default settings you\nhave made. If the parameter was set and the register results were completely entered (determined by the default settings), and\nyou still want to create a service order/notification, then you must reset the register results using the Reset function key.\nOtherwise, the system saves the register results and a service notification/order is no longer required.\n",
+ "cleaned_text": "You have the following options:\n\n- If you want to use the standard SAP layout, do not make any changes.\n\n- If you want to define your own layout then establish the following settings: o a.In Customizing, choose |)*Move-In/Out \u00bb Move-In \u00bb Configure Tabs for Move-In Screen |). Here you can define your own layout.\n\no b.Enter the layout in Customizing as a default layout in Customizing under |}*SAP Utilities \u00bb Basic\n\nSettings/Enterprise Structure Define Default Layout for Tabs\n\nService Notifications and Orders\n\nUse\n\nIn Customizing under |sDevice Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Parameters fir Meter Reading Data Processing, 3 you can configure the system to create a service order or service notification for the move-in meter reading (provided that plausible meter readings do not already exist for the metering devices). You can establish this settings separately for each division.Customizing entries with an empty company code key are relevant to this process, since the system does not yet know the company code in move-in initial processing. You can use enhancement ECSBTMRI]I (Assign default values for creation of service notifications/orders). You can also do this in Customizing under |}\u00bbDevice Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Group for Creation of Multiple MR Orders \u00a7., you define whether the system creates service notifications or service orders, and whether these or stored at device, device location or connection object level. Alternatively, you can integrate the creation of service notifications and orders into a workflow, in which case creation is not immediate but postponed. You do this in Customizing under Define System Parameters for Move-In and Move-Out . Prerequisites for this are the method MovelnDocument.MeterReadingServicelnitiate (Trigger service management for meter reading) and the parameter DelayedMeterReadServ V in event MovelnDocument.Created for object type MOVEINDOC (move-in document). If you reverse a move-in, the system adjusts the status of the service notifications/orders generated during move-in creation as follows:\n\n- The status Completed is allocated to the service notifications.\n\n- The status Not executed is allocated to service orders that were not released.\n\n- The status Technically completed is allocated to service orders that were released.\n\nIf you change a move-in date, the system proceeds as though the move-in had been reversed and re-created for another date.\n\nFeatures\n\nOn the move-in screen, you can have the system generate a service order or notification, regardless of the default settings you have made. If the parameter was set and the register results were completely entered (determined by the default settings), and you still want to create a service order/notification, then you must reset the register results using the Reset function key. Otherwise, the system saves the register results and a service notification/order is no longer required.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:41 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_003_p008_b000",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    123,
+    134,
+    678,
+    172
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "You have the following options:",
+   "section_id": "doc_003_sec_033"
+  },
+  {
+   "block_id": "doc_003_p008_b001",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    207,
+    256,
+    2423,
+    563
+   ],
+   "ocr_confidence": 89.6,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you want to use the standard SAP layout, do not make any changes."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you want to define your own layout then establish the following settings: o a.In Customizing, choose |)*Move-In/Out \u00bb Move-In \u00bb Configure Tabs for Move-In Screen |). Here you can define your own layout."
+    }
+   ],
+   "section_id": "doc_003_sec_033"
+  },
+  {
+   "block_id": "doc_003_p008_b002",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    336,
+    623,
+    2147,
+    670
+   ],
+   "ocr_confidence": 88.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "o b.Enter the layout in Customizing as a default layout in Customizing under |}*SAP Utilities \u00bb Basic",
+   "section_id": "doc_003_sec_033"
+  },
+  {
+   "block_id": "doc_003_p008_b003",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    386,
+    689,
+    1559,
+    728
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Settings/Enterprise Structure Define Default Layout for Tabs",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_003_sec_034"
+  },
+  {
+   "block_id": "doc_003_p008_b004",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    125,
+    876,
+    1301,
+    938
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Service Notifications and Orders",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_003_sec_035"
+  },
+  {
+   "block_id": "doc_003_p008_b005",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    125,
+    1053,
+    225,
+    1098
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_003_sec_036"
+  },
+  {
+   "block_id": "doc_003_p008_b006",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    1181,
+    2481,
+    2277
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [
+    "low_confidence_words:7"
+   ],
+   "text": "In Customizing under |sDevice Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Parameters fir Meter Reading Data Processing, 3 you can configure the system to create a service order or service notification for the move-in meter reading (provided that plausible meter readings do not already exist for the metering devices). You can establish this settings separately for each division.Customizing entries with an empty company code key are relevant to this process, since the system does not yet know the company code in move-in initial processing. You can use enhancement ECSBTMRI]I (Assign default values for creation of service notifications/orders). You can also do this in Customizing under |}\u00bbDevice Management \u00bb Meter Reading \u00bb Basic Settings \u00bb Define Control Group for Creation of Multiple MR Orders \u00a7., you define whether the system creates service notifications or service orders, and whether these or stored at device, device location or connection object level. Alternatively, you can integrate the creation of service notifications and orders into a workflow, in which case creation is not immediate but postponed. You do this in Customizing under Define System Parameters for Move-In and Move-Out . Prerequisites for this are the method MovelnDocument.MeterReadingServicelnitiate (Trigger service management for meter reading) and the parameter DelayedMeterReadServ V in event MovelnDocument.Created for object type MOVEINDOC (move-in document). If you reverse a move-in, the system adjusts the status of the service notifications/orders generated during move-in creation as follows:",
+   "section_id": "doc_003_sec_036"
+  },
+  {
+   "block_id": "doc_003_p008_b007",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    207,
+    2369,
+    1756,
+    2610
+   ],
+   "ocr_confidence": 83.2,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The status Completed is allocated to the service notifications."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The status Not executed is allocated to service orders that were not released."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The status Technically completed is allocated to service orders that were released."
+    }
+   ],
+   "section_id": "doc_003_sec_036"
+  },
+  {
+   "block_id": "doc_003_p008_b008",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    125,
+    2694,
+    2387,
+    2731
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "If you change a move-in date, the system proceeds as though the move-in had been reversed and re-created for another date.",
+   "section_id": "doc_003_sec_036"
+  },
+  {
+   "block_id": "doc_003_p008_b009",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    126,
+    2844,
+    361,
+    2889
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_003_sec_037"
+  },
+  {
+   "block_id": "doc_003_p008_b010",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    2976,
+    2418,
+    3204
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "On the move-in screen, you can have the system generate a service order or notification, regardless of the default settings you have made. If the parameter was set and the register results were completely entered (determined by the default settings), and you still want to create a service order/notification, then you must reset the register results using the Reset function key. Otherwise, the system saves the register results and a service notification/order is no longer required.",
+   "section_id": "doc_003_sec_037"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In Process",
+  "source_pdf": "3.pdf",
+  "reference_pdf": "03_Move_In_Process.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use for service-start reasoning and the transition from master data into billable service.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "81fd45aa1431ff8c7f3e929ddf1d396ccba2329ad776ed3cb44288ade7a80ac6"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:32Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In Process",
+  "Screen Layout",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_003_sec_033",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_003_sec_034",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_003_sec_035",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_003_sec_036",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_003_sec_037",
+   "role": "starts_here"
+  }
+ ]
+}

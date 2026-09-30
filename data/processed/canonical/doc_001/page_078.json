@@ -1,0 +1,228 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 78,
+ "source_page_hash": "84249e5f8e0c7bb4b36ce0f64597e5b469e782253bcc5c4d5cf905ba22e672ad",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nIn the Implementation Guide for Contract Accounts Receivable and Payable , under Basic FunctionsCorrespondenceDefine\nFields for Creating Master Data Changes , you have entered the tables to be considered for the correspondence (for example,\nBUTOOO -\u2014 general business partner data). You can only define tables that contain object classes defined by SAP, since the key for\nselecting the change documents is different for each object class and is created in module FKK_SAMPLE_1915. If you want other\ntables and therefore object classes to be considered, a program enhancement is necessary. The object classes defined by SAP are\ndelivered in system table TFKO7OQC, which contains the following entries: ADRESSE, ADRESSE2, BUPA_BUP, FMCA_PSOB,\nFMCA_PSOBVKK, MKK_VKONT. When you enter a table in Customizing, the system automatically checks whether your entry is\nvalid. Use the input help to display the valid entries. Once you have entered the tables, in a second step, you define the fields to be\nmonitored for each table (for example, STREET in table ADRC). If the system writes a change document for a field that you have\ndefined here in Customizing, this field is displayed in the correspondence. To determine which tables and fields you have to enter in\nCustomizing, proceed as follows:\n\nIn the menu, choose Display Business Partner or Change Business Partner .\n\nEnter a business partner, specify the screen selection, and choose Continue .\n\nIn the menu on the detail screen, choose Extras \u2014 Partner Changes and select the required fields in the selection dialog box. If\nyou choose Technical Field Names On/Off , the system displays the table and field names.\n\nChoose Continue . A list of the change documents previously created appears.\n\nThe same procedure applies for the transactions Display Contract Account and Change Contract Account. In the menu of the\ndetail screen, choose Extras \u2014 Account Changes\n\nFeatures\n\nYou have to trigger the creation of the correspondence manually. The program selects all change documents created for the\nbusiness partner on the same day and then creates an individual correspondence. Only the change documents for the fields\ndefined in Customizing are considered in the correspondence. This means that the user can decide which master data changes he\nwants to follow and inform the customer about. Only actual changes to existing data and changes made on the current date are\nconsidered. This means that new master data, such as business partners and addresses, are not taken into account in the\ncorrespondence. You cannot list or individually select the selected changes for the correspondence before the correspondence is\ncreated. For correspondence type 0030 you can use events 1914 (print event) and 1915 (creation event). Read the documentation\nfor function modules FKK_SAMPLE_1914 and FKK_SAMPLE_1915. You can determine industry-specific additional data for the\ncontract reference with a module for event 1916 (FKK_SAMPLE_1916). The module FACA_SAMPLE_1916 is defined for\ndetermining data for the contract object for the industry solution Contract Accounts Receivable and Payable for Public Sector .\nFI_CA_MASTERDATA is defined as the standard form class in Customizing. At the top level (document level), the form class\ncontains a 1:1 level to the business partner. The hierarchy below contains the level for the change documents, whereby the process\nlogic determines that first the change documents and then the planned change documents are listed (see application form\nexample FIL-CA_MASTERDATA_SAMPLE). In the application form, you can display the old and the new value for a changed field.\nNote that certain fields only contain IDs (table keys), that is, links to the actual data (for example, bank details ID for incoming\npayments). The determination of details for these IDs and other ID fields is not supported in the standard. However, you can\nimplement this in the customer-specific application form.\n\nActivities\n\nIn the menu of the transactions Change Business Partner, Display Business Partner, Change Contract Account , and Display\nContract Account , choose ExtrasAdditional ExtrasCorrespondence\n\nOn the processing screen that appears, make selections for the business partner, contract account, and contract reference and\n",
+ "cleaned_text": "In the Implementation Guide for Contract Accounts Receivable and Payable , under Basic FunctionsCorrespondenceDefine Fields for Creating Master Data Changes , you have entered the tables to be considered for the correspondence (for example, BUTOOO -\u2014 general business partner data). You can only define tables that contain object classes defined by SAP, since the key for selecting the change documents is different for each object class and is created in module FKK_SAMPLE_1915. If you want other tables and therefore object classes to be considered, a program enhancement is necessary. The object classes defined by SAP are delivered in system table TFKO7OQC, which contains the following entries: ADRESSE, ADRESSE2, BUPA_BUP, FMCA_PSOB, FMCA_PSOBVKK, MKK_VKONT. When you enter a table in Customizing, the system automatically checks whether your entry is valid. Use the input help to display the valid entries. Once you have entered the tables, in a second step, you define the fields to be monitored for each table (for example, STREET in table ADRC). If the system writes a change document for a field that you have defined here in Customizing, this field is displayed in the correspondence. To determine which tables and fields you have to enter in Customizing, proceed as follows: In the menu, choose Display Business Partner or Change Business Partner . Enter a business partner, specify the screen selection, and choose Continue . In the menu on the detail screen, choose Extras \u2014 Partner Changes and select the required fields in the selection dialog box. If you choose Technical Field Names On/Off , the system displays the table and field names. Choose Continue . A list of the change documents previously created appears. The same procedure applies for the transactions Display Contract Account and Change Contract Account. In the menu of the detail screen, choose Extras \u2014 Account Changes\n\nFeatures\n\nYou have to trigger the creation of the correspondence manually. The program selects all change documents created for the business partner on the same day and then creates an individual correspondence. Only the change documents for the fields defined in Customizing are considered in the correspondence. This means that the user can decide which master data changes he wants to follow and inform the customer about. Only actual changes to existing data and changes made on the current date are considered. This means that new master data, such as business partners and addresses, are not taken into account in the correspondence. You cannot list or individually select the selected changes for the correspondence before the correspondence is created. For correspondence type 0030 you can use events 1914 (print event) and 1915 (creation event). Read the documentation for function modules FKK_SAMPLE_1914 and FKK_SAMPLE_1915. You can determine industry-specific additional data for the contract reference with a module for event 1916 (FKK_SAMPLE_1916). The module FACA_SAMPLE_1916 is defined for determining data for the contract object for the industry solution Contract Accounts Receivable and Payable for Public Sector . FI_CA_MASTERDATA is defined as the standard form class in Customizing. At the top level (document level), the form class contains a 1:1 level to the business partner. The hierarchy below contains the level for the change documents, whereby the process logic determines that first the change documents and then the planned change documents are listed (see application form example FIL-CA_MASTERDATA_SAMPLE). In the application form, you can display the old and the new value for a changed field. Note that certain fields only contain IDs (table keys), that is, links to the actual data (for example, bank details ID for incoming payments). The determination of details for these IDs and other ID fields is not supported in the standard. However, you can implement this in the customer-specific application form.\n\nActivities\n\nIn the menu of the transactions Change Business Partner, Display Business Partner, Change Contract Account , and Display\n\nContract Account , choose ExtrasAdditional ExtrasCorrespondence\n\nOn the processing screen that appears, make selections for the business partner, contract account, and contract reference and",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p078_b000",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    122,
+    134,
+    2487,
+    1539
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "In the Implementation Guide for Contract Accounts Receivable and Payable , under Basic FunctionsCorrespondenceDefine Fields for Creating Master Data Changes , you have entered the tables to be considered for the correspondence (for example, BUTOOO -\u2014 general business partner data). You can only define tables that contain object classes defined by SAP, since the key for selecting the change documents is different for each object class and is created in module FKK_SAMPLE_1915. If you want other tables and therefore object classes to be considered, a program enhancement is necessary. The object classes defined by SAP are delivered in system table TFKO7OQC, which contains the following entries: ADRESSE, ADRESSE2, BUPA_BUP, FMCA_PSOB, FMCA_PSOBVKK, MKK_VKONT. When you enter a table in Customizing, the system automatically checks whether your entry is valid. Use the input help to display the valid entries. Once you have entered the tables, in a second step, you define the fields to be monitored for each table (for example, STREET in table ADRC). If the system writes a change document for a field that you have defined here in Customizing, this field is displayed in the correspondence. To determine which tables and fields you have to enter in Customizing, proceed as follows: In the menu, choose Display Business Partner or Change Business Partner . Enter a business partner, specify the screen selection, and choose Continue . In the menu on the detail screen, choose Extras \u2014 Partner Changes and select the required fields in the selection dialog box. If you choose Technical Field Names On/Off , the system displays the table and field names. Choose Continue . A list of the change documents previously created appears. The same procedure applies for the transactions Display Contract Account and Change Contract Account. In the menu of the detail screen, choose Extras \u2014 Account Changes",
+   "section_id": "doc_001_sec_302"
+  },
+  {
+   "block_id": "doc_001_p078_b001",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    126,
+    1651,
+    361,
+    1696
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_303"
+  },
+  {
+   "block_id": "doc_001_p078_b002",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    122,
+    1784,
+    2475,
+    2833
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You have to trigger the creation of the correspondence manually. The program selects all change documents created for the business partner on the same day and then creates an individual correspondence. Only the change documents for the fields defined in Customizing are considered in the correspondence. This means that the user can decide which master data changes he wants to follow and inform the customer about. Only actual changes to existing data and changes made on the current date are considered. This means that new master data, such as business partners and addresses, are not taken into account in the correspondence. You cannot list or individually select the selected changes for the correspondence before the correspondence is created. For correspondence type 0030 you can use events 1914 (print event) and 1915 (creation event). Read the documentation for function modules FKK_SAMPLE_1914 and FKK_SAMPLE_1915. You can determine industry-specific additional data for the contract reference with a module for event 1916 (FKK_SAMPLE_1916). The module FACA_SAMPLE_1916 is defined for determining data for the contract object for the industry solution Contract Accounts Receivable and Payable for Public Sector . FI_CA_MASTERDATA is defined as the standard form class in Customizing. At the top level (document level), the form class contains a 1:1 level to the business partner. The hierarchy below contains the level for the change documents, whereby the process logic determines that first the change documents and then the planned change documents are listed (see application form example FIL-CA_MASTERDATA_SAMPLE). In the application form, you can display the old and the new value for a changed field. Note that certain fields only contain IDs (table keys), that is, links to the actual data (for example, bank details ID for incoming payments). The determination of details for these IDs and other ID fields is not supported in the standard. However, you can implement this in the customer-specific application form.",
+   "section_id": "doc_001_sec_303"
+  },
+  {
+   "block_id": "doc_001_p078_b003",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    123,
+    2945,
+    383,
+    2990
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_304"
+  },
+  {
+   "block_id": "doc_001_p078_b004",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    125,
+    3074,
+    2403,
+    3113
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "In the menu of the transactions Change Business Partner, Display Business Partner, Change Contract Account , and Display",
+   "section_id": "doc_001_sec_304"
+  },
+  {
+   "block_id": "doc_001_p078_b005",
+   "type": "heading",
+   "page_number": 78,
+   "bbox": [
+    123,
+    3140,
+    1371,
+    3178
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [],
+   "text": "Contract Account , choose ExtrasAdditional ExtrasCorrespondence",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_305"
+  },
+  {
+   "block_id": "doc_001_p078_b006",
+   "type": "paragraph",
+   "page_number": 78,
+   "bbox": [
+    123,
+    3262,
+    2419,
+    3300
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "On the processing screen that appears, make selections for the business partner, contract account, and contract reference and",
+   "section_id": "doc_001_sec_305"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "84249e5f8e0c7bb4b36ce0f64597e5b469e782253bcc5c4d5cf905ba22e672ad"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Correspondence for Master Data Changes",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_302",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_303",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_304",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_305",
+   "role": "starts_here"
+  }
+ ]
+}

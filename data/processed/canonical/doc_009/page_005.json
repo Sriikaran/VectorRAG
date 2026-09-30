@@ -1,0 +1,439 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_009",
+ "page_number": 5,
+ "source_page_hash": "cbb5054fbe0856c41184b12b786b22c5354522382ac8684de84db1f9a57a7014",
+ "is_cover_page": false,
+ "title": "Formula",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nWhen using the quantity determination procedure Quantity Determination During Meter Reading, interpolation between\nconsecutive meter readings takes place as follows:\n\n1. The basis of interpolation between two meter reading results is the quantity saved and rounded for the second meter\nreading result.\n\n2. The system determines the weighting Y of the base period\n3. The system determines the weighting Ye of the period for which you want the quantity Qe to be estimated.\n\n4. The system calculates the estimated quantity Qe as follows:\n\nQ.=Q*(y\u00a5e/y)=(Q/y)* Ve\n\nFormula\nThe factor (Q / y) describes the Expected Weighted Consumption.\n\n5. From this estimated quantity Qe, that has not yet been rounded, the system calculates the estimated meter reading result\nE taking the relevant factors (such as the gas factors and register factors) into account.\n\nThis is then rounded and saved according to the system settings.\n\nThe following figure shows interpolation using a simple example: The estimated meter reading result E was interpolated based on\nthe estimated quantity Qe.\n\nThe abbreviations have the following meanings:\n\ne MR= Meter Reading Result\n\ne Q= Quantity\n\ne Y = Weighting\n\ne E=Estimated Meter Reading Result\ne Qe = Estimated Quantity\n\ne Ye = Weighting for Estimated Quantity\n\n01.01.2009 \u2014 06.30.2009\n\nYe, Qe 01.01.2009 - 12.31.2009\nA\n\n12.31.2008                                       06.30.2009                                       12.31.2009\nMR,                                         E                                         MR,\n\nIntarnnlatian\n",
+ "cleaned_text": "When using the quantity determination procedure Quantity Determination During Meter Reading, interpolation between consecutive meter readings takes place as follows:\n\n1 The basis of interpolation between two meter reading results is the quantity saved and rounded for the second meter reading result.\n\n2 The system determines the weighting Y of the base period\n\n3 The system determines the weighting Ye of the period for which you want the quantity Qe to be estimated.\n\n4 The system calculates the estimated quantity Qe as follows:\n\nQ.=Q*(y\u00a5e/y)=(Q/y)* Ve\n\nFormula\n\nThe factor (Q / y) describes the Expected Weighted Consumption.\n\n5 From this estimated quantity Qe, that has not yet been rounded, the system calculates the estimated meter reading result E taking the relevant factors (such as the gas factors and register factors) into account.\n\nThis is then rounded and saved according to the system settings. The following figure shows interpolation using a simple example: The estimated meter reading result E was interpolated based on the estimated quantity Qe. The abbreviations have the following meanings:\n\n- MR= Meter Reading Result\n\n- Q= Quantity\n\n- Y = Weighting\n\n- E=Estimated Meter Reading Result\n\n- Qe = Estimated Quantity\n\n- Ye = Weighting for Estimated Quantity\n\n01.01.2009 \u2014 06.30.2009\n\nYe, Qe | 01.01.2009 - 12.31.2009\n\nA\n\n12.31.2008 | 06.30.2009 | 12.31.2009\n\nMR, | E | MR,\n\nIntarnnlatian",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_009_p005_b000",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    123,
+    134,
+    2319,
+    235
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "When using the quantity determination procedure Quantity Determination During Meter Reading, interpolation between consecutive meter readings takes place as follows:",
+   "section_id": "doc_009_sec_010"
+  },
+  {
+   "block_id": "doc_009_p005_b001",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    211,
+    318,
+    2370,
+    737
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "The basis of interpolation between two meter reading results is the quantity saved and rounded for the second meter reading result."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "The system determines the weighting Y of the base period"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "The system determines the weighting Ye of the period for which you want the quantity Qe to be estimated."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "The system calculates the estimated quantity Qe as follows:"
+    }
+   ],
+   "section_id": "doc_009_sec_010"
+  },
+  {
+   "block_id": "doc_009_p005_b002",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    341,
+    897,
+    1431,
+    1002
+   ],
+   "ocr_confidence": 49.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Q.=Q*(y\u00a5e/y)=(Q/y)* Ve",
+   "section_id": "doc_009_sec_010"
+  },
+  {
+   "block_id": "doc_009_p005_b003",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    255,
+    1113,
+    387,
+    1140
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Formula",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p005_b004",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    254,
+    1210,
+    1524,
+    1250
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "text": "The factor (Q / y) describes the Expected Weighted Consumption.",
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p005_b005",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    211,
+    1315,
+    2458,
+    1421
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "From this estimated quantity Qe, that has not yet been rounded, the system calculates the estimated meter reading result E taking the relevant factors (such as the gas factors and register factors) into account."
+    }
+   ],
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p005_b006",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    1488,
+    2460,
+    1838
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "This is then rounded and saved according to the system settings. The following figure shows interpolation using a simple example: The estimated meter reading result E was interpolated based on the estimated quantity Qe. The abbreviations have the following meanings:",
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p005_b007",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    1924,
+    950,
+    2491
+   ],
+   "ocr_confidence": 71.6,
+   "flags": [
+    "low_confidence_words:7"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MR= Meter Reading Result"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Q= Quantity"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Y = Weighting"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "E=Estimated Meter Reading Result"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Qe = Estimated Quantity"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Ye = Weighting for Estimated Quantity"
+    }
+   ],
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p005_b008",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    662,
+    2627,
+    1094,
+    2656
+   ],
+   "ocr_confidence": 91.3,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "01.01.2009 \u2014 06.30.2009",
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p005_b009",
+   "type": "table",
+   "page_number": 5,
+   "bbox": [
+    835,
+    2687,
+    1489,
+    2750
+   ],
+   "ocr_confidence": 65.8,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    835,
+    1057
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Ye, Qe",
+     "01.01.2009 - 12.31.2009"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Ye, Qe",
+     "01.01.2009 - 12.31.2009"
+    ]
+   ],
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p005_b010",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    872,
+    2760,
+    909,
+    2787
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "A",
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p005_b011",
+   "type": "table",
+   "page_number": 5,
+   "bbox": [
+    405,
+    3081,
+    2218,
+    3219
+   ],
+   "ocr_confidence": 89.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    405,
+    450,
+    1215,
+    1277,
+    2025
+   ],
+   "headers": [
+    "12.31.2008",
+    "06.30.2009",
+    "12.31.2009"
+   ],
+   "rows": [
+    [
+     "MR,",
+     "E",
+     "MR,"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "12.31.2008",
+     "06.30.2009",
+     "12.31.2009"
+    ],
+    [
+     "MR,",
+     "E",
+     "MR,"
+    ]
+   ],
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p005_b012",
+   "type": "fragment",
+   "page_number": 5,
+   "bbox": [
+    124,
+    3285,
+    321,
+    3300
+   ],
+   "ocr_confidence": 62.6,
+   "flags": [
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Intarnnlatian",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_009_sec_011"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 64.0,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Estimation Procedure Details",
+  "source_pdf": "9.pdf",
+  "reference_pdf": "09_Estimation_Procedure_Details.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Use for advanced estimation logic and validation scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "cbb5054fbe0856c41184b12b786b22c5354522382ac8684de84db1f9a57a7014"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:37Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Estimation Procedure Details",
+  "Interpolation",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_009_sec_010",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_009_sec_011",
+   "role": "starts_here"
+  }
+ ]
+}

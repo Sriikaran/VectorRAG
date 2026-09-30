@@ -1,0 +1,329 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 62,
+ "source_page_hash": "6c1192a195daa756dd80ac906391502b19681ec55322723b67b4ebf4494f5195",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nresult.\n\ne EIBPEABLUUPDATE (This segment is filled for updating, changing, and entering meter reading results)\n\nIf the system cannot identify the meter reading result to be changed, it creates a new meter reading order during the\nupload process. The upload process takes place either for the meter reading result or the meter reading order.\n\nThe following scenarios exist for changing meter reading results by upload:\n\n1. Acorresponding meter reading document with a meter reading result exists for the uploaded result. The uploaded records\ncontain the internal ID of the meter reading document. The Material , Serial Number , Register , Meter Reading Reason ,\nand Auxiliary Date fields are ignored.\n\n2. Acorresponding meter reading document with a meter reading result exists for the uploaded result. The internal ID of the\nmeter reading document is not known and the uploaded records do not contain the ID.\n\nIn this case, the key fields of one of the following alternatives must be maintained to identify the meter reading document\nto be changed:\n\no Serial Number, Register, Meter Reading Date, Auxilliary Date\n\nIf the serial number is not unique in the system, a material must also be entered.\no Serial Number, Register Code, Meter Reading Date, Auxilliary Date\n\nIf the serial number is not unique in the system, a material number must also be entered.\no Point of Delivery, Register Code, Meter Reading Date, Auxilliary Date\n\nThe auxiliary date for background processing (MRDATEFORIDENTIF) must be specified in order to identify the\n\nmeter reading result to be changed. This date corresponds with the meter reading date of the meter reading result\nto be changed before processing.\n\nIf the system cannot identify the meter reading result to be changed during the upload process, the meter reading data of the\nuploaded record is not imported into the system.\n\nThe following scenarios exist for updating meter reading results by upload:\n\n1. Acorresponding meter reading document with a meter reading result or a meter reading order exists for the uploaded\nresult. The uploaded records contain the internal ID of the meter reading document. The Material , Serial Number ,\nRegister , Meter Reading Reason , and Auxiliary Date fields are ignored. The uploaded record changes the existing meter\nreading result or creates a new result in the system.\n\n2. Acorresponding meter reading document with a meter reading result exists for the uploaded result. The internal ID of the\n\nmeter reading document is not known and the uploaded records do not contain the ID. In this case, the key fields of one of\nthe following alternatives must be maintained to identify the meter reading document to be changed:\n\no Serial Number, Register, Meter Reading Date, Auxilliary Date\nIf the serial number is not unique in the system, a material must also be entered.\no Serial Number, Register Code, Meter Reading Date, Auxilliary Date\nIf the serial number is not unique in the system, a material number must also be entered.\n\no Point of Delivery, Register Code, Meter Reading Date, Auxiliary Date\n",
+ "cleaned_text": "result.\n\n- EIBPEABLUUPDATE (This segment is filled for updating, changing, and entering meter reading results) If the system cannot identify the meter reading result to be changed, it creates a new meter reading order during the upload process. The upload process takes place either for the meter reading result or the meter reading order.\n\nThe following scenarios exist for changing meter reading results by upload:\n\n1 Acorresponding meter reading document with a meter reading result exists for the uploaded result. The uploaded records contain the internal ID of the meter reading document. The Material , Serial Number , Register , Meter Reading Reason , and Auxiliary Date fields are ignored.\n\n2 Acorresponding meter reading document with a meter reading result exists for the uploaded result. The internal ID of the meter reading document is not known and the uploaded records do not contain the ID. In this case, the key fields of one of the following alternatives must be maintained to identify the meter reading document\n\nto be changed:\n\n- Serial Number, Register, Meter Reading Date, Auxilliary Date If the serial number is not unique in the system, a material must also be entered.\n\n- Serial Number, Register Code, Meter Reading Date, Auxilliary Date If the serial number is not unique in the system, a material number must also be entered.\n\n- Point of Delivery, Register Code, Meter Reading Date, Auxilliary Date The auxiliary date for background processing (MRDATEFORIDENTIF) must be specified in order to identify the meter reading result to be changed. This date corresponds with the meter reading date of the meter reading result\n\nto be changed before processing. If the system cannot identify the meter reading result to be changed during the upload process, the meter reading data of the uploaded record is not imported into the system. The following scenarios exist for updating meter reading results by upload:\n\n1 Acorresponding meter reading document with a meter reading result or a meter reading order exists for the uploaded result. The uploaded records contain the internal ID of the meter reading document. The Material , Serial Number , Register , Meter Reading Reason , and Auxiliary Date fields are ignored. The uploaded record changes the existing meter reading result or creates a new result in the system.\n\n2 Acorresponding meter reading document with a meter reading result exists for the uploaded result. The internal ID of the meter reading document is not known and the uploaded records do not contain the ID. In this case, the key fields of one of\n\nthe following alternatives must be maintained to identify the meter reading document to be changed:\n\n- Serial Number, Register, Meter Reading Date, Auxilliary Date If the serial number is not unique in the system, a material must also be entered.\n\n- Serial Number, Register Code, Meter Reading Date, Auxilliary Date If the serial number is not unique in the system, a material number must also be entered.\n\n- Point of Delivery, Register Code, Meter Reading Date, Auxiliary Date",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p062_b000",
+   "type": "paragraph",
+   "page_number": 62,
+   "bbox": [
+    256,
+    134,
+    365,
+    165
+   ],
+   "ocr_confidence": 92.7,
+   "flags": [],
+   "text": "result.",
+   "section_id": "doc_006_sec_134"
+  },
+  {
+   "block_id": "doc_006_p062_b001",
+   "type": "list",
+   "page_number": 62,
+   "bbox": [
+    207,
+    236,
+    2358,
+    441
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "EIBPEABLUUPDATE (This segment is filled for updating, changing, and entering meter reading results) If the system cannot identify the meter reading result to be changed, it creates a new meter reading order during the upload process. The upload process takes place either for the meter reading result or the meter reading order."
+    }
+   ],
+   "section_id": "doc_006_sec_134"
+  },
+  {
+   "block_id": "doc_006_p062_b002",
+   "type": "paragraph",
+   "page_number": 62,
+   "bbox": [
+    122,
+    525,
+    1475,
+    563
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The following scenarios exist for changing meter reading results by upload:",
+   "section_id": "doc_006_sec_134"
+  },
+  {
+   "block_id": "doc_006_p062_b003",
+   "type": "list",
+   "page_number": 62,
+   "bbox": [
+    212,
+    647,
+    2462,
+    1079
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Acorresponding meter reading document with a meter reading result exists for the uploaded result. The uploaded records contain the internal ID of the meter reading document. The Material , Serial Number , Register , Meter Reading Reason , and Auxiliary Date fields are ignored."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Acorresponding meter reading document with a meter reading result exists for the uploaded result. The internal ID of the meter reading document is not known and the uploaded records do not contain the ID. In this case, the key fields of one of the following alternatives must be maintained to identify the meter reading document"
+    }
+   ],
+   "section_id": "doc_006_sec_134"
+  },
+  {
+   "block_id": "doc_006_p062_b004",
+   "type": "paragraph",
+   "page_number": 62,
+   "bbox": [
+    254,
+    1104,
+    518,
+    1141
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "to be changed:",
+   "section_id": "doc_006_sec_134"
+  },
+  {
+   "block_id": "doc_006_p062_b005",
+   "type": "list",
+   "page_number": 62,
+   "bbox": [
+    336,
+    1205,
+    2451,
+    1821
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Serial Number, Register, Meter Reading Date, Auxilliary Date If the serial number is not unique in the system, a material must also be entered."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Serial Number, Register Code, Meter Reading Date, Auxilliary Date If the serial number is not unique in the system, a material number must also be entered."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Point of Delivery, Register Code, Meter Reading Date, Auxilliary Date The auxiliary date for background processing (MRDATEFORIDENTIF) must be specified in order to identify the meter reading result to be changed. This date corresponds with the meter reading date of the meter reading result"
+    }
+   ],
+   "section_id": "doc_006_sec_134"
+  },
+  {
+   "block_id": "doc_006_p062_b006",
+   "type": "paragraph",
+   "page_number": 62,
+   "bbox": [
+    122,
+    1846,
+    2387,
+    2189
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "to be changed before processing. If the system cannot identify the meter reading result to be changed during the upload process, the meter reading data of the uploaded record is not imported into the system. The following scenarios exist for updating meter reading results by upload:",
+   "section_id": "doc_006_sec_134"
+  },
+  {
+   "block_id": "doc_006_p062_b007",
+   "type": "list",
+   "page_number": 62,
+   "bbox": [
+    212,
+    2276,
+    2455,
+    2669
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Acorresponding meter reading document with a meter reading result or a meter reading order exists for the uploaded result. The uploaded records contain the internal ID of the meter reading document. The Material , Serial Number , Register , Meter Reading Reason , and Auxiliary Date fields are ignored. The uploaded record changes the existing meter reading result or creates a new result in the system."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Acorresponding meter reading document with a meter reading result exists for the uploaded result. The internal ID of the meter reading document is not known and the uploaded records do not contain the ID. In this case, the key fields of one of"
+    }
+   ],
+   "section_id": "doc_006_sec_134"
+  },
+  {
+   "block_id": "doc_006_p062_b008",
+   "type": "paragraph",
+   "page_number": 62,
+   "bbox": [
+    254,
+    2694,
+    2082,
+    2731
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "the following alternatives must be maintained to identify the meter reading document to be changed:",
+   "section_id": "doc_006_sec_134"
+  },
+  {
+   "block_id": "doc_006_p062_b009",
+   "type": "list",
+   "page_number": 62,
+   "bbox": [
+    336,
+    2795,
+    1990,
+    3244
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Serial Number, Register, Meter Reading Date, Auxilliary Date If the serial number is not unique in the system, a material must also be entered."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Serial Number, Register Code, Meter Reading Date, Auxilliary Date If the serial number is not unique in the system, a material number must also be entered."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Point of Delivery, Register Code, Meter Reading Date, Auxiliary Date"
+    }
+   ],
+   "section_id": "doc_006_sec_134"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "6c1192a195daa756dd80ac906391502b19681ec55322723b67b4ebf4494f5195"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Upload",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_134",
+   "role": "continues"
+  }
+ ]
+}

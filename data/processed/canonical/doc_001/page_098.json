@@ -1,0 +1,365 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 98,
+ "source_page_hash": "68b3736fb0e3c51c09ed8da1e594b7b6108fdaa8e904de2149a910b1d2624161",
+ "is_cover_page": false,
+ "title": "Use",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nUse\n\nYou can create a technical installation when you create a new premise or change an already existing premise.\n\nProcedure\n\n1. Choose |Utilities industry \u00bb Technical master data\u00bb Premise \u00bb Create 4 or Change.\n2. If you are in change mode, enter a premise.\n\n3. Choose |*Premise > Techn. inst.\u00bb (technical installation > ) \u00bb Create\n\n4. Enter the division and, if necessary, a description.\n\n5. A temporary equipment number is displayed in the Equipment field.\n\n6. Save the premise.\n\n7. The technical installation is created in Plant Maintenance and Service Management (PM). as a piece of equipment with its\nown number.\n\n8. To maintain the technical installation as a piece of equipment, proceed as follows:\n\n9.\na. Display the technical installation.\nb. Double click the equipment to call it.\nc. The Display Equipment: General Data screen appears.\nd. Choose |}Equipment \u00bb Create.\nResult\n\nYou have created a technical installation and allocated it to a premise.\n\nUtility Installation\n\nDefinition\n\nA utility installation combines division-specific devices, registers, and any reference values that are assigned to a premise and are\ntherefore billed together, for example, an on-peak and off-peak rate meter.\n\nAn installation is assigned to exactly one contract. Only in exceptional circumstances (for example, installation under construction,\nasset without owner) is it not assigned to any contract.\n\nUse\n\nThe billing-relevant data of the installation is managed historically. Therefore, you can change the rate category within a billing\nperiod without problem, for example.\n",
+ "cleaned_text": "Use\n\nYou can create a technical installation when you create a new premise or change an already existing premise.\n\nProcedure\n\n1 Choose |Utilities industry \u00bb Technical master data\u00bb Premise \u00bb Create 4 or Change.\n\n2 If you are in change mode, enter a premise.\n\n3 Choose |*Premise > Techn. inst.\u00bb (technical installation > ) \u00bb Create\n\n4 Enter the division and, if necessary, a description.\n\n5 A temporary equipment number is displayed in the Equipment field.\n\n6 Save the premise.\n\n7 The technical installation is created in Plant Maintenance and Service Management (PM). as a piece of equipment with its own number.\n\n8 To maintain the technical installation as a piece of equipment, proceed as follows: 9. a. Display the technical installation. b. Double click the equipment to call it. c. The Display Equipment: General Data screen appears.\n\nd. Choose |}Equipment \u00bb Create.\n\nResult\n\nYou have created a technical installation and allocated it to a premise.\n\nUtility Installation\n\nDefinition\n\nA utility installation combines division-specific devices, registers, and any reference values that are assigned to a premise and are therefore billed together, for example, an on-peak and off-peak rate meter. An installation is assigned to exactly one contract. Only in exceptional circumstances (for example, installation under construction, asset without owner) is it not assigned to any contract.\n\nUse\n\nThe billing-relevant data of the installation is managed historically. Therefore, you can change the rate category within a billing period without problem, for example.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p098_b000",
+   "type": "heading",
+   "page_number": 98,
+   "bbox": [
+    125,
+    126,
+    225,
+    172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_373"
+  },
+  {
+   "block_id": "doc_001_p098_b001",
+   "type": "paragraph",
+   "page_number": 98,
+   "bbox": [
+    122,
+    259,
+    2085,
+    297
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You can create a technical installation when you create a new premise or change an already existing premise.",
+   "section_id": "doc_001_sec_373"
+  },
+  {
+   "block_id": "doc_001_p098_b002",
+   "type": "heading",
+   "page_number": 98,
+   "bbox": [
+    126,
+    409,
+    409,
+    454
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_374"
+  },
+  {
+   "block_id": "doc_001_p098_b003",
+   "type": "list",
+   "page_number": 98,
+   "bbox": [
+    211,
+    537,
+    2477,
+    1753
+   ],
+   "ocr_confidence": 90.9,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Choose |Utilities industry \u00bb Technical master data\u00bb Premise \u00bb Create 4 or Change."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "If you are in change mode, enter a premise."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Choose |*Premise > Techn. inst.\u00bb (technical installation > ) \u00bb Create"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Enter the division and, if necessary, a description."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "A temporary equipment number is displayed in the Equipment field."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "Save the premise."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "7",
+     "text": "The technical installation is created in Plant Maintenance and Service Management (PM). as a piece of equipment with its own number."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "8",
+     "text": "To maintain the technical installation as a piece of equipment, proceed as follows: 9. a. Display the technical installation. b. Double click the equipment to call it. c. The Display Equipment: General Data screen appears."
+    }
+   ],
+   "section_id": "doc_001_sec_374"
+  },
+  {
+   "block_id": "doc_001_p098_b004",
+   "type": "paragraph",
+   "page_number": 98,
+   "bbox": [
+    344,
+    1812,
+    964,
+    1859
+   ],
+   "ocr_confidence": 83.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "d. Choose |}Equipment \u00bb Create.",
+   "section_id": "doc_001_sec_374"
+  },
+  {
+   "block_id": "doc_001_p098_b005",
+   "type": "heading",
+   "page_number": 98,
+   "bbox": [
+    126,
+    1966,
+    297,
+    2012
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Result",
+   "level": 3,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_374"
+  },
+  {
+   "block_id": "doc_001_p098_b006",
+   "type": "paragraph",
+   "page_number": 98,
+   "bbox": [
+    122,
+    2099,
+    1377,
+    2136
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You have created a technical installation and allocated it to a premise.",
+   "section_id": "doc_001_sec_374"
+  },
+  {
+   "block_id": "doc_001_p098_b007",
+   "type": "heading",
+   "page_number": 98,
+   "bbox": [
+    128,
+    2283,
+    757,
+    2358
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Utility Installation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_375"
+  },
+  {
+   "block_id": "doc_001_p098_b008",
+   "type": "heading",
+   "page_number": 98,
+   "bbox": [
+    126,
+    2463,
+    393,
+    2508
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_376"
+  },
+  {
+   "block_id": "doc_001_p098_b009",
+   "type": "paragraph",
+   "page_number": 98,
+   "bbox": [
+    122,
+    2592,
+    2486,
+    2879
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "A utility installation combines division-specific devices, registers, and any reference values that are assigned to a premise and are therefore billed together, for example, an on-peak and off-peak rate meter. An installation is assigned to exactly one contract. Only in exceptional circumstances (for example, installation under construction, asset without owner) is it not assigned to any contract.",
+   "section_id": "doc_001_sec_376"
+  },
+  {
+   "block_id": "doc_001_p098_b010",
+   "type": "heading",
+   "page_number": 98,
+   "bbox": [
+    125,
+    2992,
+    225,
+    3036
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_377"
+  },
+  {
+   "block_id": "doc_001_p098_b011",
+   "type": "paragraph",
+   "page_number": 98,
+   "bbox": [
+    122,
+    3124,
+    2407,
+    3224
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The billing-relevant data of the installation is managed historically. Therefore, you can change the rate category within a billing period without problem, for example.",
+   "section_id": "doc_001_sec_377"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "68b3736fb0e3c51c09ed8da1e594b7b6108fdaa8e904de2149a910b1d2624161"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Technical Installation",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_373",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_374",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_375",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_376",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_377",
+   "role": "starts_here"
+  }
+ ]
+}

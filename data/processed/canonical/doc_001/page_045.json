@@ -1,0 +1,433 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 45,
+ "source_page_hash": "0cfc29941e2f0731e38bfd5b3190671a37d3651ee710ca6414c252fe3aa178bb",
+ "is_cover_page": false,
+ "title": "System Configuration",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nfe)\n\n\u00ab\u00b0 Example\nYou use the transaction Delete Other Objects to delete data of repayment requests. Repayment requests are also included in\nthe data that is not directly assigned to a business partner.\n\nIf you block business partners after 2 years, then you also have to archive and delete repayment requests at the latest after 2\n\nyears.\n\nSystem Configuration\n\nUse\n\nYou are using the rules of SAP Information Lifecycle Management (SAP ILM) to manage the life cycle of business partner master\ndata. For more information about the general options for configuring SAP ILM, see the documentation for SAP ILM.\n\nYou make the system settings that are specifically for data protection in Contract Accounts Receivable and Payable in Customizing\n\nfor Contract Accounts Receivable and Payable under |} Technical Settings \u00bb Data Protection 3. There, in additions to global\nsettings, you make settings for the application objects, the sequence of checks, the rule variants, and the determination of the\nretention start date.\n\nGlobal Settings\n\nYou make general settings in the Make Global Settings for Protection of Personal Data activity. There you enter the following\n\nparameters:\n\ne Posting Block\n\nFrom the start of the retention period until deletion, you can no longer make any postings with reference to business-\npartner-related data. To achieve this you set a posting block in the master record of the contract account. The system\ntransfers the posting block entered there when blocking a business partner.\n\ne Days Until Next Check (BP with Open Bus.Trans.) and Days Until Next Check (BP Without Open Bus.Tr.)\n\nBy making an entry in these fields, you limit the time period in which the system again checks a business partner\n(with/without open business transactions). The time period extends from the time of the last check until the number of\ndays is reached that you enter in this field. The system sets the date for the next check at random within this time period. If\nyou do not make any entry in this field, the next check takes place automatically with the next program run.\n\ne Account in Archive\n\nIf you set this indicator, the system also includes archived contract accounts in the determination of the retention start\ndate.\n\ne Rule Variant\n\nIf there is no transaction data in Contract Accounts Receivable and Payable, then the rule variant you enter here acts as the\n\nrule variant for the business partner ILM object (CA_BUPA).\nSettings for Application Objects\n\nIn the Make Specifications for Customer-Defined Application Objects activity, you can add your own application objects to the\n\nminemlinntian pines nen rei nanveny in SRR CAND atawnAase- ni rtanwme Meafinn tRR AnKwlinntian pin Rete iene oo fvrnwh, ARfinnklA LA, arnt a\n",
+ "cleaned_text": "fe)\n\nExample You use the transaction Delete Other Objects to delete data of repayment requests. Repayment requests are also included in the data that is not directly assigned to a business partner. If you block business partners after 2 years, then you also have to archive and delete repayment requests at the latest after 2 years.\n\nSystem Configuration\n\nUse\n\nYou are using the rules of SAP Information Lifecycle Management (SAP ILM) to manage the life cycle of business partner master data. For more information about the general options for configuring SAP ILM, see the documentation for SAP ILM. You make the system settings that are specifically for data protection in Contract Accounts Receivable and Payable in Customizing for Contract Accounts Receivable and Payable under |} Technical Settings \u00bb Data Protection 3. There, in additions to global settings, you make settings for the application objects, the sequence of checks, the rule variants, and the determination of the retention start date.\n\nGlobal Settings\n\nYou make general settings in the Make Global Settings for Protection of Personal Data activity. There you enter the following parameters:\n\n- Posting Block From the start of the retention period until deletion, you can no longer make any postings with reference to business-partner-related data. To achieve this you set a posting block in the master record of the contract account. The system\n\ntransfers the posting block entered there when blocking a business partner.\n\n- Days Until Next Check (BP with Open Bus.Trans.) and Days Until Next Check (BP Without Open Bus.Tr.) By making an entry in these fields, you limit the time period in which the system again checks a business partner\n\n(with/without open business transactions). The time period extends from the time of the last check until the number of days is reached that you enter in this field. The system sets the date for the next check at random within this time period. If you do not make any entry in this field, the next check takes place automatically with the next program run.\n\n- Account in Archive If you set this indicator, the system also includes archived contract accounts in the determination of the retention start\n\ndate.\n\n- Rule Variant If there is no transaction data in Contract Accounts Receivable and Payable, then the rule variant you enter here acts as the rule variant for the business partner ILM object (CA_BUPA).\n\nSettings for Application Objects\n\nIn the Make Specifications for Customer-Defined Application Objects activity, you can add your own application objects to the\n\nminemlinntian pines nen rei nanveny in SRR CAND atawnAase- ni rtanwme Meafinn tRR AnKwlinntian pin Rete iene oo fvrnwh, ARfinnklA LA, arnt a",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u00ab\u00b0",
+   "bbox": [
+    151,
+    154,
+    432,
+    200
+   ],
+   "reason": "icon glyph OCR'd before 'example' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p045_b000",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    166,
+    146,
+    183,
+    164
+   ],
+   "ocr_confidence": 38.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "fe)",
+   "section_id": "doc_001_sec_146"
+  },
+  {
+   "block_id": "doc_001_p045_b001",
+   "type": "example",
+   "page_number": 45,
+   "bbox": [
+    151,
+    154,
+    2415,
+    520
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Example You use the transaction Delete Other Objects to delete data of repayment requests. Repayment requests are also included in the data that is not directly assigned to a business partner. If you block business partners after 2 years, then you also have to archive and delete repayment requests at the latest after 2 years.",
+   "section_id": "doc_001_sec_146"
+  },
+  {
+   "block_id": "doc_001_p045_b002",
+   "type": "heading",
+   "page_number": 45,
+   "bbox": [
+    125,
+    702,
+    911,
+    779
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "text": "System Configuration",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_147"
+  },
+  {
+   "block_id": "doc_001_p045_b003",
+   "type": "heading",
+   "page_number": 45,
+   "bbox": [
+    125,
+    879,
+    225,
+    924
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_148"
+  },
+  {
+   "block_id": "doc_001_p045_b004",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    122,
+    1011,
+    2487,
+    1416
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You are using the rules of SAP Information Lifecycle Management (SAP ILM) to manage the life cycle of business partner master data. For more information about the general options for configuring SAP ILM, see the documentation for SAP ILM. You make the system settings that are specifically for data protection in Contract Accounts Receivable and Payable in Customizing for Contract Accounts Receivable and Payable under |} Technical Settings \u00bb Data Protection 3. There, in additions to global settings, you make settings for the application objects, the sequence of checks, the rule variants, and the determination of the retention start date.",
+   "section_id": "doc_001_sec_148"
+  },
+  {
+   "block_id": "doc_001_p045_b005",
+   "type": "heading",
+   "page_number": 45,
+   "bbox": [
+    123,
+    1508,
+    408,
+    1545
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Global Settings",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_149"
+  },
+  {
+   "block_id": "doc_001_p045_b006",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    123,
+    1629,
+    2393,
+    1732
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "You make general settings in the Make Global Settings for Protection of Personal Data activity. There you enter the following parameters:",
+   "section_id": "doc_001_sec_149"
+  },
+  {
+   "block_id": "doc_001_p045_b007",
+   "type": "list",
+   "page_number": 45,
+   "bbox": [
+    207,
+    1816,
+    2372,
+    2018
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Posting Block From the start of the retention period until deletion, you can no longer make any postings with reference to business-partner-related data. To achieve this you set a posting block in the master record of the contract account. The system"
+    }
+   ],
+   "section_id": "doc_001_sec_149"
+  },
+  {
+   "block_id": "doc_001_p045_b008",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    254,
+    2043,
+    1620,
+    2081
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "transfers the posting block entered there when blocking a business partner.",
+   "section_id": "doc_001_sec_149"
+  },
+  {
+   "block_id": "doc_001_p045_b009",
+   "type": "list",
+   "page_number": 45,
+   "bbox": [
+    207,
+    2148,
+    2288,
+    2288
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Days Until Next Check (BP with Open Bus.Trans.) and Days Until Next Check (BP Without Open Bus.Tr.) By making an entry in these fields, you limit the time period in which the system again checks a business partner"
+    }
+   ],
+   "section_id": "doc_001_sec_149"
+  },
+  {
+   "block_id": "doc_001_p045_b010",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    253,
+    2312,
+    2475,
+    2475
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "(with/without open business transactions). The time period extends from the time of the last check until the number of days is reached that you enter in this field. The system sets the date for the next check at random within this time period. If you do not make any entry in this field, the next check takes place automatically with the next program run.",
+   "section_id": "doc_001_sec_149"
+  },
+  {
+   "block_id": "doc_001_p045_b011",
+   "type": "list",
+   "page_number": 45,
+   "bbox": [
+    207,
+    2543,
+    2401,
+    2682
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Account in Archive If you set this indicator, the system also includes archived contract accounts in the determination of the retention start"
+    }
+   ],
+   "section_id": "doc_001_sec_149"
+  },
+  {
+   "block_id": "doc_001_p045_b012",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    255,
+    2707,
+    342,
+    2737
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "date.",
+   "section_id": "doc_001_sec_149"
+  },
+  {
+   "block_id": "doc_001_p045_b013",
+   "type": "list",
+   "page_number": 45,
+   "bbox": [
+    207,
+    2809,
+    2479,
+    3020
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Rule Variant If there is no transaction data in Contract Accounts Receivable and Payable, then the rule variant you enter here acts as the rule variant for the business partner ILM object (CA_BUPA)."
+    }
+   ],
+   "section_id": "doc_001_sec_149"
+  },
+  {
+   "block_id": "doc_001_p045_b014",
+   "type": "heading",
+   "page_number": 45,
+   "bbox": [
+    123,
+    3101,
+    719,
+    3139
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Settings for Application Objects",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_150"
+  },
+  {
+   "block_id": "doc_001_p045_b015",
+   "type": "paragraph",
+   "page_number": 45,
+   "bbox": [
+    125,
+    3223,
+    2432,
+    3261
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "In the Make Specifications for Customer-Defined Application Objects activity, you can add your own application objects to the",
+   "section_id": "doc_001_sec_150"
+  },
+  {
+   "block_id": "doc_001_p045_b016",
+   "type": "fragment",
+   "page_number": 45,
+   "bbox": [
+    124,
+    3281,
+    2349,
+    3300
+   ],
+   "ocr_confidence": 16.4,
+   "flags": [
+    "low_confidence_words:21",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "minemlinntian pines nen rei nanveny in SRR CAND atawnAase- ni rtanwme Meafinn tRR AnKwlinntian pin Rete iene oo fvrnwh, ARfinnklA LA, arnt a",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_150"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.0952,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "0cfc29941e2f0731e38bfd5b3190671a37d3651ee710ca6414c252fe3aa178bb"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Dealing with Personal Data Outside the Business Partner"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_146",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_147",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_148",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_149",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_150",
+   "role": "starts_here"
+  }
+ ]
+}

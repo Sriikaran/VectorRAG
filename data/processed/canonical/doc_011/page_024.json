@@ -1,0 +1,647 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 24,
+ "source_page_hash": "318bd80c9924c5cb661b83f8682aa859c96b0a258b8a1110577ae81aadbd2c56",
+ "is_cover_page": false,
+ "title": "More Information",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nThe header data contains the formula for calculating the allocated profiles, the interval lengths, the division, and the day\n\noffset.\n\ne Result parameters\n\nResult parameters are allocated to operand categories and references to the output parameters. The result parameters\n\nsupply the operands with data in the RTP rate in IS-U billing.\n\ne RTP components\n\nAn RTP interface can contain several components. The components are sorted by priority. The prioritization is used to\n\ndetermine which components to execute if several components have the same activation period.\n\nThe input parameters are the allocated profiles. The output parameters come from calculating the formula.\n\nMore Information\n\nDefine RTP Interface\n\nActivation Types\n\nUse\n\nThe following activation types exist:\n\nActivation Type\n\nUse and activate generally\n\nUse and activate individually\n\nUse individually and activate generally\n\nActivation\n\nAt RTP interface level\n\nAt installation level\n\nAt RTP interface level and at installation\nlevel\n\nActivation type \"Use and Activate Generally\"\n\nDefinition of Parameter Allocations for\nInput Parameter\n\nAt RTP interface level\n\nAt installation level\n\nParameter templates at RTP interface level\nor at installation level\n\nAt installation level\n\nParameter templates at RTP interface level\nor at installation level\n\nThe activation type Use and Activate Generally (activation and definition for all installations) means that you have to activate the\n\nRTP components at RTP interface level and define the parameter allocations for the input parameters at RTP interface level.\n\nActivation type \"Use and Activate Individually\"\n\nThe activation type Use and Activate Individually (activation for individual installations) means that you cannot activate the RTP\n\ncomponents at RTP interface level, but at installation level.\n",
+ "cleaned_text": "The header data contains the formula for calculating the allocated profiles, the interval lengths, the division, and the day offset.\n\n- Result parameters Result parameters are allocated to operand categories and references to the output parameters. The result parameters\n\nsupply the operands with data in the RTP rate in IS-U billing.\n\n- RTP components An RTP interface can contain several components. The components are sorted by priority. The prioritization is used to determine which components to execute if several components have the same activation period.\n\nThe input parameters are the allocated profiles. The output parameters come from calculating the formula.\n\nMore Information\n\nDefine RTP Interface\n\nActivation Types\n\nUse\n\nThe following activation types exist:\n\nActivation Type\n\nUse and activate generally Use and activate individually\n\nUse individually and activate generally\n\nActivation\n\nAt RTP interface level\n\nAt installation level\n\nAt RTP interface level and at installation\n\nlevel\n\nActivation type \"Use and Activate Generally\"\n\nDefinition of Parameter Allocations for\n\nInput Parameter\n\nAt RTP interface level\n\nAt installation level\n\nParameter templates at RTP interface level or at installation level\n\nAt installation level\n\nParameter templates at RTP interface level or at installation level\n\nThe activation type Use and Activate Generally (activation and definition for all installations) means that you have to activate the RTP components at RTP interface level and define the parameter allocations for the input parameters at RTP interface level.\n\nActivation type \"Use and Activate Individually\"\n\nThe activation type Use and Activate Individually (activation for individual installations) means that you cannot activate the RTP components at RTP interface level, but at installation level.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p024_b000",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    254,
+    134,
+    2424,
+    227
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The header data contains the formula for calculating the allocated profiles, the interval lengths, the division, and the day offset.",
+   "section_id": "doc_011_sec_067"
+  },
+  {
+   "block_id": "doc_011_p024_b001",
+   "type": "list",
+   "page_number": 24,
+   "bbox": [
+    207,
+    318,
+    2408,
+    461
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Result parameters Result parameters are allocated to operand categories and references to the output parameters. The result parameters"
+    }
+   ],
+   "section_id": "doc_011_sec_067"
+  },
+  {
+   "block_id": "doc_011_p024_b002",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    254,
+    486,
+    1338,
+    523
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [],
+   "text": "supply the operands with data in the RTP rate in IS-U billing.",
+   "section_id": "doc_011_sec_067"
+  },
+  {
+   "block_id": "doc_011_p024_b003",
+   "type": "list",
+   "page_number": 24,
+   "bbox": [
+    207,
+    608,
+    2384,
+    809
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "RTP components An RTP interface can contain several components. The components are sorted by priority. The prioritization is used to determine which components to execute if several components have the same activation period."
+    }
+   ],
+   "section_id": "doc_011_sec_067"
+  },
+  {
+   "block_id": "doc_011_p024_b004",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    122,
+    897,
+    2058,
+    935
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The input parameters are the allocated profiles. The output parameters come from calculating the formula.",
+   "section_id": "doc_011_sec_067"
+  },
+  {
+   "block_id": "doc_011_p024_b005",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    126,
+    1046,
+    611,
+    1091
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "More Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_068"
+  },
+  {
+   "block_id": "doc_011_p024_b006",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    125,
+    1176,
+    495,
+    1206
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Define RTP Interface",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_068"
+  },
+  {
+   "block_id": "doc_011_p024_b007",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    124,
+    1363,
+    716,
+    1439
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Activation Types",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_069"
+  },
+  {
+   "block_id": "doc_011_p024_b008",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    125,
+    1539,
+    225,
+    1585
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_070"
+  },
+  {
+   "block_id": "doc_011_p024_b009",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    122,
+    1672,
+    765,
+    1709
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The following activation types exist:",
+   "section_id": "doc_011_sec_070"
+  },
+  {
+   "block_id": "doc_011_p024_b010",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    147,
+    1818,
+    413,
+    1854
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Activation Type",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_071"
+  },
+  {
+   "block_id": "doc_011_p024_b011",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    149,
+    1983,
+    625,
+    2123
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use and activate generally Use and activate individually",
+   "section_id": "doc_011_sec_071"
+  },
+  {
+   "block_id": "doc_011_p024_b012",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    149,
+    2347,
+    788,
+    2382
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use individually and activate generally",
+   "section_id": "doc_011_sec_071"
+  },
+  {
+   "block_id": "doc_011_p024_b013",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    936,
+    1819,
+    1111,
+    1847
+   ],
+   "ocr_confidence": 97.0,
+   "flags": [],
+   "text": "Activation",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_072"
+  },
+  {
+   "block_id": "doc_011_p024_b014",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    937,
+    1983,
+    1293,
+    2011
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "At RTP interface level",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_073"
+  },
+  {
+   "block_id": "doc_011_p024_b015",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    937,
+    2088,
+    1251,
+    2116
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "At installation level",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_074"
+  },
+  {
+   "block_id": "doc_011_p024_b016",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    937,
+    2347,
+    1605,
+    2375
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "At RTP interface level and at installation",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_075"
+  },
+  {
+   "block_id": "doc_011_p024_b017",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    938,
+    2407,
+    1009,
+    2435
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "level",
+   "section_id": "doc_011_sec_075"
+  },
+  {
+   "block_id": "doc_011_p024_b018",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    123,
+    2671,
+    1366,
+    2729
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "Activation type \"Use and Activate Generally\"",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_076"
+  },
+  {
+   "block_id": "doc_011_p024_b019",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    1727,
+    1818,
+    2393,
+    1847
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Definition of Parameter Allocations for",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_077"
+  },
+  {
+   "block_id": "doc_011_p024_b020",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    1727,
+    1877,
+    2009,
+    1913
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Input Parameter",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_078"
+  },
+  {
+   "block_id": "doc_011_p024_b021",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    1726,
+    1983,
+    2082,
+    2011
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "At RTP interface level",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_079"
+  },
+  {
+   "block_id": "doc_011_p024_b022",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    1726,
+    2088,
+    2040,
+    2116
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "At installation level",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_080"
+  },
+  {
+   "block_id": "doc_011_p024_b023",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    1726,
+    2183,
+    2445,
+    2270
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Parameter templates at RTP interface level or at installation level",
+   "section_id": "doc_011_sec_080"
+  },
+  {
+   "block_id": "doc_011_p024_b024",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    1726,
+    2347,
+    2040,
+    2375
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "At installation level",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_081"
+  },
+  {
+   "block_id": "doc_011_p024_b025",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    1726,
+    2443,
+    2445,
+    2530
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Parameter templates at RTP interface level or at installation level",
+   "section_id": "doc_011_sec_081"
+  },
+  {
+   "block_id": "doc_011_p024_b026",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    122,
+    2805,
+    2460,
+    2905
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "The activation type Use and Activate Generally (activation and definition for all installations) means that you have to activate the RTP components at RTP interface level and define the parameter allocations for the input parameters at RTP interface level.",
+   "section_id": "doc_011_sec_081"
+  },
+  {
+   "block_id": "doc_011_p024_b027",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    123,
+    3018,
+    1421,
+    3074
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Activation type \"Use and Activate Individually\"",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_082"
+  },
+  {
+   "block_id": "doc_011_p024_b028",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    122,
+    3150,
+    2451,
+    3250
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The activation type Use and Activate Individually (activation for individual installations) means that you cannot activate the RTP components at RTP interface level, but at installation level.",
+   "section_id": "doc_011_sec_082"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "318bd80c9924c5cb661b83f8682aa859c96b0a258b8a1110577ae81aadbd2c56"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "RTP Interface",
+  "Use",
+  "Execution of the RTP Interface"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_067",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_068",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_069",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_070",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_071",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_072",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_073",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_074",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_075",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_076",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_077",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_078",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_079",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_080",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_081",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_082",
+   "role": "starts_here"
+  }
+ ]
+}

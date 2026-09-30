@@ -1,0 +1,331 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 8,
+ "source_page_hash": "cbda0e259cbef6d659c6a05b305047048ea1a61fa5890ca02b9454d06ab634c6",
+ "is_cover_page": false,
+ "title": "Consumption History",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nConsumption History\n\nUse\n\nYou can use the variants Write DBERCHV Info Lines for Quantities (QUANTI22) and Write Consumption and Amount in\nConsumption History (QUANTI23) to update consumption amounts to the Consumption History table (DBERCHV). If you want to\ninclude consumption values based on estimated meter reading results in the consumption history, you can correct these during\ndynamic backbilling. In the rate step for the selected variant, select the Reversible for Backbilling value in the VC (variant control)\nfield. In the corresponding schema step, enter a dynamic backbilling group in the field RDP1 to (RDP5) (Schema Steps for Reversal\n\nin Dynamic Period Control). An entry is then generated in the DBERCHV table during dynamic backbilling. This entry replaces the\noriginal entry. If you enter a dynamic backbilling group in the schema step field SS1 (to SS5) (Schema Steps for Execution in\nDynamic Period Control), the consumption for the dynamic backbilling period is updated in the consumption history.\n\nPreconsumption Values in the Billing Document\n\nYou can use the variant Write Info Lines for n Previous Consumption Values (QUANTI17) to write information lines about different\npreconsumption values. Note that the corrected consumption values are not yet saved in the installation facts when this variant is\nexecuted during dynamic period control and backbilling. You can determine in variant control that info lines are to be written for\nthe corrected consumptions.\n\nConsumption Values in the Installation Facts\n\nThere are two ways of updating consumption values in the installation facts. You must use a time slice generator that has been\nallocated the following basic categories of the period to be created for the variant that writes the consumption values to the\n\ninstallation facts (for example, Write a Quantity in the Installation Facts (INFACTO6)).\n\ne Display consumption values in the installation facts for each billing period. You require.\no For the categories 1000 and 2000, a period to be created from the basic category Cycle (4)\n\no For categories 3000 and 4000, a period to be created from the Past Time Slices for Each Individual Document (1)\nbasic category and the Cycle (4) basic category\n\ne Display consumption values in the installation facts depending on real meter reading results You require.\no For the categories 1000 and 2000, a period to be created from the basic category Cycle (4)\n\no For categories 3000 and 4000, a period to be created from the Current Period and Past in Congruent Time Slice\n(3) category.\n\nIn the rate step for the variant, choose a variant control that updates values in the billing period. This ensures that the\nconsumption values in the installation facts are corrected during dynamic backbilling.\n\nBudget Billing Amounts\n\nAs of SAP IS-U release 4.71, you can combine DPC with budget billing amounts. This allows you to collect fixed monthly amounts\nfrom customers in the deregulated marketplace, for example. After a period of one year, a new budget billing plan should be\ncreated using actual meter reading results. If no actual meter reading result is available, the system creates the new budget billing\nplan based on an estimated meter reading result. Once the next actual meter reading result is available, you can enter an interim\nmeter reading with billing. The system then corrects the entire period back to the last actual meter reading result. You can choose\n",
+ "cleaned_text": "Consumption History\n\nUse\n\nYou can use the variants Write DBERCHV Info Lines for Quantities (QUANTI22) and Write Consumption and Amount in Consumption History (QUANTI23) to update consumption amounts to the Consumption History table (DBERCHV). If you want to include consumption values based on estimated meter reading results in the consumption history, you can correct these during dynamic backbilling. In the rate step for the selected variant, select the Reversible for Backbilling value in the VC (variant control) field. In the corresponding schema step, enter a dynamic backbilling group in the field RDP1 to (RDP5) (Schema Steps for Reversal in Dynamic Period Control). An entry is then generated in the DBERCHV table during dynamic backbilling. This entry replaces the original entry. If you enter a dynamic backbilling group in the schema step field SS1 (to SS5) (Schema Steps for Execution in Dynamic Period Control), the consumption for the dynamic backbilling period is updated in the consumption history.\n\nPreconsumption Values in the Billing Document\n\nYou can use the variant Write Info Lines for n Previous Consumption Values (QUANTI17) to write information lines about different preconsumption values. Note that the corrected consumption values are not yet saved in the installation facts when this variant is executed during dynamic period control and backbilling. You can determine in variant control that info lines are to be written for the corrected consumptions.\n\nConsumption Values in the Installation Facts\n\nThere are two ways of updating consumption values in the installation facts. You must use a time slice generator that has been allocated the following basic categories of the period to be created for the variant that writes the consumption values to the installation facts (for example, Write a Quantity in the Installation Facts (INFACTO6)).\n\n- Display consumption values in the installation facts for each billing period. You require.\n\n- For the categories 1000 and 2000, a period to be created from the basic category Cycle (4)\n\n- For categories 3000 and 4000, a period to be created from the Past Time Slices for Each Individual Document (1) basic category and the Cycle (4) basic category\n\n- Display consumption values in the installation facts depending on real meter reading results You require.\n\n- For the categories 1000 and 2000, a period to be created from the basic category Cycle (4)\n\n- For categories 3000 and 4000, a period to be created from the Current Period and Past in Congruent Time Slice (3) category.\n\nIn the rate step for the variant, choose a variant control that updates values in the billing period. This ensures that the consumption values in the installation facts are corrected during dynamic backbilling.\n\nBudget Billing Amounts\n\nAs of SAP IS-U release 4.71, you can combine DPC with budget billing amounts. This allows you to collect fixed monthly amounts from customers in the deregulated marketplace, for example. After a period of one year, a new budget billing plan should be created using actual meter reading results. If no actual meter reading result is available, the system creates the new budget billing plan based on an estimated meter reading result. Once the next actual meter reading result is available, you can enter an interim meter reading with billing. The system then corrects the entire period back to the last actual meter reading result. You can choose",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p008_b000",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    125,
+    130,
+    900,
+    207
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Consumption History",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_026"
+  },
+  {
+   "block_id": "doc_011_p008_b001",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    124,
+    280,
+    191,
+    309
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_027"
+  },
+  {
+   "block_id": "doc_011_p008_b002",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    404,
+    2485,
+    882
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You can use the variants Write DBERCHV Info Lines for Quantities (QUANTI22) and Write Consumption and Amount in Consumption History (QUANTI23) to update consumption amounts to the Consumption History table (DBERCHV). If you want to include consumption values based on estimated meter reading results in the consumption history, you can correct these during dynamic backbilling. In the rate step for the selected variant, select the Reversible for Backbilling value in the VC (variant control) field. In the corresponding schema step, enter a dynamic backbilling group in the field RDP1 to (RDP5) (Schema Steps for Reversal in Dynamic Period Control). An entry is then generated in the DBERCHV table during dynamic backbilling. This entry replaces the original entry. If you enter a dynamic backbilling group in the schema step field SS1 (to SS5) (Schema Steps for Execution in Dynamic Period Control), the consumption for the dynamic backbilling period is updated in the consumption history.",
+   "section_id": "doc_011_sec_027"
+  },
+  {
+   "block_id": "doc_011_p008_b003",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    126,
+    994,
+    1456,
+    1050
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Preconsumption Values in the Billing Document",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_028"
+  },
+  {
+   "block_id": "doc_011_p008_b004",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    1126,
+    2468,
+    1352
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "You can use the variant Write Info Lines for n Previous Consumption Values (QUANTI17) to write information lines about different preconsumption values. Note that the corrected consumption values are not yet saved in the installation facts when this variant is executed during dynamic period control and backbilling. You can determine in variant control that info lines are to be written for the corrected consumptions.",
+   "section_id": "doc_011_sec_028"
+  },
+  {
+   "block_id": "doc_011_p008_b005",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    124,
+    1463,
+    1369,
+    1520
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Consumption Values in the Installation Facts",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_029"
+  },
+  {
+   "block_id": "doc_011_p008_b006",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    1597,
+    2403,
+    1762
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "There are two ways of updating consumption values in the installation facts. You must use a time slice generator that has been allocated the following basic categories of the period to be created for the variant that writes the consumption values to the installation facts (for example, Write a Quantity in the Installation Facts (INFACTO6)).",
+   "section_id": "doc_011_sec_029"
+  },
+  {
+   "block_id": "doc_011_p008_b007",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    207,
+    1846,
+    2461,
+    2521
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display consumption values in the installation facts for each billing period. You require."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "For the categories 1000 and 2000, a period to be created from the basic category Cycle (4)"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "For categories 3000 and 4000, a period to be created from the Past Time Slices for Each Individual Document (1) basic category and the Cycle (4) basic category"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display consumption values in the installation facts depending on real meter reading results You require."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "For the categories 1000 and 2000, a period to be created from the basic category Cycle (4)"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "For categories 3000 and 4000, a period to be created from the Current Period and Past in Congruent Time Slice (3) category."
+    }
+   ],
+   "section_id": "doc_011_sec_029"
+  },
+  {
+   "block_id": "doc_011_p008_b008",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    123,
+    2605,
+    2242,
+    2708
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "In the rate step for the variant, choose a variant control that updates values in the billing period. This ensures that the consumption values in the installation facts are corrected during dynamic backbilling.",
+   "section_id": "doc_011_sec_029"
+  },
+  {
+   "block_id": "doc_011_p008_b009",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    128,
+    2855,
+    977,
+    2930
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Budget Billing Amounts",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_030"
+  },
+  {
+   "block_id": "doc_011_p008_b010",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    3005,
+    2469,
+    3293
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "As of SAP IS-U release 4.71, you can combine DPC with budget billing amounts. This allows you to collect fixed monthly amounts from customers in the deregulated marketplace, for example. After a period of one year, a new budget billing plan should be created using actual meter reading results. If no actual meter reading result is available, the system creates the new budget billing plan based on an estimated meter reading result. Once the next actual meter reading result is available, you can enter an interim meter reading with billing. The system then corrects the entire period back to the last actual meter reading result. You can choose",
+   "section_id": "doc_011_sec_030"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "cbda0e259cbef6d659c6a05b305047048ea1a61fa5890ca02b9454d06ab634c6"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Consumption History"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_026",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_027",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_028",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_029",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_030",
+   "role": "starts_here"
+  }
+ ]
+}

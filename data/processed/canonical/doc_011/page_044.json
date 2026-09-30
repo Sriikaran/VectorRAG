@@ -1,0 +1,661 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 44,
+ "source_page_hash": "7d006e0a6c20176266f85156173bac2c6c5741d94b587ab1f8230904ec310390",
+ "is_cover_page": false,
+ "title": "Time-of-Use Interface",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nTime-of-Use Interface: Consumption Times A           Rate: Residential cust.\n\nSeason Day Group From\u2014To Formula          Output Par.      Result Par.           For: Interval meters\nSummer|Weekday  |00:00-07:59/5678 Cons        Consumption |OFF_PEAK..          RIP category: TOU interface\n08:00-17:59/5679 Demand |Maximum         DEM_MAX             Rate Facts\n\n5680 Cons.       Cons. on-peak +/ON_PEAK +:\nabovelbelow limit}peak load         CRIT_PEAK:          FeceGroup! _ \u201cfOUINIerTaCs\n\n18:00-23:59|5678 Cons.     Consumption |OFF_PEAK-i--      Res.Cust.North Cons. Times A\n\nlWeekend \u2014_[00:00-23:59|5678 Cons. [Consumption |OFF_PEAK: | :| | Res-Cust South Cons. Times B\nSS PS PS ey\n\n-                                                                                              H                        Operand Value\n\n  CONS\u201d OFFPEAK \u00ab> OFFPEAK\nTime-of-Use Interface: Consumption Times B         i| | CONS_ONPEAK \u00ab+ ONPEAK\n\n-_ ..\n\nSeason Day Group       From \u2014 To       Formula              Output Par.        Result Par.\n\nSummer |Weekday (Mo- 100:00\u201406:59 |5578 Cons.     Consumption   OFF_PEAK     :\nFr)       07:00\u201419:29 | 5679 Demand    Maximum     DEMMAX : | :| Beg\n\n56680 Cons.         Cons. on-peak + |ON_PEAK +        :                                2\nabove/below limit | peak load    CRIT_PEAK    :] | 1. CONS_OFFPEAK x Price 1\n\n19:30-\u201423:59 | 5678 Cons.     Consumption   OFF_PEAK   :     2. CONS_ONPEAK x Price 2\n\nWeekend |00:00-23:59 | 5678 Cons.               ES a          x\n\nTime-of-Use Interface\n\nRates and Operands: Basic Settings in Customizing\n\nTo enable the rate and the operands to process the consumption periods (technically the result parameters) of the time-of-use\ninterface, you have to make the following settings:\n\ne Rate for interval meter used by the time-of-use interface (field RTP Category)\ne RTP operands\ne Atleast one rate fact group\n\nThe rate fact group maps in the rate the customer group to which the consumption periods apply.\n\nYou make these settings in Customizing for Contract Billing under {Billing Master Data > Rate Structure 3.\n\nProcedure\n\nCompleteness of Data to be Billed\nTo ensure that all consumption and demand is billed, make sure the following applies:\n\ne The periods in the time-of-use interface do not contain any gaps. That is, all season types are alloated to day groups and\nthe day group covers 24 hours.\n\ne Inthe periods to which formulas are allocated, the corresponding result parameters exist for the output parameters of the\nformulas.\n\ne The appropriate RTP operands exist for all result parameters.\n\ne The appropriate rate steps exist for all RTP operands.\n\nDefinition of Result Parameters from Inteface as Operand Values\n\n",
+ "cleaned_text": "Time-of-Use Interface: Consumption Times A | Rate: Residential cust.\n\nSeason Day Group From\u2014To Formula | Output Par. | Result Par. | For: Interval meters\n\nSummer|Weekday | |00:00-07:59/5678 Cons | Consumption | |OFF_PEAK.. | RIP category: TOU interface\n\n08:00-17:59/5679 Demand | |Maximum | DEM_MAX | Rate Facts\n\n5680 Cons. | Cons. on-peak +/ON_PEAK +:\n\nabovelbelow limit}peak load | CRIT_PEAK: | FeceGroup! _ \u201cfOUINIerTaCs\n\n18:00-23:59|5678 Cons. | Consumption | |OFF_PEAK-i-- | Res.Cust.North Cons. Times A\n\nlWeekend \u2014_[00:00-23:59|5678 Cons. | [Consumption |OFF_PEAK: | :| | Res-Cust South Cons. Times B\n\nSS PS PS | ey\n\n- | H | Operand Value\n\nCONS\u201d OFFPEAK \u00ab> OFFPEAK\n\nTime-of-Use Interface: Consumption Times B | i| | CONS_ONPEAK \u00ab+ ONPEAK\n\n-_ ..\n\nSeason Day Group | From \u2014 To | Formula | Output Par. | Result Par.\n\nSummer |Weekday (Mo- 100:00\u201406:59 |5578 Cons. | Consumption | OFF_PEAK | :\n\nFr) | 07:00\u201419:29 | 5679 Demand | Maximum | DEMMAX | : | :| | Beg\n\n56680 Cons. | Cons. on-peak + |ON_PEAK + | : | 2\n\nabove/below limit | peak load | CRIT_PEAK | :] | 1. CONS_OFFPEAK x Price 1\n\n19:30-\u201423:59 | 5678 Cons. | Consumption | OFF_PEAK | : | 2. CONS_ONPEAK x Price 2\n\nWeekend |00:00-23:59 | 5678 Cons. | ES a | x\n\nTime-of-Use Interface\n\nRates and Operands: Basic Settings in Customizing\n\nTo enable the rate and the operands to process the consumption periods (technically the result parameters) of the time-of-use interface, you have to make the following settings:\n\n- Rate for interval meter used by the time-of-use interface (field RTP Category)\n\n- RTP operands\n\n- Atleast one rate fact group The rate fact group maps in the rate the customer group to which the consumption periods apply.\n\nYou make these settings in Customizing for Contract Billing under {Billing Master Data > Rate Structure 3.\n\nProcedure\n\nCompleteness of Data to be Billed\n\nTo ensure that all consumption and demand is billed, make sure the following applies:\n\n- The periods in the time-of-use interface do not contain any gaps. That is, all season types are alloated to day groups and the day group covers 24 hours.\n\n- Inthe periods to which formulas are allocated, the corresponding result parameters exist for the output parameters of the formulas.\n\n- The appropriate RTP operands exist for all result parameters.\n\n- The appropriate rate steps exist for all RTP operands.\n\nDefinition of Result Parameters from Inteface as Operand Values",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p044_b000",
+   "type": "table",
+   "page_number": 44,
+   "bbox": [
+    145,
+    160,
+    2384,
+    690
+   ],
+   "ocr_confidence": 73.5,
+   "flags": [
+    "low_confidence_words:16",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 13,
+   "column_starts": [
+    145,
+    181,
+    254,
+    293,
+    556,
+    797,
+    1063,
+    1101,
+    1398,
+    1691,
+    1753,
+    1782,
+    2084
+   ],
+   "headers": [
+    "Time-of-Use Interface: Consumption Times A",
+    "Rate: Residential cust."
+   ],
+   "rows": [
+    [
+     "Season Day Group From\u2014To Formula",
+     "Output Par.",
+     "Result Par.",
+     "For: Interval meters"
+    ],
+    [
+     "Summer|Weekday",
+     "|00:00-07:59/5678 Cons",
+     "Consumption",
+     "|OFF_PEAK..",
+     "RIP category: TOU interface"
+    ],
+    [
+     "08:00-17:59/5679 Demand",
+     "|Maximum",
+     "DEM_MAX",
+     "Rate Facts"
+    ],
+    [
+     "5680 Cons.",
+     "Cons. on-peak +/ON_PEAK +:"
+    ],
+    [
+     "abovelbelow limit}peak load",
+     "CRIT_PEAK:",
+     "FeceGroup! _ \u201cfOUINIerTaCs"
+    ],
+    [
+     "18:00-23:59|5678 Cons.",
+     "Consumption",
+     "|OFF_PEAK-i--",
+     "Res.Cust.North Cons. Times A"
+    ],
+    [
+     "lWeekend \u2014_[00:00-23:59|5678 Cons.",
+     "[Consumption |OFF_PEAK: | :| | Res-Cust South Cons. Times B"
+    ],
+    [
+     "SS PS PS",
+     "ey"
+    ],
+    [
+     "-",
+     "H",
+     "Operand Value"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Time-of-Use Interface: Consumption Times A",
+     "Rate: Residential cust."
+    ],
+    [
+     "Season Day Group From\u2014To Formula",
+     "Output Par.",
+     "Result Par.",
+     "For: Interval meters"
+    ],
+    [
+     "Summer|Weekday",
+     "|00:00-07:59/5678 Cons",
+     "Consumption",
+     "|OFF_PEAK..",
+     "RIP category: TOU interface"
+    ],
+    [
+     "08:00-17:59/5679 Demand",
+     "|Maximum",
+     "DEM_MAX",
+     "Rate Facts"
+    ],
+    [
+     "5680 Cons.",
+     "Cons. on-peak +/ON_PEAK +:"
+    ],
+    [
+     "abovelbelow limit}peak load",
+     "CRIT_PEAK:",
+     "FeceGroup! _ \u201cfOUINIerTaCs"
+    ],
+    [
+     "18:00-23:59|5678 Cons.",
+     "Consumption",
+     "|OFF_PEAK-i--",
+     "Res.Cust.North Cons. Times A"
+    ],
+    [
+     "lWeekend \u2014_[00:00-23:59|5678 Cons.",
+     "[Consumption |OFF_PEAK: | :| | Res-Cust South Cons. Times B"
+    ],
+    [
+     "SS PS PS",
+     "ey"
+    ],
+    [
+     "-",
+     "H",
+     "Operand Value"
+    ]
+   ],
+   "section_id": "doc_011_sec_128"
+  },
+  {
+   "block_id": "doc_011_p044_b001",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    1780,
+    692,
+    2369,
+    761
+   ],
+   "ocr_confidence": 74.9,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "CONS\u201d OFFPEAK \u00ab> OFFPEAK",
+   "section_id": "doc_011_sec_128"
+  },
+  {
+   "block_id": "doc_011_p044_b002",
+   "type": "table",
+   "page_number": 44,
+   "bbox": [
+    256,
+    767,
+    2350,
+    825
+   ],
+   "ocr_confidence": 76.7,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    256,
+    1691
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Time-of-Use Interface: Consumption Times B",
+     "i| | CONS_ONPEAK \u00ab+ ONPEAK"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Time-of-Use Interface: Consumption Times B",
+     "i| | CONS_ONPEAK \u00ab+ ONPEAK"
+    ]
+   ],
+   "section_id": "doc_011_sec_128"
+  },
+  {
+   "block_id": "doc_011_p044_b003",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    2108,
+    827,
+    2208,
+    859
+   ],
+   "ocr_confidence": 61.9,
+   "flags": [],
+   "text": "-_ ..",
+   "section_id": "doc_011_sec_128"
+  },
+  {
+   "block_id": "doc_011_p044_b004",
+   "type": "table",
+   "page_number": 44,
+   "bbox": [
+    148,
+    848,
+    2352,
+    1164
+   ],
+   "ocr_confidence": 69.4,
+   "flags": [
+    "low_confidence_words:21",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 11,
+   "column_starts": [
+    148,
+    296,
+    551,
+    797,
+    1104,
+    1374,
+    1616,
+    1691,
+    1780,
+    2174,
+    2268
+   ],
+   "headers": [
+    "Season Day Group",
+    "From \u2014 To",
+    "Formula",
+    "Output Par.",
+    "Result Par."
+   ],
+   "rows": [
+    [
+     "Summer |Weekday (Mo- 100:00\u201406:59 |5578 Cons.",
+     "Consumption",
+     "OFF_PEAK",
+     ":"
+    ],
+    [
+     "Fr)",
+     "07:00\u201419:29 | 5679 Demand",
+     "Maximum",
+     "DEMMAX",
+     ": | :|",
+     "Beg"
+    ],
+    [
+     "56680 Cons.",
+     "Cons. on-peak + |ON_PEAK +",
+     ":",
+     "2"
+    ],
+    [
+     "above/below limit | peak load",
+     "CRIT_PEAK",
+     ":] | 1. CONS_OFFPEAK x Price 1"
+    ],
+    [
+     "19:30-\u201423:59 | 5678 Cons.",
+     "Consumption",
+     "OFF_PEAK",
+     ":",
+     "2. CONS_ONPEAK x Price 2"
+    ],
+    [
+     "Weekend |00:00-23:59 | 5678 Cons.",
+     "ES a",
+     "x"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Season Day Group",
+     "From \u2014 To",
+     "Formula",
+     "Output Par.",
+     "Result Par."
+    ],
+    [
+     "Summer |Weekday (Mo- 100:00\u201406:59 |5578 Cons.",
+     "Consumption",
+     "OFF_PEAK",
+     ":"
+    ],
+    [
+     "Fr)",
+     "07:00\u201419:29 | 5679 Demand",
+     "Maximum",
+     "DEMMAX",
+     ": | :|",
+     "Beg"
+    ],
+    [
+     "56680 Cons.",
+     "Cons. on-peak + |ON_PEAK +",
+     ":",
+     "2"
+    ],
+    [
+     "above/below limit | peak load",
+     "CRIT_PEAK",
+     ":] | 1. CONS_OFFPEAK x Price 1"
+    ],
+    [
+     "19:30-\u201423:59 | 5678 Cons.",
+     "Consumption",
+     "OFF_PEAK",
+     ":",
+     "2. CONS_ONPEAK x Price 2"
+    ],
+    [
+     "Weekend |00:00-23:59 | 5678 Cons.",
+     "ES a",
+     "x"
+    ]
+   ],
+   "section_id": "doc_011_sec_128"
+  },
+  {
+   "block_id": "doc_011_p044_b005",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    122,
+    1241,
+    472,
+    1269
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "text": "Time-of-Use Interface",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_129"
+  },
+  {
+   "block_id": "doc_011_p044_b006",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    126,
+    1381,
+    1564,
+    1438
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Rates and Operands: Basic Settings in Customizing",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_130"
+  },
+  {
+   "block_id": "doc_011_p044_b007",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    122,
+    1514,
+    2413,
+    1614
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "To enable the rate and the operands to process the consumption periods (technically the result parameters) of the time-of-use interface, you have to make the following settings:",
+   "section_id": "doc_011_sec_130"
+  },
+  {
+   "block_id": "doc_011_p044_b008",
+   "type": "list",
+   "page_number": 44,
+   "bbox": [
+    206,
+    1698,
+    2020,
+    2045
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Rate for interval meter used by the time-of-use interface (field RTP Category)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "RTP operands"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Atleast one rate fact group The rate fact group maps in the rate the customer group to which the consumption periods apply."
+    }
+   ],
+   "section_id": "doc_011_sec_130"
+  },
+  {
+   "block_id": "doc_011_p044_b009",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    123,
+    2125,
+    2087,
+    2169
+   ],
+   "ocr_confidence": 85.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You make these settings in Customizing for Contract Billing under {Billing Master Data > Rate Structure 3.",
+   "section_id": "doc_011_sec_130"
+  },
+  {
+   "block_id": "doc_011_p044_b010",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    126,
+    2278,
+    409,
+    2323
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_131"
+  },
+  {
+   "block_id": "doc_011_p044_b011",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    123,
+    2411,
+    756,
+    2449
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Completeness of Data to be Billed",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_132"
+  },
+  {
+   "block_id": "doc_011_p044_b012",
+   "type": "paragraph",
+   "page_number": 44,
+   "bbox": [
+    122,
+    2533,
+    1664,
+    2571
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "To ensure that all consumption and demand is billed, make sure the following applies:",
+   "section_id": "doc_011_sec_132"
+  },
+  {
+   "block_id": "doc_011_p044_b013",
+   "type": "list",
+   "page_number": 44,
+   "bbox": [
+    206,
+    2654,
+    2459,
+    3125
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The periods in the time-of-use interface do not contain any gaps. That is, all season types are alloated to day groups and the day group covers 24 hours."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Inthe periods to which formulas are allocated, the corresponding result parameters exist for the output parameters of the formulas."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The appropriate RTP operands exist for all result parameters."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The appropriate rate steps exist for all RTP operands."
+    }
+   ],
+   "section_id": "doc_011_sec_132"
+  },
+  {
+   "block_id": "doc_011_p044_b014",
+   "type": "heading",
+   "page_number": 44,
+   "bbox": [
+    124,
+    3213,
+    1327,
+    3250
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "text": "Definition of Result Parameters from Inteface as Operand Values",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_133"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 57,
+  "body_stroke_median": 0.0909,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 83,
+   "page_hash": "7d006e0a6c20176266f85156173bac2c6c5741d94b587ab1f8230904ec310390"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Map Consumption Times from Time-of-Use Interface in Rate",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_128",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_129",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_130",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_131",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_132",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_133",
+   "role": "starts_here"
+  }
+ ]
+}

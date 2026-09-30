@@ -1,0 +1,17 @@
+# VectorRAG core dependencies (Python >= 3.11)
+# Versions reflect what the completed Parts 1-5 were built and validated with.
+
+# Part 1/3: PDF parsing, page rendering (grayscale pixmaps)
+pymupdf==1.28.2
+
+# Part 2: OCR (pip wheel bundles Tesseract 5.5.1 + Leptonica;
+# language data vendored in ./tessdata)
+tesserocr==2.11.0
+pillow==12.3.0
+
+# Part 4/5: Qwen-family BPE token counting (offline; pulls tiktoken)
+qwen-tokenizer==0.3.0
+
+# Part 5: Qwen3-Embedding-0.6B-ONNX inference (pulls onnxruntime,
+# huggingface-hub, tokenizers, numpy, loguru)
+qwen3-embed==1.14.0

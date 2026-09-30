@@ -1,0 +1,448 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 72,
+ "source_page_hash": "adce5eea8c09be16c8f87b7ff883cc0d5a0f279531ce3bb91ab3af67cccb3935",
+ "is_cover_page": false,
+ "title": "Delete TOU Exception",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nYou can toggle between the status Active and Inactive by selecting one or more lines and choosing |}*Edit + Change Activation\nStatus \u201cJin the menu. When you change the status, the system checks in the BAd| ISU TOUEXCEPT STATUS, method\nCHECK_CHANGE ACTIVATION STATUS whether the TOU exception has already been billed. If billing has been performed for the\nTOU exception, you can no longer change the activation status.\n\nDelete TOU Exception\nYou can only delete a TOU exception if it has not yet been billed.\n\nEnhancements\n\nYou can use the enhancement spot ISU TOUEXCEPTION to define enhancements.\n\n1 Note\nNote that the report RETOUEXCEPTION DISP_MAINT is only intended for manual corrections on a small scale.\n\nArchiving of Time-of-Use Exceptions\n\nUse\n\nYou can use archiving to store time-of-use (TOU) exceptions so that you can view and use them when required.\n\nPrerequisites\n\nThe possible prerequisites for the different archiving steps are described below in the detailed description for the individual\nprocess phases.\n\nFeatures\n\nThe archiving process for TOU exceptions consists of the following steps:\n\n1. Analysis of TOU exceptions with regard to potential archiving.\n2. Archive the TOU exceptions selected in the first step.\n\n3. Delete TOU exceptions from the database on the basis of the previously created archive.\n\n4. Optional reloading of archived and deleted data.\n\n1 Note\n\nNote that you cannot reload individual TOU exceptions, but must always reload the entire archiving run. This procedure\nshould not normally be used and should be limited to extreme problem cases (for example, incorrect retention period in\nCustomizing).\n\n5. Optional reading of TOU exceptions from the archive and output in a list before the deletion process.\n\n1. Analysis of Archivability of TOU Exceptions (report REAARCH_ANALYSE_EXCEPT)\n",
+ "cleaned_text": "You can toggle between the status Active and Inactive by selecting one or more lines and choosing |}*Edit + Change Activation Status \u201cJin the menu. When you change the status, the system checks in the BAd| ISU TOUEXCEPT STATUS, method CHECK_CHANGE ACTIVATION STATUS whether the TOU exception has already been billed. If billing has been performed for the TOU exception, you can no longer change the activation status.\n\nDelete TOU Exception\n\nYou can only delete a TOU exception if it has not yet been billed.\n\nEnhancements\n\nYou can use the enhancement spot ISU TOUEXCEPTION to define enhancements.\n\nNote Note that the report RETOUEXCEPTION DISP_MAINT is only intended for manual corrections on a small scale.\n\nArchiving of Time-of-Use Exceptions\n\nUse\n\nYou can use archiving to store time-of-use (TOU) exceptions so that you can view and use them when required.\n\nPrerequisites\n\nThe possible prerequisites for the different archiving steps are described below in the detailed description for the individual process phases.\n\nFeatures\n\nThe archiving process for TOU exceptions consists of the following steps:\n\n1 Analysis of TOU exceptions with regard to potential archiving.\n\n2 Archive the TOU exceptions selected in the first step.\n\n3 Delete TOU exceptions from the database on the basis of the previously created archive.\n\n4 Optional reloading of archived and deleted data.\n\nNote Note that you cannot reload individual TOU exceptions, but must always reload the entire archiving run. This procedure should not normally be used and should be limited to extreme problem cases (for example, incorrect retention period in Customizing).\n\n5 Optional reading of TOU exceptions from the archive and output in a list before the deletion process.\n\n1 Analysis of Archivability of TOU Exceptions (report REAARCH_ANALYSE_EXCEPT)",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    965,
+    310,
+    1003
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    2756,
+    442,
+    2793
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p072_b000",
+   "type": "paragraph",
+   "page_number": 72,
+   "bbox": [
+    122,
+    130,
+    2479,
+    369
+   ],
+   "ocr_confidence": 90.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "You can toggle between the status Active and Inactive by selecting one or more lines and choosing |}*Edit + Change Activation Status \u201cJin the menu. When you change the status, the system checks in the BAd| ISU TOUEXCEPT STATUS, method CHECK_CHANGE ACTIVATION STATUS whether the TOU exception has already been billed. If billing has been performed for the TOU exception, you can no longer change the activation status.",
+   "section_id": "doc_011_sec_238"
+  },
+  {
+   "block_id": "doc_011_p072_b001",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    124,
+    453,
+    526,
+    490
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Delete TOU Exception",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_239"
+  },
+  {
+   "block_id": "doc_011_p072_b002",
+   "type": "paragraph",
+   "page_number": 72,
+   "bbox": [
+    123,
+    574,
+    1269,
+    612
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You can only delete a TOU exception if it has not yet been billed.",
+   "section_id": "doc_011_sec_239"
+  },
+  {
+   "block_id": "doc_011_p072_b003",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    124,
+    697,
+    400,
+    726
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Enhancements",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_240"
+  },
+  {
+   "block_id": "doc_011_p072_b004",
+   "type": "paragraph",
+   "page_number": 72,
+   "bbox": [
+    123,
+    815,
+    1631,
+    865
+   ],
+   "ocr_confidence": 86.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You can use the enhancement spot ISU TOUEXCEPTION to define enhancements.",
+   "section_id": "doc_011_sec_240"
+  },
+  {
+   "block_id": "doc_011_p072_b005",
+   "type": "note",
+   "page_number": 72,
+   "bbox": [
+    151,
+    965,
+    2184,
+    1093
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "label": "Note",
+   "text": "Note Note that the report RETOUEXCEPTION DISP_MAINT is only intended for manual corrections on a small scale.",
+   "section_id": "doc_011_sec_240"
+  },
+  {
+   "block_id": "doc_011_p072_b006",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    124,
+    1268,
+    1435,
+    1344
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "text": "Archiving of Time-of-Use Exceptions",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_241"
+  },
+  {
+   "block_id": "doc_011_p072_b007",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    125,
+    1444,
+    225,
+    1489
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_242"
+  },
+  {
+   "block_id": "doc_011_p072_b008",
+   "type": "paragraph",
+   "page_number": 72,
+   "bbox": [
+    123,
+    1577,
+    2120,
+    1614
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "You can use archiving to store time-of-use (TOU) exceptions so that you can view and use them when required.",
+   "section_id": "doc_011_sec_242"
+  },
+  {
+   "block_id": "doc_011_p072_b009",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    126,
+    1727,
+    492,
+    1783
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_243"
+  },
+  {
+   "block_id": "doc_011_p072_b010",
+   "type": "paragraph",
+   "page_number": 72,
+   "bbox": [
+    122,
+    1859,
+    2346,
+    1959
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The possible prerequisites for the different archiving steps are described below in the detailed description for the individual process phases.",
+   "section_id": "doc_011_sec_243"
+  },
+  {
+   "block_id": "doc_011_p072_b011",
+   "type": "heading",
+   "page_number": 72,
+   "bbox": [
+    126,
+    2072,
+    361,
+    2117
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_244"
+  },
+  {
+   "block_id": "doc_011_p072_b012",
+   "type": "paragraph",
+   "page_number": 72,
+   "bbox": [
+    122,
+    2204,
+    1439,
+    2242
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The archiving process for TOU exceptions consists of the following steps:",
+   "section_id": "doc_011_sec_244"
+  },
+  {
+   "block_id": "doc_011_p072_b013",
+   "type": "list",
+   "page_number": 72,
+   "bbox": [
+    211,
+    2326,
+    1845,
+    2672
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Analysis of TOU exceptions with regard to potential archiving."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Archive the TOU exceptions selected in the first step."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Delete TOU exceptions from the database on the basis of the previously created archive."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Optional reloading of archived and deleted data."
+    }
+   ],
+   "section_id": "doc_011_sec_244"
+  },
+  {
+   "block_id": "doc_011_p072_b014",
+   "type": "note",
+   "page_number": 72,
+   "bbox": [
+    282,
+    2756,
+    2444,
+    2997
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "label": "Note",
+   "text": "Note Note that you cannot reload individual TOU exceptions, but must always reload the entire archiving run. This procedure should not normally be used and should be limited to extreme problem cases (for example, incorrect retention period in Customizing).",
+   "section_id": "doc_011_sec_244"
+  },
+  {
+   "block_id": "doc_011_p072_b015",
+   "type": "list",
+   "page_number": 72,
+   "bbox": [
+    123,
+    3093,
+    2061,
+    3257
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Optional reading of TOU exceptions from the archive and output in a list before the deletion process."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Analysis of Archivability of TOU Exceptions (report REAARCH_ANALYSE_EXCEPT)"
+    }
+   ],
+   "section_id": "doc_011_sec_244"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 64,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "adce5eea8c09be16c8f87b7ff883cc0d5a0f279531ce3bb91ab3af67cccb3935"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:41Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Monitor and Edit Time-of-Use Exceptions",
+  "Features",
+  "Change TOU Exception"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_238",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_239",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_240",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_241",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_242",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_243",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_244",
+   "role": "starts_here"
+  }
+ ]
+}

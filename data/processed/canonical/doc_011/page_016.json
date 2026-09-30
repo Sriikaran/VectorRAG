@@ -1,0 +1,475 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 16,
+ "source_page_hash": "2cd64e8f32eacc607a7e52c529d8062c4cf49355ab4c6c677bd90ce5f465e50f",
+ "is_cover_page": false,
+ "title": "Total",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nFormula definition SUM01\n\nIn                             Formula\n\nout\n\nhte met 1\n\nProfile 1\n\nLads ah =2\n\nProfile n\n\n=\n\nFunction module\nISU_EDM_FORMULA_0005\n\nTotal\nprofile\n\nFormula SUMO01: Addition of Profiles (Quantities)\n\nFunction module for executing the formula | ISU EDM FORMULA 0005\n\nInput parameters\n\nParameter number                                  1\n\nDescription of formula parameter                Profiles to be cumulated\nProfile value category                               Quantity\n\nRepeatable                                                Yes\n\nNumber of intervals                                 O\n\nConstant value\n\nOutput parameters\n\nParameter number                                  1\nDescription of formula parameter               Total profile\n\nProfile value category                               Quantity\n\n",
+ "cleaned_text": "Formula definition SUM01\n\nIn | Formula\n\nout\n\nhte met 1 Profile 1\n\nLads ah =2 Profile n =\n\nFunction module ISU_EDM_FORMULA_0005\n\nTotal\n\nprofile\n\nFormula SUMO01: Addition of Profiles (Quantities)\n\nFunction module for executing the formula | ISU EDM FORMULA 0005\n\nInput parameters\n\nParameter number | 1\n\nDescription of formula parameter | Profiles to be cumulated\n\nProfile value category | Quantity\n\nRepeatable | Yes\n\nNumber of intervals | O\n\nConstant value\n\nOutput parameters\n\nParameter number | 1\n\nDescription of formula parameter | Total profile\n\nProfile value category | Quantity",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p016_b000",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    272,
+    301,
+    1225,
+    361
+   ],
+   "ocr_confidence": 92.6,
+   "flags": [],
+   "text": "Formula definition SUM01",
+   "section_id": "doc_011_sec_043"
+  },
+  {
+   "block_id": "doc_011_p016_b001",
+   "type": "table",
+   "page_number": 16,
+   "bbox": [
+    667,
+    467,
+    1445,
+    509
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    667,
+    1173
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "In",
+     "Formula"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "In",
+     "Formula"
+    ]
+   ],
+   "section_id": "doc_011_sec_043"
+  },
+  {
+   "block_id": "doc_011_p016_b002",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    1872,
+    469,
+    1971,
+    506
+   ],
+   "ocr_confidence": 84.9,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "out",
+   "section_id": "doc_011_sec_043"
+  },
+  {
+   "block_id": "doc_011_p016_b003",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    304,
+    688,
+    704,
+    867
+   ],
+   "ocr_confidence": 50.2,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region"
+   ],
+   "text": "hte met 1 Profile 1",
+   "section_id": "doc_011_sec_043"
+  },
+  {
+   "block_id": "doc_011_p016_b004",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    304,
+    988,
+    2119,
+    1294
+   ],
+   "ocr_confidence": 52.5,
+   "flags": [
+    "low_confidence_words:4",
+    "in_graphic_region"
+   ],
+   "text": "Lads ah =2 Profile n =",
+   "section_id": "doc_011_sec_043"
+  },
+  {
+   "block_id": "doc_011_p016_b005",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    944,
+    1620,
+    1689,
+    1739
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Function module ISU_EDM_FORMULA_0005",
+   "section_id": "doc_011_sec_043"
+  },
+  {
+   "block_id": "doc_011_p016_b006",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    2154,
+    1087,
+    2267,
+    1124
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Total",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_044"
+  },
+  {
+   "block_id": "doc_011_p016_b007",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    2154,
+    1148,
+    2305,
+    1195
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "profile",
+   "section_id": "doc_011_sec_044"
+  },
+  {
+   "block_id": "doc_011_p016_b008",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    125,
+    1908,
+    908,
+    1943
+   ],
+   "ocr_confidence": 86.3,
+   "flags": [
+    "low_confidence_words:1",
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Formula SUMO01: Addition of Profiles (Quantities)",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_044"
+  },
+  {
+   "block_id": "doc_011_p016_b009",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    150,
+    2040,
+    1379,
+    2086
+   ],
+   "ocr_confidence": 83.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Function module for executing the formula | ISU EDM FORMULA 0005",
+   "section_id": "doc_011_sec_044"
+  },
+  {
+   "block_id": "doc_011_p016_b010",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    150,
+    2150,
+    448,
+    2185
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Input parameters",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_045"
+  },
+  {
+   "block_id": "doc_011_p016_b011",
+   "type": "table",
+   "page_number": 16,
+   "bbox": [
+    150,
+    2256,
+    1319,
+    2707
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    912
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Parameter number",
+     "1"
+    ],
+    [
+     "Description of formula parameter",
+     "Profiles to be cumulated"
+    ],
+    [
+     "Profile value category",
+     "Quantity"
+    ],
+    [
+     "Repeatable",
+     "Yes"
+    ],
+    [
+     "Number of intervals",
+     "O"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Parameter number",
+     "1"
+    ],
+    [
+     "Description of formula parameter",
+     "Profiles to be cumulated"
+    ],
+    [
+     "Profile value category",
+     "Quantity"
+    ],
+    [
+     "Repeatable",
+     "Yes"
+    ],
+    [
+     "Number of intervals",
+     "O"
+    ]
+   ],
+   "section_id": "doc_011_sec_045"
+  },
+  {
+   "block_id": "doc_011_p016_b012",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    148,
+    2787,
+    398,
+    2816
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Constant value",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_046"
+  },
+  {
+   "block_id": "doc_011_p016_b013",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    148,
+    2893,
+    479,
+    2928
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Output parameters",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_047"
+  },
+  {
+   "block_id": "doc_011_p016_b014",
+   "type": "table",
+   "page_number": 16,
+   "bbox": [
+    150,
+    2998,
+    1107,
+    3243
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    912
+   ],
+   "headers": [
+    "Parameter number",
+    "1"
+   ],
+   "rows": [
+    [
+     "Description of formula parameter",
+     "Total profile"
+    ],
+    [
+     "Profile value category",
+     "Quantity"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Parameter number",
+     "1"
+    ],
+    [
+     "Description of formula parameter",
+     "Total profile"
+    ],
+    [
+     "Profile value category",
+     "Quantity"
+    ]
+   ],
+   "section_id": "doc_011_sec_047"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 88,
+   "page_hash": "2cd64e8f32eacc607a7e52c529d8062c4cf49355ab4c6c677bd90ce5f465e50f"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Defining Formulas",
+  "Process",
+  "Output Parameters group box"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_043",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_044",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_045",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_046",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_047",
+   "role": "starts_here"
+  }
+ ]
+}

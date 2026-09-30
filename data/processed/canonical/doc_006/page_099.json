@@ -1,0 +1,316 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 99,
+ "source_page_hash": "3b9a10398e2d90a2642cfc830cb7f20ad7471f5581e30bd793a7e47a33b16054",
+ "is_cover_page": false,
+ "title": "Constraints",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nDuring the conversion, demand registers are changed over to the quantity determination procedure 02 Quantity Determination\n\nDuring Billing. Resetting registers and interval registers are changed over to the quantity determination procedure O1 Not\nRelevant for Quantity Determination.\n\n\u2014> Recommendation\n\nWith BAdI ISU_QD_PROC and method CHANGE_VALID_FROM_EADZ_QD, you can change the changeover date (from-date) of\nthe new quantity determination procedure. If you use the sample implementation of this BAdI, the system searches within a\nperiod (key date from Customizing - 12 months to key date from Customizing + 12 months) for the last meter reading result\nwith one of the meter reading reasons O1, 02, 03, 05, 26 or 27. The date that the system finds replaces the changeover date\n(from-date) imported from Customizing. The last meter reading date is then used as the start of the new quantity\n\ndetermination procedure and no additional meter reading orders are created. This type of changeover is called a rolling\n\nchangeover (for more information, see Notes About the Time of the Changeover). You can adjust this sample implementation\nto meet your own requirements.\n\nIf you modify a device that is installed in multiple installations with different divisions, change its logical register, or execute\nreport REQD_SET_QDPROC_TO_REGISTER, use the method GET_LEADING_INSTALLATION of the BAdI mentioned above.\n\nFor more information about BAdI ISU_QD_PROC and the available methods, see the respective system documentation.\n\nConstraints\n\nThe following consistency checks separate the installations where conversion cannot take place as the prerequisistes have not\nbeen met:\n\n1. Check to determine whether meter reading results exist in the future\n\n2. Check to determine whether quantity determination procedure 02 Quantity Determination During Meter Reading is used\nfor Dynamic Period Control (DPC Billing).\n\n1 Note\n\nWith dynamic period control (DPC Billing), you cannot use quantity determination procedure 03 - Quantity\nDetermination During Meter Reading.\n\nThe technical device transactions execute the consistency checks mentioned above as well as others. See Check for Final\nDetermined Quantity in Technical Transactions.\n\nIf a conversion does not take place, because a meter reading result exists in the future (after the changeover date in Customizing),\n\nfor example, you can solve the problem by reversing the meter reading result and then carrying out the changeover of the quantity\ndetermination procedure.\n\nTechnical Options\n\nDepending on the Test Mode and Error Mode check boxes in the Technical Options screen area, you can execute the report in\ndifferent variants. For example, with or without entering information in the database or the application log, or any combination of\nthese options. We recommend that you initially start the report in test mode.\n\ne Test mode selected - Error Mode not selected\n\nAn analysis is performed for installations selected in the system; the quantity determination procedure is not selected in\nthe database. Detailed messages are written to the application log.\n",
+ "cleaned_text": "During the conversion, demand registers are changed over to the quantity determination procedure 02 Quantity Determination During Billing. Resetting registers and interval registers are changed over to the quantity determination procedure O1 Not Relevant for Quantity Determination.\n\nRecommendation With BAdI ISU_QD_PROC and method CHANGE_VALID_FROM_EADZ_QD, you can change the changeover date (from-date) of the new quantity determination procedure. If you use the sample implementation of this BAdI, the system searches within a period (key date from Customizing - 12 months to key date from Customizing + 12 months) for the last meter reading result with one of the meter reading reasons O1, 02, 03, 05, 26 or 27. The date that the system finds replaces the changeover date (from-date) imported from Customizing. The last meter reading date is then used as the start of the new quantity determination procedure and no additional meter reading orders are created. This type of changeover is called a rolling changeover (for more information, see Notes About the Time of the Changeover). You can adjust this sample implementation to meet your own requirements. If you modify a device that is installed in multiple installations with different divisions, change its logical register, or execute report REQD_SET_QDPROC_TO_REGISTER, use the method GET_LEADING_INSTALLATION of the BAdI mentioned above. For more information about BAdI ISU_QD_PROC and the available methods, see the respective system documentation.\n\nConstraints\n\nThe following consistency checks separate the installations where conversion cannot take place as the prerequisistes have not been met:\n\n1 Check to determine whether meter reading results exist in the future\n\n2 Check to determine whether quantity determination procedure 02 Quantity Determination During Meter Reading is used for Dynamic Period Control (DPC Billing).\n\nNote With dynamic period control (DPC Billing), you cannot use quantity determination procedure 03 - Quantity Determination During Meter Reading.\n\nThe technical device transactions execute the consistency checks mentioned above as well as others. See Check for Final Determined Quantity in Technical Transactions. If a conversion does not take place, because a meter reading result exists in the future (after the changeover date in Customizing), for example, you can solve the problem by reversing the meter reading result and then carrying out the changeover of the quantity determination procedure.\n\nTechnical Options\n\nDepending on the Test Mode and Error Mode check boxes in the Technical Options screen area, you can execute the report in different variants. For example, with or without entering information in the database or the application log, or any combination of these options. We recommend that you initially start the report in test mode.\n\n- Test mode selected - Error Mode not selected An analysis is performed for installations selected in the system; the quantity determination procedure is not selected in the database. Detailed messages are written to the application log.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u2014>",
+   "bbox": [
+    151,
+    403,
+    644,
+    440
+   ],
+   "reason": "icon glyph OCR'd before 'recommendation' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    1984,
+    442,
+    2021
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p099_b000",
+   "type": "paragraph",
+   "page_number": 99,
+   "bbox": [
+    124,
+    134,
+    2435,
+    297
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "During the conversion, demand registers are changed over to the quantity determination procedure 02 Quantity Determination During Billing. Resetting registers and interval registers are changed over to the quantity determination procedure O1 Not Relevant for Quantity Determination.",
+   "section_id": "doc_006_sec_277"
+  },
+  {
+   "block_id": "doc_006_p099_b001",
+   "type": "note",
+   "page_number": 99,
+   "bbox": [
+    151,
+    403,
+    2438,
+    1269
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "label": "Recommendation",
+   "text": "Recommendation With BAdI ISU_QD_PROC and method CHANGE_VALID_FROM_EADZ_QD, you can change the changeover date (from-date) of the new quantity determination procedure. If you use the sample implementation of this BAdI, the system searches within a period (key date from Customizing - 12 months to key date from Customizing + 12 months) for the last meter reading result with one of the meter reading reasons O1, 02, 03, 05, 26 or 27. The date that the system finds replaces the changeover date (from-date) imported from Customizing. The last meter reading date is then used as the start of the new quantity determination procedure and no additional meter reading orders are created. This type of changeover is called a rolling changeover (for more information, see Notes About the Time of the Changeover). You can adjust this sample implementation to meet your own requirements. If you modify a device that is installed in multiple installations with different divisions, change its logical register, or execute report REQD_SET_QDPROC_TO_REGISTER, use the method GET_LEADING_INSTALLATION of the BAdI mentioned above. For more information about BAdI ISU_QD_PROC and the available methods, see the respective system documentation.",
+   "section_id": "doc_006_sec_277"
+  },
+  {
+   "block_id": "doc_006_p099_b002",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    123,
+    1389,
+    340,
+    1420
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Constraints",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_278"
+  },
+  {
+   "block_id": "doc_006_p099_b003",
+   "type": "paragraph",
+   "page_number": 99,
+   "bbox": [
+    122,
+    1511,
+    2410,
+    1603
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The following consistency checks separate the installations where conversion cannot take place as the prerequisistes have not been met:",
+   "section_id": "doc_006_sec_278"
+  },
+  {
+   "block_id": "doc_006_p099_b004",
+   "type": "list",
+   "page_number": 99,
+   "bbox": [
+    212,
+    1695,
+    2466,
+    1900
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Check to determine whether meter reading results exist in the future"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Check to determine whether quantity determination procedure 02 Quantity Determination During Meter Reading is used for Dynamic Period Control (DPC Billing)."
+    }
+   ],
+   "section_id": "doc_006_sec_278"
+  },
+  {
+   "block_id": "doc_006_p099_b005",
+   "type": "note",
+   "page_number": 99,
+   "bbox": [
+    282,
+    1984,
+    2214,
+    2163
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "label": "Note",
+   "text": "Note With dynamic period control (DPC Billing), you cannot use quantity determination procedure 03 - Quantity Determination During Meter Reading.",
+   "section_id": "doc_006_sec_278"
+  },
+  {
+   "block_id": "doc_006_p099_b006",
+   "type": "paragraph",
+   "page_number": 99,
+   "bbox": [
+    122,
+    2283,
+    2474,
+    2633
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The technical device transactions execute the consistency checks mentioned above as well as others. See Check for Final Determined Quantity in Technical Transactions. If a conversion does not take place, because a meter reading result exists in the future (after the changeover date in Customizing), for example, you can solve the problem by reversing the meter reading result and then carrying out the changeover of the quantity determination procedure.",
+   "section_id": "doc_006_sec_278"
+  },
+  {
+   "block_id": "doc_006_p099_b007",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    122,
+    2717,
+    454,
+    2754
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Technical Options",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_279"
+  },
+  {
+   "block_id": "doc_006_p099_b008",
+   "type": "paragraph",
+   "page_number": 99,
+   "bbox": [
+    122,
+    2838,
+    2446,
+    3004
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Depending on the Test Mode and Error Mode check boxes in the Technical Options screen area, you can execute the report in different variants. For example, with or without entering information in the database or the application log, or any combination of these options. We recommend that you initially start the report in test mode.",
+   "section_id": "doc_006_sec_279"
+  },
+  {
+   "block_id": "doc_006_p099_b009",
+   "type": "list",
+   "page_number": 99,
+   "bbox": [
+    207,
+    3088,
+    2429,
+    3290
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Test mode selected - Error Mode not selected An analysis is performed for installations selected in the system; the quantity determination procedure is not selected in the database. Detailed messages are written to the application log."
+    }
+   ],
+   "section_id": "doc_006_sec_279"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "3b9a10398e2d90a2642cfc830cb7f20ad7471f5581e30bd793a7e47a33b16054"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:37Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Defining the QD Procedure for Existing Installations",
+  "Use",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_277",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_278",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_279",
+   "role": "starts_here"
+  }
+ ]
+}

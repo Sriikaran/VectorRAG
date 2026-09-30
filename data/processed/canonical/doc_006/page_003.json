@@ -1,0 +1,394 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 3,
+ "source_page_hash": "96e211404cd8f98a8fb54030e2a4bba1089ae76884b6f78dc7391e8865c04682",
+ "is_cover_page": false,
+ "title": "Definition",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nDefinition\n\nThe base period is the period that contains all meter readings used as the basis for estimation.\n\nUse\n\nThe length of the base period results from a dynamic stop condition. The base period is representative - this means it is long\nenough if one of the following two conditions is met:\n\ne The minimum length of the base period is covered\n\ne The weighting portion of the base period is greater or equal to the percentage minimum share in the rate\n\nThe system determines the base period by working back one at a time from the last meter reading result to previous meter reading\nresults until one of the two conditions is met.\n\nMinimum Length of Base Period\n\nThe minimum length of the base period is defined as follows:\n\nMinimum length of base period = Percentage minimum share * Period length of portion\n\nYou enter the percentage minimum share in the rate:\n\nMenu for |#Utilities Industry \u00bb Billing \u00bb Master Data \u00bb Define Rates\n\nYou define the period length of the portion in scheduling:\n\nMenu for the |#Utilities Industry \u00bb Scheduling \u00bb Scheduling Master Record \u00bb Portion\n\nThe period length of the portion determines the interval in which the corresponding contracts are billed.\nWeighting Portion\n\nThe weighting portion of the base period must be greater or equal to the percentage minimum share.\nYou enter the percentage minimum share in the rate:\n\nMenu for {Utilities Industry > Billing \u00bb Master Data \u00bb Define Rates\n\nThe weighting portion results from the weighting procedure being used.\n\nFor more information about weighting procedures, see Weighting Procedures.\n\nWeighting Procedure\n\nUse\n\nDuring estimation, assumptions are made regarding the time-related distribution of the quantity on which the estimation is based.\n\nThe Aieatei bh btinn (en An emnvibk nA ith Ania niewktinn Liinntinn is flt\\ VARI RRL RR nvr enends ivr avr intanpes! men nenaA ere thant aver ie rdA Aaowee\n",
+ "cleaned_text": "Definition\n\nThe base period is the period that contains all meter readings used as the basis for estimation.\n\nUse\n\nThe length of the base period results from a dynamic stop condition. The base period is representative - this means it is long enough if one of the following two conditions is met:\n\n- The minimum length of the base period is covered\n\n- The weighting portion of the base period is greater or equal to the percentage minimum share in the rate\n\nThe system determines the base period by working back one at a time from the last meter reading result to previous meter reading results until one of the two conditions is met.\n\nMinimum Length of Base Period\n\nThe minimum length of the base period is defined as follows:\n\nMinimum length of base period = Percentage minimum share * Period length of portion\n\nYou enter the percentage minimum share in the rate: Menu for |#Utilities Industry \u00bb Billing \u00bb Master Data \u00bb Define Rates You define the period length of the portion in scheduling: Menu for the |#Utilities Industry \u00bb Scheduling \u00bb Scheduling Master Record \u00bb Portion The period length of the portion determines the interval in which the corresponding contracts are billed.\n\nWeighting Portion\n\nThe weighting portion of the base period must be greater or equal to the percentage minimum share. You enter the percentage minimum share in the rate: Menu for {Utilities Industry > Billing \u00bb Master Data \u00bb Define Rates The weighting portion results from the weighting procedure being used. For more information about weighting procedures, see Weighting Procedures.\n\nWeighting Procedure\n\nUse\n\nDuring estimation, assumptions are made regarding the time-related distribution of the quantity on which the estimation is based.\n\nThe Aieatei bh btinn (en An emnvibk nA ith Ania niewktinn Liinntinn is flt\\ VARI RRL RR nvr enends ivr avr intanpes! men nenaA ere thant aver ie rdA Aaowee",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p003_b000",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    126,
+    393,
+    172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_004"
+  },
+  {
+   "block_id": "doc_006_p003_b001",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    259,
+    1830,
+    297
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The base period is the period that contains all meter readings used as the basis for estimation.",
+   "section_id": "doc_006_sec_004"
+  },
+  {
+   "block_id": "doc_006_p003_b002",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    125,
+    409,
+    225,
+    454
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_005"
+  },
+  {
+   "block_id": "doc_006_p003_b003",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    542,
+    2365,
+    642
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The length of the base period results from a dynamic stop condition. The base period is representative - this means it is long enough if one of the following two conditions is met:",
+   "section_id": "doc_006_sec_005"
+  },
+  {
+   "block_id": "doc_006_p003_b004",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    207,
+    726,
+    2145,
+    865
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The minimum length of the base period is covered"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The weighting portion of the base period is greater or equal to the percentage minimum share in the rate"
+    }
+   ],
+   "section_id": "doc_006_sec_005"
+  },
+  {
+   "block_id": "doc_006_p003_b005",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    949,
+    2488,
+    1045
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The system determines the base period by working back one at a time from the last meter reading result to previous meter reading results until one of the two conditions is met.",
+   "section_id": "doc_006_sec_005"
+  },
+  {
+   "block_id": "doc_006_p003_b006",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    124,
+    1137,
+    718,
+    1174
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Minimum Length of Base Period",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_005"
+  },
+  {
+   "block_id": "doc_006_p003_b007",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    1258,
+    1218,
+    1295
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The minimum length of the base period is defined as follows:",
+   "section_id": "doc_006_sec_005"
+  },
+  {
+   "block_id": "doc_006_p003_b008",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    125,
+    1380,
+    1698,
+    1417
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Minimum length of base period = Percentage minimum share * Period length of portion",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_005"
+  },
+  {
+   "block_id": "doc_006_p003_b009",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    1502,
+    2001,
+    2028
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You enter the percentage minimum share in the rate: Menu for |#Utilities Industry \u00bb Billing \u00bb Master Data \u00bb Define Rates You define the period length of the portion in scheduling: Menu for the |#Utilities Industry \u00bb Scheduling \u00bb Scheduling Master Record \u00bb Portion The period length of the portion determines the interval in which the corresponding contracts are billed.",
+   "section_id": "doc_006_sec_005"
+  },
+  {
+   "block_id": "doc_006_p003_b010",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    123,
+    2112,
+    455,
+    2150
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Weighting Portion",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_005"
+  },
+  {
+   "block_id": "doc_006_p003_b011",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    2237,
+    1947,
+    2761
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "The weighting portion of the base period must be greater or equal to the percentage minimum share. You enter the percentage minimum share in the rate: Menu for {Utilities Industry > Billing \u00bb Master Data \u00bb Define Rates The weighting portion results from the weighting procedure being used. For more information about weighting procedures, see Weighting Procedures.",
+   "section_id": "doc_006_sec_005"
+  },
+  {
+   "block_id": "doc_006_p003_b012",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    124,
+    2911,
+    877,
+    2986
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Weighting Procedure",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_006"
+  },
+  {
+   "block_id": "doc_006_p003_b013",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    125,
+    3087,
+    225,
+    3132
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_007"
+  },
+  {
+   "block_id": "doc_006_p003_b014",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    125,
+    3220,
+    2477,
+    3257
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "During estimation, assumptions are made regarding the time-related distribution of the quantity on which the estimation is based.",
+   "section_id": "doc_006_sec_007"
+  },
+  {
+   "block_id": "doc_006_p003_b015",
+   "type": "fragment",
+   "page_number": 3,
+   "bbox": [
+    122,
+    3279,
+    2450,
+    3300
+   ],
+   "ocr_confidence": 17.6,
+   "flags": [
+    "low_confidence_words:29",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "The Aieatei bh btinn (en An emnvibk nA ith Ania niewktinn Liinntinn is flt\\ VARI RRL RR nvr enends ivr avr intanpes! men nenaA ere thant aver ie rdA Aaowee",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_006_sec_007"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 60.5,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 87,
+   "page_hash": "96e211404cd8f98a8fb54030e2a4bba1089ae76884b6f78dc7391e8865c04682"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Definition"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_004",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_005",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_006",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_007",
+   "role": "starts_here"
+  }
+ ]
+}

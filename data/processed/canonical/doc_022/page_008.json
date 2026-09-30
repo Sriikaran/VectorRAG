@@ -1,0 +1,480 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_022",
+ "page_number": 8,
+ "source_page_hash": "ebeff1c0a24e5a2a87b176a64b11ed206ee4e9c6dc3ce85fc1580f353c9e7b84",
+ "is_cover_page": false,
+ "title": "Agent Postings",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:59 AM\n\nIcon                                                       Status                                                    Meaning\n\n[hag                                                       X                                                         Item could not be processed\n\nal                                                             Cc                                                                Payment was reversed\n\neS                                                    D                                                       Reversal in repetition\n\nat                                                        E                                                          Payment reversed, no posting necessary\nie                                                              P                                                                Payment posted, document exists\n\n&                                                                   Cc                                                                      Reversal unsuccessful, payment lot created\n\n(The system was unable to post the reversal\nand has therefore created a corresponding\n\nreversal payment lot for the reversal.)\n\nUsing the pushbuttons in the toolbar above the table, you can do the following:\n\nPushbutton                                                                                  Function\n\nzeXl                                                                                              Direct call of Xl message for a payment\n(E>Repeat                                                                                 Repeat posting of a payment or repeat reversal\na+ In Payment Lot                                                                  Addition of items to payment lots\n\nGePayment Lot                                                                      Display of payment lots\n\nmeNote to Payee                                                                    Display of payment usage information specified\n\n(PaymentExplanation) for a payment\n\n[F@Agent Information                                                                   Call of information for external cash desks\n\nYou can post payments with status R and X by choosing |sPayments \u00bb External Cash Desk Services \u00bb Repeat External\nPayments/Reversals 3 (transaction FKKEXC_RETRY) in the SAP Easy Access screen.\n\nBy double-clicking on the corresponding symbol for an item, you can display the last message for an entry.\nAgent Postings\n\nThis tab page displays all payments for a grouping key. Here you can monitor individual payments of a grouping or individual X|\nmessages. To reach a specific balance, you can manually post differences for a grouping key.\n\nCash Journal Operations\n\nHere you can display information on all postings in the cash journal, along with their status. In addition, you can repeat the posting\nfor postings that were not successful, or set their status to Manual Postprocessing Required. After manual posting has taken\nplace, you can set the status Manual Clarification here. You can also update all postings received using enterprise services.\n\nCash Balance\n\nThe tab page shows the cash balance for all postings. You can check the cash balance at two different levels - for the branch or for\n",
+ "cleaned_text": "Icon | Status | Meaning\n\n[hag | X | Item could not be processed\n\nal | Cc | Payment was reversed\n\neS | D | Reversal in repetition\n\nat | E | Payment reversed, no posting necessary\n\nie | P | Payment posted, document exists\n\n& | Cc | Reversal unsuccessful, payment lot created\n\n(The system was unable to post the reversal and has therefore created a corresponding reversal payment lot for the reversal.)\n\nUsing the pushbuttons in the toolbar above the table, you can do the following:\n\nPushbutton | Function\n\nzeXl | Direct call of Xl message for a payment\n\n(E>Repeat | Repeat posting of a payment or repeat reversal\n\na+ In Payment Lot | Addition of items to payment lots\n\nGePayment Lot | Display of payment lots\n\nmeNote to Payee | Display of payment usage information specified\n\n(PaymentExplanation) for a payment\n\n[F@Agent Information | Call of information for external cash desks\n\nYou can post payments with status R and X by choosing |sPayments \u00bb External Cash Desk Services \u00bb Repeat External Payments/Reversals 3 (transaction FKKEXC_RETRY) in the SAP Easy Access screen. By double-clicking on the corresponding symbol for an item, you can display the last message for an entry.\n\nAgent Postings\n\nThis tab page displays all payments for a grouping key. Here you can monitor individual payments of a grouping or individual X| messages. To reach a specific balance, you can manually post differences for a grouping key.\n\nCash Journal Operations\n\nHere you can display information on all postings in the cash journal, along with their status. In addition, you can repeat the posting for postings that were not successful, or set their status to Manual Postprocessing Required. After manual posting has taken place, you can set the status Manual Clarification here. You can also update all postings received using enterprise services.\n\nCash Balance\n\nThe tab page shows the cash balance for all postings. You can check the cash balance at two different levels - for the branch or for",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:59 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_022_p008_b000",
+   "type": "table",
+   "page_number": 8,
+   "bbox": [
+    146,
+    159,
+    2452,
+    846
+   ],
+   "ocr_confidence": 86.2,
+   "flags": [
+    "low_confidence_words:4",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continues_from_previous_page:p7",
+    "continues_from_previous_page:p7"
+   ],
+   "columns": 3,
+   "column_starts": [
+    146,
+    933,
+    1727
+   ],
+   "headers": [
+    "Icon",
+    "Status",
+    "Meaning"
+   ],
+   "rows": [
+    [
+     "[hag",
+     "X",
+     "Item could not be processed"
+    ],
+    [
+     "al",
+     "Cc",
+     "Payment was reversed"
+    ],
+    [
+     "eS",
+     "D",
+     "Reversal in repetition"
+    ],
+    [
+     "at",
+     "E",
+     "Payment reversed, no posting necessary"
+    ],
+    [
+     "ie",
+     "P",
+     "Payment posted, document exists"
+    ],
+    [
+     "&",
+     "Cc",
+     "Reversal unsuccessful, payment lot created"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Icon",
+     "Status",
+     "Meaning"
+    ],
+    [
+     "[hag",
+     "X",
+     "Item could not be processed"
+    ],
+    [
+     "al",
+     "Cc",
+     "Payment was reversed"
+    ],
+    [
+     "eS",
+     "D",
+     "Reversal in repetition"
+    ],
+    [
+     "at",
+     "E",
+     "Payment reversed, no posting necessary"
+    ],
+    [
+     "ie",
+     "P",
+     "Payment posted, document exists"
+    ],
+    [
+     "&",
+     "Cc",
+     "Reversal unsuccessful, payment lot created"
+    ]
+   ],
+   "section_id": "doc_022_sec_049"
+  },
+  {
+   "block_id": "doc_022_p008_b001",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    1725,
+    902,
+    2462,
+    1052
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "(The system was unable to post the reversal and has therefore created a corresponding reversal payment lot for the reversal.)",
+   "section_id": "doc_022_sec_049"
+  },
+  {
+   "block_id": "doc_022_p008_b002",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    124,
+    1163,
+    1540,
+    1200
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Using the pushbuttons in the toolbar above the table, you can do the following:",
+   "section_id": "doc_022_sec_049"
+  },
+  {
+   "block_id": "doc_022_p008_b003",
+   "type": "table",
+   "page_number": 8,
+   "bbox": [
+    143,
+    1305,
+    2130,
+    1883
+   ],
+   "ocr_confidence": 84.2,
+   "flags": [
+    "low_confidence_words:6",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    143,
+    1331
+   ],
+   "headers": [
+    "Pushbutton",
+    "Function"
+   ],
+   "rows": [
+    [
+     "zeXl",
+     "Direct call of Xl message for a payment"
+    ],
+    [
+     "(E>Repeat",
+     "Repeat posting of a payment or repeat reversal"
+    ],
+    [
+     "a+ In Payment Lot",
+     "Addition of items to payment lots"
+    ],
+    [
+     "GePayment Lot",
+     "Display of payment lots"
+    ],
+    [
+     "meNote to Payee",
+     "Display of payment usage information specified"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Pushbutton",
+     "Function"
+    ],
+    [
+     "zeXl",
+     "Direct call of Xl message for a payment"
+    ],
+    [
+     "(E>Repeat",
+     "Repeat posting of a payment or repeat reversal"
+    ],
+    [
+     "a+ In Payment Lot",
+     "Addition of items to payment lots"
+    ],
+    [
+     "GePayment Lot",
+     "Display of payment lots"
+    ],
+    [
+     "meNote to Payee",
+     "Display of payment usage information specified"
+    ]
+   ],
+   "section_id": "doc_022_sec_049"
+  },
+  {
+   "block_id": "doc_022_p008_b004",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    1332,
+    1897,
+    1961,
+    1933
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "(PaymentExplanation) for a payment",
+   "section_id": "doc_022_sec_049"
+  },
+  {
+   "block_id": "doc_022_p008_b005",
+   "type": "table",
+   "page_number": 8,
+   "bbox": [
+    143,
+    1992,
+    2039,
+    2048
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    143,
+    1332
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "[F@Agent Information",
+     "Call of information for external cash desks"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "[F@Agent Information",
+     "Call of information for external cash desks"
+    ]
+   ],
+   "section_id": "doc_022_sec_049"
+  },
+  {
+   "block_id": "doc_022_p008_b006",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    123,
+    2141,
+    2274,
+    2373
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You can post payments with status R and X by choosing |sPayments \u00bb External Cash Desk Services \u00bb Repeat External Payments/Reversals 3 (transaction FKKEXC_RETRY) in the SAP Easy Access screen. By double-clicking on the corresponding symbol for an item, you can display the last message for an entry.",
+   "section_id": "doc_022_sec_049"
+  },
+  {
+   "block_id": "doc_022_p008_b007",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    123,
+    2457,
+    403,
+    2495
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Agent Postings",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_050"
+  },
+  {
+   "block_id": "doc_022_p008_b008",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    2579,
+    2410,
+    2679
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "This tab page displays all payments for a grouping key. Here you can monitor individual payments of a grouping or individual X| messages. To reach a specific balance, you can manually post differences for a grouping key.",
+   "section_id": "doc_022_sec_050"
+  },
+  {
+   "block_id": "doc_022_p008_b009",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    123,
+    2766,
+    583,
+    2803
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Cash Journal Operations",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_051"
+  },
+  {
+   "block_id": "doc_022_p008_b010",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    2888,
+    2472,
+    3050
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Here you can display information on all postings in the cash journal, along with their status. In addition, you can repeat the posting for postings that were not successful, or set their status to Manual Postprocessing Required. After manual posting has taken place, you can set the status Manual Clarification here. You can also update all postings received using enterprise services.",
+   "section_id": "doc_022_sec_051"
+  },
+  {
+   "block_id": "doc_022_p008_b011",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    123,
+    3134,
+    375,
+    3164
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Cash Balance",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_052"
+  },
+  {
+   "block_id": "doc_022_p008_b012",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    3259,
+    2462,
+    3296
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The tab page shows the cash balance for all postings. You can check the cash balance at two different levels - for the branch or for",
+   "section_id": "doc_022_sec_052"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Processing Incoming Payments from External Cash Desks",
+  "source_pdf": "22.pdf",
+  "reference_pdf": "22_Processing_Incoming_Payments_from_External_Cash_Desks.pdf",
+  "category": "Payments & Clearing",
+  "m2c_relevance": "Relevant to real-time external payment and reversal scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "ebeff1c0a24e5a2a87b176a64b11ed206ee4e9c6dc3ce85fc1580f353c9e7b84"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:44Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Processing Incoming Payments from External Cash Desks",
+  "Key Features",
+  "Payments"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_022_sec_049",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_022_sec_050",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_051",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_052",
+   "role": "starts_here"
+  }
+ ]
+}

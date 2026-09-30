@@ -1,0 +1,362 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 75,
+ "source_page_hash": "ea15228748a2256a4a498933edd8683bc4ae9586f449f8309103bbea7acc64c9",
+ "is_cover_page": false,
+ "title": "Prerequisites",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nYou can use the transaction ETOUEXCEPTRESPOl1 (accessed from the SAP Easy Access Menu as follows: |}Utilities Industry\nBilling\u00bb Time-of-Use Exceptions \u00bb Monitor and Edit Time-of-Use Exceptions \u201c) to monitor and edit time-of-use exceptions. You\ncan also use it to create, change, and delete TOU exceptions or change their response category. You can also navigate to the\n\nrelevant TOU exception program.\n\nPrerequisites\n\nTo be able to create TOU exception responses, an appropriate TOU exception is required. You use transaction ETOUEXCEPT@2 to\ncreate TOU exceptions. See Monitor and Process Time-of-Use Exceptions.\n\nFeatures\n\nYou can select the TOU exception responses you want to monitor or edit using a combination of different criteria, such as a user\n\nname, a contract, a device, an exception program ID, or an exception source. You can also restrict the number of selected TOU\nexception responses by making an appropriate entry in the Time-Dependent Selection and Technical Options screen areas (field\nRestrict Number To), or you can select only responses with the response category Opt-In or Opt-Out.\n\nFor more information about the possible selection criteria and the combinations available, see the documentation for the report\nRETOUEXCEPTRESP DISP MAINT.\n\nMonitor TOU Exception Responses\n\nYou can use the Change Layout function to add additional fields (Such as administration data and texts). By selecting a line and\nchoosing |)Goto \u00bb Display Change Document 3 in the menu, you can navigate to the available change documents for the selected\nTOU exception response.\n\nCreate TOU Exception Responses\n\nYou use transaction ETOUEXCEPTRESP@2 to create TOU exception responses (SAP Easy Access Menu: |/Utilities Industry\nBilling \u00bb Time-of-Use Exceptions \u00bb Create Time-of-Use Exception Responses %). Choose a contract and a TOU exception for\nwhich a response is to be created and enter the response category: The system automatically determines all relevant registers for\nthe contract and creates a separate TOU exception response for each one. You can override this behavior in the BAd|\n\nISU_ISU TOUEXCEPTRESP LEVEL if, for example, you only want to create TOU exception responses for specific registers.\n\nIf the TOU exception program of the selected TOU exception does not refer to any of the rates in the billing schema extension that\nare used for the contract, the TOU exception response cannot be created for this contract. A TOU exception would not be able to be\ncreated for this TOU exception program.\n\nYou can use the Create Individual TOU Exception function to create an individual TOU exception instead of selecting a predefined\nTOU exception. If you execute this function, the system calls the transaction for creating TOU exceptions. In this transaction, you\ncan create a TOU exception for a TOU exception program with the activation category Active for Individual Customers.\n\nChange Response Category\n\nBy selecting one or more lines and executing the function TOU Exception Opt-In or TOU Exception Opt-Out, you can change the\nresponse category of the TOU exception response to Opt-In or Opt-Out. The system automatically changes the response category\nfor all registers of the selected contract. You can override this behavior in the BAd| ISU_TOUEXCEPTRESP_LEVEL if, for example,\n\nyou want a different response category for each register.\n\nDelete TOU Exception Responses\n",
+ "cleaned_text": "You can use the transaction ETOUEXCEPTRESPOl1 (accessed from the SAP Easy Access Menu as follows: |}Utilities Industry Billing\u00bb Time-of-Use Exceptions \u00bb Monitor and Edit Time-of-Use Exceptions \u201c) to monitor and edit time-of-use exceptions. You can also use it to create, change, and delete TOU exceptions or change their response category. You can also navigate to the relevant TOU exception program.\n\nPrerequisites\n\nTo be able to create TOU exception responses, an appropriate TOU exception is required. You use transaction ETOUEXCEPT@2 to create TOU exceptions. See Monitor and Process Time-of-Use Exceptions.\n\nFeatures\n\nYou can select the TOU exception responses you want to monitor or edit using a combination of different criteria, such as a user name, a contract, a device, an exception program ID, or an exception source. You can also restrict the number of selected TOU exception responses by making an appropriate entry in the Time-Dependent Selection and Technical Options screen areas (field Restrict Number To), or you can select only responses with the response category Opt-In or Opt-Out. For more information about the possible selection criteria and the combinations available, see the documentation for the report\n\nRETOUEXCEPTRESP DISP | MAINT.\n\nMonitor TOU Exception Responses\n\nYou can use the Change Layout function to add additional fields (Such as administration data and texts). By selecting a line and choosing |)Goto \u00bb Display Change Document 3 in the menu, you can navigate to the available change documents for the selected TOU exception response.\n\nCreate TOU Exception Responses\n\nYou use transaction ETOUEXCEPTRESP@2 to create TOU exception responses (SAP Easy Access Menu: |/Utilities Industry Billing \u00bb Time-of-Use Exceptions \u00bb Create Time-of-Use Exception Responses %). Choose a contract and a TOU exception for which a response is to be created and enter the response category: The system automatically determines all relevant registers for the contract and creates a separate TOU exception response for each one. You can override this behavior in the BAd| ISU_ISU TOUEXCEPTRESP LEVEL if, for example, you only want to create TOU exception responses for specific registers. If the TOU exception program of the selected TOU exception does not refer to any of the rates in the billing schema extension that are used for the contract, the TOU exception response cannot be created for this contract. A TOU exception would not be able to be created for this TOU exception program. You can use the Create Individual TOU Exception function to create an individual TOU exception instead of selecting a predefined TOU exception. If you execute this function, the system calls the transaction for creating TOU exceptions. In this transaction, you can create a TOU exception for a TOU exception program with the activation category Active for Individual Customers.\n\nChange Response Category\n\nBy selecting one or more lines and executing the function TOU Exception Opt-In or TOU Exception Opt-Out, you can change the response category of the TOU exception response to Opt-In or Opt-Out. The system automatically changes the response category for all registers of the selected contract. You can override this behavior in the BAd| ISU_TOUEXCEPTRESP_LEVEL if, for example, you want a different response category for each register.\n\nDelete TOU Exception Responses",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p075_b000",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    123,
+    134,
+    2453,
+    363
+   ],
+   "ocr_confidence": 87.3,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "text": "You can use the transaction ETOUEXCEPTRESPOl1 (accessed from the SAP Easy Access Menu as follows: |}Utilities Industry Billing\u00bb Time-of-Use Exceptions \u00bb Monitor and Edit Time-of-Use Exceptions \u201c) to monitor and edit time-of-use exceptions. You can also use it to create, change, and delete TOU exceptions or change their response category. You can also navigate to the relevant TOU exception program.",
+   "section_id": "doc_011_sec_249"
+  },
+  {
+   "block_id": "doc_011_p075_b001",
+   "type": "heading",
+   "page_number": 75,
+   "bbox": [
+    126,
+    475,
+    492,
+    531
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_250"
+  },
+  {
+   "block_id": "doc_011_p075_b002",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    122,
+    606,
+    2444,
+    711
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "To be able to create TOU exception responses, an appropriate TOU exception is required. You use transaction ETOUEXCEPT@2 to create TOU exceptions. See Monitor and Process Time-of-Use Exceptions.",
+   "section_id": "doc_011_sec_250"
+  },
+  {
+   "block_id": "doc_011_p075_b003",
+   "type": "heading",
+   "page_number": 75,
+   "bbox": [
+    126,
+    823,
+    361,
+    868
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_251"
+  },
+  {
+   "block_id": "doc_011_p075_b004",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    123,
+    952,
+    2461,
+    1302
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You can select the TOU exception responses you want to monitor or edit using a combination of different criteria, such as a user name, a contract, a device, an exception program ID, or an exception source. You can also restrict the number of selected TOU exception responses by making an appropriate entry in the Time-Dependent Selection and Technical Options screen areas (field Restrict Number To), or you can select only responses with the response category Opt-In or Opt-Out. For more information about the possible selection criteria and the combinations available, see the documentation for the report",
+   "section_id": "doc_011_sec_251"
+  },
+  {
+   "block_id": "doc_011_p075_b005",
+   "type": "table",
+   "page_number": 75,
+   "bbox": [
+    124,
+    1324,
+    790,
+    1374
+   ],
+   "ocr_confidence": 75.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    124,
+    734
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "RETOUEXCEPTRESP DISP",
+     "MAINT."
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "RETOUEXCEPTRESP DISP",
+     "MAINT."
+    ]
+   ],
+   "section_id": "doc_011_sec_251"
+  },
+  {
+   "block_id": "doc_011_p075_b006",
+   "type": "heading",
+   "page_number": 75,
+   "bbox": [
+    124,
+    1455,
+    767,
+    1493
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Monitor TOU Exception Responses",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_252"
+  },
+  {
+   "block_id": "doc_011_p075_b007",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    122,
+    1576,
+    2477,
+    1739
+   ],
+   "ocr_confidence": 89.8,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "You can use the Change Layout function to add additional fields (Such as administration data and texts). By selecting a line and choosing |)Goto \u00bb Display Change Document 3 in the menu, you can navigate to the available change documents for the selected TOU exception response.",
+   "section_id": "doc_011_sec_252"
+  },
+  {
+   "block_id": "doc_011_p075_b008",
+   "type": "heading",
+   "page_number": 75,
+   "bbox": [
+    123,
+    1823,
+    743,
+    1861
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Create TOU Exception Responses",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_253"
+  },
+  {
+   "block_id": "doc_011_p075_b009",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    122,
+    1950,
+    2488,
+    2741
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "text": "You use transaction ETOUEXCEPTRESP@2 to create TOU exception responses (SAP Easy Access Menu: |/Utilities Industry Billing \u00bb Time-of-Use Exceptions \u00bb Create Time-of-Use Exception Responses %). Choose a contract and a TOU exception for which a response is to be created and enter the response category: The system automatically determines all relevant registers for the contract and creates a separate TOU exception response for each one. You can override this behavior in the BAd| ISU_ISU TOUEXCEPTRESP LEVEL if, for example, you only want to create TOU exception responses for specific registers. If the TOU exception program of the selected TOU exception does not refer to any of the rates in the billing schema extension that are used for the contract, the TOU exception response cannot be created for this contract. A TOU exception would not be able to be created for this TOU exception program. You can use the Create Individual TOU Exception function to create an individual TOU exception instead of selecting a predefined TOU exception. If you execute this function, the system calls the transaction for creating TOU exceptions. In this transaction, you can create a TOU exception for a TOU exception program with the activation category Active for Individual Customers.",
+   "section_id": "doc_011_sec_253"
+  },
+  {
+   "block_id": "doc_011_p075_b010",
+   "type": "heading",
+   "page_number": 75,
+   "bbox": [
+    123,
+    2825,
+    639,
+    2863
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Change Response Category",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_254"
+  },
+  {
+   "block_id": "doc_011_p075_b011",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    122,
+    2946,
+    2473,
+    3178
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "By selecting one or more lines and executing the function TOU Exception Opt-In or TOU Exception Opt-Out, you can change the response category of the TOU exception response to Opt-In or Opt-Out. The system automatically changes the response category for all registers of the selected contract. You can override this behavior in the BAd| ISU_TOUEXCEPTRESP_LEVEL if, for example, you want a different response category for each register.",
+   "section_id": "doc_011_sec_254"
+  },
+  {
+   "block_id": "doc_011_p075_b012",
+   "type": "heading",
+   "page_number": 75,
+   "bbox": [
+    124,
+    3262,
+    739,
+    3299
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Delete TOU Exception Responses",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_255"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.0952,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "ea15228748a2256a4a498933edd8683bc4ae9586f449f8309103bbea7acc64c9"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Archiving of Time-of-Use Exceptions",
+  "Features",
+  "Process Flow"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_249",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_250",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_251",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_252",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_253",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_254",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_255",
+   "role": "starts_here"
+  }
+ ]
+}

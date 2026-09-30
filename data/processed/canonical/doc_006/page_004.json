@@ -1,0 +1,336 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 4,
+ "source_page_hash": "4b0ac6a0cd15deb929305c804e00276121e21c39c0e2b21a9384ed1c190f8c73",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nFor more information about base periods, see Base Periods.\n\nFeatures\n\nThe following weighting procedures are predefined in the system:\n\ne Linear weighting\n\ne Weighting of energy feeding\ne Degree day weighting\n\ne Sprinkling water portion\n\ne General weighting\n\ne User-defined weighting\n\nYou use the weighting procedures by specifying a weighting key. You define the weighting keys in Customizing under |}SAP\nUtilities + Device Management + Meter Reading Weighting Procedures \u00bb Define Weighting Key(s)\n\nFor more information, see the documentation for the Customizing activity.\n\nThe weighting procedures predefined by SAP are described in more detail in the following sections. You can also use a mixed\nweighting in addition to these procedures. For more information, see Examples for Mixed Weighting.\n\nLinear Weighting\n\nFor linear weighting, the weighting units are distributed evenly over the year, whereby the system takes one weighting unit into\naccount for each day. The total of the weighting values is 365 days for one year, or 366 days for a leap year.\n\nTo use this weighting procedure, allocate it to a weighting key in Customizing. No further Customizing settings are required.\nWeighting of energy feeding\n\nThis weighting procedure takes seasonal fluctuations into account. With weighting of energy feeding, you have the option to take\naverage monthly energy feeding quantities into account, or to determine the energy feeding quantities for each defined period and\n\nuse these.\n\nTo use this weighting procedure, allocate it to a weighting key in Customizing. You also have to make the following Customizing\nsettings:\n\ne Average Monthly Energy Feeding\n\nCustomizing for SAP Utilities under |}Device Management } Meter Reading \u00bb Weighting Procedures \u00bb Weighting of\nEnergy Feeding \u00bb Define Average Monthly Energy Feeding\n\ne Energy Feeding per Period\n\nCustomizing for SAP Utilities under |}\u2018Device Management \u00bb Meter Reading \u00bb Weighting Procedures \u00bb Weighting of\nEnergy Feeding + Define Energy Feeding per Period\n\nDegree day weighting\n",
+ "cleaned_text": "For more information about base periods, see Base Periods.\n\nFeatures\n\nThe following weighting procedures are predefined in the system:\n\n- Linear weighting\n\n- Weighting of energy feeding\n\n- Degree day weighting\n\n- Sprinkling water portion\n\n- General weighting\n\n- User-defined weighting\n\nYou use the weighting procedures by specifying a weighting key. You define the weighting keys in Customizing under |}SAP Utilities + Device Management + Meter Reading Weighting Procedures \u00bb Define Weighting Key(s) For more information, see the documentation for the Customizing activity. The weighting procedures predefined by SAP are described in more detail in the following sections. You can also use a mixed weighting in addition to these procedures. For more information, see Examples for Mixed Weighting.\n\nLinear Weighting\n\nFor linear weighting, the weighting units are distributed evenly over the year, whereby the system takes one weighting unit into account for each day. The total of the weighting values is 365 days for one year, or 366 days for a leap year. To use this weighting procedure, allocate it to a weighting key in Customizing. No further Customizing settings are required.\n\nWeighting of energy feeding\n\nThis weighting procedure takes seasonal fluctuations into account. With weighting of energy feeding, you have the option to take average monthly energy feeding quantities into account, or to determine the energy feeding quantities for each defined period and use these. To use this weighting procedure, allocate it to a weighting key in Customizing. You also have to make the following Customizing settings:\n\n- Average Monthly Energy Feeding Customizing for SAP Utilities under |}Device Management } Meter Reading \u00bb Weighting Procedures \u00bb Weighting of Energy Feeding \u00bb Define Average Monthly Energy Feeding\n\n- Energy Feeding per Period Customizing for SAP Utilities under |}\u2018Device Management \u00bb Meter Reading \u00bb Weighting Procedures \u00bb Weighting of Energy Feeding + Define Energy Feeding per Period\n\nDegree day weighting",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p004_b000",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    125,
+    135,
+    1202,
+    172
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "For more information about base periods, see Base Periods.",
+   "section_id": "doc_006_sec_007"
+  },
+  {
+   "block_id": "doc_006_p004_b001",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    126,
+    284,
+    361,
+    329
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p004_b002",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    417,
+    1300,
+    454
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The following weighting procedures are predefined in the system:",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p004_b003",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    207,
+    539,
+    759,
+    1089
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Linear weighting"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Weighting of energy feeding"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Degree day weighting"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Sprinkling water portion"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "General weighting"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "User-defined weighting"
+    }
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p004_b004",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    1173,
+    2365,
+    1581
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "You use the weighting procedures by specifying a weighting key. You define the weighting keys in Customizing under |}SAP Utilities + Device Management + Meter Reading Weighting Procedures \u00bb Define Weighting Key(s) For more information, see the documentation for the Customizing activity. The weighting procedures predefined by SAP are described in more detail in the following sections. You can also use a mixed weighting in addition to these procedures. For more information, see Examples for Mixed Weighting.",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p004_b005",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    124,
+    1666,
+    435,
+    1703
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Linear Weighting",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p004_b006",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    1787,
+    2401,
+    2012
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "For linear weighting, the weighting units are distributed evenly over the year, whereby the system takes one weighting unit into account for each day. The total of the weighting values is 365 days for one year, or 366 days for a leap year. To use this weighting procedure, allocate it to a weighting key in Customizing. No further Customizing settings are required.",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p004_b007",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    123,
+    2096,
+    644,
+    2133
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Weighting of energy feeding",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p004_b008",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    2217,
+    2482,
+    2567
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "This weighting procedure takes seasonal fluctuations into account. With weighting of energy feeding, you have the option to take average monthly energy feeding quantities into account, or to determine the energy feeding quantities for each defined period and use these. To use this weighting procedure, allocate it to a weighting key in Customizing. You also have to make the following Customizing settings:",
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p004_b009",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    207,
+    2651,
+    2372,
+    3128
+   ],
+   "ocr_confidence": 89.6,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Average Monthly Energy Feeding Customizing for SAP Utilities under |}Device Management } Meter Reading \u00bb Weighting Procedures \u00bb Weighting of Energy Feeding \u00bb Define Average Monthly Energy Feeding"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Energy Feeding per Period Customizing for SAP Utilities under |}\u2018Device Management \u00bb Meter Reading \u00bb Weighting Procedures \u00bb Weighting of Energy Feeding + Define Energy Feeding per Period"
+    }
+   ],
+   "section_id": "doc_006_sec_008"
+  },
+  {
+   "block_id": "doc_006_p004_b010",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    124,
+    3207,
+    524,
+    3244
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Degree day weighting",
+   "section_id": "doc_006_sec_008"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "4b0ac6a0cd15deb929305c804e00276121e21c39c0e2b21a9384ed1c190f8c73"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Weighting Procedure",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_007",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_008",
+   "role": "starts_here"
+  }
+ ]
+}

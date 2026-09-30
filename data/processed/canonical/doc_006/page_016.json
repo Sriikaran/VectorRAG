@@ -1,0 +1,514 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 16,
+ "source_page_hash": "09f69a6d191db11926cf6fbd8f5b8f134900581b8b7f5c7cc66d32661ae636a3",
+ "is_cover_page": false,
+ "title": "Determination of the expected demand based on the period demand",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n2. The determined demand corresponds to the expected demand\n\nDetermination of the expected demand based on the period demand\n\nThe following reasons can result in the period demand being used as a basis for extrapolation:\n\ne Not enough meter reading results are available\n\ne You entered the period demand before a representative point in time was created by the updating of meter reading results\nThe expected demand is determined as follows:\n\n1. Determination of the period demand\n\n2. The determined period demand corresponds to the expected demand\n\nExtrapolation for Consumption Registers\n\n2                                       10\nReg. Fact, |__| a |\n\nMR Results 0                  80                                  ? kWh\n\n| Mme i ccxccccccc cyan\nMR Reason |                      P,                                         P,\n08                         01-1                                                    01-2\n\n40                           60\nWght Unit 9 | \u2014\u2014-=\u2014-- =n a aan ee\n\nReg. Fact. = Register factor\n\nMR Result = Meter reading result\nMR Reason = Meter reading reason\n\nThe following meter reading reasons exist:\n\ne Ol\no Periodic meter reading\n\no Final meter reading\n\no Meter reading at move-in (M)\n\no Meter reading at installation (I)\n\no Interim meter reading without billing (Y)\n\nam lAtaKrim moatar randninan with Ailling /7\\\n",
+ "cleaned_text": "2 The determined demand corresponds to the expected demand\n\nDetermination of the expected demand based on the period demand\n\nThe following reasons can result in the period demand being used as a basis for extrapolation:\n\n- Not enough meter reading results are available\n\n- You entered the period demand before a representative point in time was created by the updating of meter reading results\n\nThe expected demand is determined as follows:\n\n1 Determination of the period demand\n\n2 The determined period demand corresponds to the expected demand\n\nExtrapolation for Consumption Registers\n\n2 | 10\n\nReg. Fact, | |__| a | |\n\nMR Results | 0 | 80 | ? kWh\n\n| | Mme ccxccccccc i | cyan\n\nMR Reason | | | P, | P,\n\n08 | 01-1 | 01-2\n\n40 | 60\n\nWght Unit 9 | | \u2014\u2014-=\u2014-- =n | a aan ee\n\nReg. Fact. = Register factor\n\nMR Result = Meter reading result\n\nMR Reason = Meter reading reason\n\nThe following meter reading reasons exist:\n\n- Ol\n\n- Periodic meter reading\n\n- Final meter reading\n\n- Meter reading at move-in (M)\n\n- Meter reading at installation (I)\n\n- Interim meter reading without billing (Y)\n\nam lAtaKrim moatar randninan with Ailling /7\\",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p016_b000",
+   "type": "list",
+   "page_number": 16,
+   "bbox": [
+    212,
+    134,
+    1391,
+    172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "The determined demand corresponds to the expected demand"
+    }
+   ],
+   "section_id": "doc_006_sec_021"
+  },
+  {
+   "block_id": "doc_006_p016_b001",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    124,
+    256,
+    1400,
+    294
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Determination of the expected demand based on the period demand",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_022"
+  },
+  {
+   "block_id": "doc_006_p016_b002",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    378,
+    1817,
+    415
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The following reasons can result in the period demand being used as a basis for extrapolation:",
+   "section_id": "doc_006_sec_022"
+  },
+  {
+   "block_id": "doc_006_p016_b003",
+   "type": "list",
+   "page_number": 16,
+   "bbox": [
+    207,
+    502,
+    2457,
+    642
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Not enough meter reading results are available"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You entered the period demand before a representative point in time was created by the updating of meter reading results"
+    }
+   ],
+   "section_id": "doc_006_sec_022"
+  },
+  {
+   "block_id": "doc_006_p016_b004",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    726,
+    983,
+    763
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The expected demand is determined as follows:",
+   "section_id": "doc_006_sec_022"
+  },
+  {
+   "block_id": "doc_006_p016_b005",
+   "type": "list",
+   "page_number": 16,
+   "bbox": [
+    212,
+    848,
+    1518,
+    987
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Determination of the period demand"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "The determined period demand corresponds to the expected demand"
+    }
+   ],
+   "section_id": "doc_006_sec_022"
+  },
+  {
+   "block_id": "doc_006_p016_b006",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    128,
+    1135,
+    1603,
+    1212
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Extrapolation for Consumption Registers",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_023"
+  },
+  {
+   "block_id": "doc_006_p016_b007",
+   "type": "table",
+   "page_number": 16,
+   "bbox": [
+    123,
+    1284,
+    2434,
+    2009
+   ],
+   "ocr_confidence": 56.8,
+   "flags": [
+    "low_confidence_words:15",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 12,
+   "column_starts": [
+    123,
+    584,
+    784,
+    1002,
+    1089,
+    1121,
+    1153,
+    1557,
+    1951,
+    2084,
+    2194,
+    2232
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "2",
+     "10"
+    ],
+    [
+     "Reg. Fact,",
+     "|__| a",
+     "|"
+    ],
+    [
+     "MR Results",
+     "0",
+     "80",
+     "? kWh"
+    ],
+    [
+     "|",
+     "Mme ccxccccccc i",
+     "cyan"
+    ],
+    [
+     "MR Reason",
+     "|",
+     "P,",
+     "P,"
+    ],
+    [
+     "08",
+     "01-1",
+     "01-2"
+    ],
+    [
+     "40",
+     "60"
+    ],
+    [
+     "Wght Unit 9",
+     "| \u2014\u2014-=\u2014-- =n",
+     "a aan ee"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "2",
+     "10"
+    ],
+    [
+     "Reg. Fact,",
+     "|__| a",
+     "|"
+    ],
+    [
+     "MR Results",
+     "0",
+     "80",
+     "? kWh"
+    ],
+    [
+     "|",
+     "Mme ccxccccccc i",
+     "cyan"
+    ],
+    [
+     "MR Reason",
+     "|",
+     "P,",
+     "P,"
+    ],
+    [
+     "08",
+     "01-1",
+     "01-2"
+    ],
+    [
+     "40",
+     "60"
+    ],
+    [
+     "Wght Unit 9",
+     "| \u2014\u2014-=\u2014-- =n",
+     "a aan ee"
+    ]
+   ],
+   "section_id": "doc_006_sec_023"
+  },
+  {
+   "block_id": "doc_006_p016_b008",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    125,
+    2073,
+    610,
+    2110
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Reg. Fact. = Register factor",
+   "section_id": "doc_006_sec_023"
+  },
+  {
+   "block_id": "doc_006_p016_b009",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    125,
+    2198,
+    717,
+    2235
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "MR Result = Meter reading result",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_023"
+  },
+  {
+   "block_id": "doc_006_p016_b010",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    125,
+    2320,
+    756,
+    2357
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "MR Reason = Meter reading reason",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_023"
+  },
+  {
+   "block_id": "doc_006_p016_b011",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    2441,
+    885,
+    2478
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The following meter reading reasons exist:",
+   "section_id": "doc_006_sec_023"
+  },
+  {
+   "block_id": "doc_006_p016_b012",
+   "type": "list",
+   "page_number": 16,
+   "bbox": [
+    207,
+    2562,
+    1113,
+    3214
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Ol"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Periodic meter reading"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Final meter reading"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Meter reading at move-in (M)"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Meter reading at installation (I)"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Interim meter reading without billing (Y)"
+    }
+   ],
+   "section_id": "doc_006_sec_023"
+  },
+  {
+   "block_id": "doc_006_p016_b013",
+   "type": "fragment",
+   "page_number": 16,
+   "bbox": [
+    337,
+    3282,
+    1051,
+    3300
+   ],
+   "ocr_confidence": 38.1,
+   "flags": [
+    "low_confidence_words:6",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "am lAtaKrim moatar randninan with Ailling /7\\",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_006_sec_023"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 85,
+   "page_hash": "09f69a6d191db11926cf6fbd8f5b8f134900581b8b7f5c7cc66d32661ae636a3"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Determination of Expected Consumption for Consumption Registers",
+  "Determination of Expected Demand for Demand Registers"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_021",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_022",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_023",
+   "role": "starts_here"
+  }
+ ]
+}

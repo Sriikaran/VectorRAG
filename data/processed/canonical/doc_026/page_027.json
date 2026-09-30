@@ -1,0 +1,356 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 27,
+ "source_page_hash": "36f2ea6c7c02fbbeb514f286fdab3253478b92fb5085353ffe250b8a1d38d7fe",
+ "is_cover_page": false,
+ "title": "Activities",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\nThe determination of the success is not subject to a fixed logic and can be performed by an installation-specific function module\nfor event 0393. SAP provides the sample module FKK_SAMPLE_0393 where, for example, each payment received within 7 days of\ndunning is seen as a100% success. Each further day of delay reduces the success percentage rate by 2.5%.\n\n\u00ab\u00b0 Example\nIf EUR 100 is dunned, and a payment of EUR 70 is received after 7 days, and the remaining amount of EUR 30 is paid after 15\n\ndays, this results in a success percentage rate of 100% for EUR 70, and 80% for EUR 30. The weighted average is then 94%.\nThe valuation run enters this value in the dunning history.\n\nActivities\n1.In the SAP menu, choose |}Periodic Processing \u00bb For Contract Accounts \u00bb Dunning > Success Valuation of Dunning\n(transaction FPVV).\n\n2. Enter a date and an ID that you can use to identify the run later.\n\n3. On the Selections tab page, you can restrict the dunnings to be selected by business partner and company code or the run\nparameters of one or more dunning runs.\n\nA. Schedule the program run. For more information, see Functions for Scheduling Program Runs.\n\nCreditworthiness\n\nUse\n\nThe creditworthiness of a business partner provides information on the business partner\u2019s payment history and influences the\nselection of activities for dunning and/or returns and also the calculation of charges. Various different business transactions, such\n\nas returns, dunning notices, installment plans, and write-offs update the creditworthiness in the system automatically. You can also\ntransfer a creditworthiness record from external systems or manually.\n\nBy default, the FI-CA creditworthiness of a business partner is calculated as a weighted total of the creditworthiness figures from\nthe past 48 months (maximum). You define the monthly weightings in Customizing. A creditworthiness of zero means that the\nbusiness partner has an excellent payment history. The maximum value is 9999. At event 0400, you can override the default\n\ncalculation of the FI-CA creditworthiness.\nThe creditworthiness value of a business partner results from the following parameters:\n\ne The calculation type of the total creditworthiness\n\nYou define how the system determines the total creditworthiness in Customizing for Contract Accounts Receivable and\nPayable under |Integration \u00bb Financial Supply Chain Management Credit Management's Define Specifications for\n\nCredit Management ; in the Calculation Type field. For more information about the calculation options, see the\ndocumentation for the field.\n\n\u201c4S Caution\n\nIf you change the calculation type from SPACE to another value or change the value to SPACE, you must execute the\n\nmass activity Replicate Creditworthiness (transaction FPCM2) to replicate the external creditworthiness again.\n\nThe reason for this is that the external creditworthiness is reduced during replication by the FI-CA creditworthiness for\n",
+ "cleaned_text": "The determination of the success is not subject to a fixed logic and can be performed by an installation-specific function module for event 0393. SAP provides the sample module FKK_SAMPLE_0393 where, for example, each payment received within 7 days of dunning is seen as a100% success. Each further day of delay reduces the success percentage rate by 2.5%.\n\nExample If EUR 100 is dunned, and a payment of EUR 70 is received after 7 days, and the remaining amount of EUR 30 is paid after 15 days, this results in a success percentage rate of 100% for EUR 70, and 80% for EUR 30. The weighted average is then 94%. The valuation run enters this value in the dunning history.\n\nActivities\n\n1.In the SAP menu, choose |}Periodic Processing \u00bb For Contract Accounts \u00bb Dunning > Success Valuation of Dunning (transaction FPVV).\n\n2 Enter a date and an ID that you can use to identify the run later.\n\n3 On the Selections tab page, you can restrict the dunnings to be selected by business partner and company code or the run parameters of one or more dunning runs.\n\nA. Schedule the program run. For more information, see Functions for Scheduling Program Runs.\n\nCreditworthiness\n\nUse\n\nThe creditworthiness of a business partner provides information on the business partner\u2019s payment history and influences the selection of activities for dunning and/or returns and also the calculation of charges. Various different business transactions, such as returns, dunning notices, installment plans, and write-offs update the creditworthiness in the system automatically. You can also transfer a creditworthiness record from external systems or manually. By default, the FI-CA creditworthiness of a business partner is calculated as a weighted total of the creditworthiness figures from the past 48 months (maximum). You define the monthly weightings in Customizing. A creditworthiness of zero means that the business partner has an excellent payment history. The maximum value is 9999. At event 0400, you can override the default calculation of the FI-CA creditworthiness. The creditworthiness value of a business partner results from the following parameters:\n\n- The calculation type of the total creditworthiness You define how the system determines the total creditworthiness in Customizing for Contract Accounts Receivable and Payable under |Integration \u00bb Financial Supply Chain Management Credit Management's Define Specifications for\n\nCredit Management ; in the Calculation Type field. For more information about the calculation options, see the documentation for the field.\n\nCaution If you change the calculation type from SPACE to another value or change the value to SPACE, you must execute the mass activity Replicate Creditworthiness (transaction FPCM2) to replicate the external creditworthiness again. The reason for this is that the external creditworthiness is reduced during replication by the FI-CA creditworthiness for",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u00ab\u00b0",
+   "bbox": [
+    151,
+    396,
+    432,
+    450
+   ],
+   "reason": "icon glyph OCR'd before 'example' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u201c4S",
+   "bbox": [
+    283,
+    3008,
+    546,
+    3053
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p027_b000",
+   "type": "paragraph",
+   "page_number": 27,
+   "bbox": [
+    122,
+    134,
+    2468,
+    297
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "The determination of the success is not subject to a fixed logic and can be performed by an installation-specific function module for event 0393. SAP provides the sample module FKK_SAMPLE_0393 where, for example, each payment received within 7 days of dunning is seen as a100% success. Each further day of delay reduces the success percentage rate by 2.5%.",
+   "section_id": "doc_026_sec_125"
+  },
+  {
+   "block_id": "doc_026_p027_b001",
+   "type": "example",
+   "page_number": 27,
+   "bbox": [
+    151,
+    396,
+    2396,
+    645
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Example If EUR 100 is dunned, and a payment of EUR 70 is received after 7 days, and the remaining amount of EUR 30 is paid after 15 days, this results in a success percentage rate of 100% for EUR 70, and 80% for EUR 30. The weighted average is then 94%. The valuation run enters this value in the dunning history.",
+   "section_id": "doc_026_sec_125"
+  },
+  {
+   "block_id": "doc_026_p027_b002",
+   "type": "heading",
+   "page_number": 27,
+   "bbox": [
+    123,
+    793,
+    383,
+    839
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_126"
+  },
+  {
+   "block_id": "doc_026_p027_b003",
+   "type": "paragraph",
+   "page_number": 27,
+   "bbox": [
+    214,
+    922,
+    2376,
+    1029
+   ],
+   "ocr_confidence": 85.2,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "1.In the SAP menu, choose |}Periodic Processing \u00bb For Contract Accounts \u00bb Dunning > Success Valuation of Dunning (transaction FPVV).",
+   "section_id": "doc_026_sec_126"
+  },
+  {
+   "block_id": "doc_026_p027_b004",
+   "type": "list",
+   "page_number": 27,
+   "bbox": [
+    211,
+    1094,
+    2470,
+    1295
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter a date and an ID that you can use to identify the run later."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "On the Selections tab page, you can restrict the dunnings to be selected by business partner and company code or the run parameters of one or more dunning runs."
+    }
+   ],
+   "section_id": "doc_026_sec_126"
+  },
+  {
+   "block_id": "doc_026_p027_b005",
+   "type": "paragraph",
+   "page_number": 27,
+   "bbox": [
+    211,
+    1359,
+    1955,
+    1405
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "A. Schedule the program run. For more information, see Functions for Scheduling Program Runs.",
+   "section_id": "doc_026_sec_126"
+  },
+  {
+   "block_id": "doc_026_p027_b006",
+   "type": "heading",
+   "page_number": 27,
+   "bbox": [
+    125,
+    1546,
+    742,
+    1608
+   ],
+   "ocr_confidence": 91.7,
+   "flags": [],
+   "text": "Creditworthiness",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_127"
+  },
+  {
+   "block_id": "doc_026_p027_b007",
+   "type": "heading",
+   "page_number": 27,
+   "bbox": [
+    125,
+    1723,
+    225,
+    1768
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_128"
+  },
+  {
+   "block_id": "doc_026_p027_b008",
+   "type": "paragraph",
+   "page_number": 27,
+   "bbox": [
+    122,
+    1856,
+    2487,
+    2518
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The creditworthiness of a business partner provides information on the business partner\u2019s payment history and influences the selection of activities for dunning and/or returns and also the calculation of charges. Various different business transactions, such as returns, dunning notices, installment plans, and write-offs update the creditworthiness in the system automatically. You can also transfer a creditworthiness record from external systems or manually. By default, the FI-CA creditworthiness of a business partner is calculated as a weighted total of the creditworthiness figures from the past 48 months (maximum). You define the monthly weightings in Customizing. A creditworthiness of zero means that the business partner has an excellent payment history. The maximum value is 9999. At event 0400, you can override the default calculation of the FI-CA creditworthiness. The creditworthiness value of a business partner results from the following parameters:",
+   "section_id": "doc_026_sec_128"
+  },
+  {
+   "block_id": "doc_026_p027_b009",
+   "type": "list",
+   "page_number": 27,
+   "bbox": [
+    207,
+    2602,
+    2407,
+    2808
+   ],
+   "ocr_confidence": 86.9,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The calculation type of the total creditworthiness You define how the system determines the total creditworthiness in Customizing for Contract Accounts Receivable and Payable under |Integration \u00bb Financial Supply Chain Management Credit Management's Define Specifications for"
+    }
+   ],
+   "section_id": "doc_026_sec_128"
+  },
+  {
+   "block_id": "doc_026_p027_b010",
+   "type": "paragraph",
+   "page_number": 27,
+   "bbox": [
+    254,
+    2828,
+    2273,
+    2924
+   ],
+   "ocr_confidence": 91.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Credit Management ; in the Calculation Type field. For more information about the calculation options, see the documentation for the field.",
+   "section_id": "doc_026_sec_128"
+  },
+  {
+   "block_id": "doc_026_p027_b011",
+   "type": "note",
+   "page_number": 27,
+   "bbox": [
+    283,
+    3008,
+    2422,
+    3300
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Caution",
+   "text": "Caution If you change the calculation type from SPACE to another value or change the value to SPACE, you must execute the mass activity Replicate Creditworthiness (transaction FPCM2) to replicate the external creditworthiness again. The reason for this is that the external creditworthiness is reduced during replication by the FI-CA creditworthiness for",
+   "section_id": "doc_026_sec_128"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "36f2ea6c7c02fbbeb514f286fdab3253478b92fb5085353ffe250b8a1d38d7fe"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Valuating the Success of Dunning",
+  "Key Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_125",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_126",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_127",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_128",
+   "role": "starts_here"
+  }
+ ]
+}

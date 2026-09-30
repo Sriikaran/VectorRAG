@@ -1,0 +1,387 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 52,
+ "source_page_hash": "3ab21fba21da5c3a16b7b9a8b3fe19c4f3c3ddb8db003969a723482b8a07076b",
+ "is_cover_page": false,
+ "title": "Transaction Data",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nHowever, the source business partner can still be used as a reference in the following contract account fields:\n\ne Payer (field GPARV in contract account table FKKVKP)\n\ne Alternative Payer (field ABWRE in contract account table FKKVKP)\n\ne Alternative Payee (field ABWRA in contract account table FKKVKP)\n\ne Alt. Dun. Recipient (field ABWMA in contract account table FKKVKP)\n\ne Correspondence Recipient (field RECEIVER in contract account table FKKVK_CORR)\n\ne Alt. Bill Recipient (field ABWRH in contract account table FKKVKP)\n\nWhen business partners are merged, you must determine the corresponding contract accounts and change the fields above to the\ntarget business partner.\n\n1 Note\nWhen you do this, note the following:\n\ne You must also enter a contract account in the Paid By field (VKONV in table FKKVK) for the payer\n\ne When you change the alternative payer and recipient, you must also change the bank details and payment card data\naccordingly.\n\ne You must also change any addresses defined in the contract account for the business partners mentioned above.\nTransaction Data\nOpen Items\nIn Contract Accounts Receivable and Payable (IS-U-CA), you can use the Transfer Items (FP40) transaction to transfer items to\n\nanother contract, contract account or another business partner. During this process, the system creates transfer documents,\nwhich you can also reverse.\n\nThis is also possible for open items that have been entered in installment plans and collective bills.\n\nThe system can create the corresponding histories (dunning and installment plan histories) for documents created in the target\naccount.\n\n\u201c4S Caution\n\nNote the following points for open items:\n\ne Items that have been submitted to a collection agency cannot be transferred.\n\ne The returns history for transferred items is not updated.\n\ne The interest history and accompanying interest supplement are not updated.\n\nIn SAP Utilities, transferring open items is part of the customer change (see customer change ).\n\nSAP note 616098 contains frequently asked questions (FAQs) about the Transfer Items function.\n",
+ "cleaned_text": "However, the source business partner can still be used as a reference in the following contract account fields:\n\n- Payer (field GPARV in contract account table FKKVKP)\n\n- Alternative Payer (field ABWRE in contract account table FKKVKP)\n\n- Alternative Payee (field ABWRA in contract account table FKKVKP)\n\n- Alt. Dun. Recipient (field ABWMA in contract account table FKKVKP)\n\n- Correspondence Recipient (field RECEIVER in contract account table FKKVK_CORR)\n\n- Alt. Bill Recipient (field ABWRH in contract account table FKKVKP)\n\nWhen business partners are merged, you must determine the corresponding contract accounts and change the fields above to the target business partner.\n\nNote When you do this, note the following:\n\n- You must also enter a contract account in the Paid By field (VKONV in table FKKVK) for the payer\n\n- When you change the alternative payer and recipient, you must also change the bank details and payment card data accordingly.\n\n- You must also change any addresses defined in the contract account for the business partners mentioned above.\n\nTransaction Data\n\nOpen Items\n\nIn Contract Accounts Receivable and Payable (IS-U-CA), you can use the Transfer Items (FP40) transaction to transfer items to another contract, contract account or another business partner. During this process, the system creates transfer documents, which you can also reverse. This is also possible for open items that have been entered in installment plans and collective bills. The system can create the corresponding histories (dunning and installment plan histories) for documents created in the target account.\n\nCaution Note the following points for open items:\n\n- Items that have been submitted to a collection agency cannot be transferred.\n\n- The returns history for transferred items is not updated.\n\n- The interest history and accompanying interest supplement are not updated.\n\nIn SAP Utilities, transferring open items is part of the customer change (see customer change ). SAP note 616098 contains frequently asked questions (FAQs) about the Transfer Items function.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1097,
+    310,
+    1134
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u201c4S",
+   "bbox": [
+    151,
+    2535,
+    414,
+    2580
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p052_b000",
+   "type": "paragraph",
+   "page_number": 52,
+   "bbox": [
+    125,
+    134,
+    2089,
+    172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "However, the source business partner can still be used as a reference in the following contract account fields:",
+   "section_id": "doc_001_sec_170"
+  },
+  {
+   "block_id": "doc_001_p052_b001",
+   "type": "list",
+   "page_number": 52,
+   "bbox": [
+    207,
+    256,
+    1797,
+    807
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Payer (field GPARV in contract account table FKKVKP)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Alternative Payer (field ABWRE in contract account table FKKVKP)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Alternative Payee (field ABWRA in contract account table FKKVKP)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Alt. Dun. Recipient (field ABWMA in contract account table FKKVKP)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Correspondence Recipient (field RECEIVER in contract account table FKKVK_CORR)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Alt. Bill Recipient (field ABWRH in contract account table FKKVKP)"
+    }
+   ],
+   "section_id": "doc_001_sec_170"
+  },
+  {
+   "block_id": "doc_001_p052_b002",
+   "type": "paragraph",
+   "page_number": 52,
+   "bbox": [
+    122,
+    890,
+    2477,
+    994
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "When business partners are merged, you must determine the corresponding contract accounts and change the fields above to the target business partner.",
+   "section_id": "doc_001_sec_170"
+  },
+  {
+   "block_id": "doc_001_p052_b003",
+   "type": "note",
+   "page_number": 52,
+   "bbox": [
+    151,
+    1097,
+    814,
+    1213
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "label": "Note",
+   "text": "Note When you do this, note the following:",
+   "section_id": "doc_001_sec_170"
+  },
+  {
+   "block_id": "doc_001_p052_b004",
+   "type": "list",
+   "page_number": 52,
+   "bbox": [
+    207,
+    1333,
+    2348,
+    1637
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You must also enter a contract account in the Paid By field (VKONV in table FKKVK) for the payer"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "When you change the alternative payer and recipient, you must also change the bank details and payment card data accordingly."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You must also change any addresses defined in the contract account for the business partners mentioned above."
+    }
+   ],
+   "section_id": "doc_001_sec_170"
+  },
+  {
+   "block_id": "doc_001_p052_b005",
+   "type": "heading",
+   "page_number": 52,
+   "bbox": [
+    122,
+    1725,
+    437,
+    1755
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Transaction Data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_171"
+  },
+  {
+   "block_id": "doc_001_p052_b006",
+   "type": "heading",
+   "page_number": 52,
+   "bbox": [
+    123,
+    1846,
+    337,
+    1884
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Open Items",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_172"
+  },
+  {
+   "block_id": "doc_001_p052_b007",
+   "type": "paragraph",
+   "page_number": 52,
+   "bbox": [
+    122,
+    1968,
+    2431,
+    2432
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "In Contract Accounts Receivable and Payable (IS-U-CA), you can use the Transfer Items (FP40) transaction to transfer items to another contract, contract account or another business partner. During this process, the system creates transfer documents, which you can also reverse. This is also possible for open items that have been entered in installment plans and collective bills. The system can create the corresponding histories (dunning and installment plan histories) for documents created in the target account.",
+   "section_id": "doc_001_sec_172"
+  },
+  {
+   "block_id": "doc_001_p052_b008",
+   "type": "note",
+   "page_number": 52,
+   "bbox": [
+    151,
+    2535,
+    886,
+    2659
+   ],
+   "ocr_confidence": 85.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Caution",
+   "text": "Caution Note the following points for open items:",
+   "section_id": "doc_001_sec_172"
+  },
+  {
+   "block_id": "doc_001_p052_b009",
+   "type": "list",
+   "page_number": 52,
+   "bbox": [
+    236,
+    2743,
+    1679,
+    2988
+   ],
+   "ocr_confidence": 89.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Items that have been submitted to a collection agency cannot be transferred."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The returns history for transferred items is not updated."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The interest history and accompanying interest supplement are not updated."
+    }
+   ],
+   "section_id": "doc_001_sec_172"
+  },
+  {
+   "block_id": "doc_001_p052_b010",
+   "type": "paragraph",
+   "page_number": 52,
+   "bbox": [
+    124,
+    3134,
+    1866,
+    3293
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "In SAP Utilities, transferring open items is part of the customer change (see customer change ). SAP note 616098 contains frequently asked questions (FAQs) about the Transfer Items function.",
+   "section_id": "doc_001_sec_172"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "3ab21fba21da5c3a16b7b9a8b3fe19c4f3c3ddb8db003969a723482b8a07076b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Objects in Contract Accounts Receivable and Payable",
+  "Use",
+  "Contract account"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_170",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_171",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_172",
+   "role": "starts_here"
+  }
+ ]
+}

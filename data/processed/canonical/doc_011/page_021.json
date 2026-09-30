@@ -1,0 +1,360 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 21,
+ "source_page_hash": "88280dcb79745c915543aa22095360068182a12e138c16e0b38447f237eaeb6d",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n10. In the Node Category field, the corresponding category is selected. The node ID that you selected with a double-click is in\nthe Nodes field.\n\n11. Select a group in the Group Category field. This must be situated one level lower in the hierarchy than the group you have\n\nalready selected.\n\nee Example\nYou selected a season group as the first node under the component. The next node must be either a day group or a\ntime-of-use group. It would make no sense to allocate another season group here.\n\n12. Choose Transfer.\n13. Repeat steps 9 to 11 for every additional group that you want to arrange.\n14. Once you have defined all nodes for the component, save your entries.\n\n15. You have to generate the components before you can use them in the RTP interface. To do this choose Generate\n\nComponent Code.\n\n4\\ Caution\n\nOnce generated, you can no longer change the components.\n\nExample\n\nYou have defined the following RTP components:\n4) COMP1 Component 1\n SU Summer\n\n\u00b0 |@) WD Weekdays\no (4) 0-6 Off-Peak Rate\no (\u00a9) 6-21 On-Peak Rate\no (4) 21-0 Off-Peak Rate\ne |@) WED Weekend Days\no {%) 0-8 Off-Peak Rate\no {&) 8-23 On-Peak Rate\n\no {4} 23-0 Off-Peak Rate\n\nGF) WI Winter\n\ne (\u00a9) 0-6 Off-Peak Rate\ne (5) 6-22 On-Peak Rate\n\n\u00b0  \u00ae 22-0 Off-Peak Rate\n",
+ "cleaned_text": "10 In the Node Category field, the corresponding category is selected. The node ID that you selected with a double-click is in the Nodes field.\n\n11 Select a group in the Group Category field. This must be situated one level lower in the hierarchy than the group you have already selected. ee Example You selected a season group as the first node under the component. The next node must be either a day group or a\n\ntime-of-use group. It would make no sense to allocate another season group here.\n\n12 Choose Transfer.\n\n13 Repeat steps 9 to 11 for every additional group that you want to arrange.\n\n14 Once you have defined all nodes for the component, save your entries.\n\n15. You have to generate the components before you can use them in the RTP interface. To do this choose | Generate\n\nComponent Code.\n\nCaution Once generated, you can no longer change the components.\n\nExample You have defined the following RTP components: 4) COMP1 Component 1 SU Summer \u00b0 |@) WD Weekdays\n\n- (4) 0-6 Off-Peak Rate\n\n- (\u00a9) 6-21 On-Peak Rate\n\n- (4) 21-0 Off-Peak Rate\n\ne |@) WED Weekend Days o {%) 0-8 Off-Peak Rate o {&) 8-23 On-Peak Rate o {4} 23-0 Off-Peak Rate GF) WI Winter\n\n- (\u00a9) 0-6 Off-Peak Rate\n\n- (5) 6-22 On-Peak Rate \u00b0 \u00ae 22-0 Off-Peak Rate",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "4\\",
+   "bbox": [
+    282,
+    1251,
+    546,
+    1295
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p021_b000",
+   "type": "list",
+   "page_number": 21,
+   "bbox": [
+    188,
+    134,
+    2449,
+    603
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "10",
+     "text": "In the Node Category field, the corresponding category is selected. The node ID that you selected with a double-click is in the Nodes field."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "11",
+     "text": "Select a group in the Group Category field. This must be situated one level lower in the hierarchy than the group you have already selected. ee Example You selected a season group as the first node under the component. The next node must be either a day group or a"
+    }
+   ],
+   "section_id": "doc_011_sec_063"
+  },
+  {
+   "block_id": "doc_011_p021_b001",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    283,
+    627,
+    1756,
+    665
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "time-of-use group. It would make no sense to allocate another season group here.",
+   "section_id": "doc_011_sec_063"
+  },
+  {
+   "block_id": "doc_011_p021_b002",
+   "type": "list",
+   "page_number": 21,
+   "bbox": [
+    188,
+    765,
+    1553,
+    1007
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "12",
+     "text": "Choose Transfer."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "13",
+     "text": "Repeat steps 9 to 11 for every additional group that you want to arrange."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "14",
+     "text": "Once you have defined all nodes for the component, save your entries."
+    }
+   ],
+   "section_id": "doc_011_sec_063"
+  },
+  {
+   "block_id": "doc_011_p021_b003",
+   "type": "table",
+   "page_number": 21,
+   "bbox": [
+    188,
+    1073,
+    2330,
+    1112
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    188,
+    2159
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "15. You have to generate the components before you can use them in the RTP interface. To do this choose",
+     "Generate"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "15. You have to generate the components before you can use them in the RTP interface. To do this choose",
+     "Generate"
+    ]
+   ],
+   "section_id": "doc_011_sec_063"
+  },
+  {
+   "block_id": "doc_011_p021_b004",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    254,
+    1136,
+    589,
+    1175
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Component Code.",
+   "section_id": "doc_011_sec_063"
+  },
+  {
+   "block_id": "doc_011_p021_b005",
+   "type": "note",
+   "page_number": 21,
+   "bbox": [
+    282,
+    1251,
+    1369,
+    1375
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "label": "Caution",
+   "text": "Caution Once generated, you can no longer change the components.",
+   "section_id": "doc_011_sec_063"
+  },
+  {
+   "block_id": "doc_011_p021_b006",
+   "type": "example",
+   "page_number": 21,
+   "bbox": [
+    121,
+    1522,
+    1001,
+    2067
+   ],
+   "ocr_confidence": 82.2,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "Example You have defined the following RTP components: 4) COMP1 Component 1 SU Summer \u00b0 |@) WD Weekdays",
+   "section_id": "doc_011_sec_063"
+  },
+  {
+   "block_id": "doc_011_p021_b007",
+   "type": "list",
+   "page_number": 21,
+   "bbox": [
+    336,
+    2122,
+    783,
+    2372
+   ],
+   "ocr_confidence": 79.5,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "(4) 0-6 Off-Peak Rate"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "(\u00a9) 6-21 On-Peak Rate"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "(4) 21-0 Off-Peak Rate"
+    }
+   ],
+   "section_id": "doc_011_sec_063"
+  },
+  {
+   "block_id": "doc_011_p021_b008",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    121,
+    2420,
+    790,
+    2909
+   ],
+   "ocr_confidence": 73.2,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "text": "e |@) WED Weekend Days o {%) 0-8 Off-Peak Rate o {&) 8-23 On-Peak Rate o {4} 23-0 Off-Peak Rate GF) WI Winter",
+   "section_id": "doc_011_sec_063"
+  },
+  {
+   "block_id": "doc_011_p021_b009",
+   "type": "list",
+   "page_number": 21,
+   "bbox": [
+    207,
+    2979,
+    658,
+    3233
+   ],
+   "ocr_confidence": 71.9,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "(\u00a9) 0-6 Off-Peak Rate"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "(5) 6-22 On-Peak Rate \u00b0 \u00ae 22-0 Off-Peak Rate"
+    }
+   ],
+   "section_id": "doc_011_sec_063"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 88,
+   "page_hash": "88280dcb79745c915543aa22095360068182a12e138c16e0b38447f237eaeb6d"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Define RTP Components",
+  "Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_063",
+   "role": "continues"
+  }
+ ]
+}

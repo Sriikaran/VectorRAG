@@ -1,0 +1,341 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 104,
+ "source_page_hash": "f64ab480d148bfbb8cd0f9adde42db0ad2005814997dd429014c2253b111052a",
+ "is_cover_page": false,
+ "title": "Other Notes",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\n1 Note\n\nThe selection date field is automatically filled with the current date and is used to determine quantity determination triggers\nthat have been created and are to be processed by the specified date. The system does not process quantity determination\ntriggers that were created after the specified date.\n\ne Type of Run: Simulation run (indicator)\nAll input fields are optional. However, the selection date is always preassigned.\n\nProcessing of the quantity determination triggers takes place using the selection criteria you entered. You can further process any\nerror messages that occur for mass activities using Business Process Exception Management (BPEM) (see Enhanced Message\nManagement).\n\n1 Note\n\nOn the Technical Settings tab page, you can select an existing installation interval as a variant and either change it manually or\ncreate a new interval under Variant Maintenance.\n\n*\u00b0 Example\n\nYou can either propose a specific interval size (such as 1000 installations) or propose a specific number of intervals (such as\n20).\n\nUnder Number of Jobs, you can also define the number of parallel jobs between which interval creation is to be distributed. You\ncan use explicit load distribution to define how many jobs are allocated to each application server.\n\n> Recommendation\n\nYou can identify the optimum number of intervals to be created and number of jobs to be executed in parallel by performing the\nappropriate tests.\n\nOn the Logs tab page, you can display the jobs that have already run and see whether these were successful or trace any\npossible causes of errors.\n\n4\\ Caution\n\nIf you suspend an active mass run using the function |}*End Program Run \u00bb Prematurely \u00bb, you should then use the function\nRestart Run to continue processing.\n\nOther Notes\n\n1. Once you have executed a mass run job, you cannot execute this job again using the same ID. If you want to execute it again,\nyou must create a new mass activity with a new ID.\n\nIf you start the run in simulation mode at first, you can use the same identification afterwards to execute an active run.\n2. The status lines function Move Run Parameters allows you to move existing run parameters to a new run identification.\n\n3. The application log displays the following statistical information for each processed interval: Number of determinations\nsuccessful / with errors / not necessary / not executed.\n",
+ "cleaned_text": "Note The selection date field is automatically filled with the current date and is used to determine quantity determination triggers that have been created and are to be processed by the specified date. The system does not process quantity determination triggers that were created after the specified date.\n\n- Type of Run: Simulation run (indicator)\n\nAll input fields are optional. However, the selection date is always preassigned. Processing of the quantity determination triggers takes place using the selection criteria you entered. You can further process any error messages that occur for mass activities using Business Process Exception Management (BPEM) (see Enhanced Message Management).\n\nNote On the Technical Settings tab page, you can select an existing installation interval as a variant and either change it manually or create a new interval under Variant Maintenance.\n\nExample You can either propose a specific interval size (such as 1000 installations) or propose a specific number of intervals (such as 20). Under Number of Jobs, you can also define the number of parallel jobs between which interval creation is to be distributed. You can use explicit load distribution to define how many jobs are allocated to each application server.\n\nRecommendation You can identify the optimum number of intervals to be created and number of jobs to be executed in parallel by performing the appropriate tests. On the Logs tab page, you can display the jobs that have already run and see whether these were successful or trace any possible causes of errors.\n\nCaution If you suspend an active mass run using the function |}*End Program Run \u00bb Prematurely \u00bb, you should then use the function Restart Run to continue processing.\n\nOther Notes\n\n1 Once you have executed a mass run job, you cannot execute this job again using the same ID. If you want to execute it again, you must create a new mass activity with a new ID. If you start the run in simulation mode at first, you can use the same identification afterwards to execute an active run.\n\n2 The status lines function Move Run Parameters allows you to move existing run parameters to a new run identification.\n\n3 The application log displays the following statistical information for each processed interval: Number of determinations successful / with errors / not necessary / not executed.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    154,
+    310,
+    191
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1031,
+    310,
+    1068
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "*\u00b0",
+   "bbox": [
+    151,
+    1342,
+    432,
+    1396
+   ],
+   "reason": "icon glyph OCR'd before 'example' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": ">",
+   "bbox": [
+    151,
+    1852,
+    644,
+    1890
+   ],
+   "reason": "icon glyph OCR'd before 'recommendation' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "4\\",
+   "bbox": [
+    151,
+    2352,
+    414,
+    2395
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p104_b000",
+   "type": "note",
+   "page_number": 104,
+   "bbox": [
+    151,
+    154,
+    2398,
+    395
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "label": "Note",
+   "text": "Note The selection date field is automatically filled with the current date and is used to determine quantity determination triggers that have been created and are to be processed by the specified date. The system does not process quantity determination triggers that were created after the specified date.",
+   "section_id": "doc_006_sec_292"
+  },
+  {
+   "block_id": "doc_006_p104_b001",
+   "type": "list",
+   "page_number": 104,
+   "bbox": [
+    207,
+    515,
+    955,
+    553
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Type of Run: Simulation run (indicator)"
+    }
+   ],
+   "section_id": "doc_006_sec_292"
+  },
+  {
+   "block_id": "doc_006_p104_b002",
+   "type": "paragraph",
+   "page_number": 104,
+   "bbox": [
+    123,
+    640,
+    2472,
+    925
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "All input fields are optional. However, the selection date is always preassigned. Processing of the quantity determination triggers takes place using the selection criteria you entered. You can further process any error messages that occur for mass activities using Business Process Exception Management (BPEM) (see Enhanced Message Management).",
+   "section_id": "doc_006_sec_292"
+  },
+  {
+   "block_id": "doc_006_p104_b003",
+   "type": "note",
+   "page_number": 104,
+   "bbox": [
+    151,
+    1031,
+    2444,
+    1203
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "label": "Note",
+   "text": "Note On the Technical Settings tab page, you can select an existing installation interval as a variant and either change it manually or create a new interval under Variant Maintenance.",
+   "section_id": "doc_006_sec_292"
+  },
+  {
+   "block_id": "doc_006_p104_b004",
+   "type": "example",
+   "page_number": 104,
+   "bbox": [
+    151,
+    1342,
+    2449,
+    1713
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Example You can either propose a specific interval size (such as 1000 installations) or propose a specific number of intervals (such as 20). Under Number of Jobs, you can also define the number of parallel jobs between which interval creation is to be distributed. You can use explicit load distribution to define how many jobs are allocated to each application server.",
+   "section_id": "doc_006_sec_292"
+  },
+  {
+   "block_id": "doc_006_p104_b005",
+   "type": "note",
+   "page_number": 104,
+   "bbox": [
+    151,
+    1852,
+    2455,
+    2219
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Recommendation",
+   "text": "Recommendation You can identify the optimum number of intervals to be created and number of jobs to be executed in parallel by performing the appropriate tests. On the Logs tab page, you can display the jobs that have already run and see whether these were successful or trace any possible causes of errors.",
+   "section_id": "doc_006_sec_292"
+  },
+  {
+   "block_id": "doc_006_p104_b006",
+   "type": "note",
+   "page_number": 104,
+   "bbox": [
+    151,
+    2352,
+    2394,
+    2537
+   ],
+   "ocr_confidence": 87.1,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "label": "Caution",
+   "text": "Caution If you suspend an active mass run using the function |}*End Program Run \u00bb Prematurely \u00bb, you should then use the function Restart Run to continue processing.",
+   "section_id": "doc_006_sec_292"
+  },
+  {
+   "block_id": "doc_006_p104_b007",
+   "type": "heading",
+   "page_number": 104,
+   "bbox": [
+    123,
+    2657,
+    350,
+    2688
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Other Notes",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_293"
+  },
+  {
+   "block_id": "doc_006_p104_b008",
+   "type": "list",
+   "page_number": 104,
+   "bbox": [
+    211,
+    2779,
+    2487,
+    3250
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Once you have executed a mass run job, you cannot execute this job again using the same ID. If you want to execute it again, you must create a new mass activity with a new ID. If you start the run in simulation mode at first, you can use the same identification afterwards to execute an active run."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "The status lines function Move Run Parameters allows you to move existing run parameters to a new run identification."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "The application log displays the following statistical information for each processed interval: Number of determinations successful / with errors / not necessary / not executed."
+    }
+   ],
+   "section_id": "doc_006_sec_293"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "6 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "f64ab480d148bfbb8cd0f9adde42db0ad2005814997dd429014c2253b111052a"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:37Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Process Quantity Determination Trigger",
+  "Activities",
+  "QD Trigger Selection:"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_292",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_293",
+   "role": "starts_here"
+  }
+ ]
+}

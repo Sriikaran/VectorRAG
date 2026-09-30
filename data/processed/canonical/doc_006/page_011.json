@@ -1,0 +1,342 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 11,
+ "source_page_hash": "03db84d3c4975d104c011cf98956ebf4e3f85f2701c6c02e17b98306f9110ed5",
+ "is_cover_page": false,
+ "title": "Extrapolated Consumption = Degree Day Weighted Consumption + Absolute Linear Consumption",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nFormula for extrapolation:\n\nFor degree day weighting with consumption to be weighted linearly, the consumption comprises of two parts:\n\nExtrapolated Consumption = Degree Day Weighted Consumption + Absolute Linear Consumption\n\nBoth parts contain consumption determined as follows:\n\nDegree Day Weighted Consumption = (Period Consumption - Linear Weighted Consumption * Validity Period)1) * )Total from\nDegree Day Weighting / Degree Day Annual Weighting)\n\nLinear Consumption Percentage = Linear Weighted Consumption per Day * Number of Days\n\n1) According to data provided in example, a value of 4,080 kWh\n\nalculation of Degree Day Weighted Consumption\n\nExtrapolation\nDate\n\n1.1.-1.31.2009\n\n1.1-6.30.2009\n\n4.1.-12.31.2009                       4080\n\nResults of Extrapolation by Using Known Values\n\nNote: The results are rounded to 2 decimal places.\n\nExtrapolation\n\nTo determine the expected consumption or the expected performance for a register on a specific date, you require information\nabout the metering patterns of the register.\n\nYou can take this information from previous meter reading results, from a predefined periodic consumption value or froma\n\npredefined period demand.\nThe base period from which the expected values are calculated is very important during extrapolation. The base period is the\nperiod from which the expected values are calculated during extrapolation. Using the Base period category field in the installation,\n\nyou can control whether to extrapolate the expected values based on the previous period or the period of the previous year.\n\nMeter reading results are the ideal base from which to determine expected values, as these results best reflect the consumption\n",
+ "cleaned_text": "Formula for extrapolation: For degree day weighting with consumption to be weighted linearly, the consumption comprises of two parts:\n\nExtrapolated Consumption = Degree Day Weighted Consumption + Absolute Linear Consumption\n\nBoth parts contain consumption determined as follows: Degree Day Weighted Consumption = (Period Consumption - Linear Weighted Consumption * Validity Period)1) * )Total from Degree Day Weighting / Degree Day Annual Weighting)\n\nLinear Consumption Percentage = Linear Weighted Consumption per Day * Number of Days\n\n1) According to data provided in example, a value of 4,080 kWh\n\nalculation of Degree Day Weighted Consumption\n\nExtrapolation Date\n\n1.1.-1.31.2009\n\n1.1-6.30.2009\n\n4.1.-12.31.2009 | 4080\n\nResults of Extrapolation by Using Known Values Note: The results are rounded to 2 decimal places.\n\nExtrapolation\n\nTo determine the expected consumption or the expected performance for a register on a specific date, you require information about the metering patterns of the register. You can take this information from previous meter reading results, from a predefined periodic consumption value or froma predefined period demand. The base period from which the expected values are calculated is very important during extrapolation. The base period is the period from which the expected values are calculated during extrapolation. Using the Base period category field in the installation, you can control whether to extrapolate the expected values based on the previous period or the period of the previous year. Meter reading results are the ideal base from which to determine expected values, as these results best reflect the consumption",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p011_b000",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    154,
+    134,
+    2123,
+    294
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Formula for extrapolation: For degree day weighting with consumption to be weighted linearly, the consumption comprises of two parts:",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p011_b001",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    154,
+    377,
+    1914,
+    415
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Extrapolated Consumption = Degree Day Weighted Consumption + Absolute Linear Consumption",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p011_b002",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    154,
+    502,
+    2398,
+    724
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "Both parts contain consumption determined as follows: Degree Day Weighted Consumption = (Period Consumption - Linear Weighted Consumption * Validity Period)1) * )Total from Degree Day Weighting / Degree Day Annual Weighting)",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p011_b003",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    154,
+    808,
+    1813,
+    845
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Linear Consumption Percentage = Linear Weighted Consumption per Day * Number of Days",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p011_b004",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    153,
+    929,
+    1286,
+    967
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "1) According to data provided in example, a value of 4,080 kWh",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p011_b005",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    478,
+    1222,
+    1118,
+    1256
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "alculation of Degree Day Weighted Consumption",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p011_b006",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    217,
+    1567,
+    393,
+    1627
+   ],
+   "ocr_confidence": 85.8,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Extrapolation Date",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p011_b007",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    217,
+    1750,
+    403,
+    1769
+   ],
+   "ocr_confidence": 0.0,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "1.1.-1.31.2009",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p011_b008",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    217,
+    1889,
+    403,
+    1908
+   ],
+   "ocr_confidence": 21.8,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "1.1-6.30.2009",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p011_b009",
+   "type": "table",
+   "page_number": 11,
+   "bbox": [
+    217,
+    2027,
+    723,
+    2061
+   ],
+   "ocr_confidence": 35.1,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    217,
+    651
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "4.1.-12.31.2009",
+     "4080"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "4.1.-12.31.2009",
+     "4080"
+    ]
+   ],
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p011_b010",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    153,
+    2138,
+    1061,
+    2291
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Results of Extrapolation by Using Known Values Note: The results are rounded to 2 decimal places.",
+   "section_id": "doc_006_sec_013"
+  },
+  {
+   "block_id": "doc_006_p011_b011",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    128,
+    2474,
+    605,
+    2549
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Extrapolation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_014"
+  },
+  {
+   "block_id": "doc_006_p011_b012",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    121,
+    2625,
+    2484,
+    3280
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "To determine the expected consumption or the expected performance for a register on a specific date, you require information about the metering patterns of the register. You can take this information from previous meter reading results, from a predefined periodic consumption value or froma predefined period demand. The base period from which the expected values are calculated is very important during extrapolation. The base period is the period from which the expected values are calculated during extrapolation. Using the Base period category field in the installation, you can control whether to extrapolate the expected values based on the previous period or the period of the previous year. Meter reading results are the ideal base from which to determine expected values, as these results best reflect the consumption",
+   "section_id": "doc_006_sec_014"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "03db84d3c4975d104c011cf98956ebf4e3f85f2701c6c02e17b98306f9110ed5"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Examples for Mixed Weighting",
+  "Procedures }",
+  "Degree day weighting with consumption to be weighted linearly"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_013",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_014",
+   "role": "starts_here"
+  }
+ ]
+}

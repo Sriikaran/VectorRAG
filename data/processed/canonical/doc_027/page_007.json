@@ -1,0 +1,388 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_027",
+ "page_number": 7,
+ "source_page_hash": "c5cd73c0002afef15f55b520065f9f02ac1a8348a1a1536d628d385c9367ff40",
+ "is_cover_page": false,
+ "title": "Use",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:16 AM\nUse\n\nAfter you have released items, you have to submit them.\n\nPrerequisites\n\nYou must have authorization to submit receivables to collection agencies (authorization object F_KKINK). In Customizing for\nContract Accounts Receivable and Payable, under: |)}*Business Transactions \u00bb Submit to Collection Agency \u00bb Define Submission\nStatus 3, you have defined the status for which an item may be submitted. In the standard system, you can submit items that have\none of the following submission statuses:\n\ne Receivable Released for Submission (01)\n\ne Receivable Recalled (09)\n\ne Receivable Partially Cleared (13)\n\ne Receivable Released and Partially Not Collectable (14)\n\ne Receivable Recalled and Partially Not Collectable (16)\n\nKey Features\n\nFor the submission, the system carries out the following steps:\n\n1. Selects released items\n\neo Holds the date of submission, the submission status 02 (Receivable Submitted), and the submitted amount, if this\nis different to the amount of the open item, in the collection item\n\no Enters a payment lock, dunning lock, and, if it exists, the alternative payer in the document\n\no Generates a list for each collection agency containing all receivables that are being submitted. The system can\nprocess collection items for different collection agencies in one submission run and creates a list when doing so. You\ncan process the list with the standard functions for lists. From the list, you can branch to the master data of the\n\nbusiness partner, the business partner\u2019s contract account, the master data of the collection agency, and the posted\ndocument.\n\n2. Transfer of the Submission Data\no Submitting Using Files\n\nIn the standard system, the system can create a separate file containing the receivables being submitted for each\ncollection agency in a submission run. You can forward the file directly to the collection agency. For your own\ninformation purposes, you can store the file on an application server.\n\no Submission via Enterprise Service or API\n\nIf you use this option, the data on submission is sent using enterprise service Request Commissioned Outstanding\nCollections as Bulk or API Collection Agency - Submit Bulk Request. A service call relates to only one collection\n\nagency. The message of a service can contain receivables that are submitted to the given collection agency for\nmultiple business partners. However, for each service call, there is a maximum number allowed for business\npartners. Therefore, several service calls can sometimes be necessary during a submission run for a collection\nagency.\n",
+ "cleaned_text": "Use\n\nAfter you have released items, you have to submit them.\n\nPrerequisites\n\nYou must have authorization to submit receivables to collection agencies (authorization object F_KKINK). In Customizing for Contract Accounts Receivable and Payable, under: |)}*Business Transactions \u00bb Submit to Collection Agency \u00bb Define Submission Status 3, you have defined the status for which an item may be submitted. In the standard system, you can submit items that have one of the following submission statuses:\n\n- Receivable Released for Submission (01)\n\n- Receivable Recalled (09)\n\n- Receivable Partially Cleared (13)\n\n- Receivable Released and Partially Not Collectable (14)\n\n- Receivable Recalled and Partially Not Collectable (16)\n\nKey Features\n\nFor the submission, the system carries out the following steps:\n\n1 Selects released items eo Holds the date of submission, the submission status 02 (Receivable Submitted), and the submitted amount, if this is different to the amount of the open item, in the collection item\n\n- Enters a payment lock, dunning lock, and, if it exists, the alternative payer in the document\n\n- Generates a list for each collection agency containing all receivables that are being submitted. The system can process collection items for different collection agencies in one submission run and creates a list when doing so. You\n\ncan process the list with the standard functions for lists. From the list, you can branch to the master data of the business partner, the business partner\u2019s contract account, the master data of the collection agency, and the posted document.\n\n2 Transfer of the Submission Data\n\n- Submitting Using Files In the standard system, the system can create a separate file containing the receivables being submitted for each\n\ncollection agency in a submission run. You can forward the file directly to the collection agency. For your own information purposes, you can store the file on an application server.\n\n- Submission via Enterprise Service or API If you use this option, the data on submission is sent using enterprise service Request Commissioned Outstanding\n\nCollections as Bulk or API Collection Agency - Submit Bulk Request. A service call relates to only one collection agency. The message of a service can contain receivables that are submitted to the given collection agency for multiple business partners. However, for each service call, there is a maximum number allowed for business partners. Therefore, several service calls can sometimes be necessary during a submission run for a collection agency.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:16 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_027_p007_b000",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    125,
+    126,
+    225,
+    172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_030"
+  },
+  {
+   "block_id": "doc_027_p007_b001",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    123,
+    259,
+    1133,
+    297
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "After you have released items, you have to submit them.",
+   "section_id": "doc_027_sec_030"
+  },
+  {
+   "block_id": "doc_027_p007_b002",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    126,
+    408,
+    491,
+    465
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_031"
+  },
+  {
+   "block_id": "doc_027_p007_b003",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    123,
+    541,
+    2480,
+    765
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "You must have authorization to submit receivables to collection agencies (authorization object F_KKINK). In Customizing for Contract Accounts Receivable and Payable, under: |)}*Business Transactions \u00bb Submit to Collection Agency \u00bb Define Submission Status 3, you have defined the status for which an item may be submitted. In the standard system, you can submit items that have one of the following submission statuses:",
+   "section_id": "doc_027_sec_031"
+  },
+  {
+   "block_id": "doc_027_p007_b004",
+   "type": "list",
+   "page_number": 7,
+   "bbox": [
+    207,
+    849,
+    1257,
+    1296
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Receivable Released for Submission (01)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Receivable Recalled (09)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Receivable Partially Cleared (13)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Receivable Released and Partially Not Collectable (14)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Receivable Recalled and Partially Not Collectable (16)"
+    }
+   ],
+   "section_id": "doc_027_sec_031"
+  },
+  {
+   "block_id": "doc_027_p007_b005",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    126,
+    1408,
+    480,
+    1465
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Key Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_032"
+  },
+  {
+   "block_id": "doc_027_p007_b006",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    125,
+    1540,
+    1247,
+    1578
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "For the submission, the system carries out the following steps:",
+   "section_id": "doc_027_sec_032"
+  },
+  {
+   "block_id": "doc_027_p007_b007",
+   "type": "list",
+   "page_number": 7,
+   "bbox": [
+    214,
+    1662,
+    2478,
+    2132
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Selects released items eo Holds the date of submission, the submission status 02 (Receivable Submitted), and the submitted amount, if this is different to the amount of the open item, in the collection item"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Enters a payment lock, dunning lock, and, if it exists, the alternative payer in the document"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Generates a list for each collection agency containing all receivables that are being submitted. The system can process collection items for different collection agencies in one submission run and creates a list when doing so. You"
+    }
+   ],
+   "section_id": "doc_027_sec_032"
+  },
+  {
+   "block_id": "doc_027_p007_b008",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    385,
+    2157,
+    2465,
+    2315
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "can process the list with the standard functions for lists. From the list, you can branch to the master data of the business partner, the business partner\u2019s contract account, the master data of the collection agency, and the posted document.",
+   "section_id": "doc_027_sec_032"
+  },
+  {
+   "block_id": "doc_027_p007_b009",
+   "type": "list",
+   "page_number": 7,
+   "bbox": [
+    211,
+    2386,
+    2428,
+    2627
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Transfer of the Submission Data"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Submitting Using Files In the standard system, the system can create a separate file containing the receivables being submitted for each"
+    }
+   ],
+   "section_id": "doc_027_sec_032"
+  },
+  {
+   "block_id": "doc_027_p007_b010",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    385,
+    2655,
+    2337,
+    2755
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "collection agency in a submission run. You can forward the file directly to the collection agency. For your own information purposes, you can store the file on an application server.",
+   "section_id": "doc_027_sec_032"
+  },
+  {
+   "block_id": "doc_027_p007_b011",
+   "type": "list",
+   "page_number": 7,
+   "bbox": [
+    336,
+    2819,
+    2451,
+    2959
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Submission via Enterprise Service or API If you use this option, the data on submission is sent using enterprise service Request Commissioned Outstanding"
+    }
+   ],
+   "section_id": "doc_027_sec_032"
+  },
+  {
+   "block_id": "doc_027_p007_b012",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    385,
+    2983,
+    2381,
+    3273
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Collections as Bulk or API Collection Agency - Submit Bulk Request. A service call relates to only one collection agency. The message of a service can contain receivables that are submitted to the given collection agency for multiple business partners. However, for each service call, there is a maximum number allowed for business partners. Therefore, several service calls can sometimes be necessary during a submission run for a collection agency.",
+   "section_id": "doc_027_sec_032"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Submission of Receivables to Collection Agency",
+  "source_pdf": "27.pdf",
+  "reference_pdf": "27_Submission_of_Receivables_to_Collection_Agency.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Useful for late-stage collections and external-agency lifecycle knowledge.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "c5cd73c0002afef15f55b520065f9f02ac1a8348a1a1536d628d385c9367ff40"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Submission of Receivables to Collection Agency",
+  "Automatic Release",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_027_sec_030",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_031",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_032",
+   "role": "starts_here"
+  }
+ ]
+}

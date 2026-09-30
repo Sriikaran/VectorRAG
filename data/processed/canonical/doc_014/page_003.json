@@ -1,0 +1,247 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_014",
+ "page_number": 3,
+ "source_page_hash": "cfb14fe497bf87404319205a358e58095d312139485e8c75d1a19ae195635e4d",
+ "is_cover_page": false,
+ "title": "Invoicing Procedure",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nInvoicing Procedure\n\nBilling                                Invoicing                          Bill printout\n\nBilling document                       Print document\n\nProcess Flow\n\nResult\n\nAfter the bill has been created, it is sent to the bill recipient. The bill requests can be followed up in contract accounts receivable\nand payable. This means that the bill amounts are paid, regulated by the utility company, or dunned.\n",
+ "cleaned_text": "Invoicing Procedure\n\nBilling | Invoicing | Bill printout\n\nBilling document | Print document\n\nProcess Flow\n\nResult\n\nAfter the bill has been created, it is sent to the bill recipient. The bill requests can be followed up in contract accounts receivable and payable. This means that the bill amounts are paid, regulated by the utility company, or dunned.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_014_p003_b000",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    165,
+    192,
+    741,
+    251
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Invoicing Procedure",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_014_sec_005"
+  },
+  {
+   "block_id": "doc_014_p003_b001",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    464,
+    524,
+    2048,
+    577
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    464,
+    1144,
+    1786
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Billing",
+     "Invoicing",
+     "Bill printout"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Billing",
+     "Invoicing",
+     "Bill printout"
+    ]
+   ],
+   "section_id": "doc_014_sec_005"
+  },
+  {
+   "block_id": "doc_014_p003_b002",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    748,
+    1223,
+    1840,
+    1267
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    748,
+    1499
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Billing document",
+     "Print document"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Billing document",
+     "Print document"
+    ]
+   ],
+   "section_id": "doc_014_sec_005"
+  },
+  {
+   "block_id": "doc_014_p003_b003",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    125,
+    1909,
+    341,
+    1936
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Process Flow",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_014_sec_006"
+  },
+  {
+   "block_id": "doc_014_p003_b004",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    2049,
+    298,
+    2095
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Result",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_014_sec_007"
+  },
+  {
+   "block_id": "doc_014_p003_b005",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    123,
+    2182,
+    2428,
+    2282
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "After the bill has been created, it is sent to the bill recipient. The bill requests can be followed up in contract accounts receivable and payable. This means that the bill amounts are paid, regulated by the utility company, or dunned.",
+   "section_id": "doc_014_sec_007"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Invoicing Procedure",
+  "source_pdf": "14.pdf",
+  "reference_pdf": "14_SAP_Utilities_Invoicing_Procedure.pdf",
+  "category": "Invoicing",
+  "m2c_relevance": "Critical for distinguishing billing document, invoicing result, customer bill and FI-CA document.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/a003b275c98148ee8a4c3fafe9588fe3?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "cfb14fe497bf87404319205a358e58095d312139485e8c75d1a19ae195635e4d"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:41Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Invoicing Procedure",
+  "Invoicing Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_014_sec_005",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_014_sec_006",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_014_sec_007",
+   "role": "starts_here"
+  }
+ ]
+}

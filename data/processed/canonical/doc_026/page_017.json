@@ -1,0 +1,501 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 17,
+ "source_page_hash": "9d9b9962ee6eab96cc02e35a8f37a41166f311e2569693697c54b55610e0f5c8",
+ "is_cover_page": false,
+ "title": "Activities",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n\nEvent                                                                                                             Function\n\ndunning procedures are different to those defined in the contract\n\naccount of the business partner, but you want to dun the items\ntogether with other items from the same contract account.\n\n0350                                                                                            You should not define any customer-specific function modules in\nevent 0350. Instead, define dunning activities in the Customizing\nactivity Configure Dunning Activities, and assign the dunning\nactivities to the required dunning level of the dunning procedure\n(see also SAP Note 487357 wt).\n\n0365 and 0366                                                                         With a function module in event 0366, you can also dun items ina\npayment order. To check how long an item has been in a payment\norder, define a customer-specific function module for event 0365.\n\n0395                                                                                       As standard, when you reverse a dunning notice, the interest and\ncharges documents are also reversed. To reset the effect of\nadditional dunning activities for the dunning reversal, you have to\ndefine function modules for event 0395. SAP also delivers function\n\nmodules for the dunning activities delivered. For example, function\nmodule FKK_SAMPLE_0395_DELETE_CC for deleting\n\ncorrespondence containers or function module\nFKK_SAMPLE_0395_UNLOCK_VKONT for deleting a lock set in the\ncontract account by the dunning program.\n\nActivities\n\nEnter a function module in the Implementation Guide for Contract Accounts Receivable and Payable under |}Program\nEnhancements Define Customer-Specific Function Modules\n\nSee also the events in the area between 0300 and 0399.\n\nCreating Printed Records\n\nKey Features\n\nTo send dunning notices and payment forms with the dunning run, you provide application forms with the Print Workbench\ncomponent. You then print the correspondence using the Correspondence component. The following form classes are delivered as\nstandard:\n\ne FI CA DUNNING NEW (Contract Accounts Receivable and Payable) with the sample application form\nFI_CA DUNNING SAMPLE_SF (Smart Form)\n\ne IS _U_ CA DUNNING (industry components Utilities, Telecommunications)\nDepending on the dunning activity, you can create documents for a dunning notice in two ways:\n\ne The dunning activity run creates the documents using industry-specific or customer-specific dunning activities. SAP does\nnot recommend this method.\n",
+ "cleaned_text": "Event | Function\n\ndunning procedures are different to those defined in the contract account of the business partner, but you want to dun the items together with other items from the same contract account.\n\n0350 | You should not define any customer-specific function modules in\n\nevent 0350. Instead, define dunning activities in the Customizing activity Configure Dunning Activities, and assign the dunning activities to the required dunning level of the dunning procedure (see also SAP Note 487357 wt).\n\n0365 and 0366 | With a function module in event 0366, you can also dun items ina\n\npayment order. To check how long an item has been in a payment order, define a customer-specific function module for event 0365.\n\n0395 | As standard, when you reverse a dunning notice, the interest and\n\ncharges documents are also reversed. To reset the effect of additional dunning activities for the dunning reversal, you have to define function modules for event 0395. SAP also delivers function modules for the dunning activities delivered. For example, function module FKK_SAMPLE_0395_DELETE_CC for deleting correspondence containers or function module FKK_SAMPLE_0395_UNLOCK_VKONT for deleting a lock set in the contract account by the dunning program.\n\nActivities\n\nEnter a function module in the Implementation Guide for Contract Accounts Receivable and Payable under |}Program\n\nEnhancements Define Customer-Specific Function Modules\n\nSee also the events in the area between 0300 and 0399.\n\nCreating Printed Records\n\nKey Features\n\nTo send dunning notices and payment forms with the dunning run, you provide application forms with the Print Workbench component. You then print the correspondence using the Correspondence component. The following form classes are delivered as standard:\n\n- FI CA DUNNING NEW (Contract Accounts Receivable and Payable) with the sample application form FI_CA DUNNING SAMPLE_SF (Smart Form)\n\n- IS _U_ CA DUNNING (industry components Utilities, Telecommunications)\n\nDepending on the dunning activity, you can create documents for a dunning notice in two ways:\n\n- The dunning activity run creates the documents using industry-specific or customer-specific dunning activities. SAP does not recommend this method.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p017_b000",
+   "type": "table",
+   "page_number": 17,
+   "bbox": [
+    149,
+    159,
+    1479,
+    188
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continues_from_previous_page:p16",
+    "continues_from_previous_page:p16"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1332
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Event",
+     "Function"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Event",
+     "Function"
+    ]
+   ],
+   "section_id": "doc_026_sec_076"
+  },
+  {
+   "block_id": "doc_026_p017_b001",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    1330,
+    242,
+    2419,
+    392
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "dunning procedures are different to those defined in the contract account of the business partner, but you want to dun the items together with other items from the same contract account.",
+   "section_id": "doc_026_sec_076"
+  },
+  {
+   "block_id": "doc_026_p017_b002",
+   "type": "table",
+   "page_number": 17,
+   "bbox": [
+    148,
+    465,
+    2416,
+    500
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "0350",
+     "You should not define any customer-specific function modules in"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "0350",
+     "You should not define any customer-specific function modules in"
+    ]
+   ],
+   "section_id": "doc_026_sec_076"
+  },
+  {
+   "block_id": "doc_026_p017_b003",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    1331,
+    521,
+    2419,
+    733
+   ],
+   "ocr_confidence": 93.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "event 0350. Instead, define dunning activities in the Customizing activity Configure Dunning Activities, and assign the dunning activities to the required dunning level of the dunning procedure (see also SAP Note 487357 wt).",
+   "section_id": "doc_026_sec_076"
+  },
+  {
+   "block_id": "doc_026_p017_b004",
+   "type": "table",
+   "page_number": 17,
+   "bbox": [
+    148,
+    803,
+    2430,
+    838
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "0365 and 0366",
+     "With a function module in event 0366, you can also dun items ina"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "0365 and 0366",
+     "With a function module in event 0366, you can also dun items ina"
+    ]
+   ],
+   "section_id": "doc_026_sec_076"
+  },
+  {
+   "block_id": "doc_026_p017_b005",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    1331,
+    863,
+    2432,
+    957
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "payment order. To check how long an item has been in a payment order, define a customer-specific function module for event 0365.",
+   "section_id": "doc_026_sec_076"
+  },
+  {
+   "block_id": "doc_026_p017_b006",
+   "type": "table",
+   "page_number": 17,
+   "bbox": [
+    148,
+    1027,
+    2412,
+    1062
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "0395",
+     "As standard, when you reverse a dunning notice, the interest and"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "0395",
+     "As standard, when you reverse a dunning notice, the interest and"
+    ]
+   ],
+   "section_id": "doc_026_sec_076"
+  },
+  {
+   "block_id": "doc_026_p017_b007",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    1331,
+    1086,
+    2456,
+    1532
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "charges documents are also reversed. To reset the effect of additional dunning activities for the dunning reversal, you have to define function modules for event 0395. SAP also delivers function modules for the dunning activities delivered. For example, function module FKK_SAMPLE_0395_DELETE_CC for deleting correspondence containers or function module FKK_SAMPLE_0395_UNLOCK_VKONT for deleting a lock set in the contract account by the dunning program.",
+   "section_id": "doc_026_sec_076"
+  },
+  {
+   "block_id": "doc_026_p017_b008",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    123,
+    1667,
+    383,
+    1713
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_077"
+  },
+  {
+   "block_id": "doc_026_p017_b009",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    125,
+    1800,
+    2253,
+    1838
+   ],
+   "ocr_confidence": 90.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Enter a function module in the Implementation Guide for Contract Accounts Receivable and Payable under |}Program",
+   "section_id": "doc_026_sec_077"
+  },
+  {
+   "block_id": "doc_026_p017_b010",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    124,
+    1862,
+    1267,
+    1900
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "text": "Enhancements Define Customer-Specific Function Modules",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_078"
+  },
+  {
+   "block_id": "doc_026_p017_b011",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    124,
+    1984,
+    1139,
+    2014
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "See also the events in the area between 0300 and 0399.",
+   "section_id": "doc_026_sec_078"
+  },
+  {
+   "block_id": "doc_026_p017_b012",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    125,
+    2170,
+    1033,
+    2247
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Creating Printed Records",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_079"
+  },
+  {
+   "block_id": "doc_026_p017_b013",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    126,
+    2347,
+    480,
+    2404
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Key Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_080"
+  },
+  {
+   "block_id": "doc_026_p017_b014",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    122,
+    2480,
+    2486,
+    2635
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "To send dunning notices and payment forms with the dunning run, you provide application forms with the Print Workbench component. You then print the correspondence using the Correspondence component. The following form classes are delivered as standard:",
+   "section_id": "doc_026_sec_080"
+  },
+  {
+   "block_id": "doc_026_p017_b015",
+   "type": "list",
+   "page_number": 17,
+   "bbox": [
+    207,
+    2727,
+    2105,
+    2948
+   ],
+   "ocr_confidence": 86.5,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "FI CA DUNNING NEW (Contract Accounts Receivable and Payable) with the sample application form FI_CA DUNNING SAMPLE_SF (Smart Form)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "IS _U_ CA DUNNING (industry components Utilities, Telecommunications)"
+    }
+   ],
+   "section_id": "doc_026_sec_080"
+  },
+  {
+   "block_id": "doc_026_p017_b016",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    125,
+    3026,
+    1841,
+    3063
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Depending on the dunning activity, you can create documents for a dunning notice in two ways:",
+   "section_id": "doc_026_sec_080"
+  },
+  {
+   "block_id": "doc_026_p017_b017",
+   "type": "list",
+   "page_number": 17,
+   "bbox": [
+    207,
+    3147,
+    2457,
+    3243
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The dunning activity run creates the documents using industry-specific or customer-specific dunning activities. SAP does not recommend this method."
+    }
+   ],
+   "section_id": "doc_026_sec_080"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "9d9b9962ee6eab96cc02e35a8f37a41166f311e2569693697c54b55610e0f5c8"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Modifications in the Program Sequence",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_076",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_077",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_078",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_079",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_080",
+   "role": "starts_here"
+  }
+ ]
+}

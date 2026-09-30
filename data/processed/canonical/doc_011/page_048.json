@@ -1,0 +1,433 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 48,
+ "source_page_hash": "68059be40468b2b4d3232ec104bcd44d14b45028670f8e5a2fc14c8c9e339a40",
+ "is_cover_page": false,
+ "title": "Billing order",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nSAP System\n\nProfile            Formula (ID)\n\n(Header)         5678 Aggregate\nProfile 9393        consumption\n\nTime-of-Use Interface\n\nPeriods + formulas, e.g. Weekday,\n08:00-17:59, Formula 5678\n\nOther billing-relevant data\n\nBilling period, installation structure,\nrate, ...\n\nBilling order\n\nMDUS request\n\nInstallation 1234\n(with profile 9383)\n\nResults of\nMDUS request\n\nBilling\n\nMDUS System\n\nMeter Data Unification and-\n\nSynchronization system\n\nFormula (algorithm)\n\nLate     5678 aggregate consumption\n\nEnterprise Services\n\nProfile 9383 |\n\nPELE ADA a EEA EPEAT OED\n\nFurther aggregation for\noperands in rates\n\nSAP System and MDUS System\n\nBilling Process in Detail\n\nThis section explains the numbered elements of the figure above:\n\n. Billing order\n\nYou use the appropriate order creation transactions in the Meter Reading menu. The SAP system creates the orders as\nfollows:\n\no Billing orders for all installations regardless of whether the installation contains registers for meter reading reading\nresults (mainly conventional meters) or registers with profile values from the MDUS system (advanced meters).\n\no Meter reading orders, only if the installation also contains registers for meter reading results\n\nRegarding whether billing orders can be billed: For installations containing advanced meters, the status of the billing order\n\nis supplemented by the MDUS status. The status of the billing order refers to registers for meter reading results. The MDUS\nstatus shows whether aggregated values are available in the SAP system for registers with profile values stored in the\nMDUS system. The initial value of the MDUS status is Request Must Be Created. For installations containing interval\nregisters only, the billing order always has the status Billable; this means that the MDUS status determines whether the\norder can be billed.\n\n. MDUS request\n\nYou use the appropriate transactions in the Billing menu. The aim of the MDUS request is to aggregate the data and import\nit into the SAP system so that it can be processed by the rate operands.\n\na. The SAP system determines the individual request items for the billing period for the MDUS system.\n\nIn the same way as with billing itself, the billing order is analyzed using all billing-relevant data (for example,\n\ninstallation structure, installation facts, rate category, rate, time-of-use interface with periods and formulas, and\nprice changes). A prerequisite is that the installation is billable except for the missing consumption values.\n\nb. The SAP system uses an enterprise service to send the MDUS request asynchronously to the MDUS system.\n\nThe MDUS status of the billing order is Request Sent.\n",
+ "cleaned_text": "SAP System\n\nProfile | Formula (ID)\n\n(Header) | 5678 Aggregate\n\nProfile 9393 | consumption\n\nTime-of-Use Interface Periods + formulas, e.g. Weekday, 08:00-17:59, Formula 5678 Other billing-relevant data Billing period, installation structure, rate, ...\n\nBilling order\n\nMDUS request\n\nInstallation 1234 (with profile 9383)\n\nResults of MDUS request\n\nBilling\n\nMDUS System Meter Data Unification and- Synchronization system Formula (algorithm)\n\nLate | 5678 aggregate consumption\n\nEnterprise Services Profile 9383 | PELE ADA a EEA EPEAT OED Further aggregation for operands in rates SAP System and MDUS System\n\nBilling Process in Detail\n\nThis section explains the numbered elements of the figure above: . Billing order You use the appropriate order creation transactions in the Meter Reading menu. The SAP system creates the orders as follows:\n\n- Billing orders for all installations regardless of whether the installation contains registers for meter reading reading results (mainly conventional meters) or registers with profile values from the MDUS system (advanced meters).\n\n- Meter reading orders, only if the installation also contains registers for meter reading results\n\nRegarding whether billing orders can be billed: For installations containing advanced meters, the status of the billing order is supplemented by the MDUS status. The status of the billing order refers to registers for meter reading results. The MDUS status shows whether aggregated values are available in the SAP system for registers with profile values stored in the MDUS system. The initial value of the MDUS status is Request Must Be Created. For installations containing interval registers only, the billing order always has the status Billable; this means that the MDUS status determines whether the order can be billed. . MDUS request You use the appropriate transactions in the Billing menu. The aim of the MDUS request is to aggregate the data and import it into the SAP system so that it can be processed by the rate operands. a. The SAP system determines the individual request items for the billing period for the MDUS system. In the same way as with billing itself, the billing order is analyzed using all billing-relevant data (for example, installation structure, installation facts, rate category, rate, time-of-use interface with periods and formulas, and price changes). A prerequisite is that the installation is billable except for the missing consumption values. b. The SAP system uses an enterprise service to send the MDUS request asynchronously to the MDUS system. The MDUS status of the billing order is Request Sent.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p048_b000",
+   "type": "paragraph",
+   "page_number": 48,
+   "bbox": [
+    152,
+    150,
+    532,
+    210
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "SAP System",
+   "section_id": "doc_011_sec_145"
+  },
+  {
+   "block_id": "doc_011_p048_b001",
+   "type": "table",
+   "page_number": 48,
+   "bbox": [
+    203,
+    329,
+    843,
+    498
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    203,
+    548
+   ],
+   "headers": [
+    "Profile",
+    "Formula (ID)"
+   ],
+   "rows": [
+    [
+     "(Header)",
+     "5678 Aggregate"
+    ],
+    [
+     "Profile 9393",
+     "consumption"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Profile",
+     "Formula (ID)"
+    ],
+    [
+     "(Header)",
+     "5678 Aggregate"
+    ],
+    [
+     "Profile 9393",
+     "consumption"
+    ]
+   ],
+   "section_id": "doc_011_sec_145"
+  },
+  {
+   "block_id": "doc_011_p048_b002",
+   "type": "paragraph",
+   "page_number": 48,
+   "bbox": [
+    206,
+    597,
+    843,
+    991
+   ],
+   "ocr_confidence": 90.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Time-of-Use Interface Periods + formulas, e.g. Weekday, 08:00-17:59, Formula 5678 Other billing-relevant data Billing period, installation structure, rate, ...",
+   "section_id": "doc_011_sec_145"
+  },
+  {
+   "block_id": "doc_011_p048_b003",
+   "type": "heading",
+   "page_number": 48,
+   "bbox": [
+    1087,
+    174,
+    1386,
+    220
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Billing order",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_146"
+  },
+  {
+   "block_id": "doc_011_p048_b004",
+   "type": "heading",
+   "page_number": 48,
+   "bbox": [
+    1087,
+    428,
+    1403,
+    474
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "text": "MDUS request",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_147"
+  },
+  {
+   "block_id": "doc_011_p048_b005",
+   "type": "paragraph",
+   "page_number": 48,
+   "bbox": [
+    1087,
+    503,
+    1389,
+    585
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Installation 1234 (with profile 9383)",
+   "section_id": "doc_011_sec_147"
+  },
+  {
+   "block_id": "doc_011_p048_b006",
+   "type": "paragraph",
+   "page_number": 48,
+   "bbox": [
+    1169,
+    730,
+    1415,
+    812
+   ],
+   "ocr_confidence": 90.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Results of MDUS request",
+   "section_id": "doc_011_sec_147"
+  },
+  {
+   "block_id": "doc_011_p048_b007",
+   "type": "heading",
+   "page_number": 48,
+   "bbox": [
+    1087,
+    933,
+    1227,
+    979
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Billing",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_148"
+  },
+  {
+   "block_id": "doc_011_p048_b008",
+   "type": "paragraph",
+   "page_number": 48,
+   "bbox": [
+    1840,
+    148,
+    2357,
+    435
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "MDUS System Meter Data Unification and- Synchronization system Formula (algorithm)",
+   "section_id": "doc_011_sec_148"
+  },
+  {
+   "block_id": "doc_011_p048_b009",
+   "type": "table",
+   "page_number": 48,
+   "bbox": [
+    1723,
+    477,
+    2369,
+    531
+   ],
+   "ocr_confidence": 80.3,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    1723,
+    1881
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Late",
+     "5678 aggregate consumption"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Late",
+     "5678 aggregate consumption"
+    ]
+   ],
+   "section_id": "doc_011_sec_148"
+  },
+  {
+   "block_id": "doc_011_p048_b010",
+   "type": "paragraph",
+   "page_number": 48,
+   "bbox": [
+    123,
+    409,
+    2357,
+    1184
+   ],
+   "ocr_confidence": 71.9,
+   "flags": [
+    "low_confidence_words:6",
+    "in_graphic_region"
+   ],
+   "text": "Enterprise Services Profile 9383 | PELE ADA a EEA EPEAT OED Further aggregation for operands in rates SAP System and MDUS System",
+   "section_id": "doc_011_sec_148"
+  },
+  {
+   "block_id": "doc_011_p048_b011",
+   "type": "heading",
+   "page_number": 48,
+   "bbox": [
+    126,
+    1289,
+    777,
+    1346
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Billing Process in Detail",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_149"
+  },
+  {
+   "block_id": "doc_011_p048_b012",
+   "type": "paragraph",
+   "page_number": 48,
+   "bbox": [
+    122,
+    1422,
+    2395,
+    1742
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "This section explains the numbered elements of the figure above: . Billing order You use the appropriate order creation transactions in the Meter Reading menu. The SAP system creates the orders as follows:",
+   "section_id": "doc_011_sec_149"
+  },
+  {
+   "block_id": "doc_011_p048_b013",
+   "type": "list",
+   "page_number": 48,
+   "bbox": [
+    336,
+    1813,
+    2458,
+    2015
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Billing orders for all installations regardless of whether the installation contains registers for meter reading reading results (mainly conventional meters) or registers with profile values from the MDUS system (advanced meters)."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Meter reading orders, only if the installation also contains registers for meter reading results"
+    }
+   ],
+   "section_id": "doc_011_sec_149"
+  },
+  {
+   "block_id": "doc_011_p048_b014",
+   "type": "paragraph",
+   "page_number": 48,
+   "bbox": [
+    237,
+    2079,
+    2486,
+    3238
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Regarding whether billing orders can be billed: For installations containing advanced meters, the status of the billing order is supplemented by the MDUS status. The status of the billing order refers to registers for meter reading results. The MDUS status shows whether aggregated values are available in the SAP system for registers with profile values stored in the MDUS system. The initial value of the MDUS status is Request Must Be Created. For installations containing interval registers only, the billing order always has the status Billable; this means that the MDUS status determines whether the order can be billed. . MDUS request You use the appropriate transactions in the Billing menu. The aim of the MDUS request is to aggregate the data and import it into the SAP system so that it can be processed by the rate operands. a. The SAP system determines the individual request items for the billing period for the MDUS system. In the same way as with billing itself, the billing order is analyzed using all billing-relevant data (for example, installation structure, installation facts, rate category, rate, time-of-use interface with periods and formulas, and price changes). A prerequisite is that the installation is billable except for the missing consumption values. b. The SAP system uses an enterprise service to send the MDUS request asynchronously to the MDUS system. The MDUS status of the billing order is Request Sent.",
+   "section_id": "doc_011_sec_149"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "68059be40468b2b4d3232ec104bcd44d14b45028670f8e5a2fc14c8c9e339a40"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "System",
+  "Basic Functions"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_145",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_146",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_147",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_148",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_149",
+   "role": "starts_here"
+  }
+ ]
+}

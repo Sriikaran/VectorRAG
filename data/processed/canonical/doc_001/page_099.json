@@ -1,0 +1,489 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 99,
+ "source_page_hash": "3b6ab66f0e437f83488cfa60b8d508235dedc568f957372e326e42958cd2cb34",
+ "is_cover_page": false,
+ "title": "Integration",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\ne Streetlights (for example, address, property status, operation types)\n\nThe energy price is calculated in connection with the burning hour calendar.\n\ne Heating installations (for example, device category description, charging control, special agreements)\n\ne Container\n\nIntegration\n\nIntegrated Components and Their Functions\n\nThe following components are integrated to control reading and billing:\n\nComponent\n\nRegional Structure (ISU-BFRS)\n\nPortioning and Scheduling (ISU-BFPS)\n\nRate Structure (ISU-BIBDRS)\n\nInstallation Structure (ISU-DMDIIS)\n\nProfiles\n\nFunction\n\nFor streets or cities, you can define the temperature area and meter\n\nreading unit in the regional structure, and copy these default values\nto the installation.\n\nThe scheduling defines the meter reading dates. They depend on\nthe meter reading unit to which the installation is assigned.\n\nThe rate according to which the installation is billed depends on the\n\ngeneral rate category to which the installation is assigned. You can\nuse the individual rate category of the installation to override the\n\ngeneral rate category (for example, if you have made customer-\nspecific agreements).\n\nThe registers and rate data of devices that are installed in the\ninstallation are maintained in the installation structure.\n\nYou can assign load profiles to an installation. The assignment refers to the identification of the corresponding load profile.\n\nRegional Structure Default\n\nYou can use the regional structure defaults to have the system suggest the franchise contract. For this, you select the time slice to\n\nbe processed and choose |Edit } Region Defaults\n\nDeregulation Data\n\nThe entries that you make in the Deregulation Fields of the installation affect the determination of the Deregulation Scenario.\n\nOther\n\nYou can change the date Valid From or the premise of a utility installation provided that the utility installation has not yet been\nassigned a contract and no devices have been installed in the utility installation.\n\nPoint of Delivery (PoD)\n",
+ "cleaned_text": "- Streetlights (for example, address, property status, operation types) The energy price is calculated in connection with the burning hour calendar.\n\n- Heating installations (for example, device category description, charging control, special agreements)\n\n- Container\n\nIntegration\n\nIntegrated Components and Their Functions\n\nThe following components are integrated to control reading and billing:\n\nComponent\n\nRegional Structure (ISU-BFRS)\n\nPortioning and Scheduling (ISU-BFPS)\n\nRate Structure (ISU-BIBDRS)\n\nInstallation Structure (ISU-DMDIIS)\n\nProfiles\n\nFunction\n\nFor streets or cities, you can define the temperature area and meter reading unit in the regional structure, and copy these default values to the installation. The scheduling defines the meter reading dates. They depend on the meter reading unit to which the installation is assigned. The rate according to which the installation is billed depends on the general rate category to which the installation is assigned. You can use the individual rate category of the installation to override the general rate category (for example, if you have made customer-specific agreements). The registers and rate data of devices that are installed in the installation are maintained in the installation structure.\n\nYou can assign load profiles to an installation. The assignment refers to the identification of the corresponding load profile.\n\nRegional Structure Default\n\nYou can use the regional structure defaults to have the system suggest the franchise contract. For this, you select the time slice to be processed and choose |Edit } Region Defaults\n\nDeregulation Data\n\nThe entries that you make in the Deregulation Fields of the installation affect the determination of the Deregulation Scenario.\n\nOther\n\nYou can change the date Valid From or the premise of a utility installation provided that the utility installation has not yet been assigned a contract and no devices have been installed in the utility installation.\n\nPoint of Delivery (PoD)",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p099_b000",
+   "type": "list",
+   "page_number": 99,
+   "bbox": [
+    207,
+    134,
+    2092,
+    473
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Streetlights (for example, address, property status, operation types) The energy price is calculated in connection with the burning hour calendar."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Heating installations (for example, device category description, charging control, special agreements)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Container"
+    }
+   ],
+   "section_id": "doc_001_sec_377"
+  },
+  {
+   "block_id": "doc_001_p099_b001",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    127,
+    593,
+    431,
+    650
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_378"
+  },
+  {
+   "block_id": "doc_001_p099_b002",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    125,
+    722,
+    949,
+    760
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Integrated Components and Their Functions",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_379"
+  },
+  {
+   "block_id": "doc_001_p099_b003",
+   "type": "paragraph",
+   "page_number": 99,
+   "bbox": [
+    122,
+    848,
+    1403,
+    885
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The following components are integrated to control reading and billing:",
+   "section_id": "doc_001_sec_379"
+  },
+  {
+   "block_id": "doc_001_p099_b004",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    148,
+    993,
+    351,
+    1029
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Component",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_380"
+  },
+  {
+   "block_id": "doc_001_p099_b005",
+   "type": "paragraph",
+   "page_number": 99,
+   "bbox": [
+    146,
+    1098,
+    667,
+    1134
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "Regional Structure (ISU-BFRS)",
+   "section_id": "doc_001_sec_380"
+  },
+  {
+   "block_id": "doc_001_p099_b006",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    150,
+    1322,
+    794,
+    1358
+   ],
+   "ocr_confidence": 91.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Portioning and Scheduling (ISU-BFPS)",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_380"
+  },
+  {
+   "block_id": "doc_001_p099_b007",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    150,
+    1486,
+    641,
+    1522
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Rate Structure (ISU-BIBDRS)",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_380"
+  },
+  {
+   "block_id": "doc_001_p099_b008",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    150,
+    1825,
+    745,
+    1860
+   ],
+   "ocr_confidence": 85.8,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Installation Structure (ISU-DMDIIS)",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_380"
+  },
+  {
+   "block_id": "doc_001_p099_b009",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    124,
+    2030,
+    262,
+    2060
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "Profiles",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_381"
+  },
+  {
+   "block_id": "doc_001_p099_b010",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    1332,
+    993,
+    1479,
+    1022
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Function",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_382"
+  },
+  {
+   "block_id": "doc_001_p099_b011",
+   "type": "paragraph",
+   "page_number": 99,
+   "bbox": [
+    1330,
+    1100,
+    2465,
+    1912
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "For streets or cities, you can define the temperature area and meter reading unit in the regional structure, and copy these default values to the installation. The scheduling defines the meter reading dates. They depend on the meter reading unit to which the installation is assigned. The rate according to which the installation is billed depends on the general rate category to which the installation is assigned. You can use the individual rate category of the installation to override the general rate category (for example, if you have made customer-specific agreements). The registers and rate data of devices that are installed in the installation are maintained in the installation structure.",
+   "section_id": "doc_001_sec_382"
+  },
+  {
+   "block_id": "doc_001_p099_b012",
+   "type": "paragraph",
+   "page_number": 99,
+   "bbox": [
+    122,
+    2152,
+    2332,
+    2189
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "You can assign load profiles to an installation. The assignment refers to the identification of the corresponding load profile.",
+   "section_id": "doc_001_sec_382"
+  },
+  {
+   "block_id": "doc_001_p099_b013",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    124,
+    2273,
+    620,
+    2311
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Regional Structure Default",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_383"
+  },
+  {
+   "block_id": "doc_001_p099_b014",
+   "type": "paragraph",
+   "page_number": 99,
+   "bbox": [
+    122,
+    2395,
+    2468,
+    2500
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You can use the regional structure defaults to have the system suggest the franchise contract. For this, you select the time slice to be processed and choose |Edit } Region Defaults",
+   "section_id": "doc_001_sec_383"
+  },
+  {
+   "block_id": "doc_001_p099_b015",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    124,
+    2582,
+    460,
+    2620
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Deregulation Data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_384"
+  },
+  {
+   "block_id": "doc_001_p099_b016",
+   "type": "paragraph",
+   "page_number": 99,
+   "bbox": [
+    122,
+    2703,
+    2380,
+    2741
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "The entries that you make in the Deregulation Fields of the installation affect the determination of the Deregulation Scenario.",
+   "section_id": "doc_001_sec_384"
+  },
+  {
+   "block_id": "doc_001_p099_b017",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    123,
+    2825,
+    229,
+    2855
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Other",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_385"
+  },
+  {
+   "block_id": "doc_001_p099_b018",
+   "type": "paragraph",
+   "page_number": 99,
+   "bbox": [
+    123,
+    2947,
+    2397,
+    3047
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You can change the date Valid From or the premise of a utility installation provided that the utility installation has not yet been assigned a contract and no devices have been installed in the utility installation.",
+   "section_id": "doc_001_sec_385"
+  },
+  {
+   "block_id": "doc_001_p099_b019",
+   "type": "heading",
+   "page_number": 99,
+   "bbox": [
+    128,
+    3196,
+    939,
+    3272
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "text": "Point of Delivery (PoD)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_386"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "3b6ab66f0e437f83488cfa60b8d508235dedc568f957372e326e42958cd2cb34"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Utility Installation",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_377",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_378",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_379",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_380",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_381",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_382",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_383",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_384",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_385",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_386",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,459 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 3,
+ "source_page_hash": "407e0600ea3ee4de8a4f91822b5bc8af2d708906e2285f5f642276fadcf73af6",
+ "is_cover_page": false,
+ "title": "Find Credit Commitment by Debitor",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nFind Credit Commitment by Debitor\n\nDefinition\n\nTo find a debtor\u2019s credit commitment information.\n\nTechnical Data\n\nEntity Type                                  Service Operation\n\nRelease State                               released\n\nTechnical Name                          CreditCommitmentQuery_In\nNamespace                                    http://sap.com/xi/FICA/Global ri\nApplication Component                  FI-CA\n\nWeb Service Definition (Back End) | CREDITCOMMITMENTQUERY_IN\n\nCategory                                     SAP A2A\nDirection                                        inbound\nMode                                             synchronous\nIdempotency                                  no\nChange/Update Behavior                not applicable\nP2P Communication Enabled          true\n\nBusiness Context and Use\n\nThis inbound service operation receives requests for updates to a debitor\u2019s current credit commitments.\nRelated Operations\n\nThe Query Credit Commitment by Debitor outbound service operation is sent by the SAP Credit Management process component\nto the system Contract Accounts Receivable and Payable is running in to request the information.\n\nFeatures\n\nThe Find Credit Commitment by Debitor operation receives requests made from your credit management system to the system\nContract Accounts Receivable and Payable (FI-CA) is running in for the latest information about a debtor\u2019s current credit\ncommitments. The system uses the debtor\u2019s credit exposure to determine the result.\n\nThis operation uses the following message types:\n\nCredit Commitment Query\n",
+ "cleaned_text": "Find Credit Commitment by Debitor\n\nDefinition\n\nTo find a debtor\u2019s credit commitment information.\n\nTechnical Data\n\nEntity Type | Service Operation\n\nRelease State | released\n\nTechnical Name | CreditCommitmentQuery_In\n\nNamespace | http://sap.com/xi/FICA/Global ri\n\nApplication Component | FI-CA\n\nWeb Service Definition (Back End) | CREDITCOMMITMENTQUERY_IN\n\nCategory | SAP A2A\n\nDirection | inbound\n\nMode | synchronous\n\nIdempotency | no\n\nChange/Update Behavior | not applicable\n\nP2P Communication Enabled | true\n\nBusiness Context and Use\n\nThis inbound service operation receives requests for updates to a debitor\u2019s current credit commitments.\n\nRelated Operations\n\nThe Query Credit Commitment by Debitor outbound service operation is sent by the SAP Credit Management process component to the system Contract Accounts Receivable and Payable is running in to request the information.\n\nFeatures\n\nThe Find Credit Commitment by Debitor operation receives requests made from your credit management system to the system Contract Accounts Receivable and Payable (FI-CA) is running in for the latest information about a debtor\u2019s current credit commitments. The system uses the debtor\u2019s credit exposure to determine the result. This operation uses the following message types:\n\nCredit Commitment Query",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p003_b000",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    128,
+    130,
+    1424,
+    207
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "Find Credit Commitment by Debitor",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_008"
+  },
+  {
+   "block_id": "doc_018_p003_b001",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    307,
+    393,
+    353
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_009"
+  },
+  {
+   "block_id": "doc_018_p003_b002",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    440,
+    1026,
+    470
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "text": "To find a debtor\u2019s credit commitment information.",
+   "section_id": "doc_018_sec_009"
+  },
+  {
+   "block_id": "doc_018_p003_b003",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    123,
+    589,
+    530,
+    635
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_010"
+  },
+  {
+   "block_id": "doc_018_p003_b004",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    148,
+    744,
+    1354,
+    1203
+   ],
+   "ocr_confidence": 90.4,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    773
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ],
+    [
+     "Technical Name",
+     "CreditCommitmentQuery_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global ri"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ],
+    [
+     "Technical Name",
+     "CreditCommitmentQuery_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global ri"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ]
+   ],
+   "section_id": "doc_018_sec_010"
+  },
+  {
+   "block_id": "doc_018_p003_b005",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    148,
+    1272,
+    1333,
+    1318
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "Web Service Definition (Back End) | CREDITCOMMITMENTQUERY_IN",
+   "section_id": "doc_018_sec_010"
+  },
+  {
+   "block_id": "doc_018_p003_b006",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    148,
+    1381,
+    1010,
+    1939
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    774
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "section_id": "doc_018_sec_010"
+  },
+  {
+   "block_id": "doc_018_p003_b007",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    2080,
+    853,
+    2127
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Business Context and Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_011"
+  },
+  {
+   "block_id": "doc_018_p003_b008",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    2214,
+    2009,
+    2252
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "This inbound service operation receives requests for updates to a debitor\u2019s current credit commitments.",
+   "section_id": "doc_018_sec_011"
+  },
+  {
+   "block_id": "doc_018_p003_b009",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    124,
+    2335,
+    482,
+    2373
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Related Operations",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_012"
+  },
+  {
+   "block_id": "doc_018_p003_b010",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    2457,
+    2475,
+    2560
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The Query Credit Commitment by Debitor outbound service operation is sent by the SAP Credit Management process component to the system Contract Accounts Receivable and Payable is running in to request the information.",
+   "section_id": "doc_018_sec_012"
+  },
+  {
+   "block_id": "doc_018_p003_b011",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    2673,
+    361,
+    2718
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_013"
+  },
+  {
+   "block_id": "doc_018_p003_b012",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    2802,
+    2449,
+    3090
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "The Find Credit Commitment by Debitor operation receives requests made from your credit management system to the system Contract Accounts Receivable and Payable (FI-CA) is running in for the latest information about a debtor\u2019s current credit commitments. The system uses the debtor\u2019s credit exposure to determine the result. This operation uses the following message types:",
+   "section_id": "doc_018_sec_013"
+  },
+  {
+   "block_id": "doc_018_p003_b013",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    123,
+    3173,
+    620,
+    3211
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Credit Commitment Query",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_014"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 64.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "407e0600ea3ee4de8a4f91822b5bc8af2d708906e2285f5f642276fadcf73af6"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Find Credit Commitment by Debitor"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_008",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_009",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_010",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_011",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_012",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_013",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_014",
+   "role": "starts_here"
+  }
+ ]
+}

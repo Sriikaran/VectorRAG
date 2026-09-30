@@ -1,0 +1,456 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 107,
+ "source_page_hash": "51b3639098efbf57e68b4fb3483b742be377b319d438d4dfa6f80f84e29ca2fb",
+ "is_cover_page": false,
+ "title": "Text for Due Date Control",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nField                                                                       Function                                                                Symbol\n\nText for Due Date Control\nData Exchange Format                              z.B. MSCONS\n\nText for DATEX format                                   Description of data exchange format\n\nMigration of Points of Delivery\n\nFor more information, see Migration of points of delivery.\n\nExample 1\n\nDevice 4711, containing the registers listed below, is allocated to installation 0815:\n\nDevice 4711                     Register Code                 Interval Length\nReg 1                             Watt-hour energy           15 mins\nReg 2                           Reactive consumption | 15 mins\n\nWhen you created installation 0815, deregulation point of delivery POD 1 was created automatically. Allocate the point of delivery a\nPOD ID, so that you have the allocation shown below:\n\nPoint of Delivery         Dereg POD                 Tech POD                   Installation                 Reg 1                          Reg 2\n(PoD)\nPOD1                       X                                                           X\n\nYou can now use the point of delivery ID of POD 1 and the corresponding register code to import the profile values of the profiles\nallocated to the registers.\n\nYou therefore do not have to use a technical point of delivery in order to import profile values.\nThe Consumption role category is allocated as a default setting. If you do not specify a role category, as is the case in the following\n\ngraphic, the profile values are imported for the profile that is allocated to the register with the Watt-hours register code and the\nConsumption role (colored light gray in the graphic).\n",
+ "cleaned_text": "Field | Function | Symbol\n\nText for Due Date Control\n\nData Exchange Format | z.B. MSCONS\n\nText for DATEX format | Description of data exchange format\n\nMigration of Points of Delivery\n\nFor more information, see Migration of points of delivery.\n\nExample 1\n\nDevice 4711, containing the registers listed below, is allocated to installation 0815:\n\nDevice 4711 | Register Code | Interval Length\n\nReg 1 | Watt-hour energy | 15 mins\n\nReg 2 | Reactive consumption | 15 mins\n\nWhen you created installation 0815, deregulation point of delivery POD 1 was created automatically. Allocate the point of delivery a POD ID, so that you have the allocation shown below:\n\nPoint of Delivery | Dereg POD | Tech POD | Installation | Reg 1 | Reg 2\n\n(PoD)\n\nPOD1 | X | X\n\nYou can now use the point of delivery ID of POD 1 and the corresponding register code to import the profile values of the profiles allocated to the registers. You therefore do not have to use a technical point of delivery in order to import profile values. The Consumption role category is allocated as a default setting. If you do not specify a role category, as is the case in the following graphic, the profile values are imported for the profile that is allocated to the register with the Watt-hours register code and the Consumption role (colored light gray in the graphic).",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p107_b000",
+   "type": "table",
+   "page_number": 107,
+   "bbox": [
+    149,
+    159,
+    1854,
+    195
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    149,
+    938,
+    1726
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Field",
+     "Function",
+     "Symbol"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Field",
+     "Function",
+     "Symbol"
+    ]
+   ],
+   "section_id": "doc_001_sec_424"
+  },
+  {
+   "block_id": "doc_001_p107_b001",
+   "type": "heading",
+   "page_number": 107,
+   "bbox": [
+    148,
+    264,
+    569,
+    293
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Text for Due Date Control",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_425"
+  },
+  {
+   "block_id": "doc_001_p107_b002",
+   "type": "table",
+   "page_number": 107,
+   "bbox": [
+    148,
+    370,
+    1548,
+    510
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    937
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Data Exchange Format",
+     "z.B. MSCONS"
+    ],
+    [
+     "Text for DATEX format",
+     "Description of data exchange format"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Data Exchange Format",
+     "z.B. MSCONS"
+    ],
+    [
+     "Text for DATEX format",
+     "Description of data exchange format"
+    ]
+   ],
+   "section_id": "doc_001_sec_425"
+  },
+  {
+   "block_id": "doc_001_p107_b003",
+   "type": "heading",
+   "page_number": 107,
+   "bbox": [
+    124,
+    621,
+    688,
+    659
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Migration of Points of Delivery",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_426"
+  },
+  {
+   "block_id": "doc_001_p107_b004",
+   "type": "paragraph",
+   "page_number": 107,
+   "bbox": [
+    125,
+    742,
+    1157,
+    780
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "text": "For more information, see Migration of points of delivery.",
+   "section_id": "doc_001_sec_426"
+  },
+  {
+   "block_id": "doc_001_p107_b005",
+   "type": "heading",
+   "page_number": 107,
+   "bbox": [
+    128,
+    930,
+    485,
+    1005
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Example 1",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p107_b006",
+   "type": "paragraph",
+   "page_number": 107,
+   "bbox": [
+    125,
+    1077,
+    1595,
+    1116
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Device 4711, containing the registers listed below, is allocated to installation 0815:",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p107_b007",
+   "type": "table",
+   "page_number": 107,
+   "bbox": [
+    149,
+    1224,
+    1256,
+    1475
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    149,
+    572,
+    996
+   ],
+   "headers": [
+    "Device 4711",
+    "Register Code",
+    "Interval Length"
+   ],
+   "rows": [
+    [
+     "Reg 1",
+     "Watt-hour energy",
+     "15 mins"
+    ],
+    [
+     "Reg 2",
+     "Reactive consumption | 15 mins"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Device 4711",
+     "Register Code",
+     "Interval Length"
+    ],
+    [
+     "Reg 1",
+     "Watt-hour energy",
+     "15 mins"
+    ],
+    [
+     "Reg 2",
+     "Reactive consumption | 15 mins"
+    ]
+   ],
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p107_b008",
+   "type": "paragraph",
+   "page_number": 107,
+   "bbox": [
+    123,
+    1580,
+    2479,
+    1680
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "When you created installation 0815, deregulation point of delivery POD 1 was created automatically. Allocate the point of delivery a POD ID, so that you have the allocation shown below:",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p107_b009",
+   "type": "table",
+   "page_number": 107,
+   "bbox": [
+    149,
+    1789,
+    2215,
+    1825
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    149,
+    543,
+    936,
+    1333,
+    1727,
+    2121
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Point of Delivery",
+     "Dereg POD",
+     "Tech POD",
+     "Installation",
+     "Reg 1",
+     "Reg 2"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Point of Delivery",
+     "Dereg POD",
+     "Tech POD",
+     "Installation",
+     "Reg 1",
+     "Reg 2"
+    ]
+   ],
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p107_b010",
+   "type": "paragraph",
+   "page_number": 107,
+   "bbox": [
+    148,
+    1848,
+    245,
+    1883
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [],
+   "text": "(PoD)",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p107_b011",
+   "type": "table",
+   "page_number": 107,
+   "bbox": [
+    150,
+    1954,
+    1352,
+    1982
+   ],
+   "ocr_confidence": 86.7,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    150,
+    543,
+    1331
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "POD1",
+     "X",
+     "X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "POD1",
+     "X",
+     "X"
+    ]
+   ],
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p107_b012",
+   "type": "paragraph",
+   "page_number": 107,
+   "bbox": [
+    122,
+    2099,
+    2482,
+    2572
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You can now use the point of delivery ID of POD 1 and the corresponding register code to import the profile values of the profiles allocated to the registers. You therefore do not have to use a technical point of delivery in order to import profile values. The Consumption role category is allocated as a default setting. If you do not specify a role category, as is the case in the following graphic, the profile values are imported for the profile that is allocated to the register with the Watt-hours register code and the Consumption role (colored light gray in the graphic).",
+   "section_id": "doc_001_sec_427"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "51b3639098efbf57e68b4fb3483b742be377b319d438d4dfa6f80f84e29ca2fb"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Point of Delivery (PoD)",
+  "Integration",
+  "Symbol"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_424",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_425",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_426",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_427",
+   "role": "starts_here"
+  }
+ ]
+}

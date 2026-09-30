@@ -1,0 +1,308 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 90,
+ "source_page_hash": "f5a15b3621bbc6783f87a1dffa3622c0e5edffa8ced1ef8b2ea6e6f381f73b31",
+ "is_cover_page": false,
+ "title": "Interaction - Estimation and Actual Meter Reading",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nQa, \u00ae,\n\nExample 4\n\nIn example 4, interpolation takes place between the estimated meter readings MRO and MR1. The system uses the (averaged)\nfactor \u00ae from the period MRO to MR1 in all steps for the conversion between meter reading and consumption. This ensures that\n\nthe total consumption Q is retained:\n\nQ= Qe + Ql.\n\nIf another meter reading is subsequently estimated between MRO and E, the system uses the averaged factor Ye from the period\nMR1 to E for the conversion between the meter readings and consumption values. However, as the factors \u00ae and e are generally\ndifferent, the total consumption Q is not retained.\n\nInteraction - Estimation and Actual Meter Reading\n\nUse\n\nOne feature of the quantity determination procedure Quantity Determination During Meter Reading for the gas division is the way\nin which the quantity is calculated once an actual meter reading is available following one or more estimations (usually\nextrapolations).\n\nFeatures\n\nIn this case, to harmonize the results, the gas factors are determined for the most recent actual previous meter reading result. The\nsystem calculates the quantity as follows:\n\nQ, = (MR, - E,) * 0\n\nFormula\n\nThis is explained in the following figure.\nThe abbreviations have the following meanings:\n\ne MR =Actual Meter Reading Result\n",
+ "cleaned_text": "Qa, \u00ae,\n\nExample 4 In example 4, interpolation takes place between the estimated meter readings MRO and MR1. The system uses the (averaged) factor \u00ae from the period MRO to MR1 in all steps for the conversion between meter reading and consumption. This ensures that the total consumption Q is retained: Q= Qe + Ql. If another meter reading is subsequently estimated between MRO and E, the system uses the averaged factor Ye from the period MR1 to E for the conversion between the meter readings and consumption values. However, as the factors \u00ae and e are generally different, the total consumption Q is not retained.\n\nInteraction - Estimation and Actual Meter Reading\n\nUse\n\nOne feature of the quantity determination procedure Quantity Determination During Meter Reading for the gas division is the way in which the quantity is calculated once an actual meter reading is available following one or more estimations (usually extrapolations).\n\nFeatures\n\nIn this case, to harmonize the results, the gas factors are determined for the most recent actual previous meter reading result. The system calculates the quantity as follows:\n\nQ, = (MR, - E,) * 0\n\nFormula\n\nThis is explained in the following figure. The abbreviations have the following meanings:\n\n- MR =Actual Meter Reading Result",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p090_b000",
+   "type": "paragraph",
+   "page_number": 90,
+   "bbox": [
+    842,
+    677,
+    963,
+    734
+   ],
+   "ocr_confidence": 39.5,
+   "flags": [
+    "low_confidence_words:2",
+    "in_graphic_region"
+   ],
+   "text": "Qa, \u00ae,",
+   "section_id": "doc_006_sec_243"
+  },
+  {
+   "block_id": "doc_006_p090_b001",
+   "type": "paragraph",
+   "page_number": 90,
+   "bbox": [
+    122,
+    840,
+    2457,
+    1493
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "Example 4 In example 4, interpolation takes place between the estimated meter readings MRO and MR1. The system uses the (averaged) factor \u00ae from the period MRO to MR1 in all steps for the conversion between meter reading and consumption. This ensures that the total consumption Q is retained: Q= Qe + Ql. If another meter reading is subsequently estimated between MRO and E, the system uses the averaged factor Ye from the period MR1 to E for the conversion between the meter readings and consumption values. However, as the factors \u00ae and e are generally different, the total consumption Q is not retained.",
+   "section_id": "doc_006_sec_243"
+  },
+  {
+   "block_id": "doc_006_p090_b002",
+   "type": "heading",
+   "page_number": 90,
+   "bbox": [
+    129,
+    1639,
+    1934,
+    1715
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Interaction - Estimation and Actual Meter Reading",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_244"
+  },
+  {
+   "block_id": "doc_006_p090_b003",
+   "type": "heading",
+   "page_number": 90,
+   "bbox": [
+    125,
+    1815,
+    225,
+    1860
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_245"
+  },
+  {
+   "block_id": "doc_006_p090_b004",
+   "type": "paragraph",
+   "page_number": 90,
+   "bbox": [
+    123,
+    1947,
+    2488,
+    2110
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "One feature of the quantity determination procedure Quantity Determination During Meter Reading for the gas division is the way in which the quantity is calculated once an actual meter reading is available following one or more estimations (usually extrapolations).",
+   "section_id": "doc_006_sec_245"
+  },
+  {
+   "block_id": "doc_006_p090_b005",
+   "type": "heading",
+   "page_number": 90,
+   "bbox": [
+    126,
+    2223,
+    361,
+    2268
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_246"
+  },
+  {
+   "block_id": "doc_006_p090_b006",
+   "type": "paragraph",
+   "page_number": 90,
+   "bbox": [
+    123,
+    2355,
+    2475,
+    2455
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "In this case, to harmonize the results, the gas factors are determined for the most recent actual previous meter reading result. The system calculates the quantity as follows:",
+   "section_id": "doc_006_sec_246"
+  },
+  {
+   "block_id": "doc_006_p090_b007",
+   "type": "paragraph",
+   "page_number": 90,
+   "bbox": [
+    190,
+    2637,
+    973,
+    2723
+   ],
+   "ocr_confidence": 59.0,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "Q, = (MR, - E,) * 0",
+   "section_id": "doc_006_sec_246"
+  },
+  {
+   "block_id": "doc_006_p090_b008",
+   "type": "heading",
+   "page_number": 90,
+   "bbox": [
+    124,
+    2851,
+    256,
+    2879
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Formula",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_247"
+  },
+  {
+   "block_id": "doc_006_p090_b009",
+   "type": "paragraph",
+   "page_number": 90,
+   "bbox": [
+    122,
+    2966,
+    979,
+    3126
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "This is explained in the following figure. The abbreviations have the following meanings:",
+   "section_id": "doc_006_sec_247"
+  },
+  {
+   "block_id": "doc_006_p090_b010",
+   "type": "list",
+   "page_number": 90,
+   "bbox": [
+    207,
+    3209,
+    871,
+    3247
+   ],
+   "ocr_confidence": 66.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MR =Actual Meter Reading Result"
+    }
+   ],
+   "section_id": "doc_006_sec_247"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.0889,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "f5a15b3621bbc6783f87a1dffa3622c0e5edffa8ced1ef8b2ea6e6f381f73b31"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Interpolation",
+  "Features",
+  "Interpolation Between Estimated Meter Readings"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_243",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_244",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_245",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_246",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_247",
+   "role": "starts_here"
+  }
+ ]
+}

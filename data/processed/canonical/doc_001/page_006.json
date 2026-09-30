@@ -1,0 +1,403 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 6,
+ "source_page_hash": "d30c186e1f3ffc24ad8e830234927799c68d5c5db3c8632b0a02843141abf386",
+ "is_cover_page": false,
+ "title": "Change of Payment Data",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nWhen creating a contract partner in the background, you can create a standard customer in Sales and Distribution (SD). The\n\nsystem uses a pre-defined sample customer as a template. You can then change the master data of the customer in the standard\nsystem.\n\nYou can meet the specifications for the creation of an SD customer in parallel with the business partner in Customizing for SAP\nUtilities under |}/Master Data \u00bb Business Partner \u00bb Settings for Creating Standard Customers\n\nee Example\n\nSome of your customers utilize service or maintenance industries pay charges or sell goods that are processed by means of\norders in Sales and Distribution.\n\nChange of Payment Data\n\nUse\n\nYou can change the bank data and payment card details in the master record of a business partner.\n\nIntegration\n\nYou can change payment data not only in the master data of the business partner, you can change it at the same time in\ndependent objects. For example, you can change the bank details of a customer, who went from being a cash payer to a direct\ndebit payer, in his or her contract account, or you can change the payment data for incoming payments of a business partner in his\nor her prepaid account.\n\n1 Note\n\nNote for the industry component Insurance\nYou can also change the payment data in the insurance object-partner relationships.\nNote for the industry component Public Sector Contract Accounts Receivable and Payable\n\nYou can also change the payment data in the contract object-partner relationships.\n\nThe system does not support editing of customer contacts.\n\nFeatures\nUsing the Change Payment Data transaction, you can centrally perform the following actions for a business partner:\n\ne Create new bank details/payment cards\ne Change existing bank details/payment card data\n\ne Delete bank details/payment cards on the contract account, and as a follow-up action delete them in the business partner\nmaster record\n\ne Create customer contacts\n",
+ "cleaned_text": "When creating a contract partner in the background, you can create a standard customer in Sales and Distribution (SD). The system uses a pre-defined sample customer as a template. You can then change the master data of the customer in the standard system. You can meet the specifications for the creation of an SD customer in parallel with the business partner in Customizing for SAP Utilities under |}/Master Data \u00bb Business Partner \u00bb Settings for Creating Standard Customers ee Example Some of your customers utilize service or maintenance industries pay charges or sell goods that are processed by means of orders in Sales and Distribution.\n\nChange of Payment Data\n\nUse\n\nYou can change the bank data and payment card details in the master record of a business partner.\n\nIntegration\n\nYou can change payment data not only in the master data of the business partner, you can change it at the same time in dependent objects. For example, you can change the bank details of a customer, who went from being a cash payer to a direct debit payer, in his or her contract account, or you can change the payment data for incoming payments of a business partner in his or her prepaid account.\n\nNote\n\nNote for the industry component Insurance\n\nYou can also change the payment data in the insurance object-partner relationships.\n\nNote for the industry component Public Sector Contract Accounts Receivable and Payable\n\nYou can also change the payment data in the contract object-partner relationships.\n\nThe system does not support editing of customer contacts.\n\nFeatures\n\nUsing the Change Payment Data transaction, you can centrally perform the following actions for a business partner:\n\n- Create new bank details/payment cards\n\n- Change existing bank details/payment card data\n\n- Delete bank details/payment cards on the contract account, and as a follow-up action delete them in the business partner master record\n\n- Create customer contacts",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1882,
+    310,
+    1919
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p006_b000",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    123,
+    134,
+    2453,
+    766
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "When creating a contract partner in the background, you can create a standard customer in Sales and Distribution (SD). The system uses a pre-defined sample customer as a template. You can then change the master data of the customer in the standard system. You can meet the specifications for the creation of an SD customer in parallel with the business partner in Customizing for SAP Utilities under |}/Master Data \u00bb Business Partner \u00bb Settings for Creating Standard Customers ee Example Some of your customers utilize service or maintenance industries pay charges or sell goods that are processed by means of orders in Sales and Distribution.",
+   "section_id": "doc_001_sec_015"
+  },
+  {
+   "block_id": "doc_001_p006_b001",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    125,
+    958,
+    1021,
+    1035
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Change of Payment Data",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_016"
+  },
+  {
+   "block_id": "doc_001_p006_b002",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    125,
+    1135,
+    225,
+    1181
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_017"
+  },
+  {
+   "block_id": "doc_001_p006_b003",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    123,
+    1268,
+    1909,
+    1305
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You can change the bank data and payment card details in the master record of a business partner.",
+   "section_id": "doc_001_sec_017"
+  },
+  {
+   "block_id": "doc_001_p006_b004",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    127,
+    1417,
+    431,
+    1474
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_018"
+  },
+  {
+   "block_id": "doc_001_p006_b005",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    123,
+    1551,
+    2482,
+    1775
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You can change payment data not only in the master data of the business partner, you can change it at the same time in dependent objects. For example, you can change the bank details of a customer, who went from being a cash payer to a direct debit payer, in his or her contract account, or you can change the payment data for incoming payments of a business partner in his or her prepaid account.",
+   "section_id": "doc_001_sec_018"
+  },
+  {
+   "block_id": "doc_001_p006_b006",
+   "type": "note",
+   "page_number": 6,
+   "bbox": [
+    151,
+    1882,
+    310,
+    1919
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "label": "Note",
+   "text": "Note",
+   "section_id": "doc_001_sec_018"
+  },
+  {
+   "block_id": "doc_001_p006_b007",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    154,
+    1958,
+    963,
+    1996
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Note for the industry component Insurance",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_019"
+  },
+  {
+   "block_id": "doc_001_p006_b008",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    152,
+    2083,
+    1674,
+    2120
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "You can also change the payment data in the insurance object-partner relationships.",
+   "section_id": "doc_001_sec_019"
+  },
+  {
+   "block_id": "doc_001_p006_b009",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    154,
+    2204,
+    1839,
+    2242
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Note for the industry component Public Sector Contract Accounts Receivable and Payable",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_020"
+  },
+  {
+   "block_id": "doc_001_p006_b010",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    152,
+    2326,
+    1650,
+    2363
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "You can also change the payment data in the contract object-partner relationships.",
+   "section_id": "doc_001_sec_020"
+  },
+  {
+   "block_id": "doc_001_p006_b011",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    2484,
+    1195,
+    2521
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The system does not support editing of customer contacts.",
+   "section_id": "doc_001_sec_020"
+  },
+  {
+   "block_id": "doc_001_p006_b012",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    126,
+    2633,
+    361,
+    2678
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_021"
+  },
+  {
+   "block_id": "doc_001_p006_b013",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    124,
+    2766,
+    2225,
+    2804
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Using the Change Payment Data transaction, you can centrally perform the following actions for a business partner:",
+   "section_id": "doc_001_sec_021"
+  },
+  {
+   "block_id": "doc_001_p006_b014",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    207,
+    2887,
+    2460,
+    3289
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create new bank details/payment cards"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change existing bank details/payment card data"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Delete bank details/payment cards on the contract account, and as a follow-up action delete them in the business partner master record"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create customer contacts"
+    }
+   ],
+   "section_id": "doc_001_sec_021"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "d30c186e1f3ffc24ad8e830234927799c68d5c5db3c8632b0a02843141abf386"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:26Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Business Partner in the Contract Partner Role (MKK)",
+  "Direct Input"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_015",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_016",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_017",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_018",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_019",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_020",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_021",
+   "role": "starts_here"
+  }
+ ]
+}

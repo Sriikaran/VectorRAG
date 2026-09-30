@@ -1,0 +1,399 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 109,
+ "source_page_hash": "111ea585955d0bb8f961c4b8f442ee798da8a47e08a4f26a1e1d1ff10d346b71",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nBusiness\n\negister\n\nInstallation\nWatt-Hour\n\nProfile Value Import\n\nPoDID        DE 081501\n\nRegister Cd. | Watt-Hour\n\nRole Cat. (*1)| <Forecast>                                                        PoD\nReac.Cons. ,\n\nRole (*1)\n\n(*1) Optional\n\n(Default is Role Category \u00abConsumption>)\n\nIn order to use a deregulation point of delivery in a profile value import, the system from which you import the data must work with\nthe same market-standard point of delivery ID as IS-U-EDM.\n\nIf this is not the case (if for example the automated meter reading system from which you import the values has its own numbers),\nyou must use a technical point of delivery for the import.\n\nPoint of Delivery         Dereg POD                 Tech POD                   Installation                 Reg 1                          Reg 2\n(PoD)\nPOD 1                         X                                                                X\n\nPOD 2                                           X                                                X                       X\n",
+ "cleaned_text": "Business\n\negister Installation Watt-Hour\n\nProfile Value Import\n\nPoDID | DE 081501\n\nRegister Cd. | Watt-Hour\n\nRole Cat. (*1)| <Forecast> | PoD\n\nReac.Cons. , Role (*1)\n\n(*1) Optional (Default is Role Category \u00abConsumption>)\n\nIn order to use a deregulation point of delivery in a profile value import, the system from which you import the data must work with the same market-standard point of delivery ID as IS-U-EDM. If this is not the case (if for example the automated meter reading system from which you import the values has its own numbers), you must use a technical point of delivery for the import.\n\nPoint of Delivery | Dereg POD | Tech POD | Installation | Reg 1 | Reg 2\n\n(PoD)\n\nPOD 1 | X | X\n\nPOD 2 | X | X | X",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p109_b000",
+   "type": "paragraph",
+   "page_number": 109,
+   "bbox": [
+    857,
+    372,
+    1060,
+    409
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Business",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p109_b001",
+   "type": "paragraph",
+   "page_number": 109,
+   "bbox": [
+    805,
+    642,
+    1855,
+    741
+   ],
+   "ocr_confidence": 92.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "egister Installation Watt-Hour",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p109_b002",
+   "type": "paragraph",
+   "page_number": 109,
+   "bbox": [
+    286,
+    894,
+    721,
+    938
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Profile Value Import",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p109_b003",
+   "type": "table",
+   "page_number": 109,
+   "bbox": [
+    188,
+    973,
+    739,
+    1027
+   ],
+   "ocr_confidence": 63.1,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    188,
+    506
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "PoDID",
+     "DE 081501"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "PoDID",
+     "DE 081501"
+    ]
+   ],
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p109_b004",
+   "type": "paragraph",
+   "page_number": 109,
+   "bbox": [
+    188,
+    1102,
+    709,
+    1157
+   ],
+   "ocr_confidence": 89.5,
+   "flags": [],
+   "text": "Register Cd. | Watt-Hour",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p109_b005",
+   "type": "table",
+   "page_number": 109,
+   "bbox": [
+    188,
+    1176,
+    1808,
+    1235
+   ],
+   "ocr_confidence": 79.9,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    188,
+    1712
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Role Cat. (*1)| <Forecast>",
+     "PoD"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Role Cat. (*1)| <Forecast>",
+     "PoD"
+    ]
+   ],
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p109_b006",
+   "type": "paragraph",
+   "page_number": 109,
+   "bbox": [
+    188,
+    1237,
+    1902,
+    1314
+   ],
+   "ocr_confidence": 89.9,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Reac.Cons. , Role (*1)",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p109_b007",
+   "type": "paragraph",
+   "page_number": 109,
+   "bbox": [
+    195,
+    1589,
+    1062,
+    1690
+   ],
+   "ocr_confidence": 56.4,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region"
+   ],
+   "text": "(*1) Optional (Default is Role Category \u00abConsumption>)",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p109_b008",
+   "type": "paragraph",
+   "page_number": 109,
+   "bbox": [
+    122,
+    1972,
+    2481,
+    2256
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "In order to use a deregulation point of delivery in a profile value import, the system from which you import the data must work with the same market-standard point of delivery ID as IS-U-EDM. If this is not the case (if for example the automated meter reading system from which you import the values has its own numbers), you must use a technical point of delivery for the import.",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p109_b009",
+   "type": "table",
+   "page_number": 109,
+   "bbox": [
+    149,
+    2364,
+    2215,
+    2400
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    149,
+    543,
+    936,
+    1333,
+    1727,
+    2121
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Point of Delivery",
+     "Dereg POD",
+     "Tech POD",
+     "Installation",
+     "Reg 1",
+     "Reg 2"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Point of Delivery",
+     "Dereg POD",
+     "Tech POD",
+     "Installation",
+     "Reg 1",
+     "Reg 2"
+    ]
+   ],
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p109_b010",
+   "type": "paragraph",
+   "page_number": 109,
+   "bbox": [
+    148,
+    2423,
+    245,
+    2459
+   ],
+   "ocr_confidence": 91.2,
+   "flags": [],
+   "text": "(PoD)",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p109_b011",
+   "type": "table",
+   "page_number": 109,
+   "bbox": [
+    150,
+    2528,
+    2142,
+    2665
+   ],
+   "ocr_confidence": 86.7,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    150,
+    542,
+    937,
+    1331,
+    1726,
+    2120
+   ],
+   "headers": [
+    "POD 1",
+    "X",
+    "X"
+   ],
+   "rows": [
+    [
+     "POD 2",
+     "X",
+     "X",
+     "X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "POD 1",
+     "X",
+     "X"
+    ],
+    [
+     "POD 2",
+     "X",
+     "X",
+     "X"
+    ]
+   ],
+   "section_id": "doc_001_sec_427"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 60.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "111ea585955d0bb8f961c4b8f442ee798da8a47e08a4f26a1e1d1ff10d346b71"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Example 1"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_427",
+   "role": "continues"
+  }
+ ]
+}

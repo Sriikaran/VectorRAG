@@ -1,0 +1,406 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 79,
+ "source_page_hash": "ef11de4b2b385ca0029893adfb09a83822e458503e67433771f7eee6fe3e1559",
+ "is_cover_page": false,
+ "title": "Example 2",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nConfirm your entries.\n\nThe correspondence is created.\n\nExample\nExample 1\n\nA customer informs you that she has recently married and informs you of her new last name. She requests written confirmation\nthat her data has been changed. Once the clerk has entered the new name in the field Last Name (BUTOOO-NAME_LAST) in the\n\ntransaction Change Business Partner , he creates a correspondence that documents the change made and sends it to the\ncustomer.\n\nExample 2\n\nA tenant informs you that the bank details for the collection authorization that you have will change in two months. The clerk\nenters the new bank details in the field Bank Details ID for incoming payments (field FKKVKP-EBVTY) in the transaction Contract\n\nAccount and schedules the change for the date specified. Using the correspondence for master data changes he informs the\ntenant about the change planned in the system.\n\nContract Account and Contract Special Features for IS-U\n\nThis documentation section contains information about enhancements and variations from the FI-CA contract account and\ncontract, which apply specifically to SAP Utilities (IS-U).\n\nContracts (IS-U)\n\nDefinition\n\nContracts in IS-U.\n\nUse\n\nContracts represent the entities that are billed. You can bill one or more contracts together using a contract account.\nStructure\n\nYou can divide the data from contracts into three categories:\n\ne General data\n\ne Data relevant to billing (business)\n\ne Data regarding move-in and move-out.\nIntegration\n\nContracts are linked to installations in |S-U; these installations contain technical data with regard to billing. In the case of a move-\nout, the installation remains and the contract is ended. In the case of the next move-in, a new contract is created and linked to the\n",
+ "cleaned_text": "Confirm your entries. The correspondence is created.\n\nExample Example 1 A customer informs you that she has recently married and informs you of her new last name. She requests written confirmation that her data has been changed. Once the clerk has entered the new name in the field Last Name (BUTOOO-NAME_LAST) in the transaction Change Business Partner , he creates a correspondence that documents the change made and sends it to the customer.\n\nExample 2\n\nA tenant informs you that the bank details for the collection authorization that you have will change in two months. The clerk enters the new bank details in the field Bank Details ID for incoming payments (field FKKVKP-EBVTY) in the transaction Contract Account and schedules the change for the date specified. Using the correspondence for master data changes he informs the tenant about the change planned in the system.\n\nContract Account and Contract Special Features for IS-U\n\nThis documentation section contains information about enhancements and variations from the FI-CA contract account and contract, which apply specifically to SAP Utilities (IS-U).\n\nContracts (IS-U)\n\nDefinition\n\nContracts in IS-U.\n\nUse\n\nContracts represent the entities that are billed. You can bill one or more contracts together using a contract account.\n\nStructure\n\nYou can divide the data from contracts into three categories:\n\n- General data\n\n- Data relevant to billing (business)\n\n- Data regarding move-in and move-out.\n\nIntegration\n\nContracts are linked to installations in |S-U; these installations contain technical data with regard to billing. In the case of a move-out, the installation remains and the contract is ended. In the case of the next move-in, a new contract is created and linked to the",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p079_b000",
+   "type": "paragraph",
+   "page_number": 79,
+   "bbox": [
+    122,
+    134,
+    692,
+    294
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Confirm your entries. The correspondence is created.",
+   "section_id": "doc_001_sec_305"
+  },
+  {
+   "block_id": "doc_001_p079_b001",
+   "type": "example",
+   "page_number": 79,
+   "bbox": [
+    122,
+    406,
+    2433,
+    881
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Example Example 1 A customer informs you that she has recently married and informs you of her new last name. She requests written confirmation that her data has been changed. Once the clerk has entered the new name in the field Last Name (BUTOOO-NAME_LAST) in the transaction Change Business Partner , he creates a correspondence that documents the change made and sends it to the customer.",
+   "section_id": "doc_001_sec_305"
+  },
+  {
+   "block_id": "doc_001_p079_b002",
+   "type": "heading",
+   "page_number": 79,
+   "bbox": [
+    124,
+    972,
+    313,
+    1010
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Example 2",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_306"
+  },
+  {
+   "block_id": "doc_001_p079_b003",
+   "type": "paragraph",
+   "page_number": 79,
+   "bbox": [
+    122,
+    1094,
+    2470,
+    1322
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "A tenant informs you that the bank details for the collection authorization that you have will change in two months. The clerk enters the new bank details in the field Bank Details ID for incoming payments (field FKKVKP-EBVTY) in the transaction Contract Account and schedules the change for the date specified. Using the correspondence for master data changes he informs the tenant about the change planned in the system.",
+   "section_id": "doc_001_sec_306"
+  },
+  {
+   "block_id": "doc_001_p079_b004",
+   "type": "heading",
+   "page_number": 79,
+   "bbox": [
+    125,
+    1467,
+    2173,
+    1543
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Contract Account and Contract Special Features for IS-U",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_307"
+  },
+  {
+   "block_id": "doc_001_p079_b005",
+   "type": "paragraph",
+   "page_number": 79,
+   "bbox": [
+    122,
+    1619,
+    2354,
+    1719
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "This documentation section contains information about enhancements and variations from the FI-CA contract account and contract, which apply specifically to SAP Utilities (IS-U).",
+   "section_id": "doc_001_sec_307"
+  },
+  {
+   "block_id": "doc_001_p079_b006",
+   "type": "heading",
+   "page_number": 79,
+   "bbox": [
+    125,
+    1868,
+    720,
+    1944
+   ],
+   "ocr_confidence": 86.8,
+   "flags": [],
+   "text": "Contracts (IS-U)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_308"
+  },
+  {
+   "block_id": "doc_001_p079_b007",
+   "type": "heading",
+   "page_number": 79,
+   "bbox": [
+    124,
+    2017,
+    302,
+    2047
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Definition",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_309"
+  },
+  {
+   "block_id": "doc_001_p079_b008",
+   "type": "paragraph",
+   "page_number": 79,
+   "bbox": [
+    123,
+    2138,
+    440,
+    2169
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [],
+   "text": "Contracts in IS-U.",
+   "section_id": "doc_001_sec_309"
+  },
+  {
+   "block_id": "doc_001_p079_b009",
+   "type": "heading",
+   "page_number": 79,
+   "bbox": [
+    124,
+    2260,
+    191,
+    2290
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Use",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_310"
+  },
+  {
+   "block_id": "doc_001_p079_b010",
+   "type": "paragraph",
+   "page_number": 79,
+   "bbox": [
+    123,
+    2385,
+    2229,
+    2422
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Contracts represent the entities that are billed. You can bill one or more contracts together using a contract account.",
+   "section_id": "doc_001_sec_310"
+  },
+  {
+   "block_id": "doc_001_p079_b011",
+   "type": "heading",
+   "page_number": 79,
+   "bbox": [
+    123,
+    2506,
+    301,
+    2536
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "Structure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_311"
+  },
+  {
+   "block_id": "doc_001_p079_b012",
+   "type": "paragraph",
+   "page_number": 79,
+   "bbox": [
+    123,
+    2628,
+    1214,
+    2666
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You can divide the data from contracts into three categories:",
+   "section_id": "doc_001_sec_311"
+  },
+  {
+   "block_id": "doc_001_p079_b013",
+   "type": "list",
+   "page_number": 79,
+   "bbox": [
+    207,
+    2749,
+    947,
+    2994
+   ],
+   "ocr_confidence": 91.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "General data"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Data relevant to billing (business)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Data regarding move-in and move-out."
+    }
+   ],
+   "section_id": "doc_001_sec_311"
+  },
+  {
+   "block_id": "doc_001_p079_b014",
+   "type": "heading",
+   "page_number": 79,
+   "bbox": [
+    125,
+    3078,
+    328,
+    3116
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Integration",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_312"
+  },
+  {
+   "block_id": "doc_001_p079_b015",
+   "type": "paragraph",
+   "page_number": 79,
+   "bbox": [
+    123,
+    3200,
+    2462,
+    3296
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Contracts are linked to installations in |S-U; these installations contain technical data with regard to billing. In the case of a move-out, the installation remains and the contract is ended. In the case of the next move-in, a new contract is created and linked to the",
+   "section_id": "doc_001_sec_312"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "ef11de4b2b385ca0029893adfb09a83822e458503e67433771f7eee6fe3e1559"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Correspondence for Master Data Changes",
+  "Activities",
+  "Contract Account , choose ExtrasAdditional ExtrasCorrespondence"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_305",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_306",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_307",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_308",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_309",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_310",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_311",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_312",
+   "role": "starts_here"
+  }
+ ]
+}

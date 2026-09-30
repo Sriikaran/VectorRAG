@@ -1,0 +1,158 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 36,
+ "source_page_hash": "ace484411fa5b138bec00f4a044d75ae23b8790b4bf3b13ad76843c0373ccbc8",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nExtrapolation period\n\nActual meter\nreading results\n\n3. Determination of the time variability\n\nTransfer of schedule records to the extrapolation period\n",
+ "cleaned_text": "Extrapolation period\n\nActual meter reading results\n\n3 Determination of the time variability Transfer of schedule records to the extrapolation period",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p036_b000",
+   "type": "paragraph",
+   "page_number": 36,
+   "bbox": [
+    1381,
+    245,
+    1918,
+    296
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Extrapolation period",
+   "section_id": "doc_006_sec_053"
+  },
+  {
+   "block_id": "doc_006_p036_b001",
+   "type": "paragraph",
+   "page_number": 36,
+   "bbox": [
+    1237,
+    1004,
+    1633,
+    1123
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Actual meter reading results",
+   "section_id": "doc_006_sec_053"
+  },
+  {
+   "block_id": "doc_006_p036_b002",
+   "type": "list",
+   "page_number": 36,
+   "bbox": [
+    211,
+    1854,
+    1261,
+    1994
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Determination of the time variability Transfer of schedule records to the extrapolation period"
+    }
+   ],
+   "section_id": "doc_006_sec_053"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 67,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "ace484411fa5b138bec00f4a044d75ae23b8790b4bf3b13ad76843c0373ccbc8"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:34Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Extrapolation of Demand from Billing",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_053",
+   "role": "continues"
+  }
+ ]
+}

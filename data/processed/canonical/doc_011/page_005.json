@@ -1,0 +1,404 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 5,
+ "source_page_hash": "a7e54f95805f4b48475fddbbe42effbbab43caa63070fe6fc623993f26861c29",
+ "is_cover_page": false,
+ "title": "Customizing for Installation",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nallocate one of the available basic categories from the Basic Categories of Dynamic Period Control table (BASDYPERASS) to this\nvalue:\n\ne Determination of current periods via meter reading results\n\ne Estimation of meter reading results in billing\n\nThis basic category ensures that estimated meter reading results are extrapolated during billing and are not saved in the Meter\nReading Document table.\n\nSelect the Adv.Bill. field in the rate category if you also want to execute billing in advance in a DPC. You can control billing in\nadvance for DPC by allocating a period with the basic category Advance Period (5) to the time slice generator.\n\nCustomizing for Installation\n\nIf you allocate a rate category with the DPC basic category estimation of meter reading results in billing to an installation, you\nalso have to allocate a meter reading unit to the installation in which the Estim. in Bill. field is selected for billing with the\nscheduled meter reading category Automatic Estimation.\n\nCustomizing for Scheduling\n\ne If you use DPC with the basic category Estimation of Meter Reading Results in Billing, you have to maintain the Estim. in\nBill. field in the meter reading unit for the dates when you want a meter reading result to be estimated. When you make this\nsetting, meter reading orders are not generated during order creation for dates with estimation.\n\nThe billing order is given the status Billable; the value Billing Estimates Value from Meter Reading Unit (01) is entered in\nthe Estimated in Billing field.\n\ne If you use DPC with the basic category determination of current periods via meter reading results, you do not have to\nmake any extra settings in scheduling.\n\nAs a supplier in a deregulated scenario, you can execute your transactions independently of the distributor\u2019s scheduling. You can\norganize scheduling based on your billing grid. The system estimates a meter reading result for the billing dates. If the distributor\nreports a real meter reading result, you enter an interim meter reading with billing. In this billing run, the system corrects the\nperiod back to the last real meter reading result.\n\nProcessing Meter Reading Data in Dynamic Period Control\n\nYou can use the following enhancements and programs for processing meter reading data for dynamic period control (DPC).\n\nEnhancement:Customer-Specific, Independent Validation\n\nIf you use DPC with the basic category Determination of Current Periods via Meter Reading Results , you can use the Customer-\nSpecific, Independent Validation enhancement (EDMLELDV) to implement an individual validation. This check determines if the\n\ncurrent real meter reading results is greater than the last real meter reading result. For more information, see SAP note 398471.\n\nPrograms\n\nlf voip rroa NPC with the hacic cataoonryv Ectimation af Mater Raadino Reeciilte in Rillino voicantica cavaral nrnorame to chanoa\n",
+ "cleaned_text": "allocate one of the available basic categories from the Basic Categories of Dynamic Period Control table (BASDYPERASS) to this value:\n\n- Determination of current periods via meter reading results\n\n- Estimation of meter reading results in billing\n\nThis basic category ensures that estimated meter reading results are extrapolated during billing and are not saved in the Meter Reading Document table. Select the Adv.Bill. field in the rate category if you also want to execute billing in advance in a DPC. You can control billing in advance for DPC by allocating a period with the basic category Advance Period (5) to the time slice generator.\n\nCustomizing for Installation\n\nIf you allocate a rate category with the DPC basic category estimation of meter reading results in billing to an installation, you also have to allocate a meter reading unit to the installation in which the Estim. in Bill. field is selected for billing with the scheduled meter reading category Automatic Estimation.\n\nCustomizing for Scheduling\n\n- If you use DPC with the basic category Estimation of Meter Reading Results in Billing, you have to maintain the Estim. in Bill. field in the meter reading unit for the dates when you want a meter reading result to be estimated. When you make this\n\nsetting, meter reading orders are not generated during order creation for dates with estimation. The billing order is given the status Billable; the value Billing Estimates Value from Meter Reading Unit (01) is entered in the Estimated in Billing field.\n\n- If you use DPC with the basic category determination of current periods via meter reading results, you do not have to make any extra settings in scheduling.\n\nAs a supplier in a deregulated scenario, you can execute your transactions independently of the distributor\u2019s scheduling. You can organize scheduling based on your billing grid. The system estimates a meter reading result for the billing dates. If the distributor reports a real meter reading result, you enter an interim meter reading with billing. In this billing run, the system corrects the period back to the last real meter reading result.\n\nProcessing Meter Reading Data in Dynamic Period Control\n\nYou can use the following enhancements and programs for processing meter reading data for dynamic period control (DPC).\n\nEnhancement:Customer-Specific, Independent Validation\n\nIf you use DPC with the basic category Determination of Current Periods via Meter Reading Results , you can use the Customer- Specific, Independent Validation enhancement (EDMLELDV) to implement an individual validation. This check determines if the current real meter reading results is greater than the last real meter reading result. For more information, see SAP note 398471.\n\nPrograms\n\nlf voip rroa NPC with the hacic cataoonryv Ectimation af Mater Raadino Reeciilte in Rillino voicantica cavaral nrnorame to chanoa",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p005_b000",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    134,
+    2473,
+    227
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "allocate one of the available basic categories from the Basic Categories of Dynamic Period Control table (BASDYPERASS) to this value:",
+   "section_id": "doc_011_sec_013"
+  },
+  {
+   "block_id": "doc_011_p005_b001",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    318,
+    1311,
+    461
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Determination of current periods via meter reading results"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Estimation of meter reading results in billing"
+    }
+   ],
+   "section_id": "doc_011_sec_013"
+  },
+  {
+   "block_id": "doc_011_p005_b002",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    545,
+    2421,
+    829
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "This basic category ensures that estimated meter reading results are extrapolated during billing and are not saved in the Meter Reading Document table. Select the Adv.Bill. field in the rate category if you also want to execute billing in advance in a DPC. You can control billing in advance for DPC by allocating a period with the basic category Advance Period (5) to the time slice generator.",
+   "section_id": "doc_011_sec_013"
+  },
+  {
+   "block_id": "doc_011_p005_b003",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    124,
+    940,
+    900,
+    998
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Customizing for Installation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_014"
+  },
+  {
+   "block_id": "doc_011_p005_b004",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    123,
+    1074,
+    2413,
+    1240
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "If you allocate a rate category with the DPC basic category estimation of meter reading results in billing to an installation, you also have to allocate a meter reading unit to the installation in which the Estim. in Bill. field is selected for billing with the scheduled meter reading category Automatic Estimation.",
+   "section_id": "doc_011_sec_014"
+  },
+  {
+   "block_id": "doc_011_p005_b005",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    124,
+    1351,
+    900,
+    1409
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Customizing for Scheduling",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_015"
+  },
+  {
+   "block_id": "doc_011_p005_b006",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    1481,
+    2477,
+    1585
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you use DPC with the basic category Estimation of Meter Reading Results in Billing, you have to maintain the Estim. in Bill. field in the meter reading unit for the dates when you want a meter reading result to be estimated. When you make this"
+    }
+   ],
+   "section_id": "doc_011_sec_015"
+  },
+  {
+   "block_id": "doc_011_p005_b007",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    254,
+    1610,
+    2444,
+    1812
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "setting, meter reading orders are not generated during order creation for dates with estimation. The billing order is given the status Billable; the value Billing Estimates Value from Meter Reading Unit (01) is entered in the Estimated in Billing field.",
+   "section_id": "doc_011_sec_015"
+  },
+  {
+   "block_id": "doc_011_p005_b008",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    207,
+    1875,
+    2403,
+    1979
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you use DPC with the basic category determination of current periods via meter reading results, you do not have to make any extra settings in scheduling."
+    }
+   ],
+   "section_id": "doc_011_sec_015"
+  },
+  {
+   "block_id": "doc_011_p005_b009",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    123,
+    2063,
+    2451,
+    2288
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "As a supplier in a deregulated scenario, you can execute your transactions independently of the distributor\u2019s scheduling. You can organize scheduling based on your billing grid. The system estimates a meter reading result for the billing dates. If the distributor reports a real meter reading result, you enter an interim meter reading with billing. In this billing run, the system corrects the period back to the last real meter reading result.",
+   "section_id": "doc_011_sec_015"
+  },
+  {
+   "block_id": "doc_011_p005_b010",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    128,
+    2437,
+    2227,
+    2513
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Processing Meter Reading Data in Dynamic Period Control",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_016"
+  },
+  {
+   "block_id": "doc_011_p005_b011",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    123,
+    2585,
+    2371,
+    2623
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You can use the following enhancements and programs for processing meter reading data for dynamic period control (DPC).",
+   "section_id": "doc_011_sec_016"
+  },
+  {
+   "block_id": "doc_011_p005_b012",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    126,
+    2734,
+    1730,
+    2791
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Enhancement:Customer-Specific, Independent Validation",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_017"
+  },
+  {
+   "block_id": "doc_011_p005_b013",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    123,
+    2868,
+    2469,
+    3034
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "If you use DPC with the basic category Determination of Current Periods via Meter Reading Results , you can use the Customer- Specific, Independent Validation enhancement (EDMLELDV) to implement an individual validation. This check determines if the current real meter reading results is greater than the last real meter reading result. For more information, see SAP note 398471.",
+   "section_id": "doc_011_sec_017"
+  },
+  {
+   "block_id": "doc_011_p005_b014",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    126,
+    3146,
+    393,
+    3202
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Programs",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_018"
+  },
+  {
+   "block_id": "doc_011_p005_b015",
+   "type": "fragment",
+   "page_number": 5,
+   "bbox": [
+    125,
+    3275,
+    2438,
+    3300
+   ],
+   "ocr_confidence": 61.5,
+   "flags": [
+    "low_confidence_words:9",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "lf voip rroa NPC with the hacic cataoonryv Ectimation af Mater Raadino Reeciilte in Rillino voicantica cavaral nrnorame to chanoa",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_011_sec_018"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "a7e54f95805f4b48475fddbbe42effbbab43caa63070fe6fc623993f26861c29"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Customizing for Rate Category"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_013",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_014",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_015",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_016",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_017",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_018",
+   "role": "starts_here"
+  }
+ ]
+}

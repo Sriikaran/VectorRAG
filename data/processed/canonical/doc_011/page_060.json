@@ -1,0 +1,472 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 60,
+ "source_page_hash": "5241e168a35f3ade8c46a48a4d077eec56fbe9bbf695cfbd2dfbc0a269da0bfc",
+ "is_cover_page": false,
+ "title": "Area",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nConditional billing in SAP IS-U is made possible by the interaction of various entities from the areas of Customizing, master data\n\nand transaction data.\n\nThese entities are listed in the following table. The links in the column More Information provide more detailed concept\n\ndescriptions.\n\nArea\n\nMaster Data / Customizing\n\nTransaction Data\n\nData Model\n\nEntities in SAP IS-U\n\nEntity\n\nBilling Schema Extension\n\nConditional Billing Program\nRate Relationship Group\n\nRate Relationships\n\nTime-of-Use Exception Program\n\n(TOU exception program)\n\nTime-of-Use Exception\n\n(TOU exception)\n\nTime-of-Use Exception\nResponse\n\n(TOU exception response)\n\nDescription\n\nThe billing schema extension\nconsists of a group of rates and\n\nrate relationships. Conditional\nrates are activated by\nconditional billing programs.\nAssigning conditional billing\nprograms to time-of-use\nexception programs, executes\nthe corresponding rates in the\nbilling schema extension for\nactive time-of-use exceptions.\n\nSub-entities in the billing\nschema extension\n\nSpecific DR program, CPP\nprogram or similar\n\nAn event as part of aDR\nprogram\n\nIndividual activation or\ndeactivation of a TOU exception\n\nMore Information\n\nilling Schema Extension\n\nConditional Billing Program\n\nRate Relationships\n\nTime-of-Use Exception Program\n\nTime-of-Use Exceptions and\n\nException Responses\n\nTime-of-Use Exceptions and\nException Responses\n",
+ "cleaned_text": "Conditional billing in SAP IS-U is made possible by the interaction of various entities from the areas of Customizing, master data and transaction data. These entities are listed in the following table. The links in the column More Information provide more detailed concept descriptions.\n\nArea\n\nMaster Data / Customizing\n\nTransaction Data\n\nData Model\n\nEntities in SAP IS-U\n\nEntity\n\nBilling Schema Extension\n\nConditional Billing Program Rate Relationship Group Rate Relationships Time-of-Use Exception Program (TOU exception program) Time-of-Use Exception (TOU exception) Time-of-Use Exception Response (TOU exception response)\n\nDescription\n\nThe billing schema extension consists of a group of rates and rate relationships. Conditional rates are activated by conditional billing programs. Assigning conditional billing programs to time-of-use exception programs, executes the corresponding rates in the billing schema extension for active time-of-use exceptions. Sub-entities in the billing schema extension\n\nSpecific DR program, CPP program or similar\n\nAn event as part of aDR program\n\nIndividual activation or\n\ndeactivation of a TOU exception\n\nMore Information\n\nilling Schema Extension\n\nConditional Billing Program Rate Relationships\n\nTime-of-Use Exception Program\n\nTime-of-Use Exceptions and Exception Responses\n\nTime-of-Use Exceptions and Exception Responses",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p060_b000",
+   "type": "paragraph",
+   "page_number": 60,
+   "bbox": [
+    122,
+    134,
+    2439,
+    422
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Conditional billing in SAP IS-U is made possible by the interaction of various entities from the areas of Customizing, master data and transaction data. These entities are listed in the following table. The links in the column More Information provide more detailed concept descriptions.",
+   "section_id": "doc_011_sec_191"
+  },
+  {
+   "block_id": "doc_011_p060_b001",
+   "type": "heading",
+   "page_number": 60,
+   "bbox": [
+    147,
+    604,
+    226,
+    632
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Area",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_192"
+  },
+  {
+   "block_id": "doc_011_p060_b002",
+   "type": "heading",
+   "page_number": 60,
+   "bbox": [
+    150,
+    711,
+    604,
+    747
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Master Data / Customizing",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_192"
+  },
+  {
+   "block_id": "doc_011_p060_b003",
+   "type": "heading",
+   "page_number": 60,
+   "bbox": [
+    148,
+    1902,
+    430,
+    1930
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Transaction Data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_193"
+  },
+  {
+   "block_id": "doc_011_p060_b004",
+   "type": "heading",
+   "page_number": 60,
+   "bbox": [
+    126,
+    2428,
+    439,
+    2473
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Data Model",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_194"
+  },
+  {
+   "block_id": "doc_011_p060_b005",
+   "type": "heading",
+   "page_number": 60,
+   "bbox": [
+    1146,
+    512,
+    1466,
+    539
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [],
+   "text": "Entities in SAP IS-U",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_195"
+  },
+  {
+   "block_id": "doc_011_p060_b006",
+   "type": "heading",
+   "page_number": 60,
+   "bbox": [
+    744,
+    603,
+    844,
+    639
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Entity",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_196"
+  },
+  {
+   "block_id": "doc_011_p060_b007",
+   "type": "paragraph",
+   "page_number": 60,
+   "bbox": [
+    744,
+    711,
+    1165,
+    747
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Billing Schema Extension",
+   "section_id": "doc_011_sec_196"
+  },
+  {
+   "block_id": "doc_011_p060_b008",
+   "type": "paragraph",
+   "page_number": 60,
+   "bbox": [
+    742,
+    1402,
+    1277,
+    2292
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Conditional Billing Program Rate Relationship Group Rate Relationships Time-of-Use Exception Program (TOU exception program) Time-of-Use Exception (TOU exception) Time-of-Use Exception Response (TOU exception response)",
+   "section_id": "doc_011_sec_196"
+  },
+  {
+   "block_id": "doc_011_p060_b009",
+   "type": "heading",
+   "page_number": 60,
+   "bbox": [
+    1338,
+    603,
+    1535,
+    639
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Description",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_197"
+  },
+  {
+   "block_id": "doc_011_p060_b010",
+   "type": "paragraph",
+   "page_number": 60,
+   "bbox": [
+    1336,
+    712,
+    1862,
+    1489
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The billing schema extension consists of a group of rates and rate relationships. Conditional rates are activated by conditional billing programs. Assigning conditional billing programs to time-of-use exception programs, executes the corresponding rates in the billing schema extension for active time-of-use exceptions. Sub-entities in the billing schema extension",
+   "section_id": "doc_011_sec_197"
+  },
+  {
+   "block_id": "doc_011_p060_b011",
+   "type": "paragraph",
+   "page_number": 60,
+   "bbox": [
+    1338,
+    1698,
+    1775,
+    1792
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Specific DR program, CPP program or similar",
+   "section_id": "doc_011_sec_197"
+  },
+  {
+   "block_id": "doc_011_p060_b012",
+   "type": "paragraph",
+   "page_number": 60,
+   "bbox": [
+    1337,
+    1902,
+    1738,
+    1993
+   ],
+   "ocr_confidence": 89.3,
+   "flags": [],
+   "text": "An event as part of aDR program",
+   "section_id": "doc_011_sec_197"
+  },
+  {
+   "block_id": "doc_011_p060_b013",
+   "type": "heading",
+   "page_number": 60,
+   "bbox": [
+    1339,
+    2102,
+    1719,
+    2130
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Individual activation or",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_198"
+  },
+  {
+   "block_id": "doc_011_p060_b014",
+   "type": "paragraph",
+   "page_number": 60,
+   "bbox": [
+    1337,
+    2161,
+    1867,
+    2196
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "deactivation of a TOU exception",
+   "section_id": "doc_011_sec_198"
+  },
+  {
+   "block_id": "doc_011_p060_b015",
+   "type": "heading",
+   "page_number": 60,
+   "bbox": [
+    1927,
+    603,
+    2227,
+    632
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "More Information",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p060_b016",
+   "type": "paragraph",
+   "page_number": 60,
+   "bbox": [
+    1953,
+    712,
+    2348,
+    746
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "illing Schema Extension",
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p060_b017",
+   "type": "paragraph",
+   "page_number": 60,
+   "bbox": [
+    1926,
+    1398,
+    2392,
+    1532
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Conditional Billing Program Rate Relationships",
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p060_b018",
+   "type": "heading",
+   "page_number": 60,
+   "bbox": [
+    1925,
+    1698,
+    2460,
+    1733
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Time-of-Use Exception Program",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p060_b019",
+   "type": "paragraph",
+   "page_number": 60,
+   "bbox": [
+    1925,
+    1902,
+    2396,
+    1992
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Time-of-Use Exceptions and Exception Responses",
+   "section_id": "doc_011_sec_199"
+  },
+  {
+   "block_id": "doc_011_p060_b020",
+   "type": "paragraph",
+   "page_number": 60,
+   "bbox": [
+    1925,
+    2103,
+    2396,
+    2196
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "Time-of-Use Exceptions and Exception Responses",
+   "section_id": "doc_011_sec_199"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "5241e168a35f3ade8c46a48a4d077eec56fbe9bbf695cfbd2dfbc0a269da0bfc"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Time-of-Use Exceptions and Conditional Billing",
+  "Coancante and Nata Model"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_191",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_192",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_193",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_194",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_195",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_196",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_197",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_198",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_199",
+   "role": "starts_here"
+  }
+ ]
+}

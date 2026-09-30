@@ -1,0 +1,356 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 115,
+ "source_page_hash": "0a7ad693f4b3683ab41d737bfc9d879184e932d5b2e862b3854c5facc1c39bed",
+ "is_cover_page": false,
+ "title": "Point of Delivery Define Structure of Point of Delivery ID",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n2. Choose one of the predefined profile structure categories in the Structure Category field.\n\n3. The system automatically proposes the structure category defined in Customizing as the default value |}\u00bbMaster Data\nPoint of Delivery Define Structure of Point of Delivery ID\n\n4, Enter the required data in the individual point of delivery ID fields.\n\n5. If you use the Metering Code structure category, you can generate a consecutive numberfor the point of delivery ID. To do\nthis, choose the Default Value entry in the Consecutive Number field.\n\nIf you have defined default values in Customizing for the selected structure category |\\*Technical Master Data\u00bb Point of\nDelivery \u00bb Define Structure of Point of Delivery ID \u201cSunder Field Settings, these are displayed in the Point of Delivery ID\n\nfields. Note that if you select the NI field (field is not ready for input), you cannot change the default values. To change the\ndefault values, you must reset the NI field.\n\n6. In the Valid field, the current date is displayed as a default value, and the time 00:00:00.\n7. To change the validity of the point of delivery ID, enter a different date and/or time in the Valid field.\n\n8. You cannot enter data in the To field.\n\n9. To restrict the validity of the point of delivery ID, insert a new time slice. To do this, choose New Time Slice. In the From Day\nfield, enter the date and time at which you want the new time slice to become valid. The previous time slice finishes on the\nstart date of the new time slice.\n\n10. On the tab page header in the PoD Description field, enter a short text to describe the point of delivery.\n11. Choose one of the predefined options in the Point of Delivery field.\n\nSelect the Technical PoD field.\n\nChoose Continue.\n12. On the Grid tab page, you can allocate a grid to the point of delivery for a specific period of time.\n\n13. You can also use grids to recreate the distribution grid of a distributor in the system. By allocating a grid to the point of\ndelivery, you can calculate the results of settlement not only for each settlement unit, but also for each grid.\n\nEnter the period for which you want to allocate the grid to the point of delivery.\nThe Fran Day field contains the current date as a default value. However, you can change this date.\nIn the Grid field, choose a grid that you have already created in the Intercompany Data Exchange menu.\n\nThe system automatically displays the distributor allocated to the grid, provided you have allocated a distributor in the\nIntercompany Data Exchange menu under Grid.\n\nChoose the Copy icon to copy the entries to the list.\n14. The Origin tab page is for information purposes only. The entries you make here have no effect on the function.\n\n15. You can define source systems and number ranges for sources systems in Customizing under |)}Tools \u00bb System\nModifications + User-Defined Functions for Energy Data Management \u00bb Source Systems\n\n16. Choose the Allocationtab.\n17. To allocate the point delivery to a register, choose Register and enter a device, material, register, or piece of equipment.\n\n18. You can also allocate the point of delivery to an installation. This allocation applies to all the registers allocated to the\n\nee Ge en ee Oe oe cr ee 2 er ie Oe GO ee\n",
+ "cleaned_text": "2 Choose one of the predefined profile structure categories in the Structure Category field.\n\n3 The system automatically proposes the structure category defined in Customizing as the default value |}\u00bbMaster Data\n\nPoint of Delivery Define Structure of Point of Delivery ID\n\n4, Enter the required data in the individual point of delivery ID fields.\n\n5 If you use the Metering Code structure category, you can generate a consecutive numberfor the point of delivery ID. To do this, choose the Default Value entry in the Consecutive Number field. If you have defined default values in Customizing for the selected structure category |\\*Technical Master Data\u00bb Point of Delivery \u00bb Define Structure of Point of Delivery ID \u201cSunder Field Settings, these are displayed in the Point of Delivery ID\n\nfields. Note that if you select the NI field (field is not ready for input), you cannot change the default values. To change the default values, you must reset the NI field.\n\n6 In the Valid field, the current date is displayed as a default value, and the time 00:00:00.\n\n7 To change the validity of the point of delivery ID, enter a different date and/or time in the Valid field.\n\n8 You cannot enter data in the To field.\n\n9 To restrict the validity of the point of delivery ID, insert a new time slice. To do this, choose New Time Slice. In the From Day field, enter the date and time at which you want the new time slice to become valid. The previous time slice finishes on the start date of the new time slice.\n\n10 On the tab page header in the PoD Description field, enter a short text to describe the point of delivery.\n\n11 Choose one of the predefined options in the Point of Delivery field. Select the Technical PoD field. Choose Continue.\n\n12 On the Grid tab page, you can allocate a grid to the point of delivery for a specific period of time.\n\n13 You can also use grids to recreate the distribution grid of a distributor in the system. By allocating a grid to the point of delivery, you can calculate the results of settlement not only for each settlement unit, but also for each grid. Enter the period for which you want to allocate the grid to the point of delivery.\n\nThe Fran Day field contains the current date as a default value. However, you can change this date. In the Grid field, choose a grid that you have already created in the Intercompany Data Exchange menu. The system automatically displays the distributor allocated to the grid, provided you have allocated a distributor in the Intercompany Data Exchange menu under Grid. Choose the Copy icon to copy the entries to the list.\n\n14 The Origin tab page is for information purposes only. The entries you make here have no effect on the function.\n\n15 You can define source systems and number ranges for sources systems in Customizing under |)}Tools \u00bb System Modifications + User-Defined Functions for Energy Data Management \u00bb Source Systems\n\n16 Choose the Allocationtab.\n\n17 To allocate the point delivery to a register, choose Register and enter a device, material, register, or piece of equipment.\n\n18 You can also allocate the point of delivery to an installation. This allocation applies to all the registers allocated to the\n\nee Ge en ee Oe oe cr ee 2 er ie Oe GO ee",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p115_b000",
+   "type": "list",
+   "page_number": 115,
+   "bbox": [
+    211,
+    134,
+    2379,
+    274
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Choose one of the predefined profile structure categories in the Structure Category field."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "The system automatically proposes the structure category defined in Customizing as the default value |}\u00bbMaster Data"
+    }
+   ],
+   "section_id": "doc_001_sec_434"
+  },
+  {
+   "block_id": "doc_001_p115_b001",
+   "type": "heading",
+   "page_number": 115,
+   "bbox": [
+    265,
+    298,
+    1339,
+    337
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "text": "Point of Delivery Define Structure of Point of Delivery ID",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_435"
+  },
+  {
+   "block_id": "doc_001_p115_b002",
+   "type": "paragraph",
+   "page_number": 115,
+   "bbox": [
+    211,
+    404,
+    1436,
+    441
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "4, Enter the required data in the individual point of delivery ID fields.",
+   "section_id": "doc_001_sec_435"
+  },
+  {
+   "block_id": "doc_001_p115_b003",
+   "type": "list",
+   "page_number": 115,
+   "bbox": [
+    211,
+    506,
+    2455,
+    775
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "If you use the Metering Code structure category, you can generate a consecutive numberfor the point of delivery ID. To do this, choose the Default Value entry in the Consecutive Number field. If you have defined default values in Customizing for the selected structure category |\\*Technical Master Data\u00bb Point of Delivery \u00bb Define Structure of Point of Delivery ID \u201cSunder Field Settings, these are displayed in the Point of Delivery ID"
+    }
+   ],
+   "section_id": "doc_001_sec_435"
+  },
+  {
+   "block_id": "doc_001_p115_b004",
+   "type": "paragraph",
+   "page_number": 115,
+   "bbox": [
+    254,
+    798,
+    2446,
+    898
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "fields. Note that if you select the NI field (field is not ready for input), you cannot change the default values. To change the default values, you must reset the NI field.",
+   "section_id": "doc_001_sec_435"
+  },
+  {
+   "block_id": "doc_001_p115_b005",
+   "type": "list",
+   "page_number": 115,
+   "bbox": [
+    188,
+    962,
+    2477,
+    2216
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "In the Valid field, the current date is displayed as a default value, and the time 00:00:00."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "7",
+     "text": "To change the validity of the point of delivery ID, enter a different date and/or time in the Valid field."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "8",
+     "text": "You cannot enter data in the To field."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "9",
+     "text": "To restrict the validity of the point of delivery ID, insert a new time slice. To do this, choose New Time Slice. In the From Day field, enter the date and time at which you want the new time slice to become valid. The previous time slice finishes on the start date of the new time slice."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "10",
+     "text": "On the tab page header in the PoD Description field, enter a short text to describe the point of delivery."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "11",
+     "text": "Choose one of the predefined options in the Point of Delivery field. Select the Technical PoD field. Choose Continue."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "12",
+     "text": "On the Grid tab page, you can allocate a grid to the point of delivery for a specific period of time."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "13",
+     "text": "You can also use grids to recreate the distribution grid of a distributor in the system. By allocating a grid to the point of delivery, you can calculate the results of settlement not only for each settlement unit, but also for each grid. Enter the period for which you want to allocate the grid to the point of delivery."
+    }
+   ],
+   "section_id": "doc_001_sec_435"
+  },
+  {
+   "block_id": "doc_001_p115_b006",
+   "type": "paragraph",
+   "page_number": 115,
+   "bbox": [
+    254,
+    2280,
+    2394,
+    2689
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The Fran Day field contains the current date as a default value. However, you can change this date. In the Grid field, choose a grid that you have already created in the Intercompany Data Exchange menu. The system automatically displays the distributor allocated to the grid, provided you have allocated a distributor in the Intercompany Data Exchange menu under Grid. Choose the Copy icon to copy the entries to the list.",
+   "section_id": "doc_001_sec_435"
+  },
+  {
+   "block_id": "doc_001_p115_b007",
+   "type": "list",
+   "page_number": 115,
+   "bbox": [
+    188,
+    2753,
+    2407,
+    3263
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "14",
+     "text": "The Origin tab page is for information purposes only. The entries you make here have no effect on the function."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "15",
+     "text": "You can define source systems and number ranges for sources systems in Customizing under |)}Tools \u00bb System Modifications + User-Defined Functions for Energy Data Management \u00bb Source Systems"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "16",
+     "text": "Choose the Allocationtab."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "17",
+     "text": "To allocate the point delivery to a register, choose Register and enter a device, material, register, or piece of equipment."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "18",
+     "text": "You can also allocate the point of delivery to an installation. This allocation applies to all the registers allocated to the"
+    }
+   ],
+   "section_id": "doc_001_sec_435"
+  },
+  {
+   "block_id": "doc_001_p115_b008",
+   "type": "fragment",
+   "page_number": 115,
+   "bbox": [
+    256,
+    3281,
+    2000,
+    3300
+   ],
+   "ocr_confidence": 12.4,
+   "flags": [
+    "low_confidence_words:14",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "ee Ge en ee Oe oe cr ee 2 er ie Oe GO ee",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_435"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "0a7ad693f4b3683ab41d737bfc9d879184e932d5b2e862b3854c5facc1c39bed"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Create Technical Point of Delivery",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_434",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_435",
+   "role": "starts_here"
+  }
+ ]
+}

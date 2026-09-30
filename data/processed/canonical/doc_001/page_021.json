@@ -1,0 +1,555 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 21,
+ "source_page_hash": "ff21bc1f81cea5c07ef85462b0808766f159d042ae9661cec7cb6c36ac5e12da",
+ "is_cover_page": false,
+ "title": "Archiving Function",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nBPOUT                   BUPR                     100000                   BUPA MWX BDOC CREATE REL               X\nCLEAR                   BUPA                     1000000                 BUPA OUTBOUND CLEAR FLAGS             X\nCLEAR                   BUPA                     2000000                 ABA_FSBP_OUTBOUND CLEAR FLAGS \u2014 x\ni Note\n\nYou are not allowed to activate the following function modules in the CRM system, that is, you are not allowed to set the\nCall indicator for them. However, do not delete any entries from the table, since the function modules can be used for\nother purposes.\n\nEvent                    Object               Item                      Function Module                                    Calling the\nArchiving Function\n\nCRMOU          BUPA         Any            CRM_BUPA BDOC BPS FILL VENDOR\nCRMOU          BUPA         Any            ABA_FSBP_EMP_TO ROLE OUTBOUND\nBPOUT          BUPA         Any            VEND_MWX_CREATE MAIN BDOC\nBPOUT          BUPA         Any            BUPA OUTBOUND MAIN *)\n\nBPOUT          BUPA         Any            BUPA OUTBOUND ALE MAIN\n\nBPOUT          BUPR         Any            UDM_ OUTBOUND ALE REL\n\nBPOUT          BUPR         Any            BUPA OUTBOUND REL*)\n\nBPOUT          BUPR         Any            BUPA OUTBOUND ALE REL\n\nBPOUT          BUPX         Any            MDS BUPA OUTBOUND\n\nR3A0U          BUPA         Any            BUPA_MWX_BDOC_UP_CURRSTATE_SET\nXIOUT           BUPA         Any             Any *)\n\nXIOUT           BUPR         Any             Any *)\n\n*) You have to activate this function module if you need a PI distribution of business partner data to other systems\n(S/4HANA systems or third-party systems). In that case, you have to ensure that the business partner data is not\ndistributed using PI to the same S/4HANA system to which it is distributed using middleware.\n\n6. In the S/4HANA system, check the subscriptions for upload and download objects, and make sure that the entries listed in\nthe following table exist. In the menu, choose |}System % Services } Table Maintenance Extended Table Maintenance\n\nand select table CRMSUBTAB for maintenance. The Inactive indicator must be set as shown in the table:\n\nUser                   Object Name          Up/Download         Object Class         Function Module                    Inactive\nCRM                    BUPA MAIN           U                          BUPA                   FKK_BUPA_MAIN INBOUND\nCRM                    BUPA_REL             U                          BUPA                  COM BUPA REL_INBOUND\n\nCRM         VEND MAIN     U            BUPA        COM VEND MAIN INBOUND | X\n",
+ "cleaned_text": "BPOUT | BUPR | 100000 | BUPA | MWX BDOC CREATE REL | X\n\nCLEAR | BUPA | 1000000 | BUPA OUTBOUND CLEAR FLAGS | X\n\nCLEAR | BUPA | 2000000 | ABA_FSBP_OUTBOUND CLEAR FLAGS \u2014 x\n\ni Note You are not allowed to activate the following function modules in the CRM system, that is, you are not allowed to set the Call indicator for them. However, do not delete any entries from the table, since the function modules can be used for other purposes.\n\nEvent | Object | Item | Function Module | Calling the\n\nArchiving Function\n\nCRMOU | BUPA | Any | CRM_BUPA BDOC BPS FILL VENDOR\n\nCRMOU | BUPA | Any | ABA_FSBP_EMP_TO ROLE OUTBOUND\n\nBPOUT | BUPA | Any | VEND_MWX_CREATE MAIN BDOC\n\nBPOUT | BUPA | Any | BUPA OUTBOUND MAIN *)\n\nBPOUT | BUPA | Any | BUPA OUTBOUND ALE MAIN\n\nBPOUT | BUPR | Any | UDM_ OUTBOUND ALE REL\n\nBPOUT | BUPR | Any | BUPA OUTBOUND REL*)\n\nBPOUT | BUPR | Any | BUPA OUTBOUND ALE REL\n\nBPOUT | BUPX | Any | MDS BUPA OUTBOUND\n\nR3A0U | BUPA | Any | BUPA_MWX_BDOC_UP_CURRSTATE_SET\n\nXIOUT | BUPA | Any | Any *)\n\nXIOUT | BUPR | Any | Any *)\n\n*) You have to activate this function module if you need a PI distribution of business partner data to other systems (S/4HANA systems or third-party systems). In that case, you have to ensure that the business partner data is not distributed using PI to the same S/4HANA system to which it is distributed using middleware.\n\n6 In the S/4HANA system, check the subscriptions for upload and download objects, and make sure that the entries listed in the following table exist. In the menu, choose |}System % Services } Table Maintenance Extended Table Maintenance and select table CRMSUBTAB for maintenance. The Inactive indicator must be set as shown in the table:\n\nUser | Object Name | Up/Download | Object Class | Function Module | Inactive\n\nCRM | BUPA MAIN | U | BUPA | FKK_BUPA_MAIN INBOUND\n\nCRM | BUPA_REL | U | BUPA | COM BUPA REL_INBOUND\n\nCRM | VEND MAIN | U | BUPA | COM VEND MAIN INBOUND | X",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p021_b000",
+   "type": "table",
+   "page_number": 21,
+   "bbox": [
+    281,
+    139,
+    2159,
+    411
+   ],
+   "ocr_confidence": 78.8,
+   "flags": [
+    "low_confidence_words:5",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    281,
+    644,
+    1006,
+    1382,
+    1500,
+    2137
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "BPOUT",
+     "BUPR",
+     "100000",
+     "BUPA",
+     "MWX BDOC CREATE REL",
+     "X"
+    ],
+    [
+     "CLEAR",
+     "BUPA",
+     "1000000",
+     "BUPA OUTBOUND CLEAR FLAGS",
+     "X"
+    ],
+    [
+     "CLEAR",
+     "BUPA",
+     "2000000",
+     "ABA_FSBP_OUTBOUND CLEAR FLAGS \u2014 x"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "BPOUT",
+     "BUPR",
+     "100000",
+     "BUPA",
+     "MWX BDOC CREATE REL",
+     "X"
+    ],
+    [
+     "CLEAR",
+     "BUPA",
+     "1000000",
+     "BUPA OUTBOUND CLEAR FLAGS",
+     "X"
+    ],
+    [
+     "CLEAR",
+     "BUPA",
+     "2000000",
+     "ABA_FSBP_OUTBOUND CLEAR FLAGS \u2014 x"
+    ]
+   ],
+   "section_id": "doc_001_sec_057"
+  },
+  {
+   "block_id": "doc_001_p021_b001",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    282,
+    544,
+    2438,
+    793
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "i Note You are not allowed to activate the following function modules in the CRM system, that is, you are not allowed to set the Call indicator for them. However, do not delete any entries from the table, since the function modules can be used for other purposes.",
+   "section_id": "doc_001_sec_057"
+  },
+  {
+   "block_id": "doc_001_p021_b002",
+   "type": "table",
+   "page_number": 21,
+   "bbox": [
+    311,
+    914,
+    2278,
+    959
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    311,
+    668,
+    974,
+    1341,
+    2095
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Event",
+     "Object",
+     "Item",
+     "Function Module",
+     "Calling the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Event",
+     "Object",
+     "Item",
+     "Function Module",
+     "Calling the"
+    ]
+   ],
+   "section_id": "doc_001_sec_057"
+  },
+  {
+   "block_id": "doc_001_p021_b003",
+   "type": "heading",
+   "page_number": 21,
+   "bbox": [
+    2094,
+    978,
+    2416,
+    1013
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Archiving Function",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_058"
+  },
+  {
+   "block_id": "doc_001_p021_b004",
+   "type": "table",
+   "page_number": 21,
+   "bbox": [
+    309,
+    1081,
+    2045,
+    2321
+   ],
+   "ocr_confidence": 74.5,
+   "flags": [
+    "low_confidence_words:18",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    309,
+    669,
+    972,
+    1339
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "CRMOU",
+     "BUPA",
+     "Any",
+     "CRM_BUPA BDOC BPS FILL VENDOR"
+    ],
+    [
+     "CRMOU",
+     "BUPA",
+     "Any",
+     "ABA_FSBP_EMP_TO ROLE OUTBOUND"
+    ],
+    [
+     "BPOUT",
+     "BUPA",
+     "Any",
+     "VEND_MWX_CREATE MAIN BDOC"
+    ],
+    [
+     "BPOUT",
+     "BUPA",
+     "Any",
+     "BUPA OUTBOUND MAIN *)"
+    ],
+    [
+     "BPOUT",
+     "BUPA",
+     "Any",
+     "BUPA OUTBOUND ALE MAIN"
+    ],
+    [
+     "BPOUT",
+     "BUPR",
+     "Any",
+     "UDM_ OUTBOUND ALE REL"
+    ],
+    [
+     "BPOUT",
+     "BUPR",
+     "Any",
+     "BUPA OUTBOUND REL*)"
+    ],
+    [
+     "BPOUT",
+     "BUPR",
+     "Any",
+     "BUPA OUTBOUND ALE REL"
+    ],
+    [
+     "BPOUT",
+     "BUPX",
+     "Any",
+     "MDS BUPA OUTBOUND"
+    ],
+    [
+     "R3A0U",
+     "BUPA",
+     "Any",
+     "BUPA_MWX_BDOC_UP_CURRSTATE_SET"
+    ],
+    [
+     "XIOUT",
+     "BUPA",
+     "Any",
+     "Any *)"
+    ],
+    [
+     "XIOUT",
+     "BUPR",
+     "Any",
+     "Any *)"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "CRMOU",
+     "BUPA",
+     "Any",
+     "CRM_BUPA BDOC BPS FILL VENDOR"
+    ],
+    [
+     "CRMOU",
+     "BUPA",
+     "Any",
+     "ABA_FSBP_EMP_TO ROLE OUTBOUND"
+    ],
+    [
+     "BPOUT",
+     "BUPA",
+     "Any",
+     "VEND_MWX_CREATE MAIN BDOC"
+    ],
+    [
+     "BPOUT",
+     "BUPA",
+     "Any",
+     "BUPA OUTBOUND MAIN *)"
+    ],
+    [
+     "BPOUT",
+     "BUPA",
+     "Any",
+     "BUPA OUTBOUND ALE MAIN"
+    ],
+    [
+     "BPOUT",
+     "BUPR",
+     "Any",
+     "UDM_ OUTBOUND ALE REL"
+    ],
+    [
+     "BPOUT",
+     "BUPR",
+     "Any",
+     "BUPA OUTBOUND REL*)"
+    ],
+    [
+     "BPOUT",
+     "BUPR",
+     "Any",
+     "BUPA OUTBOUND ALE REL"
+    ],
+    [
+     "BPOUT",
+     "BUPX",
+     "Any",
+     "MDS BUPA OUTBOUND"
+    ],
+    [
+     "R3A0U",
+     "BUPA",
+     "Any",
+     "BUPA_MWX_BDOC_UP_CURRSTATE_SET"
+    ],
+    [
+     "XIOUT",
+     "BUPA",
+     "Any",
+     "Any *)"
+    ],
+    [
+     "XIOUT",
+     "BUPR",
+     "Any",
+     "Any *)"
+    ]
+   ],
+   "section_id": "doc_001_sec_058"
+  },
+  {
+   "block_id": "doc_001_p021_b005",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    284,
+    2444,
+    2346,
+    2607
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "*) You have to activate this function module if you need a PI distribution of business partner data to other systems (S/4HANA systems or third-party systems). In that case, you have to ensure that the business partner data is not distributed using PI to the same S/4HANA system to which it is distributed using middleware.",
+   "section_id": "doc_001_sec_058"
+  },
+  {
+   "block_id": "doc_001_p021_b006",
+   "type": "list",
+   "page_number": 21,
+   "bbox": [
+    211,
+    2700,
+    2465,
+    2829
+   ],
+   "ocr_confidence": 91.3,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "In the S/4HANA system, check the subscriptions for upload and download objects, and make sure that the entries listed in the following table exist. In the menu, choose |}System % Services } Table Maintenance Extended Table Maintenance and select table CRMSUBTAB for maintenance. The Inactive indicator must be set as shown in the table:"
+    }
+   ],
+   "section_id": "doc_001_sec_058"
+  },
+  {
+   "block_id": "doc_001_p021_b007",
+   "type": "table",
+   "page_number": 21,
+   "bbox": [
+    281,
+    2948,
+    2315,
+    3300
+   ],
+   "ocr_confidence": 86.5,
+   "flags": [
+    "low_confidence_words:4",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    281,
+    602,
+    953,
+    1308,
+    1638,
+    2182
+   ],
+   "headers": [
+    "User",
+    "Object Name",
+    "Up/Download",
+    "Object Class",
+    "Function Module",
+    "Inactive"
+   ],
+   "rows": [
+    [
+     "CRM",
+     "BUPA MAIN",
+     "U",
+     "BUPA",
+     "FKK_BUPA_MAIN INBOUND"
+    ],
+    [
+     "CRM",
+     "BUPA_REL",
+     "U",
+     "BUPA",
+     "COM BUPA REL_INBOUND"
+    ],
+    [
+     "CRM",
+     "VEND MAIN",
+     "U",
+     "BUPA",
+     "COM VEND MAIN INBOUND | X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "User",
+     "Object Name",
+     "Up/Download",
+     "Object Class",
+     "Function Module",
+     "Inactive"
+    ],
+    [
+     "CRM",
+     "BUPA MAIN",
+     "U",
+     "BUPA",
+     "FKK_BUPA_MAIN INBOUND"
+    ],
+    [
+     "CRM",
+     "BUPA_REL",
+     "U",
+     "BUPA",
+     "COM BUPA REL_INBOUND"
+    ],
+    [
+     "CRM",
+     "VEND MAIN",
+     "U",
+     "BUPA",
+     "COM VEND MAIN INBOUND | X"
+    ]
+   ],
+   "section_id": "doc_001_sec_058"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.1132,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 87,
+   "page_hash": "ff21bc1f81cea5c07ef85462b0808766f159d042ae9661cec7cb6c36ac5e12da"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making Settings for CRM Middleware",
+  "Procedure",
+  "Archiving Function"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_057",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_058",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,312 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_009",
+ "page_number": 6,
+ "source_page_hash": "bba8aad93b37022885eae0d8d4bcf6246d6a2e5bf14be5b26f65374fb3048201",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nThe system prefers actual meter reading results to estimated meter reading results as a basis for estimation. If an estimated\nmeter reading result follows an actual meter reading result, the base period is extended as far as the actual meter reading result.\n\nThis is explained in the following figure.\nThe abbreviations have the following meanings:\n\ne MR=Actual Meter Reading Result\n\ne E=Estimated Meter Reading Result\n\ne Y = Weighting\n\ne Q2 = Quantity for Meter Reading Result MR2\n\ne Q2' = New Quantity Dynamically Calculated for Meter Reading Result MR2 as Part of Interpolation\ne Qe=Estimated Quantity\n\ne Ye = Weighting for Estimated Quantity\n\n01.07.2009 \u2014 06.30.2009\n\nYe; Qe\nAN\n\naie,\noh\n2)\nfh\n\n12.31.2008                                       06.30.2009             09.30.2009              12.31.2009\n\nExample 1\n\nIn example 1, there are three meter reading results in the period December 31, 2008 to December 31, 2009: MRO, E1, and MR1. E1\nis an estimated meter reading result. The algorithm ignores this estimated result during interpolation and uses the two actual\nmeter reading results MRO and MR1 instead. As described in the previous section Interpolation Between Consecutive Meter\nReading Results, the basis for interpolation is the quantity saved and rounded from the second meter reading result. This quantity\nQ2 refers to the period MR1 to MR2, which is from October 01, 2009 to December 31, 2009. However, for the interpolation, the\nsystem needs a quantity that refers to the period from January 1, 2009 to December 31, 2009. The system calculates this quantity\n\nQ2' dynamically. The next steps for determining the estimated value Ex are identical to steps 2-5 from the previous section\nInterpolation Between Consecutive Meter Readings.\n\n01.07.2009 \u2014 06.30.2009\n\nYe: Qe\nAN\n\n12.31.2008          03.31.2009           06.30.2009                              12.31.2009\n",
+ "cleaned_text": "The system prefers actual meter reading results to estimated meter reading results as a basis for estimation. If an estimated meter reading result follows an actual meter reading result, the base period is extended as far as the actual meter reading result. This is explained in the following figure. The abbreviations have the following meanings:\n\n- MR=Actual Meter Reading Result\n\n- E=Estimated Meter Reading Result\n\n- Y = Weighting\n\n- Q2 = Quantity for Meter Reading Result MR2\n\n- Q2' = New Quantity Dynamically Calculated for Meter Reading Result MR2 as Part of Interpolation\n\n- Qe=Estimated Quantity\n\n- Ye = Weighting for Estimated Quantity\n\n01.07.2009 \u2014 06.30.2009 Ye; Qe AN aie, oh 2) fh\n\n12.31.2008 | 06.30.2009 | 09.30.2009 | 12.31.2009\n\nExample 1 In example 1, there are three meter reading results in the period December 31, 2008 to December 31, 2009: MRO, E1, and MR1. E1 is an estimated meter reading result. The algorithm ignores this estimated result during interpolation and uses the two actual meter reading results MRO and MR1 instead. As described in the previous section Interpolation Between Consecutive Meter Reading Results, the basis for interpolation is the quantity saved and rounded from the second meter reading result. This quantity Q2 refers to the period MR1 to MR2, which is from October 01, 2009 to December 31, 2009. However, for the interpolation, the system needs a quantity that refers to the period from January 1, 2009 to December 31, 2009. The system calculates this quantity Q2' dynamically. The next steps for determining the estimated value Ex are identical to steps 2-5 from the previous section Interpolation Between Consecutive Meter Readings.\n\n01.07.2009 \u2014 06.30.2009 Ye: Qe AN\n\n12.31.2008 | 03.31.2009 | 06.30.2009 | 12.31.2009",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_009_p006_b000",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    134,
+    2443,
+    481
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The system prefers actual meter reading results to estimated meter reading results as a basis for estimation. If an estimated meter reading result follows an actual meter reading result, the base period is extended as far as the actual meter reading result. This is explained in the following figure. The abbreviations have the following meanings:",
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p006_b001",
+   "type": "list",
+   "page_number": 6,
+   "bbox": [
+    207,
+    567,
+    2036,
+    1240
+   ],
+   "ocr_confidence": 79.2,
+   "flags": [
+    "low_confidence_words:8"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "MR=Actual Meter Reading Result"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "E=Estimated Meter Reading Result"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Y = Weighting"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Q2 = Quantity for Meter Reading Result MR2"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Q2' = New Quantity Dynamically Calculated for Meter Reading Result MR2 as Part of Interpolation"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Qe=Estimated Quantity"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Ye = Weighting for Estimated Quantity"
+    }
+   ],
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p006_b002",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    494,
+    1372,
+    1932,
+    1684
+   ],
+   "ocr_confidence": 59.5,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region"
+   ],
+   "text": "01.07.2009 \u2014 06.30.2009 Ye; Qe AN aie, oh 2) fh",
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p006_b003",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    405,
+    1848,
+    2218,
+    1878
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    405,
+    1215,
+    1610,
+    2025
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "12.31.2008",
+     "06.30.2009",
+     "09.30.2009",
+     "12.31.2009"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "12.31.2008",
+     "06.30.2009",
+     "09.30.2009",
+     "12.31.2009"
+    ]
+   ],
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p006_b004",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    123,
+    2033,
+    2477,
+    2630
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Example 1 In example 1, there are three meter reading results in the period December 31, 2008 to December 31, 2009: MRO, E1, and MR1. E1 is an estimated meter reading result. The algorithm ignores this estimated result during interpolation and uses the two actual meter reading results MRO and MR1 instead. As described in the previous section Interpolation Between Consecutive Meter Reading Results, the basis for interpolation is the quantity saved and rounded from the second meter reading result. This quantity Q2 refers to the period MR1 to MR2, which is from October 01, 2009 to December 31, 2009. However, for the interpolation, the system needs a quantity that refers to the period from January 1, 2009 to December 31, 2009. The system calculates this quantity Q2' dynamically. The next steps for determining the estimated value Ex are identical to steps 2-5 from the previous section Interpolation Between Consecutive Meter Readings.",
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p006_b005",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    835,
+    2762,
+    1272,
+    2922
+   ],
+   "ocr_confidence": 84.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "01.07.2009 \u2014 06.30.2009 Ye: Qe AN",
+   "section_id": "doc_009_sec_011"
+  },
+  {
+   "block_id": "doc_009_p006_b006",
+   "type": "table",
+   "page_number": 6,
+   "bbox": [
+    405,
+    3235,
+    2218,
+    3265
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    405,
+    800,
+    1215,
+    2025
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "12.31.2008",
+     "03.31.2009",
+     "06.30.2009",
+     "12.31.2009"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "12.31.2008",
+     "03.31.2009",
+     "06.30.2009",
+     "12.31.2009"
+    ]
+   ],
+   "section_id": "doc_009_sec_011"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Estimation Procedure Details",
+  "source_pdf": "9.pdf",
+  "reference_pdf": "09_Estimation_Procedure_Details.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Use for advanced estimation logic and validation scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "bba8aad93b37022885eae0d8d4bcf6246d6a2e5bf14be5b26f65374fb3048201"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:37Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Estimation Procedure Details",
+  "Interpolation",
+  "Use",
+  "Formula"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_009_sec_011",
+   "role": "continues"
+  }
+ ]
+}

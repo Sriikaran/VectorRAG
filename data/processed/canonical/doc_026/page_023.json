@@ -1,0 +1,419 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 23,
+ "source_page_hash": "ef7e18f7a1475a2fe31d0e00ec42e5cfcda71db87686478acc71f3084995a25b",
+ "is_cover_page": false,
+ "title": "Editing Dunning Items",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n\nEditing Dunning Items\n\nUse\n\nIn the dunning history, you can assign a dunning level to dunned items. This new dunning level is then considered in the next\ndunning level. However, you cannot change the current dunning level for an item in this way.\n\nProcedure\n\n1. Display the dunning items as described in Displaying Dunning Activities .\n\n2. Place the cursor on the required dunning grouping (dunning header) and choose |+Goto Dunning Line Itemsin the menu.\n\n3. Place the cursor on the required dunning line item and choose Edit Dunning Items. The screen for editing the dunning\n\nitems appears.\n\n4. Enter the new dunning level.\n\n5. Choose Save .\n\ni Note\n\nNote for industry component Insurance You edit the dunning line items from the contract-related dunning history (see:\nDisplaying the Dunning History ).\n\nDisplaying Documents for Dunned Items\n\nUse\n\nIn the dunning history, you can display the documents related to the dunned items, for example, interest or charges documents.\n\nProcedure\n\n1. Display the dunning items as described in Displaying Dunning Activities .\n\n2. For each dunning grouping (dunning header), you can display the documents for interest and charges posted. For each item\nin a grouping (dunning item), you can display the source document of the item due for dunning.\n\nTo display the documents described above, place the cursor on the relevant document number and choose the button\nDisplay Document , double-click on the document number, or choose the menu path |+Goto Document.\n\nResult\n\nThe system displays the selected document. You can use additional functions in the document display (see also Functions in\nDocument Display and Document Change ).\n\nReversing Dunning Notices\n",
+ "cleaned_text": "Editing Dunning Items\n\nUse\n\nIn the dunning history, you can assign a dunning level to dunned items. This new dunning level is then considered in the next dunning level. However, you cannot change the current dunning level for an item in this way.\n\nProcedure\n\n1 Display the dunning items as described in Displaying Dunning Activities .\n\n2 Place the cursor on the required dunning grouping (dunning header) and choose |+Goto Dunning Line Itemsin the menu.\n\n3 Place the cursor on the required dunning line item and choose Edit Dunning Items. The screen for editing the dunning items appears.\n\n4 Enter the new dunning level.\n\n5 Choose Save . i Note Note for industry component Insurance You edit the dunning line items from the contract-related dunning history (see:\n\nDisplaying the Dunning History ).\n\nDisplaying Documents for Dunned Items\n\nUse\n\nIn the dunning history, you can display the documents related to the dunned items, for example, interest or charges documents.\n\nProcedure\n\n1 Display the dunning items as described in Displaying Dunning Activities .\n\n2 For each dunning grouping (dunning header), you can display the documents for interest and charges posted. For each item in a grouping (dunning item), you can display the source document of the item due for dunning.\n\nTo display the documents described above, place the cursor on the relevant document number and choose the button Display Document , double-click on the document number, or choose the menu path |+Goto Document.\n\nResult\n\nThe system displays the selected document. You can use additional functions in the document display (see also Functions in Document Display and Document Change ).\n\nReversing Dunning Notices",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p023_b000",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    128,
+    132,
+    924,
+    207
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [],
+   "text": "Editing Dunning Items",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_102"
+  },
+  {
+   "block_id": "doc_026_p023_b001",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    125,
+    307,
+    225,
+    353
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_103"
+  },
+  {
+   "block_id": "doc_026_p023_b002",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    123,
+    440,
+    2360,
+    540
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "In the dunning history, you can assign a dunning level to dunned items. This new dunning level is then considered in the next dunning level. However, you cannot change the current dunning level for an item in this way.",
+   "section_id": "doc_026_sec_103"
+  },
+  {
+   "block_id": "doc_026_p023_b003",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    126,
+    652,
+    409,
+    697
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_104"
+  },
+  {
+   "block_id": "doc_026_p023_b004",
+   "type": "list",
+   "page_number": 23,
+   "bbox": [
+    210,
+    785,
+    2479,
+    1539
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Display the dunning items as described in Displaying Dunning Activities ."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Place the cursor on the required dunning grouping (dunning header) and choose |+Goto Dunning Line Itemsin the menu."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Place the cursor on the required dunning line item and choose Edit Dunning Items. The screen for editing the dunning items appears."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Enter the new dunning level."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Choose Save . i Note Note for industry component Insurance You edit the dunning line items from the contract-related dunning history (see:"
+    }
+   ],
+   "section_id": "doc_026_sec_104"
+  },
+  {
+   "block_id": "doc_026_p023_b005",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    285,
+    1563,
+    898,
+    1602
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Displaying the Dunning History ).",
+   "section_id": "doc_026_sec_104"
+  },
+  {
+   "block_id": "doc_026_p023_b006",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    128,
+    1787,
+    1591,
+    1862
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "Displaying Documents for Dunned Items",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_105"
+  },
+  {
+   "block_id": "doc_026_p023_b007",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    125,
+    1962,
+    225,
+    2008
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_106"
+  },
+  {
+   "block_id": "doc_026_p023_b008",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    125,
+    2096,
+    2431,
+    2133
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "In the dunning history, you can display the documents related to the dunned items, for example, interest or charges documents.",
+   "section_id": "doc_026_sec_106"
+  },
+  {
+   "block_id": "doc_026_p023_b009",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    126,
+    2245,
+    409,
+    2291
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_107"
+  },
+  {
+   "block_id": "doc_026_p023_b010",
+   "type": "list",
+   "page_number": 23,
+   "bbox": [
+    211,
+    2378,
+    2485,
+    2580
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Display the dunning items as described in Displaying Dunning Activities ."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "For each dunning grouping (dunning header), you can display the documents for interest and charges posted. For each item in a grouping (dunning item), you can display the source document of the item due for dunning."
+    }
+   ],
+   "section_id": "doc_026_sec_107"
+  },
+  {
+   "block_id": "doc_026_p023_b011",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    254,
+    2644,
+    2385,
+    2745
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "To display the documents described above, place the cursor on the relevant document number and choose the button Display Document , double-click on the document number, or choose the menu path |+Goto Document.",
+   "section_id": "doc_026_sec_107"
+  },
+  {
+   "block_id": "doc_026_p023_b012",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    126,
+    2857,
+    297,
+    2902
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Result",
+   "level": 3,
+   "heading_confidence": "low",
+   "section_id": "doc_026_sec_107"
+  },
+  {
+   "block_id": "doc_026_p023_b013",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    122,
+    2989,
+    2369,
+    3089
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The system displays the selected document. You can use additional functions in the document display (see also Functions in Document Display and Document Change ).",
+   "section_id": "doc_026_sec_107"
+  },
+  {
+   "block_id": "doc_026_p023_b014",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    128,
+    3239,
+    1098,
+    3300
+   ],
+   "ocr_confidence": 77.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Reversing Dunning Notices",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_108"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "ef7e18f7a1475a2fe31d0e00ec42e5cfcda71db87686478acc71f3084995a25b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Editing Dunning Items"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_102",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_103",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_104",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_105",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_106",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_107",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_108",
+   "role": "starts_here"
+  }
+ ]
+}

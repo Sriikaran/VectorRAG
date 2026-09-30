@@ -1,0 +1,1228 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 23,
+ "source_page_hash": "f95edff8c97e2b27d53367a2c571b407140edb2a570aab84f9bcce22e4441d8c",
+ "is_cover_page": false,
+ "title": "R30BI",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nR30BI\n\nR30BI\n\nR30BI\n\nR30BI\n\nR3IN\n\nR3IN\n\nR3IN\n\nBUPA\n\nBUPA\n\nBUPR\n\nVEND\n\nBUPA\n\nBUPA\n\nBUPA\n\nAny\n\nAny\n\nAny\n\nAny\n\nAny\n\nAny\n\nAny\n\nCOM_BUPA_MAIN_BP_INBOUND\n\nPI_BP_PROXY_BAPI_CUSTOMER\n\nPI _BP_PROXY_BAPI_ CUSTOMER\n\nPI _BP_PROXY_BAPI VENDOR\n\nCOM BUPA MWX MAP MAIN CENTRAL\n\nFSL_BUPA INBOUND FILTER IDENT\n\nFSL_ BUPA INBOUND MWX ADD ROLES\n\n8. In the S/4HANA system, activate the following function modules in the view V_BUT_CALL_FU by setting the Call indicator\nfor them. In the menu, choose |*System % Services \u00bb Table Maintenance \u00a7 Extended Table Maintenance %. The position\n\nnumbers specify the sequence in which the function modules are executed within a group with the same event and object.\nOnly the sequence of the numbers is important. That means that the absolute values of the items can be different.\n\nEvent\n\nCRMIN\n\nCRMIN\n\nCRMIN\n\nCRMOU\n\nCRMOU\n\nBPOUT\n\nObject\n\nBUPA\nBUPA\nBUPR\nBUPA\n\nBUPR\n\nBUPX\n\nItem\n\n1000000\n\n2000000\n\n1000000\n\n1000000\n\n1000000\n\n10000000\n\nFunction Module                                    Calling the\nArchiving Function\n\nBUPA_INBOUND_MAIN_CENTRAL         X\nABA_FSBP_INBOUND MAIN             X\nBUPA_INBOUND_REL_CENTRAL                 X\n\nBUPA OUTBOUND BPS FILL CENTRAL X\nBUPA OUTBOUND _BPR_FILL_CENTRAL  X\n\nMDS BUPA _OUTBOUND                           X\n\nThe events CRMOU and BPOUT are relevant for internal synchronization using CVI. In some cases, you might need additional\n\nfunction modules, such as for the event MERGE.\n\nMaking Settings for Customer/Vendor Integration\n\nContext\n\nTo synchronize customer and vendor master data with the CRM system, you use customer/vendor integration (CVI).\n\nCustomer/vendor integration synchronizes the related synchronization objects in the S/4AHANA system:\n\ne SAP business partner (BP)\n\ne Customer master record\n\ne Vendor master record\n\nYou make settings for customer/vendor integration only in the S/4HANA system.\n",
+ "cleaned_text": "R30BI\n\nR30BI\n\nR30BI\n\nR30BI\n\nR3IN\n\nR3IN\n\nR3IN\n\nBUPA\n\nBUPA\n\nBUPR\n\nVEND\n\nBUPA\n\nBUPA\n\nBUPA\n\nAny\n\nCOM_BUPA_MAIN_BP_INBOUND\n\nPI_BP_PROXY_BAPI_CUSTOMER\n\nPI _BP_PROXY_BAPI_ CUSTOMER PI _BP_PROXY_BAPI VENDOR COM BUPA MWX MAP MAIN CENTRAL FSL_BUPA INBOUND FILTER IDENT FSL_ BUPA INBOUND MWX ADD ROLES\n\n8 In the S/4HANA system, activate the following function modules in the view V_BUT_CALL_FU by setting the Call indicator for them. In the menu, choose |*System % Services \u00bb Table Maintenance \u00a7 Extended Table Maintenance %. The position numbers specify the sequence in which the function modules are executed within a group with the same event and object.\n\nOnly the sequence of the numbers is important. That means that the absolute values of the items can be different.\n\nEvent\n\nCRMIN\n\nCRMIN\n\nCRMIN\n\nCRMOU\n\nCRMOU\n\nBPOUT\n\nObject\n\nBUPA\n\nBUPA\n\nBUPR\n\nBUPA\n\nBUPR\n\nBUPX\n\nItem\n\n1000000\n\n2000000\n\n1000000\n\n1000000\n\n1000000\n\n10000000\n\nFunction Module | Calling the\n\nArchiving Function\n\nBUPA_INBOUND_MAIN_CENTRAL | X\n\nABA_FSBP_INBOUND MAIN | X\n\nBUPA_INBOUND_REL_CENTRAL | X\n\nBUPA OUTBOUND BPS FILL CENTRAL X BUPA OUTBOUND _BPR_FILL_CENTRAL X\n\nMDS BUPA _OUTBOUND | X\n\nThe events CRMOU and BPOUT are relevant for internal synchronization using CVI. In some cases, you might need additional function modules, such as for the event MERGE.\n\nMaking Settings for Customer/Vendor Integration\n\nContext\n\nTo synchronize customer and vendor master data with the CRM system, you use customer/vendor integration (CVI). Customer/vendor integration synchronizes the related synchronization objects in the S/4AHANA system:\n\n- SAP business partner (BP)\n\n- Customer master record\n\n- Vendor master record\n\nYou make settings for customer/vendor integration only in the S/4HANA system.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p023_b000",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    310,
+    154,
+    422,
+    185
+   ],
+   "ocr_confidence": 70.0,
+   "flags": [],
+   "text": "R30BI",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_061"
+  },
+  {
+   "block_id": "doc_001_p023_b001",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    310,
+    260,
+    422,
+    290
+   ],
+   "ocr_confidence": 91.5,
+   "flags": [],
+   "text": "R30BI",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_062"
+  },
+  {
+   "block_id": "doc_001_p023_b002",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    310,
+    368,
+    422,
+    398
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [],
+   "text": "R30BI",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_063"
+  },
+  {
+   "block_id": "doc_001_p023_b003",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    310,
+    473,
+    422,
+    503
+   ],
+   "ocr_confidence": 90.9,
+   "flags": [],
+   "text": "R30BI",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_064"
+  },
+  {
+   "block_id": "doc_001_p023_b004",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    310,
+    578,
+    399,
+    608
+   ],
+   "ocr_confidence": 90.1,
+   "flags": [],
+   "text": "R3IN",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_065"
+  },
+  {
+   "block_id": "doc_001_p023_b005",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    310,
+    684,
+    399,
+    713
+   ],
+   "ocr_confidence": 88.6,
+   "flags": [],
+   "text": "R3IN",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_066"
+  },
+  {
+   "block_id": "doc_001_p023_b006",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    310,
+    792,
+    399,
+    822
+   ],
+   "ocr_confidence": 83.7,
+   "flags": [],
+   "text": "R3IN",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_067"
+  },
+  {
+   "block_id": "doc_001_p023_b007",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    665,
+    155,
+    756,
+    185
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "BUPA",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_068"
+  },
+  {
+   "block_id": "doc_001_p023_b008",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    665,
+    260,
+    756,
+    290
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "BUPA",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_069"
+  },
+  {
+   "block_id": "doc_001_p023_b009",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    665,
+    369,
+    757,
+    398
+   ],
+   "ocr_confidence": 92.6,
+   "flags": [],
+   "text": "BUPR",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_070"
+  },
+  {
+   "block_id": "doc_001_p023_b010",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    663,
+    474,
+    754,
+    503
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [],
+   "text": "VEND",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_071"
+  },
+  {
+   "block_id": "doc_001_p023_b011",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    665,
+    579,
+    756,
+    608
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "BUPA",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_072"
+  },
+  {
+   "block_id": "doc_001_p023_b012",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    665,
+    684,
+    756,
+    713
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "BUPA",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_073"
+  },
+  {
+   "block_id": "doc_001_p023_b013",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    665,
+    793,
+    756,
+    822
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "BUPA",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_074"
+  },
+  {
+   "block_id": "doc_001_p023_b014",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    1018,
+    156,
+    1081,
+    828
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "Any",
+   "section_id": "doc_001_sec_074"
+  },
+  {
+   "block_id": "doc_001_p023_b015",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    1362,
+    154,
+    1923,
+    185
+   ],
+   "ocr_confidence": 78.3,
+   "flags": [],
+   "text": "COM_BUPA_MAIN_BP_INBOUND",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_075"
+  },
+  {
+   "block_id": "doc_001_p023_b016",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    1363,
+    260,
+    1949,
+    290
+   ],
+   "ocr_confidence": 90.6,
+   "flags": [],
+   "text": "PI_BP_PROXY_BAPI_CUSTOMER",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_076"
+  },
+  {
+   "block_id": "doc_001_p023_b017",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    1362,
+    368,
+    2065,
+    831
+   ],
+   "ocr_confidence": 60.4,
+   "flags": [
+    "low_confidence_words:9"
+   ],
+   "text": "PI _BP_PROXY_BAPI_ CUSTOMER PI _BP_PROXY_BAPI VENDOR COM BUPA MWX MAP MAIN CENTRAL FSL_BUPA INBOUND FILTER IDENT FSL_ BUPA INBOUND MWX ADD ROLES",
+   "section_id": "doc_001_sec_076"
+  },
+  {
+   "block_id": "doc_001_p023_b018",
+   "type": "list",
+   "page_number": 23,
+   "bbox": [
+    211,
+    1010,
+    2472,
+    1145
+   ],
+   "ocr_confidence": 88.5,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "8",
+     "text": "In the S/4HANA system, activate the following function modules in the view V_BUT_CALL_FU by setting the Call indicator for them. In the menu, choose |*System % Services \u00bb Table Maintenance \u00a7 Extended Table Maintenance %. The position numbers specify the sequence in which the function modules are executed within a group with the same event and object."
+    }
+   ],
+   "section_id": "doc_001_sec_076"
+  },
+  {
+   "block_id": "doc_001_p023_b019",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    255,
+    1153,
+    2315,
+    1190
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Only the sequence of the numbers is important. That means that the absolute values of the items can be different.",
+   "section_id": "doc_001_sec_076"
+  },
+  {
+   "block_id": "doc_001_p023_b020",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    281,
+    1306,
+    374,
+    1334
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Event",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_077"
+  },
+  {
+   "block_id": "doc_001_p023_b021",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    281,
+    1469,
+    393,
+    1499
+   ],
+   "ocr_confidence": 90.6,
+   "flags": [],
+   "text": "CRMIN",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_078"
+  },
+  {
+   "block_id": "doc_001_p023_b022",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    281,
+    1574,
+    393,
+    1604
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [],
+   "text": "CRMIN",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_079"
+  },
+  {
+   "block_id": "doc_001_p023_b023",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    281,
+    1679,
+    393,
+    1709
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [],
+   "text": "CRMIN",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_080"
+  },
+  {
+   "block_id": "doc_001_p023_b024",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    281,
+    1784,
+    393,
+    1814
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [],
+   "text": "CRMOU",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_081"
+  },
+  {
+   "block_id": "doc_001_p023_b025",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    281,
+    1889,
+    393,
+    1919
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [],
+   "text": "CRMOU",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_082"
+  },
+  {
+   "block_id": "doc_001_p023_b026",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    281,
+    1998,
+    395,
+    2027
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [],
+   "text": "BPOUT",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_083"
+  },
+  {
+   "block_id": "doc_001_p023_b027",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    641,
+    1306,
+    753,
+    1341
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Object",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_084"
+  },
+  {
+   "block_id": "doc_001_p023_b028",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    642,
+    1469,
+    733,
+    1499
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "BUPA",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_085"
+  },
+  {
+   "block_id": "doc_001_p023_b029",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    642,
+    1574,
+    733,
+    1604
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "BUPA",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_086"
+  },
+  {
+   "block_id": "doc_001_p023_b030",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    642,
+    1679,
+    734,
+    1709
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [],
+   "text": "BUPR",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_087"
+  },
+  {
+   "block_id": "doc_001_p023_b031",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    642,
+    1784,
+    733,
+    1814
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "BUPA",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_088"
+  },
+  {
+   "block_id": "doc_001_p023_b032",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    642,
+    1890,
+    734,
+    1919
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [],
+   "text": "BUPR",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_089"
+  },
+  {
+   "block_id": "doc_001_p023_b033",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    642,
+    1998,
+    733,
+    2027
+   ],
+   "ocr_confidence": 92.1,
+   "flags": [],
+   "text": "BUPX",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_090"
+  },
+  {
+   "block_id": "doc_001_p023_b034",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    1003,
+    1306,
+    1078,
+    1334
+   ],
+   "ocr_confidence": 86.6,
+   "flags": [],
+   "text": "Item",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_091"
+  },
+  {
+   "block_id": "doc_001_p023_b035",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    1004,
+    1469,
+    1163,
+    1499
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "1000000",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_092"
+  },
+  {
+   "block_id": "doc_001_p023_b036",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    1003,
+    1574,
+    1163,
+    1604
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "2000000",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_093"
+  },
+  {
+   "block_id": "doc_001_p023_b037",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    1004,
+    1679,
+    1163,
+    1709
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "1000000",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_094"
+  },
+  {
+   "block_id": "doc_001_p023_b038",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    1004,
+    1784,
+    1163,
+    1814
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "1000000",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_095"
+  },
+  {
+   "block_id": "doc_001_p023_b039",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    1004,
+    1889,
+    1163,
+    1919
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "1000000",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_096"
+  },
+  {
+   "block_id": "doc_001_p023_b040",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    1004,
+    1998,
+    1186,
+    2027
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "10000000",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_097"
+  },
+  {
+   "block_id": "doc_001_p023_b041",
+   "type": "table",
+   "page_number": 23,
+   "bbox": [
+    1385,
+    1306,
+    2323,
+    1341
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    1385,
+    2139
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Function Module",
+     "Calling the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Function Module",
+     "Calling the"
+    ]
+   ],
+   "section_id": "doc_001_sec_097"
+  },
+  {
+   "block_id": "doc_001_p023_b042",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    2139,
+    1362,
+    2460,
+    1397
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Archiving Function",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_098"
+  },
+  {
+   "block_id": "doc_001_p023_b043",
+   "type": "table",
+   "page_number": 23,
+   "bbox": [
+    1384,
+    1469,
+    2160,
+    1718
+   ],
+   "ocr_confidence": 87.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    1384,
+    2138
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "BUPA_INBOUND_MAIN_CENTRAL",
+     "X"
+    ],
+    [
+     "ABA_FSBP_INBOUND MAIN",
+     "X"
+    ],
+    [
+     "BUPA_INBOUND_REL_CENTRAL",
+     "X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "BUPA_INBOUND_MAIN_CENTRAL",
+     "X"
+    ],
+    [
+     "ABA_FSBP_INBOUND MAIN",
+     "X"
+    ],
+    [
+     "BUPA_INBOUND_REL_CENTRAL",
+     "X"
+    ]
+   ],
+   "section_id": "doc_001_sec_098"
+  },
+  {
+   "block_id": "doc_001_p023_b044",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    1386,
+    1765,
+    2161,
+    1928
+   ],
+   "ocr_confidence": 38.9,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "text": "BUPA OUTBOUND BPS FILL CENTRAL X BUPA OUTBOUND _BPR_FILL_CENTRAL X",
+   "section_id": "doc_001_sec_098"
+  },
+  {
+   "block_id": "doc_001_p023_b045",
+   "type": "table",
+   "page_number": 23,
+   "bbox": [
+    1384,
+    1998,
+    2160,
+    2037
+   ],
+   "ocr_confidence": 34.4,
+   "flags": [
+    "low_confidence_words:3",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    1384,
+    2138
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MDS BUPA _OUTBOUND",
+     "X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MDS BUPA _OUTBOUND",
+     "X"
+    ]
+   ],
+   "section_id": "doc_001_sec_098"
+  },
+  {
+   "block_id": "doc_001_p023_b046",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    254,
+    2160,
+    2482,
+    2264
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "The events CRMOU and BPOUT are relevant for internal synchronization using CVI. In some cases, you might need additional function modules, such as for the event MERGE.",
+   "section_id": "doc_001_sec_098"
+  },
+  {
+   "block_id": "doc_001_p023_b047",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    128,
+    2414,
+    1931,
+    2490
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "text": "Making Settings for Customer/Vendor Integration",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_099"
+  },
+  {
+   "block_id": "doc_001_p023_b048",
+   "type": "heading",
+   "page_number": 23,
+   "bbox": [
+    124,
+    2590,
+    344,
+    2636
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Context",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p023_b049",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    122,
+    2723,
+    2225,
+    2823
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "To synchronize customer and vendor master data with the CRM system, you use customer/vendor integration (CVI). Customer/vendor integration synchronizes the related synchronization objects in the S/4AHANA system:",
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p023_b050",
+   "type": "list",
+   "page_number": 23,
+   "bbox": [
+    207,
+    2910,
+    737,
+    3144
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "SAP business partner (BP)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Customer master record"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Vendor master record"
+    }
+   ],
+   "section_id": "doc_001_sec_100"
+  },
+  {
+   "block_id": "doc_001_p023_b051",
+   "type": "paragraph",
+   "page_number": 23,
+   "bbox": [
+    123,
+    3236,
+    1586,
+    3273
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "text": "You make settings for customer/vendor integration only in the S/4HANA system.",
+   "section_id": "doc_001_sec_100"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 55.0,
+  "body_stroke_median": 0.0952,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 86,
+   "page_hash": "f95edff8c97e2b27d53367a2c571b407140edb2a570aab84f9bcce22e4441d8c"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making Settings for CRM Middleware",
+  "Procedure",
+  "R30BI"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_061",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_062",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_063",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_064",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_065",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_066",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_067",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_068",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_069",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_070",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_071",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_072",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_073",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_074",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_075",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_076",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_077",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_078",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_079",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_080",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_081",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_082",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_083",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_084",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_085",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_086",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_087",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_088",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_089",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_090",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_091",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_092",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_093",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_094",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_095",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_096",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_097",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_098",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_099",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_100",
+   "role": "starts_here"
+  }
+ ]
+}

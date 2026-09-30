@@ -1,0 +1,459 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_027",
+ "page_number": 5,
+ "source_page_hash": "18eabba6aab53546a1a4ba677365aa93c151e03c1cfe2b056c7670620964bd2b",
+ "is_cover_page": false,
+ "title": "Activities",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:16 AM\nYou can select individual unpaid items by business partner, contract account, document, or net due date, and set them manually\nfor a collection order. You can also manually reset releases that have already been made for collection for individual items of a\nbusiness partner.\n\nActivities\nTo release items for collection:\n\n1. In the SAP Easy Access screen, choose |sAccount \u00bb Submit to Collections \u00bb Release Items for Collection (transaction\nFPO3E).\n\n2. Enter the criteria that you want to use to select the items to be submitted.\n\nIf you select the Only Items to Be Submitted indicator, the system displays only those items that you have not yet\nsubmitted to a collection agency. If you set the Written Off Items indicator, the items of a business partner that have\nalready been written off are also offered for release for collection.\n\n3. Choose Continue.\n\n4. Select the items that you want to release for collection and choose |Edit \u00bb Hold for Collection Order\n\nAs aresult, you have released the items for submission. Via|#Items \u00bb Refresh = you can update the display. This means that the\nreleased receivables are no longer displayed. Via |-ltems Other Receivables \u201cjyou can select new items.\n\nTo reset the release:\n\n1. In the transaction Release Items for Collection, select the required items.\n2. In the menu, choose |Edit \u00bb Reset Release\n\n3. Save your entry.\n\nAutomatic Release\n\nUse\n\nUsing the mass run Release for Collection is recommended if you are processing large volumes of data.\n\nActivities\n\n1. In the SAP Easy Access screen, choose |sPeriodic Processing For Contract Accounts \u00bb Submission for Collection\nRelease Run 3 (transaction FPQ3M).\n\n2. Assign a date ID and an identification that you can use to identify the run later and on the General Selections tab, restrict\nthe selection of the receivables to be released. On the Additional Selection tab, you can refine this search using additional\ncriteria and also include statistical and written off items in the selection. You can also restrict the selection using a run\nvariant according to your company-specific requirements (see also the documentation for the field Execution Variant and\n\nthe section Releasing Receivables for Collection).\n\n3. Choose whether you want to start a simulation run or actually release the receivables.\n",
+ "cleaned_text": "You can select individual unpaid items by business partner, contract account, document, or net due date, and set them manually for a collection order. You can also manually reset releases that have already been made for collection for individual items of a business partner.\n\nActivities\n\nTo release items for collection:\n\n1 In the SAP Easy Access screen, choose |sAccount \u00bb Submit to Collections \u00bb Release Items for Collection (transaction FPO3E).\n\n2 Enter the criteria that you want to use to select the items to be submitted. If you select the Only Items to Be Submitted indicator, the system displays only those items that you have not yet\n\nsubmitted to a collection agency. If you set the Written Off Items indicator, the items of a business partner that have already been written off are also offered for release for collection.\n\n3 Choose Continue.\n\n4 Select the items that you want to release for collection and choose |Edit \u00bb Hold for Collection Order\n\nAs aresult, you have released the items for submission. Via|#Items \u00bb Refresh = you can update the display. This means that the released receivables are no longer displayed. Via |-ltems Other Receivables \u201cjyou can select new items.\n\nTo reset the release:\n\n1 In the transaction Release Items for Collection, select the required items.\n\n2 In the menu, choose |Edit \u00bb Reset Release\n\n3 Save your entry.\n\nAutomatic Release\n\nUse\n\nUsing the mass run Release for Collection is recommended if you are processing large volumes of data.\n\nActivities\n\n1 In the SAP Easy Access screen, choose |sPeriodic Processing For Contract Accounts \u00bb Submission for Collection Release Run 3 (transaction FPQ3M).\n\n2 Assign a date ID and an identification that you can use to identify the run later and on the General Selections tab, restrict the selection of the receivables to be released. On the Additional Selection tab, you can refine this search using additional criteria and also include statistical and written off items in the selection. You can also restrict the selection using a run\n\nvariant according to your company-specific requirements (see also the documentation for the field Execution Variant and the section Releasing Receivables for Collection).\n\n3 Choose whether you want to start a simulation run or actually release the receivables.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:16 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_027_p005_b000",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    122,
+    134,
+    2436,
+    296
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You can select individual unpaid items by business partner, contract account, document, or net due date, and set them manually for a collection order. You can also manually reset releases that have already been made for collection for individual items of a business partner.",
+   "section_id": "doc_027_sec_015"
+  },
+  {
+   "block_id": "doc_027_p005_b001",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    123,
+    408,
+    382,
+    454
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_016"
+  },
+  {
+   "block_id": "doc_027_p005_b002",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    122,
+    541,
+    669,
+    571
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "To release items for collection:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_017"
+  },
+  {
+   "block_id": "doc_027_p005_b003",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    211,
+    658,
+    2434,
+    972
+   ],
+   "ocr_confidence": 90.8,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "In the SAP Easy Access screen, choose |sAccount \u00bb Submit to Collections \u00bb Release Items for Collection (transaction FPO3E)."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter the criteria that you want to use to select the items to be submitted. If you select the Only Items to Be Submitted indicator, the system displays only those items that you have not yet"
+    }
+   ],
+   "section_id": "doc_027_sec_017"
+  },
+  {
+   "block_id": "doc_027_p005_b004",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    254,
+    996,
+    2354,
+    1096
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "submitted to a collection agency. If you set the Written Off Items indicator, the items of a business partner that have already been written off are also offered for release for collection.",
+   "section_id": "doc_027_sec_017"
+  },
+  {
+   "block_id": "doc_027_p005_b005",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    211,
+    1163,
+    2082,
+    1308
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Choose Continue."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Select the items that you want to release for collection and choose |Edit \u00bb Hold for Collection Order"
+    }
+   ],
+   "section_id": "doc_027_sec_017"
+  },
+  {
+   "block_id": "doc_027_p005_b006",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    123,
+    1383,
+    2428,
+    1487
+   ],
+   "ocr_confidence": 88.9,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "As aresult, you have released the items for submission. Via|#Items \u00bb Refresh = you can update the display. This means that the released receivables are no longer displayed. Via |-ltems Other Receivables \u201cjyou can select new items.",
+   "section_id": "doc_027_sec_017"
+  },
+  {
+   "block_id": "doc_027_p005_b007",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    122,
+    1570,
+    482,
+    1600
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "To reset the release:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_018"
+  },
+  {
+   "block_id": "doc_027_p005_b008",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    211,
+    1694,
+    1586,
+    1936
+   ],
+   "ocr_confidence": 84.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "In the transaction Release Items for Collection, select the required items."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "In the menu, choose |Edit \u00bb Reset Release"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Save your entry."
+    }
+   ],
+   "section_id": "doc_027_sec_018"
+  },
+  {
+   "block_id": "doc_027_p005_b009",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    124,
+    2085,
+    801,
+    2145
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Automatic Release",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_019"
+  },
+  {
+   "block_id": "doc_027_p005_b010",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    125,
+    2261,
+    225,
+    2306
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_020"
+  },
+  {
+   "block_id": "doc_027_p005_b011",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    124,
+    2393,
+    1993,
+    2430
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Using the mass run Release for Collection is recommended if you are processing large volumes of data.",
+   "section_id": "doc_027_sec_020"
+  },
+  {
+   "block_id": "doc_027_p005_b012",
+   "type": "heading",
+   "page_number": 5,
+   "bbox": [
+    123,
+    2543,
+    382,
+    2588
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_021"
+  },
+  {
+   "block_id": "doc_027_p005_b013",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    211,
+    2667,
+    2451,
+    3004
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "In the SAP Easy Access screen, choose |sPeriodic Processing For Contract Accounts \u00bb Submission for Collection Release Run 3 (transaction FPQ3M)."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Assign a date ID and an identification that you can use to identify the run later and on the General Selections tab, restrict the selection of the receivables to be released. On the Additional Selection tab, you can refine this search using additional criteria and also include statistical and written off items in the selection. You can also restrict the selection using a run"
+    }
+   ],
+   "section_id": "doc_027_sec_021"
+  },
+  {
+   "block_id": "doc_027_p005_b014",
+   "type": "paragraph",
+   "page_number": 5,
+   "bbox": [
+    253,
+    3029,
+    2449,
+    3132
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "variant according to your company-specific requirements (see also the documentation for the field Execution Variant and the section Releasing Receivables for Collection).",
+   "section_id": "doc_027_sec_021"
+  },
+  {
+   "block_id": "doc_027_p005_b015",
+   "type": "list",
+   "page_number": 5,
+   "bbox": [
+    211,
+    3196,
+    1799,
+    3234
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Choose whether you want to start a simulation run or actually release the receivables."
+    }
+   ],
+   "section_id": "doc_027_sec_021"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Submission of Receivables to Collection Agency",
+  "source_pdf": "27.pdf",
+  "reference_pdf": "27_Submission_of_Receivables_to_Collection_Agency.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Useful for late-stage collections and external-agency lifecycle knowledge.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "18eabba6aab53546a1a4ba677365aa93c151e03c1cfe2b056c7670620964bd2b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Submission of Receivables to Collection Agency",
+  "Manual Release",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_027_sec_015",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_027_sec_016",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_017",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_018",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_019",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_020",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_021",
+   "role": "starts_here"
+  }
+ ]
+}

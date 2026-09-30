@@ -1,0 +1,384 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_029",
+ "page_number": 7,
+ "source_page_hash": "279d134c0b44db713cb266c77507287bcbed39cff06cec0d828e65947dcd5ed4",
+ "is_cover_page": false,
+ "title": "Create reconnection order",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:19 AM\n\nTriggering of the Reconnection\n\nDisconnection reason                                                                        Events that terminate the disconnection\nDisconnection dunning level reached in accounts receivable and         Clearing items, move-out\n\npayable\n\nVacant status                                                                          Move-in\n\nCustomer request                                                                    Customer request\n\nTechnical causes                                                                   Technical problems solved\n\nl\n\nYou can modify event R720 (reference check for reconnection) in the Standard function module table (which can be found in\nCustomizing for Financial Accounting (Fl)) via the program enhancement for contract accounts receivable and payable. This\nenables you to perform an amount check. You can find a reference for the program enhancement in the\nISU_CECK_RECONNETION_R720 function module (trigger reconnection upon clearing).\n\nCreate reconnection order\n\nReconnection orders are created for disconnected devices and flat-rate installations in the same way that disconnection orders are\ncreated.\n\nYou also specify whether you need to contact the corresponding customer ( Notification ) before you carry out the actual device\nreconnection.\n\nIf notification is required, the system generates a notification work item . The CRM agent assigned to this work item must contact\nthe customer, set an agreed date and close the work item before the reconnection order can be processed further\n\nIf notification is not required, or if the notification work item is closed, you can continue processing the reconnection order\n\nYou can also generate a corresponding service management (SM) service order (note however, that if notification is required, the\nsystem can only generate service orders after you have set the agreed date and the notification work item is closed).\n\nEnter reconnection and confirm reconnection order\n\nFollowing reconnection, you enter the reconnection data in the system. You can also generate a customer contact, adjust the\nbudget billing plan, post charges, and enter meter readings for the reconnection.\n\nDisconnection Document Release\n\nUse\n\nUsing the release mechanism, an agent can explicitly release disconnection documents before actual disconnection and\nreconnection processing. You cannot carry out further steps with the disconnection document (for example, generating a\ndisconnection order) until the disconnection document is released.\n\nIn this way, you can control the workload of field service employees, for example by releasing disconnection documents according\n\nSs a an i\n",
+ "cleaned_text": "Triggering of the Reconnection\n\nDisconnection reason | Events that terminate the disconnection\n\nDisconnection dunning level reached in accounts receivable and | Clearing items, move-out\n\npayable\n\nVacant status | Move-in\n\nCustomer request | Customer request\n\nTechnical causes | Technical problems solved\n\nl You can modify event R720 (reference check for reconnection) in the Standard function module table (which can be found in Customizing for Financial Accounting (Fl)) via the program enhancement for contract accounts receivable and payable. This enables you to perform an amount check. You can find a reference for the program enhancement in the ISU_CECK_RECONNETION_R720 function module (trigger reconnection upon clearing).\n\nCreate reconnection order\n\nReconnection orders are created for disconnected devices and flat-rate installations in the same way that disconnection orders are created. You also specify whether you need to contact the corresponding customer ( Notification ) before you carry out the actual device reconnection. If notification is required, the system generates a notification work item . The CRM agent assigned to this work item must contact the customer, set an agreed date and close the work item before the reconnection order can be processed further If notification is not required, or if the notification work item is closed, you can continue processing the reconnection order You can also generate a corresponding service management (SM) service order (note however, that if notification is required, the system can only generate service orders after you have set the agreed date and the notification work item is closed).\n\nEnter reconnection and confirm reconnection order\n\nFollowing reconnection, you enter the reconnection data in the system. You can also generate a customer contact, adjust the budget billing plan, post charges, and enter meter readings for the reconnection.\n\nDisconnection Document Release\n\nUse\n\nUsing the release mechanism, an agent can explicitly release disconnection documents before actual disconnection and reconnection processing. You cannot carry out further steps with the disconnection document (for example, generating a disconnection order) until the disconnection document is released. In this way, you can control the workload of field service employees, for example by releasing disconnection documents according\n\nSs a an i",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:19 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_029_p007_b000",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    1057,
+    144,
+    1554,
+    179
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Triggering of the Reconnection",
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p007_b001",
+   "type": "table",
+   "page_number": 7,
+   "bbox": [
+    149,
+    232,
+    2028,
+    375
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1332
+   ],
+   "headers": [
+    "Disconnection reason",
+    "Events that terminate the disconnection"
+   ],
+   "rows": [
+    [
+     "Disconnection dunning level reached in accounts receivable and",
+     "Clearing items, move-out"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Disconnection reason",
+     "Events that terminate the disconnection"
+    ],
+    [
+     "Disconnection dunning level reached in accounts receivable and",
+     "Clearing items, move-out"
+    ]
+   ],
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p007_b002",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    149,
+    400,
+    277,
+    434
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "payable",
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p007_b003",
+   "type": "table",
+   "page_number": 7,
+   "bbox": [
+    148,
+    505,
+    1772,
+    750
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1331
+   ],
+   "headers": [
+    "Vacant status",
+    "Move-in"
+   ],
+   "rows": [
+    [
+     "Customer request",
+     "Customer request"
+    ],
+    [
+     "Technical causes",
+     "Technical problems solved"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Vacant status",
+     "Move-in"
+    ],
+    [
+     "Customer request",
+     "Customer request"
+    ],
+    [
+     "Technical causes",
+     "Technical problems solved"
+    ]
+   ],
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p007_b004",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    123,
+    877,
+    2385,
+    1223
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "l You can modify event R720 (reference check for reconnection) in the Standard function module table (which can be found in Customizing for Financial Accounting (Fl)) via the program enhancement for contract accounts receivable and payable. This enables you to perform an amount check. You can find a reference for the program enhancement in the ISU_CECK_RECONNETION_R720 function module (trigger reconnection upon clearing).",
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p007_b005",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    123,
+    1310,
+    600,
+    1341
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Create reconnection order",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p007_b006",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    1432,
+    2488,
+    2209
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Reconnection orders are created for disconnected devices and flat-rate installations in the same way that disconnection orders are created. You also specify whether you need to contact the corresponding customer ( Notification ) before you carry out the actual device reconnection. If notification is required, the system generates a notification work item . The CRM agent assigned to this work item must contact the customer, set an agreed date and close the work item before the reconnection order can be processed further If notification is not required, or if the notification work item is closed, you can continue processing the reconnection order You can also generate a corresponding service management (SM) service order (note however, that if notification is required, the system can only generate service orders after you have set the agreed date and the notification work item is closed).",
+   "section_id": "doc_029_sec_017"
+  },
+  {
+   "block_id": "doc_029_p007_b007",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    125,
+    2297,
+    1056,
+    2326
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Enter reconnection and confirm reconnection order",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_018"
+  },
+  {
+   "block_id": "doc_029_p007_b008",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    124,
+    2418,
+    2371,
+    2518
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Following reconnection, you enter the reconnection data in the system. You can also generate a customer contact, adjust the budget billing plan, post charges, and enter meter readings for the reconnection.",
+   "section_id": "doc_029_sec_018"
+  },
+  {
+   "block_id": "doc_029_p007_b009",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    128,
+    2667,
+    1345,
+    2728
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Disconnection Document Release",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_019"
+  },
+  {
+   "block_id": "doc_029_p007_b010",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    125,
+    2844,
+    225,
+    2889
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_020"
+  },
+  {
+   "block_id": "doc_029_p007_b011",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    123,
+    2976,
+    2467,
+    3260
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Using the release mechanism, an agent can explicitly release disconnection documents before actual disconnection and reconnection processing. You cannot carry out further steps with the disconnection document (for example, generating a disconnection order) until the disconnection document is released. In this way, you can control the workload of field service employees, for example by releasing disconnection documents according",
+   "section_id": "doc_029_sec_020"
+  },
+  {
+   "block_id": "doc_029_p007_b012",
+   "type": "fragment",
+   "page_number": 7,
+   "bbox": [
+    122,
+    3281,
+    658,
+    3300
+   ],
+   "ocr_confidence": 14.4,
+   "flags": [
+    "low_confidence_words:4",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Ss a an i",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_029_sec_020"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Disconnection/Reconnection of a Utility Installation",
+  "source_pdf": "29.pdf",
+  "reference_pdf": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+  "category": "Disconnection & Reconnection",
+  "m2c_relevance": "Connects overdue debt/dunning to service actions while preserving the distinction between delinquency and disconnect eligibility.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "279d134c0b44db713cb266c77507287bcbed39cff06cec0d828e65947dcd5ed4"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:47Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Disconnection/Reconnection of a Utility Installation",
+  "Process Flow",
+  "Generate disconnection order"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_029_sec_017",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_029_sec_018",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_019",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_020",
+   "role": "starts_here"
+  }
+ ]
+}

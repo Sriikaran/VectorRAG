@@ -1,0 +1,393 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 75,
+ "source_page_hash": "40330acc231cc41c23e4e485ce221a13e24cadb9a69ac9a7c1ef38e589e08efd",
+ "is_cover_page": false,
+ "title": "Procedure",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nThe contract account category allows you to assign multiple business partners to a contract account. You have already assigned a\nbusiness partner to the contract account.\n\nProcedure\n\n1. On the SAP Easy Access screen, choose |}#Master Data \u00bb Contract Account \u00bb Change %(CAA2) and enter the required\ncontract account.\n\n2. The first screen for data entry appears.\n\n3. Choose |)Goto \u00bb New Partner | to jump to a dialog box in which you can assign an additional business partner to the\naccount.\n\nAfter you execute the function, all fields that contain business partner-specific data appear initial (or with their default values) and\nthe general data remains unchanged.\n\nDisplaying or Editing Other Business Partners\n\nPrerequisites\n\nSeveral business partners must be assigned to the contract account.\n\nProcedure\n\nYou can use the OtherPartner function to switch between the data of individual partners in the contract account.\n\n1. On the SAP Easy Access screen, choose |}#Master Data\u00bb Contract Account > Display 3 (CAA3).\nEnter the required contract account.\n2. Then choose |+Goto . Other \u00bb Partner\n\n3. The system displays a selection window for the business partners already assigned to the contract account.\n\n4. Choose a business partner.\n\nThe data for this business partner is displayed and can be processed.\n\nSelecting Addresses for Business Partners\n\nPrerequisites\n\nYou have defined multiple addresses for a business partner want to use each of these addresses for a specific purpose (for\n\nexample, for dunning notices).\n\nProcedure\n\n1 Inthe Create Contract Acconiint / Chance Contract Accoiint (CAA1/CAA?) trancactinne on the Canaral Data Pavmeantc\n",
+ "cleaned_text": "The contract account category allows you to assign multiple business partners to a contract account. You have already assigned a business partner to the contract account.\n\nProcedure\n\n1 On the SAP Easy Access screen, choose |}#Master Data \u00bb Contract Account \u00bb Change %(CAA2) and enter the required contract account.\n\n2 The first screen for data entry appears.\n\n3 Choose |)Goto \u00bb New Partner | to jump to a dialog box in which you can assign an additional business partner to the account.\n\nAfter you execute the function, all fields that contain business partner-specific data appear initial (or with their default values) and the general data remains unchanged.\n\nDisplaying or Editing Other Business Partners\n\nPrerequisites Several business partners must be assigned to the contract account.\n\nProcedure\n\nYou can use the OtherPartner function to switch between the data of individual partners in the contract account.\n\n1 On the SAP Easy Access screen, choose |}#Master Data\u00bb Contract Account > Display 3 (CAA3). Enter the required contract account.\n\n2 Then choose |+Goto . Other \u00bb Partner\n\n3 The system displays a selection window for the business partners already assigned to the contract account.\n\n4 Choose a business partner.\n\nThe data for this business partner is displayed and can be processed.\n\nSelecting Addresses for Business Partners\n\nPrerequisites You have defined multiple addresses for a business partner want to use each of these addresses for a specific purpose (for example, for dunning notices).\n\nProcedure\n\n1 Inthe Create Contract Acconiint / Chance Contract Accoiint (CAA1/CAA?) trancactinne on the Canaral Data Pavmeantc",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p075_b000",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    122,
+    134,
+    2468,
+    235
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The contract account category allows you to assign multiple business partners to a contract account. You have already assigned a business partner to the contract account.",
+   "section_id": "doc_001_sec_287"
+  },
+  {
+   "block_id": "doc_001_p075_b001",
+   "type": "heading",
+   "page_number": 75,
+   "bbox": [
+    126,
+    347,
+    409,
+    392
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_288"
+  },
+  {
+   "block_id": "doc_001_p075_b002",
+   "type": "list",
+   "page_number": 75,
+   "bbox": [
+    211,
+    477,
+    2395,
+    845
+   ],
+   "ocr_confidence": 88.9,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "On the SAP Easy Access screen, choose |}#Master Data \u00bb Contract Account \u00bb Change %(CAA2) and enter the required contract account."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "The first screen for data entry appears."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Choose |)Goto \u00bb New Partner | to jump to a dialog box in which you can assign an additional business partner to the account."
+    }
+   ],
+   "section_id": "doc_001_sec_288"
+  },
+  {
+   "block_id": "doc_001_p075_b003",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    122,
+    936,
+    2472,
+    1036
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "After you execute the function, all fields that contain business partner-specific data appear initial (or with their default values) and the general data remains unchanged.",
+   "section_id": "doc_001_sec_288"
+  },
+  {
+   "block_id": "doc_001_p075_b004",
+   "type": "heading",
+   "page_number": 75,
+   "bbox": [
+    128,
+    1185,
+    1776,
+    1261
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Displaying or Editing Other Business Partners",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_289"
+  },
+  {
+   "block_id": "doc_001_p075_b005",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    124,
+    1362,
+    1366,
+    1532
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Prerequisites Several business partners must be assigned to the contract account.",
+   "section_id": "doc_001_sec_289"
+  },
+  {
+   "block_id": "doc_001_p075_b006",
+   "type": "heading",
+   "page_number": 75,
+   "bbox": [
+    126,
+    1644,
+    409,
+    1690
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_290"
+  },
+  {
+   "block_id": "doc_001_p075_b007",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    123,
+    1777,
+    2160,
+    1815
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "You can use the OtherPartner function to switch between the data of individual partners in the contract account.",
+   "section_id": "doc_001_sec_290"
+  },
+  {
+   "block_id": "doc_001_p075_b008",
+   "type": "list",
+   "page_number": 75,
+   "bbox": [
+    210,
+    1896,
+    2202,
+    2350
+   ],
+   "ocr_confidence": 87.8,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "On the SAP Easy Access screen, choose |}#Master Data\u00bb Contract Account > Display 3 (CAA3). Enter the required contract account."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Then choose |+Goto . Other \u00bb Partner"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "The system displays a selection window for the business partners already assigned to the contract account."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Choose a business partner."
+    }
+   ],
+   "section_id": "doc_001_sec_290"
+  },
+  {
+   "block_id": "doc_001_p075_b009",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    122,
+    2434,
+    1372,
+    2472
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The data for this business partner is displayed and can be processed.",
+   "section_id": "doc_001_sec_290"
+  },
+  {
+   "block_id": "doc_001_p075_b010",
+   "type": "heading",
+   "page_number": 75,
+   "bbox": [
+    125,
+    2617,
+    1660,
+    2694
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Selecting Addresses for Business Partners",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_291"
+  },
+  {
+   "block_id": "doc_001_p075_b011",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    123,
+    2797,
+    2335,
+    3030
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Prerequisites You have defined multiple addresses for a business partner want to use each of these addresses for a specific purpose (for example, for dunning notices).",
+   "section_id": "doc_001_sec_291"
+  },
+  {
+   "block_id": "doc_001_p075_b012",
+   "type": "heading",
+   "page_number": 75,
+   "bbox": [
+    126,
+    3142,
+    409,
+    3187
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_292"
+  },
+  {
+   "block_id": "doc_001_p075_b013",
+   "type": "paragraph",
+   "page_number": 75,
+   "bbox": [
+    214,
+    3273,
+    2463,
+    3300
+   ],
+   "ocr_confidence": 64.9,
+   "flags": [
+    "low_confidence_words:7"
+   ],
+   "text": "1 Inthe Create Contract Acconiint / Chance Contract Accoiint (CAA1/CAA?) trancactinne on the Canaral Data Pavmeantc",
+   "section_id": "doc_001_sec_292"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 64.5,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "40330acc231cc41c23e4e485ce221a13e24cadb9a69ac9a7c1ef38e589e08efd"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Creating Contract Accounts",
+  "Result"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_287",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_288",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_289",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_290",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_291",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_292",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 7,
+ "source_page_hash": "3391c9c87b5b85eddcc39f72ccbc6bbe5279a068acc07216ed9007e40411e574",
+ "is_cover_page": false,
+ "title": "Alternative Portion",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nThis could have been caused, for example, by a device replacement or an interim meter reading.\n\nAlternative Portion\n\nIf an alternative portion is defined in a contract, you can use variant QUANTI26 ( Simulate Billing Period ) to create a billing\ndocument until the scheduled meter reading date for the alternative portion. This means that all of a customer\u2019s contracts can be\nbilled for the same period.\n\nThe meter reading for the meter reading date of the alternative portion is extrapolated in the variant. The system then simulates a\ndocument up to the scheduled meter reading date. In the variant control, you can specify whether the document lines of the\n\nsimulation document are transferred to the current billing document.\n\nFor further information about the control options, see the documentation for variant QUANTI26.\n\nDynamic Backbilling\n\nYou can use several variant programs to execute dynamic backbilling.\n\nIn these variant programs, dynamic backbilling is executed for schema steps that contain a dynamic backbilling group from the\nDYNBI step.\n\nThe variant programs have different backbilling periods.\n\nIf you maintain the dynamic backbilling group in one of the fields SDP1 to SDP5 (schema steps for reversal in dynamic period\ncontrol), the amounts from the posting-relevant lines these schema steps generated in previous billing documents are transferred\nto the current document as negative amounts.\n\nIf you maintain the dynamic backbilling group in the Schema Step for Dynamic Period Control , the period that you allocated to\nthe time slice generator for the current category is dynamically backbilled.\n\nYou can use the following variant programs for dynamic backbilling:\n\ne DYNBIO1 executes dynamic backbilling back to the last real meter reading result\ne DYNBIO2 dynamically backbills the schema steps from the previous document\ne DYNBIO3 dynamically backbills schema steps from the last dynamic backbilling\n\ne DYNBIO4 updates amounts from the correction periods in the billing period\n\nFor further information, see the documentation on the individual variants.\n\nChanging a Billing Document During Dynamic Period Control\n\nYou can use the Customer-Specific Fields in Billing Document (EBIAQ001) enhancement if you only want to display dynamic\n\nbackbillings that have changed amounts (in comparison to the original bill) on the customer\u2019s current bill. This enhancement\nenables you to specify other lines as not relevant for printing.\n\nee Example\n",
+ "cleaned_text": "This could have been caused, for example, by a device replacement or an interim meter reading.\n\nAlternative Portion\n\nIf an alternative portion is defined in a contract, you can use variant QUANTI26 ( Simulate Billing Period ) to create a billing document until the scheduled meter reading date for the alternative portion. This means that all of a customer\u2019s contracts can be billed for the same period. The meter reading for the meter reading date of the alternative portion is extrapolated in the variant. The system then simulates a document up to the scheduled meter reading date. In the variant control, you can specify whether the document lines of the simulation document are transferred to the current billing document. For further information about the control options, see the documentation for variant QUANTI26.\n\nDynamic Backbilling\n\nYou can use several variant programs to execute dynamic backbilling. In these variant programs, dynamic backbilling is executed for schema steps that contain a dynamic backbilling group from the DYNBI step. The variant programs have different backbilling periods. If you maintain the dynamic backbilling group in one of the fields SDP1 to SDP5 (schema steps for reversal in dynamic period control), the amounts from the posting-relevant lines these schema steps generated in previous billing documents are transferred to the current document as negative amounts. If you maintain the dynamic backbilling group in the Schema Step for Dynamic Period Control , the period that you allocated to the time slice generator for the current category is dynamically backbilled. You can use the following variant programs for dynamic backbilling:\n\n- DYNBIO1 executes dynamic backbilling back to the last real meter reading result\n\n- DYNBIO2 dynamically backbills the schema steps from the previous document\n\n- DYNBIO3 dynamically backbills schema steps from the last dynamic backbilling\n\n- DYNBIO4 updates amounts from the correction periods in the billing period\n\nFor further information, see the documentation on the individual variants.\n\nChanging a Billing Document During Dynamic Period Control\n\nYou can use the Customer-Specific Fields in Billing Document (EBIAQ001) enhancement if you only want to display dynamic backbillings that have changed amounts (in comparison to the original bill) on the customer\u2019s current bill. This enhancement enables you to specify other lines as not relevant for printing. ee Example",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p007_b000",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    152,
+    134,
+    1882,
+    172
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "This could have been caused, for example, by a device replacement or an interim meter reading.",
+   "section_id": "doc_011_sec_022"
+  },
+  {
+   "block_id": "doc_011_p007_b001",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    123,
+    320,
+    651,
+    366
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Alternative Portion",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_023"
+  },
+  {
+   "block_id": "doc_011_p007_b002",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    453,
+    2467,
+    987
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "If an alternative portion is defined in a contract, you can use variant QUANTI26 ( Simulate Billing Period ) to create a billing document until the scheduled meter reading date for the alternative portion. This means that all of a customer\u2019s contracts can be billed for the same period. The meter reading for the meter reading date of the alternative portion is extrapolated in the variant. The system then simulates a document up to the scheduled meter reading date. In the variant control, you can specify whether the document lines of the simulation document are transferred to the current billing document. For further information about the control options, see the documentation for variant QUANTI26.",
+   "section_id": "doc_011_sec_023"
+  },
+  {
+   "block_id": "doc_011_p007_b003",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    126,
+    1098,
+    693,
+    1155
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [],
+   "text": "Dynamic Backbilling",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_024"
+  },
+  {
+   "block_id": "doc_011_p007_b004",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    1232,
+    2470,
+    2130
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "You can use several variant programs to execute dynamic backbilling. In these variant programs, dynamic backbilling is executed for schema steps that contain a dynamic backbilling group from the DYNBI step. The variant programs have different backbilling periods. If you maintain the dynamic backbilling group in one of the fields SDP1 to SDP5 (schema steps for reversal in dynamic period control), the amounts from the posting-relevant lines these schema steps generated in previous billing documents are transferred to the current document as negative amounts. If you maintain the dynamic backbilling group in the Schema Step for Dynamic Period Control , the period that you allocated to the time slice generator for the current category is dynamically backbilled. You can use the following variant programs for dynamic backbilling:",
+   "section_id": "doc_011_sec_024"
+  },
+  {
+   "block_id": "doc_011_p007_b005",
+   "type": "list",
+   "page_number": 7,
+   "bbox": [
+    207,
+    2217,
+    1701,
+    2560
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "DYNBIO1 executes dynamic backbilling back to the last real meter reading result"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "DYNBIO2 dynamically backbills the schema steps from the previous document"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "DYNBIO3 dynamically backbills schema steps from the last dynamic backbilling"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "DYNBIO4 updates amounts from the correction periods in the billing period"
+    }
+   ],
+   "section_id": "doc_011_sec_024"
+  },
+  {
+   "block_id": "doc_011_p007_b006",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    125,
+    2644,
+    1452,
+    2678
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "For further information, see the documentation on the individual variants.",
+   "section_id": "doc_011_sec_024"
+  },
+  {
+   "block_id": "doc_011_p007_b007",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    125,
+    2831,
+    2319,
+    2907
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Changing a Billing Document During Dynamic Period Control",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_025"
+  },
+  {
+   "block_id": "doc_011_p007_b008",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    123,
+    2981,
+    2410,
+    3298
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "You can use the Customer-Specific Fields in Billing Document (EBIAQ001) enhancement if you only want to display dynamic backbillings that have changed amounts (in comparison to the original bill) on the customer\u2019s current bill. This enhancement enables you to specify other lines as not relevant for printing. ee Example",
+   "section_id": "doc_011_sec_025"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "3391c9c87b5b85eddcc39f72ccbc6bbe5279a068acc07216ed9007e40411e574"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Executing DPC Billing",
+  "Floating Backbilling"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_022",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_023",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_024",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_025",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,365 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_012",
+ "page_number": 2,
+ "source_page_hash": "dd2366abb9938777ac242ccc52ad0853b78f50963e9c8b2d811522d6cf378a10",
+ "is_cover_page": false,
+ "title": "Automatic Billing",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nAutomatic Billing\n\nUse\n\nAutomatic billing enables you to bill a single contract or any selection of contracts. Contracts not allocated to an installation are\n\nnot selected. Billing is executed based on intervals defined in scheduling. All master data that form the basis of the contract \u2014 such\nas the installation, device or register \u2014 are automatically taken into account.\n\nIntegration\n\nAutomatic billing provides a link between general master data and invoicing. In addition to general master data, the following\nbilling master data are included in automatic billing:\n\ne Rate Type\n\ne Operand\n\ne Price\n\ne Price Adjustment Clause\ne Rate\n\ne Schema\n\ne Rate Category\n\ne Rate Determination\n\ne Variants\n\ne Discounts\n\ne Franchise Fees\n\nScheduling determines how often billing runs occur. All billed contracts of a contract account can be invoiced, which is followed by\nprinting of the bill.\n\nPrerequisites\n\nAll master data and billing master data must be consistent before billing can be executed.\nThis means the following:\n\ne Abusiness partner and a contract must be allocated to the installation in move-in processing.\ne Devices containing registers must be allocated to this installation in device installation.\ne Meter reading orders must be generated and meter reading results must be entered in meter reading.\n\ne The schedule records must be created in scheduling.\n",
+ "cleaned_text": "Automatic Billing\n\nUse\n\nAutomatic billing enables you to bill a single contract or any selection of contracts. Contracts not allocated to an installation are not selected. Billing is executed based on intervals defined in scheduling. All master data that form the basis of the contract \u2014 such as the installation, device or register \u2014 are automatically taken into account.\n\nIntegration\n\nAutomatic billing provides a link between general master data and invoicing. In addition to general master data, the following billing master data are included in automatic billing:\n\n- Rate Type\n\n- Operand\n\n- Price\n\n- Price Adjustment Clause\n\n- Rate\n\n- Schema\n\n- Rate Category\n\n- Rate Determination\n\n- Variants\n\n- Discounts\n\n- Franchise Fees\n\nScheduling determines how often billing runs occur. All billed contracts of a contract account can be invoiced, which is followed by printing of the bill.\n\nPrerequisites\n\nAll master data and billing master data must be consistent before billing can be executed. This means the following:\n\n- Abusiness partner and a contract must be allocated to the installation in move-in processing.\n\n- Devices containing registers must be allocated to this installation in device installation.\n\n- Meter reading orders must be generated and meter reading results must be entered in meter reading.\n\n- The schedule records must be created in scheduling.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_012_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    124,
+    256,
+    745,
+    331
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Automatic Billing",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_012_sec_000"
+  },
+  {
+   "block_id": "doc_012_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    435,
+    225,
+    481
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_012_sec_001"
+  },
+  {
+   "block_id": "doc_012_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    564,
+    2485,
+    731
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Automatic billing enables you to bill a single contract or any selection of contracts. Contracts not allocated to an installation are not selected. Billing is executed based on intervals defined in scheduling. All master data that form the basis of the contract \u2014 such as the installation, device or register \u2014 are automatically taken into account.",
+   "section_id": "doc_012_sec_001"
+  },
+  {
+   "block_id": "doc_012_p002_b003",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    127,
+    843,
+    431,
+    899
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_012_sec_002"
+  },
+  {
+   "block_id": "doc_012_p002_b004",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    975,
+    2373,
+    1076
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Automatic billing provides a link between general master data and invoicing. In addition to general master data, the following billing master data are included in automatic billing:",
+   "section_id": "doc_012_sec_002"
+  },
+  {
+   "block_id": "doc_012_p002_b005",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    1160,
+    699,
+    2215
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Rate Type"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Operand"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Price"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Price Adjustment Clause"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Rate"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Schema"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Rate Category"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Rate Determination"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Variants"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Discounts"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Franchise Fees"
+    }
+   ],
+   "section_id": "doc_012_sec_002"
+  },
+  {
+   "block_id": "doc_012_p002_b006",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    124,
+    2306,
+    2473,
+    2406
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Scheduling determines how often billing runs occur. All billed contracts of a contract account can be invoiced, which is followed by printing of the bill.",
+   "section_id": "doc_012_sec_002"
+  },
+  {
+   "block_id": "doc_012_p002_b007",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    2519,
+    492,
+    2575
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_012_sec_003"
+  },
+  {
+   "block_id": "doc_012_p002_b008",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    2651,
+    1740,
+    2810
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "All master data and billing master data must be consistent before billing can be executed. This means the following:",
+   "section_id": "doc_012_sec_003"
+  },
+  {
+   "block_id": "doc_012_p002_b009",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    207,
+    2898,
+    2089,
+    3240
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Abusiness partner and a contract must be allocated to the installation in move-in processing."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Devices containing registers must be allocated to this installation in device installation."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Meter reading orders must be generated and meter reading results must be entered in meter reading."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The schedule records must be created in scheduling."
+    }
+   ],
+   "section_id": "doc_012_sec_003"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Automatic Billing",
+  "source_pdf": "12.pdf",
+  "reference_pdf": "12_Automatic_Billing.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Useful for understanding installation, rate type, schema, operand, price and billing relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "dd2366abb9938777ac242ccc52ad0853b78f50963e9c8b2d811522d6cf378a10"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:41Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Automatic Billing"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_012_sec_000",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_012_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_012_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_012_sec_003",
+   "role": "starts_here"
+  }
+ ]
+}

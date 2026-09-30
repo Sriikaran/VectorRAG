@@ -1,0 +1,370 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 83,
+ "source_page_hash": "9a06acb851b4f4aa78738f091acd0a725d282d7867178b54fd023af53177ac91",
+ "is_cover_page": false,
+ "title": "Activities",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nActivities\n\nDepending on the reason for the generation of the quantity determination trigger, certain follow-up actions are necessary before\nthe trigger can be processed.\n\nFor more information, see Process Quantity Determination Trigger under Activities in Production Operation.\n\nCheck for Final Determined Consumption in Technical\nTransactions\n\nThe successfully executed quantity determination for a register results in the final determined consumption. This result depends\non anumber of influencing factors. The final determined consumption is consistent as long as these factors are not changed after\nthe quantity has been determined successfully. For this reason, the system no longer allows changes in the following technical\ntransactions if the change relates to the period in which the consumption was determined:\n\ne Transaction EG70/EC30: Change Rate Data\n\nThe following fields cannot be changed at register level:\no Rate Type\no Gas Procedure\no Fixed Temperature\n\no Volume Correction Factor\n\no Consumption Fixed Value to be Weighted Linearly\no Validity Period\no Consumption Percentage for Weighting\no Period Consumption\no Number of Days for Which Period Consumption is Valid\no Register Not Relevant for Billing\ne Transaction EG72: Device Allocation\n\nIf the quantity determination for a register has been successfully carried out in a certain period, the system no longer\nallows changes to the device allocation of the register within that period. This also applies for the billing factor and\nmeasured pressure.\n\ne Transaction EG60: Change Logical Register\n\nIf the quantity determination for a register has been successfully carried out in a certain period, the system no longer\nallows changes to the logical register within that period. This rule not only applies for gas, but also for other divisions such\nas electricity and water.\n\ne Transaction EG76: Register Relationship\n\nIf the quantity determination for a register has been successfully carried out in a certain period, the system no longer\nallows changes to the register relationship of the register within that period.\n",
+ "cleaned_text": "Activities\n\nDepending on the reason for the generation of the quantity determination trigger, certain follow-up actions are necessary before the trigger can be processed. For more information, see Process Quantity Determination Trigger under Activities in Production Operation.\n\nCheck for Final Determined Consumption in Technical\n\nTransactions\n\nThe successfully executed quantity determination for a register results in the final determined consumption. This result depends on anumber of influencing factors. The final determined consumption is consistent as long as these factors are not changed after the quantity has been determined successfully. For this reason, the system no longer allows changes in the following technical transactions if the change relates to the period in which the consumption was determined:\n\n- Transaction EG70/EC30: Change Rate Data The following fields cannot be changed at register level:\n\n- Rate Type\n\n- Gas Procedure\n\n- Fixed Temperature\n\n- Volume Correction Factor\n\n- Consumption Fixed Value to be Weighted Linearly\n\n- Validity Period\n\n- Consumption Percentage for Weighting\n\n- Period Consumption\n\n- Number of Days for Which Period Consumption is Valid\n\n- Register Not Relevant for Billing\n\n- Transaction EG72: Device Allocation If the quantity determination for a register has been successfully carried out in a certain period, the system no longer\n\nallows changes to the device allocation of the register within that period. This also applies for the billing factor and measured pressure.\n\n- Transaction EG60: Change Logical Register If the quantity determination for a register has been successfully carried out in a certain period, the system no longer\n\nallows changes to the logical register within that period. This rule not only applies for gas, but also for other divisions such as electricity and water.\n\n- Transaction EG76: Register Relationship If the quantity determination for a register has been successfully carried out in a certain period, the system no longer\n\nallows changes to the register relationship of the register within that period.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p083_b000",
+   "type": "heading",
+   "page_number": 83,
+   "bbox": [
+    123,
+    127,
+    383,
+    172
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_226"
+  },
+  {
+   "block_id": "doc_006_p083_b001",
+   "type": "paragraph",
+   "page_number": 83,
+   "bbox": [
+    122,
+    259,
+    2439,
+    481
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Depending on the reason for the generation of the quantity determination trigger, certain follow-up actions are necessary before the trigger can be processed. For more information, see Process Quantity Determination Trigger under Activities in Production Operation.",
+   "section_id": "doc_006_sec_226"
+  },
+  {
+   "block_id": "doc_006_p083_b002",
+   "type": "heading",
+   "page_number": 83,
+   "bbox": [
+    125,
+    629,
+    2066,
+    706
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Check for Final Determined Consumption in Technical",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_227"
+  },
+  {
+   "block_id": "doc_006_p083_b003",
+   "type": "heading",
+   "page_number": 83,
+   "bbox": [
+    123,
+    716,
+    584,
+    777
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Transactions",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_228"
+  },
+  {
+   "block_id": "doc_006_p083_b004",
+   "type": "paragraph",
+   "page_number": 83,
+   "bbox": [
+    122,
+    867,
+    2469,
+    1092
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "The successfully executed quantity determination for a register results in the final determined consumption. This result depends on anumber of influencing factors. The final determined consumption is consistent as long as these factors are not changed after the quantity has been determined successfully. For this reason, the system no longer allows changes in the following technical transactions if the change relates to the period in which the consumption was determined:",
+   "section_id": "doc_006_sec_228"
+  },
+  {
+   "block_id": "doc_006_p083_b005",
+   "type": "list",
+   "page_number": 83,
+   "bbox": [
+    207,
+    1176,
+    2371,
+    2547
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Transaction EG70/EC30: Change Rate Data The following fields cannot be changed at register level:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Rate Type"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Gas Procedure"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Fixed Temperature"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Volume Correction Factor"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Consumption Fixed Value to be Weighted Linearly"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Validity Period"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Consumption Percentage for Weighting"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Period Consumption"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Number of Days for Which Period Consumption is Valid"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Register Not Relevant for Billing"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Transaction EG72: Device Allocation If the quantity determination for a register has been successfully carried out in a certain period, the system no longer"
+    }
+   ],
+   "section_id": "doc_006_sec_228"
+  },
+  {
+   "block_id": "doc_006_p083_b006",
+   "type": "paragraph",
+   "page_number": 83,
+   "bbox": [
+    255,
+    2572,
+    2313,
+    2672
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "allows changes to the device allocation of the register within that period. This also applies for the billing factor and measured pressure.",
+   "section_id": "doc_006_sec_228"
+  },
+  {
+   "block_id": "doc_006_p083_b007",
+   "type": "list",
+   "page_number": 83,
+   "bbox": [
+    207,
+    2740,
+    2371,
+    2879
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Transaction EG60: Change Logical Register If the quantity determination for a register has been successfully carried out in a certain period, the system no longer"
+    }
+   ],
+   "section_id": "doc_006_sec_228"
+  },
+  {
+   "block_id": "doc_006_p083_b008",
+   "type": "paragraph",
+   "page_number": 83,
+   "bbox": [
+    255,
+    2904,
+    2452,
+    3004
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "allows changes to the logical register within that period. This rule not only applies for gas, but also for other divisions such as electricity and water.",
+   "section_id": "doc_006_sec_228"
+  },
+  {
+   "block_id": "doc_006_p083_b009",
+   "type": "list",
+   "page_number": 83,
+   "bbox": [
+    207,
+    3068,
+    2371,
+    3211
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Transaction EG76: Register Relationship If the quantity determination for a register has been successfully carried out in a certain period, the system no longer"
+    }
+   ],
+   "section_id": "doc_006_sec_228"
+  },
+  {
+   "block_id": "doc_006_p083_b010",
+   "type": "paragraph",
+   "page_number": 83,
+   "bbox": [
+    255,
+    3236,
+    1622,
+    3273
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "allows changes to the register relationship of the register within that period.",
+   "section_id": "doc_006_sec_228"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "9a06acb851b4f4aa78738f091acd0a725d282d7867178b54fd023af53177ac91"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Quantity Determination Trigger Concept",
+  "Activities"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_226",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_227",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_228",
+   "role": "starts_here"
+  }
+ ]
+}

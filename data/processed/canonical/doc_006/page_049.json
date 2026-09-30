@@ -1,0 +1,401 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 49,
+ "source_page_hash": "1b0b591e8e455625732d7499028a3d211e3df939e06b91de0089571b192e4bbb",
+ "is_cover_page": false,
+ "title": "Meter Reading Control",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nYou can schedule mass order creation in background jobs for better performance. You enter the selection criteria and save them as\na variant. You can then supply this variant with start parameters and schedule it to run in a background job.\n\nMeter Reading Control\n\nDuring meter reading order creation, you control the sequence of meter readings of different categories. You have the following\noptions:\n\ne You can enter a fixed schedule in the schedule master record for the meter reading unit. When you create orders, select the\nUse MR cat. from sched. rec. field. The system then creates meter reading orders for meter readings in the category you\nhave entered.\n\nSe Example\n\nYou want to read meters every month. To reduce the number of meter readers, you allow for two estimations and one\n\nsubsequent reading by a meter reader. You enter meter reading dates for each month with the corresponding schedule meter\n\nreading categories in the meter reading unit. The sequence of the dates is retained even if the customer moves out, for\nexample.\n\ne You can define meter reading control settings in Customizing under Device Management -> Meter Reading -> Basic\nSettings . During mass order creation, you enter a scheduled meter reading category. The system checks whether meter\nreading control settings permit this meter reading category for the installation and then creates meter reading orders for\nthe installations accordingly.\n\n\u00ab\u00b0 Example\n\nYou want to allow each installation to be read by the customer twice and then once by the meter reader. You define meter\nreading control settings accordingly in Customizing and enter them in the installation. You perform mass order creation twice\nfor each meter reading, the first time with customer reading as the scheduled meter reading category, and the second time\nwith meter reading by the utility as the scheduled category.\n\nMeter reading date              30.09.                               30.10.                               30.11.\nInstallation 1                      MR by customer                 MR by customer                 MR by utility\nInstallation 2                       MR by customer                  MR by utility (move-in/out) | MR by customer\n\nOne order each is created for 09/30 and 10/30 during the first order creation run for installation 1. Meter reading control settings\nno longer allow this for 11/30, however. A meter reading order is not created for the installation until the second order creation run.\n\nThe utility company reads meters on 10/30 for installation 2 because the customer has moved out. A meter reading order is\ncreated for 11/30 during the first order creation run as permitted by meter reading control settings.\n\nReversal\n\nUse\n",
+ "cleaned_text": "You can schedule mass order creation in background jobs for better performance. You enter the selection criteria and save them as a variant. You can then supply this variant with start parameters and schedule it to run in a background job.\n\nMeter Reading Control\n\nDuring meter reading order creation, you control the sequence of meter readings of different categories. You have the following options:\n\n- You can enter a fixed schedule in the schedule master record for the meter reading unit. When you create orders, select the Use MR cat. from sched. rec. field. The system then creates meter reading orders for meter readings in the category you have entered.\n\nSe Example\n\nYou want to read meters every month. To reduce the number of meter readers, you allow for two estimations and one subsequent reading by a meter reader. You enter meter reading dates for each month with the corresponding schedule meter reading categories in the meter reading unit. The sequence of the dates is retained even if the customer moves out, for example.\n\n- You can define meter reading control settings in Customizing under Device Management -> Meter Reading -> Basic Settings . During mass order creation, you enter a scheduled meter reading category. The system checks whether meter reading control settings permit this meter reading category for the installation and then creates meter reading orders for\n\nthe installations accordingly.\n\nExample You want to allow each installation to be read by the customer twice and then once by the meter reader. You define meter reading control settings accordingly in Customizing and enter them in the installation. You perform mass order creation twice for each meter reading, the first time with customer reading as the scheduled meter reading category, and the second time with meter reading by the utility as the scheduled category.\n\nMeter reading date | 30.09. | 30.10. | 30.11.\n\nInstallation 1 | MR by customer | MR by customer | MR by utility\n\nInstallation 2 | MR by customer | MR by utility (move-in/out) | MR by customer\n\nOne order each is created for 09/30 and 10/30 during the first order creation run for installation 1. Meter reading control settings no longer allow this for 11/30, however. A meter reading order is not created for the installation until the second order creation run. The utility company reads meters on 10/30 for installation 2 because the customer has moved out. A meter reading order is created for 11/30 during the first order creation run as permitted by meter reading control settings.\n\nReversal\n\nUse",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u00ab\u00b0",
+   "bbox": [
+    151,
+    1779,
+    432,
+    1833
+   ],
+   "reason": "icon glyph OCR'd before 'example' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p049_b000",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    123,
+    134,
+    2488,
+    235
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "You can schedule mass order creation in background jobs for better performance. You enter the selection criteria and save them as a variant. You can then supply this variant with start parameters and schedule it to run in a background job.",
+   "section_id": "doc_006_sec_093"
+  },
+  {
+   "block_id": "doc_006_p049_b001",
+   "type": "heading",
+   "page_number": 49,
+   "bbox": [
+    128,
+    383,
+    938,
+    460
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Meter Reading Control",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_094"
+  },
+  {
+   "block_id": "doc_006_p049_b002",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    123,
+    532,
+    2413,
+    632
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "During meter reading order creation, you control the sequence of meter readings of different categories. You have the following options:",
+   "section_id": "doc_006_sec_094"
+  },
+  {
+   "block_id": "doc_006_p049_b003",
+   "type": "list",
+   "page_number": 49,
+   "bbox": [
+    207,
+    719,
+    2474,
+    874
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can enter a fixed schedule in the schedule master record for the meter reading unit. When you create orders, select the Use MR cat. from sched. rec. field. The system then creates meter reading orders for meter readings in the category you have entered."
+    }
+   ],
+   "section_id": "doc_006_sec_094"
+  },
+  {
+   "block_id": "doc_006_p049_b004",
+   "type": "heading",
+   "page_number": 49,
+   "bbox": [
+    151,
+    977,
+    432,
+    1032
+   ],
+   "ocr_confidence": 68.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Se Example",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_095"
+  },
+  {
+   "block_id": "doc_006_p049_b005",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    152,
+    1107,
+    2416,
+    1335
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You want to read meters every month. To reduce the number of meter readers, you allow for two estimations and one subsequent reading by a meter reader. You enter meter reading dates for each month with the corresponding schedule meter reading categories in the meter reading unit. The sequence of the dates is retained even if the customer moves out, for example.",
+   "section_id": "doc_006_sec_095"
+  },
+  {
+   "block_id": "doc_006_p049_b006",
+   "type": "list",
+   "page_number": 49,
+   "bbox": [
+    207,
+    1455,
+    2438,
+    1618
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can define meter reading control settings in Customizing under Device Management -> Meter Reading -> Basic Settings . During mass order creation, you enter a scheduled meter reading category. The system checks whether meter reading control settings permit this meter reading category for the installation and then creates meter reading orders for"
+    }
+   ],
+   "section_id": "doc_006_sec_095"
+  },
+  {
+   "block_id": "doc_006_p049_b007",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    254,
+    1646,
+    770,
+    1683
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "the installations accordingly.",
+   "section_id": "doc_006_sec_095"
+  },
+  {
+   "block_id": "doc_006_p049_b008",
+   "type": "example",
+   "page_number": 49,
+   "bbox": [
+    151,
+    1779,
+    2416,
+    2137
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Example You want to allow each installation to be read by the customer twice and then once by the meter reader. You define meter reading control settings accordingly in Customizing and enter them in the installation. You perform mass order creation twice for each meter reading, the first time with customer reading as the scheduled meter reading category, and the second time with meter reading by the utility as the scheduled category.",
+   "section_id": "doc_006_sec_095"
+  },
+  {
+   "block_id": "doc_006_p049_b009",
+   "type": "table",
+   "page_number": 49,
+   "bbox": [
+    150,
+    2274,
+    1936,
+    2532
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    150,
+    652,
+    1156,
+    1661
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Meter reading date",
+     "30.09.",
+     "30.10.",
+     "30.11."
+    ],
+    [
+     "Installation 1",
+     "MR by customer",
+     "MR by customer",
+     "MR by utility"
+    ],
+    [
+     "Installation 2",
+     "MR by customer",
+     "MR by utility (move-in/out) | MR by customer"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Meter reading date",
+     "30.09.",
+     "30.10.",
+     "30.11."
+    ],
+    [
+     "Installation 1",
+     "MR by customer",
+     "MR by customer",
+     "MR by utility"
+    ],
+    [
+     "Installation 2",
+     "MR by customer",
+     "MR by utility (move-in/out) | MR by customer"
+    ]
+   ],
+   "section_id": "doc_006_sec_095"
+  },
+  {
+   "block_id": "doc_006_p049_b010",
+   "type": "paragraph",
+   "page_number": 49,
+   "bbox": [
+    122,
+    2634,
+    2478,
+    2922
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "One order each is created for 09/30 and 10/30 during the first order creation run for installation 1. Meter reading control settings no longer allow this for 11/30, however. A meter reading order is not created for the installation until the second order creation run. The utility company reads meters on 10/30 for installation 2 because the customer has moved out. A meter reading order is created for 11/30 during the first order creation run as permitted by meter reading control settings.",
+   "section_id": "doc_006_sec_095"
+  },
+  {
+   "block_id": "doc_006_p049_b011",
+   "type": "heading",
+   "page_number": 49,
+   "bbox": [
+    128,
+    3068,
+    424,
+    3129
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Reversal",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_096"
+  },
+  {
+   "block_id": "doc_006_p049_b012",
+   "type": "heading",
+   "page_number": 49,
+   "bbox": [
+    125,
+    3247,
+    225,
+    3292
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_097"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.0909,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "1b0b591e8e455625732d7499028a3d211e3df939e06b91de0089571b192e4bbb"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Mass Order Creation",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_093",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_094",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_095",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_096",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_097",
+   "role": "starts_here"
+  }
+ ]
+}

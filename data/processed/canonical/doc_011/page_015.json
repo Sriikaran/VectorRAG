@@ -1,0 +1,289 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 15,
+ "source_page_hash": "e5d6c76df2e4f3a3d4132290d6b80cf499646997f117b353a989f855ca92147b",
+ "is_cover_page": false,
+ "title": "Output Parameters group box",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\n12. Select (double click) an input parameter from the list. The parameter number of the selected parameter appears\nautomatically in the Calculation Mode group box.\n\n13. Select one of the predefined calculation modes in the Calc.Mode (calculation mode) field.\n\n14. If you want the system to use this calculation mode as the default value for the parameter, select the Default Value field.\n\n4\\ Caution\n\nOnly ever select the Default Value field for one calculation mode.\n\n15. Wahlen Sie @p.\nYour entries are then transferred to the list.\n\n16. Repeat the steps 10 to 13 whenever you want to allocate one or more calculation modes to input parameters.\nOutput Parameters group box\n\n17. Enter a parameter name and number.\n\n18. Choose one of the predefined profile value categories in the PV category field (Profile Value Category).\n\n19. Enter the number of intervals that must be included in the formula in the No. Intervals field (Number of Influential\nIntervals).\n\nIf there are no dependencies between the intervals to be calculated, enter O for the number of intervals.\n\nIf you need values from previous intervals, enter a number higher than O for the number of intervals.\n20. Wahlen Sie &p.\n\nYour entries are then transferred to the list.\n21. Repeat steps 15 to 18 for every additional output parameter required for the formula.\n\n22. Once you have defined all input and output parameters, choose Save.\n\nExample\n",
+ "cleaned_text": "12 Select (double click) an input parameter from the list. The parameter number of the selected parameter appears automatically in the Calculation Mode group box.\n\n13 Select one of the predefined calculation modes in the Calc.Mode (calculation mode) field.\n\n14 If you want the system to use this calculation mode as the default value for the parameter, select the Default Value field.\n\nCaution Only ever select the Default Value field for one calculation mode.\n\n15 Wahlen Sie @p. Your entries are then transferred to the list.\n\n16 Repeat the steps 10 to 13 whenever you want to allocate one or more calculation modes to input parameters.\n\nOutput Parameters group box\n\n17 Enter a parameter name and number.\n\n18 Choose one of the predefined profile value categories in the PV category field (Profile Value Category).\n\n19 Enter the number of intervals that must be included in the formula in the No. Intervals field (Number of Influential Intervals). If there are no dependencies between the intervals to be calculated, enter O for the number of intervals. If you need values from previous intervals, enter a number higher than O for the number of intervals.\n\n20 Wahlen Sie &p. Your entries are then transferred to the list.\n\n21 Repeat steps 15 to 18 for every additional output parameter required for the formula.\n\n22 Once you have defined all input and output parameters, choose Save.\n\nExample",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "4\\",
+   "bbox": [
+    282,
+    519,
+    546,
+    563
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p015_b000",
+   "type": "list",
+   "page_number": 15,
+   "bbox": [
+    188,
+    134,
+    2423,
+    442
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "12",
+     "text": "Select (double click) an input parameter from the list. The parameter number of the selected parameter appears automatically in the Calculation Mode group box."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "13",
+     "text": "Select one of the predefined calculation modes in the Calc.Mode (calculation mode) field."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "14",
+     "text": "If you want the system to use this calculation mode as the default value for the parameter, select the Default Value field."
+    }
+   ],
+   "section_id": "doc_011_sec_042"
+  },
+  {
+   "block_id": "doc_011_p015_b001",
+   "type": "note",
+   "page_number": 15,
+   "bbox": [
+    282,
+    519,
+    1453,
+    642
+   ],
+   "ocr_confidence": 91.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Caution",
+   "text": "Caution Only ever select the Default Value field for one calculation mode.",
+   "section_id": "doc_011_sec_042"
+  },
+  {
+   "block_id": "doc_011_p015_b002",
+   "type": "list",
+   "page_number": 15,
+   "bbox": [
+    188,
+    739,
+    2217,
+    984
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "15",
+     "text": "Wahlen Sie @p. Your entries are then transferred to the list."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "16",
+     "text": "Repeat the steps 10 to 13 whenever you want to allocate one or more calculation modes to input parameters."
+    }
+   ],
+   "section_id": "doc_011_sec_042"
+  },
+  {
+   "block_id": "doc_011_p015_b003",
+   "type": "heading",
+   "page_number": 15,
+   "bbox": [
+    255,
+    1048,
+    810,
+    1086
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Output Parameters group box",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_043"
+  },
+  {
+   "block_id": "doc_011_p015_b004",
+   "type": "list",
+   "page_number": 15,
+   "bbox": [
+    185,
+    1154,
+    2309,
+    2072
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "17",
+     "text": "Enter a parameter name and number."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "18",
+     "text": "Choose one of the predefined profile value categories in the PV category field (Profile Value Category)."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "19",
+     "text": "Enter the number of intervals that must be included in the formula in the No. Intervals field (Number of Influential Intervals). If there are no dependencies between the intervals to be calculated, enter O for the number of intervals. If you need values from previous intervals, enter a number higher than O for the number of intervals."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "20",
+     "text": "Wahlen Sie &p. Your entries are then transferred to the list."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "21",
+     "text": "Repeat steps 15 to 18 for every additional output parameter required for the formula."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "22",
+     "text": "Once you have defined all input and output parameters, choose Save."
+    }
+   ],
+   "section_id": "doc_011_sec_043"
+  },
+  {
+   "block_id": "doc_011_p015_b005",
+   "type": "example",
+   "page_number": 15,
+   "bbox": [
+    126,
+    2185,
+    360,
+    2241
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Example",
+   "section_id": "doc_011_sec_043"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "e5d6c76df2e4f3a3d4132290d6b80cf499646997f117b353a989f855ca92147b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Defining Formulas",
+  "Process",
+  "Calculation Mode group box"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_042",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_043",
+   "role": "starts_here"
+  }
+ ]
+}

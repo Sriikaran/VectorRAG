@@ -1,0 +1,327 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 51,
+ "source_page_hash": "19b09cb9cc80ede19a681e0baed6f7edafbba7e243644e0a60cedd516f68caf6",
+ "is_cover_page": false,
+ "title": "Transfer of Values to Rate",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nIn the example above the year is divided into summer and winter. In summer you can choose from weekdays, weekends, public\nholidays, and exception days (such as the football world cup final day). Whilst for weekdays, consumption and demand are\ncalculated using other formulas based on the time of day, only consumption is calculated for weekends.\n\nYou can define how the year can be divided into sections in Customizing. You can also map the year as a season group, or as a\ngroup with the season types summer, winter, and transition. For each season, you determine in the time-of-use interface, the type\nof day (Monday-Sunday, public holiday, exception day) on which you expect consumption behaviour to be different. These are the\nDay Groups. In contrast to the example, you could also group Saturdays, Sundays, public holidays, and exception days into a Non-\nWorking Days day group. In the day group for a season, you then define the times at which to use certain formulas.\n\nThe consumption periods are managed historically. For example, if you change the consumption period Summer, Weekday,\n00:00-07:59 to 00:00-08:29, the change date is noted. From this date, the changed period is then used for the MDUS request and\nfor billing.\n\nTransfer of Values to Rate\n\nThe result parameter connects the time-of-use interface and the rate. The operands use these parameters to get the values during\nbilling.\n\nResult parameters can include multiple output parameters. In the example, the result parameter OFFPEAK adds together the\nconsumption on weekdays to 07:59 and from 18:00, and the entire consumption at weekends, and transferres the total to the\n\noperand CONS OFFPEAK.\n\nThe result parameter can also transfer minimum and maximum values to an operand instead of the total. In the example, the result\nparameter DEM MAX transfers the maximum demand for weekdays between 08:00 and 17:59.\n\nFor more information, see:\\Map Consumption Times from Time-of-Use Interface in Rate\n\nCustomizing Settings\n\nYou have to make settings for the time-of-use interface in Customizing for Contract Billing under |)Billing Master Data > AMI:\nTime-of-Use Interface \u2018). This includes the settings for the time-of-use formula.\n\nMap Consumption Times from Time-of-Use Interface in Rate\n\nUse\n\nThe time-of-use interface allows you to flexibly map the consumption behavior of your customers in the rate:\n\ne You can use the same rate to bill consumption and demand that occurs in different periods.\n\nFor example: For the meter reading results of meters with registers, you have to define your own rates (on-peak, off-peak)\nfor the periods.\n\ne You can use the same rate for other customer groups if you only want to change the consumption periods.\n\nThe following figure uses an example to illustrate this:\n",
+ "cleaned_text": "In the example above the year is divided into summer and winter. In summer you can choose from weekdays, weekends, public holidays, and exception days (such as the football world cup final day). Whilst for weekdays, consumption and demand are calculated using other formulas based on the time of day, only consumption is calculated for weekends. You can define how the year can be divided into sections in Customizing. You can also map the year as a season group, or as a group with the season types summer, winter, and transition. For each season, you determine in the time-of-use interface, the type of day (Monday-Sunday, public holiday, exception day) on which you expect consumption behaviour to be different. These are the Day Groups. In contrast to the example, you could also group Saturdays, Sundays, public holidays, and exception days into a Non- Working Days day group. In the day group for a season, you then define the times at which to use certain formulas. The consumption periods are managed historically. For example, if you change the consumption period Summer, Weekday, 00:00-07:59 to 00:00-08:29, the change date is noted. From this date, the changed period is then used for the MDUS request and for billing.\n\nTransfer of Values to Rate\n\nThe result parameter connects the time-of-use interface and the rate. The operands use these parameters to get the values during billing. Result parameters can include multiple output parameters. In the example, the result parameter OFFPEAK adds together the consumption on weekdays to 07:59 and from 18:00, and the entire consumption at weekends, and transferres the total to the operand CONS OFFPEAK. The result parameter can also transfer minimum and maximum values to an operand instead of the total. In the example, the result parameter DEM MAX transfers the maximum demand for weekdays between 08:00 and 17:59. For more information, see:\\Map Consumption Times from Time-of-Use Interface in Rate\n\nCustomizing Settings\n\nYou have to make settings for the time-of-use interface in Customizing for Contract Billing under |)Billing Master Data > AMI: Time-of-Use Interface \u2018). This includes the settings for the time-of-use formula.\n\nMap Consumption Times from Time-of-Use Interface in Rate\n\nUse\n\nThe time-of-use interface allows you to flexibly map the consumption behavior of your customers in the rate:\n\n- You can use the same rate to bill consumption and demand that occurs in different periods. For example: For the meter reading results of meters with registers, you have to define your own rates (on-peak, off-peak)\n\nfor the periods.\n\n- You can use the same rate for other customer groups if you only want to change the consumption periods.\n\nThe following figure uses an example to illustrate this:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p051_b000",
+   "type": "paragraph",
+   "page_number": 51,
+   "bbox": [
+    122,
+    134,
+    2485,
+    921
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "In the example above the year is divided into summer and winter. In summer you can choose from weekdays, weekends, public holidays, and exception days (such as the football world cup final day). Whilst for weekdays, consumption and demand are calculated using other formulas based on the time of day, only consumption is calculated for weekends. You can define how the year can be divided into sections in Customizing. You can also map the year as a season group, or as a group with the season types summer, winter, and transition. For each season, you determine in the time-of-use interface, the type of day (Monday-Sunday, public holiday, exception day) on which you expect consumption behaviour to be different. These are the Day Groups. In contrast to the example, you could also group Saturdays, Sundays, public holidays, and exception days into a Non- Working Days day group. In the day group for a season, you then define the times at which to use certain formulas. The consumption periods are managed historically. For example, if you change the consumption period Summer, Weekday, 00:00-07:59 to 00:00-08:29, the change date is noted. From this date, the changed period is then used for the MDUS request and for billing.",
+   "section_id": "doc_011_sec_160"
+  },
+  {
+   "block_id": "doc_011_p051_b001",
+   "type": "heading",
+   "page_number": 51,
+   "bbox": [
+    123,
+    1033,
+    839,
+    1078
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Transfer of Values to Rate",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_161"
+  },
+  {
+   "block_id": "doc_011_p051_b002",
+   "type": "paragraph",
+   "page_number": 51,
+   "bbox": [
+    122,
+    1166,
+    2488,
+    1831
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The result parameter connects the time-of-use interface and the rate. The operands use these parameters to get the values during billing. Result parameters can include multiple output parameters. In the example, the result parameter OFFPEAK adds together the consumption on weekdays to 07:59 and from 18:00, and the entire consumption at weekends, and transferres the total to the operand CONS OFFPEAK. The result parameter can also transfer minimum and maximum values to an operand instead of the total. In the example, the result parameter DEM MAX transfers the maximum demand for weekdays between 08:00 and 17:59. For more information, see:\\Map Consumption Times from Time-of-Use Interface in Rate",
+   "section_id": "doc_011_sec_161"
+  },
+  {
+   "block_id": "doc_011_p051_b003",
+   "type": "heading",
+   "page_number": 51,
+   "bbox": [
+    124,
+    1942,
+    727,
+    2000
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Customizing Settings",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_162"
+  },
+  {
+   "block_id": "doc_011_p051_b004",
+   "type": "paragraph",
+   "page_number": 51,
+   "bbox": [
+    123,
+    2072,
+    2402,
+    2176
+   ],
+   "ocr_confidence": 88.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You have to make settings for the time-of-use interface in Customizing for Contract Billing under |)Billing Master Data > AMI: Time-of-Use Interface \u2018). This includes the settings for the time-of-use formula.",
+   "section_id": "doc_011_sec_162"
+  },
+  {
+   "block_id": "doc_011_p051_b005",
+   "type": "heading",
+   "page_number": 51,
+   "bbox": [
+    128,
+    2325,
+    2310,
+    2401
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Map Consumption Times from Time-of-Use Interface in Rate",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_163"
+  },
+  {
+   "block_id": "doc_011_p051_b006",
+   "type": "heading",
+   "page_number": 51,
+   "bbox": [
+    125,
+    2502,
+    225,
+    2547
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_164"
+  },
+  {
+   "block_id": "doc_011_p051_b007",
+   "type": "paragraph",
+   "page_number": 51,
+   "bbox": [
+    122,
+    2634,
+    2085,
+    2672
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "The time-of-use interface allows you to flexibly map the consumption behavior of your customers in the rate:",
+   "section_id": "doc_011_sec_164"
+  },
+  {
+   "block_id": "doc_011_p051_b008",
+   "type": "list",
+   "page_number": 51,
+   "bbox": [
+    207,
+    2756,
+    2442,
+    2896
+   ],
+   "ocr_confidence": 91.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can use the same rate to bill consumption and demand that occurs in different periods. For example: For the meter reading results of meters with registers, you have to define your own rates (on-peak, off-peak)"
+    }
+   ],
+   "section_id": "doc_011_sec_164"
+  },
+  {
+   "block_id": "doc_011_p051_b009",
+   "type": "paragraph",
+   "page_number": 51,
+   "bbox": [
+    254,
+    2921,
+    528,
+    2958
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "for the periods.",
+   "section_id": "doc_011_sec_164"
+  },
+  {
+   "block_id": "doc_011_p051_b010",
+   "type": "list",
+   "page_number": 51,
+   "bbox": [
+    207,
+    3025,
+    2198,
+    3063
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can use the same rate for other customer groups if you only want to change the consumption periods."
+    }
+   ],
+   "section_id": "doc_011_sec_164"
+  },
+  {
+   "block_id": "doc_011_p051_b011",
+   "type": "paragraph",
+   "page_number": 51,
+   "bbox": [
+    122,
+    3147,
+    1091,
+    3185
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "The following figure uses an example to illustrate this:",
+   "section_id": "doc_011_sec_164"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "19b09cb9cc80ede19a681e0baed6f7edafbba7e243644e0a60cedd516f68caf6"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Time-of-Use Interface",
+  "Interval Length"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_160",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_161",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_162",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_163",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_164",
+   "role": "starts_here"
+  }
+ ]
+}

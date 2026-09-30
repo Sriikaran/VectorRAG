@@ -1,0 +1,435 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 9,
+ "source_page_hash": "9237dfc983c34772e3ebefc93c39eb149d723d82f9fce68f61106c7f009a8ae1",
+ "is_cover_page": false,
+ "title": "System Requirements",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n\nSystem Requirements\n\nFor each item, the system is to post a separate interest document\nitem.\n\nInterest is to be calculated on an monthly baseis for months\nstarted where the key date is in the calendar month.\n\nSubitems are to be totaled before they are rounding according to\nthe rounding rule in the interest conditions and then subjected to\ninterest calculation.\n\nSummarize documents that belong together\n\nInterest is to be calculated on cleared subitems if they were not\ncleared by the key date for the interest calculation\n\nThe base date for the interest calculation is to be moved to the day\nafter the next working day using the factory calendar (grace period\nrule)\n\nThe due date of the interest document item should be on the day\nafter the due date of the item, moved to the next working day\n\nProcedure\n\nInclude the fields OPUPW, OPUPK, and OPUPZ in the structure\nCI_FKKIV.\n\nIn the Implementation Guide for Contract Accounts Receivable\nand Payable under\nCalculation\n\nBusiness Transactions \u00bb Interest\nItem Interest Calculation \u00bb Define Interest\n\nCalculation Rules \u00a9 , in the Interval field enter Month, under\nMonthly Interest Calculation enter Month Started/Key Date in\n\nCalendar Month, and for Scale Type , enter No Scaled Interest\nRates.\n\nIn the interest key set the indicator Summarize Subitems before\nInterest Calculation .\n\nIf you require further summarization of documents that belong\ntogether, by main/subtransaction for example, you can define a\ncustomer-specific function module for event 2085. This module\ncan then summarize by fields of the structure\nFKK_INT_ITEM_CHOSEN in addition to OPBEL, OPUPW, OPUPK,\nand OPUPZ.You can use function module FKK_CONDENSE_2085\nas a template.Event 2085 is only processed if the indicator\nSummarize Subitems before Interest Calculation is set.Register\nyour installation-specific function module for event 2085 in the\nImplementation Guide for Contract Accounts Receivable and\n\nPayable under |}}Program Enhancements \u00bb Define Customer-\nSpecific Function Modules\n\nIn the Implementation Guide for Contract Accounts Receivable\n\nand Payable , under |}*Business Transactions > Interest\nCalculation \u00bb Item Interest Calculation \u00bb Define Interest Key\n\nset the indicator Consider All Subitems for Interest Calculation in\nthe interest key.\n\nOnly for industry component Public Sector Contract Accounts\nReceivable and Payable\n\nIn the Implementation Guide for Contract Accounts Receivable\nand Payable , under |}#Program Enhancements \u00bb Define\nCustomer-Specific Function Modules | , for event 2090 define\n\nfunction module FACA_SAMPLE_2090 or use this function module\nas a template for an installation-specific module that you register\n\nusing event 2090 (see documentation of function module).\n\nIn the standard, the due date of the interest document item is the\ncurrent system date. You can change the due date of the interest\n\ndocument item in a customer-defined function module for event\n0370 that first calls the standard module FKK_SAMPLE_0370. The\nexample coding of the function module ZFKK_SAMPLE_0370\ncalculates the due date of the interest item from the due date of\nthe item subjected to interest as follows:\n\nThe due date is moved to the next day. If this is not a working day,\nusing event 3030 (factory calendar), the system determines the\n",
+ "cleaned_text": "System Requirements\n\nFor each item, the system is to post a separate interest document item. Interest is to be calculated on an monthly baseis for months started where the key date is in the calendar month.\n\nSubitems are to be totaled before they are rounding according to the rounding rule in the interest conditions and then subjected to interest calculation.\n\nSummarize documents that belong together\n\nInterest is to be calculated on cleared subitems if they were not cleared by the key date for the interest calculation\n\nThe base date for the interest calculation is to be moved to the day after the next working day using the factory calendar (grace period rule)\n\nThe due date of the interest document item should be on the day after the due date of the item, moved to the next working day\n\nProcedure\n\nInclude the fields OPUPW, OPUPK, and OPUPZ in the structure CI_FKKIV. In the Implementation Guide for Contract Accounts Receivable and Payable under\n\nCalculation\n\nBusiness Transactions \u00bb Interest Item Interest Calculation \u00bb Define Interest Calculation Rules \u00a9 , in the Interval field enter Month, under Monthly Interest Calculation enter Month Started/Key Date in Calendar Month, and for Scale Type , enter No Scaled Interest Rates. In the interest key set the indicator Summarize Subitems before Interest Calculation .\n\nIf you require further summarization of documents that belong together, by main/subtransaction for example, you can define a customer-specific function module for event 2085. This module can then summarize by fields of the structure FKK_INT_ITEM_CHOSEN in addition to OPBEL, OPUPW, OPUPK, and OPUPZ.You can use function module FKK_CONDENSE_2085 as a template.Event 2085 is only processed if the indicator\n\nSummarize Subitems before Interest Calculation is set.Register\n\nyour installation-specific function module for event 2085 in the Implementation Guide for Contract Accounts Receivable and Payable under |}}Program Enhancements \u00bb Define Customer-\n\nSpecific Function Modules\n\nIn the Implementation Guide for Contract Accounts Receivable and Payable , under |}*Business Transactions > Interest Calculation \u00bb Item Interest Calculation \u00bb Define Interest Key set the indicator Consider All Subitems for Interest Calculation in the interest key.\n\nOnly for industry component Public Sector Contract Accounts\n\nReceivable and Payable\n\nIn the Implementation Guide for Contract Accounts Receivable and Payable , under |}#Program Enhancements \u00bb Define Customer-Specific Function Modules | , for event 2090 define function module FACA_SAMPLE_2090 or use this function module as a template for an installation-specific module that you register using event 2090 (see documentation of function module). In the standard, the due date of the interest document item is the current system date. You can change the due date of the interest document item in a customer-defined function module for event 0370 that first calls the standard module FKK_SAMPLE_0370. The example coding of the function module ZFKK_SAMPLE_0370 calculates the due date of the interest item from the due date of the item subjected to interest as follows: The due date is moved to the next day. If this is not a working day, using event 3030 (factory calendar), the system determines the",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p009_b000",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    149,
+    159,
+    530,
+    195
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "System Requirements",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_029"
+  },
+  {
+   "block_id": "doc_026_p009_b001",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    148,
+    265,
+    1247,
+    523
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "For each item, the system is to post a separate interest document item. Interest is to be calculated on an monthly baseis for months started where the key date is in the calendar month.",
+   "section_id": "doc_026_sec_029"
+  },
+  {
+   "block_id": "doc_026_p009_b002",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    147,
+    885,
+    1239,
+    1032
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Subitems are to be totaled before they are rounding according to the rounding rule in the interest conditions and then subjected to interest calculation.",
+   "section_id": "doc_026_sec_029"
+  },
+  {
+   "block_id": "doc_026_p009_b003",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    149,
+    1109,
+    896,
+    1144
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Summarize documents that belong together",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_026_sec_029"
+  },
+  {
+   "block_id": "doc_026_p009_b004",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    148,
+    1861,
+    1208,
+    1955
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Interest is to be calculated on cleared subitems if they were not cleared by the key date for the interest calculation",
+   "section_id": "doc_026_sec_029"
+  },
+  {
+   "block_id": "doc_026_p009_b005",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    148,
+    2200,
+    1269,
+    2353
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The base date for the interest calculation is to be moved to the day after the next working day using the factory calendar (grace period rule)",
+   "section_id": "doc_026_sec_029"
+  },
+  {
+   "block_id": "doc_026_p009_b006",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    148,
+    2755,
+    1237,
+    2846
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The due date of the interest document item should be on the day after the due date of the item, moved to the next working day",
+   "section_id": "doc_026_sec_029"
+  },
+  {
+   "block_id": "doc_026_p009_b007",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    1332,
+    159,
+    1508,
+    188
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Procedure",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_030"
+  },
+  {
+   "block_id": "doc_026_p009_b008",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    1331,
+    265,
+    2399,
+    524
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "text": "Include the fields OPUPW, OPUPK, and OPUPZ in the structure CI_FKKIV. In the Implementation Guide for Contract Accounts Receivable and Payable under",
+   "section_id": "doc_026_sec_030"
+  },
+  {
+   "block_id": "doc_026_p009_b009",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    1331,
+    547,
+    1526,
+    576
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Calculation",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_031"
+  },
+  {
+   "block_id": "doc_026_p009_b010",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    1331,
+    485,
+    2418,
+    973
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [],
+   "text": "Business Transactions \u00bb Interest Item Interest Calculation \u00bb Define Interest Calculation Rules \u00a9 , in the Interval field enter Month, under Monthly Interest Calculation enter Month Started/Key Date in Calendar Month, and for Scale Type , enter No Scaled Interest Rates. In the interest key set the indicator Summarize Subitems before Interest Calculation .",
+   "section_id": "doc_026_sec_031"
+  },
+  {
+   "block_id": "doc_026_p009_b011",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    1330,
+    1109,
+    2421,
+    1496
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "If you require further summarization of documents that belong together, by main/subtransaction for example, you can define a customer-specific function module for event 2085. This module can then summarize by fields of the structure FKK_INT_ITEM_CHOSEN in addition to OPBEL, OPUPW, OPUPK, and OPUPZ.You can use function module FKK_CONDENSE_2085 as a template.Event 2085 is only processed if the indicator",
+   "section_id": "doc_026_sec_031"
+  },
+  {
+   "block_id": "doc_026_p009_b012",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    1332,
+    1519,
+    2426,
+    1555
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [],
+   "text": "Summarize Subitems before Interest Calculation is set.Register",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_032"
+  },
+  {
+   "block_id": "doc_026_p009_b013",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    1330,
+    1579,
+    2388,
+    1737
+   ],
+   "ocr_confidence": 90.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "your installation-specific function module for event 2085 in the Implementation Guide for Contract Accounts Receivable and Payable under |}}Program Enhancements \u00bb Define Customer-",
+   "section_id": "doc_026_sec_032"
+  },
+  {
+   "block_id": "doc_026_p009_b014",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    1332,
+    1753,
+    1786,
+    1788
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Specific Function Modules",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_033"
+  },
+  {
+   "block_id": "doc_026_p009_b015",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    1330,
+    1861,
+    2449,
+    2129
+   ],
+   "ocr_confidence": 87.4,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "In the Implementation Guide for Contract Accounts Receivable and Payable , under |}*Business Transactions > Interest Calculation \u00bb Item Interest Calculation \u00bb Define Interest Key set the indicator Consider All Subitems for Interest Calculation in the interest key.",
+   "section_id": "doc_026_sec_033"
+  },
+  {
+   "block_id": "doc_026_p009_b016",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    1331,
+    2199,
+    2407,
+    2235
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Only for industry component Public Sector Contract Accounts",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_034"
+  },
+  {
+   "block_id": "doc_026_p009_b017",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    1333,
+    2259,
+    1735,
+    2294
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Receivable and Payable",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_035"
+  },
+  {
+   "block_id": "doc_026_p009_b018",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    1330,
+    2354,
+    2462,
+    3292
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "In the Implementation Guide for Contract Accounts Receivable and Payable , under |}#Program Enhancements \u00bb Define Customer-Specific Function Modules | , for event 2090 define function module FACA_SAMPLE_2090 or use this function module as a template for an installation-specific module that you register using event 2090 (see documentation of function module). In the standard, the due date of the interest document item is the current system date. You can change the due date of the interest document item in a customer-defined function module for event 0370 that first calls the standard module FKK_SAMPLE_0370. The example coding of the function module ZFKK_SAMPLE_0370 calculates the due date of the interest item from the due date of the item subjected to interest as follows: The due date is moved to the next day. If this is not a working day, using event 3030 (factory calendar), the system determines the",
+   "section_id": "doc_026_sec_035"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59,
+  "body_stroke_median": 0.1333,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "9237dfc983c34772e3ebefc93c39eb149d723d82f9fce68f61106c7f009a8ae1"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Calculation of Interest and Charges According to Fiscal Code",
+  "Activities",
+  "System Requirements"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_029",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_030",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_031",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_032",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_033",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_034",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_035",
+   "role": "starts_here"
+  }
+ ]
+}

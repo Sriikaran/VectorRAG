@@ -1,0 +1,347 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_022",
+ "page_number": 2,
+ "source_page_hash": "4e4f902592ef80efaa3e3060ed4f6abb699078a36eb8849dcc5e75688a24e484",
+ "is_cover_page": false,
+ "title": "Processing Incoming Payments",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:59 AM\n\nProcessing Incoming Payments\n\nUse\n\nPosting, reversing, and reconciliation of payments of offline branches\n\nIntegration\n\nIn the document display for a payment, the External Cash Desk tab page contains detailed information about the payment.\n\nFor documents posted using external cash desk services, in the account balance display, you can display detailed information\nabout the payment by choosing |)Environment \u00bb Payment Data \u00bb From External Cash Desk | .\n\nFeatures\n\nUsing the enterprise service CashPointPaymentCreateNotification , you can forward payments made at cash desks of offline\nbranches (with and without agents) to FI-CA.\n\nUsing the enterprise service CashPointPaymentReverseNotification , you can reverse payments made at cash desks of offline\nbranches (with and without agents) in FI-CA.\n\nIn FI-CA, you reconcile the postings that were made at cash desks of offline branches with agents. For postings at cash desks of\noffline branches without agents, no reconciliation is possible in FI-CA.\n\nActivities\n\nTo reconcile the SAP system (FI-CA) with the external cash desk system(s), create an agent posting - that is, a receivable due from\nthe external cash desk system or the agent. You post these agent postings to a separate contract account that you define in the\n\nmaster data for the external cash desk services in Customizing.\n\nIn addition to the settings for processing payments from offline branches in Customizing for FI-CA under |)*Business Transactions\n\u00bb Payments > Processing Incoming/Outgoing Payments \u00bb External Cash Desk Services 3, in the configuration of the Integration\nBuilder , you must link the enterprise services CashPointPaymentCreateNotification and CashPointPaymentReverseNotification\nwith the messages of the external cash desk using the SOAP Adapter or File Adapter , for example. For more information, see the\n\ndocumentation of SAP NetWeaver under |}*SAP NetWeaver Library \u00bb SAP NetWeaver by Key Capability \u00bb Process Integration by\nKey Capability > SAP NetWeaver Exchange Infrastructure. |\n\nTransferring Payments\n\nUse\n\nTransfer of payment information from offline branches to Contract Accounts Receivable and Payable\n\nPrerequisites\n",
+ "cleaned_text": "Processing Incoming Payments\n\nUse\n\nPosting, reversing, and reconciliation of payments of offline branches\n\nIntegration\n\nIn the document display for a payment, the External Cash Desk tab page contains detailed information about the payment. For documents posted using external cash desk services, in the account balance display, you can display detailed information about the payment by choosing |)Environment \u00bb Payment Data \u00bb From External Cash Desk | .\n\nFeatures\n\nUsing the enterprise service CashPointPaymentCreateNotification , you can forward payments made at cash desks of offline branches (with and without agents) to FI-CA. Using the enterprise service CashPointPaymentReverseNotification , you can reverse payments made at cash desks of offline branches (with and without agents) in FI-CA. In FI-CA, you reconcile the postings that were made at cash desks of offline branches with agents. For postings at cash desks of offline branches without agents, no reconciliation is possible in FI-CA.\n\nActivities\n\nTo reconcile the SAP system (FI-CA) with the external cash desk system(s), create an agent posting - that is, a receivable due from the external cash desk system or the agent. You post these agent postings to a separate contract account that you define in the master data for the external cash desk services in Customizing. In addition to the settings for processing payments from offline branches in Customizing for FI-CA under |)*Business Transactions \u00bb Payments > Processing Incoming/Outgoing Payments \u00bb External Cash Desk Services 3, in the configuration of the Integration Builder , you must link the enterprise services CashPointPaymentCreateNotification and CashPointPaymentReverseNotification with the messages of the external cash desk using the SOAP Adapter or File Adapter , for example. For more information, see the documentation of SAP NetWeaver under |}*SAP NetWeaver Library \u00bb SAP NetWeaver by Key Capability \u00bb Process Integration by Key Capability > SAP NetWeaver Exchange Infrastructure. |\n\nTransferring Payments\n\nUse\n\nTransfer of payment information from offline branches to Contract Accounts Receivable and Payable\n\nPrerequisites",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:59 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_022_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    256,
+    1262,
+    331
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Processing Incoming Payments",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_001"
+  },
+  {
+   "block_id": "doc_022_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    435,
+    225,
+    481
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_002"
+  },
+  {
+   "block_id": "doc_022_p002_b002",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    565,
+    1368,
+    603
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Posting, reversing, and reconciliation of payments of offline branches",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_022_sec_002"
+  },
+  {
+   "block_id": "doc_022_p002_b003",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    127,
+    714,
+    431,
+    771
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_003"
+  },
+  {
+   "block_id": "doc_022_p002_b004",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    847,
+    2388,
+    1073
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "In the document display for a payment, the External Cash Desk tab page contains detailed information about the payment. For documents posted using external cash desk services, in the account balance display, you can display detailed information about the payment by choosing |)Environment \u00bb Payment Data \u00bb From External Cash Desk | .",
+   "section_id": "doc_022_sec_003"
+  },
+  {
+   "block_id": "doc_022_p002_b005",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    1184,
+    361,
+    1230
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_004"
+  },
+  {
+   "block_id": "doc_022_p002_b006",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    123,
+    1313,
+    2419,
+    1785
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Using the enterprise service CashPointPaymentCreateNotification , you can forward payments made at cash desks of offline branches (with and without agents) to FI-CA. Using the enterprise service CashPointPaymentReverseNotification , you can reverse payments made at cash desks of offline branches (with and without agents) in FI-CA. In FI-CA, you reconcile the postings that were made at cash desks of offline branches with agents. For postings at cash desks of offline branches without agents, no reconciliation is possible in FI-CA.",
+   "section_id": "doc_022_sec_004"
+  },
+  {
+   "block_id": "doc_022_p002_b007",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    123,
+    1897,
+    383,
+    1942
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_005"
+  },
+  {
+   "block_id": "doc_022_p002_b008",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    2030,
+    2487,
+    2633
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "To reconcile the SAP system (FI-CA) with the external cash desk system(s), create an agent posting - that is, a receivable due from the external cash desk system or the agent. You post these agent postings to a separate contract account that you define in the master data for the external cash desk services in Customizing. In addition to the settings for processing payments from offline branches in Customizing for FI-CA under |)*Business Transactions \u00bb Payments > Processing Incoming/Outgoing Payments \u00bb External Cash Desk Services 3, in the configuration of the Integration Builder , you must link the enterprise services CashPointPaymentCreateNotification and CashPointPaymentReverseNotification with the messages of the external cash desk using the SOAP Adapter or File Adapter , for example. For more information, see the documentation of SAP NetWeaver under |}*SAP NetWeaver Library \u00bb SAP NetWeaver by Key Capability \u00bb Process Integration by Key Capability > SAP NetWeaver Exchange Infrastructure. |",
+   "section_id": "doc_022_sec_005"
+  },
+  {
+   "block_id": "doc_022_p002_b009",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    123,
+    2779,
+    944,
+    2854
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Transferring Payments",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_006"
+  },
+  {
+   "block_id": "doc_022_p002_b010",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    125,
+    2958,
+    225,
+    3004
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_007"
+  },
+  {
+   "block_id": "doc_022_p002_b011",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    3088,
+    1962,
+    3126
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Transfer of payment information from offline branches to Contract Accounts Receivable and Payable",
+   "section_id": "doc_022_sec_007"
+  },
+  {
+   "block_id": "doc_022_p002_b012",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    3237,
+    492,
+    3294
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_008"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Processing Incoming Payments from External Cash Desks",
+  "source_pdf": "22.pdf",
+  "reference_pdf": "22_Processing_Incoming_Payments_from_External_Cash_Desks.pdf",
+  "category": "Payments & Clearing",
+  "m2c_relevance": "Relevant to real-time external payment and reversal scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "4e4f902592ef80efaa3e3060ed4f6abb699078a36eb8849dcc5e75688a24e484"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:44Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Processing Incoming Payments from External Cash Desks",
+  "Processing Incoming Payments"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_022_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_003",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_004",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_005",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_006",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_007",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_008",
+   "role": "starts_here"
+  }
+ ]
+}

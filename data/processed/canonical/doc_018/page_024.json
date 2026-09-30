@@ -1,0 +1,423 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 24,
+ "source_page_hash": "f4cc9143b74117f2ab77ed74d595fa72a88f2eb24ce566bbfafdfb5e7dfe2477",
+ "is_cover_page": false,
+ "title": "Message Types",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nto the customer and explaining how items were cleared. Each Splitltem belongs to a SplitltemGroup. Open Splitltems of an Item\n\nare grouped by due date and cash discount terms. So all the Splititems of a given Item that are due on the same date and have the\nsame cash discount percentage and cash discount dates belong to the same group.\n\nMessage Types\n\ne ContractAccountERPSplitltemGroupByBusinessPartner|DQuery_sync\n\ne ContractAccountERPSplitltemGroupByBusinessPartnerlDResponse_sync\n\nConstraints\n\nIn case invoices have been partially cleared by payments in other currencies, errors may occur when you display the partial\namounts of the invoices.\n\nNotes on SAP Implementation\n\nPrerequisites\n\nYou are using software component FI-CA (as of version FI-CA 6.02).\n\nYou have maintained the backend configuration of SAP Biller Direct in FI-CA (see Customizing for Contract Accounts Receivable\nand Payable under Integration -> Financial Supply Chain Management -> Biller Direct -> Basic Setting for Customer Portal in\nInternet ).\n\nThe user has sufficient authorizations, in particular with regard to the authorization object F_KK_EBPP.\n\nProcessing\n\nFI-CA event 660lis called directly after inbound mapping of the service is done; it can be used to modify the query fields before the\nbusiness logic is performed.\n\nFI-CA event 6602 is called before the response message is returned to the service consumer; it can be used to modify the\nresponse fields and to handle customer extensions carried out in the service interface.\n\nMore Information\n\nFor information on corrections and frequently asked questions relating to this operation, refer to SAP Note 1063500 (collective\nnote).\n\nFind Contract Account Split Item Group by Elements\n\nTechnical Data\n\nEntity Type                                                                                              Service Operation\n\nRelease State                                                                               released\n",
+ "cleaned_text": "to the customer and explaining how items were cleared. Each Splitltem belongs to a SplitltemGroup. Open Splitltems of an Item are grouped by due date and cash discount terms. So all the Splititems of a given Item that are due on the same date and have the same cash discount percentage and cash discount dates belong to the same group.\n\nMessage Types\n\n- ContractAccountERPSplitltemGroupByBusinessPartner|DQuery_sync\n\n- ContractAccountERPSplitltemGroupByBusinessPartnerlDResponse_sync\n\nConstraints\n\nIn case invoices have been partially cleared by payments in other currencies, errors may occur when you display the partial amounts of the invoices.\n\nNotes on SAP Implementation\n\nPrerequisites\n\nYou are using software component FI-CA (as of version FI-CA 6.02). You have maintained the backend configuration of SAP Biller Direct in FI-CA (see Customizing for Contract Accounts Receivable and Payable under Integration -> Financial Supply Chain Management -> Biller Direct -> Basic Setting for Customer Portal in Internet ). The user has sufficient authorizations, in particular with regard to the authorization object F_KK_EBPP.\n\nProcessing\n\nFI-CA event 660lis called directly after inbound mapping of the service is done; it can be used to modify the query fields before the business logic is performed. FI-CA event 6602 is called before the response message is returned to the service consumer; it can be used to modify the response fields and to handle customer extensions carried out in the service interface.\n\nMore Information\n\nFor information on corrections and frequently asked questions relating to this operation, refer to SAP Note 1063500 (collective note).\n\nFind Contract Account Split Item Group by Elements\n\nTechnical Data\n\nEntity Type | Service Operation\n\nRelease State | released",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p024_b000",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    122,
+    134,
+    2475,
+    297
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "to the customer and explaining how items were cleared. Each Splitltem belongs to a SplitltemGroup. Open Splitltems of an Item are grouped by due date and cash discount terms. So all the Splititems of a given Item that are due on the same date and have the same cash discount percentage and cash discount dates belong to the same group.",
+   "section_id": "doc_018_sec_146"
+  },
+  {
+   "block_id": "doc_018_p024_b001",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    126,
+    409,
+    543,
+    466
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Message Types",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_147"
+  },
+  {
+   "block_id": "doc_018_p024_b002",
+   "type": "list",
+   "page_number": 24,
+   "bbox": [
+    207,
+    542,
+    1595,
+    681
+   ],
+   "ocr_confidence": 67.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ContractAccountERPSplitltemGroupByBusinessPartner|DQuery_sync"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "ContractAccountERPSplitltemGroupByBusinessPartnerlDResponse_sync"
+    }
+   ],
+   "section_id": "doc_018_sec_147"
+  },
+  {
+   "block_id": "doc_018_p024_b003",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    124,
+    793,
+    449,
+    839
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Constraints",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_148"
+  },
+  {
+   "block_id": "doc_018_p024_b004",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    123,
+    926,
+    2340,
+    1019
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "In case invoices have been partially cleared by payments in other currencies, errors may occur when you display the partial amounts of the invoices.",
+   "section_id": "doc_018_sec_148"
+  },
+  {
+   "block_id": "doc_018_p024_b005",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    126,
+    1138,
+    970,
+    1194
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Notes on SAP Implementation",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_149"
+  },
+  {
+   "block_id": "doc_018_p024_b006",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    124,
+    1271,
+    368,
+    1309
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_150"
+  },
+  {
+   "block_id": "doc_018_p024_b007",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    122,
+    1392,
+    2470,
+    1802
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You are using software component FI-CA (as of version FI-CA 6.02). You have maintained the backend configuration of SAP Biller Direct in FI-CA (see Customizing for Contract Accounts Receivable and Payable under Integration -> Financial Supply Chain Management -> Biller Direct -> Basic Setting for Customer Portal in Internet ). The user has sufficient authorizations, in particular with regard to the authorization object F_KK_EBPP.",
+   "section_id": "doc_018_sec_150"
+  },
+  {
+   "block_id": "doc_018_p024_b008",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    124,
+    1886,
+    326,
+    1923
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Processing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_151"
+  },
+  {
+   "block_id": "doc_018_p024_b009",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    124,
+    2010,
+    2486,
+    2294
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "FI-CA event 660lis called directly after inbound mapping of the service is done; it can be used to modify the query fields before the business logic is performed. FI-CA event 6602 is called before the response message is returned to the service consumer; it can be used to modify the response fields and to handle customer extensions carried out in the service interface.",
+   "section_id": "doc_018_sec_151"
+  },
+  {
+   "block_id": "doc_018_p024_b010",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    126,
+    2407,
+    611,
+    2452
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "More Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_152"
+  },
+  {
+   "block_id": "doc_018_p024_b011",
+   "type": "paragraph",
+   "page_number": 24,
+   "bbox": [
+    124,
+    2539,
+    2418,
+    2639
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "For information on corrections and frequently asked questions relating to this operation, refer to SAP Note 1063500 (collective note).",
+   "section_id": "doc_018_sec_152"
+  },
+  {
+   "block_id": "doc_018_p024_b012",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    128,
+    2788,
+    2023,
+    2865
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [],
+   "text": "Find Contract Account Split Item Group by Elements",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_153"
+  },
+  {
+   "block_id": "doc_018_p024_b013",
+   "type": "heading",
+   "page_number": 24,
+   "bbox": [
+    123,
+    2965,
+    530,
+    3010
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_154"
+  },
+  {
+   "block_id": "doc_018_p024_b014",
+   "type": "table",
+   "page_number": 24,
+   "bbox": [
+    150,
+    3123,
+    1623,
+    3256
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continued_on_next_page:p25",
+    "continued_on_next_page:p25"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1324
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ]
+   ],
+   "section_id": "doc_018_sec_154"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "f4cc9143b74117f2ab77ed74d595fa72a88f2eb24ce566bbfafdfb5e7dfe2477"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Find Contract Account Split Item Group by Business Partner ID",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_146",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_018_sec_147",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_148",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_149",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_150",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_151",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_152",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_153",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_154",
+   "role": "starts_here"
+  }
+ ]
+}

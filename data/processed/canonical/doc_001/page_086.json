@@ -1,0 +1,198 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 86,
+ "source_page_hash": "5bf227929aa5fee52935c325a3ed4caa6b0241619a941b90e928a1e940f6e8bf",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nProcedure whereby the billing agent pays the service provider for the outstanding receivables, even if the customer has not yet\npaid the billing agent. The billing agent owns the receivables from the customer once they have been invoiced in IS-U.\n\nCustomer payment and advance payment refer to a billing agent scenario.\nThe payment process has the following functions:\n\ne Determines the correct procedure in the supplier's system for inbound bills from the distributor\ne Indicates whether the supplier is acting as sole provider or billing agent, so that the bill is processed correctly\n\ne Differentiates between the customer payment and the advance payment process for the billing agent scenario\n\nConsequently, the payment process provides information about the current scenario.\n\nYou allocate the payment process and frequency in the Service Provider transaction, which you can find in the menu for the\nUtilities Industry under |}Intercompany Data Exchange \u00bb Service Provider\n\nThe following case scenarios illustrate what information the payment process provides:\n\n1. Invoicing for a different service provider (supplier's perspective)\n\n{o)\n\n2. %* Example\n\nThe supplier receives the bill from the distributor and invoices the bill as billing agent.\n\nThe supplier has created a grid usage contract in which distributor DISTO1 is entered as the service provider and\nsupplier SUPP as the invoicing service provider.\n",
+ "cleaned_text": "Procedure whereby the billing agent pays the service provider for the outstanding receivables, even if the customer has not yet paid the billing agent. The billing agent owns the receivables from the customer once they have been invoiced in IS-U. Customer payment and advance payment refer to a billing agent scenario. The payment process has the following functions:\n\n- Determines the correct procedure in the supplier's system for inbound bills from the distributor\n\n- Indicates whether the supplier is acting as sole provider or billing agent, so that the bill is processed correctly\n\n- Differentiates between the customer payment and the advance payment process for the billing agent scenario\n\nConsequently, the payment process provides information about the current scenario. You allocate the payment process and frequency in the Service Provider transaction, which you can find in the menu for the Utilities Industry under |}Intercompany Data Exchange \u00bb Service Provider The following case scenarios illustrate what information the payment process provides:\n\n1 Invoicing for a different service provider (supplier's perspective) {o)\n\n2 %* Example The supplier receives the bill from the distributor and invoices the bill as billing agent. The supplier has created a grid usage contract in which distributor DISTO1 is entered as the service provider and supplier SUPP as the invoicing service provider.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p086_b000",
+   "type": "paragraph",
+   "page_number": 86,
+   "bbox": [
+    122,
+    134,
+    2410,
+    481
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Procedure whereby the billing agent pays the service provider for the outstanding receivables, even if the customer has not yet paid the billing agent. The billing agent owns the receivables from the customer once they have been invoiced in IS-U. Customer payment and advance payment refer to a billing agent scenario. The payment process has the following functions:",
+   "section_id": "doc_001_sec_341"
+  },
+  {
+   "block_id": "doc_001_p086_b001",
+   "type": "list",
+   "page_number": 86,
+   "bbox": [
+    207,
+    565,
+    2262,
+    807
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Determines the correct procedure in the supplier's system for inbound bills from the distributor"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Indicates whether the supplier is acting as sole provider or billing agent, so that the bill is processed correctly"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Differentiates between the customer payment and the advance payment process for the billing agent scenario"
+    }
+   ],
+   "section_id": "doc_001_sec_341"
+  },
+  {
+   "block_id": "doc_001_p086_b002",
+   "type": "paragraph",
+   "page_number": 86,
+   "bbox": [
+    122,
+    891,
+    2348,
+    1238
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Consequently, the payment process provides information about the current scenario. You allocate the payment process and frequency in the Service Provider transaction, which you can find in the menu for the Utilities Industry under |}Intercompany Data Exchange \u00bb Service Provider The following case scenarios illustrate what information the payment process provides:",
+   "section_id": "doc_001_sec_341"
+  },
+  {
+   "block_id": "doc_001_p086_b003",
+   "type": "list",
+   "page_number": 86,
+   "bbox": [
+    212,
+    1321,
+    2314,
+    1728
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Invoicing for a different service provider (supplier's perspective) {o)"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "%* Example The supplier receives the bill from the distributor and invoices the bill as billing agent. The supplier has created a grid usage contract in which distributor DISTO1 is entered as the service provider and supplier SUPP as the invoicing service provider."
+    }
+   ],
+   "section_id": "doc_001_sec_341"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "5bf227929aa5fee52935c325a3ed4caa6b0241619a941b90e928a1e940f6e8bf"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Payment Class"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_341",
+   "role": "continues"
+  }
+ ]
+}

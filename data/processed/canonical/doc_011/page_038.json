@@ -1,0 +1,318 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 38,
+ "source_page_hash": "9575c2e8d2480be237d11759be73ea00b1e4107a831a60d117551118ceb02d35",
+ "is_cover_page": false,
+ "title": "RTP Component MAX",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\no Not set (red traffic light) Output parameter 2 \u2014 Copy as demand profile\n\ne RTP Component Code Off-Peak Consumption\no Set (green traffic light) Input parameter 1 \u2014 Quantity consumption profile\no Set (green traffic light) Output parameter 1 \u2014 Copy of consumption profile\n\no Not set (red traffic light) Output parameter 2 \u2014 Copy as demand profile\n\nRTP Component MAX\n\ne RTP Component Code Default\no Set (green traffic light) Input parameter 1 \u2014 Quantity consumption profile\no Not set (red traffic light) Output parameter 1 \u2014- Copy of consumption profile\n\no Set (green traffic light) Output parameter 2 - Copy as demand profile\n\nThe ON/OFF component splits the load shape into on-peak and off-peak consumption. You define the component with reference to\nan appropriate time-of-use group. The MAX component determines the maximum demand measured. In this case you do not have\nto define the component with reference to a season group, day group, or time-of-use group. Therefore, you define the component\n\nwithout reference to a season group, day group, or time-of-use group.\n\nIn the ONOFF component, you allocate the role measured consumption to the input parameter for the entire period. This\ncorresponds to the load shape of the interval meter in the billing period. You allocate the first output parameter result parameter\n001 for the on-peak period and O02 for the off-peak period.\n\nIn the MAX component you also allocate the role measured consumption to the input parameter because the load shape also\n\nprovides the basis for determining maximum demand. You allocate result parameter O03 to the second output parameter in the\ncomponent for the whole period.\n\nYou can then use the RTP interface to define an appropriate rate.\n\nFor example, you can create a rate HTNTMAX that is permitted for interval meters, to which you allocate the HTNTMAX RTP\ninterface.\n\nYou create rate steps that valuate the on- and off-peak consumption as well as the maximum demand measured.\n\nNo.                  Variant            Input O1           Input 02          Output 01\n001         QUANTIO1    ONCONSM | ONPRICE     ONAMNT\n002                QUANTIO1       OFFCONSM | OFFPRICE        OFFAMNT\n003                 DEMANDO1 | MAXDEMND  DEMNDPRC | DEMNDAM\n\nYou define the operands ONCONSM, OFFCONSM und DEMNDPRC as RTP operands. In the rate facts, you allocate result parameter\n001 to the operand ONCONSM, result parameter 002 to the operand OFFCONSM, and result parameter 003 to the operand\nMAXDEMND.\n",
+ "cleaned_text": "- Not set (red traffic light) Output parameter 2 \u2014 Copy as demand profile\n\n- RTP Component Code Off-Peak Consumption\n\n- Set (green traffic light) Input parameter 1 \u2014 Quantity consumption profile\n\n- Set (green traffic light) Output parameter 1 \u2014 Copy of consumption profile\n\n- Not set (red traffic light) Output parameter 2 \u2014 Copy as demand profile\n\nRTP Component MAX\n\n- RTP Component Code Default\n\n- Set (green traffic light) Input parameter 1 \u2014 Quantity consumption profile\n\n- Not set (red traffic light) Output parameter 1 \u2014- Copy of consumption profile\n\n- Set (green traffic light) Output parameter 2 - Copy as demand profile\n\nThe ON/OFF component splits the load shape into on-peak and off-peak consumption. You define the component with reference to an appropriate time-of-use group. The MAX component determines the maximum demand measured. In this case you do not have to define the component with reference to a season group, day group, or time-of-use group. Therefore, you define the component without reference to a season group, day group, or time-of-use group. In the ONOFF component, you allocate the role measured consumption to the input parameter for the entire period. This corresponds to the load shape of the interval meter in the billing period. You allocate the first output parameter result parameter 001 for the on-peak period and O02 for the off-peak period. In the MAX component you also allocate the role measured consumption to the input parameter because the load shape also provides the basis for determining maximum demand. You allocate result parameter O03 to the second output parameter in the component for the whole period. You can then use the RTP interface to define an appropriate rate. For example, you can create a rate HTNTMAX that is permitted for interval meters, to which you allocate the HTNTMAX RTP interface. You create rate steps that valuate the on- and off-peak consumption as well as the maximum demand measured.\n\nNo. | Variant | Input O1 | Input 02 | Output 01\n\n001 | QUANTIO1 | ONCONSM | ONPRICE | ONAMNT\n\n002 | QUANTIO1 | OFFCONSM | OFFPRICE | OFFAMNT\n\n003 | DEMANDO1 | MAXDEMND DEMNDPRC | DEMNDAM\n\nYou define the operands ONCONSM, OFFCONSM und DEMNDPRC as RTP operands. In the rate facts, you allocate result parameter 001 to the operand ONCONSM, result parameter 002 to the operand OFFCONSM, and result parameter 003 to the operand MAXDEMND.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p038_b000",
+   "type": "list",
+   "page_number": 38,
+   "bbox": [
+    207,
+    134,
+    1738,
+    583
+   ],
+   "ocr_confidence": 87.4,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Not set (red traffic light) Output parameter 2 \u2014 Copy as demand profile"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "RTP Component Code Off-Peak Consumption"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Set (green traffic light) Input parameter 1 \u2014 Quantity consumption profile"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Set (green traffic light) Output parameter 1 \u2014 Copy of consumption profile"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Not set (red traffic light) Output parameter 2 \u2014 Copy as demand profile"
+    }
+   ],
+   "section_id": "doc_011_sec_107"
+  },
+  {
+   "block_id": "doc_011_p038_b001",
+   "type": "heading",
+   "page_number": 38,
+   "bbox": [
+    124,
+    667,
+    528,
+    704
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "RTP Component MAX",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_108"
+  },
+  {
+   "block_id": "doc_011_p038_b002",
+   "type": "list",
+   "page_number": 38,
+   "bbox": [
+    207,
+    788,
+    1765,
+    1135
+   ],
+   "ocr_confidence": 87.8,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "RTP Component Code Default"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Set (green traffic light) Input parameter 1 \u2014 Quantity consumption profile"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Not set (red traffic light) Output parameter 1 \u2014- Copy of consumption profile"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Set (green traffic light) Output parameter 2 - Copy as demand profile"
+    }
+   ],
+   "section_id": "doc_011_sec_108"
+  },
+  {
+   "block_id": "doc_011_p038_b003",
+   "type": "paragraph",
+   "page_number": 38,
+   "bbox": [
+    122,
+    1218,
+    2486,
+    2376
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "The ON/OFF component splits the load shape into on-peak and off-peak consumption. You define the component with reference to an appropriate time-of-use group. The MAX component determines the maximum demand measured. In this case you do not have to define the component with reference to a season group, day group, or time-of-use group. Therefore, you define the component without reference to a season group, day group, or time-of-use group. In the ONOFF component, you allocate the role measured consumption to the input parameter for the entire period. This corresponds to the load shape of the interval meter in the billing period. You allocate the first output parameter result parameter 001 for the on-peak period and O02 for the off-peak period. In the MAX component you also allocate the role measured consumption to the input parameter because the load shape also provides the basis for determining maximum demand. You allocate result parameter O03 to the second output parameter in the component for the whole period. You can then use the RTP interface to define an appropriate rate. For example, you can create a rate HTNTMAX that is permitted for interval meters, to which you allocate the HTNTMAX RTP interface. You create rate steps that valuate the on- and off-peak consumption as well as the maximum demand measured.",
+   "section_id": "doc_011_sec_108"
+  },
+  {
+   "block_id": "doc_011_p038_b004",
+   "type": "table",
+   "page_number": 38,
+   "bbox": [
+    148,
+    2482,
+    1384,
+    2841
+   ],
+   "ocr_confidence": 81.0,
+   "flags": [
+    "low_confidence_words:3",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    148,
+    410,
+    674,
+    938,
+    1199
+   ],
+   "headers": [
+    "No.",
+    "Variant",
+    "Input O1",
+    "Input 02",
+    "Output 01"
+   ],
+   "rows": [
+    [
+     "001",
+     "QUANTIO1",
+     "ONCONSM | ONPRICE",
+     "ONAMNT"
+    ],
+    [
+     "002",
+     "QUANTIO1",
+     "OFFCONSM | OFFPRICE",
+     "OFFAMNT"
+    ],
+    [
+     "003",
+     "DEMANDO1 | MAXDEMND DEMNDPRC | DEMNDAM"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "No.",
+     "Variant",
+     "Input O1",
+     "Input 02",
+     "Output 01"
+    ],
+    [
+     "001",
+     "QUANTIO1",
+     "ONCONSM | ONPRICE",
+     "ONAMNT"
+    ],
+    [
+     "002",
+     "QUANTIO1",
+     "OFFCONSM | OFFPRICE",
+     "OFFAMNT"
+    ],
+    [
+     "003",
+     "DEMANDO1 | MAXDEMND DEMNDPRC | DEMNDAM"
+    ]
+   ],
+   "section_id": "doc_011_sec_108"
+  },
+  {
+   "block_id": "doc_011_p038_b005",
+   "type": "paragraph",
+   "page_number": 38,
+   "bbox": [
+    123,
+    2948,
+    2434,
+    3111
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [],
+   "text": "You define the operands ONCONSM, OFFCONSM und DEMNDPRC as RTP operands. In the rate facts, you allocate result parameter 001 to the operand ONCONSM, result parameter 002 to the operand OFFCONSM, and result parameter 003 to the operand MAXDEMND.",
+   "section_id": "doc_011_sec_108"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1198,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "9575c2e8d2480be237d11759be73ea00b1e4107a831a60d117551118ceb02d35"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Example: RTP Interface and Rate"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_107",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_108",
+   "role": "starts_here"
+  }
+ ]
+}

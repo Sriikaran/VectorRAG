@@ -1,0 +1,470 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_029",
+ "page_number": 9,
+ "source_page_hash": "bd7fc313bf0605d040957bb233a9f8650ba1744c49c8bdb4dc44fac84be6a362",
+ "is_cover_page": false,
+ "title": "Automatic Assignment When Work Items are Created",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:19 AM\ne 21400001 - Disconnection notification agent\n\ne 21400002 - Disconnection notification group\n\ne 21400003 - Disconnection notification department\n\nYou can create a simple model using the report Create Organizational Model in ERP.\n\nAutomatic Assignment When Work Items are Created\n\nTo have automatic assignment when work items are created, you have to enter the responsibilities. On the SAP Easy Access\nscreen, choose |*Periodic Processing For Contract Accounts + Dunning Notice 5 Areas of Responsibility\n\ne Maintain Department Responsibilities\ne Maintain Unit Responsibilities\n\ne Maintain Collection Specialist Responsibilities\n\nManaging Work Items and Worklists\n\nTo manage work items and worklists, you use the transaction Manage Worklists for Disconnection Notifications (from the SAP\nEasy Access screen, choose |}UtilitiesIndustry + Customer Service } Process Execution } Disconnection/Reconnection } Work\nItem Management)\n\nIn this transaction, the manager of a department or group can perform the following tasks:\n\ne Create worklists manually\n\ne Change attributes of a worklist\n\ne Display work items\n\ne Assign work items to new processors or groups\n\ne Change the starting time of work items\n\nTemporary Release of Additional Users for Managing and Processing Worklists\n\ne You can temporarily release additional users for managing worklists, without having to change the organizational model. To\ndo so, on the SAP Easy Access screen, choose |}PeriodicProcessing \u00bb For ContractAccounts } Dunning \u00bb Areas\nofResponsibilities \u00bb Define Additional Department or Group Head\n\nThe work items are processed in the CRM system in Financial Customer Care (FCC).\n\ne You can temporarily release additional users for processing worklists, without having to change the organizational model.\nTo do so, on the SAP Easy Access screen, choose |}Periodic Processing For ContractAccounts \u00bb Dunning \u00bb Areas\nofResponsibilities + Define Additional Collection Specialist\n\nGenerating Service orders and Service Notifications\n\nYou can generate a Service order or a service notification in the Service Processing (CS-SE) component that corresponds to a\ndisconnection order in an IS-U disconnection document (note however, that if notification is required, the system can only\ngenerate service orders after you have set the agreed date and the notification work item is closed).\n",
+ "cleaned_text": "- 21400001 - Disconnection notification agent\n\n- 21400002 - Disconnection notification group\n\n- 21400003 - Disconnection notification department\n\nYou can create a simple model using the report Create Organizational Model in ERP.\n\nAutomatic Assignment When Work Items are Created\n\nTo have automatic assignment when work items are created, you have to enter the responsibilities. On the SAP Easy Access screen, choose |*Periodic Processing For Contract Accounts + Dunning Notice 5 Areas of Responsibility\n\n- Maintain Department Responsibilities\n\n- Maintain Unit Responsibilities\n\n- Maintain Collection Specialist Responsibilities\n\nManaging Work Items and Worklists\n\nTo manage work items and worklists, you use the transaction Manage Worklists for Disconnection Notifications (from the SAP Easy Access screen, choose |}UtilitiesIndustry + Customer Service } Process Execution } Disconnection/Reconnection } Work\n\nItem Management)\n\nIn this transaction, the manager of a department or group can perform the following tasks:\n\n- Create worklists manually\n\n- Change attributes of a worklist\n\n- Display work items\n\n- Assign work items to new processors or groups\n\n- Change the starting time of work items\n\nTemporary Release of Additional Users for Managing and Processing Worklists\n\n- You can temporarily release additional users for managing worklists, without having to change the organizational model. To do so, on the SAP Easy Access screen, choose |}PeriodicProcessing \u00bb For ContractAccounts } Dunning \u00bb Areas\n\nofResponsibilities \u00bb Define Additional Department or Group Head The work items are processed in the CRM system in Financial Customer Care (FCC).\n\n- You can temporarily release additional users for processing worklists, without having to change the organizational model. To do so, on the SAP Easy Access screen, choose |}Periodic Processing For ContractAccounts \u00bb Dunning \u00bb Areas ofResponsibilities + Define Additional Collection Specialist\n\nGenerating Service orders and Service Notifications\n\nYou can generate a Service order or a service notification in the Service Processing (CS-SE) component that corresponds to a disconnection order in an IS-U disconnection document (note however, that if notification is required, the system can only generate service orders after you have set the agreed date and the notification work item is closed).",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:19 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_029_p009_b000",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    207,
+    134,
+    1191,
+    376
+   ],
+   "ocr_confidence": 82.0,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "21400001 - Disconnection notification agent"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "21400002 - Disconnection notification group"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "21400003 - Disconnection notification department"
+    }
+   ],
+   "section_id": "doc_029_sec_029"
+  },
+  {
+   "block_id": "doc_029_p009_b001",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    123,
+    463,
+    1665,
+    501
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "You can create a simple model using the report Create Organizational Model in ERP.",
+   "section_id": "doc_029_sec_029"
+  },
+  {
+   "block_id": "doc_029_p009_b002",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    123,
+    584,
+    1116,
+    622
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Automatic Assignment When Work Items are Created",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_030"
+  },
+  {
+   "block_id": "doc_029_p009_b003",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    706,
+    2353,
+    811
+   ],
+   "ocr_confidence": 90.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "To have automatic assignment when work items are created, you have to enter the responsibilities. On the SAP Easy Access screen, choose |*Periodic Processing For Contract Accounts + Dunning Notice 5 Areas of Responsibility",
+   "section_id": "doc_029_sec_030"
+  },
+  {
+   "block_id": "doc_029_p009_b004",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    207,
+    890,
+    1118,
+    1135
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Maintain Department Responsibilities"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Maintain Unit Responsibilities"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Maintain Collection Specialist Responsibilities"
+    }
+   ],
+   "section_id": "doc_029_sec_030"
+  },
+  {
+   "block_id": "doc_029_p009_b005",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    124,
+    1219,
+    790,
+    1256
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [],
+   "text": "Managing Work Items and Worklists",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_031"
+  },
+  {
+   "block_id": "doc_029_p009_b006",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    1340,
+    2465,
+    1446
+   ],
+   "ocr_confidence": 89.0,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "To manage work items and worklists, you use the transaction Manage Worklists for Disconnection Notifications (from the SAP Easy Access screen, choose |}UtilitiesIndustry + Customer Service } Process Execution } Disconnection/Reconnection } Work",
+   "section_id": "doc_029_sec_031"
+  },
+  {
+   "block_id": "doc_029_p009_b007",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    125,
+    1468,
+    478,
+    1506
+   ],
+   "ocr_confidence": 79.0,
+   "flags": [],
+   "text": "Item Management)",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_032"
+  },
+  {
+   "block_id": "doc_029_p009_b008",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    125,
+    1590,
+    1758,
+    1627
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "In this transaction, the manager of a department or group can perform the following tasks:",
+   "section_id": "doc_029_sec_032"
+  },
+  {
+   "block_id": "doc_029_p009_b009",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    207,
+    1711,
+    1109,
+    2160
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create worklists manually"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change attributes of a worklist"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Display work items"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Assign work items to new processors or groups"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change the starting time of work items"
+    }
+   ],
+   "section_id": "doc_029_sec_032"
+  },
+  {
+   "block_id": "doc_029_p009_b010",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    122,
+    2244,
+    1581,
+    2281
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Temporary Release of Additional Users for Managing and Processing Worklists",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_033"
+  },
+  {
+   "block_id": "doc_029_p009_b011",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    207,
+    2365,
+    2474,
+    2470
+   ],
+   "ocr_confidence": 87.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can temporarily release additional users for managing worklists, without having to change the organizational model. To do so, on the SAP Easy Access screen, choose |}PeriodicProcessing \u00bb For ContractAccounts } Dunning \u00bb Areas"
+    }
+   ],
+   "section_id": "doc_029_sec_033"
+  },
+  {
+   "block_id": "doc_029_p009_b012",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    254,
+    2489,
+    1775,
+    2633
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "ofResponsibilities \u00bb Define Additional Department or Group Head The work items are processed in the CRM system in Financial Customer Care (FCC).",
+   "section_id": "doc_029_sec_033"
+  },
+  {
+   "block_id": "doc_029_p009_b013",
+   "type": "list",
+   "page_number": 9,
+   "bbox": [
+    207,
+    2697,
+    2442,
+    2865
+   ],
+   "ocr_confidence": 85.8,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can temporarily release additional users for processing worklists, without having to change the organizational model. To do so, on the SAP Easy Access screen, choose |}Periodic Processing For ContractAccounts \u00bb Dunning \u00bb Areas ofResponsibilities + Define Additional Collection Specialist"
+    }
+   ],
+   "section_id": "doc_029_sec_033"
+  },
+  {
+   "block_id": "doc_029_p009_b014",
+   "type": "heading",
+   "page_number": 9,
+   "bbox": [
+    123,
+    2946,
+    1093,
+    2985
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Generating Service orders and Service Notifications",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_034"
+  },
+  {
+   "block_id": "doc_029_p009_b015",
+   "type": "paragraph",
+   "page_number": 9,
+   "bbox": [
+    122,
+    3068,
+    2398,
+    3231
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You can generate a Service order or a service notification in the Service Processing (CS-SE) component that corresponds to a disconnection order in an IS-U disconnection document (note however, that if notification is required, the system can only generate service orders after you have set the agreed date and the notification work item is closed).",
+   "section_id": "doc_029_sec_034"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Disconnection/Reconnection of a Utility Installation",
+  "source_pdf": "29.pdf",
+  "reference_pdf": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+  "category": "Disconnection & Reconnection",
+  "m2c_relevance": "Connects overdue debt/dunning to service actions while preserving the distinction between delinquency and disconnect eligibility.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "bd7fc313bf0605d040957bb233a9f8650ba1744c49c8bdb4dc44fac84be6a362"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:47Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Disconnection/Reconnection of a Utility Installation",
+  "Disconnection Order Generation",
+  "Integration",
+  "Creating and Managing Work Items and Worklists for Customer Notifications"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_029_sec_029",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_029_sec_030",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_031",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_032",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_033",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_034",
+   "role": "starts_here"
+  }
+ ]
+}

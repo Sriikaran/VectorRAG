@@ -1,0 +1,45 @@
+{
+ "elapsed_seconds": 0.9,
+ "generated_at": "2026-09-30T14:02:35Z",
+ "inputs": {
+  "canonical": "data/processed/canonical",
+  "upstream_modified": false
+ },
+ "pipeline": "chunker.py v1.1",
+ "pipeline_notes": [],
+ "schema_version": "1.0",
+ "settings": {
+  "absorb_threshold_tokens": 450,
+  "hard_max_tokens": 800,
+  "overlap_sentences": 1,
+  "oversize_unit_split_tokens": 700,
+  "sibling_merge_min_tokens": 300,
+  "table_rows_per_chunk_max": 30,
+  "target_max_tokens": 650,
+  "target_min_tokens": 450,
+  "tokenizer": "Qwen3 BPE via qwen-tokenizer 0.3.0 (vocab qwen3_6.tiktoken, offline)"
+ },
+ "strategy": "structure-first: a section subtree that fits the hard max is one chunk; bigger subtrees are chunked at direct-block boundaries and recursed; consecutive small sibling-subtree chunks merge under their common parent (covers_section_ids records what a chunk spans); oversized single units split at sentence/item/row boundaries, tables always repeat headers, prose fragments carry 1-sentence overlap; fragments/cover blocks stay in parent provenance only",
+ "token_counting": "real BPE token counts (offline Qwen3 vocab)",
+ "tokenizer": "Qwen3 BPE via qwen-tokenizer 0.3.0 (vocab qwen3_6.tiktoken, offline)",
+ "totals": {
+  "child_chunks": 453,
+  "child_pct_within_450_650": 40.2,
+  "child_tokens_avg": 425.3,
+  "child_tokens_max": 774,
+  "child_tokens_median": 457,
+  "child_tokens_min": 11,
+  "child_tokens_sum": 192642,
+  "chunks_with_examples": 21,
+  "chunks_with_notes": 122,
+  "chunks_with_quality_flags": 408,
+  "documents": 29,
+  "merged_sibling_chunks": 184,
+  "non_retrievable_parents": 91,
+  "pages_represented_in_children": 500,
+  "parent_sections": 1834,
+  "procedure_or_list_chunks": 318,
+  "retrievable_parents": 1743,
+  "table_chunks": 169
+ }
+}

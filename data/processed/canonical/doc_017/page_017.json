@@ -1,0 +1,454 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_017",
+ "page_number": 17,
+ "source_page_hash": "67d832c016b3fe8739c6ef92bbdda89edc5242b2cece0328eb131a737afbed41",
+ "is_cover_page": false,
+ "title": "Use",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nUse\n\nYou use this function to transfer contract account data from a legacy system to IS-U for the first time. It is available within the IS-U\n\nmigration workbench.\n\nIntegration\n\nYou need the IS-U migration workbench to prepare and carry out the data transfer. To do this, go to the Customizing menu for SAP\nUtilities and select |#Tools \u00bb Migration >\u00bb Establish settings for IS-U migration\n\nPrerequisites\n\nYou must have transferred business partners in the IS-U migration workbench before transferring the contract accounts.\n\nMigration Customizing for the contract accounts must have been maintained completely.\n\nFeatures\n\nYou create the contract accounts from the legacy system's data using direct input.\n\nAssigning Contracts to Contract Accounts (IS-U)\n\nProcedure\n\nContracts are created in utilities when a move-in is entered (transaction EC50E). Contracts are automatically allocated to a\n\ncontract account. You can either select an existing contract account or create a new one.\n\nYou can find more information in the section on move-in.\n\nResult\n\nOnce you have saved the move-in, the number of the allocated contract account is stored in the contract.\n\nLoans (IS-U)\n\nUse\n\nNote that this function does not replace the standard loan management function in Treasury. This functions helps you manage\nvery simple loans, such as a loan given to a customer if an appliance (a heat pump, for example) has to be bought. It is not possible\n\nto manage premiums or discount. The system only supports fixed interest rates for the whole term.\n\nIntegration\n\nBefore you can use the loan function, the system has to be set up to manage installment plans. The individual interest calculation\n\nLitAKntinn miuiict Aan eatin ta nnakhla waist tan noalanrlatna intaract\n",
+ "cleaned_text": "Use\n\nYou use this function to transfer contract account data from a legacy system to IS-U for the first time. It is available within the IS-U migration workbench.\n\nIntegration\n\nYou need the IS-U migration workbench to prepare and carry out the data transfer. To do this, go to the Customizing menu for SAP Utilities and select |#Tools \u00bb Migration >\u00bb Establish settings for IS-U migration\n\nPrerequisites\n\nYou must have transferred business partners in the IS-U migration workbench before transferring the contract accounts. Migration Customizing for the contract accounts must have been maintained completely.\n\nFeatures\n\nYou create the contract accounts from the legacy system's data using direct input.\n\nAssigning Contracts to Contract Accounts (IS-U)\n\nProcedure\n\nContracts are created in utilities when a move-in is entered (transaction EC50E). Contracts are automatically allocated to a contract account. You can either select an existing contract account or create a new one. You can find more information in the section on move-in.\n\nResult\n\nOnce you have saved the move-in, the number of the allocated contract account is stored in the contract.\n\nLoans (IS-U)\n\nUse\n\nNote that this function does not replace the standard loan management function in Treasury. This functions helps you manage very simple loans, such as a loan given to a customer if an appliance (a heat pump, for example) has to be bought. It is not possible to manage premiums or discount. The system only supports fixed interest rates for the whole term.\n\nIntegration\n\nBefore you can use the loan function, the system has to be set up to manage installment plans. The individual interest calculation\n\nLitAKntinn miuiict Aan eatin ta nnakhla waist tan noalanrlatna intaract",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_017_p017_b000",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    125,
+    126,
+    225,
+    172
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_093"
+  },
+  {
+   "block_id": "doc_017_p017_b001",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    123,
+    259,
+    2474,
+    359
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You use this function to transfer contract account data from a legacy system to IS-U for the first time. It is available within the IS-U migration workbench.",
+   "section_id": "doc_017_sec_093"
+  },
+  {
+   "block_id": "doc_017_p017_b002",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    127,
+    472,
+    431,
+    528
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_094"
+  },
+  {
+   "block_id": "doc_017_p017_b003",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    123,
+    604,
+    2474,
+    710
+   ],
+   "ocr_confidence": 89.2,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "You need the IS-U migration workbench to prepare and carry out the data transfer. To do this, go to the Customizing menu for SAP Utilities and select |#Tools \u00bb Migration >\u00bb Establish settings for IS-U migration",
+   "section_id": "doc_017_sec_094"
+  },
+  {
+   "block_id": "doc_017_p017_b004",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    126,
+    816,
+    492,
+    873
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_095"
+  },
+  {
+   "block_id": "doc_017_p017_b005",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    123,
+    949,
+    2302,
+    1108
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "You must have transferred business partners in the IS-U migration workbench before transferring the contract accounts. Migration Customizing for the contract accounts must have been maintained completely.",
+   "section_id": "doc_017_sec_095"
+  },
+  {
+   "block_id": "doc_017_p017_b006",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    126,
+    1220,
+    361,
+    1266
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_096"
+  },
+  {
+   "block_id": "doc_017_p017_b007",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    123,
+    1353,
+    1610,
+    1391
+   ],
+   "ocr_confidence": 89.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You create the contract accounts from the legacy system's data using direct input.",
+   "section_id": "doc_017_sec_096"
+  },
+  {
+   "block_id": "doc_017_p017_b008",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    124,
+    1536,
+    1889,
+    1613
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [],
+   "text": "Assigning Contracts to Contract Accounts (IS-U)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_097"
+  },
+  {
+   "block_id": "doc_017_p017_b009",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    126,
+    1716,
+    409,
+    1762
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_098"
+  },
+  {
+   "block_id": "doc_017_p017_b010",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    123,
+    1846,
+    2346,
+    2064
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Contracts are created in utilities when a move-in is entered (transaction EC50E). Contracts are automatically allocated to a contract account. You can either select an existing contract account or create a new one. You can find more information in the section on move-in.",
+   "section_id": "doc_017_sec_098"
+  },
+  {
+   "block_id": "doc_017_p017_b011",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    126,
+    2183,
+    298,
+    2228
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Result",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_099"
+  },
+  {
+   "block_id": "doc_017_p017_b012",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    123,
+    2316,
+    2019,
+    2354
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Once you have saved the move-in, the number of the allocated contract account is stored in the contract.",
+   "section_id": "doc_017_sec_099"
+  },
+  {
+   "block_id": "doc_017_p017_b013",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    128,
+    2499,
+    575,
+    2575
+   ],
+   "ocr_confidence": 75.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Loans (IS-U)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_100"
+  },
+  {
+   "block_id": "doc_017_p017_b014",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    125,
+    2676,
+    225,
+    2721
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_101"
+  },
+  {
+   "block_id": "doc_017_p017_b015",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    122,
+    2809,
+    2488,
+    2974
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Note that this function does not replace the standard loan management function in Treasury. This functions helps you manage very simple loans, such as a loan given to a customer if an appliance (a heat pump, for example) has to be bought. It is not possible to manage premiums or discount. The system only supports fixed interest rates for the whole term.",
+   "section_id": "doc_017_sec_101"
+  },
+  {
+   "block_id": "doc_017_p017_b016",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    127,
+    3087,
+    431,
+    3143
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_102"
+  },
+  {
+   "block_id": "doc_017_p017_b017",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    125,
+    3216,
+    2452,
+    3254
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Before you can use the loan function, the system has to be set up to manage installment plans. The individual interest calculation",
+   "section_id": "doc_017_sec_102"
+  },
+  {
+   "block_id": "doc_017_p017_b018",
+   "type": "fragment",
+   "page_number": 17,
+   "bbox": [
+    122,
+    3282,
+    1175,
+    3300
+   ],
+   "ocr_confidence": 39.8,
+   "flags": [
+    "low_confidence_words:8",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "LitAKntinn miuiict Aan eatin ta nnakhla waist tan noalanrlatna intaract",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_017_sec_102"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Accounts Overview",
+  "source_pdf": "17.pdf",
+  "reference_pdf": "17_Contract_Accounts_Overview.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Use to connect utility invoicing to receivables, payments and dunning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "67d832c016b3fe8739c6ef92bbdda89edc5242b2cece0328eb131a737afbed41"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Accounts Overview",
+  "Link Between Contract Accounts and Contracts (IS-U)",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_017_sec_093",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_094",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_095",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_096",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_097",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_098",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_099",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_100",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_101",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_102",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,445 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 46,
+ "source_page_hash": "d07edab18deeb215de070f4149630eef7f4addde17fa47e39e1c8d38fb31b215",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\nActivity                                                                                        Path:\n\nEnter Period Consumption for Interval Meters                    Move-in process or manual maintenance by choosing |}*SAP Easy Access >\nSAP menu > Utilities Industry \u00bb Device Management > Device Installation >\nInstallation Structure > Period Consumption J\n\nDefine Minimum Share for Interval Meters (Optional)          |/SAP Implementation Guide > SAP Utilities > Contract Billing > Billing\nMaster Data > Rate Structure > Rates > Define Rates J\n\nFor use during mass simulation: Define simulation               |PSAP Easy Access > SAP menu > Utilities Industry > Billing > Mass\nperiods, information structure version numbers and any | Simulation > Settings / Preparation >|\nsimulation indexes\n\nFeatures\n\nSimulation is performed according to the following rules that apply to all profile time slices that are assigned to a time-of-use rate\nin the simulation period:\n\nMeasured Profile Values\n\n\"0\" Values in Lock Period\n\nCopy Profile Values Measured\nin the Past\n\nsynthetic Profile Adjusted to\nAnnual Consumption Measured\n\nsynthetic Profile Adjusted to\nPeriod Consumption for the Interval Meter\n\nTime-of-Use Simulation Rules\n\nTo simulate rate steps, access billing in the simulation mode or perform periodic billing with integrated budget billing simulation.\n\nYou access the transaction for individual billing simulation in the SAP menu under !\u00aeUtilities Industrv \u00ae Billing \u00ae Billing\n",
+ "cleaned_text": "Activity | Path:\n\nEnter Period Consumption for Interval Meters | Move-in process or manual maintenance by choosing |}*SAP Easy Access >\n\nSAP menu > Utilities Industry \u00bb Device Management > Device Installation > Installation Structure > Period Consumption J\n\nDefine Minimum Share for Interval Meters (Optional) | |/SAP Implementation Guide > SAP Utilities > Contract Billing > Billing\n\nMaster Data > Rate Structure > Rates > Define Rates J\n\nFor use during mass simulation: Define simulation | |PSAP Easy Access > SAP menu > Utilities Industry > Billing > Mass\n\nperiods, information structure version numbers and any | Simulation > Settings / Preparation >| simulation indexes\n\nFeatures\n\nSimulation is performed according to the following rules that apply to all profile time slices that are assigned to a time-of-use rate in the simulation period:\n\nMeasured Profile Values\n\n\"0\" Values in Lock Period\n\nCopy Profile Values Measured in the Past\n\nsynthetic Profile Adjusted to\n\nAnnual Consumption Measured\n\nsynthetic Profile Adjusted to Period Consumption for the Interval Meter\n\nTime-of-Use Simulation Rules\n\nTo simulate rate steps, access billing in the simulation mode or perform periodic billing with integrated budget billing simulation. You access the transaction for individual billing simulation in the SAP menu under !\u00aeUtilities Industrv \u00ae Billing \u00ae Billing",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p046_b000",
+   "type": "table",
+   "page_number": 46,
+   "bbox": [
+    147,
+    155,
+    2416,
+    302
+   ],
+   "ocr_confidence": 90.3,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    147,
+    1155
+   ],
+   "headers": [
+    "Activity",
+    "Path:"
+   ],
+   "rows": [
+    [
+     "Enter Period Consumption for Interval Meters",
+     "Move-in process or manual maintenance by choosing |}*SAP Easy Access >"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Activity",
+     "Path:"
+    ],
+    [
+     "Enter Period Consumption for Interval Meters",
+     "Move-in process or manual maintenance by choosing |}*SAP Easy Access >"
+    ]
+   ],
+   "section_id": "doc_011_sec_136"
+  },
+  {
+   "block_id": "doc_011_p046_b001",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    1163,
+    314,
+    2459,
+    421
+   ],
+   "ocr_confidence": 85.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "SAP menu > Utilities Industry \u00bb Device Management > Device Installation > Installation Structure > Period Consumption J",
+   "section_id": "doc_011_sec_136"
+  },
+  {
+   "block_id": "doc_011_p046_b002",
+   "type": "table",
+   "page_number": 46,
+   "bbox": [
+    150,
+    478,
+    2376,
+    531
+   ],
+   "ocr_confidence": 89.0,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1153
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Define Minimum Share for Interval Meters (Optional)",
+     "|/SAP Implementation Guide > SAP Utilities > Contract Billing > Billing"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Define Minimum Share for Interval Meters (Optional)",
+     "|/SAP Implementation Guide > SAP Utilities > Contract Billing > Billing"
+    ]
+   ],
+   "section_id": "doc_011_sec_136"
+  },
+  {
+   "block_id": "doc_011_p046_b003",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    1155,
+    541,
+    2100,
+    585
+   ],
+   "ocr_confidence": 85.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Master Data > Rate Structure > Rates > Define Rates J",
+   "section_id": "doc_011_sec_136"
+  },
+  {
+   "block_id": "doc_011_p046_b004",
+   "type": "table",
+   "page_number": 46,
+   "bbox": [
+    150,
+    642,
+    2311,
+    695
+   ],
+   "ocr_confidence": 88.2,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1153
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "For use during mass simulation: Define simulation",
+     "|PSAP Easy Access > SAP menu > Utilities Industry > Billing > Mass"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "For use during mass simulation: Define simulation",
+     "|PSAP Easy Access > SAP menu > Utilities Industry > Billing > Mass"
+    ]
+   ],
+   "section_id": "doc_011_sec_136"
+  },
+  {
+   "block_id": "doc_011_p046_b005",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    148,
+    701,
+    1811,
+    799
+   ],
+   "ocr_confidence": 90.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "periods, information structure version numbers and any | Simulation > Settings / Preparation >| simulation indexes",
+   "section_id": "doc_011_sec_136"
+  },
+  {
+   "block_id": "doc_011_p046_b006",
+   "type": "heading",
+   "page_number": 46,
+   "bbox": [
+    126,
+    941,
+    361,
+    986
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_137"
+  },
+  {
+   "block_id": "doc_011_p046_b007",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    124,
+    1074,
+    2461,
+    1174
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Simulation is performed according to the following rules that apply to all profile time slices that are assigned to a time-of-use rate in the simulation period:",
+   "section_id": "doc_011_sec_137"
+  },
+  {
+   "block_id": "doc_011_p046_b008",
+   "type": "heading",
+   "page_number": 46,
+   "bbox": [
+    956,
+    1382,
+    1662,
+    1432
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Measured Profile Values",
+   "level": 3,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_137"
+  },
+  {
+   "block_id": "doc_011_p046_b009",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    944,
+    1736,
+    1670,
+    1785
+   ],
+   "ocr_confidence": 92.0,
+   "flags": [],
+   "text": "\"0\" Values in Lock Period",
+   "section_id": "doc_011_sec_137"
+  },
+  {
+   "block_id": "doc_011_p046_b010",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    864,
+    2067,
+    1749,
+    2195
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Copy Profile Values Measured in the Past",
+   "section_id": "doc_011_sec_137"
+  },
+  {
+   "block_id": "doc_011_p046_b011",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    897,
+    2438,
+    1714,
+    2499
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "synthetic Profile Adjusted to",
+   "section_id": "doc_011_sec_137"
+  },
+  {
+   "block_id": "doc_011_p046_b012",
+   "type": "heading",
+   "page_number": 46,
+   "bbox": [
+    840,
+    2517,
+    1764,
+    2578
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Annual Consumption Measured",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_138"
+  },
+  {
+   "block_id": "doc_011_p046_b013",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    736,
+    2761,
+    1956,
+    2905
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "synthetic Profile Adjusted to Period Consumption for the Interval Meter",
+   "section_id": "doc_011_sec_138"
+  },
+  {
+   "block_id": "doc_011_p046_b014",
+   "type": "heading",
+   "page_number": 46,
+   "bbox": [
+    122,
+    3032,
+    605,
+    3059
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "Time-of-Use Simulation Rules",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_139"
+  },
+  {
+   "block_id": "doc_011_p046_b015",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    122,
+    3144,
+    2441,
+    3300
+   ],
+   "ocr_confidence": 86.4,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "text": "To simulate rate steps, access billing in the simulation mode or perform periodic billing with integrated budget billing simulation. You access the transaction for individual billing simulation in the SAP menu under !\u00aeUtilities Industrv \u00ae Billing \u00ae Billing",
+   "section_id": "doc_011_sec_139"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.1147,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 89,
+   "page_hash": "d07edab18deeb215de070f4149630eef7f4addde17fa47e39e1c8d38fb31b215"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Simulation of Time-of-Use Billing for Interval Meters",
+  "Use",
+  "Simulation on the Basis of Master Data"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_136",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_137",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_138",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_139",
+   "role": "starts_here"
+  }
+ ]
+}

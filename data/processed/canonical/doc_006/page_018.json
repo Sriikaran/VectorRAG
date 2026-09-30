@@ -1,0 +1,494 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 18,
+ "source_page_hash": "435ebc481f41f80f7c63130f7a9706d7f9ffd2be9a1c954c6b2e1ee381191ad8",
+ "is_cover_page": false,
+ "title": "Example 2: Forecasts from previous periods without minimum portions with period consumption",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\n2. Determination of consumption for 09 by multiplying the meter reading difference with the register factor: 800 kWh2 =\n1,600 kWh\n\n3. Determination of consumption per weighting unit: 1,600 kWh : 400 = 4 kWh\n4. Extrapolation of consumption for period O09 to O1: 4 kWh600 = 2,400 kWh\n\n5. Determination of the meter reading difference for period O9 to 01 by dividing the consumption value by the register\nfactor: 2,400 kWh: 10 = 240 kWh\n\n6. Determination of the expected meter reading for O1 by adding the meter reading difference for meter reading Y: 800\nkWh + 240 kWh = 1,040 kWh\n\nThe expected meter reading at time P is 1.040 kWh.\n\nO,\n\n\u00a2\u00b0 Example\n\nExample 2: Forecasts from previous periods without minimum portions with period consumption\n\n2                     10\n\nReg. Fact _ |--------------- | ------------------------------------------ |\nMR Result 0          800                               ? kWh\n\na |\nMR Reas. |            Y                                   P\n\n08          09                              01\n\n4000                                kWh/Year\n\nPerVerbr..\u00a9\u00a7 |_\u2014\u2014AAADAA  \u2014-_--\nWg ht. Unit       200               800\n\n|--\u2014\u2014\u2014--\u2014-\u2014 [neve\nWght. Por.       20%               80%\n\nOn installation of the device, a period consumption value of 4000 kWh/year is entered for the register.\nThe minimum portion of weighting in percent is 30%.\nThe sum of the weighting units for one year is 1000.\n\nWith a weighting portion of 20%, period O09 to 08 is not representative. Therefore, extrapolation is based on the period\nconsumption rather than on the meter reading results:\n\n1. Determination of period consumption per weighting unit by dividing the period consumption by the weight of validity\nperiod: 4000 kWh : 1000 = 4 kWh\n\n2. Extrapolation of period consumption for period O09 to 01: 4 kWh800 = 3,200 kWh\n\n3. Determination of the meter reading difference for period O09 to O1 by dividing the consumption value by the register\nfactor: 3,200 kWh: 10 = 320 kWh\n",
+ "cleaned_text": "2 Determination of consumption for 09 by multiplying the meter reading difference with the register factor: 800 kWh2 = 1,600 kWh\n\n3 Determination of consumption per weighting unit: 1,600 kWh : 400 = 4 kWh\n\n4 Extrapolation of consumption for period O09 to O1: 4 kWh600 = 2,400 kWh\n\n5 Determination of the meter reading difference for period O9 to 01 by dividing the consumption value by the register factor: 2,400 kWh: 10 = 240 kWh\n\n6 Determination of the expected meter reading for O1 by adding the meter reading difference for meter reading Y: 800 kWh + 240 kWh = 1,040 kWh\n\nThe expected meter reading at time P is 1.040 kWh.\n\nO,\n\nExample\n\nExample 2: Forecasts from previous periods without minimum portions with period consumption\n\n2 | 10\n\nReg. Fact _ |--------------- | ------------------------------------------ |\n\nMR Result | 0 | 800 | ? kWh\n\na | |\n\nMR Reas. | | | Y | P\n\n08 | 09 | 01\n\n4000 | kWh/Year\n\nPerVerbr..\u00a9\u00a7 | |_\u2014\u2014AAADAA | \u2014-_--\n\nWg ht. Unit | 200 | 800\n\n|--\u2014\u2014\u2014--\u2014-\u2014 [neve\n\nWght. Por. | 20% | 80%\n\nOn installation of the device, a period consumption value of 4000 kWh/year is entered for the register. The minimum portion of weighting in percent is 30%. The sum of the weighting units for one year is 1000. With a weighting portion of 20%, period O09 to 08 is not representative. Therefore, extrapolation is based on the period consumption rather than on the meter reading results:\n\n1 Determination of period consumption per weighting unit by dividing the period consumption by the weight of validity period: 4000 kWh : 1000 = 4 kWh\n\n2 Extrapolation of period consumption for period O09 to 01: 4 kWh800 = 3,200 kWh\n\n3 Determination of the meter reading difference for period O09 to O1 by dividing the consumption value by the register factor: 3,200 kWh: 10 = 320 kWh",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u00a2\u00b0",
+   "bbox": [
+    151,
+    1034,
+    432,
+    1081
+   ],
+   "reason": "icon glyph OCR'd before 'example' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p018_b000",
+   "type": "list",
+   "page_number": 18,
+   "bbox": [
+    240,
+    134,
+    2421,
+    766
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Determination of consumption for 09 by multiplying the meter reading difference with the register factor: 800 kWh2 = 1,600 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Determination of consumption per weighting unit: 1,600 kWh : 400 = 4 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Extrapolation of consumption for period O09 to O1: 4 kWh600 = 2,400 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Determination of the meter reading difference for period O9 to 01 by dividing the consumption value by the register factor: 2,400 kWh: 10 = 240 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "Determination of the expected meter reading for O1 by adding the meter reading difference for meter reading Y: 800 kWh + 240 kWh = 1,040 kWh"
+    }
+   ],
+   "section_id": "doc_006_sec_025"
+  },
+  {
+   "block_id": "doc_006_p018_b001",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    152,
+    857,
+    1091,
+    895
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "text": "The expected meter reading at time P is 1.040 kWh.",
+   "section_id": "doc_006_sec_025"
+  },
+  {
+   "block_id": "doc_006_p018_b002",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    166,
+    1027,
+    183,
+    1044
+   ],
+   "ocr_confidence": 52.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "O,",
+   "section_id": "doc_006_sec_025"
+  },
+  {
+   "block_id": "doc_006_p018_b003",
+   "type": "example",
+   "page_number": 18,
+   "bbox": [
+    151,
+    1034,
+    432,
+    1081
+   ],
+   "ocr_confidence": 50.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Example",
+   "section_id": "doc_006_sec_025"
+  },
+  {
+   "block_id": "doc_006_p018_b004",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    154,
+    1113,
+    1954,
+    1151
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Example 2: Forecasts from previous periods without minimum portions with period consumption",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_026"
+  },
+  {
+   "block_id": "doc_006_p018_b005",
+   "type": "table",
+   "page_number": 18,
+   "bbox": [
+    741,
+    1236,
+    1485,
+    1288
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    741,
+    1415
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "2",
+     "10"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "2",
+     "10"
+    ]
+   ],
+   "section_id": "doc_006_sec_026"
+  },
+  {
+   "block_id": "doc_006_p018_b006",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    156,
+    1311,
+    1895,
+    1384
+   ],
+   "ocr_confidence": 60.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Reg. Fact _ |--------------- | ------------------------------------------ |",
+   "section_id": "doc_006_sec_026"
+  },
+  {
+   "block_id": "doc_006_p018_b007",
+   "type": "table",
+   "page_number": 18,
+   "bbox": [
+    152,
+    1471,
+    2066,
+    2097
+   ],
+   "ocr_confidence": 62.1,
+   "flags": [
+    "low_confidence_words:11",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 10,
+   "column_starts": [
+    152,
+    491,
+    538,
+    698,
+    873,
+    918,
+    1293,
+    1365,
+    1625,
+    1869
+   ],
+   "headers": [
+    "MR Result",
+    "0",
+    "800",
+    "? kWh"
+   ],
+   "rows": [
+    [
+     "a",
+     "|"
+    ],
+    [
+     "MR Reas.",
+     "|",
+     "Y",
+     "P"
+    ],
+    [
+     "08",
+     "09",
+     "01"
+    ],
+    [
+     "4000",
+     "kWh/Year"
+    ],
+    [
+     "PerVerbr..\u00a9\u00a7",
+     "|_\u2014\u2014AAADAA",
+     "\u2014-_--"
+    ],
+    [
+     "Wg ht. Unit",
+     "200",
+     "800"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR Result",
+     "0",
+     "800",
+     "? kWh"
+    ],
+    [
+     "a",
+     "|"
+    ],
+    [
+     "MR Reas.",
+     "|",
+     "Y",
+     "P"
+    ],
+    [
+     "08",
+     "09",
+     "01"
+    ],
+    [
+     "4000",
+     "kWh/Year"
+    ],
+    [
+     "PerVerbr..\u00a9\u00a7",
+     "|_\u2014\u2014AAADAA",
+     "\u2014-_--"
+    ],
+    [
+     "Wg ht. Unit",
+     "200",
+     "800"
+    ]
+   ],
+   "section_id": "doc_006_sec_026"
+  },
+  {
+   "block_id": "doc_006_p018_b008",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    535,
+    2103,
+    1893,
+    2169
+   ],
+   "ocr_confidence": 0.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "|--\u2014\u2014\u2014--\u2014-\u2014 [neve",
+   "section_id": "doc_006_sec_026"
+  },
+  {
+   "block_id": "doc_006_p018_b009",
+   "type": "table",
+   "page_number": 18,
+   "bbox": [
+    152,
+    2183,
+    1418,
+    2247
+   ],
+   "ocr_confidence": 93.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    152,
+    684,
+    1282
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Wght. Por.",
+     "20%",
+     "80%"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Wght. Por.",
+     "20%",
+     "80%"
+    ]
+   ],
+   "section_id": "doc_006_sec_026"
+  },
+  {
+   "block_id": "doc_006_p018_b010",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    152,
+    2319,
+    2284,
+    2787
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "On installation of the device, a period consumption value of 4000 kWh/year is entered for the register. The minimum portion of weighting in percent is 30%. The sum of the weighting units for one year is 1000. With a weighting portion of 20%, period O09 to 08 is not representative. Therefore, extrapolation is based on the period consumption rather than on the meter reading results:",
+   "section_id": "doc_006_sec_026"
+  },
+  {
+   "block_id": "doc_006_p018_b011",
+   "type": "list",
+   "page_number": 18,
+   "bbox": [
+    240,
+    2871,
+    2393,
+    3237
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Determination of period consumption per weighting unit by dividing the period consumption by the weight of validity period: 4000 kWh : 1000 = 4 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Extrapolation of period consumption for period O09 to 01: 4 kWh800 = 3,200 kWh"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Determination of the meter reading difference for period O09 to O1 by dividing the consumption value by the register factor: 3,200 kWh: 10 = 320 kWh"
+    }
+   ],
+   "section_id": "doc_006_sec_026"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 88,
+   "page_hash": "435ebc481f41f80f7c63130f7a9706d7f9ffd2be9a1c954c6b2e1ee381191ad8"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Extrapolation for Consumption Registers",
+  "Example 1: Forecasts from previous periods with minimum portions"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_025",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_026",
+   "role": "starts_here"
+  }
+ ]
+}

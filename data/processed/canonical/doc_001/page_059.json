@@ -1,0 +1,426 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 59,
+ "source_page_hash": "3f1a3853f9df5ab7bf00819d1ce36af9a460036418a2d5311ce841f3037f36c6",
+ "is_cover_page": false,
+ "title": "Data Cleansing",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nPart of the central business partner concept is that every natural or legal person as well as every group is only created once ina\nsystem. There are different reasons why a business partner is created several times in one system. Business partners that have\nbeen created more than once are referred to as duplicates. Duplicates can occur due to the following reasons:\n\ne Migration from legacy systems without merging business\ne Migration from different legacy systems without a duplicate check\n\ne New creation of business partners in SAP systems without duplicate checks\nData Cleansing\n\nYou can use the data cleansing tool Cleansing Tool (transaction CLEAR INT) to process duplicates.\n\ni Note\n\nThese data cleansing functions are not released for systems with industry add-ons.\n\nFeatures\n\nThe following information about business partner objects and other functions and tools is available for business partner merging:\n\ne Objects in Contract Accounts Receivable and Payable\n\ne Objects and Enhancements in SAP Utilities\ne Customer Change\ne Objects and Enhancements in SAP CRM\n\ne Automatic Business Partner Merging\n\nIn the following, the business partner to be removed from the system is referred to as the source business partner. The business\npartner that replaces the source business partner is referred to as the target business partner.\n\nObjects in Contract Accounts Receivable and Payable\n\nDefinition\n\nBusiness partner-dependent objects from Contract Accounts Receivable and Payable (FI-CA) must be handled separately during\nbusiness partner merging in order to ensure that they remain consistent after the business partners have been merged. These\n\nobjects include, the contract account, the business partner\u2019s open items, his or her creditworthiness and clarification cases.\n\nUse\n\nMaster data\n\nContract account\n\nEach contract account is only allocated to one business partner. You cannot immediately allocate the contract account to another\n",
+ "cleaned_text": "Part of the central business partner concept is that every natural or legal person as well as every group is only created once ina system. There are different reasons why a business partner is created several times in one system. Business partners that have been created more than once are referred to as duplicates. Duplicates can occur due to the following reasons:\n\n- Migration from legacy systems without merging business\n\n- Migration from different legacy systems without a duplicate check\n\n- New creation of business partners in SAP systems without duplicate checks\n\nData Cleansing\n\nYou can use the data cleansing tool Cleansing Tool (transaction CLEAR INT) to process duplicates. i Note These data cleansing functions are not released for systems with industry add-ons.\n\nFeatures\n\nThe following information about business partner objects and other functions and tools is available for business partner merging:\n\n- Objects in Contract Accounts Receivable and Payable\n\n- Objects and Enhancements in SAP Utilities\n\n- Customer Change\n\n- Objects and Enhancements in SAP CRM\n\n- Automatic Business Partner Merging\n\nIn the following, the business partner to be removed from the system is referred to as the source business partner. The business partner that replaces the source business partner is referred to as the target business partner.\n\nObjects in Contract Accounts Receivable and Payable\n\nDefinition\n\nBusiness partner-dependent objects from Contract Accounts Receivable and Payable (FI-CA) must be handled separately during business partner merging in order to ensure that they remain consistent after the business partners have been merged. These objects include, the contract account, the business partner\u2019s open items, his or her creditworthiness and clarification cases.\n\nUse\n\nMaster data\n\nContract account\n\nEach contract account is only allocated to one business partner. You cannot immediately allocate the contract account to another",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p059_b000",
+   "type": "paragraph",
+   "page_number": 59,
+   "bbox": [
+    123,
+    134,
+    2421,
+    297
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Part of the central business partner concept is that every natural or legal person as well as every group is only created once ina system. There are different reasons why a business partner is created several times in one system. Business partners that have been created more than once are referred to as duplicates. Duplicates can occur due to the following reasons:",
+   "section_id": "doc_001_sec_200"
+  },
+  {
+   "block_id": "doc_001_p059_b001",
+   "type": "list",
+   "page_number": 59,
+   "bbox": [
+    206,
+    384,
+    1626,
+    626
+   ],
+   "ocr_confidence": 88.5,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Migration from legacy systems without merging business"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Migration from different legacy systems without a duplicate check"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "New creation of business partners in SAP systems without duplicate checks"
+    }
+   ],
+   "section_id": "doc_001_sec_200"
+  },
+  {
+   "block_id": "doc_001_p059_b002",
+   "type": "heading",
+   "page_number": 59,
+   "bbox": [
+    124,
+    709,
+    404,
+    747
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Data Cleansing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_201"
+  },
+  {
+   "block_id": "doc_001_p059_b003",
+   "type": "paragraph",
+   "page_number": 59,
+   "bbox": [
+    123,
+    828,
+    1932,
+    1095
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You can use the data cleansing tool Cleansing Tool (transaction CLEAR INT) to process duplicates. i Note These data cleansing functions are not released for systems with industry add-ons.",
+   "section_id": "doc_001_sec_201"
+  },
+  {
+   "block_id": "doc_001_p059_b004",
+   "type": "heading",
+   "page_number": 59,
+   "bbox": [
+    126,
+    1240,
+    361,
+    1286
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_202"
+  },
+  {
+   "block_id": "doc_001_p059_b005",
+   "type": "paragraph",
+   "page_number": 59,
+   "bbox": [
+    122,
+    1373,
+    2460,
+    1411
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The following information about business partner objects and other functions and tools is available for business partner merging:",
+   "section_id": "doc_001_sec_202"
+  },
+  {
+   "block_id": "doc_001_p059_b006",
+   "type": "list",
+   "page_number": 59,
+   "bbox": [
+    207,
+    1494,
+    1220,
+    1942
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Objects in Contract Accounts Receivable and Payable"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Objects and Enhancements in SAP Utilities"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Customer Change"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Objects and Enhancements in SAP CRM"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Automatic Business Partner Merging"
+    }
+   ],
+   "section_id": "doc_001_sec_202"
+  },
+  {
+   "block_id": "doc_001_p059_b007",
+   "type": "paragraph",
+   "page_number": 59,
+   "bbox": [
+    124,
+    2027,
+    2449,
+    2131
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "In the following, the business partner to be removed from the system is referred to as the source business partner. The business partner that replaces the source business partner is referred to as the target business partner.",
+   "section_id": "doc_001_sec_202"
+  },
+  {
+   "block_id": "doc_001_p059_b008",
+   "type": "heading",
+   "page_number": 59,
+   "bbox": [
+    125,
+    2276,
+    2056,
+    2352
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Objects in Contract Accounts Receivable and Payable",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_203"
+  },
+  {
+   "block_id": "doc_001_p059_b009",
+   "type": "heading",
+   "page_number": 59,
+   "bbox": [
+    126,
+    2453,
+    393,
+    2498
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_204"
+  },
+  {
+   "block_id": "doc_001_p059_b010",
+   "type": "paragraph",
+   "page_number": 59,
+   "bbox": [
+    123,
+    2585,
+    2475,
+    2751
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Business partner-dependent objects from Contract Accounts Receivable and Payable (FI-CA) must be handled separately during business partner merging in order to ensure that they remain consistent after the business partners have been merged. These objects include, the contract account, the business partner\u2019s open items, his or her creditworthiness and clarification cases.",
+   "section_id": "doc_001_sec_204"
+  },
+  {
+   "block_id": "doc_001_p059_b011",
+   "type": "heading",
+   "page_number": 59,
+   "bbox": [
+    125,
+    2863,
+    225,
+    2909
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_205"
+  },
+  {
+   "block_id": "doc_001_p059_b012",
+   "type": "heading",
+   "page_number": 59,
+   "bbox": [
+    124,
+    2993,
+    346,
+    3023
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Master data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_206"
+  },
+  {
+   "block_id": "doc_001_p059_b013",
+   "type": "heading",
+   "page_number": 59,
+   "bbox": [
+    123,
+    3117,
+    448,
+    3148
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Contract account",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_207"
+  },
+  {
+   "block_id": "doc_001_p059_b014",
+   "type": "paragraph",
+   "page_number": 59,
+   "bbox": [
+    125,
+    3239,
+    2466,
+    3277
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Each contract account is only allocated to one business partner. You cannot immediately allocate the contract account to another",
+   "section_id": "doc_001_sec_207"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "3f1a3853f9df5ab7bf00819d1ce36af9a460036418a2d5311ce841f3037f36c6"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Merging Business Partners (IS-U)",
+  "Implementation Considerations"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_200",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_201",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_202",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_203",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_204",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_205",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_206",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_207",
+   "role": "starts_here"
+  }
+ ]
+}

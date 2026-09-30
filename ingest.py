@@ -190,8 +190,10 @@ def main() -> int:
         "total_documents": len(manifest_docs),
         "documents": sorted(manifest_docs, key=lambda d: d["document_id"]),
     }
-    MANIFEST_PATH.write_text(json.dumps(manifest, indent=1))
-    ERRORS_PATH.write_text(json.dumps(errors, indent=1))
+    # idempotency: when nothing changed, leave existing manifest/errors untouched
+    if processed or errors or not MANIFEST_PATH.exists():
+        MANIFEST_PATH.write_text(json.dumps(manifest, indent=1))
+        ERRORS_PATH.write_text(json.dumps(errors, indent=1))
 
     print(f"\nPart 1 ingestion: processed={processed} skipped={skipped} "
           f"errors={len(errors)} manifest={MANIFEST_PATH}")

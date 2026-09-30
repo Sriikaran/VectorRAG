@@ -1,0 +1,430 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 98,
+ "source_page_hash": "85e119ea628743c8c15f15f7261423695e62ed6b0a57ed8048c6597e4b53ccb1",
+ "is_cover_page": false,
+ "title": "Customizing",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\ne Installations for selected meter reading units of a division\n\n1 Note\n\nNote that the last time-based allocation to the installation is selected automatically for meter reading units.\n\nCustomizing\n\nYou have made the relevant Customizing settings for quantity determination under |}SAP Utilities } Basic Settings/Enterprise\nStructure \u00bb Define Quantity Determination Procedure\n\nBefore starting the report, you have to make the following settings:\ne Division\ne Date from which the procedure is valid (changeover date)\ne Requested quantity determination procedure\n\n4S Caution\n\nIn the standard system, you can only change over to another quantity determination procedure if registers only contain\nmeter reading results whose meter reading date is before the changeover date (in Customizing). We recommend\nchoosing dates for the changeover that are in the future and for which no changeover has yet taken place.\n\nFor a rolling changeover, the changeover date can also be determined using a BAdI implementation within a period (for\nmore information about the BAdI implementation, see the Features section of this documentation).\n\ne Requested quantity determination procedure\n\n1 Note\n\nThe conversion report REQD_SET_QDPROC_TO_REGISTER is a sample report that only supports certain scenarios (see the\nConstraints section of this documentation). You can copy this report and adjust it to define your own project-specific\nscenarios.\n\nUse\n\nFeatures\nYou can use this report to make the initial settings for the quantity determination procedure for existing installations.\n\nWhen you define the quantity determination procedure, the system generates meter reading orders with meter reading reason 17\n- Meter Reading Due To Change in Installation Structure for consumption registers. The date of the generated meter reading\norders is the day before the key date that you defined in Customizing (date of meter reading order = Customizing date minus 1\nday). You can determine the meter reading results by mass estimation, for example. This type of changeover is called a key date\nchangeover (for more information, see Notes About the Time of the Changeover).\n\nIf you use the Reverse Meter Reading transaction (EL37) to delete one of these meter reading results, the system generates a\nnew meter reading order with reason 17.\n\n1 Note\n",
+ "cleaned_text": "- Installations for selected meter reading units of a division\n\nNote Note that the last time-based allocation to the installation is selected automatically for meter reading units.\n\nCustomizing\n\nYou have made the relevant Customizing settings for quantity determination under |}SAP Utilities } Basic Settings/Enterprise Structure \u00bb Define Quantity Determination Procedure Before starting the report, you have to make the following settings:\n\n- Division\n\n- Date from which the procedure is valid (changeover date)\n\n- Requested quantity determination procedure\n\nCaution In the standard system, you can only change over to another quantity determination procedure if registers only contain meter reading results whose meter reading date is before the changeover date (in Customizing). We recommend choosing dates for the changeover that are in the future and for which no changeover has yet taken place. For a rolling changeover, the changeover date can also be determined using a BAdI implementation within a period (for more information about the BAdI implementation, see the Features section of this documentation).\n\n- Requested quantity determination procedure\n\nNote The conversion report REQD_SET_QDPROC_TO_REGISTER is a sample report that only supports certain scenarios (see the Constraints section of this documentation). You can copy this report and adjust it to define your own project-specific scenarios.\n\nUse\n\nFeatures\n\nYou can use this report to make the initial settings for the quantity determination procedure for existing installations. When you define the quantity determination procedure, the system generates meter reading orders with meter reading reason 17\n\n- Meter Reading Due To Change in Installation Structure for consumption registers. The date of the generated meter reading orders is the day before the key date that you defined in Customizing (date of meter reading order = Customizing date minus 1 day). You can determine the meter reading results by mass estimation, for example. This type of changeover is called a key date changeover (for more information, see Notes About the Time of the Changeover). If you use the Reverse Meter Reading transaction (EL37) to delete one of these meter reading results, the system generates a\n\nnew meter reading order with reason 17.\n\nNote",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    255,
+    442,
+    293
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "4S",
+   "bbox": [
+    283,
+    1244,
+    546,
+    1288
+   ],
+   "reason": "icon glyph OCR'd before 'caution' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1902,
+    310,
+    1939
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    3255,
+    310,
+    3292
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p098_b000",
+   "type": "list",
+   "page_number": 98,
+   "bbox": [
+    207,
+    134,
+    1289,
+    172
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Installations for selected meter reading units of a division"
+    }
+   ],
+   "section_id": "doc_006_sec_274"
+  },
+  {
+   "block_id": "doc_006_p098_b001",
+   "type": "note",
+   "page_number": 98,
+   "bbox": [
+    282,
+    255,
+    2225,
+    372
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "label": "Note",
+   "text": "Note Note that the last time-based allocation to the installation is selected automatically for meter reading units.",
+   "section_id": "doc_006_sec_274"
+  },
+  {
+   "block_id": "doc_006_p098_b002",
+   "type": "heading",
+   "page_number": 98,
+   "bbox": [
+    123,
+    492,
+    357,
+    531
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Customizing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_275"
+  },
+  {
+   "block_id": "doc_006_p098_b003",
+   "type": "paragraph",
+   "page_number": 98,
+   "bbox": [
+    123,
+    610,
+    2429,
+    839
+   ],
+   "ocr_confidence": 90.1,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You have made the relevant Customizing settings for quantity determination under |}SAP Utilities } Basic Settings/Enterprise Structure \u00bb Define Quantity Determination Procedure Before starting the report, you have to make the following settings:",
+   "section_id": "doc_006_sec_275"
+  },
+  {
+   "block_id": "doc_006_p098_b004",
+   "type": "list",
+   "page_number": 98,
+   "bbox": [
+    207,
+    923,
+    1290,
+    1164
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Division"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Date from which the procedure is valid (changeover date)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Requested quantity determination procedure"
+    }
+   ],
+   "section_id": "doc_006_sec_275"
+  },
+  {
+   "block_id": "doc_006_p098_b005",
+   "type": "note",
+   "page_number": 98,
+   "bbox": [
+    283,
+    1244,
+    2434,
+    1657
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Caution",
+   "text": "Caution In the standard system, you can only change over to another quantity determination procedure if registers only contain meter reading results whose meter reading date is before the changeover date (in Customizing). We recommend choosing dates for the changeover that are in the future and for which no changeover has yet taken place. For a rolling changeover, the changeover date can also be determined using a BAdI implementation within a period (for more information about the BAdI implementation, see the Features section of this documentation).",
+   "section_id": "doc_006_sec_275"
+  },
+  {
+   "block_id": "doc_006_p098_b006",
+   "type": "list",
+   "page_number": 98,
+   "bbox": [
+    207,
+    1758,
+    1073,
+    1795
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Requested quantity determination procedure"
+    }
+   ],
+   "section_id": "doc_006_sec_275"
+  },
+  {
+   "block_id": "doc_006_p098_b007",
+   "type": "note",
+   "page_number": 98,
+   "bbox": [
+    151,
+    1902,
+    2386,
+    2136
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "label": "Note",
+   "text": "Note The conversion report REQD_SET_QDPROC_TO_REGISTER is a sample report that only supports certain scenarios (see the Constraints section of this documentation). You can copy this report and adjust it to define your own project-specific scenarios.",
+   "section_id": "doc_006_sec_275"
+  },
+  {
+   "block_id": "doc_006_p098_b008",
+   "type": "heading",
+   "page_number": 98,
+   "bbox": [
+    125,
+    2292,
+    225,
+    2337
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_276"
+  },
+  {
+   "block_id": "doc_006_p098_b009",
+   "type": "heading",
+   "page_number": 98,
+   "bbox": [
+    124,
+    2425,
+    281,
+    2454
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Features",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_277"
+  },
+  {
+   "block_id": "doc_006_p098_b010",
+   "type": "paragraph",
+   "page_number": 98,
+   "bbox": [
+    123,
+    2546,
+    2466,
+    2708
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You can use this report to make the initial settings for the quantity determination procedure for existing installations. When you define the quantity determination procedure, the system generates meter reading orders with meter reading reason 17",
+   "section_id": "doc_006_sec_277"
+  },
+  {
+   "block_id": "doc_006_p098_b011",
+   "type": "list",
+   "page_number": 98,
+   "bbox": [
+    123,
+    2732,
+    2429,
+    3086
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "-",
+     "number": null,
+     "text": "Meter Reading Due To Change in Installation Structure for consumption registers. The date of the generated meter reading orders is the day before the key date that you defined in Customizing (date of meter reading order = Customizing date minus 1 day). You can determine the meter reading results by mass estimation, for example. This type of changeover is called a key date changeover (for more information, see Notes About the Time of the Changeover). If you use the Reverse Meter Reading transaction (EL37) to delete one of these meter reading results, the system generates a"
+    }
+   ],
+   "section_id": "doc_006_sec_277"
+  },
+  {
+   "block_id": "doc_006_p098_b012",
+   "type": "paragraph",
+   "page_number": 98,
+   "bbox": [
+    124,
+    3111,
+    839,
+    3149
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "new meter reading order with reason 17.",
+   "section_id": "doc_006_sec_277"
+  },
+  {
+   "block_id": "doc_006_p098_b013",
+   "type": "note",
+   "page_number": 98,
+   "bbox": [
+    151,
+    3255,
+    310,
+    3292
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "label": "Note",
+   "text": "Note",
+   "section_id": "doc_006_sec_277"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.0935,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "5 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "85e119ea628743c8c15f15f7261423695e62ed6b0a57ed8048c6597e4b53ccb1"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Defining the QD Procedure for Existing Installations",
+  "Definition",
+  "You can only access the report with a selected division. The report selects:"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_274",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_275",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_276",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_277",
+   "role": "starts_here"
+  }
+ ]
+}

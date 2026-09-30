@@ -1,0 +1,367 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 14,
+ "source_page_hash": "4813872216a180672ed81ea99aa3005bf9063a00e329167806530d89f4be7add",
+ "is_cover_page": false,
+ "title": "Welcome Letter",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\n\nWelcome Letter\n\nUse\n\nWhen you create or change a move-in, you can print a correspondence to be sent to the business partner, or generate a print order\nfor the correspondence. You have the following options:\n\ne Create welcome letter manually\nTo do this, choose the Welcome letter pushbutton in move-in processing.\n\ne Create welcome letter when data is saved\n\nTo have the system create a budget billing plan automatically when you save the move-in document, mark the WL checkbox\n(Create welcome letter automatically) in Customizing under |}Move-In/Out \u00bb Move-In > Define Move-In Control Parameters at\nDocument Level.\n\nIf necessary, you can also override the settings you have established in Customizing. To do this, choose |sExtras ' Control\nParameters \u201cJin move-in processing.\n\nWhen you create a welcome letter, specify an application form of the form class IS_U_CS_MOVE_IN_WELCOME_LETTER. In\naddition, you have to define the application form in Customizing under |} Utilities Industry Customer Service \u00bb Process\nExecution \u00bb Move-In/Out \u00bb Move-In \u00bb Define Welcome Letter \u00bb . You can find more information on creating an application\nform in the section on the \u201cPrint Workbench component.\n\nScreen Layout\n\nUse\n\nIn Customizing under |}Vove-In \u00bb Configure Tabs for Move-In Screen 3, you can configure various views for the data on the\nmove-in screen.These views are composed of tabs that you can use to organize the data into different logical units based on your\nrequirements.\n\nYou can maintain contract data in one of two ways:\n\ne Individual maintenance\nThe system displays the data of one contract only.\ne Overview maintenance\nThe system displays the data of up to five move-in documents allocated to the same contract.\n\nFor more information, see Customizing under |}}Move-In/Out Define System Parameters for Move-In and Move-Out\n\nYou can include standard and user-defined fields for the contract account and business partner in direct maintenance. To do this,\nuse the following enhancements:\n\ne EMBPOO3 (user subscreen in the business partner subscreen for move-in/out))\n\ne EMDCAOO]I (user subscreen for IS-U contract account)\n",
+ "cleaned_text": "Welcome Letter\n\nUse\n\nWhen you create or change a move-in, you can print a correspondence to be sent to the business partner, or generate a print order for the correspondence. You have the following options:\n\n- Create welcome letter manually\n\nTo do this, choose the Welcome letter pushbutton in move-in processing.\n\n- Create welcome letter when data is saved\n\nTo have the system create a budget billing plan automatically when you save the move-in document, mark the WL checkbox (Create welcome letter automatically) in Customizing under |}Move-In/Out \u00bb Move-In > Define Move-In Control Parameters at Document Level. If necessary, you can also override the settings you have established in Customizing. To do this, choose |sExtras ' Control Parameters \u201cJin move-in processing. When you create a welcome letter, specify an application form of the form class IS_U_CS_MOVE_IN_WELCOME_LETTER. In addition, you have to define the application form in Customizing under |} Utilities Industry Customer Service \u00bb Process Execution \u00bb Move-In/Out \u00bb Move-In \u00bb Define Welcome Letter \u00bb . You can find more information on creating an application form in the section on the \u201cPrint Workbench component.\n\nScreen Layout\n\nUse\n\nIn Customizing under |}Vove-In \u00bb Configure Tabs for Move-In Screen 3, you can configure various views for the data on the move-in screen.These views are composed of tabs that you can use to organize the data into different logical units based on your requirements. You can maintain contract data in one of two ways:\n\n- Individual maintenance The system displays the data of one contract only.\n\n- Overview maintenance The system displays the data of up to five move-in documents allocated to the same contract. For more information, see Customizing under |}}Move-In/Out Define System Parameters for Move-In and Move-Out\n\nYou can include standard and user-defined fields for the contract account and business partner in direct maintenance. To do this, use the following enhancements:\n\n- EMBPOO3 (user subscreen in the business partner subscreen for move-in/out))\n\n- EMDCAOO]I (user subscreen for IS-U contract account)",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p014_b000",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    124,
+    131,
+    692,
+    192
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Welcome Letter",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_051"
+  },
+  {
+   "block_id": "doc_002_p014_b001",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    124,
+    280,
+    191,
+    309
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_052"
+  },
+  {
+   "block_id": "doc_002_p014_b002",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    122,
+    404,
+    2479,
+    504
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "When you create or change a move-in, you can print a correspondence to be sent to the business partner, or generate a print order for the correspondence. You have the following options:",
+   "section_id": "doc_002_sec_052"
+  },
+  {
+   "block_id": "doc_002_p014_b003",
+   "type": "list",
+   "page_number": 14,
+   "bbox": [
+    207,
+    587,
+    829,
+    626
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create welcome letter manually"
+    }
+   ],
+   "section_id": "doc_002_sec_052"
+  },
+  {
+   "block_id": "doc_002_p014_b004",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    122,
+    709,
+    1445,
+    747
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "To do this, choose the Welcome letter pushbutton in move-in processing.",
+   "section_id": "doc_002_sec_052"
+  },
+  {
+   "block_id": "doc_002_p014_b005",
+   "type": "list",
+   "page_number": 14,
+   "bbox": [
+    207,
+    831,
+    1004,
+    861
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create welcome letter when data is saved"
+    }
+   ],
+   "section_id": "doc_002_sec_052"
+  },
+  {
+   "block_id": "doc_002_p014_b006",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    122,
+    956,
+    2452,
+    1614
+   ],
+   "ocr_confidence": 90.6,
+   "flags": [
+    "low_confidence_words:7"
+   ],
+   "text": "To have the system create a budget billing plan automatically when you save the move-in document, mark the WL checkbox (Create welcome letter automatically) in Customizing under |}Move-In/Out \u00bb Move-In > Define Move-In Control Parameters at Document Level. If necessary, you can also override the settings you have established in Customizing. To do this, choose |sExtras ' Control Parameters \u201cJin move-in processing. When you create a welcome letter, specify an application form of the form class IS_U_CS_MOVE_IN_WELCOME_LETTER. In addition, you have to define the application form in Customizing under |} Utilities Industry Customer Service \u00bb Process Execution \u00bb Move-In/Out \u00bb Move-In \u00bb Define Welcome Letter \u00bb . You can find more information on creating an application form in the section on the \u201cPrint Workbench component.",
+   "section_id": "doc_002_sec_052"
+  },
+  {
+   "block_id": "doc_002_p014_b007",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    125,
+    1763,
+    643,
+    1840
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Screen Layout",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_053"
+  },
+  {
+   "block_id": "doc_002_p014_b008",
+   "type": "heading",
+   "page_number": 14,
+   "bbox": [
+    125,
+    1940,
+    225,
+    1985
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_054"
+  },
+  {
+   "block_id": "doc_002_p014_b009",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    122,
+    2069,
+    2445,
+    2357
+   ],
+   "ocr_confidence": 93.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "In Customizing under |}Vove-In \u00bb Configure Tabs for Move-In Screen 3, you can configure various views for the data on the move-in screen.These views are composed of tabs that you can use to organize the data into different logical units based on your requirements. You can maintain contract data in one of two ways:",
+   "section_id": "doc_002_sec_054"
+  },
+  {
+   "block_id": "doc_002_p014_b010",
+   "type": "list",
+   "page_number": 14,
+   "bbox": [
+    207,
+    2444,
+    2397,
+    2890
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Individual maintenance The system displays the data of one contract only."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Overview maintenance The system displays the data of up to five move-in documents allocated to the same contract. For more information, see Customizing under |}}Move-In/Out Define System Parameters for Move-In and Move-Out"
+    }
+   ],
+   "section_id": "doc_002_sec_054"
+  },
+  {
+   "block_id": "doc_002_p014_b011",
+   "type": "paragraph",
+   "page_number": 14,
+   "bbox": [
+    123,
+    2976,
+    2451,
+    3076
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You can include standard and user-defined fields for the contract account and business partner in direct maintenance. To do this, use the following enhancements:",
+   "section_id": "doc_002_sec_054"
+  },
+  {
+   "block_id": "doc_002_p014_b012",
+   "type": "list",
+   "page_number": 14,
+   "bbox": [
+    207,
+    3160,
+    1694,
+    3300
+   ],
+   "ocr_confidence": 87.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "EMBPOO3 (user subscreen in the business partner subscreen for move-in/out))"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "EMDCAOO]I (user subscreen for IS-U contract account)"
+    }
+   ],
+   "section_id": "doc_002_sec_054"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "4813872216a180672ed81ea99aa3005bf9063a00e329167806530d89f4be7add"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Welcome Letter"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_051",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_052",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_053",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_054",
+   "role": "starts_here"
+  }
+ ]
+}

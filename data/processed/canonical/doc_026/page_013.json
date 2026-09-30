@@ -1,0 +1,322 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 13,
+ "source_page_hash": "3b076084fcde47da5ef3a0ee3ec4ad434e53722293be74e2606c31b1650df0b4",
+ "is_cover_page": false,
+ "title": "Features",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\nMaster Data).\n\n1 Note\n\nIn this way, you can, for example, create a selection for all business partners with an address in Chicago.\n\nAfter saving the selection criteria, you have scheduled the selection and saved the result under |)}}Periodic Processing Technical\nPreparations \u00bb Create Preselections for Business Partner J (transaction FPSP) or Define Preselection for Contract Accounts\n\n(transaction FPSA).\n\nFeatures\n\nBy specifying the selection criteria in the dunning proposal run, you control which items are dunned. By specifying a dunning\nprocedure, you control the actions carried out during dunning (see Dunning Procedures).\n\nA successfully completed dunning proposal run is therefore the prerequisite for executing dunning activities.\n\nActivities\n1. To do this, in the SAP menu, choose |}Periodic Processing \u00bb For Contract Accounts \u00bb Dunning \u00bb Dunning Proposal Run\n(transaction FPVA).\n\n2. Enter a date and an ID that you can use to identify the run later.\n\n3. On the General Selections tab, enter the parameters that the program should use to select the items to be dunned. Using\nthe dynamic selections, you can select the fields of the item (table DFKKOP).\n\nFor selecting business partners or contract accounts, you can also use preselections for master data. Using these\npreselections, the system checks the specified master records against the interval limits of the mass activity, as if you had\nentered these as individual values for the business partner/contract account. In each interval, therefore, the system\nprocesses only those master records that are both within the interval limits and are part of the preselection.\n\nTo switch back and forth between direct selection and preselection, choose the pushbuttons Ry Preselection (Switch to\n\nPreselection) and ay Direct Selection (Switch to Direct Selection) next to the input fields for the business partner and\ncontract account.\n\nBy choosing the (| Detail pushbutton, you can display the preselection that was entered.\n4. On the Dunning Parameters tab, specify the following parameters required for the dunning notices:\n\no Net due date of the items to be dunned (optional)\n\no Date of issue of the dunning notices\n\nAs the date of issue, enter the date on which you plan to print the dunning notices. The system proposes the current\ndate. Using the issue date, the system determines the days in arrears for the item due and the interval to the last\ndunning notice for the business partner.\n\nUsing execution variants, you can postprocess the dunning proposal on the basis of any company-specific criteria in\nevent 300.\n\nIf you set the Start Activity Run indicator, when you start the dunning proposal run, the system automatically starts\nthe dunning activity run as well.\n",
+ "cleaned_text": "Master Data).\n\nNote In this way, you can, for example, create a selection for all business partners with an address in Chicago.\n\nAfter saving the selection criteria, you have scheduled the selection and saved the result under |)}}Periodic Processing Technical Preparations \u00bb Create Preselections for Business Partner J (transaction FPSP) or Define Preselection for Contract Accounts (transaction FPSA).\n\nFeatures\n\nBy specifying the selection criteria in the dunning proposal run, you control which items are dunned. By specifying a dunning procedure, you control the actions carried out during dunning (see Dunning Procedures). A successfully completed dunning proposal run is therefore the prerequisite for executing dunning activities.\n\nActivities\n\n1 To do this, in the SAP menu, choose |}Periodic Processing \u00bb For Contract Accounts \u00bb Dunning \u00bb Dunning Proposal Run (transaction FPVA).\n\n2 Enter a date and an ID that you can use to identify the run later.\n\n3 On the General Selections tab, enter the parameters that the program should use to select the items to be dunned. Using the dynamic selections, you can select the fields of the item (table DFKKOP). For selecting business partners or contract accounts, you can also use preselections for master data. Using these preselections, the system checks the specified master records against the interval limits of the mass activity, as if you had\n\nentered these as individual values for the business partner/contract account. In each interval, therefore, the system processes only those master records that are both within the interval limits and are part of the preselection. To switch back and forth between direct selection and preselection, choose the pushbuttons Ry Preselection (Switch to Preselection) and ay Direct Selection (Switch to Direct Selection) next to the input fields for the business partner and contract account. By choosing the (| Detail pushbutton, you can display the preselection that was entered.\n\n4 On the Dunning Parameters tab, specify the following parameters required for the dunning notices:\n\n- Net due date of the items to be dunned (optional)\n\n- Date of issue of the dunning notices As the date of issue, enter the date on which you plan to print the dunning notices. The system proposes the current date. Using the issue date, the system determines the days in arrears for the item due and the interval to the last dunning notice for the business partner. Using execution variants, you can postprocess the dunning proposal on the basis of any company-specific criteria in\n\nevent 300. If you set the Start Activity Run indicator, when you start the dunning proposal run, the system automatically starts the dunning activity run as well.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    276,
+    310,
+    313
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p013_b000",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    125,
+    135,
+    369,
+    172
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Master Data).",
+   "section_id": "doc_026_sec_057"
+  },
+  {
+   "block_id": "doc_026_p013_b001",
+   "type": "note",
+   "page_number": 13,
+   "bbox": [
+    151,
+    276,
+    2023,
+    392
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "label": "Note",
+   "text": "Note In this way, you can, for example, create a selection for all business partners with an address in Chicago.",
+   "section_id": "doc_026_sec_057"
+  },
+  {
+   "block_id": "doc_026_p013_b002",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    123,
+    512,
+    2463,
+    684
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "After saving the selection criteria, you have scheduled the selection and saved the result under |)}}Periodic Processing Technical Preparations \u00bb Create Preselections for Business Partner J (transaction FPSP) or Define Preselection for Contract Accounts (transaction FPSA).",
+   "section_id": "doc_026_sec_057"
+  },
+  {
+   "block_id": "doc_026_p013_b003",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    126,
+    797,
+    361,
+    842
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_058"
+  },
+  {
+   "block_id": "doc_026_p013_b004",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    123,
+    926,
+    2376,
+    1151
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "By specifying the selection criteria in the dunning proposal run, you control which items are dunned. By specifying a dunning procedure, you control the actions carried out during dunning (see Dunning Procedures). A successfully completed dunning proposal run is therefore the prerequisite for executing dunning activities.",
+   "section_id": "doc_026_sec_058"
+  },
+  {
+   "block_id": "doc_026_p013_b005",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    123,
+    1263,
+    383,
+    1308
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_059"
+  },
+  {
+   "block_id": "doc_026_p013_b006",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    211,
+    1391,
+    2459,
+    1933
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "To do this, in the SAP menu, choose |}Periodic Processing \u00bb For Contract Accounts \u00bb Dunning \u00bb Dunning Proposal Run (transaction FPVA)."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter a date and an ID that you can use to identify the run later."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "On the General Selections tab, enter the parameters that the program should use to select the items to be dunned. Using the dynamic selections, you can select the fields of the item (table DFKKOP). For selecting business partners or contract accounts, you can also use preselections for master data. Using these preselections, the system checks the specified master records against the interval limits of the mass activity, as if you had"
+    }
+   ],
+   "section_id": "doc_026_sec_059"
+  },
+  {
+   "block_id": "doc_026_p013_b007",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    254,
+    1958,
+    2429,
+    2395
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "entered these as individual values for the business partner/contract account. In each interval, therefore, the system processes only those master records that are both within the interval limits and are part of the preselection. To switch back and forth between direct selection and preselection, choose the pushbuttons Ry Preselection (Switch to Preselection) and ay Direct Selection (Switch to Direct Selection) next to the input fields for the business partner and contract account. By choosing the (| Detail pushbutton, you can display the preselection that was entered.",
+   "section_id": "doc_026_sec_059"
+  },
+  {
+   "block_id": "doc_026_p013_b008",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    211,
+    2454,
+    2481,
+    3027
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "On the Dunning Parameters tab, specify the following parameters required for the dunning notices:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Net due date of the items to be dunned (optional)"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Date of issue of the dunning notices As the date of issue, enter the date on which you plan to print the dunning notices. The system proposes the current date. Using the issue date, the system determines the days in arrears for the item due and the interval to the last dunning notice for the business partner. Using execution variants, you can postprocess the dunning proposal on the basis of any company-specific criteria in"
+    }
+   ],
+   "section_id": "doc_026_sec_059"
+  },
+  {
+   "block_id": "doc_026_p013_b009",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    385,
+    3055,
+    2477,
+    3257
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "event 300. If you set the Start Activity Run indicator, when you start the dunning proposal run, the system automatically starts the dunning activity run as well.",
+   "section_id": "doc_026_sec_059"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "3b076084fcde47da5ef3a0ee3ec4ad434e53722293be74e2606c31b1650df0b4"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Dunning Proposal Run",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_057",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_058",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_059",
+   "role": "starts_here"
+  }
+ ]
+}

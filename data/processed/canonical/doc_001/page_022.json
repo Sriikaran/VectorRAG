@@ -1,0 +1,626 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 22,
+ "source_page_hash": "4f5ed6c83db1191ec41d99ee8135b26352ff37ed1565e6fa44c8062b7f1a065a",
+ "is_cover_page": false,
+ "title": "Archiving Function",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nYou are not allowed to activate the following function module in the S/AHANA system:\n\nUser                  Object Name         Up/Download        Object Class        Function Module                    Inactive\n\nCRM             BUPA MAIN       U                 BUPA            FSL_BUPA MAIN INBOUND\n\n7. In transaction COM BUPA CALL FU, activate the following function modules for the data exchange with the S/4HANA\nsystem by setting the Call indicator.\n\nEvent                     Object                   Item                       Function Module                                    Calling the\nArchiving Function\n\nR30BI          BUPA           2000110         FKK_BUPA_MAIN_BP_INBOUND        Xx\nR30BI          BUPR           2000000         COM_BUPA_REL_BP_INBOUND         X\nR3IN           BUPA           810             FKK BUPA INBOUND FILTER IDENT _ X*)\nR3IN           BUPA           910             FKK BUPA INBOUND MWX ADD ROLES | X\nR3IN           BUPA           920             FKK BUPA INBOUND MWX VND ROLE xX\nR3IN           BUPA           1000            FSC_BUPA MWX FILTER MAIN        Xx\nR3IN           BUPA           10000           COM BUPA MWX_ FILTER MAIN        Xx\nR3IN           BUPR           10000           COM BUPA MWX FILTER REL         Xx\nR3IN           BUPR           100000          COM BUPA MWX MAP REL CENTRAL \u2014 X\n\n*) Activate this function module only if you do not use the identification types CRMO@2 and CRM004 in the S/AHANA\nsystem.\n\nIf you want to use the same numbers for business partners in the CRM system as you use in the S/4HANA system, then you\nhave to activate the following check module. If a business partner does not receive the same number when it is created in\nthe S/4HANA system, then this function module terminates processing and creates a BDoc error that you can display in\nthe CRM system.\n\nEvent                       Object                      Item                         Function Module                           Calling the\nArchiving Function\n\nR3IN           BUPA           150000         COM_BUPA_MWX_MAP_NUMRANGE | X\n\n1 Note\n\nYou are not allowed to activate the following function modules in the S/4HANA system. That means you are not allowed\nto set the Call indicator for them. However, do not delete any entries from the table, since the function modules can be\n\nused for other purposes.\n\nEvent                    Object                   Item                     Function Module                                    Calling the\n\n, a eee\n",
+ "cleaned_text": "You are not allowed to activate the following function module in the S/AHANA system:\n\nUser | Object Name | Up/Download | Object Class | Function Module | Inactive\n\nCRM | BUPA MAIN | U | BUPA | FSL_BUPA MAIN INBOUND\n\n7 In transaction COM BUPA CALL FU, activate the following function modules for the data exchange with the S/4HANA system by setting the Call indicator.\n\nEvent | Object | Item | Function Module | Calling the\n\nArchiving Function\n\nR30BI | BUPA | 2000110 | FKK_BUPA_MAIN_BP_INBOUND | Xx\n\nR30BI | BUPR | 2000000 | COM_BUPA_REL_BP_INBOUND | X\n\nR3IN | BUPA | 810 | FKK BUPA INBOUND FILTER IDENT _ X*)\n\nR3IN | BUPA | 910 | FKK BUPA INBOUND MWX ADD ROLES | X\n\nR3IN | BUPA | 920 | FKK BUPA INBOUND MWX VND ROLE | xX\n\nR3IN | BUPA | 1000 | FSC_BUPA MWX FILTER MAIN | Xx\n\nR3IN | BUPA | 10000 | COM BUPA MWX_ FILTER MAIN | Xx\n\nR3IN | BUPR | 10000 | COM BUPA MWX FILTER REL | Xx\n\nR3IN | BUPR | 100000 | COM BUPA MWX MAP REL CENTRAL \u2014 X\n\n*) Activate this function module only if you do not use the identification types CRMO@2 and CRM004 in the S/AHANA system. If you want to use the same numbers for business partners in the CRM system as you use in the S/4HANA system, then you have to activate the following check module. If a business partner does not receive the same number when it is created in the S/4HANA system, then this function module terminates processing and creates a BDoc error that you can display in the CRM system.\n\nEvent | Object | Item | Function Module | Calling the\n\nArchiving Function\n\nR3IN | BUPA | 150000 | COM_BUPA_MWX_MAP_NUMRANGE | X\n\nNote You are not allowed to activate the following function modules in the S/4HANA system. That means you are not allowed to set the Call indicator for them. However, do not delete any entries from the table, since the function modules can be used for other purposes.\n\nEvent | Object | Item | Function Module | Calling the\n\n, a eee",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    282,
+    2861,
+    442,
+    2898
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p022_b000",
+   "type": "paragraph",
+   "page_number": 22,
+   "bbox": [
+    283,
+    134,
+    1833,
+    172
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "You are not allowed to activate the following function module in the S/AHANA system:",
+   "section_id": "doc_001_sec_058"
+  },
+  {
+   "block_id": "doc_001_p022_b001",
+   "type": "table",
+   "page_number": 22,
+   "bbox": [
+    310,
+    293,
+    2297,
+    444
+   ],
+   "ocr_confidence": 87.9,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 6,
+   "column_starts": [
+    310,
+    618,
+    958,
+    1303,
+    1622,
+    2164
+   ],
+   "headers": [
+    "User",
+    "Object Name",
+    "Up/Download",
+    "Object Class",
+    "Function Module",
+    "Inactive"
+   ],
+   "rows": [
+    [
+     "CRM",
+     "BUPA MAIN",
+     "U",
+     "BUPA",
+     "FSL_BUPA MAIN INBOUND"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "User",
+     "Object Name",
+     "Up/Download",
+     "Object Class",
+     "Function Module",
+     "Inactive"
+    ],
+    [
+     "CRM",
+     "BUPA MAIN",
+     "U",
+     "BUPA",
+     "FSL_BUPA MAIN INBOUND"
+    ]
+   ],
+   "section_id": "doc_001_sec_058"
+  },
+  {
+   "block_id": "doc_001_p022_b002",
+   "type": "list",
+   "page_number": 22,
+   "bbox": [
+    212,
+    618,
+    2402,
+    708
+   ],
+   "ocr_confidence": 80.6,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "7",
+     "text": "In transaction COM BUPA CALL FU, activate the following function modules for the data exchange with the S/4HANA system by setting the Call indicator."
+    }
+   ],
+   "section_id": "doc_001_sec_058"
+  },
+  {
+   "block_id": "doc_001_p022_b003",
+   "type": "table",
+   "page_number": 22,
+   "bbox": [
+    281,
+    823,
+    2321,
+    858
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    281,
+    643,
+    1007,
+    1384,
+    2138
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Event",
+     "Object",
+     "Item",
+     "Function Module",
+     "Calling the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Event",
+     "Object",
+     "Item",
+     "Function Module",
+     "Calling the"
+    ]
+   ],
+   "section_id": "doc_001_sec_058"
+  },
+  {
+   "block_id": "doc_001_p022_b004",
+   "type": "heading",
+   "page_number": 22,
+   "bbox": [
+    2137,
+    882,
+    2459,
+    917
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Archiving Function",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_059"
+  },
+  {
+   "block_id": "doc_001_p022_b005",
+   "type": "table",
+   "page_number": 22,
+   "bbox": [
+    281,
+    986,
+    2187,
+    1877
+   ],
+   "ocr_confidence": 78.9,
+   "flags": [
+    "low_confidence_words:13",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    281,
+    644,
+    1006,
+    1383,
+    2136
+   ],
+   "headers": [
+    "R30BI",
+    "BUPA",
+    "2000110",
+    "FKK_BUPA_MAIN_BP_INBOUND",
+    "Xx"
+   ],
+   "rows": [
+    [
+     "R30BI",
+     "BUPR",
+     "2000000",
+     "COM_BUPA_REL_BP_INBOUND",
+     "X"
+    ],
+    [
+     "R3IN",
+     "BUPA",
+     "810",
+     "FKK BUPA INBOUND FILTER IDENT _ X*)"
+    ],
+    [
+     "R3IN",
+     "BUPA",
+     "910",
+     "FKK BUPA INBOUND MWX ADD ROLES | X"
+    ],
+    [
+     "R3IN",
+     "BUPA",
+     "920",
+     "FKK BUPA INBOUND MWX VND ROLE",
+     "xX"
+    ],
+    [
+     "R3IN",
+     "BUPA",
+     "1000",
+     "FSC_BUPA MWX FILTER MAIN",
+     "Xx"
+    ],
+    [
+     "R3IN",
+     "BUPA",
+     "10000",
+     "COM BUPA MWX_ FILTER MAIN",
+     "Xx"
+    ],
+    [
+     "R3IN",
+     "BUPR",
+     "10000",
+     "COM BUPA MWX FILTER REL",
+     "Xx"
+    ],
+    [
+     "R3IN",
+     "BUPR",
+     "100000",
+     "COM BUPA MWX MAP REL CENTRAL \u2014 X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "R30BI",
+     "BUPA",
+     "2000110",
+     "FKK_BUPA_MAIN_BP_INBOUND",
+     "Xx"
+    ],
+    [
+     "R30BI",
+     "BUPR",
+     "2000000",
+     "COM_BUPA_REL_BP_INBOUND",
+     "X"
+    ],
+    [
+     "R3IN",
+     "BUPA",
+     "810",
+     "FKK BUPA INBOUND FILTER IDENT _ X*)"
+    ],
+    [
+     "R3IN",
+     "BUPA",
+     "910",
+     "FKK BUPA INBOUND MWX ADD ROLES | X"
+    ],
+    [
+     "R3IN",
+     "BUPA",
+     "920",
+     "FKK BUPA INBOUND MWX VND ROLE",
+     "xX"
+    ],
+    [
+     "R3IN",
+     "BUPA",
+     "1000",
+     "FSC_BUPA MWX FILTER MAIN",
+     "Xx"
+    ],
+    [
+     "R3IN",
+     "BUPA",
+     "10000",
+     "COM BUPA MWX_ FILTER MAIN",
+     "Xx"
+    ],
+    [
+     "R3IN",
+     "BUPR",
+     "10000",
+     "COM BUPA MWX FILTER REL",
+     "Xx"
+    ],
+    [
+     "R3IN",
+     "BUPR",
+     "100000",
+     "COM BUPA MWX MAP REL CENTRAL \u2014 X"
+    ]
+   ],
+   "section_id": "doc_001_sec_059"
+  },
+  {
+   "block_id": "doc_001_p022_b006",
+   "type": "paragraph",
+   "page_number": 22,
+   "bbox": [
+    254,
+    1995,
+    2487,
+    2390
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "*) Activate this function module only if you do not use the identification types CRMO@2 and CRM004 in the S/AHANA system. If you want to use the same numbers for business partners in the CRM system as you use in the S/4HANA system, then you have to activate the following check module. If a business partner does not receive the same number when it is created in the S/4HANA system, then this function module terminates processing and creates a BDoc error that you can display in the CRM system.",
+   "section_id": "doc_001_sec_059"
+  },
+  {
+   "block_id": "doc_001_p022_b007",
+   "type": "table",
+   "page_number": 22,
+   "bbox": [
+    281,
+    2515,
+    2292,
+    2550
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    281,
+    673,
+    1072,
+    1473,
+    2109
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Event",
+     "Object",
+     "Item",
+     "Function Module",
+     "Calling the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Event",
+     "Object",
+     "Item",
+     "Function Module",
+     "Calling the"
+    ]
+   ],
+   "section_id": "doc_001_sec_059"
+  },
+  {
+   "block_id": "doc_001_p022_b008",
+   "type": "heading",
+   "page_number": 22,
+   "bbox": [
+    2108,
+    2574,
+    2430,
+    2610
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Archiving Function",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_060"
+  },
+  {
+   "block_id": "doc_001_p022_b009",
+   "type": "table",
+   "page_number": 22,
+   "bbox": [
+    281,
+    2677,
+    2130,
+    2725
+   ],
+   "ocr_confidence": 90.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    281,
+    675,
+    1073,
+    1473
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "R3IN",
+     "BUPA",
+     "150000",
+     "COM_BUPA_MWX_MAP_NUMRANGE | X"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "R3IN",
+     "BUPA",
+     "150000",
+     "COM_BUPA_MWX_MAP_NUMRANGE | X"
+    ]
+   ],
+   "section_id": "doc_001_sec_060"
+  },
+  {
+   "block_id": "doc_001_p022_b010",
+   "type": "note",
+   "page_number": 22,
+   "bbox": [
+    282,
+    2861,
+    2438,
+    3106
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "label": "Note",
+   "text": "Note You are not allowed to activate the following function modules in the S/4HANA system. That means you are not allowed to set the Call indicator for them. However, do not delete any entries from the table, since the function modules can be used for other purposes.",
+   "section_id": "doc_001_sec_060"
+  },
+  {
+   "block_id": "doc_001_p022_b011",
+   "type": "table",
+   "page_number": 22,
+   "bbox": [
+    311,
+    3227,
+    2300,
+    3270
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    311,
+    664,
+    1019,
+    1363,
+    2117
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Event",
+     "Object",
+     "Item",
+     "Function Module",
+     "Calling the"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Event",
+     "Object",
+     "Item",
+     "Function Module",
+     "Calling the"
+    ]
+   ],
+   "section_id": "doc_001_sec_060"
+  },
+  {
+   "block_id": "doc_001_p022_b012",
+   "type": "fragment",
+   "page_number": 22,
+   "bbox": [
+    2117,
+    3283,
+    2278,
+    3300
+   ],
+   "ocr_confidence": 12.7,
+   "flags": [
+    "low_confidence_words:3",
+    "cut_off_at_page_bottom"
+   ],
+   "text": ", a eee",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_060"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.1198,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 88,
+   "page_hash": "4f5ed6c83db1191ec41d99ee8135b26352ff37ed1565e6fa44c8062b7f1a065a"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making Settings for CRM Middleware",
+  "Procedure",
+  "Archiving Function"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_058",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_059",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_060",
+   "role": "starts_here"
+  }
+ ]
+}

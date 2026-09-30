@@ -1,0 +1,323 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 41,
+ "source_page_hash": "dd0ecffb24513c0cfd1bbf18596f576450491a487668bfde6730d809ec1170dd",
+ "is_cover_page": false,
+ "title": "Function",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nThe following table shows special cases that in part differ from the normal situation in Contract Accounts Receivable and\nPayable, and where you should therefore take special care.\n\nFunction\n\nSearch Helps\n\nRevenue Distribution\n\nNote\n\nIf the user does not have authorization for displaying blocked business partners, the\nsystem does not display blocked business partners in the list of results for business\npartner search helps. Other seach helps, such as search helps for the contract account,\nsuppress personal data in the results list.\n\nIf you use classic or enhanced revenue distribution, be aware that it is not possible to tell\ndirectly from the business partner master record or the contract account of a business\npartner, if the business partner is used as the final recipient for classic or enhanced\nrevenue distribution.\n\nIn the transaction Check Bus. Partner Can Be Blocked (FPDPR1), which checks if\nbusiness partners can be blocked, therefore does not check if a business partner is the\n\nfinal recipient for a revenue distribution and if open items still exist or distributions are\nstill outstanding that contain this business partner or one of her contract accounts as the\nfinal recipient. The program only checks if there are still open items for a business\npartner. If no more business takes place, the business partner is blocked once the\nresidence period has expired. This has the following effects:\n\ne For business partners used in many documents as final recipient, regular clearing\nof documents by executing the mass activity Distribute Revenues (transaction\n\nFP60M), or the mass activity Post Distribution Document, or Distribute\nRevenues: Create and Post Documents (transaction FP6@P) regularly result in\nnew distribution documents on the final recipient's account. You can prevent\nunintentional blocking of a final recipient by transaction Check Bus. Partner Can\nBe Blocked and subsequent execution of transaction Blocking of Business\n\nPartner Data (BUPA_PRE_EOP) by choosing a residence period that is long\nenough and executing the mass activity for revenue distribution and posting ona\n\nregular basis.\n\ne If abusiness partner is used as a final recipient in only one or very few documents\n(for example, in the case of a government agency requesting assistance from\nanother government agency) and if the documents were not cleared over a long\nperiod or if clearings were reset, then, despite the revenue distribution programs\n\nbeing run, no new postings are generated on the account of the final recipient. If\nthe defined residence period has expired, transaction Check Bus. Partner Can\n\nBe Blocked and the subsequent execution of transaction Blocking of Business\nPartner Data (BUPA_PRE_EOP) can block the final recipient unintentionally,\nalthough there are still open documents for this final recipient. To prevent this,\nyou should choose a residence period that is long enough, and clear the\ndocuments during this period (for example, by writing them off) if it is to be\nexpected that invoices will not be paid in cases of inter-agency assistance.\n\n\u2014> Recommendation\n\nTo be able not to block certain final recipients at all, or to run special checks\nfor them, create your own customer-specific application object for the final\nrecipient and implement your own check of the end of purpose for this\napplication object. Assign a separate application rule variant to this\napplication object in Customizing.\n\nIf a htuusiness nartner that is used as a final recinient is blocked the following activities are\n",
+ "cleaned_text": "The following table shows special cases that in part differ from the normal situation in Contract Accounts Receivable and Payable, and where you should therefore take special care.\n\nFunction\n\nSearch Helps\n\nRevenue Distribution\n\nNote If the user does not have authorization for displaying blocked business partners, the system does not display blocked business partners in the list of results for business partner search helps. Other seach helps, such as search helps for the contract account, suppress personal data in the results list. If you use classic or enhanced revenue distribution, be aware that it is not possible to tell directly from the business partner master record or the contract account of a business partner, if the business partner is used as the final recipient for classic or enhanced revenue distribution. In the transaction Check Bus. Partner Can Be Blocked (FPDPR1), which checks if business partners can be blocked, therefore does not check if a business partner is the final recipient for a revenue distribution and if open items still exist or distributions are still outstanding that contain this business partner or one of her contract accounts as the final recipient. The program only checks if there are still open items for a business partner. If no more business takes place, the business partner is blocked once the residence period has expired. This has the following effects:\n\n- For business partners used in many documents as final recipient, regular clearing of documents by executing the mass activity Distribute Revenues (transaction FP60M), or the mass activity Post Distribution Document, or Distribute\n\nRevenues: Create and Post Documents (transaction FP6@P) regularly result in new distribution documents on the final recipient's account. You can prevent unintentional blocking of a final recipient by transaction Check Bus. Partner Can Be Blocked and subsequent execution of transaction Blocking of Business Partner Data (BUPA_PRE_EOP) by choosing a residence period that is long enough and executing the mass activity for revenue distribution and posting ona regular basis.\n\n- If abusiness partner is used as a final recipient in only one or very few documents (for example, in the case of a government agency requesting assistance from another government agency) and if the documents were not cleared over a long period or if clearings were reset, then, despite the revenue distribution programs being run, no new postings are generated on the account of the final recipient. If\n\nthe defined residence period has expired, transaction Check Bus. Partner Can Be Blocked and the subsequent execution of transaction Blocking of Business Partner Data (BUPA_PRE_EOP) can block the final recipient unintentionally, although there are still open documents for this final recipient. To prevent this, you should choose a residence period that is long enough, and clear the documents during this period (for example, by writing them off) if it is to be expected that invoices will not be paid in cases of inter-agency assistance.\n\nRecommendation To be able not to block certain final recipients at all, or to run special checks for them, create your own customer-specific application object for the final recipient and implement your own check of the end of purpose for this application object. Assign a separate application rule variant to this application object in Customizing.\n\nIf a htuusiness nartner that is used as a final recinient is blocked the following activities are",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "\u2014>",
+   "bbox": [
+    1122,
+    2830,
+    1615,
+    2868
+   ],
+   "reason": "icon glyph OCR'd before 'recommendation' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p041_b000",
+   "type": "paragraph",
+   "page_number": 41,
+   "bbox": [
+    122,
+    134,
+    2323,
+    235
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The following table shows special cases that in part differ from the normal situation in Contract Accounts Receivable and Payable, and where you should therefore take special care.",
+   "section_id": "doc_001_sec_130"
+  },
+  {
+   "block_id": "doc_001_p041_b001",
+   "type": "heading",
+   "page_number": 41,
+   "bbox": [
+    149,
+    344,
+    296,
+    371
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Function",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_131"
+  },
+  {
+   "block_id": "doc_001_p041_b002",
+   "type": "heading",
+   "page_number": 41,
+   "bbox": [
+    149,
+    448,
+    368,
+    483
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Search Helps",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_131"
+  },
+  {
+   "block_id": "doc_001_p041_b003",
+   "type": "heading",
+   "page_number": 41,
+   "bbox": [
+    150,
+    732,
+    498,
+    759
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Revenue Distribution",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_132"
+  },
+  {
+   "block_id": "doc_001_p041_b004",
+   "type": "note",
+   "page_number": 41,
+   "bbox": [
+    964,
+    344,
+    2461,
+    1391
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "label": "Note",
+   "text": "Note If the user does not have authorization for displaying blocked business partners, the system does not display blocked business partners in the list of results for business partner search helps. Other seach helps, such as search helps for the contract account, suppress personal data in the results list. If you use classic or enhanced revenue distribution, be aware that it is not possible to tell directly from the business partner master record or the contract account of a business partner, if the business partner is used as the final recipient for classic or enhanced revenue distribution. In the transaction Check Bus. Partner Can Be Blocked (FPDPR1), which checks if business partners can be blocked, therefore does not check if a business partner is the final recipient for a revenue distribution and if open items still exist or distributions are still outstanding that contain this business partner or one of her contract accounts as the final recipient. The program only checks if there are still open items for a business partner. If no more business takes place, the business partner is blocked once the residence period has expired. This has the following effects:",
+   "section_id": "doc_001_sec_132"
+  },
+  {
+   "block_id": "doc_001_p041_b005",
+   "type": "list",
+   "page_number": 41,
+   "bbox": [
+    1048,
+    1451,
+    2459,
+    1601
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "For business partners used in many documents as final recipient, regular clearing of documents by executing the mass activity Distribute Revenues (transaction FP60M), or the mass activity Post Distribution Document, or Distribute"
+    }
+   ],
+   "section_id": "doc_001_sec_132"
+  },
+  {
+   "block_id": "doc_001_p041_b006",
+   "type": "paragraph",
+   "page_number": 41,
+   "bbox": [
+    1096,
+    1623,
+    2451,
+    2011
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Revenues: Create and Post Documents (transaction FP6@P) regularly result in new distribution documents on the final recipient's account. You can prevent unintentional blocking of a final recipient by transaction Check Bus. Partner Can Be Blocked and subsequent execution of transaction Blocking of Business Partner Data (BUPA_PRE_EOP) by choosing a residence period that is long enough and executing the mass activity for revenue distribution and posting ona regular basis.",
+   "section_id": "doc_001_sec_132"
+  },
+  {
+   "block_id": "doc_001_p041_b007",
+   "type": "list",
+   "page_number": 41,
+   "bbox": [
+    1048,
+    2068,
+    2464,
+    2343
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If abusiness partner is used as a final recipient in only one or very few documents (for example, in the case of a government agency requesting assistance from another government agency) and if the documents were not cleared over a long period or if clearings were reset, then, despite the revenue distribution programs being run, no new postings are generated on the account of the final recipient. If"
+    }
+   ],
+   "section_id": "doc_001_sec_132"
+  },
+  {
+   "block_id": "doc_001_p041_b008",
+   "type": "paragraph",
+   "page_number": 41,
+   "bbox": [
+    1095,
+    2363,
+    2419,
+    2751
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "the defined residence period has expired, transaction Check Bus. Partner Can Be Blocked and the subsequent execution of transaction Blocking of Business Partner Data (BUPA_PRE_EOP) can block the final recipient unintentionally, although there are still open documents for this final recipient. To prevent this, you should choose a residence period that is long enough, and clear the documents during this period (for example, by writing them off) if it is to be expected that invoices will not be paid in cases of inter-agency assistance.",
+   "section_id": "doc_001_sec_132"
+  },
+  {
+   "block_id": "doc_001_p041_b009",
+   "type": "note",
+   "page_number": 41,
+   "bbox": [
+    1122,
+    2830,
+    2390,
+    3181
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Recommendation",
+   "text": "Recommendation To be able not to block certain final recipients at all, or to run special checks for them, create your own customer-specific application object for the final recipient and implement your own check of the end of purpose for this application object. Assign a separate application rule variant to this application object in Customizing.",
+   "section_id": "doc_001_sec_132"
+  },
+  {
+   "block_id": "doc_001_p041_b010",
+   "type": "fragment",
+   "page_number": 41,
+   "bbox": [
+    966,
+    3274,
+    2460,
+    3300
+   ],
+   "ocr_confidence": 87.4,
+   "flags": [
+    "low_confidence_words:1",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "If a htuusiness nartner that is used as a final recinient is blocked the following activities are",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_132"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 59,
+  "body_stroke_median": 0.0965,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "dd0ecffb24513c0cfd1bbf18596f576450491a487668bfde6730d809ec1170dd"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Preventing New Business"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_130",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_131",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_132",
+   "role": "starts_here"
+  }
+ ]
+}

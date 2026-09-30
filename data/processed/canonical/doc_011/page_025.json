@@ -1,0 +1,257 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 25,
+ "source_page_hash": "8768da5231cb23ce516b0ff1a3fef0dae995d6ab9f56c2a29a3557d390519804",
+ "is_cover_page": false,
+ "title": "Activation type \"Use and Activate Generally\"",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\ne You can define parameter templates at RTP interface level and then use these templates to define the parameter\nallocations for the input parameters at installation level.\n\nActivation type \"Use and Activate Generally\"\n\nThe activation type \"Use Individually and Activate Generally\" (activation for all installations and for individual installations) means\nthat you have to activate the RTP components at RTP interface level and at installation level.\n\nYou have the following options for defining the parameter allocations for the input parameters:\n\ne You can define the parameter allocations at RTP interface level\n\ne You can define parameter templates at RTP interface level and then use these templates to define the parameter\nallocations for the input parameters at installation level.\n\nExample\n\nYou have activated component 1 at RTP interface level with activation type Use and Activate Generally and assigned it priority 2.\nAs aresult, component 1 is valid for all installations to which this RTP interface is allocated.\n\nYou have made a contractual agreement with a number of customers regarding a special delivery within a certain period of time.\nYou wantto map this agreement using component 2. To do this, activate component 2 with priority 1 at RTP interface level for the\nperiod in which the special delivery is to take place, and choose activation type Use Individually and Activate Generally. Also\nactivate component 2 at installation level of each individual customer for the validity period of the contract.\n\nRate:\n+ On-P./Off P. consumption with On-P./Off-P. price\n\n@) Customer without special agreement                          (Use and activate generally)\n\n",
+ "cleaned_text": "- You can define parameter templates at RTP interface level and then use these templates to define the parameter allocations for the input parameters at installation level.\n\nActivation type \"Use and Activate Generally\"\n\nThe activation type \"Use Individually and Activate Generally\" (activation for all installations and for individual installations) means that you have to activate the RTP components at RTP interface level and at installation level. You have the following options for defining the parameter allocations for the input parameters:\n\n- You can define the parameter allocations at RTP interface level\n\n- You can define parameter templates at RTP interface level and then use these templates to define the parameter allocations for the input parameters at installation level.\n\nExample You have activated component 1 at RTP interface level with activation type Use and Activate Generally and assigned it priority 2. As aresult, component 1 is valid for all installations to which this RTP interface is allocated. You have made a contractual agreement with a number of customers regarding a special delivery within a certain period of time. You wantto map this agreement using component 2. To do this, activate component 2 with priority 1 at RTP interface level for the period in which the special delivery is to take place, and choose activation type Use Individually and Activate Generally. Also activate component 2 at installation level of each individual customer for the validity period of the contract.\n\nRate: + On-P./Off P. consumption with On-P./Off-P. price\n\n@) Customer without special agreement | (Use and activate generally)",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p025_b000",
+   "type": "list",
+   "page_number": 25,
+   "bbox": [
+    207,
+    134,
+    2290,
+    235
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can define parameter templates at RTP interface level and then use these templates to define the parameter allocations for the input parameters at installation level."
+    }
+   ],
+   "section_id": "doc_011_sec_082"
+  },
+  {
+   "block_id": "doc_011_p025_b001",
+   "type": "heading",
+   "page_number": 25,
+   "bbox": [
+    123,
+    346,
+    1365,
+    403
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Activation type \"Use and Activate Generally\"",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_083"
+  },
+  {
+   "block_id": "doc_011_p025_b002",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    122,
+    479,
+    2464,
+    701
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The activation type \"Use Individually and Activate Generally\" (activation for all installations and for individual installations) means that you have to activate the RTP components at RTP interface level and at installation level. You have the following options for defining the parameter allocations for the input parameters:",
+   "section_id": "doc_011_sec_083"
+  },
+  {
+   "block_id": "doc_011_p025_b003",
+   "type": "list",
+   "page_number": 25,
+   "bbox": [
+    207,
+    788,
+    2290,
+    990
+   ],
+   "ocr_confidence": 92.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can define the parameter allocations at RTP interface level"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can define parameter templates at RTP interface level and then use these templates to define the parameter allocations for the input parameters at installation level."
+    }
+   ],
+   "section_id": "doc_011_sec_083"
+  },
+  {
+   "block_id": "doc_011_p025_b004",
+   "type": "example",
+   "page_number": 25,
+   "bbox": [
+    123,
+    1102,
+    2444,
+    1647
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Example You have activated component 1 at RTP interface level with activation type Use and Activate Generally and assigned it priority 2. As aresult, component 1 is valid for all installations to which this RTP interface is allocated. You have made a contractual agreement with a number of customers regarding a special delivery within a certain period of time. You wantto map this agreement using component 2. To do this, activate component 2 with priority 1 at RTP interface level for the period in which the special delivery is to take place, and choose activation type Use Individually and Activate Generally. Also activate component 2 at installation level of each individual customer for the validity period of the contract.",
+   "section_id": "doc_011_sec_083"
+  },
+  {
+   "block_id": "doc_011_p025_b005",
+   "type": "paragraph",
+   "page_number": 25,
+   "bbox": [
+    1354,
+    3133,
+    2421,
+    3237
+   ],
+   "ocr_confidence": 68.3,
+   "flags": [
+    "low_confidence_words:3",
+    "in_graphic_region"
+   ],
+   "text": "Rate: + On-P./Off P. consumption with On-P./Off-P. price",
+   "section_id": "doc_011_sec_083"
+  },
+  {
+   "block_id": "doc_011_p025_b006",
+   "type": "table",
+   "page_number": 25,
+   "bbox": [
+    138,
+    3213,
+    1988,
+    3300
+   ],
+   "ocr_confidence": 77.5,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    138,
+    1378
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "@) Customer without special agreement",
+     "(Use and activate generally)"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "@) Customer without special agreement",
+     "(Use and activate generally)"
+    ]
+   ],
+   "section_id": "doc_011_sec_083"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "8768da5231cb23ce516b0ff1a3fef0dae995d6ab9f56c2a29a3557d390519804"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Activation type \"Use and Activate Generally\"",
+  "Activation type \"Use and Activate Individually\""
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_082",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_083",
+   "role": "starts_here"
+  }
+ ]
+}

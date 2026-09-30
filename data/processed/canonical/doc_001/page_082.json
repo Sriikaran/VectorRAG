@@ -1,0 +1,267 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 82,
+ "source_page_hash": "fab5ba128428ad85e446bb7ab13575f48aacc5e03f015eb9695e539c4c9628d6",
+ "is_cover_page": false,
+ "title": "Loans (IS-U)",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nLoans (IS-U)\n\nUse\n\nNote that this function does not replace the standard loan management function in Treasury. This functions helps you manage\nvery simple loans, such as a loan given to a customer if an appliance (a heat pump, for example) has to be bought. It is not possible\nto manage premiums or discount. The system only supports fixed interest rates for the whole term.\n\nIntegration\n\nBefore you can use the loan function, the system has to be set up to manage installment plans. The individual interest calculation\nfunction must be set up to enable you to calculate interest.\n\nFeatures\n\nYou can manage both interest-free loans and loans with a fixed interest rate. A repayment plan is created for repayment of a loan.\nYou can select the same due date lists as those for an installment plan. Each installment through to the last installment is of the\nsame amount. The installment includes an interest and repayment component. As with an annuity loan, interest is calculated on\nthe basis of the individual due dates of the installment. A small interest amount and a higher repayment amount are payable at\nevery due date. Note that once you have created the loan, you are no longer able to change either the amount or the due date of\nthe individual installments.\n\nWhen you create a loan, you have to specify parameters required for creating an installment plan (such as due date lists) and other\n\ndata such as net loan proceeds, interest rate etc. When creating a loan, you have to post a document with the net loan proceeds as\nwell as a repayment plan for the loan. This document comprises two line items, one of which contains the net loan proceeds and\n\nthe other a receivable in the same amount. If you have created a loan with interest, an interest document is also posted. Depending\non the due date of the repayment plan, this interest document contains its own line item with the interest amount for the due date.\n\nYou can group important control parameters as default values in a loan category. You can create several loan categories so that you\n\navoid having to manually enter fixed parameters for the most common loans over and over again. The parameters proposed by this\nloan category can be overwritten manually.\n\nYou can define an alternative recipient for the disbursement. You can also define an alternative contract account and if necessary,\nan alternative business partner. This would make sense if the disbursement were not being made to the customer who has been\ngiven the loan, but directly to the contract partner supplying the appliance or performing the service. The credit can also contain\n\nan explicit alternative payment method enforcing direct disbursement of the amount.\n\nAfter you have created and saved the loan, a letter can be sent to the customer. This letter is managed in the same form class as\nan installment plan letter.\n\nSettlement type 20D is used when distributing a payment between the source items in a loan plan (interest and repayment) in\nsettlement control.\n\nUtilities Contract\n\nDefinition\n",
+ "cleaned_text": "Loans (IS-U)\n\nUse\n\nNote that this function does not replace the standard loan management function in Treasury. This functions helps you manage very simple loans, such as a loan given to a customer if an appliance (a heat pump, for example) has to be bought. It is not possible to manage premiums or discount. The system only supports fixed interest rates for the whole term.\n\nIntegration\n\nBefore you can use the loan function, the system has to be set up to manage installment plans. The individual interest calculation function must be set up to enable you to calculate interest.\n\nFeatures\n\nYou can manage both interest-free loans and loans with a fixed interest rate. A repayment plan is created for repayment of a loan. You can select the same due date lists as those for an installment plan. Each installment through to the last installment is of the same amount. The installment includes an interest and repayment component. As with an annuity loan, interest is calculated on the basis of the individual due dates of the installment. A small interest amount and a higher repayment amount are payable at every due date. Note that once you have created the loan, you are no longer able to change either the amount or the due date of the individual installments. When you create a loan, you have to specify parameters required for creating an installment plan (such as due date lists) and other data such as net loan proceeds, interest rate etc. When creating a loan, you have to post a document with the net loan proceeds as well as a repayment plan for the loan. This document comprises two line items, one of which contains the net loan proceeds and the other a receivable in the same amount. If you have created a loan with interest, an interest document is also posted. Depending on the due date of the repayment plan, this interest document contains its own line item with the interest amount for the due date. You can group important control parameters as default values in a loan category. You can create several loan categories so that you avoid having to manually enter fixed parameters for the most common loans over and over again. The parameters proposed by this loan category can be overwritten manually. You can define an alternative recipient for the disbursement. You can also define an alternative contract account and if necessary, an alternative business partner. This would make sense if the disbursement were not being made to the customer who has been given the loan, but directly to the contract partner supplying the appliance or performing the service. The credit can also contain an explicit alternative payment method enforcing direct disbursement of the amount. After you have created and saved the loan, a letter can be sent to the customer. This letter is managed in the same form class as an installment plan letter. Settlement type 20D is used when distributing a payment between the source items in a loan plan (interest and repayment) in settlement control.\n\nUtilities Contract\n\nDefinition",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p082_b000",
+   "type": "heading",
+   "page_number": 82,
+   "bbox": [
+    128,
+    131,
+    575,
+    207
+   ],
+   "ocr_confidence": 91.5,
+   "flags": [],
+   "text": "Loans (IS-U)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_329"
+  },
+  {
+   "block_id": "doc_001_p082_b001",
+   "type": "heading",
+   "page_number": 82,
+   "bbox": [
+    125,
+    307,
+    225,
+    353
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_330"
+  },
+  {
+   "block_id": "doc_001_p082_b002",
+   "type": "paragraph",
+   "page_number": 82,
+   "bbox": [
+    122,
+    440,
+    2488,
+    603
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Note that this function does not replace the standard loan management function in Treasury. This functions helps you manage very simple loans, such as a loan given to a customer if an appliance (a heat pump, for example) has to be bought. It is not possible to manage premiums or discount. The system only supports fixed interest rates for the whole term.",
+   "section_id": "doc_001_sec_330"
+  },
+  {
+   "block_id": "doc_001_p082_b003",
+   "type": "heading",
+   "page_number": 82,
+   "bbox": [
+    127,
+    715,
+    431,
+    771
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_331"
+  },
+  {
+   "block_id": "doc_001_p082_b004",
+   "type": "paragraph",
+   "page_number": 82,
+   "bbox": [
+    122,
+    848,
+    2452,
+    948
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Before you can use the loan function, the system has to be set up to manage installment plans. The individual interest calculation function must be set up to enable you to calculate interest.",
+   "section_id": "doc_001_sec_331"
+  },
+  {
+   "block_id": "doc_001_p082_b005",
+   "type": "heading",
+   "page_number": 82,
+   "bbox": [
+    126,
+    1060,
+    361,
+    1105
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_332"
+  },
+  {
+   "block_id": "doc_001_p082_b006",
+   "type": "paragraph",
+   "page_number": 82,
+   "bbox": [
+    122,
+    1189,
+    2487,
+    2842
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You can manage both interest-free loans and loans with a fixed interest rate. A repayment plan is created for repayment of a loan. You can select the same due date lists as those for an installment plan. Each installment through to the last installment is of the same amount. The installment includes an interest and repayment component. As with an annuity loan, interest is calculated on the basis of the individual due dates of the installment. A small interest amount and a higher repayment amount are payable at every due date. Note that once you have created the loan, you are no longer able to change either the amount or the due date of the individual installments. When you create a loan, you have to specify parameters required for creating an installment plan (such as due date lists) and other data such as net loan proceeds, interest rate etc. When creating a loan, you have to post a document with the net loan proceeds as well as a repayment plan for the loan. This document comprises two line items, one of which contains the net loan proceeds and the other a receivable in the same amount. If you have created a loan with interest, an interest document is also posted. Depending on the due date of the repayment plan, this interest document contains its own line item with the interest amount for the due date. You can group important control parameters as default values in a loan category. You can create several loan categories so that you avoid having to manually enter fixed parameters for the most common loans over and over again. The parameters proposed by this loan category can be overwritten manually. You can define an alternative recipient for the disbursement. You can also define an alternative contract account and if necessary, an alternative business partner. This would make sense if the disbursement were not being made to the customer who has been given the loan, but directly to the contract partner supplying the appliance or performing the service. The credit can also contain an explicit alternative payment method enforcing direct disbursement of the amount. After you have created and saved the loan, a letter can be sent to the customer. This letter is managed in the same form class as an installment plan letter. Settlement type 20D is used when distributing a payment between the source items in a loan plan (interest and repayment) in settlement control.",
+   "section_id": "doc_001_sec_332"
+  },
+  {
+   "block_id": "doc_001_p082_b007",
+   "type": "heading",
+   "page_number": 82,
+   "bbox": [
+    128,
+    2998,
+    737,
+    3060
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Utilities Contract",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_333"
+  },
+  {
+   "block_id": "doc_001_p082_b008",
+   "type": "heading",
+   "page_number": 82,
+   "bbox": [
+    126,
+    3176,
+    393,
+    3221
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_334"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "fab5ba128428ad85e446bb7ab13575f48aacc5e03f015eb9695e539c4c9628d6"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Loans (IS-U)"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_329",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_330",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_331",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_332",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_333",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_334",
+   "role": "starts_here"
+  }
+ ]
+}

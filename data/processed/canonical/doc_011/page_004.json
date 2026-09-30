@@ -1,0 +1,397 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 4,
+ "source_page_hash": "3c08e273ad90a6e7a8202f39a0da315aef7a3aec1c4dbcef8694acf4330b5fe2",
+ "is_cover_page": false,
+ "title": "Integration",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nDynamic Period Control\n\nDynamic period control enables flexible billing where, in a deregulated scenario, actual meter reading results are no longer stored\nin a grid defined in scheduling, but can be exchanged between utility companies at any time.\n\nIn the billing schema, you can use the time slice generator to create individual correction periods.\nYou can do the following, for example:\n\ne Recalculate consumption prices from the billing document while leaving the rental price unchanged.\n\ne Define which billing steps are carried out for actual meter reading results and which are carried out for estimated meter\nreading results.\n\ne Choose whether a correction is carried out over the entire correction period, or only for individual partial correction\nperiods.\n\ne Execute advance billing, which the system can recalculate automatically.\n\nYou can use a simulation period to generate extrapolated posting-relevant billing line items in dynamic period control, or\ninformation lines in the billing document, and correct them in subsequent billing runs.\n\nThis allows you to present any extrapolation periods to your customers on the bill.\n\nIntegration\n\nIf you have activated the business function Utilities, Quantity Determination (ISU_QD_1) and you use the quantity determination\nprocedure Quantity Determination During Meter Reading, you cannot use dynamic period control. Dynamic period control cannot\nbe used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading. Also note that\n\nfor registers for which the quantity determination procedure Quantity Determination Procedure During Meter Reading is defined,\n\nyou cannot subsequently enter a DPC rate category in the installation.\nFor more information, see:\n\nQuantity Determination During Meter Reading\n\nCustomizing for DPC\n\nYou can find the Customizing tables relevant for DPC in Customizing for SAP Utilities under |}*Contract Billing \u00bb Billing Master\nData Rate Structure \u00bb Schemas } Dynamic Period Control Define Dynamic Period Control %. You can also find a description\nof how to create a sample schema, here.\n\nCustomizing for Schema Structure\n\nFor further information about Customizing settings in the billing schema, see the documentation on the Information for Dynamic\nPeriod Control activity under |}Contract Billing } Billing Master Data\u00bb Rate Structure + Schemas } Dynamic Period Control\n\nDefine Dynamic Period Control\n\nCustomizing for Rate Category\n",
+ "cleaned_text": "Dynamic Period Control Dynamic period control enables flexible billing where, in a deregulated scenario, actual meter reading results are no longer stored in a grid defined in scheduling, but can be exchanged between utility companies at any time. In the billing schema, you can use the time slice generator to create individual correction periods. You can do the following, for example:\n\n- Recalculate consumption prices from the billing document while leaving the rental price unchanged.\n\n- Define which billing steps are carried out for actual meter reading results and which are carried out for estimated meter reading results.\n\n- Choose whether a correction is carried out over the entire correction period, or only for individual partial correction periods.\n\n- Execute advance billing, which the system can recalculate automatically.\n\nYou can use a simulation period to generate extrapolated posting-relevant billing line items in dynamic period control, or information lines in the billing document, and correct them in subsequent billing runs. This allows you to present any extrapolation periods to your customers on the bill.\n\nIntegration\n\nIf you have activated the business function Utilities, Quantity Determination (ISU_QD_1) and you use the quantity determination procedure Quantity Determination During Meter Reading, you cannot use dynamic period control. Dynamic period control cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading. Also note that for registers for which the quantity determination procedure Quantity Determination Procedure During Meter Reading is defined, you cannot subsequently enter a DPC rate category in the installation. For more information, see:\n\nQuantity Determination During Meter Reading\n\nCustomizing for DPC\n\nYou can find the Customizing tables relevant for DPC in Customizing for SAP Utilities under |}*Contract Billing \u00bb Billing Master\n\nData Rate Structure \u00bb Schemas } Dynamic Period Control | Define Dynamic Period Control %. You can also find a description\n\nof how to create a sample schema, here.\n\nCustomizing for Schema Structure\n\nFor further information about Customizing settings in the billing schema, see the documentation on the Information for Dynamic Period Control activity under |}Contract Billing } Billing Master Data\u00bb Rate Structure + Schemas } Dynamic Period Control\n\nDefine Dynamic Period Control\n\nCustomizing for Rate Category",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p004_b000",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    123,
+    131,
+    2453,
+    590
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Dynamic Period Control Dynamic period control enables flexible billing where, in a deregulated scenario, actual meter reading results are no longer stored in a grid defined in scheduling, but can be exchanged between utility companies at any time. In the billing schema, you can use the time slice generator to create individual correction periods. You can do the following, for example:",
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p004_b001",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    206,
+    673,
+    2415,
+    1145
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Recalculate consumption prices from the billing document while leaving the rental price unchanged."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Define which billing steps are carried out for actual meter reading results and which are carried out for estimated meter reading results."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Choose whether a correction is carried out over the entire correction period, or only for individual partial correction periods."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Execute advance billing, which the system can recalculate automatically."
+    }
+   ],
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p004_b002",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    1232,
+    2294,
+    1453
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You can use a simulation period to generate extrapolated posting-relevant billing line items in dynamic period control, or information lines in the billing document, and correct them in subsequent billing runs. This allows you to present any extrapolation periods to your customers on the bill.",
+   "section_id": "doc_011_sec_008"
+  },
+  {
+   "block_id": "doc_011_p004_b003",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    127,
+    1565,
+    431,
+    1622
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_009"
+  },
+  {
+   "block_id": "doc_011_p004_b004",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    1700,
+    2488,
+    2110
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "If you have activated the business function Utilities, Quantity Determination (ISU_QD_1) and you use the quantity determination procedure Quantity Determination During Meter Reading, you cannot use dynamic period control. Dynamic period control cannot be used in conjunction with the quantity determination procedure Quantity Determination During Meter Reading. Also note that for registers for which the quantity determination procedure Quantity Determination Procedure During Meter Reading is defined, you cannot subsequently enter a DPC rate category in the installation. For more information, see:",
+   "section_id": "doc_011_sec_009"
+  },
+  {
+   "block_id": "doc_011_p004_b005",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    122,
+    2197,
+    958,
+    2235
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Quantity Determination During Meter Reading",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_009"
+  },
+  {
+   "block_id": "doc_011_p004_b006",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    125,
+    2384,
+    880,
+    2461
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Customizing for DPC",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_010"
+  },
+  {
+   "block_id": "doc_011_p004_b007",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    123,
+    2528,
+    2416,
+    2575
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "You can find the Customizing tables relevant for DPC in Customizing for SAP Utilities under |}*Contract Billing \u00bb Billing Master",
+   "section_id": "doc_011_sec_010"
+  },
+  {
+   "block_id": "doc_011_p004_b008",
+   "type": "table",
+   "page_number": 4,
+   "bbox": [
+    124,
+    2591,
+    2451,
+    2638
+   ],
+   "ocr_confidence": 90.5,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    124,
+    1291
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Data Rate Structure \u00bb Schemas } Dynamic Period Control",
+     "Define Dynamic Period Control %. You can also find a description"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Data Rate Structure \u00bb Schemas } Dynamic Period Control",
+     "Define Dynamic Period Control %. You can also find a description"
+    ]
+   ],
+   "section_id": "doc_011_sec_010"
+  },
+  {
+   "block_id": "doc_011_p004_b009",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    123,
+    2657,
+    847,
+    2695
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "of how to create a sample schema, here.",
+   "section_id": "doc_011_sec_010"
+  },
+  {
+   "block_id": "doc_011_p004_b010",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    124,
+    2807,
+    1100,
+    2864
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Customizing for Schema Structure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_011"
+  },
+  {
+   "block_id": "doc_011_p004_b011",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    124,
+    2940,
+    2466,
+    3046
+   ],
+   "ocr_confidence": 88.3,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "For further information about Customizing settings in the billing schema, see the documentation on the Information for Dynamic Period Control activity under |}Contract Billing } Billing Master Data\u00bb Rate Structure + Schemas } Dynamic Period Control",
+   "section_id": "doc_011_sec_011"
+  },
+  {
+   "block_id": "doc_011_p004_b012",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    134,
+    3068,
+    705,
+    3106
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Define Dynamic Period Control",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_012"
+  },
+  {
+   "block_id": "doc_011_p004_b013",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    124,
+    3217,
+    991,
+    3275
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Customizing for Rate Category",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_013"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.0952,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "3c08e273ad90a6e7a8202f39a0da315aef7a3aec1c4dbcef8694acf4330b5fe2"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Dynamic Period Control (DPC)",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_008",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_009",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_010",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_011",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_012",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_013",
+   "role": "starts_here"
+  }
+ ]
+}

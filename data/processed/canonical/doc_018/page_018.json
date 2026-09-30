@@ -1,0 +1,484 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 18,
+ "source_page_hash": "2b50a38036c249253a9a07b61e8976fe98923e46e20860ab1578381ebedea33d",
+ "is_cover_page": false,
+ "title": "Message Types",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nIn the case of an error, the log of the service operation is filled with the corresponding error message.\n\nMessage Types\n\ne CreditManagementAccountERPPaymentBehaviourSummaryByDebtorPartyQuery_sync\n\ne CreditManagementAccountERPPaymentBehaviourSummaryByDebtorPartyResponse_sync\n\nNotes on SAP Implementation\n\nThe PropertyValuation is filled with key figures from the system in which Contract Accounts Receivable and Payable is running.\nConfiguration\n\ne Before you can use the service operation in Contract Accounts Receivable and Payable (FI-CA), you must activate the\nintegration with SAP Credit Management in Customizing forContract Accounts Receivable and Payable under Integration\n\n> Financial Supply Chain Management -> Credit Management -> Activate Credit Management .\n\ne If you want to transfer FI-CA key figures within the field PropertyValuation, you must activate the relevant key figures in\nCustomizing for Contract Accounts Receivable and Payable under Integration -> Financial Supply Chain Management ->\nCredit Management -> Key Figures -> Make Specifications for Key Figures for Credit Management .\n\nEnhancements\n\nEnhancements\n\nTo enhance the proxy structure of the current operation, you can use event 4614 (see the documentation of sample function\nmodule FKK_SAMPLE_4614).\n\nYou can create your own key figures and send them to the Credit Management system. For more information, see the Customizing\ndocumentation under Contract Accounts Receivable and Payable -> Integration > Financial Supply Chain Management ->\nCredit Management -> Key Figures -> Define Key Figures for Transfer to Credit Management .\n\nQuery Contract Account In\n\nDefinition\n\nRequest to contract account for provision of contract account data.\n\nTechnical Data\n\nEntity Type               Service Interface\nCategory                  A2X\n\nDirection         inbound\n",
+ "cleaned_text": "In the case of an error, the log of the service operation is filled with the corresponding error message.\n\nMessage Types\n\n- CreditManagementAccountERPPaymentBehaviourSummaryByDebtorPartyQuery_sync\n\n- CreditManagementAccountERPPaymentBehaviourSummaryByDebtorPartyResponse_sync\n\nNotes on SAP Implementation\n\nThe PropertyValuation is filled with key figures from the system in which Contract Accounts Receivable and Payable is running.\n\nConfiguration\n\n- Before you can use the service operation in Contract Accounts Receivable and Payable (FI-CA), you must activate the integration with SAP Credit Management in Customizing forContract Accounts Receivable and Payable under Integration\n\n> Financial Supply Chain Management -> Credit Management -> Activate Credit Management .\n\n- If you want to transfer FI-CA key figures within the field PropertyValuation, you must activate the relevant key figures in Customizing for Contract Accounts Receivable and Payable under Integration -> Financial Supply Chain Management ->\n\nCredit Management -> Key Figures -> Make Specifications for Key Figures for Credit Management .\n\nEnhancements\n\nEnhancements\n\nTo enhance the proxy structure of the current operation, you can use event 4614 (see the documentation of sample function module FKK_SAMPLE_4614). You can create your own key figures and send them to the Credit Management system. For more information, see the Customizing documentation under Contract Accounts Receivable and Payable -> Integration > Financial Supply Chain Management -> Credit Management -> Key Figures -> Define Key Figures for Transfer to Credit Management .\n\nQuery Contract Account In\n\nDefinition\n\nRequest to contract account for provision of contract account data.\n\nTechnical Data\n\nEntity Type | Service Interface\n\nCategory | A2X\n\nDirection | inbound",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p018_b000",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    125,
+    134,
+    1944,
+    172
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "In the case of an error, the log of the service operation is filled with the corresponding error message.",
+   "section_id": "doc_018_sec_109"
+  },
+  {
+   "block_id": "doc_018_p018_b001",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    126,
+    284,
+    543,
+    341
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Message Types",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_110"
+  },
+  {
+   "block_id": "doc_018_p018_b002",
+   "type": "list",
+   "page_number": 18,
+   "bbox": [
+    207,
+    417,
+    1916,
+    557
+   ],
+   "ocr_confidence": 87.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "CreditManagementAccountERPPaymentBehaviourSummaryByDebtorPartyQuery_sync"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "CreditManagementAccountERPPaymentBehaviourSummaryByDebtorPartyResponse_sync"
+    }
+   ],
+   "section_id": "doc_018_sec_110"
+  },
+  {
+   "block_id": "doc_018_p018_b003",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    126,
+    668,
+    970,
+    725
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Notes on SAP Implementation",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_111"
+  },
+  {
+   "block_id": "doc_018_p018_b004",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    122,
+    801,
+    2409,
+    839
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "The PropertyValuation is filled with key figures from the system in which Contract Accounts Receivable and Payable is running.",
+   "section_id": "doc_018_sec_111"
+  },
+  {
+   "block_id": "doc_018_p018_b005",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    123,
+    923,
+    377,
+    961
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Configuration",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_112"
+  },
+  {
+   "block_id": "doc_018_p018_b006",
+   "type": "list",
+   "page_number": 18,
+   "bbox": [
+    207,
+    1044,
+    2450,
+    1145
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Before you can use the service operation in Contract Accounts Receivable and Payable (FI-CA), you must activate the integration with SAP Credit Management in Customizing forContract Accounts Receivable and Payable under Integration"
+    }
+   ],
+   "section_id": "doc_018_sec_112"
+  },
+  {
+   "block_id": "doc_018_p018_b007",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    255,
+    1173,
+    2017,
+    1211
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "> Financial Supply Chain Management -> Credit Management -> Activate Credit Management .",
+   "section_id": "doc_018_sec_112"
+  },
+  {
+   "block_id": "doc_018_p018_b008",
+   "type": "list",
+   "page_number": 18,
+   "bbox": [
+    207,
+    1274,
+    2464,
+    1375
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you want to transfer FI-CA key figures within the field PropertyValuation, you must activate the relevant key figures in Customizing for Contract Accounts Receivable and Payable under Integration -> Financial Supply Chain Management ->"
+    }
+   ],
+   "section_id": "doc_018_sec_112"
+  },
+  {
+   "block_id": "doc_018_p018_b009",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    254,
+    1399,
+    2103,
+    1437
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Credit Management -> Key Figures -> Make Specifications for Key Figures for Credit Management .",
+   "section_id": "doc_018_sec_112"
+  },
+  {
+   "block_id": "doc_018_p018_b010",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    125,
+    1515,
+    393,
+    1544
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Enhancements",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_113"
+  },
+  {
+   "block_id": "doc_018_p018_b011",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    124,
+    1626,
+    400,
+    1656
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Enhancements",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_114"
+  },
+  {
+   "block_id": "doc_018_p018_b012",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    122,
+    1750,
+    2473,
+    2098
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "To enhance the proxy structure of the current operation, you can use event 4614 (see the documentation of sample function module FKK_SAMPLE_4614). You can create your own key figures and send them to the Credit Management system. For more information, see the Customizing documentation under Contract Accounts Receivable and Payable -> Integration > Financial Supply Chain Management -> Credit Management -> Key Figures -> Define Key Figures for Transfer to Credit Management .",
+   "section_id": "doc_018_sec_114"
+  },
+  {
+   "block_id": "doc_018_p018_b013",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    125,
+    2351,
+    1087,
+    2428
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Query Contract Account In",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_115"
+  },
+  {
+   "block_id": "doc_018_p018_b014",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    126,
+    2528,
+    393,
+    2573
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_116"
+  },
+  {
+   "block_id": "doc_018_p018_b015",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    125,
+    2661,
+    1341,
+    2698
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Request to contract account for provision of contract account data.",
+   "section_id": "doc_018_sec_116"
+  },
+  {
+   "block_id": "doc_018_p018_b016",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    123,
+    2811,
+    530,
+    2856
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_117"
+  },
+  {
+   "block_id": "doc_018_p018_b017",
+   "type": "table",
+   "page_number": 18,
+   "bbox": [
+    148,
+    2968,
+    766,
+    3207
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    482
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Interface"
+    ],
+    [
+     "Category",
+     "A2X"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Interface"
+    ],
+    [
+     "Category",
+     "A2X"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ]
+   ],
+   "section_id": "doc_018_sec_117"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "2b50a38036c249253a9a07b61e8976fe98923e46e20860ab1578381ebedea33d"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Find Payment Behaviour Summary By Debtor Party",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_109",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_018_sec_110",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_111",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_112",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_113",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_114",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_115",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_116",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_117",
+   "role": "starts_here"
+  }
+ ]
+}

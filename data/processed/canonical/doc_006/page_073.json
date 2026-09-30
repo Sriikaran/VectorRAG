@@ -1,0 +1,290 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 73,
+ "source_page_hash": "53b55c1ea5f3164917671bcad0e3831823794944b44de9122ae537fa5a7aa5c9",
+ "is_cover_page": false,
+ "title": "Device Overview",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nDevice Overview\n\nYou can use this app to display an overview of all installations fora meter reading unit and all devices foran installation with their\ncorresponding register relationships.\n\nQuantity Determination\n\nUse\n\nThe following sections provide you with an overview of quantity determination. The term quantity determination refers to the\nprocess of converting a meter reading difference into a billing-relevant quantity. For quantity determination you can choose from\n\ndifferent quantity determination procedures.\n\nFeatures\n\nQuantity Determination Procedures\n\nYou choose a quantity determination procedure based on the role of your company in the market, the market rules that apply to\nyou, and the processes within your company. The quantity determination procedure determines when quantity determination\ntakes place and how the data is stored.\n\nPossible quantity determination procedures are:\n\ne Quantity Determination During Billing (classic procedure)\n\ne Quantity Determination During Meter Reading\n\nThe following figure illustrates the two quantity determination procedures:\n",
+ "cleaned_text": "Device Overview\n\nYou can use this app to display an overview of all installations fora meter reading unit and all devices foran installation with their corresponding register relationships.\n\nQuantity Determination\n\nUse\n\nThe following sections provide you with an overview of quantity determination. The term quantity determination refers to the process of converting a meter reading difference into a billing-relevant quantity. For quantity determination you can choose from different quantity determination procedures.\n\nFeatures\n\nQuantity Determination Procedures\n\nYou choose a quantity determination procedure based on the role of your company in the market, the market rules that apply to you, and the processes within your company. The quantity determination procedure determines when quantity determination takes place and how the data is stored. Possible quantity determination procedures are:\n\n- Quantity Determination During Billing (classic procedure)\n\n- Quantity Determination During Meter Reading\n\nThe following figure illustrates the two quantity determination procedures:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p073_b000",
+   "type": "heading",
+   "page_number": 73,
+   "bbox": [
+    128,
+    130,
+    716,
+    192
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Device Overview",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_184"
+  },
+  {
+   "block_id": "doc_006_p073_b001",
+   "type": "paragraph",
+   "page_number": 73,
+   "bbox": [
+    123,
+    279,
+    2428,
+    383
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "You can use this app to display an overview of all installations fora meter reading unit and all devices foran installation with their corresponding register relationships.",
+   "section_id": "doc_006_sec_184"
+  },
+  {
+   "block_id": "doc_006_p073_b002",
+   "type": "heading",
+   "page_number": 73,
+   "bbox": [
+    125,
+    529,
+    977,
+    605
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Quantity Determination",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_185"
+  },
+  {
+   "block_id": "doc_006_p073_b003",
+   "type": "heading",
+   "page_number": 73,
+   "bbox": [
+    125,
+    705,
+    225,
+    751
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_186"
+  },
+  {
+   "block_id": "doc_006_p073_b004",
+   "type": "paragraph",
+   "page_number": 73,
+   "bbox": [
+    122,
+    838,
+    2442,
+    1004
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The following sections provide you with an overview of quantity determination. The term quantity determination refers to the process of converting a meter reading difference into a billing-relevant quantity. For quantity determination you can choose from different quantity determination procedures.",
+   "section_id": "doc_006_sec_186"
+  },
+  {
+   "block_id": "doc_006_p073_b005",
+   "type": "heading",
+   "page_number": 73,
+   "bbox": [
+    126,
+    1116,
+    361,
+    1161
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_187"
+  },
+  {
+   "block_id": "doc_006_p073_b006",
+   "type": "heading",
+   "page_number": 73,
+   "bbox": [
+    123,
+    1246,
+    789,
+    1283
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Quantity Determination Procedures",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_188"
+  },
+  {
+   "block_id": "doc_006_p073_b007",
+   "type": "paragraph",
+   "page_number": 73,
+   "bbox": [
+    122,
+    1371,
+    2430,
+    1655
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You choose a quantity determination procedure based on the role of your company in the market, the market rules that apply to you, and the processes within your company. The quantity determination procedure determines when quantity determination takes place and how the data is stored. Possible quantity determination procedures are:",
+   "section_id": "doc_006_sec_188"
+  },
+  {
+   "block_id": "doc_006_p073_b008",
+   "type": "list",
+   "page_number": 73,
+   "bbox": [
+    207,
+    1739,
+    1318,
+    1882
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Quantity Determination During Billing (classic procedure)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Quantity Determination During Meter Reading"
+    }
+   ],
+   "section_id": "doc_006_sec_188"
+  },
+  {
+   "block_id": "doc_006_p073_b009",
+   "type": "paragraph",
+   "page_number": 73,
+   "bbox": [
+    122,
+    1966,
+    1466,
+    2003
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "The following figure illustrates the two quantity determination procedures:",
+   "section_id": "doc_006_sec_188"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "53b55c1ea5f3164917671bcad0e3831823794944b44de9122ae537fa5a7aa5c9"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:35Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Device Overview"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_184",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_185",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_186",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_187",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_188",
+   "role": "starts_here"
+  }
+ ]
+}

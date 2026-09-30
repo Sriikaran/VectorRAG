@@ -1,0 +1,338 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 90,
+ "source_page_hash": "0d4a8d5196e748d00a93b9fc8477b6ad2c3ab36af8e1e22a03162c3629f64d4b",
+ "is_cover_page": false,
+ "title": "Restrictions",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\ne The next customer enters the premise on the same day: 2023-02-25 at 16:30; the corresponding utilities contract 2 has the\nmove-in date: 2023-02-26.\n\nRestrictions\nThe following restrictions exist:\n\ne The exact move-in time must either be found on the move-in date or on the day before the move-in.\n\ne The move-out time must be found on the move-out date.\n\nDifferent restrictions to those described above apply to the Japanese market. In this case, the logic is dependent on the billing\nperiod applied. For more details, please see Handling the Exact Move-In and Move-Out Time for the Japanese Billing Period.\n\nThe move-in and move-out time can be displayed and changed in the transactions Display Contract (ES22) and Change\nContract (ES21) on the tab \u201cPage 3\u201d in the section \u201cAlternative Activation\u201d in the fields start date / start time and end date /\nend time. You always maintain the date and time; the system automatically observes the time zone of the installation. The checks\n\napplied in the transactions are very basic. For example, an inconsistency that is caused by a possible overlap of two subsequent\nutilities contracts (example: end date 1 = start date 2; end time 1> start time 2), is not checked.\n\nIf the consumption at the utilities installation is measured as a time series using a smart meter, the move-in and move-out time\ncan be considered in TOU and RTP billing to calculate the consumption accurately from the start and to the end of the service. For\nmore technical details, please see SAP Note 3394464 ve.\n\nConnection Object\n\nDefinition\nA connection object is usually a building but can also be a piece of property or a facility, such as a fountain or construction site.\n\nSince an address is allocated to a connection object, the connection object links premises, device locations and connections to the\npostal regional structure.\n\nIntegration\n\nThe connection object is a functional location from the Plant Maintenance (PM) application component. Therefore, maintenance\nis managed using the functions of the Service Management (PM-SMA) component, for example, if you wish to organize the repair\n\nand maintenance of devices at the connection object level. Maintenance and repairs are billed using the Sales and Distribution\n(SD) application component.\n\nOther Information\n\nFor each connection object you can define any number of static notes. These can be printed on meter reading orders, for example,\nto give field service employees extra information. Example include \"Ring Mr Y\u2019s doorbell,\" \"Beware of the dog,\" and so on. You can\nalso use the dynamic notes predefined in the system (for example \"Installation blocked for meter reading,\u201d \"Meter reading already\nentered.\")\n",
+ "cleaned_text": "- The next customer enters the premise on the same day: 2023-02-25 at 16:30; the corresponding utilities contract 2 has the move-in date: 2023-02-26.\n\nRestrictions\n\nThe following restrictions exist:\n\n- The exact move-in time must either be found on the move-in date or on the day before the move-in.\n\n- The move-out time must be found on the move-out date.\n\nDifferent restrictions to those described above apply to the Japanese market. In this case, the logic is dependent on the billing period applied. For more details, please see Handling the Exact Move-In and Move-Out Time for the Japanese Billing Period. The move-in and move-out time can be displayed and changed in the transactions Display Contract (ES22) and Change Contract (ES21) on the tab \u201cPage 3\u201d in the section \u201cAlternative Activation\u201d in the fields start date / start time and end date / end time. You always maintain the date and time; the system automatically observes the time zone of the installation. The checks applied in the transactions are very basic. For example, an inconsistency that is caused by a possible overlap of two subsequent utilities contracts (example: end date 1 = start date 2; end time 1> start time 2), is not checked. If the consumption at the utilities installation is measured as a time series using a smart meter, the move-in and move-out time can be considered in TOU and RTP billing to calculate the consumption accurately from the start and to the end of the service. For more technical details, please see SAP Note 3394464 ve.\n\nConnection Object\n\nDefinition\n\nA connection object is usually a building but can also be a piece of property or a facility, such as a fountain or construction site. Since an address is allocated to a connection object, the connection object links premises, device locations and connections to the postal regional structure.\n\nIntegration\n\nThe connection object is a functional location from the Plant Maintenance (PM) application component. Therefore, maintenance is managed using the functions of the Service Management (PM-SMA) component, for example, if you wish to organize the repair and maintenance of devices at the connection object level. Maintenance and repairs are billed using the Sales and Distribution (SD) application component.\n\nOther Information\n\nFor each connection object you can define any number of static notes. These can be printed on meter reading orders, for example, to give field service employees extra information. Example include \"Ring Mr Y\u2019s doorbell,\" \"Beware of the dog,\" and so on. You can also use the dynamic notes predefined in the system (for example \"Installation blocked for meter reading,\u201d \"Meter reading already entered.\")",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p090_b000",
+   "type": "list",
+   "page_number": 90,
+   "bbox": [
+    207,
+    134,
+    2487,
+    227
+   ],
+   "ocr_confidence": 90.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The next customer enters the premise on the same day: 2023-02-25 at 16:30; the corresponding utilities contract 2 has the move-in date: 2023-02-26."
+    }
+   ],
+   "section_id": "doc_001_sec_345"
+  },
+  {
+   "block_id": "doc_001_p090_b001",
+   "type": "heading",
+   "page_number": 90,
+   "bbox": [
+    126,
+    347,
+    460,
+    391
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Restrictions",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_346"
+  },
+  {
+   "block_id": "doc_001_p090_b002",
+   "type": "paragraph",
+   "page_number": 90,
+   "bbox": [
+    122,
+    480,
+    684,
+    517
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The following restrictions exist:",
+   "section_id": "doc_001_sec_346"
+  },
+  {
+   "block_id": "doc_001_p090_b003",
+   "type": "list",
+   "page_number": 90,
+   "bbox": [
+    207,
+    601,
+    2045,
+    733
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The exact move-in time must either be found on the move-in date or on the day before the move-in."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The move-out time must be found on the move-out date."
+    }
+   ],
+   "section_id": "doc_001_sec_346"
+  },
+  {
+   "block_id": "doc_001_p090_b004",
+   "type": "paragraph",
+   "page_number": 90,
+   "bbox": [
+    122,
+    828,
+    2468,
+    1555
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Different restrictions to those described above apply to the Japanese market. In this case, the logic is dependent on the billing period applied. For more details, please see Handling the Exact Move-In and Move-Out Time for the Japanese Billing Period. The move-in and move-out time can be displayed and changed in the transactions Display Contract (ES22) and Change Contract (ES21) on the tab \u201cPage 3\u201d in the section \u201cAlternative Activation\u201d in the fields start date / start time and end date / end time. You always maintain the date and time; the system automatically observes the time zone of the installation. The checks applied in the transactions are very basic. For example, an inconsistency that is caused by a possible overlap of two subsequent utilities contracts (example: end date 1 = start date 2; end time 1> start time 2), is not checked. If the consumption at the utilities installation is measured as a time series using a smart meter, the move-in and move-out time can be considered in TOU and RTP billing to calculate the consumption accurately from the start and to the end of the service. For more technical details, please see SAP Note 3394464 ve.",
+   "section_id": "doc_001_sec_346"
+  },
+  {
+   "block_id": "doc_001_p090_b005",
+   "type": "heading",
+   "page_number": 90,
+   "bbox": [
+    125,
+    1704,
+    799,
+    1780
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Connection Object",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_347"
+  },
+  {
+   "block_id": "doc_001_p090_b006",
+   "type": "heading",
+   "page_number": 90,
+   "bbox": [
+    126,
+    1880,
+    393,
+    1926
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_348"
+  },
+  {
+   "block_id": "doc_001_p090_b007",
+   "type": "paragraph",
+   "page_number": 90,
+   "bbox": [
+    123,
+    2014,
+    2483,
+    2235
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "A connection object is usually a building but can also be a piece of property or a facility, such as a fountain or construction site. Since an address is allocated to a connection object, the connection object links premises, device locations and connections to the postal regional structure.",
+   "section_id": "doc_001_sec_348"
+  },
+  {
+   "block_id": "doc_001_p090_b008",
+   "type": "heading",
+   "page_number": 90,
+   "bbox": [
+    127,
+    2347,
+    431,
+    2404
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_349"
+  },
+  {
+   "block_id": "doc_001_p090_b009",
+   "type": "paragraph",
+   "page_number": 90,
+   "bbox": [
+    122,
+    2480,
+    2469,
+    2708
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The connection object is a functional location from the Plant Maintenance (PM) application component. Therefore, maintenance is managed using the functions of the Service Management (PM-SMA) component, for example, if you wish to organize the repair and maintenance of devices at the connection object level. Maintenance and repairs are billed using the Sales and Distribution (SD) application component.",
+   "section_id": "doc_001_sec_349"
+  },
+  {
+   "block_id": "doc_001_p090_b010",
+   "type": "heading",
+   "page_number": 90,
+   "bbox": [
+    123,
+    2792,
+    460,
+    2823
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Other Information",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_350"
+  },
+  {
+   "block_id": "doc_001_p090_b011",
+   "type": "paragraph",
+   "page_number": 90,
+   "bbox": [
+    122,
+    2914,
+    2474,
+    3142
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "For each connection object you can define any number of static notes. These can be printed on meter reading orders, for example, to give field service employees extra information. Example include \"Ring Mr Y\u2019s doorbell,\" \"Beware of the dog,\" and so on. You can also use the dynamic notes predefined in the system (for example \"Installation blocked for meter reading,\u201d \"Meter reading already entered.\")",
+   "section_id": "doc_001_sec_350"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.0988,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "0d4a8d5196e748d00a93b9fc8477b6ad2c3ab36af8e1e22a03162c3629f64d4b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Handling the Exact Move-In and Move-Out Time"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_345",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_346",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_347",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_348",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_349",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_350",
+   "role": "starts_here"
+  }
+ ]
+}

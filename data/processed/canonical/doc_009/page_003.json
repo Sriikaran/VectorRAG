@@ -1,0 +1,366 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_009",
+ "page_number": 3,
+ "source_page_hash": "e21c14c17a26ec265f7d81e1007a5ba58ad64adf8dca5b08539219f911b10153",
+ "is_cover_page": false,
+ "title": "Interaction - Estimation and Actual Meter Reading",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nThe concept for calculating the quantity once an actual meter reading result is available following one or more estimations (usually\nextrapolations) is described in the following section:\n\nInteraction - Estimation and Actual Meter Reading\n\nExtrapolation\n\nUse\n\nDuring the estimation procedure of extrapolation, a value is forecast for the entire base period.\n\nThe steps described below are carried out automatically by the system and are not visible to the user. The description should\nexplain the algorithm that derives an expected quantity from a quantity stored in the system and forecasts a meter reading result.\n\nFeatures\n\nWhen using the quantity determination procedure Quantity Determination During Meter Reading, extrapolation takes place as\nfollows:\n\n1. The saved (and rounded) quantities from the meter reading results in the representative base period are added together as\na basis for extrapolation.\n\n2. The system determines the weighting Y of the base period.\n3. The system determines the weighting Ye of the forecast period.\n\n4. The system determines the quantity Qe for the forecast date by multiplying the added quantity from the base period with\nthe quotient of the weighting of the forecast period and the weighting of the base period.\n\nQ.=Q*(y\u00a5e/y)=(Q/y)* Ve\n\nFormula\n\nThe factor ( Q / Y) describes the Expected Weighted Consumption.\n\n5. From this forecast quantity Qe, that has not yet been rounded, the system calculates the estimated meter reading result Qe\ntaking the relevant factors (such as the gas factors and register factors) into account.\n\nThis is then rounded and saved according to the system settings.\n\n6. Taking into account the factors from the forecast period, the system determines the final consumption value from the\ndifference between the estimated meter reading result E and the previous meter reading result MR1. The final consumption\nvalue is then rounded and saved.\n\ni Note\n\nThe system does not wait for actual gas factors for extrapolation, but determines the final quantity immediately. This\nmeans that no quantity determination triggers are generated.\n",
+ "cleaned_text": "The concept for calculating the quantity once an actual meter reading result is available following one or more estimations (usually extrapolations) is described in the following section:\n\nInteraction - Estimation and Actual Meter Reading\n\nExtrapolation\n\nUse\n\nDuring the estimation procedure of extrapolation, a value is forecast for the entire base period. The steps described below are carried out automatically by the system and are not visible to the user. The description should explain the algorithm that derives an expected quantity from a quantity stored in the system and forecasts a meter reading result.\n\nFeatures\n\nWhen using the quantity determination procedure Quantity Determination During Meter Reading, extrapolation takes place as follows:\n\n1 The saved (and rounded) quantities from the meter reading results in the representative base period are added together as a basis for extrapolation.\n\n2 The system determines the weighting Y of the base period.\n\n3 The system determines the weighting Ye of the forecast period.\n\n4 The system determines the quantity Qe for the forecast date by multiplying the added quantity from the base period with the quotient of the weighting of the forecast period and the weighting of the base period.\n\nQ.=Q*(y\u00a5e/y)=(Q/y)* Ve\n\nFormula\n\nThe factor ( Q / Y) describes the Expected Weighted Consumption.\n\n5 From this forecast quantity Qe, that has not yet been rounded, the system calculates the estimated meter reading result Qe taking the relevant factors (such as the gas factors and register factors) into account. This is then rounded and saved according to the system settings.\n\n6 Taking into account the factors from the forecast period, the system determines the final consumption value from the difference between the estimated meter reading result E and the previous meter reading result MR1. The final consumption\n\nvalue is then rounded and saved. i Note The system does not wait for actual gas factors for extrapolation, but determines the final quantity immediately. This means that no quantity determination triggers are generated.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_009_p003_b000",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    134,
+    2488,
+    235
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The concept for calculating the quantity once an actual meter reading result is available following one or more estimations (usually extrapolations) is described in the following section:",
+   "section_id": "doc_009_sec_003"
+  },
+  {
+   "block_id": "doc_009_p003_b001",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    125,
+    319,
+    1028,
+    356
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Interaction - Estimation and Actual Meter Reading",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_009_sec_003"
+  },
+  {
+   "block_id": "doc_009_p003_b002",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    128,
+    506,
+    605,
+    581
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Extrapolation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_009_sec_004"
+  },
+  {
+   "block_id": "doc_009_p003_b003",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    125,
+    682,
+    225,
+    727
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_009_sec_005"
+  },
+  {
+   "block_id": "doc_009_p003_b004",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    815,
+    2467,
+    1036
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "During the estimation procedure of extrapolation, a value is forecast for the entire base period. The steps described below are carried out automatically by the system and are not visible to the user. The description should explain the algorithm that derives an expected quantity from a quantity stored in the system and forecasts a meter reading result.",
+   "section_id": "doc_009_sec_005"
+  },
+  {
+   "block_id": "doc_009_p003_b005",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    1148,
+    361,
+    1194
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_009_sec_006"
+  },
+  {
+   "block_id": "doc_009_p003_b006",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    1281,
+    2429,
+    1374
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "When using the quantity determination procedure Quantity Determination During Meter Reading, extrapolation takes place as follows:",
+   "section_id": "doc_009_sec_006"
+  },
+  {
+   "block_id": "doc_009_p003_b007",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    211,
+    1468,
+    2479,
+    1950
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "The saved (and rounded) quantities from the meter reading results in the representative base period are added together as a basis for extrapolation."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "The system determines the weighting Y of the base period."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "The system determines the weighting Ye of the forecast period."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "The system determines the quantity Qe for the forecast date by multiplying the added quantity from the base period with the quotient of the weighting of the forecast period and the weighting of the base period."
+    }
+   ],
+   "section_id": "doc_009_sec_006"
+  },
+  {
+   "block_id": "doc_009_p003_b008",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    341,
+    2109,
+    1431,
+    2214
+   ],
+   "ocr_confidence": 49.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Q.=Q*(y\u00a5e/y)=(Q/y)* Ve",
+   "section_id": "doc_009_sec_006"
+  },
+  {
+   "block_id": "doc_009_p003_b009",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    255,
+    2325,
+    387,
+    2353
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Formula",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_009_sec_007"
+  },
+  {
+   "block_id": "doc_009_p003_b010",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    254,
+    2419,
+    1549,
+    2459
+   ],
+   "ocr_confidence": 93.3,
+   "flags": [],
+   "text": "The factor ( Q / Y) describes the Expected Weighted Consumption.",
+   "section_id": "doc_009_sec_007"
+  },
+  {
+   "block_id": "doc_009_p003_b011",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    211,
+    2528,
+    2483,
+    2899
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "From this forecast quantity Qe, that has not yet been rounded, the system calculates the estimated meter reading result Qe taking the relevant factors (such as the gas factors and register factors) into account. This is then rounded and saved according to the system settings."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "Taking into account the factors from the forecast period, the system determines the final consumption value from the difference between the estimated meter reading result E and the previous meter reading result MR1. The final consumption"
+    }
+   ],
+   "section_id": "doc_009_sec_007"
+  },
+  {
+   "block_id": "doc_009_p003_b012",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    254,
+    2927,
+    2394,
+    3227
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "value is then rounded and saved. i Note The system does not wait for actual gas factors for extrapolation, but determines the final quantity immediately. This means that no quantity determination triggers are generated.",
+   "section_id": "doc_009_sec_007"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Estimation Procedure Details",
+  "source_pdf": "9.pdf",
+  "reference_pdf": "09_Estimation_Procedure_Details.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Use for advanced estimation logic and validation scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "e21c14c17a26ec265f7d81e1007a5ba58ad64adf8dca5b08539219f911b10153"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:37Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Estimation Procedure Details",
+  "Estimation Procedure",
+  "Features"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_009_sec_003",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_009_sec_004",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_009_sec_005",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_009_sec_006",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_009_sec_007",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,343 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 62,
+ "source_page_hash": "e422bf71bb8f2d583aabee9f8f7363fabdadd97b97afc374e528d6df4a1b7423",
+ "is_cover_page": false,
+ "title": "More Information",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nThe billing schema extension is an entity in SAP IS-U contract billing that is integrated in the billing schema according to the data\nmodel. The billing schema extension contains the conditional billing program and the rate relationship group with the rate\nrelationships.\n\nYou establish which rates are billed and the order in which they are to be processed in the billing schema. You define the\nrelationship between these rates in the billing schema extension: Which rates are used as basic rates for the entire billing period\nand which rates are only used as conditional rates for active TOU exceptions to supplement or substitute the basic rates. Basic\nrates and conditional rates must be used in the same schema and be defined with the same relationship in rate determination.\n\nThe conditional billing program defined in the billing schema extension is used to activate conditional rates. Assigning conditional\nbilling programs to TOU exception programs executes the corresponding rates in the billing schema extension for an active TOU\nexception.\n\nMore Information\n\nRate Relationships\n\nConditional Billing Program\n\nActivities\n\nCreate Billing Schema Extension\n\nConditional Billing Program\n\nThe conditional billing program is used to activate conditional rates for an active TOU exception.\n\nYou define the conditional billing program in the billing schema extension and assign it to TOU exception programs. The conditional\nbilling program refers to a billing schema. You also assign conditional rates to the conditional billing program. These assignments\nmean the system executes the corresponding conditional rates for the billing schema extension for an active TOU exception.\n\nThe conditional billing program means rates can be controlled with a greater degree of flexibility during an exception period. You\ncan assign the conditional billing program to several rate relationship groups and several TOU exception programs. This gives you\nseveral options for representing specific contract conditions and different types of rates including those for interval customers.\n\nRate Relationships\n\nUse\n\nIn conditional billing, the relationship between rates plays a very important role. Rates are used as basic rates for the entire billing\n\nperiod. They are only used as conditional rates for active time-of-use exceptions in order to supplement or substitute the basic\nrates. Rate relationships between basic rates and conditional rates are defined in the billing schema extension.\n\nRate Relationship Groups\n\nThe rate relationship group specifies a rate fact group to combine a basic rate with all conditional rates that are assigned to this\n",
+ "cleaned_text": "The billing schema extension is an entity in SAP IS-U contract billing that is integrated in the billing schema according to the data model. The billing schema extension contains the conditional billing program and the rate relationship group with the rate relationships. You establish which rates are billed and the order in which they are to be processed in the billing schema. You define the relationship between these rates in the billing schema extension: Which rates are used as basic rates for the entire billing period and which rates are only used as conditional rates for active TOU exceptions to supplement or substitute the basic rates. Basic rates and conditional rates must be used in the same schema and be defined with the same relationship in rate determination. The conditional billing program defined in the billing schema extension is used to activate conditional rates. Assigning conditional billing programs to TOU exception programs executes the corresponding rates in the billing schema extension for an active TOU exception.\n\nMore Information\n\nRate Relationships\n\nConditional Billing Program\n\nActivities\n\nCreate Billing Schema Extension\n\nConditional Billing Program\n\nThe conditional billing program is used to activate conditional rates for an active TOU exception. You define the conditional billing program in the billing schema extension and assign it to TOU exception programs. The conditional billing program refers to a billing schema. You also assign conditional rates to the conditional billing program. These assignments mean the system executes the corresponding conditional rates for the billing schema extension for an active TOU exception. The conditional billing program means rates can be controlled with a greater degree of flexibility during an exception period. You can assign the conditional billing program to several rate relationship groups and several TOU exception programs. This gives you several options for representing specific contract conditions and different types of rates including those for interval customers.\n\nRate Relationships\n\nUse\n\nIn conditional billing, the relationship between rates plays a very important role. Rates are used as basic rates for the entire billing period. They are only used as conditional rates for active time-of-use exceptions in order to supplement or substitute the basic rates. Rate relationships between basic rates and conditional rates are defined in the billing schema extension.\n\nRate Relationship Groups\n\nThe rate relationship group specifies a rate fact group to combine a basic rate with all conditional rates that are assigned to this",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p062_b000",
+   "type": "paragraph",
+   "page_number": 62,
+   "bbox": [
+    122,
+    134,
+    2460,
+    858
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The billing schema extension is an entity in SAP IS-U contract billing that is integrated in the billing schema according to the data model. The billing schema extension contains the conditional billing program and the rate relationship group with the rate relationships. You establish which rates are billed and the order in which they are to be processed in the billing schema. You define the relationship between these rates in the billing schema extension: Which rates are used as basic rates for the entire billing period and which rates are only used as conditional rates for active TOU exceptions to supplement or substitute the basic rates. Basic rates and conditional rates must be used in the same schema and be defined with the same relationship in rate determination. The conditional billing program defined in the billing schema extension is used to activate conditional rates. Assigning conditional billing programs to TOU exception programs executes the corresponding rates in the billing schema extension for an active TOU exception.",
+   "section_id": "doc_011_sec_201"
+  },
+  {
+   "block_id": "doc_011_p062_b001",
+   "type": "heading",
+   "page_number": 62,
+   "bbox": [
+    126,
+    971,
+    611,
+    1016
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "More Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_202"
+  },
+  {
+   "block_id": "doc_011_p062_b002",
+   "type": "heading",
+   "page_number": 62,
+   "bbox": [
+    125,
+    1103,
+    459,
+    1141
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Rate Relationships",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_202"
+  },
+  {
+   "block_id": "doc_011_p062_b003",
+   "type": "heading",
+   "page_number": 62,
+   "bbox": [
+    123,
+    1225,
+    620,
+    1263
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Conditional Billing Program",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_202"
+  },
+  {
+   "block_id": "doc_011_p062_b004",
+   "type": "heading",
+   "page_number": 62,
+   "bbox": [
+    123,
+    1375,
+    383,
+    1420
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_203"
+  },
+  {
+   "block_id": "doc_011_p062_b005",
+   "type": "heading",
+   "page_number": 62,
+   "bbox": [
+    123,
+    1507,
+    710,
+    1545
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Create Billing Schema Extension",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_203"
+  },
+  {
+   "block_id": "doc_011_p062_b006",
+   "type": "heading",
+   "page_number": 62,
+   "bbox": [
+    125,
+    1691,
+    1114,
+    1767
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Conditional Billing Program",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_204"
+  },
+  {
+   "block_id": "doc_011_p062_b007",
+   "type": "paragraph",
+   "page_number": 62,
+   "bbox": [
+    122,
+    1842,
+    2487,
+    2376
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The conditional billing program is used to activate conditional rates for an active TOU exception. You define the conditional billing program in the billing schema extension and assign it to TOU exception programs. The conditional billing program refers to a billing schema. You also assign conditional rates to the conditional billing program. These assignments mean the system executes the corresponding conditional rates for the billing schema extension for an active TOU exception. The conditional billing program means rates can be controlled with a greater degree of flexibility during an exception period. You can assign the conditional billing program to several rate relationship groups and several TOU exception programs. This gives you several options for representing specific contract conditions and different types of rates including those for interval customers.",
+   "section_id": "doc_011_sec_204"
+  },
+  {
+   "block_id": "doc_011_p062_b008",
+   "type": "heading",
+   "page_number": 62,
+   "bbox": [
+    128,
+    2523,
+    798,
+    2598
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Rate Relationships",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_205"
+  },
+  {
+   "block_id": "doc_011_p062_b009",
+   "type": "heading",
+   "page_number": 62,
+   "bbox": [
+    125,
+    2702,
+    225,
+    2747
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_206"
+  },
+  {
+   "block_id": "doc_011_p062_b010",
+   "type": "paragraph",
+   "page_number": 62,
+   "bbox": [
+    124,
+    2831,
+    2459,
+    2997
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "In conditional billing, the relationship between rates plays a very important role. Rates are used as basic rates for the entire billing period. They are only used as conditional rates for active time-of-use exceptions in order to supplement or substitute the basic rates. Rate relationships between basic rates and conditional rates are defined in the billing schema extension.",
+   "section_id": "doc_011_sec_206"
+  },
+  {
+   "block_id": "doc_011_p062_b011",
+   "type": "heading",
+   "page_number": 62,
+   "bbox": [
+    126,
+    3109,
+    836,
+    3166
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Rate Relationship Groups",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_207"
+  },
+  {
+   "block_id": "doc_011_p062_b012",
+   "type": "paragraph",
+   "page_number": 62,
+   "bbox": [
+    122,
+    3242,
+    2427,
+    3280
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The rate relationship group specifies a rate fact group to combine a basic rate with all conditional rates that are assigned to this",
+   "section_id": "doc_011_sec_207"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "e422bf71bb8f2d583aabee9f8f7363fabdadd97b97afc374e528d6df4a1b7423"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Billing Schema Extension"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_201",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_202",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_203",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_204",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_205",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_206",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_207",
+   "role": "starts_here"
+  }
+ ]
+}

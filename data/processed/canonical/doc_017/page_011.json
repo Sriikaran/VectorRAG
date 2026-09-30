@@ -1,0 +1,400 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_017",
+ "page_number": 11,
+ "source_page_hash": "aec2c0916de37dece88bcaa35880e498a36ccb9d47d35cc33a2aa1f93e29b345",
+ "is_cover_page": false,
+ "title": "Prerequisites",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nPrerequisites\n\nSeveral business partners must be assigned to the contract account.\n\nProcedure\n\nYou can use the OtherPartner function to switch between the data of individual partners in the contract account.\n\n1. On the SAP Easy Access screen, choose |}#Master Data \u00bb Contract Account > Display 3 (CAA3).\nEnter the required contract account.\n2. Then choose |Goto \u00a7 Other Partner\n3. The system displays a selection window for the business partners already assigned to the contract account.\n\n4. Choose a business partner.\n\nThe data for this business partner is displayed and can be processed.\n\nSelecting Addresses for Business Partners\n\nPrerequisites\n\nYou have defined multiple addresses for a business partner want to use each of these addresses for a specific purpose (for\nexample, for dunning notices).\n\nProcedure\n\n1. In the Create Contract Account / Change Contract Account (CAA1/CAAZ2) transactions, on the General Data , Payments\n/ Taxes, or Dunning / Correspondence tab pages, call the input help for the Address Description field.\n\nA selection window appears with the business partner addresses maintained in the master record.\n\n2. Choose the required address, for example, that you want to send a dunning notice to, by double-clicking it.\n\nResult\n\nThe selected address is transferred. In the contract account master record, the Fixed indicator next to the address field is now\nselected. It indicates that a specific address was selected and not the standard address of the business partner.\n\n1 Note\n\nYou can use this function to select the address for each business partner in the contract account, regardless of whether this is\nthe owner of the contract account to be created or changed, or an alternative business partner (Such as the dunning recipient).\n\nIf you do not select an address, the default address of the contract account holder is used automatically for all business\ntransactions.\n",
+ "cleaned_text": "Prerequisites\n\nSeveral business partners must be assigned to the contract account.\n\nProcedure\n\nYou can use the OtherPartner function to switch between the data of individual partners in the contract account.\n\n1 On the SAP Easy Access screen, choose |}#Master Data \u00bb Contract Account > Display 3 (CAA3). Enter the required contract account.\n\n2 Then choose |Goto \u00a7 Other Partner\n\n3 The system displays a selection window for the business partners already assigned to the contract account.\n\n4 Choose a business partner.\n\nThe data for this business partner is displayed and can be processed.\n\nSelecting Addresses for Business Partners\n\nPrerequisites\n\nYou have defined multiple addresses for a business partner want to use each of these addresses for a specific purpose (for example, for dunning notices).\n\nProcedure\n\n1 In the Create Contract Account / Change Contract Account (CAA1/CAAZ2) transactions, on the General Data , Payments / Taxes, or Dunning / Correspondence tab pages, call the input help for the Address Description field. A selection window appears with the business partner addresses maintained in the master record.\n\n2 Choose the required address, for example, that you want to send a dunning notice to, by double-clicking it.\n\nResult\n\nThe selected address is transferred. In the contract account master record, the Fixed indicator next to the address field is now selected. It indicates that a specific address was selected and not the standard address of the business partner.\n\nNote You can use this function to select the address for each business partner in the contract account, regardless of whether this is the owner of the contract account to be created or changed, or an alternative business partner (Such as the dunning recipient). If you do not select an address, the default address of the contract account holder is used automatically for all business transactions.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    2795,
+    310,
+    2832
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_017_p011_b000",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    126,
+    127,
+    492,
+    183
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_059"
+  },
+  {
+   "block_id": "doc_017_p011_b001",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    124,
+    259,
+    1366,
+    297
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Several business partners must be assigned to the contract account.",
+   "section_id": "doc_017_sec_059"
+  },
+  {
+   "block_id": "doc_017_p011_b002",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    126,
+    409,
+    409,
+    454
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_060"
+  },
+  {
+   "block_id": "doc_017_p011_b003",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    123,
+    541,
+    2160,
+    580
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "You can use the OtherPartner function to switch between the data of individual partners in the contract account.",
+   "section_id": "doc_017_sec_060"
+  },
+  {
+   "block_id": "doc_017_p011_b004",
+   "type": "list",
+   "page_number": 11,
+   "bbox": [
+    211,
+    661,
+    2202,
+    1115
+   ],
+   "ocr_confidence": 90.5,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "On the SAP Easy Access screen, choose |}#Master Data \u00bb Contract Account > Display 3 (CAA3). Enter the required contract account."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Then choose |Goto \u00a7 Other Partner"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "The system displays a selection window for the business partners already assigned to the contract account."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Choose a business partner."
+    }
+   ],
+   "section_id": "doc_017_sec_060"
+  },
+  {
+   "block_id": "doc_017_p011_b005",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    122,
+    1199,
+    1372,
+    1236
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The data for this business partner is displayed and can be processed.",
+   "section_id": "doc_017_sec_060"
+  },
+  {
+   "block_id": "doc_017_p011_b006",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    125,
+    1382,
+    1660,
+    1458
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Selecting Addresses for Business Partners",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_061"
+  },
+  {
+   "block_id": "doc_017_p011_b007",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    126,
+    1563,
+    492,
+    1619
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_062"
+  },
+  {
+   "block_id": "doc_017_p011_b008",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    123,
+    1692,
+    2335,
+    1795
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You have defined multiple addresses for a business partner want to use each of these addresses for a specific purpose (for example, for dunning notices).",
+   "section_id": "doc_017_sec_062"
+  },
+  {
+   "block_id": "doc_017_p011_b009",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    126,
+    1907,
+    409,
+    1953
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_063"
+  },
+  {
+   "block_id": "doc_017_p011_b010",
+   "type": "list",
+   "page_number": 11,
+   "bbox": [
+    212,
+    2038,
+    2463,
+    2347
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "In the Create Contract Account / Change Contract Account (CAA1/CAAZ2) transactions, on the General Data , Payments / Taxes, or Dunning / Correspondence tab pages, call the input help for the Address Description field. A selection window appears with the business partner addresses maintained in the master record."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Choose the required address, for example, that you want to send a dunning notice to, by double-clicking it."
+    }
+   ],
+   "section_id": "doc_017_sec_063"
+  },
+  {
+   "block_id": "doc_017_p011_b011",
+   "type": "heading",
+   "page_number": 11,
+   "bbox": [
+    126,
+    2459,
+    298,
+    2504
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Result",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_017_sec_064"
+  },
+  {
+   "block_id": "doc_017_p011_b012",
+   "type": "paragraph",
+   "page_number": 11,
+   "bbox": [
+    122,
+    2592,
+    2401,
+    2692
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "The selected address is transferred. In the contract account master record, the Fixed indicator next to the address field is now selected. It indicates that a specific address was selected and not the standard address of the business partner.",
+   "section_id": "doc_017_sec_064"
+  },
+  {
+   "block_id": "doc_017_p011_b013",
+   "type": "note",
+   "page_number": 11,
+   "bbox": [
+    151,
+    2795,
+    2447,
+    3154
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "label": "Note",
+   "text": "Note You can use this function to select the address for each business partner in the contract account, regardless of whether this is the owner of the contract account to be created or changed, or an alternative business partner (Such as the dunning recipient). If you do not select an address, the default address of the contract account holder is used automatically for all business transactions.",
+   "section_id": "doc_017_sec_064"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Accounts Overview",
+  "source_pdf": "17.pdf",
+  "reference_pdf": "17_Contract_Accounts_Overview.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Use to connect utility invoicing to receivables, payments and dunning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "aec2c0916de37dece88bcaa35880e498a36ccb9d47d35cc33a2aa1f93e29b345"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:42Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Accounts Overview",
+  "Assigning Additional Business Partners",
+  "Prerequisites"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_017_sec_059",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_060",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_061",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_062",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_063",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_017_sec_064",
+   "role": "starts_here"
+  }
+ ]
+}

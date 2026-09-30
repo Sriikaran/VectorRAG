@@ -1,0 +1,198 @@
+{
+ "document_id": "doc_016",
+ "page_number": 3,
+ "source_pdf": "16.pdf",
+ "page_hash": "920f1166609688fc263770df9cadcb70005d406b007547c3d3b27edeb947a1f1",
+ "ocr_engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+ "ocr_settings": {
+  "oem": 1,
+  "psm": 3,
+  "dpi": 300,
+  "language": "eng",
+  "colorspace": "grayscale",
+  "variables": {
+   "preserve_interword_spaces": "1"
+  }
+ },
+ "render_size": [
+  2550,
+  3300
+ ],
+ "text": "9/29/26, 9:48 AM\nRelevant Business Catalog\n\nThe relevant business catalog for this app is Utilities Billing (SAP ISU BC BIL SPECIALIST).\n\n",
+ "character_count": 138,
+ "word_count": 21,
+ "mean_confidence": 93,
+ "word_boxes": [
+  [
+   "9/29/26,",
+   107,
+   72,
+   248,
+   103,
+   96.8
+  ],
+  [
+   "9:48",
+   264,
+   72,
+   338,
+   99,
+   96.0
+  ],
+  [
+   "AM",
+   353,
+   73,
+   403,
+   99,
+   96.4
+  ],
+  [
+   "Relevant",
+   126,
+   127,
+   364,
+   173,
+   95.8
+  ],
+  [
+   "Business",
+   385,
+   127,
+   632,
+   173,
+   96.2
+  ],
+  [
+   "Catalog",
+   652,
+   127,
+   868,
+   185,
+   95.7
+  ],
+  [
+   "The",
+   122,
+   266,
+   189,
+   296,
+   95.2
+  ],
+  [
+   "relevant",
+   203,
+   265,
+   346,
+   296,
+   96.8
+  ],
+  [
+   "business",
+   359,
+   266,
+   516,
+   296,
+   95.7
+  ],
+  [
+   "catalog",
+   529,
+   265,
+   661,
+   304,
+   95.7
+  ],
+  [
+   "for",
+   672,
+   266,
+   722,
+   296,
+   96.6
+  ],
+  [
+   "this",
+   733,
+   266,
+   798,
+   296,
+   96.6
+  ],
+  [
+   "app",
+   811,
+   274,
+   876,
+   304,
+   96.8
+  ],
+  [
+   "is",
+   891,
+   267,
+   916,
+   296,
+   96.7
+  ],
+  [
+   "Utilities",
+   930,
+   266,
+   1070,
+   296,
+   96.7
+  ],
+  [
+   "Billing",
+   1085,
+   265,
+   1199,
+   305,
+   96.5
+  ],
+  [
+   "(SAP",
+   1211,
+   263,
+   1299,
+   304,
+   75.2
+  ],
+  [
+   "ISU",
+   1330,
+   263,
+   1400,
+   296,
+   75.2
+  ],
+  [
+   "BC",
+   1432,
+   263,
+   1476,
+   296,
+   92.5
+  ],
+  [
+   "BIL",
+   1508,
+   264,
+   1579,
+   296,
+   89.7
+  ],
+  [
+   "SPECIALIST).",
+   1609,
+   263,
+   1884,
+   304,
+   89.7
+  ]
+ ],
+ "processed_at": "2026-09-30T09:16:57Z",
+ "duration_seconds": 0.27,
+ "complete": true
+}

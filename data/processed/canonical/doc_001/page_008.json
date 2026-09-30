@@ -1,0 +1,347 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 8,
+ "source_page_hash": "e5d159656b916b35851d00cd8c2dfa7d31172ff72999ba61e18bee67c93d9300",
+ "is_cover_page": false,
+ "title": "Follow-On Actions",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n0036, and form class FI.CA_CCARD_MAINTAIN for correspondence type 0040.\n\n2. Create a copy of the standard form FIL-CA_BANK_MAINTAIN_SAMPLE or FILCA_CCARD_MAINTAIN_SAMPLE and adjust it\naccordingly.\n\n3. In Customizing for Contract Accounts Receivable and Payable , choose |}Basic Functions \u00bb Correspondence > Define\nApplication Forms for Correspondence 3 and enter the new forms for the correspondence types 0036 and 0040.\n\nFor printing confirmations, you have various options in the IMG activity Define Processing Variants . For more information, see the\nImplementation Guide.\n\nFollow-On Actions\n\nIn the Implementation Guide for Contract Accounts Receivable and Payable , under |)}Basic Functions \u00bb Contract Partner\nChanges to Payment Transactions \u00bb Define Set of Rules for Follow-On Actions | , define rules that the system is to use to trigger\nfollow-on actions for changes to payment data.\n\nIn the IMG activity Define Processing Variants , you can make further settings for the follow-on actions.\n\nRead the documentation for the IMG activities.\n\nChanging Payment Data\n\nPrerequisites\n\nYou have authorization for changing bank details and payment card data. If you do not have sufficient authorization for these\nactivities, the system terminates processing. For displaying contract accounts, the system considers only those contract accounts\nfor which you have at least display authorization. Selection is only possible for contract accounts, for which you have change\nauthorization. If you do not have the required authorization, the system issues an error message for each action that cannot be\ncarried out.\n\nProcedure\n\n1. On the SAP Easy Access screen, choose |/#Master Data \u00bb Business Partner \u00bb Change Payment Data\n\n2. Enter the business partner. In the Valid From field, enter the date starting from which the change to the bank data or\npayment card data should be valid.\n\n3. Confirm your entries.\n\n4. Choose a reason for the change.\n\n5. Make your changes to the data and save your entries.\n\nThe system automatically selects the object to be changed (bank details/payment card) and starts the appropriate transaction. By\nchoosing |}Goto \u00bb Change Bank Data 3 or |'Goto \u00bb Change Payment Cards 3 from the menu, you can override this setting.\n\nThe system also chooses the program mode automatically. If there are no existing bank details for the entered business partner,\nthe system chooses Create mode. In all other cases, the system chooses Change mode. You can change from one mode to the\n\nother by choosing the pushbutton for this in the toolbar.\n",
+ "cleaned_text": "0036, and form class FI.CA_CCARD_MAINTAIN for correspondence type 0040.\n\n2 Create a copy of the standard form FIL-CA_BANK_MAINTAIN_SAMPLE or FILCA_CCARD_MAINTAIN_SAMPLE and adjust it accordingly.\n\n3 In Customizing for Contract Accounts Receivable and Payable , choose |}Basic Functions \u00bb Correspondence > Define Application Forms for Correspondence 3 and enter the new forms for the correspondence types 0036 and 0040.\n\nFor printing confirmations, you have various options in the IMG activity Define Processing Variants . For more information, see the Implementation Guide.\n\nFollow-On Actions\n\nIn the Implementation Guide for Contract Accounts Receivable and Payable , under |)}Basic Functions \u00bb Contract Partner Changes to Payment Transactions \u00bb Define Set of Rules for Follow-On Actions | , define rules that the system is to use to trigger follow-on actions for changes to payment data. In the IMG activity Define Processing Variants , you can make further settings for the follow-on actions. Read the documentation for the IMG activities.\n\nChanging Payment Data\n\nPrerequisites\n\nYou have authorization for changing bank details and payment card data. If you do not have sufficient authorization for these activities, the system terminates processing. For displaying contract accounts, the system considers only those contract accounts for which you have at least display authorization. Selection is only possible for contract accounts, for which you have change authorization. If you do not have the required authorization, the system issues an error message for each action that cannot be carried out.\n\nProcedure\n\n1 On the SAP Easy Access screen, choose |/#Master Data \u00bb Business Partner \u00bb Change Payment Data\n\n2 Enter the business partner. In the Valid From field, enter the date starting from which the change to the bank data or payment card data should be valid.\n\n3 Confirm your entries.\n\n4 Choose a reason for the change.\n\n5 Make your changes to the data and save your entries.\n\nThe system automatically selects the object to be changed (bank details/payment card) and starts the appropriate transaction. By choosing |}Goto \u00bb Change Bank Data 3 or |'Goto \u00bb Change Payment Cards 3 from the menu, you can override this setting. The system also chooses the program mode automatically. If there are no existing bank details for the entered business partner, the system chooses Create mode. In all other cases, the system chooses Change mode. You can change from one mode to the other by choosing the pushbutton for this in the toolbar.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p008_b000",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    255,
+    134,
+    1695,
+    172
+   ],
+   "ocr_confidence": 91.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "0036, and form class FI.CA_CCARD_MAINTAIN for correspondence type 0040.",
+   "section_id": "doc_001_sec_025"
+  },
+  {
+   "block_id": "doc_001_p008_b001",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    211,
+    236,
+    2463,
+    509
+   ],
+   "ocr_confidence": 88.8,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Create a copy of the standard form FIL-CA_BANK_MAINTAIN_SAMPLE or FILCA_CCARD_MAINTAIN_SAMPLE and adjust it accordingly."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "In Customizing for Contract Accounts Receivable and Payable , choose |}Basic Functions \u00bb Correspondence > Define Application Forms for Correspondence 3 and enter the new forms for the correspondence types 0036 and 0040."
+    }
+   ],
+   "section_id": "doc_001_sec_025"
+  },
+  {
+   "block_id": "doc_001_p008_b002",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    125,
+    587,
+    2476,
+    688
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "For printing confirmations, you have various options in the IMG activity Define Processing Variants . For more information, see the Implementation Guide.",
+   "section_id": "doc_001_sec_025"
+  },
+  {
+   "block_id": "doc_001_p008_b003",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    124,
+    772,
+    457,
+    802
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Follow-On Actions",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_026"
+  },
+  {
+   "block_id": "doc_001_p008_b004",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    892,
+    2485,
+    1295
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "In the Implementation Guide for Contract Accounts Receivable and Payable , under |)}Basic Functions \u00bb Contract Partner Changes to Payment Transactions \u00bb Define Set of Rules for Follow-On Actions | , define rules that the system is to use to trigger follow-on actions for changes to payment data. In the IMG activity Define Processing Variants , you can make further settings for the follow-on actions. Read the documentation for the IMG activities.",
+   "section_id": "doc_001_sec_026"
+  },
+  {
+   "block_id": "doc_001_p008_b005",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    125,
+    1451,
+    1001,
+    1527
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Changing Payment Data",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_027"
+  },
+  {
+   "block_id": "doc_001_p008_b006",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    126,
+    1628,
+    492,
+    1684
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_028"
+  },
+  {
+   "block_id": "doc_001_p008_b007",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    1761,
+    2478,
+    2044
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You have authorization for changing bank details and payment card data. If you do not have sufficient authorization for these activities, the system terminates processing. For displaying contract accounts, the system considers only those contract accounts for which you have at least display authorization. Selection is only possible for contract accounts, for which you have change authorization. If you do not have the required authorization, the system issues an error message for each action that cannot be carried out.",
+   "section_id": "doc_001_sec_028"
+  },
+  {
+   "block_id": "doc_001_p008_b008",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    126,
+    2164,
+    409,
+    2209
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_029"
+  },
+  {
+   "block_id": "doc_001_p008_b009",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    211,
+    2292,
+    2356,
+    2807
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "On the SAP Easy Access screen, choose |/#Master Data \u00bb Business Partner \u00bb Change Payment Data"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter the business partner. In the Valid From field, enter the date starting from which the change to the bank data or payment card data should be valid."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Confirm your entries."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Choose a reason for the change."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Make your changes to the data and save your entries."
+    }
+   ],
+   "section_id": "doc_001_sec_029"
+  },
+  {
+   "block_id": "doc_001_p008_b010",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    2891,
+    2488,
+    3240
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "The system automatically selects the object to be changed (bank details/payment card) and starts the appropriate transaction. By choosing |}Goto \u00bb Change Bank Data 3 or |'Goto \u00bb Change Payment Cards 3 from the menu, you can override this setting. The system also chooses the program mode automatically. If there are no existing bank details for the entered business partner, the system chooses Create mode. In all other cases, the system chooses Change mode. You can change from one mode to the other by choosing the pushbutton for this in the toolbar.",
+   "section_id": "doc_001_sec_029"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.1087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "e5d159656b916b35851d00cd8c2dfa7d31172ff72999ba61e18bee67c93d9300"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:26Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making System Settings",
+  "Procedure",
+  "Creation of Confirmation"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_025",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_026",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_027",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_028",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_029",
+   "role": "starts_here"
+  }
+ ]
+}

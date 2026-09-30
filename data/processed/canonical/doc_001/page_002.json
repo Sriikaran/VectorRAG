@@ -1,0 +1,384 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 2,
+ "source_page_hash": "8963350767f3638f91d376464eb80806f92ff4725882294c652cc6f7e8a1d066",
+ "is_cover_page": false,
+ "title": "Master Data",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nMaster Data\n\nPurpose\n\nThis component contains data for the Utilities Industry (IS-U) component that remains unchanged over a long period of time.\n\nThere are two different types of master data:\n\nBusiness Master Data\n\nBusiness Partner\n\nService Provider\n\nContract Account\n\nNon-Billable Service\n\nContract\n(Billable Service)\n\nBusiness master data includes:\n\ne Business partner\n\ne Contract account\n\ne Contract (billable service)\ne Service provider\n\ne Non-billable service\n\nTechnical master data includes:\n\ne Grid\n\ne Point of delivery\n\ne Connection\n\ne Connection object\ne Technical installation\ne Premise\n\ne Device location\n\ne Installation\n\nTechnical Master Data\n",
+ "cleaned_text": "Master Data\n\nPurpose\n\nThis component contains data for the Utilities Industry (IS-U) component that remains unchanged over a long period of time.\n\nThere are two different types of master data:\n\nBusiness Master Data Business Partner\n\nService Provider Contract Account\n\nNon-Billable Service Contract (Billable Service)\n\nBusiness master data includes:\n\n- Business partner\n\n- Contract account\n\n- Contract (billable service)\n\n- Service provider\n\n- Non-billable service\n\nTechnical master data includes:\n\n- Grid\n\n- Point of delivery\n\n- Connection\n\n- Connection object\n\n- Technical installation\n\n- Premise\n\n- Device location\n\n- Installation\n\nTechnical Master Data",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    256,
+    565,
+    316
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Master Data",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_001"
+  },
+  {
+   "block_id": "doc_001_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    124,
+    408,
+    275,
+    445
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Purpose",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_002"
+  },
+  {
+   "block_id": "doc_001_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    528,
+    2398,
+    567
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "This component contains data for the Utilities Industry (IS-U) component that remains unchanged over a long period of time.",
+   "section_id": "doc_001_sec_002"
+  },
+  {
+   "block_id": "doc_001_p002_b003",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    650,
+    927,
+    688
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "There are two different types of master data:",
+   "section_id": "doc_001_sec_002"
+  },
+  {
+   "block_id": "doc_001_p002_b004",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    154,
+    782,
+    1466,
+    837
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Business Master Data Business Partner",
+   "section_id": "doc_001_sec_002"
+  },
+  {
+   "block_id": "doc_001_p002_b005",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    726,
+    948,
+    1474,
+    977
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Service Provider Contract Account",
+   "section_id": "doc_001_sec_002"
+  },
+  {
+   "block_id": "doc_001_p002_b006",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    663,
+    1069,
+    1397,
+    1147
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Non-Billable Service Contract (Billable Service)",
+   "section_id": "doc_001_sec_002"
+  },
+  {
+   "block_id": "doc_001_p002_b007",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    125,
+    1761,
+    686,
+    1791
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Business master data includes:",
+   "section_id": "doc_001_sec_002"
+  },
+  {
+   "block_id": "doc_001_p002_b008",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    206,
+    1882,
+    722,
+    2323
+   ],
+   "ocr_confidence": 91.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Business partner"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Contract account"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Contract (billable service)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Service provider"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Non-billable service"
+    }
+   ],
+   "section_id": "doc_001_sec_002"
+  },
+  {
+   "block_id": "doc_001_p002_b009",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    2414,
+    692,
+    2445
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Technical master data includes:",
+   "section_id": "doc_001_sec_002"
+  },
+  {
+   "block_id": "doc_001_p002_b010",
+   "type": "list",
+   "page_number": 2,
+   "bbox": [
+    206,
+    2536,
+    632,
+    3282
+   ],
+   "ocr_confidence": 93.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Grid"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Point of delivery"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Connection"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Connection object"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Technical installation"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Premise"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Device location"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Installation"
+    }
+   ],
+   "section_id": "doc_001_sec_002"
+  },
+  {
+   "block_id": "doc_001_p002_b011",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    1948,
+    1284,
+    2411,
+    1319
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Technical Master Data",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_003"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 35.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "8963350767f3638f91d376464eb80806f92ff4725882294c652cc6f7e8a1d066"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:26Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Master Data"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_003",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,390 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 21,
+ "source_page_hash": "0f7725a31d7d883e478b3a2c9f288e2c5503f469e76f01961454f4f09f4b7d1b",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nReg. Fact.      | ---nmnnnnnnn nnn | -----n-nn naan nnn nnn nnn nnn enn |\nMR Res.         0                  800                                    ? kWh\n|\u2014_\u2014\u2014_\u2014\u2014\u2014_- EEE\n|\n\nMR Reas.\n\n08                     09                                      01\n4,000                                           5,000      kWh/Year\nPer.Cons.... |.-@-\u2014\u2014 | _--\n\nWght. Unit                 400               400              200\n\nWght. Por.                 40%               40%            20%\n\nOn installation of the device, a period consumption value of 4,000 kWh/year is entered for the register. This value is changed to\n5,000 kWh / year after the last meter reading result entry in period 09 to O1.\n\nThe minimum portion of weighting in percent is 30%.\nThe sum of the weighting units for one year is 1,000.\n\nWith a weighting portion of 40%, period O09 to 08 is representative. One period consumption change was made in the forecast\nperiod Y to P. The expected meter reading is determined as follows:\n\nFor the period from Y until the period consumption change, extrapolation is based on meter reading results:\n\n1. Determination of meter reading difference 09 to 08: 800 kWh - 0 kWh = 800 kWh\n\na. Determination of consumption for 09 by multiplying the meter reading difference with the register factor: 8300\nkWh2 = 1,600 kWh\n\nb. Determination of consumption per weighting unit: 1,600 kWh: 400 = 4 kWh\n\nc. Extrapolation of consumption for period O09 until the period consumption change: 4 kWh600 = 1,600 kWh\n\nd. Determination of the meter reading difference for period 09 until the period consumption change by dividing the\nconsumption value by the register factor: 1,600 kWh: 10 = 160 kWh\n\n1. For the period from the period consumption change to O1, consumption is extrapolated from the period consumption:\n\na. Determination of period consumption per weighting unit by dividing the period consumption by the weight of\nvalidity period: 5,000 kWh : 1,000 = 5 kWh\n\nb. Extrapolation of period consumption for the period from the period consumption change to 01: 5 kWh200 =\n1,000 kWh\n\nc. Determination of the meter reading difference for the period from the period consumption change to O01 by\ndividing the consumption value by the register factor: 1.000 kWh : 10 = 100 kWh\n\n2. Determination of the expected meter reading for O1 by adding the meter reading difference for meter reading 09: 800\nLANA &1EGN WANA & INN LWh\u2014- TANEGOLWH\n",
+ "cleaned_text": "Reg. Fact. | | ---nmnnnnnnn nnn | -----n-nn naan nnn nnn nnn nnn enn |\n\nMR Res. | 0 | 800 | ? kWh\n\n|\u2014_\u2014\u2014_\u2014\u2014\u2014_- EEE | MR Reas.\n\n08 | 09 | 01\n\n4,000 | 5,000 | kWh/Year\n\nPer.Cons.... | |.-@-\u2014\u2014 | _--\n\nWght. Unit | 400 | 400 | 200\n\nWght. Por. | 40% | 40% | 20%\n\nOn installation of the device, a period consumption value of 4,000 kWh/year is entered for the register. This value is changed to 5,000 kWh / year after the last meter reading result entry in period 09 to O1. The minimum portion of weighting in percent is 30%. The sum of the weighting units for one year is 1,000. With a weighting portion of 40%, period O09 to 08 is representative. One period consumption change was made in the forecast period Y to P. The expected meter reading is determined as follows: For the period from Y until the period consumption change, extrapolation is based on meter reading results:\n\n1 Determination of meter reading difference 09 to 08: 800 kWh - 0 kWh = 800 kWh a. Determination of consumption for 09 by multiplying the meter reading difference with the register factor: 8300 kWh2 = 1,600 kWh\n\nb. Determination of consumption per weighting unit: 1,600 kWh: 400 = 4 kWh c. Extrapolation of consumption for period O09 until the period consumption change: 4 kWh600 = 1,600 kWh d. Determination of the meter reading difference for period 09 until the period consumption change by dividing the consumption value by the register factor: 1,600 kWh: 10 = 160 kWh\n\n1 For the period from the period consumption change to O1, consumption is extrapolated from the period consumption: a. Determination of period consumption per weighting unit by dividing the period consumption by the weight of validity period: 5,000 kWh : 1,000 = 5 kWh\n\nb. Extrapolation of period consumption for the period from the period consumption change to 01: 5 kWh200 = 1,000 kWh c. Determination of the meter reading difference for the period from the period consumption change to O01 by dividing the consumption value by the register factor: 1.000 kWh : 10 = 100 kWh\n\n2 Determination of the expected meter reading for O1 by adding the meter reading difference for meter reading 09: 800\n\nLANA &1EGN WANA & INN LWh\u2014- TANEGOLWH",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p021_b000",
+   "type": "table",
+   "page_number": 21,
+   "bbox": [
+    154,
+    210,
+    2221,
+    420
+   ],
+   "ocr_confidence": 53.7,
+   "flags": [
+    "low_confidence_words:9",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 5,
+   "column_starts": [
+    154,
+    611,
+    644,
+    1067,
+    2006
+   ],
+   "headers": [
+    "Reg. Fact.",
+    "| ---nmnnnnnnn nnn | -----n-nn naan nnn nnn nnn nnn enn |"
+   ],
+   "rows": [
+    [
+     "MR Res.",
+     "0",
+     "800",
+     "? kWh"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Reg. Fact.",
+     "| ---nmnnnnnnn nnn | -----n-nn naan nnn nnn nnn nnn enn |"
+    ],
+    [
+     "MR Res.",
+     "0",
+     "800",
+     "? kWh"
+    ]
+   ],
+   "section_id": "doc_006_sec_027"
+  },
+  {
+   "block_id": "doc_006_p021_b001",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    154,
+    445,
+    2027,
+    578
+   ],
+   "ocr_confidence": 63.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "|\u2014_\u2014\u2014_\u2014\u2014\u2014_- EEE | MR Reas.",
+   "section_id": "doc_006_sec_027"
+  },
+  {
+   "block_id": "doc_006_p021_b002",
+   "type": "table",
+   "page_number": 21,
+   "bbox": [
+    152,
+    617,
+    2309,
+    1147
+   ],
+   "ocr_confidence": 78.1,
+   "flags": [
+    "low_confidence_words:4",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 10,
+   "column_starts": [
+    152,
+    569,
+    615,
+    890,
+    1089,
+    1387,
+    1416,
+    1698,
+    1848,
+    1984
+   ],
+   "headers": [
+    "08",
+    "09",
+    "01"
+   ],
+   "rows": [
+    [
+     "4,000",
+     "5,000",
+     "kWh/Year"
+    ],
+    [
+     "Per.Cons....",
+     "|.-@-\u2014\u2014 | _--"
+    ],
+    [
+     "Wght. Unit",
+     "400",
+     "400",
+     "200"
+    ],
+    [
+     "Wght. Por.",
+     "40%",
+     "40%",
+     "20%"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "08",
+     "09",
+     "01"
+    ],
+    [
+     "4,000",
+     "5,000",
+     "kWh/Year"
+    ],
+    [
+     "Per.Cons....",
+     "|.-@-\u2014\u2014 | _--"
+    ],
+    [
+     "Wght. Unit",
+     "400",
+     "400",
+     "200"
+    ],
+    [
+     "Wght. Por.",
+     "40%",
+     "40%",
+     "20%"
+    ]
+   ],
+   "section_id": "doc_006_sec_027"
+  },
+  {
+   "block_id": "doc_006_p021_b003",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    152,
+    1218,
+    2450,
+    1878
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "On installation of the device, a period consumption value of 4,000 kWh/year is entered for the register. This value is changed to 5,000 kWh / year after the last meter reading result entry in period 09 to O1. The minimum portion of weighting in percent is 30%. The sum of the weighting units for one year is 1,000. With a weighting portion of 40%, period O09 to 08 is representative. One period consumption change was made in the forecast period Y to P. The expected meter reading is determined as follows: For the period from Y until the period consumption change, extrapolation is based on meter reading results:",
+   "section_id": "doc_006_sec_027"
+  },
+  {
+   "block_id": "doc_006_p021_b004",
+   "type": "list",
+   "page_number": 21,
+   "bbox": [
+    244,
+    1958,
+    2405,
+    2156
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Determination of meter reading difference 09 to 08: 800 kWh - 0 kWh = 800 kWh a. Determination of consumption for 09 by multiplying the meter reading difference with the register factor: 8300 kWh2 = 1,600 kWh"
+    }
+   ],
+   "section_id": "doc_006_sec_027"
+  },
+  {
+   "block_id": "doc_006_p021_b005",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    373,
+    2224,
+    2447,
+    2531
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "b. Determination of consumption per weighting unit: 1,600 kWh: 400 = 4 kWh c. Extrapolation of consumption for period O09 until the period consumption change: 4 kWh600 = 1,600 kWh d. Determination of the meter reading difference for period 09 until the period consumption change by dividing the consumption value by the register factor: 1,600 kWh: 10 = 160 kWh",
+   "section_id": "doc_006_sec_027"
+  },
+  {
+   "block_id": "doc_006_p021_b006",
+   "type": "list",
+   "page_number": 21,
+   "bbox": [
+    244,
+    2614,
+    2411,
+    2820
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "For the period from the period consumption change to O1, consumption is extrapolated from the period consumption: a. Determination of period consumption per weighting unit by dividing the period consumption by the weight of validity period: 5,000 kWh : 1,000 = 5 kWh"
+    }
+   ],
+   "section_id": "doc_006_sec_027"
+  },
+  {
+   "block_id": "doc_006_p021_b007",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    376,
+    2884,
+    2363,
+    3149
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "b. Extrapolation of period consumption for the period from the period consumption change to 01: 5 kWh200 = 1,000 kWh c. Determination of the meter reading difference for the period from the period consumption change to O01 by dividing the consumption value by the register factor: 1.000 kWh : 10 = 100 kWh",
+   "section_id": "doc_006_sec_027"
+  },
+  {
+   "block_id": "doc_006_p021_b008",
+   "type": "list",
+   "page_number": 21,
+   "bbox": [
+    241,
+    3216,
+    2410,
+    3254
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Determination of the expected meter reading for O1 by adding the meter reading difference for meter reading 09: 800"
+    }
+   ],
+   "section_id": "doc_006_sec_027"
+  },
+  {
+   "block_id": "doc_006_p021_b009",
+   "type": "fragment",
+   "page_number": 21,
+   "bbox": [
+    285,
+    3278,
+    1008,
+    3300
+   ],
+   "ocr_confidence": 27.3,
+   "flags": [
+    "low_confidence_words:7",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "LANA &1EGN WANA & INN LWh\u2014- TANEGOLWH",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_006_sec_027"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 89,
+   "page_hash": "0f7725a31d7d883e478b3a2c9f288e2c5503f469e76f01961454f4f09f4b7d1b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Extrapolation for Consumption Registers",
+  "600 kWh"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_027",
+   "role": "continues"
+  }
+ ]
+}

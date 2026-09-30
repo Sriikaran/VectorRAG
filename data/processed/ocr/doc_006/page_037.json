@@ -1,0 +1,190 @@
+{
+ "document_id": "doc_006",
+ "page_number": 37,
+ "source_pdf": "6.pdf",
+ "page_hash": "9b61300a75459ec3cd2f1fb91c2f8b313de1600b326eef7748f75d437e94bc96",
+ "ocr_engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+ "ocr_settings": {
+  "oem": 1,
+  "psm": 3,
+  "dpi": 300,
+  "language": "eng",
+  "colorspace": "grayscale",
+  "variables": {
+   "preserve_interword_spaces": "1"
+  }
+ },
+ "render_size": [
+  2550,
+  3300
+ ],
+ "text": "9/29/26, 9:42 AM\n\nExtrapolation period\n\nSchedule records\n\n4. Determination of period consumption\n\nTransfer of period consumption to the extrapolation period\n",
+ "character_count": 157,
+ "word_count": 20,
+ "mean_confidence": 95,
+ "word_boxes": [
+  [
+   "9/29/26,",
+   107,
+   72,
+   248,
+   103,
+   96.4
+  ],
+  [
+   "9:42",
+   264,
+   72,
+   337,
+   99,
+   93.9
+  ],
+  [
+   "AM",
+   353,
+   73,
+   403,
+   99,
+   96.7
+  ],
+  [
+   "Extrapolation",
+   1400,
+   263,
+   1750,
+   315,
+   96.4
+  ],
+  [
+   "period",
+   1773,
+   263,
+   1937,
+   315,
+   96.1
+  ],
+  [
+   "Schedule",
+   1521,
+   1004,
+   1766,
+   1043,
+   96.2
+  ],
+  [
+   "records",
+   1787,
+   1004,
+   1984,
+   1043,
+   95.8
+  ],
+  [
+   "4.",
+   211,
+   1855,
+   242,
+   1884,
+   89.3
+  ],
+  [
+   "Determination",
+   256,
+   1855,
+   514,
+   1884,
+   95.9
+  ],
+  [
+   "of",
+   527,
+   1855,
+   561,
+   1884,
+   96.6
+  ],
+  [
+   "period",
+   574,
+   1855,
+   686,
+   1892,
+   96.1
+  ],
+  [
+   "consumption",
+   699,
+   1855,
+   936,
+   1892,
+   96.6
+  ],
+  [
+   "Transfer",
+   254,
+   1956,
+   401,
+   1986,
+   96.3
+  ],
+  [
+   "of",
+   413,
+   1956,
+   447,
+   1986,
+   96.2
+  ],
+  [
+   "period",
+   460,
+   1956,
+   572,
+   1994,
+   96.5
+  ],
+  [
+   "consumption",
+   586,
+   1957,
+   822,
+   1994,
+   96.4
+  ],
+  [
+   "to",
+   835,
+   1957,
+   870,
+   1986,
+   95.3
+  ],
+  [
+   "the",
+   882,
+   1956,
+   939,
+   1986,
+   96.7
+  ],
+  [
+   "extrapolation",
+   952,
+   1956,
+   1189,
+   1994,
+   96.3
+  ],
+  [
+   "period",
+   1204,
+   1956,
+   1316,
+   1994,
+   96.6
+  ]
+ ],
+ "processed_at": "2026-09-30T09:15:29Z",
+ "duration_seconds": 0.31,
+ "complete": true
+}

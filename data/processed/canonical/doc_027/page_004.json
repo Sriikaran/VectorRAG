@@ -1,0 +1,345 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_027",
+ "page_number": 4,
+ "source_page_hash": "2e093a84150eec84ea89ab7d9318156ac5d4fa82ebec4c82e2e4a62b984a7010",
+ "is_cover_page": false,
+ "title": "Prerequisites",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:16 AM\ndetermine the collection agency to which the receivables are to be submitted for items released both manually and automatically.\n\nAs a result of the release, the released items receive the submission status 01 (Receivable Released for Submission). The\n\ndocument receives the collection item number OO1.\n\nPrerequisites\n\nYou have authorization to submit receivables to collection agencies (authorization object F_KKINK).\n\nActivities\n\n1. For the system to determine the collection agency automatically, specify the collection agencies you work with in\n\nCustomizing for Contract Accounts Receivable and Payable under |sBusiness Transactions \u00bb Submit to Collection Agency\nDefine Collection Agencies \u201cJ, or on the SAP Easy Access screen, choose |}Settings \u00bb Current Settings } Define\n\nCollection Agencies\n\n. Program an installation-specific function module and enter it for event 5060 in the Customizing for Contract Accounts\n\nReceivable and Payable under |}#Program Enhancements \u00bb Define Customer-Specific Function Modules %. (See the\ndocumentation for function module FKK_SAMPLE_5060.)\n\nAt event 5060, you can determine the collection agency, for example, using the following criteria:\no Total amount of the receivables of a business partner to be released\no Business partner type (private/business customer)\no Business partner address (postal code)\n\nIn event 5060, you can also implement the determination of collection agencies from external systems and define the order\nin which receivables are to be submitted to the collection agencies that you work with.\n\n. If, in your organization, you release receivables to different collection agencies based on specific rules, you can define these\n\nderivation rules in Customizing for Contract Accounts Receivable and Payable under |*Business Transactions \u00bb Submit to\nCollection Agency \u00bb Define Derivation Rules for Collection Agencies Responsible\n\nThe derivation rules defined in Customizing are evaluated by the derivation tool. The derivation tool is always called in\nfunction module FKK_COLL_AG SAMPLE 5060, if items are released for collection individually or in a mass release. The\nderivation tool determines the responsible collection agency in one or more derivation steps from a number of source fields\nof the extendable structure FKKCOLLAG. The number of derivation steps corresponds to the number of derivation rules\nthat you define in Customizing.\n\n. In event 5059, which is processed when you release receivables, you can exclude items from being released. To do this,\n\ndefine exclusion criteria in an installation-specific function module and enter this module for event 5059 in Customizing for\nContract Accounts Receivable and Payable under |Program Enhancements \u00bb Define Customer-Specific Function\nModules 33. (See the documentation for sample function module FKK_SAMPLE_ 5059.)\n\nManual Release\n\nUse\n\nReleasing individual uncollectible receivables for collection and resetting the release\n",
+ "cleaned_text": "determine the collection agency to which the receivables are to be submitted for items released both manually and automatically. As a result of the release, the released items receive the submission status 01 (Receivable Released for Submission). The document receives the collection item number OO1.\n\nPrerequisites\n\nYou have authorization to submit receivables to collection agencies (authorization object F_KKINK).\n\nActivities\n\n1 For the system to determine the collection agency automatically, specify the collection agencies you work with in Customizing for Contract Accounts Receivable and Payable under |sBusiness Transactions \u00bb Submit to Collection Agency Define Collection Agencies \u201cJ, or on the SAP Easy Access screen, choose |}Settings \u00bb Current Settings } Define\n\nCollection Agencies\n\n. Program an installation-specific function module and enter it for event 5060 in the Customizing for Contract Accounts Receivable and Payable under |}#Program Enhancements \u00bb Define Customer-Specific Function Modules %. (See the documentation for function module FKK_SAMPLE_5060.) At event 5060, you can determine the collection agency, for example, using the following criteria:\n\n- Total amount of the receivables of a business partner to be released\n\n- Business partner type (private/business customer)\n\n- Business partner address (postal code)\n\nIn event 5060, you can also implement the determination of collection agencies from external systems and define the order in which receivables are to be submitted to the collection agencies that you work with. . If, in your organization, you release receivables to different collection agencies based on specific rules, you can define these derivation rules in Customizing for Contract Accounts Receivable and Payable under |*Business Transactions \u00bb Submit to Collection Agency \u00bb Define Derivation Rules for Collection Agencies Responsible The derivation rules defined in Customizing are evaluated by the derivation tool. The derivation tool is always called in function module FKK_COLL_AG SAMPLE 5060, if items are released for collection individually or in a mass release. The derivation tool determines the responsible collection agency in one or more derivation steps from a number of source fields of the extendable structure FKKCOLLAG. The number of derivation steps corresponds to the number of derivation rules that you define in Customizing. . In event 5059, which is processed when you release receivables, you can exclude items from being released. To do this, define exclusion criteria in an installation-specific function module and enter this module for event 5059 in Customizing for Contract Accounts Receivable and Payable under |Program Enhancements \u00bb Define Customer-Specific Function Modules 33. (See the documentation for sample function module FKK_SAMPLE_ 5059.)\n\nManual Release\n\nUse\n\nReleasing individual uncollectible receivables for collection and resetting the release",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:16 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_027_p004_b000",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    123,
+    134,
+    2461,
+    289
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "determine the collection agency to which the receivables are to be submitted for items released both manually and automatically. As a result of the release, the released items receive the submission status 01 (Receivable Released for Submission). The document receives the collection item number OO1.",
+   "section_id": "doc_027_sec_010"
+  },
+  {
+   "block_id": "doc_027_p004_b001",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    126,
+    408,
+    491,
+    465
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_011"
+  },
+  {
+   "block_id": "doc_027_p004_b002",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    123,
+    543,
+    1937,
+    584
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "text": "You have authorization to submit receivables to collection agencies (authorization object F_KKINK).",
+   "section_id": "doc_027_sec_011"
+  },
+  {
+   "block_id": "doc_027_p004_b003",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    123,
+    693,
+    382,
+    738
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_012"
+  },
+  {
+   "block_id": "doc_027_p004_b004",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    214,
+    826,
+    2477,
+    994
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "For the system to determine the collection agency automatically, specify the collection agencies you work with in Customizing for Contract Accounts Receivable and Payable under |sBusiness Transactions \u00bb Submit to Collection Agency Define Collection Agencies \u201cJ, or on the SAP Easy Access screen, choose |}Settings \u00bb Current Settings } Define"
+    }
+   ],
+   "section_id": "doc_027_sec_012"
+  },
+  {
+   "block_id": "doc_027_p004_b005",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    254,
+    1016,
+    621,
+    1054
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Collection Agencies",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_013"
+  },
+  {
+   "block_id": "doc_027_p004_b006",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    236,
+    1118,
+    2392,
+    1385
+   ],
+   "ocr_confidence": 91.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": ". Program an installation-specific function module and enter it for event 5060 in the Customizing for Contract Accounts Receivable and Payable under |}#Program Enhancements \u00bb Define Customer-Specific Function Modules %. (See the documentation for function module FKK_SAMPLE_5060.) At event 5060, you can determine the collection agency, for example, using the following criteria:",
+   "section_id": "doc_027_sec_013"
+  },
+  {
+   "block_id": "doc_027_p004_b007",
+   "type": "list",
+   "page_number": 4,
+   "bbox": [
+    336,
+    1452,
+    1605,
+    1693
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Total amount of the receivables of a business partner to be released"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Business partner type (private/business customer)"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Business partner address (postal code)"
+    }
+   ],
+   "section_id": "doc_027_sec_013"
+  },
+  {
+   "block_id": "doc_027_p004_b008",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    236,
+    1757,
+    2482,
+    2749
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "text": "In event 5060, you can also implement the determination of collection agencies from external systems and define the order in which receivables are to be submitted to the collection agencies that you work with. . If, in your organization, you release receivables to different collection agencies based on specific rules, you can define these derivation rules in Customizing for Contract Accounts Receivable and Payable under |*Business Transactions \u00bb Submit to Collection Agency \u00bb Define Derivation Rules for Collection Agencies Responsible The derivation rules defined in Customizing are evaluated by the derivation tool. The derivation tool is always called in function module FKK_COLL_AG SAMPLE 5060, if items are released for collection individually or in a mass release. The derivation tool determines the responsible collection agency in one or more derivation steps from a number of source fields of the extendable structure FKKCOLLAG. The number of derivation steps corresponds to the number of derivation rules that you define in Customizing. . In event 5059, which is processed when you release receivables, you can exclude items from being released. To do this, define exclusion criteria in an installation-specific function module and enter this module for event 5059 in Customizing for Contract Accounts Receivable and Payable under |Program Enhancements \u00bb Define Customer-Specific Function Modules 33. (See the documentation for sample function module FKK_SAMPLE_ 5059.)",
+   "section_id": "doc_027_sec_013"
+  },
+  {
+   "block_id": "doc_027_p004_b009",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    128,
+    2888,
+    688,
+    2948
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Manual Release",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_014"
+  },
+  {
+   "block_id": "doc_027_p004_b010",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    125,
+    3067,
+    225,
+    3112
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_027_sec_015"
+  },
+  {
+   "block_id": "doc_027_p004_b011",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    125,
+    3196,
+    1640,
+    3234
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Releasing individual uncollectible receivables for collection and resetting the release",
+   "section_id": "doc_027_sec_015"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Submission of Receivables to Collection Agency",
+  "source_pdf": "27.pdf",
+  "reference_pdf": "27_Submission_of_Receivables_to_Collection_Agency.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Useful for late-stage collections and external-agency lifecycle knowledge.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "2e093a84150eec84ea89ab7d9318156ac5d4fa82ebec4c82e2e4a62b984a7010"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:46Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Submission of Receivables to Collection Agency",
+  "Releasing Receivables for Collection",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_027_sec_010",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_027_sec_011",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_012",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_013",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_014",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_027_sec_015",
+   "role": "starts_here"
+  }
+ ]
+}

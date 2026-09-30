@@ -1,0 +1,361 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 36,
+ "source_page_hash": "46ebb5f46b56c2209d52fd739c6aa12064adb153b9bacb429f60eb763d257a79",
+ "is_cover_page": false,
+ "title": "Handling of Archived Data",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nReport Name                                      Use                                      To Be Used When                  Affected Data\n\nYou use this report only\nonce.\n\nHandling of Archived Data\n\nContract Accounts Receivable and Payable collects information related to the start of retention of business partners during\narchiving runs in the DFKKDPR_BP_ASORT database table.\n\nThe initial load report RFKKDPR_MIG populates the DFKKDPR_BP_ASORT table in the same way as the archiving run would.\n\nTo determine whether archived business partner data is still relevant for business activities, the check program (transaction\nFPDPR1) only analyzes the DFKKDPR_BP_ASORT database table. The program does not accesses archiving files or the archive\ninformation system.\n\nSee Also\n\nSee the product assistance for SAP S/4HANA, On Premise at http://help.sap.com/s4hana under Cross Components:\n\ne SAP Information Lifecycle Management\n\ne Data Protection\n\nIn the SAP Customizing Implementation Guide under Cross-Application Components, see the Data Protection chapter.\n\nBlocking and Unblocking of Business Partners\n\nThe transaction Block Business Partner Data (BUPA_PRE_EOP, as the central blocking program of the SAP business partner in\nthe menu for Cross-Application Components under Data Protection), checks for all registered applications and their function\nmodules whether the end of purpose has been reached and whether a business partner can be blocked. You register the\n\napplications and function modules in Customizing for Cross-Application Components under |}Data Protection \u00bb Blocking and\n\nUnblocking of Data %. There the specification for application MKK (software component Contract Accounts Receivable and\nPayable (FI-CA)) is that a check is to be made for the end of purpose for business partners with the contract partner role. The\nrelated function module is entered as a standard setting.\n\nApplications that use the SAP business partner determine whether a business partner can be blocked by using application-\nspecific functions. The necessary checks can take place at runtime of the blocking program.\n\nDue to the large volume of data in Contract Accounts Receivable and Payable, the checks whether it can be blocked are scheduled\nbefore the execution of the blocking program for application MKK. That means:\n\n1. The first step is for you to determine in Contract Accounts Receivable and Payable which business partners can be blocked.\n\nTo do this, you use the transaction Check Bus. Partner Can Be Blocked (FPDPR1 in the SAP menu under |)Periodic\nProcessing \u00bb For Data Protection 3(see Check for End of Purpose in Contract Accounts Receivable and Payable).\n\n2. Following that, you schedule blocking of business partners with the transaction Block Business Partner Data\n(BUPA _PRE_EOP).\n\nTrancantinn Diananl Adanetarvr Mata (RIIDA DDE CND\\ BIR ALVe. 5 hiicinnce nartnanr: if nRHKD nF FAA ARR ROFtIARnC RAILAAN brannarte 45 KHIIrRARCOH\n",
+ "cleaned_text": "Report Name | Use | To Be Used When | Affected Data\n\nYou use this report only once.\n\nHandling of Archived Data\n\nContract Accounts Receivable and Payable collects information related to the start of retention of business partners during archiving runs in the DFKKDPR_BP_ASORT database table. The initial load report RFKKDPR_MIG populates the DFKKDPR_BP_ASORT table in the same way as the archiving run would. To determine whether archived business partner data is still relevant for business activities, the check program (transaction FPDPR1) only analyzes the DFKKDPR_BP_ASORT database table. The program does not accesses archiving files or the archive information system.\n\nSee Also\n\nSee the product assistance for SAP S/4HANA, On Premise at http://help.sap.com/s4hana under Cross Components:\n\n- SAP Information Lifecycle Management\n\n- Data Protection\n\nIn the SAP Customizing Implementation Guide under Cross-Application Components, see the Data Protection chapter.\n\nBlocking and Unblocking of Business Partners\n\nThe transaction Block Business Partner Data (BUPA_PRE_EOP, as the central blocking program of the SAP business partner in the menu for Cross-Application Components under Data Protection), checks for all registered applications and their function modules whether the end of purpose has been reached and whether a business partner can be blocked. You register the applications and function modules in Customizing for Cross-Application Components under |}Data Protection \u00bb Blocking and Unblocking of Data %. There the specification for application MKK (software component Contract Accounts Receivable and Payable (FI-CA)) is that a check is to be made for the end of purpose for business partners with the contract partner role. The related function module is entered as a standard setting. Applications that use the SAP business partner determine whether a business partner can be blocked by using application-specific functions. The necessary checks can take place at runtime of the blocking program. Due to the large volume of data in Contract Accounts Receivable and Payable, the checks whether it can be blocked are scheduled before the execution of the blocking program for application MKK. That means:\n\n1 The first step is for you to determine in Contract Accounts Receivable and Payable which business partners can be blocked. To do this, you use the transaction Check Bus. Partner Can Be Blocked (FPDPR1 in the SAP menu under |)Periodic Processing \u00bb For Data Protection 3(see Check for End of Purpose in Contract Accounts Receivable and Payable).\n\n2 Following that, you schedule blocking of business partners with the transaction Block Business Partner Data (BUPA _PRE_EOP).\n\nTrancantinn Diananl Adanetarvr Mata (RIIDA DDE CND\\ BIR ALVe. 5 hiicinnce nartnanr: if nRHKD nF FAA ARR ROFtIARnC RAILAAN brannarte 45 KHIIrRARCOH",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p036_b000",
+   "type": "table",
+   "page_number": 36,
+   "bbox": [
+    149,
+    159,
+    2223,
+    195
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    149,
+    880,
+    1443,
+    1986
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Report Name",
+     "Use",
+     "To Be Used When",
+     "Affected Data"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Report Name",
+     "Use",
+     "To Be Used When",
+     "Affected Data"
+    ]
+   ],
+   "section_id": "doc_001_sec_117"
+  },
+  {
+   "block_id": "doc_001_p036_b001",
+   "type": "paragraph",
+   "page_number": 36,
+   "bbox": [
+    1444,
+    242,
+    1837,
+    329
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "You use this report only once.",
+   "section_id": "doc_001_sec_117"
+  },
+  {
+   "block_id": "doc_001_p036_b002",
+   "type": "heading",
+   "page_number": 36,
+   "bbox": [
+    124,
+    444,
+    642,
+    485
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Handling of Archived Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_118"
+  },
+  {
+   "block_id": "doc_001_p036_b003",
+   "type": "paragraph",
+   "page_number": 36,
+   "bbox": [
+    122,
+    571,
+    2419,
+    1053
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "Contract Accounts Receivable and Payable collects information related to the start of retention of business partners during archiving runs in the DFKKDPR_BP_ASORT database table. The initial load report RFKKDPR_MIG populates the DFKKDPR_BP_ASORT table in the same way as the archiving run would. To determine whether archived business partner data is still relevant for business activities, the check program (transaction FPDPR1) only analyzes the DFKKDPR_BP_ASORT database table. The program does not accesses archiving files or the archive information system.",
+   "section_id": "doc_001_sec_118"
+  },
+  {
+   "block_id": "doc_001_p036_b004",
+   "type": "heading",
+   "page_number": 36,
+   "bbox": [
+    125,
+    1164,
+    362,
+    1210
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "See Also",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_119"
+  },
+  {
+   "block_id": "doc_001_p036_b005",
+   "type": "paragraph",
+   "page_number": 36,
+   "bbox": [
+    124,
+    1294,
+    2247,
+    1332
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "See the product assistance for SAP S/4HANA, On Premise at http://help.sap.com/s4hana under Cross Components:",
+   "section_id": "doc_001_sec_119"
+  },
+  {
+   "block_id": "doc_001_p036_b006",
+   "type": "list",
+   "page_number": 36,
+   "bbox": [
+    207,
+    1419,
+    995,
+    1551
+   ],
+   "ocr_confidence": 92.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "SAP Information Lifecycle Management"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Data Protection"
+    }
+   ],
+   "section_id": "doc_001_sec_119"
+  },
+  {
+   "block_id": "doc_001_p036_b007",
+   "type": "paragraph",
+   "page_number": 36,
+   "bbox": [
+    125,
+    1642,
+    2292,
+    1680
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "In the SAP Customizing Implementation Guide under Cross-Application Components, see the Data Protection chapter.",
+   "section_id": "doc_001_sec_119"
+  },
+  {
+   "block_id": "doc_001_p036_b008",
+   "type": "heading",
+   "page_number": 36,
+   "bbox": [
+    128,
+    1830,
+    1793,
+    1905
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "Blocking and Unblocking of Business Partners",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_120"
+  },
+  {
+   "block_id": "doc_001_p036_b009",
+   "type": "paragraph",
+   "page_number": 36,
+   "bbox": [
+    122,
+    1979,
+    2470,
+    2774
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "The transaction Block Business Partner Data (BUPA_PRE_EOP, as the central blocking program of the SAP business partner in the menu for Cross-Application Components under Data Protection), checks for all registered applications and their function modules whether the end of purpose has been reached and whether a business partner can be blocked. You register the applications and function modules in Customizing for Cross-Application Components under |}Data Protection \u00bb Blocking and Unblocking of Data %. There the specification for application MKK (software component Contract Accounts Receivable and Payable (FI-CA)) is that a check is to be made for the end of purpose for business partners with the contract partner role. The related function module is entered as a standard setting. Applications that use the SAP business partner determine whether a business partner can be blocked by using application-specific functions. The necessary checks can take place at runtime of the blocking program. Due to the large volume of data in Contract Accounts Receivable and Payable, the checks whether it can be blocked are scheduled before the execution of the blocking program for application MKK. That means:",
+   "section_id": "doc_001_sec_120"
+  },
+  {
+   "block_id": "doc_001_p036_b010",
+   "type": "list",
+   "page_number": 36,
+   "bbox": [
+    212,
+    2858,
+    2484,
+    3201
+   ],
+   "ocr_confidence": 92.1,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "The first step is for you to determine in Contract Accounts Receivable and Payable which business partners can be blocked. To do this, you use the transaction Check Bus. Partner Can Be Blocked (FPDPR1 in the SAP menu under |)Periodic Processing \u00bb For Data Protection 3(see Check for End of Purpose in Contract Accounts Receivable and Payable)."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Following that, you schedule blocking of business partners with the transaction Block Business Partner Data (BUPA _PRE_EOP)."
+    }
+   ],
+   "section_id": "doc_001_sec_120"
+  },
+  {
+   "block_id": "doc_001_p036_b011",
+   "type": "fragment",
+   "page_number": 36,
+   "bbox": [
+    122,
+    3276,
+    2438,
+    3300
+   ],
+   "ocr_confidence": 34.1,
+   "flags": [
+    "low_confidence_words:15",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Trancantinn Diananl Adanetarvr Mata (RIIDA DDE CND\\ BIR ALVe. 5 hiicinnce nartnanr: if nRHKD nF FAA ARR ROFtIARnC RAILAAN brannarte 45 KHIIrRARCOH",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_120"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 64,
+  "body_stroke_median": 0.0952,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "46ebb5f46b56c2209d52fd739c6aa12064adb153b9bacb429f60eb763d257a79"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Business Partner End Of Purpose (EoP) Check",
+  "Initial Load Reports",
+  "Affected Data"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_117",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_118",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_119",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_120",
+   "role": "starts_here"
+  }
+ ]
+}

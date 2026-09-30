@@ -1,0 +1,269 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 46,
+ "source_page_hash": "0f34bbc2fbc83fb9029d18a9ba56e091c5212e0c7763c6072830877436af88fe",
+ "is_cover_page": false,
+ "title": "Sequence of Checks",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nIf the application object should be used for determining open business transactions, then the class must implement the\nIF_FKKDPR_BP_ACTIVITY interface and the Open Transactions indicator must be set. If the application object should be used\nfor determining the retention start, then the class must implement the IF_FKKDPR_BP_ SORT interface and the Det. Ret. Start\nindicator must be set.\n\nSequence of Checks\n\nThe system processes application objects in a certain sequence. The priority specifies this sequence in the form of a number. The\nlower the number, the higher the priority with which the system processes an application object. If no priority is assigned to an\napplication object, then the system processes this application object at the end, together with the application objects with the\n\nlowest priority.\n\nFor the application objects considered in the SAP standard system, SAP provides priorities that you can overwrite in the Enter\nPriority for Application Objects During Check If Can Be Blocked activity. The most suitable priority depends on the industry\ncomponent you are using and the type of data in your installation.\n\n> Recommendation\nTo improve performance, set the priorities in accordance with the specific conditions of your installation. Set a high priority for\n\nchecks that recognize open business transactions in the majority of cases.\n\nRule Variants\n\nThe application rule variants are available as condition fields for application MKK. They are used both for determining the residence\ntime and the legal obligation to retain data on the SAP business partner. The application rule variants are determined dependent\n\non the application objects and the company code. They are stored during a blocking run (transaction BUPA PRE EOP), together\nwith the start of the retention period, in table BUTSORT. During archiving of the SAP business partner, the rules entered in\n\ntransaction IRMPOL are evaluated based on the stored application rule variants, and the system determines the end of the legal\nobligation to retain data on the SAP business partner.\n\nYou configure the rule variants by following these steps:\n\n1. Enter rule variants in Customizing for Cross-Application Components under |\u00bbData Protection \u00bb Blocking and Unblocking\nof Data\u2019 Business Partner + Define and Store Application Rule Variants for EoP Check\n\nEnter the rule variants there with application name MKK.\n\n2. Define the derivation of rule variants. In Customizing for Contract Accounts Receivable and Payable under |)}Technical\nSettings \u00bb Data Protection 3, assign appropriate rule variants to the legal obligations.\n\nThe system, in which Contract Accounts Receivable and Payable is running, determines the rule variant from the\ncombination of the application object and the company code. In this activity, you define the combinations that are used.\n\nThe following example provides an overview of the rules to be defined in SAP ILM.\n\nSe Example\nYou retain business partners, for whom documents exist in company code CCDE, for 10 years and you define a rule variant for\nthis.\n\nYou retain business partners, for whom documents exist in company code CCFR, for 8 years and you define an additional rule\nvariant for this.\n",
+ "cleaned_text": "If the application object should be used for determining open business transactions, then the class must implement the IF_FKKDPR_BP_ACTIVITY interface and the Open Transactions indicator must be set. If the application object should be used for determining the retention start, then the class must implement the IF_FKKDPR_BP_ SORT interface and the Det. Ret. Start indicator must be set.\n\nSequence of Checks\n\nThe system processes application objects in a certain sequence. The priority specifies this sequence in the form of a number. The lower the number, the higher the priority with which the system processes an application object. If no priority is assigned to an application object, then the system processes this application object at the end, together with the application objects with the lowest priority. For the application objects considered in the SAP standard system, SAP provides priorities that you can overwrite in the Enter Priority for Application Objects During Check If Can Be Blocked activity. The most suitable priority depends on the industry component you are using and the type of data in your installation.\n\nRecommendation To improve performance, set the priorities in accordance with the specific conditions of your installation. Set a high priority for checks that recognize open business transactions in the majority of cases.\n\nRule Variants\n\nThe application rule variants are available as condition fields for application MKK. They are used both for determining the residence time and the legal obligation to retain data on the SAP business partner. The application rule variants are determined dependent on the application objects and the company code. They are stored during a blocking run (transaction BUPA PRE EOP), together with the start of the retention period, in table BUTSORT. During archiving of the SAP business partner, the rules entered in transaction IRMPOL are evaluated based on the stored application rule variants, and the system determines the end of the legal obligation to retain data on the SAP business partner. You configure the rule variants by following these steps:\n\n1 Enter rule variants in Customizing for Cross-Application Components under |\u00bbData Protection \u00bb Blocking and Unblocking of Data\u2019 Business Partner + Define and Store Application Rule Variants for EoP Check Enter the rule variants there with application name MKK.\n\n2 Define the derivation of rule variants. In Customizing for Contract Accounts Receivable and Payable under |)}Technical Settings \u00bb Data Protection 3, assign appropriate rule variants to the legal obligations. The system, in which Contract Accounts Receivable and Payable is running, determines the rule variant from the combination of the application object and the company code. In this activity, you define the combinations that are used.\n\nThe following example provides an overview of the rules to be defined in SAP ILM. Se Example You retain business partners, for whom documents exist in company code CCDE, for 10 years and you define a rule variant for this. You retain business partners, for whom documents exist in company code CCFR, for 8 years and you define an additional rule variant for this.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": ">",
+   "bbox": [
+    151,
+    1155,
+    644,
+    1193
+   ],
+   "reason": "icon glyph OCR'd before 'recommendation' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p046_b000",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    122,
+    134,
+    2457,
+    362
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "If the application object should be used for determining open business transactions, then the class must implement the IF_FKKDPR_BP_ACTIVITY interface and the Open Transactions indicator must be set. If the application object should be used for determining the retention start, then the class must implement the IF_FKKDPR_BP_ SORT interface and the Det. Ret. Start indicator must be set.",
+   "section_id": "doc_001_sec_150"
+  },
+  {
+   "block_id": "doc_001_p046_b001",
+   "type": "heading",
+   "page_number": 46,
+   "bbox": [
+    123,
+    453,
+    502,
+    490
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Sequence of Checks",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_151"
+  },
+  {
+   "block_id": "doc_001_p046_b002",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    122,
+    575,
+    2459,
+    1049
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The system processes application objects in a certain sequence. The priority specifies this sequence in the form of a number. The lower the number, the higher the priority with which the system processes an application object. If no priority is assigned to an application object, then the system processes this application object at the end, together with the application objects with the lowest priority. For the application objects considered in the SAP standard system, SAP provides priorities that you can overwrite in the Enter Priority for Application Objects During Check If Can Be Blocked activity. The most suitable priority depends on the industry component you are using and the type of data in your installation.",
+   "section_id": "doc_001_sec_151"
+  },
+  {
+   "block_id": "doc_001_p046_b003",
+   "type": "note",
+   "page_number": 46,
+   "bbox": [
+    151,
+    1155,
+    2433,
+    1335
+   ],
+   "ocr_confidence": 93.6,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "label": "Recommendation",
+   "text": "Recommendation To improve performance, set the priorities in accordance with the specific conditions of your installation. Set a high priority for checks that recognize open business transactions in the majority of cases.",
+   "section_id": "doc_001_sec_151"
+  },
+  {
+   "block_id": "doc_001_p046_b004",
+   "type": "heading",
+   "page_number": 46,
+   "bbox": [
+    124,
+    1455,
+    367,
+    1485
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Rule Variants",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_152"
+  },
+  {
+   "block_id": "doc_001_p046_b005",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    122,
+    1579,
+    2485,
+    2064
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "The application rule variants are available as condition fields for application MKK. They are used both for determining the residence time and the legal obligation to retain data on the SAP business partner. The application rule variants are determined dependent on the application objects and the company code. They are stored during a blocking run (transaction BUPA PRE EOP), together with the start of the retention period, in table BUTSORT. During archiving of the SAP business partner, the rules entered in transaction IRMPOL are evaluated based on the stored application rule variants, and the system determines the end of the legal obligation to retain data on the SAP business partner. You configure the rule variants by following these steps:",
+   "section_id": "doc_001_sec_152"
+  },
+  {
+   "block_id": "doc_001_p046_b006",
+   "type": "list",
+   "page_number": 46,
+   "bbox": [
+    212,
+    2144,
+    2486,
+    2685
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Enter rule variants in Customizing for Cross-Application Components under |\u00bbData Protection \u00bb Blocking and Unblocking of Data\u2019 Business Partner + Define and Store Application Rule Variants for EoP Check Enter the rule variants there with application name MKK."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Define the derivation of rule variants. In Customizing for Contract Accounts Receivable and Payable under |)}Technical Settings \u00bb Data Protection 3, assign appropriate rule variants to the legal obligations. The system, in which Contract Accounts Receivable and Payable is running, determines the rule variant from the combination of the application object and the company code. In this activity, you define the combinations that are used."
+    }
+   ],
+   "section_id": "doc_001_sec_152"
+  },
+  {
+   "block_id": "doc_001_p046_b007",
+   "type": "paragraph",
+   "page_number": 46,
+   "bbox": [
+    122,
+    2772,
+    2413,
+    3276
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The following example provides an overview of the rules to be defined in SAP ILM. Se Example You retain business partners, for whom documents exist in company code CCDE, for 10 years and you define a rule variant for this. You retain business partners, for whom documents exist in company code CCFR, for 8 years and you define an additional rule variant for this.",
+   "section_id": "doc_001_sec_152"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "0f34bbc2fbc83fb9029d18a9ba56e091c5212e0c7763c6072830877436af88fe"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:28Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "System Configuration",
+  "Use",
+  "Settings for Application Objects"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_150",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_151",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_152",
+   "role": "starts_here"
+  }
+ ]
+}

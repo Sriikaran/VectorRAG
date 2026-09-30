@@ -1,0 +1,317 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 38,
+ "source_page_hash": "5ff92e55a02d5f5de7d26811b258bf41bd5d2baa3836e75f5ade7e8bb01171bb",
+ "is_cover_page": false,
+ "title": "Prerequisites",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nPrerequisites\n\nIn addition to the SAP business partner, you defined the application rule variants for the MKK app in Customizing for Cross-\nApplication Components under |}Data Protection \u00bb Blocking and Unblocking of Data \u00bb Business Partner \u00bb Define and Store\n\nApplication Rule Variants for EoP Check\n\nIn transaction ILM Policies (IRMPOL), you defined residence rules in the ILM policy for the ILM object CA BUPA in audit area\n\nBUPA _DP. In addition, you defined retention rules there for the ILM object CA_BUPA in your own defined audit area. In doing so,\nyou use the application rule variants that are already defined.\n\nFeatures\n\nContract Accounts Receivable and Payable performs numerous analyses on the basis of application-specific object types, such as\nthe FI-CA document. Some of these analyses determine if open business transactions exist for a business partner. If there are\nopen business transactions, the business partner is not allowed to be blocked. The system also determines a retention start date\nusing these specific application objects. In combination with the residence period defined in ILM, the date is determined, starting\nfrom which a business partner can be blocked. A business partner has no open business transactions, if the following conditions\n\n(for example) are fulfilled:\n\ne The business partner has no open items.\n\ne There are no open items, in which the business partner is entered in another role, such as an alternative payer.\ne The business partner is not entered in any contract account as an alternative payer.\n\ne There are no open request items for the business partner.\n\ne There are no open (non-cash) security deposits for the business partner.\n\ne There are no active SEPA mandates for the business partner.\n\nYou can see all application objects that Contract Accounts Receivable and Payable includes in the check in Customizing for\nContract Accounts Receivable and Payable under |)sTechnical Settings Data Protection \u00bb Make Specifications for Customer-\nDefined Application Objects \u201c. You can also create your own customer-specific checks in the customer namespace.\n\ni Note\n\nYou can access information about the individual application objects and the analyses implemented in them by choosing the\nInformation button on the detail screen for the application object.\n\nActivities\n\nChoose Check Bus. Partner Can Be Blocked (transaction FPDPR1 in the SAP Easy Access screen under |}*Periodic Processing\nFor Data Protection 3).\n\nAs soon as one of the checks finds that there is an open business transaction for business partner, no further checks are\nperformed. Only if all checks do not find an open business transaction, then the system determines the retention start, using all\n\napplication objects that determine this date.\n\ni Note\n",
+ "cleaned_text": "Prerequisites\n\nIn addition to the SAP business partner, you defined the application rule variants for the MKK app in Customizing for Cross- Application Components under |}Data Protection \u00bb Blocking and Unblocking of Data \u00bb Business Partner \u00bb Define and Store\n\nApplication Rule Variants for EoP Check\n\nIn transaction ILM Policies (IRMPOL), you defined residence rules in the ILM policy for the ILM object CA BUPA in audit area BUPA _DP. In addition, you defined retention rules there for the ILM object CA_BUPA in your own defined audit area. In doing so, you use the application rule variants that are already defined.\n\nFeatures\n\nContract Accounts Receivable and Payable performs numerous analyses on the basis of application-specific object types, such as the FI-CA document. Some of these analyses determine if open business transactions exist for a business partner. If there are open business transactions, the business partner is not allowed to be blocked. The system also determines a retention start date using these specific application objects. In combination with the residence period defined in ILM, the date is determined, starting from which a business partner can be blocked. A business partner has no open business transactions, if the following conditions (for example) are fulfilled:\n\n- The business partner has no open items.\n\n- There are no open items, in which the business partner is entered in another role, such as an alternative payer.\n\n- The business partner is not entered in any contract account as an alternative payer.\n\n- There are no open request items for the business partner.\n\n- There are no open (non-cash) security deposits for the business partner.\n\n- There are no active SEPA mandates for the business partner.\n\nYou can see all application objects that Contract Accounts Receivable and Payable includes in the check in Customizing for Contract Accounts Receivable and Payable under |)sTechnical Settings Data Protection \u00bb Make Specifications for Customer- Defined Application Objects \u201c. You can also create your own customer-specific checks in the customer namespace. i Note You can access information about the individual application objects and the analyses implemented in them by choosing the Information button on the detail screen for the application object.\n\nActivities\n\nChoose Check Bus. Partner Can Be Blocked (transaction FPDPR1 in the SAP Easy Access screen under |}*Periodic Processing For Data Protection 3). As soon as one of the checks finds that there is an open business transaction for business partner, no further checks are performed. Only if all checks do not find an open business transaction, then the system determines the retention start, using all application objects that determine this date. i Note",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p038_b000",
+   "type": "heading",
+   "page_number": 38,
+   "bbox": [
+    126,
+    127,
+    492,
+    183
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_124"
+  },
+  {
+   "block_id": "doc_001_p038_b001",
+   "type": "paragraph",
+   "page_number": 38,
+   "bbox": [
+    123,
+    262,
+    2413,
+    368
+   ],
+   "ocr_confidence": 90.3,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "In addition to the SAP business partner, you defined the application rule variants for the MKK app in Customizing for Cross- Application Components under |}Data Protection \u00bb Blocking and Unblocking of Data \u00bb Business Partner \u00bb Define and Store",
+   "section_id": "doc_001_sec_124"
+  },
+  {
+   "block_id": "doc_001_p038_b002",
+   "type": "heading",
+   "page_number": 38,
+   "bbox": [
+    123,
+    387,
+    866,
+    425
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Application Rule Variants for EoP Check",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_125"
+  },
+  {
+   "block_id": "doc_001_p038_b003",
+   "type": "paragraph",
+   "page_number": 38,
+   "bbox": [
+    122,
+    510,
+    2421,
+    681
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "text": "In transaction ILM Policies (IRMPOL), you defined residence rules in the ILM policy for the ILM object CA BUPA in audit area BUPA _DP. In addition, you defined retention rules there for the ILM object CA_BUPA in your own defined audit area. In doing so, you use the application rule variants that are already defined.",
+   "section_id": "doc_001_sec_125"
+  },
+  {
+   "block_id": "doc_001_p038_b004",
+   "type": "heading",
+   "page_number": 38,
+   "bbox": [
+    126,
+    793,
+    361,
+    839
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_126"
+  },
+  {
+   "block_id": "doc_001_p038_b005",
+   "type": "paragraph",
+   "page_number": 38,
+   "bbox": [
+    122,
+    926,
+    2469,
+    1279
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Contract Accounts Receivable and Payable performs numerous analyses on the basis of application-specific object types, such as the FI-CA document. Some of these analyses determine if open business transactions exist for a business partner. If there are open business transactions, the business partner is not allowed to be blocked. The system also determines a retention start date using these specific application objects. In combination with the residence period defined in ILM, the date is determined, starting from which a business partner can be blocked. A business partner has no open business transactions, if the following conditions (for example) are fulfilled:",
+   "section_id": "doc_001_sec_126"
+  },
+  {
+   "block_id": "doc_001_p038_b006",
+   "type": "list",
+   "page_number": 38,
+   "bbox": [
+    207,
+    1363,
+    2242,
+    1913
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The business partner has no open items."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "There are no open items, in which the business partner is entered in another role, such as an alternative payer."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The business partner is not entered in any contract account as an alternative payer."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "There are no open request items for the business partner."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "There are no open (non-cash) security deposits for the business partner."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "There are no active SEPA mandates for the business partner."
+    }
+   ],
+   "section_id": "doc_001_sec_126"
+  },
+  {
+   "block_id": "doc_001_p038_b007",
+   "type": "paragraph",
+   "page_number": 38,
+   "bbox": [
+    123,
+    1997,
+    2430,
+    2445
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "You can see all application objects that Contract Accounts Receivable and Payable includes in the check in Customizing for Contract Accounts Receivable and Payable under |)sTechnical Settings Data Protection \u00bb Make Specifications for Customer- Defined Application Objects \u201c. You can also create your own customer-specific checks in the customer namespace. i Note You can access information about the individual application objects and the analyses implemented in them by choosing the Information button on the detail screen for the application object.",
+   "section_id": "doc_001_sec_126"
+  },
+  {
+   "block_id": "doc_001_p038_b008",
+   "type": "heading",
+   "page_number": 38,
+   "bbox": [
+    123,
+    2640,
+    383,
+    2685
+   ],
+   "ocr_confidence": 96.9,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_127"
+  },
+  {
+   "block_id": "doc_001_p038_b009",
+   "type": "paragraph",
+   "page_number": 38,
+   "bbox": [
+    123,
+    2775,
+    2424,
+    3266
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Choose Check Bus. Partner Can Be Blocked (transaction FPDPR1 in the SAP Easy Access screen under |}*Periodic Processing For Data Protection 3). As soon as one of the checks finds that there is an open business transaction for business partner, no further checks are performed. Only if all checks do not find an open business transaction, then the system determines the retention start, using all application objects that determine this date. i Note",
+   "section_id": "doc_001_sec_127"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.0911,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "5ff92e55a02d5f5de7d26811b258bf41bd5d2baa3836e75f5ade7e8bb01171bb"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Payable",
+  "Prerequisites"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_124",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_125",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_126",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_127",
+   "role": "starts_here"
+  }
+ ]
+}

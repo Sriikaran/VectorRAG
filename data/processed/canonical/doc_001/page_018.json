@@ -1,0 +1,372 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 18,
+ "source_page_hash": "8972f193c04c0565910a1fefb3a42930e717d78d39365ca83e2fe652d4bd8b4b",
+ "is_cover_page": false,
+ "title": "Making Settings for Business Partners",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nIn ascenario with SAP CRM as your leading system, newly created business partner master records and subsequent changes \u2014 as\nlong as the necessary settings have been made \u2014 are distributed automatically from the CRM system to the S/4HANA system.\n\nIf you use the appropriate CRM partner roles, then the system creates the customer or vendor master records synchronously, or\nupdates them, as depicted in the following table.\n\nSAP CRM                            SAP S/4HANA | Synchronized Master Data\n\nCRMO000 Sold-to party             FLCU0O             Customer master record with FI data\nFLUCO1             Customer master record with sales data\nMKK                 Contract Partner\n\nBBPOQOO Supplier                   FLVNOO             Vendor master record with Fl data\nFLVNO1             Vendor master record with sales data\nMKK                 Contract Partner\n\nIf you are using only SAP S/4HANA, then the system synchronizes and updates the master data as depicted in the following table:\n\nSAP S/4HANA: Role Grouping                SAP S/4HANA: Role      Synchronized Master Data\n\nFSCRO1X VP with customer integration _ FLCU0O                       Customer master record with Fl data\nFLUCO1                       Customer master record with sales data\nMKK                          Contract Partner\n\nFSCRO2X VP with vendor integration        FLVNOO                       Vendor master record with Fl data\nFLVNO1                        Vendor master record with sales data\nMKK                          Contract Partner\n\ni Note\n\nIf you want to create the business partner with a customer or vendor, then you first have to compare the required fields of the\ncustomer and vendor master record with those of the business partner. If you create a business partner in SAP S/4HANA of the\n\ntype \u2018person\u2019, then you have to make sure that it is possible to enter the correspondence language. Only then is it possible for\nthe synchronization to take place using CVI. If errors occur during the synchronization, you can get help in the Business Data\n\nToolset by removing the function module BUA BUPA EVENT FMOD2 for field group 62 Business Data Toolset. To do so, in the\nmenu for the Business Data Toolset (transaction BUPT), choose |}Business Partner } Control \u00bb Screen Layout \u00bb Field Groups\n\n1 Note\n\nDuring the replication of business partners from SAP CRM to SAP ERP, the standard system sets the Relevant for agency\nbusiness indicator for the customers created using CVI.\n\nMaking Settings for Business Partners\n",
+ "cleaned_text": "In ascenario with SAP CRM as your leading system, newly created business partner master records and subsequent changes \u2014 as long as the necessary settings have been made \u2014 are distributed automatically from the CRM system to the S/4HANA system. If you use the appropriate CRM partner roles, then the system creates the customer or vendor master records synchronously, or updates them, as depicted in the following table.\n\nSAP CRM | SAP S/4HANA | Synchronized Master Data\n\nCRMO000 Sold-to party | FLCU0O | Customer master record with FI data\n\nFLUCO1 | Customer master record with sales data\n\nMKK | Contract Partner\n\nBBPOQOO Supplier | FLVNOO | Vendor master record with Fl data\n\nFLVNO1 | Vendor master record with sales data\n\nMKK | Contract Partner\n\nIf you are using only SAP S/4HANA, then the system synchronizes and updates the master data as depicted in the following table:\n\nSAP S/4HANA: Role Grouping | SAP S/4HANA: Role | Synchronized Master Data\n\nFSCRO1X VP with customer integration _ FLCU0O | Customer master record with Fl data\n\nFLUCO1 | Customer master record with sales data\n\nMKK | Contract Partner\n\nFSCRO2X VP with vendor integration | FLVNOO | Vendor master record with Fl data\n\nFLVNO1 | Vendor master record with sales data\n\nMKK | Contract Partner\n\ni Note If you want to create the business partner with a customer or vendor, then you first have to compare the required fields of the customer and vendor master record with those of the business partner. If you create a business partner in SAP S/4HANA of the type \u2018person\u2019, then you have to make sure that it is possible to enter the correspondence language. Only then is it possible for the synchronization to take place using CVI. If errors occur during the synchronization, you can get help in the Business Data Toolset by removing the function module BUA BUPA EVENT FMOD2 for field group 62 Business Data Toolset. To do so, in the menu for the Business Data Toolset (transaction BUPT), choose |}Business Partner } Control \u00bb Screen Layout \u00bb Field Groups\n\nNote During the replication of business partners from SAP CRM to SAP ERP, the standard system sets the Relevant for agency business indicator for the customers created using CVI.\n\nMaking Settings for Business Partners",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    2808,
+    310,
+    2845
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p018_b000",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    124,
+    134,
+    2473,
+    422
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "In ascenario with SAP CRM as your leading system, newly created business partner master records and subsequent changes \u2014 as long as the necessary settings have been made \u2014 are distributed automatically from the CRM system to the S/4HANA system. If you use the appropriate CRM partner roles, then the system creates the customer or vendor master records synchronously, or updates them, as depicted in the following table.",
+   "section_id": "doc_001_sec_051"
+  },
+  {
+   "block_id": "doc_001_p018_b001",
+   "type": "table",
+   "page_number": 18,
+   "bbox": [
+    149,
+    527,
+    1653,
+    1150
+   ],
+   "ocr_confidence": 89.6,
+   "flags": [
+    "low_confidence_words:4",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    149,
+    678,
+    980
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "SAP CRM",
+     "SAP S/4HANA | Synchronized Master Data"
+    ],
+    [
+     "CRMO000 Sold-to party",
+     "FLCU0O",
+     "Customer master record with FI data"
+    ],
+    [
+     "FLUCO1",
+     "Customer master record with sales data"
+    ],
+    [
+     "MKK",
+     "Contract Partner"
+    ],
+    [
+     "BBPOQOO Supplier",
+     "FLVNOO",
+     "Vendor master record with Fl data"
+    ],
+    [
+     "FLVNO1",
+     "Vendor master record with sales data"
+    ],
+    [
+     "MKK",
+     "Contract Partner"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "SAP CRM",
+     "SAP S/4HANA | Synchronized Master Data"
+    ],
+    [
+     "CRMO000 Sold-to party",
+     "FLCU0O",
+     "Customer master record with FI data"
+    ],
+    [
+     "FLUCO1",
+     "Customer master record with sales data"
+    ],
+    [
+     "MKK",
+     "Contract Partner"
+    ],
+    [
+     "BBPOQOO Supplier",
+     "FLVNOO",
+     "Vendor master record with Fl data"
+    ],
+    [
+     "FLVNO1",
+     "Vendor master record with sales data"
+    ],
+    [
+     "MKK",
+     "Contract Partner"
+    ]
+   ],
+   "section_id": "doc_001_sec_051"
+  },
+  {
+   "block_id": "doc_001_p018_b002",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    125,
+    1264,
+    2469,
+    1302
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "If you are using only SAP S/4HANA, then the system synchronizes and updates the master data as depicted in the following table:",
+   "section_id": "doc_001_sec_051"
+  },
+  {
+   "block_id": "doc_001_p018_b003",
+   "type": "table",
+   "page_number": 18,
+   "bbox": [
+    149,
+    1411,
+    1979,
+    2034
+   ],
+   "ocr_confidence": 91.0,
+   "flags": [
+    "low_confidence_words:3",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    149,
+    877,
+    1307
+   ],
+   "headers": [
+    "SAP S/4HANA: Role Grouping",
+    "SAP S/4HANA: Role",
+    "Synchronized Master Data"
+   ],
+   "rows": [
+    [
+     "FSCRO1X VP with customer integration _ FLCU0O",
+     "Customer master record with Fl data"
+    ],
+    [
+     "FLUCO1",
+     "Customer master record with sales data"
+    ],
+    [
+     "MKK",
+     "Contract Partner"
+    ],
+    [
+     "FSCRO2X VP with vendor integration",
+     "FLVNOO",
+     "Vendor master record with Fl data"
+    ],
+    [
+     "FLVNO1",
+     "Vendor master record with sales data"
+    ],
+    [
+     "MKK",
+     "Contract Partner"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "SAP S/4HANA: Role Grouping",
+     "SAP S/4HANA: Role",
+     "Synchronized Master Data"
+    ],
+    [
+     "FSCRO1X VP with customer integration _ FLCU0O",
+     "Customer master record with Fl data"
+    ],
+    [
+     "FLUCO1",
+     "Customer master record with sales data"
+    ],
+    [
+     "MKK",
+     "Contract Partner"
+    ],
+    [
+     "FSCRO2X VP with vendor integration",
+     "FLVNOO",
+     "Vendor master record with Fl data"
+    ],
+    [
+     "FLVNO1",
+     "Vendor master record with sales data"
+    ],
+    [
+     "MKK",
+     "Contract Partner"
+    ]
+   ],
+   "section_id": "doc_001_sec_051"
+  },
+  {
+   "block_id": "doc_001_p018_b004",
+   "type": "paragraph",
+   "page_number": 18,
+   "bbox": [
+    151,
+    2164,
+    2454,
+    2608
+   ],
+   "ocr_confidence": 91.5,
+   "flags": [
+    "low_confidence_words:7"
+   ],
+   "text": "i Note If you want to create the business partner with a customer or vendor, then you first have to compare the required fields of the customer and vendor master record with those of the business partner. If you create a business partner in SAP S/4HANA of the type \u2018person\u2019, then you have to make sure that it is possible to enter the correspondence language. Only then is it possible for the synchronization to take place using CVI. If errors occur during the synchronization, you can get help in the Business Data Toolset by removing the function module BUA BUPA EVENT FMOD2 for field group 62 Business Data Toolset. To do so, in the menu for the Business Data Toolset (transaction BUPT), choose |}Business Partner } Control \u00bb Screen Layout \u00bb Field Groups",
+   "section_id": "doc_001_sec_051"
+  },
+  {
+   "block_id": "doc_001_p018_b005",
+   "type": "note",
+   "page_number": 18,
+   "bbox": [
+    151,
+    2808,
+    2346,
+    2988
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "label": "Note",
+   "text": "Note During the replication of business partners from SAP CRM to SAP ERP, the standard system sets the Relevant for agency business indicator for the customers created using CVI.",
+   "section_id": "doc_001_sec_051"
+  },
+  {
+   "block_id": "doc_001_p018_b006",
+   "type": "heading",
+   "page_number": 18,
+   "bbox": [
+    128,
+    3170,
+    1510,
+    3246
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Making Settings for Business Partners",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_052"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "8972f193c04c0565910a1fefb3a42930e717d78d39365ca83e2fe652d4bd8b4b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "CRM to SAP S/4HANA",
+  "Activities"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_051",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_052",
+   "role": "starts_here"
+  }
+ ]
+}

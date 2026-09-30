@@ -1,0 +1,418 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 43,
+ "source_page_hash": "07c2dbd0d43817fd209ed559b7664b8b5f95a3a1a8cd5add587b6fdcac645d8b",
+ "is_cover_page": false,
+ "title": "Result",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n2. Enter a meter reading unit and choose |*Street Route \u00bb Maintain\n\n1 Note\n\nIf you want to specify a shared street route for several meter reading units, enter the main meter reading unit.\n\nThe Maintain street route dialog box appears. On this screen, all devices are initially found under the top node Devices not\n\nallocated to a street route .\n\n1. Allocate all devices from the top node to the bottom node Devices allocated to the street route.\n1. To change the sequence or allocate devices to a route, proceed as follows:\n\n1. Select either an object, a node or a block.\n\n2. Position your cursor on the item selected.\n\n3. Choose |/*Edit > Reassign.\n\n1. Save the street route.\n\nResult\nThe street route is used to either:\n\ne Sort devices on printouts when you print meter reading orders for the meter reader.\n\ne Sort devices in the file created when you download meter reading orders.\n\n1 Note\n\nYou can use the enhancement EDMLSORT (IS-U: Sort Meter Reading Orders for Printing and Downloading) for the street route\nto define your own sorting method.\n\nPlanning Meter Readers\n\nUsage\n\nYou use this function after creating an order to allocate selected meter readers to individual or multiple meter reading orders or to\n\nchange existing allocations.\n\nThis function provides greater flexibility in unexpected situations (such as illness) as meter readers can now be allocated\n\ntemporarily to meter reading orders.\n\nPrerequisites\n\nTo use this function, you must first select the Plan Meter Reader indicator in Customizing for SAP Utilities under |sDevice\nManagement } Meter Reading Meter Reading Order + Order Creation } Define Meter Reader\n",
+ "cleaned_text": "2 Enter a meter reading unit and choose |*Street Route \u00bb Maintain\n\nNote If you want to specify a shared street route for several meter reading units, enter the main meter reading unit.\n\nThe Maintain street route dialog box appears. On this screen, all devices are initially found under the top node Devices not allocated to a street route .\n\n1 Allocate all devices from the top node to the bottom node Devices allocated to the street route.\n\n1 To change the sequence or allocate devices to a route, proceed as follows:\n\n1 Select either an object, a node or a block.\n\n2 Position your cursor on the item selected.\n\n3 Choose |/*Edit > Reassign.\n\n1 Save the street route.\n\nResult\n\nThe street route is used to either:\n\n- Sort devices on printouts when you print meter reading orders for the meter reader.\n\n- Sort devices in the file created when you download meter reading orders.\n\nNote You can use the enhancement EDMLSORT (IS-U: Sort Meter Reading Orders for Printing and Downloading) for the street route to define your own sorting method.\n\nPlanning Meter Readers\n\nUsage\n\nYou use this function after creating an order to allocate selected meter readers to individual or multiple meter reading orders or to change existing allocations. This function provides greater flexibility in unexpected situations (such as illness) as meter readers can now be allocated temporarily to meter reading orders.\n\nPrerequisites\n\nTo use this function, you must first select the Plan Meter Reader indicator in Customizing for SAP Utilities under |sDevice Management } Meter Reading Meter Reading Order + Order Creation } Define Meter Reader",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    276,
+    310,
+    313
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1980,
+    310,
+    2017
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p043_b000",
+   "type": "list",
+   "page_number": 43,
+   "bbox": [
+    212,
+    130,
+    1433,
+    176
+   ],
+   "ocr_confidence": 82.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter a meter reading unit and choose |*Street Route \u00bb Maintain"
+    }
+   ],
+   "section_id": "doc_006_sec_067"
+  },
+  {
+   "block_id": "doc_006_p043_b001",
+   "type": "note",
+   "page_number": 43,
+   "bbox": [
+    151,
+    276,
+    2129,
+    435
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "label": "Note",
+   "text": "Note If you want to specify a shared street route for several meter reading units, enter the main meter reading unit.",
+   "section_id": "doc_006_sec_067"
+  },
+  {
+   "block_id": "doc_006_p043_b002",
+   "type": "paragraph",
+   "page_number": 43,
+   "bbox": [
+    122,
+    555,
+    2341,
+    651
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "The Maintain street route dialog box appears. On this screen, all devices are initially found under the top node Devices not allocated to a street route .",
+   "section_id": "doc_006_sec_067"
+  },
+  {
+   "block_id": "doc_006_p043_b003",
+   "type": "list",
+   "page_number": 43,
+   "bbox": [
+    211,
+    742,
+    1997,
+    1344
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Allocate all devices from the top node to the bottom node Devices allocated to the street route."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "To change the sequence or allocate devices to a route, proceed as follows:"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Select either an object, a node or a block."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Position your cursor on the item selected."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Choose |/*Edit > Reassign."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Save the street route."
+    }
+   ],
+   "section_id": "doc_006_sec_067"
+  },
+  {
+   "block_id": "doc_006_p043_b004",
+   "type": "heading",
+   "page_number": 43,
+   "bbox": [
+    126,
+    1463,
+    298,
+    1509
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "text": "Result",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_068"
+  },
+  {
+   "block_id": "doc_006_p043_b005",
+   "type": "heading",
+   "page_number": 43,
+   "bbox": [
+    122,
+    1597,
+    722,
+    1626
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The street route is used to either:",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_069"
+  },
+  {
+   "block_id": "doc_006_p043_b006",
+   "type": "list",
+   "page_number": 43,
+   "bbox": [
+    207,
+    1718,
+    1765,
+    1877
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Sort devices on printouts when you print meter reading orders for the meter reader."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Sort devices in the file created when you download meter reading orders."
+    }
+   ],
+   "section_id": "doc_006_sec_069"
+  },
+  {
+   "block_id": "doc_006_p043_b007",
+   "type": "note",
+   "page_number": 43,
+   "bbox": [
+    151,
+    1980,
+    2435,
+    2159
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "label": "Note",
+   "text": "Note You can use the enhancement EDMLSORT (IS-U: Sort Meter Reading Orders for Printing and Downloading) for the street route to define your own sorting method.",
+   "section_id": "doc_006_sec_069"
+  },
+  {
+   "block_id": "doc_006_p043_b008",
+   "type": "heading",
+   "page_number": 43,
+   "bbox": [
+    128,
+    2345,
+    990,
+    2421
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Planning Meter Readers",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_070"
+  },
+  {
+   "block_id": "doc_006_p043_b009",
+   "type": "heading",
+   "page_number": 43,
+   "bbox": [
+    125,
+    2521,
+    292,
+    2578
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Usage",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_071"
+  },
+  {
+   "block_id": "doc_006_p043_b010",
+   "type": "paragraph",
+   "page_number": 43,
+   "bbox": [
+    122,
+    2654,
+    2471,
+    2938
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You use this function after creating an order to allocate selected meter readers to individual or multiple meter reading orders or to change existing allocations. This function provides greater flexibility in unexpected situations (such as illness) as meter readers can now be allocated temporarily to meter reading orders.",
+   "section_id": "doc_006_sec_071"
+  },
+  {
+   "block_id": "doc_006_p043_b011",
+   "type": "heading",
+   "page_number": 43,
+   "bbox": [
+    126,
+    3051,
+    492,
+    3107
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_072"
+  },
+  {
+   "block_id": "doc_006_p043_b012",
+   "type": "paragraph",
+   "page_number": 43,
+   "bbox": [
+    122,
+    3182,
+    2331,
+    3289
+   ],
+   "ocr_confidence": 90.1,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "To use this function, you must first select the Plan Meter Reader indicator in Customizing for SAP Utilities under |sDevice Management } Meter Reading Meter Reading Order + Order Creation } Define Meter Reader",
+   "section_id": "doc_006_sec_072"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "3 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "07c2dbd0d43817fd209ed559b7664b8b5f95a3a1a8cd5add587b6fdcac645d8b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:34Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Maintain Street Route for Meter Reading Unit",
+  "Prerequisites"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_067",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_068",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_069",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_070",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_071",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_072",
+   "role": "starts_here"
+  }
+ ]
+}

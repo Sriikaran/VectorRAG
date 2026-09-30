@@ -1,0 +1,357 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 31,
+ "source_page_hash": "90f870f574a34d3136ef4cf9772591f0e675d981f789a048d0549045d74e7052",
+ "is_cover_page": false,
+ "title": "Option 1: Input Parameters at RTP Interface Level",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nYou can make the parameter allocations for the input parameters at RTP interface level or at installation level.\n\nOption 1: Input Parameters at RTP Interface Level\n\n1. Double click on an input parameter to select it.\n2. Enter the period for which you want the parameter to be valid.\n\n3. Allocate a profile, a role, or a constant value to the parameter.\n\nIf you allocate a role, the input parameter is given the profile values of the profile that is allocated to the interval meter to be\nbilled with the specified role when the RTP interface is executed.\n\n4. Select @pTransfer.\n\nYour entries are then transferred to the list.\nRepeat steps 1 to 4 for all input parameters.\nOption 2: Input Parameters at Installation Level\n\n1. Double click on an input parameter to select it.\n\n2. If you want the allocation of a profile, a role, or a constant value to the input parameter at installation level to be obligatory,\nselect the Template Required (Parameter template is required) field.\n\n3. Select @yTransfer.\nYour entries are then transferred to the list and the parameter templates are proposed for processing in the installation.\n\n4. Select the installation for which you want to execute this component in the Utilities Industry menu under |) Technical\nMaster Data \u00bb Installations Change\n\n5. Choose an(G)RTP interface.\n\n6. Double click on an input parameter to select it.\n\n7. On the Parameters tab page, enter the period for which the parameter is valid.\n8. Allocate a profile, a role, or a constant value to the parameter.\n\nIf you allocate a role, the input parameter is given the profile values of the profile that is allocated to the interval meter to be\nbilled with the specified role when the RTP interface is executed.\n\n9. Choose @pTransfer.\n\nYour entries are then transferred to the list.\nRepeat steps 6 to 9 for all input parameters.\nActivation\n\n1. On the Component tab page for the installation, enter the component and the activation period then select the Activate\nfield.\n\n2. Choose @gTransfer.\n\nYour entries are then transferred to the list.\n",
+ "cleaned_text": "You can make the parameter allocations for the input parameters at RTP interface level or at installation level.\n\nOption 1: Input Parameters at RTP Interface Level\n\n1 Double click on an input parameter to select it.\n\n2 Enter the period for which you want the parameter to be valid.\n\n3 Allocate a profile, a role, or a constant value to the parameter. If you allocate a role, the input parameter is given the profile values of the profile that is allocated to the interval meter to be billed with the specified role when the RTP interface is executed.\n\n4 Select @pTransfer. Your entries are then transferred to the list.\n\nRepeat steps 1 to 4 for all input parameters.\n\nOption 2: Input Parameters at Installation Level\n\n1 Double click on an input parameter to select it.\n\n2 If you want the allocation of a profile, a role, or a constant value to the input parameter at installation level to be obligatory, select the Template Required (Parameter template is required) field.\n\n3 Select @yTransfer. Your entries are then transferred to the list and the parameter templates are proposed for processing in the installation.\n\n4 Select the installation for which you want to execute this component in the Utilities Industry menu under |) Technical Master Data \u00bb Installations Change\n\n5 Choose an(G)RTP interface.\n\n6 Double click on an input parameter to select it.\n\n7 On the Parameters tab page, enter the period for which the parameter is valid.\n\n8 Allocate a profile, a role, or a constant value to the parameter. If you allocate a role, the input parameter is given the profile values of the profile that is allocated to the interval meter to be billed with the specified role when the RTP interface is executed.\n\n9 Choose @pTransfer. Your entries are then transferred to the list.\n\nRepeat steps 6 to 9 for all input parameters.\n\nActivation\n\n1 On the Component tab page for the installation, enter the component and the activation period then select the Activate field.\n\n2 Choose @gTransfer. Your entries are then transferred to the list.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p031_b000",
+   "type": "paragraph",
+   "page_number": 31,
+   "bbox": [
+    123,
+    134,
+    2101,
+    172
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "You can make the parameter allocations for the input parameters at RTP interface level or at installation level.",
+   "section_id": "doc_011_sec_093"
+  },
+  {
+   "block_id": "doc_011_p031_b001",
+   "type": "heading",
+   "page_number": 31,
+   "bbox": [
+    123,
+    256,
+    1044,
+    294
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Option 1: Input Parameters at RTP Interface Level",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_094"
+  },
+  {
+   "block_id": "doc_011_p031_b002",
+   "type": "list",
+   "page_number": 31,
+   "bbox": [
+    211,
+    378,
+    2483,
+    986
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Double click on an input parameter to select it."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Enter the period for which you want the parameter to be valid."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Allocate a profile, a role, or a constant value to the parameter. If you allocate a role, the input parameter is given the profile values of the profile that is allocated to the interval meter to be billed with the specified role when the RTP interface is executed."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Select @pTransfer. Your entries are then transferred to the list."
+    }
+   ],
+   "section_id": "doc_011_sec_094"
+  },
+  {
+   "block_id": "doc_011_p031_b003",
+   "type": "paragraph",
+   "page_number": 31,
+   "bbox": [
+    125,
+    1077,
+    910,
+    1115
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Repeat steps 1 to 4 for all input parameters.",
+   "section_id": "doc_011_sec_094"
+  },
+  {
+   "block_id": "doc_011_p031_b004",
+   "type": "heading",
+   "page_number": 31,
+   "bbox": [
+    123,
+    1199,
+    1005,
+    1236
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Option 2: Input Parameters at Installation Level",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_095"
+  },
+  {
+   "block_id": "doc_011_p031_b005",
+   "type": "list",
+   "page_number": 31,
+   "bbox": [
+    211,
+    1320,
+    2483,
+    2668
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "low_confidence_words:9"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Double click on an input parameter to select it."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "If you want the allocation of a profile, a role, or a constant value to the input parameter at installation level to be obligatory, select the Template Required (Parameter template is required) field."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Select @yTransfer. Your entries are then transferred to the list and the parameter templates are proposed for processing in the installation."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Select the installation for which you want to execute this component in the Utilities Industry menu under |) Technical Master Data \u00bb Installations Change"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Choose an(G)RTP interface."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "Double click on an input parameter to select it."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "7",
+     "text": "On the Parameters tab page, enter the period for which the parameter is valid."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "8",
+     "text": "Allocate a profile, a role, or a constant value to the parameter. If you allocate a role, the input parameter is given the profile values of the profile that is allocated to the interval meter to be billed with the specified role when the RTP interface is executed."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "9",
+     "text": "Choose @pTransfer. Your entries are then transferred to the list."
+    }
+   ],
+   "section_id": "doc_011_sec_095"
+  },
+  {
+   "block_id": "doc_011_p031_b006",
+   "type": "paragraph",
+   "page_number": 31,
+   "bbox": [
+    125,
+    2755,
+    917,
+    2802
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Repeat steps 6 to 9 for all input parameters.",
+   "section_id": "doc_011_sec_095"
+  },
+  {
+   "block_id": "doc_011_p031_b007",
+   "type": "heading",
+   "page_number": 31,
+   "bbox": [
+    123,
+    2881,
+    310,
+    2911
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Activation",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_096"
+  },
+  {
+   "block_id": "doc_011_p031_b008",
+   "type": "list",
+   "page_number": 31,
+   "bbox": [
+    212,
+    3005,
+    2422,
+    3300
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "On the Component tab page for the installation, enter the component and the activation period then select the Activate field."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Choose @gTransfer. Your entries are then transferred to the list."
+    }
+   ],
+   "section_id": "doc_011_sec_096"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "90f870f574a34d3136ef4cf9772591f0e675d981f789a048d0549045d74e7052"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Define RTP Interface",
+  "Selection of the Activation Type",
+  "Input Parameters"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_093",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_094",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_095",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_096",
+   "role": "starts_here"
+  }
+ ]
+}

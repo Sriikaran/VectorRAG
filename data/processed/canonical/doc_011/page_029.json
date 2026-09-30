@@ -1,0 +1,223 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 29,
+ "source_page_hash": "6c3893aeba3d0c075d1b1ce5fc546cc7aec3071544c722706e2a5c6d2900e63d",
+ "is_cover_page": false,
+ "title": "Result Parameters",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\n\n1\n\n. Inthe Form.ProfCalc. field (Formula for Calculation of Profiles), enter one of the predefined formulas.\n\nYou can select the formulas that are defined in Customizing under |) Tools \u00bb System Modifications \u00bb User-Defined\nEnhancements for Energy Data Management \u00bb Formulas\n\nSee also: Formulas\n\n. Choose one of the predefined interval lengths in the Interval Length field.\n\nYou can select the interval lengths that are defined in Customizing under |)}Tools > System Modifications \u00bb User-Defined\nEnhancements for Energy Data Management > Interval Lengths\n\n. Enter a division in the Division field.\n\n. If you do not want the day to start at 00:00:00, enter the period of time by which you want the start time to be shifted in\n\nthe day offset field.\n\nRefer to the field help for more information.\n\nResult Parameters\n\n1.\n\n2.\n\n3.\n\n7.\n\n8.\n\nIn the Result Number field (Number of Result Parameter), enter the number of the result parameter (starting at 1).\nEnter a text in the Result Param. Desc. field (Description of Result Parameter).\nChoose one of the predefined options in the Operand Category field.\n\nRefer to the field help for more information.\n\n. Choose one of the predefined options in the Result Function field.\n\nYou can select the result functions that are defined in Customizing under |Tools \u00bb System Modifications User-Defined\nEnhancements for Energy Data Management \u00bb Result Functions\n\n. Enter a unit of measurement in the Unit of Measurement field.\n\n. If you do not want the RTP operand prorations to be included when the RTP interface is executed, select the No Proration\n\nfield.\n\nIf you select this field, the result function for the result parameter is only executed once for the total execution period of the\nRTP interface. We recommend you do this for demand values.\n\nRefer to the field help for more information.\nChoose 2 to copy your entries to the list.\n\nRepeat steps 9 to 15 for every additional result parameter that you want to define.\n\nRTP Components\n\n1.\n\n2.\n\nChoose one of the predefined options in the RTP Component field.\n\nYou can select the RTP components that have been defined in Customizing for SAP Utilities under |}*Energy Data\nManagement > Interface to RTP Billing > Define RTP Components\n\nChoose one of the predefined options in the Activation Type field.\n\nSee also: Activation Types\n\n",
+ "cleaned_text": "1 . Inthe Form.ProfCalc. field (Formula for Calculation of Profiles), enter one of the predefined formulas. You can select the formulas that are defined in Customizing under |) Tools \u00bb System Modifications \u00bb User-Defined Enhancements for Energy Data Management \u00bb Formulas See also: Formulas . Choose one of the predefined interval lengths in the Interval Length field. You can select the interval lengths that are defined in Customizing under |)}Tools > System Modifications \u00bb User-Defined Enhancements for Energy Data Management > Interval Lengths . Enter a division in the Division field. . If you do not want the day to start at 00:00:00, enter the period of time by which you want the start time to be shifted in the day offset field. Refer to the field help for more information.\n\nResult Parameters\n\n1. 2. 3.\n\n7. 8. In the Result Number field (Number of Result Parameter), enter the number of the result parameter (starting at 1). Enter a text in the Result Param. Desc. field (Description of Result Parameter). Choose one of the predefined options in the Operand Category field. Refer to the field help for more information. . Choose one of the predefined options in the Result Function field. You can select the result functions that are defined in Customizing under |Tools \u00bb System Modifications User-Defined Enhancements for Energy Data Management \u00bb Result Functions . Enter a unit of measurement in the Unit of Measurement field. . If you do not want the RTP operand prorations to be included when the RTP interface is executed, select the No Proration field. If you select this field, the result function for the result parameter is only executed once for the total execution period of the RTP interface. We recommend you do this for demand values. Refer to the field help for more information. Choose 2 to copy your entries to the list. Repeat steps 9 to 15 for every additional result parameter that you want to define.\n\nRTP Components\n\n1.\n\n2. Choose one of the predefined options in the RTP Component field. You can select the RTP components that have been defined in Customizing for SAP Utilities under |}*Energy Data Management > Interface to RTP Billing > Define RTP Components Choose one of the predefined options in the Activation Type field. See also: Activation Types",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p029_b000",
+   "type": "paragraph",
+   "page_number": 29,
+   "bbox": [
+    214,
+    134,
+    2441,
+    1079
+   ],
+   "ocr_confidence": 91.1,
+   "flags": [
+    "low_confidence_words:9"
+   ],
+   "text": "1 . Inthe Form.ProfCalc. field (Formula for Calculation of Profiles), enter one of the predefined formulas. You can select the formulas that are defined in Customizing under |) Tools \u00bb System Modifications \u00bb User-Defined Enhancements for Energy Data Management \u00bb Formulas See also: Formulas . Choose one of the predefined interval lengths in the Interval Length field. You can select the interval lengths that are defined in Customizing under |)}Tools > System Modifications \u00bb User-Defined Enhancements for Energy Data Management > Interval Lengths . Enter a division in the Division field. . If you do not want the day to start at 00:00:00, enter the period of time by which you want the start time to be shifted in the day offset field. Refer to the field help for more information.",
+   "section_id": "doc_011_sec_088"
+  },
+  {
+   "block_id": "doc_011_p029_b001",
+   "type": "heading",
+   "page_number": 29,
+   "bbox": [
+    124,
+    1162,
+    467,
+    1193
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Result Parameters",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_089"
+  },
+  {
+   "block_id": "doc_011_p029_b002",
+   "type": "paragraph",
+   "page_number": 29,
+   "bbox": [
+    211,
+    1285,
+    242,
+    1521
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "text": "1. 2. 3.",
+   "section_id": "doc_011_sec_089"
+  },
+  {
+   "block_id": "doc_011_p029_b003",
+   "type": "paragraph",
+   "page_number": 29,
+   "bbox": [
+    211,
+    1284,
+    2481,
+    2639
+   ],
+   "ocr_confidence": 94.1,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "7. 8. In the Result Number field (Number of Result Parameter), enter the number of the result parameter (starting at 1). Enter a text in the Result Param. Desc. field (Description of Result Parameter). Choose one of the predefined options in the Operand Category field. Refer to the field help for more information. . Choose one of the predefined options in the Result Function field. You can select the result functions that are defined in Customizing under |Tools \u00bb System Modifications User-Defined Enhancements for Energy Data Management \u00bb Result Functions . Enter a unit of measurement in the Unit of Measurement field. . If you do not want the RTP operand prorations to be included when the RTP interface is executed, select the No Proration field. If you select this field, the result function for the result parameter is only executed once for the total execution period of the RTP interface. We recommend you do this for demand values. Refer to the field help for more information. Choose 2 to copy your entries to the list. Repeat steps 9 to 15 for every additional result parameter that you want to define.",
+   "section_id": "doc_011_sec_089"
+  },
+  {
+   "block_id": "doc_011_p029_b004",
+   "type": "heading",
+   "page_number": 29,
+   "bbox": [
+    124,
+    2723,
+    449,
+    2761
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "RTP Components",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_011_sec_089"
+  },
+  {
+   "block_id": "doc_011_p029_b005",
+   "type": "paragraph",
+   "page_number": 29,
+   "bbox": [
+    214,
+    2848,
+    242,
+    2878
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [],
+   "text": "1.",
+   "section_id": "doc_011_sec_089"
+  },
+  {
+   "block_id": "doc_011_p029_b006",
+   "type": "paragraph",
+   "page_number": 29,
+   "bbox": [
+    211,
+    2848,
+    2292,
+    3257
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "2. Choose one of the predefined options in the RTP Component field. You can select the RTP components that have been defined in Customizing for SAP Utilities under |}*Energy Data Management > Interface to RTP Billing > Define RTP Components Choose one of the predefined options in the Activation Type field. See also: Activation Types",
+   "section_id": "doc_011_sec_089"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "6c3893aeba3d0c075d1b1ce5fc546cc7aec3071544c722706e2a5c6d2900e63d"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Define RTP Interface",
+  "Procedure",
+  "Create RTP interface"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_088",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_089",
+   "role": "starts_here"
+  }
+ ]
+}

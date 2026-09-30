@@ -1,0 +1,422 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 21,
+ "source_page_hash": "c1ffb83c854b4db39928d016d8a4ba05a36f430390a6146fc28a68388210ddf3",
+ "is_cover_page": false,
+ "title": "Maintenance in Contract Accounts Receivable and Payable (FI-CA)",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\nalso exists as business partner in the system where FI-CA runs. CRM middleware replicates the business partner Clerk and makes\nthe assignment to the contract account.\n\nMaintenance in Contract Accounts Receivable and Payable (FI-CA)\n\nIn FI-CA, enter the required clerk in the contract accounts of your business partners on the tab page General Data in the field\nClerk Responsible.\n\nMaintenance in CRM System\n\nmySAP CRM portrays the clerk as a partner function using the business agreement. In Customizing for CRM you define which\npartner function is to be replicated in the corresponding field in the contract account.\n\nDeleting Data Records No Longer Required\n\nYou can delete old entries that are no longer required \u2014 this decreases the burden on the system. To do this, on the SAP Easy\nAccess screen, choose: |}Periodic Processing \u00bb Delete Data \u00bb Entries in Dunning Telephone List \u00bb. See the report\ndocumentation.\n\nActivities\nMake the following settings in Customizing for Contract Accounts Receivable and Payable:\n\ne Configure the dunning activities under |)}Business Transactions \u00bb Dunning Notices\n\ne Your clerks can use customer contacts to document communication with the business partners in the system. To enable\n\nthis, carry out the contact configurations for the program context SAPLFKKDUTL under |)*Basic Functions \u00bb Customer\nContacts \u00bb Define Configurations\n\ne Under |}Technical Settings \u00bb Prepare Processing of Clarification Worklists 5, you can adjust the functions of the\nclarification worklist. The relevant application object has the key DUTL. In particular, here you can define your own\nprocessing status and user commands. SAP delivers the function module FKKDUTL_EVENT_UCOMEXIT_OTHER as an\n\nexample for user commands.\n\ne If you use the function module FKK_SAMPLE_0746_TEL_ITEM as a dunning activity, you can also create a telephone list in\nCorrespondence Dunning (compare Dunning Incoming Correspondence).\n\nDunning History\n\nIn a dunning history, the system records all dunning data for each dunned item. There you can find out about the individual\ndunning steps. The dunning program uses the dunning history to determine the dunning levels.\n\nIn the dunning history (transaction FPM3), you can see which items have been dunned for a particular area. The functions of the\ndunning history are protected by the following authorization objects:\n\ne F_KKDU (Dunning in Contract Accounts Receivable and Payable)\ne F_KKKO_BUK (Authorization in Company Code)\n\ne F_KKKO_GSB (Authorization in Business Area)\n\nPm Wisisrrvr Mmrom /sA.. LL...\u2018 ek... \u00a32. A kk... L wt OA: LLL Re LL ' 2 OM wk. ge EM. LL LA.WRLLLOA ww.LY\n",
+ "cleaned_text": "also exists as business partner in the system where FI-CA runs. CRM middleware replicates the business partner Clerk and makes the assignment to the contract account.\n\nMaintenance in Contract Accounts Receivable and Payable (FI-CA)\n\nIn FI-CA, enter the required clerk in the contract accounts of your business partners on the tab page General Data in the field Clerk Responsible.\n\nMaintenance in CRM System\n\nmySAP CRM portrays the clerk as a partner function using the business agreement. In Customizing for CRM you define which partner function is to be replicated in the corresponding field in the contract account.\n\nDeleting Data Records No Longer Required\n\nYou can delete old entries that are no longer required \u2014 this decreases the burden on the system. To do this, on the SAP Easy Access screen, choose: |}Periodic Processing \u00bb Delete Data \u00bb Entries in Dunning Telephone List \u00bb. See the report documentation.\n\nActivities\n\nMake the following settings in Customizing for Contract Accounts Receivable and Payable:\n\n- Configure the dunning activities under |)}Business Transactions \u00bb Dunning Notices\n\n- Your clerks can use customer contacts to document communication with the business partners in the system. To enable this, carry out the contact configurations for the program context SAPLFKKDUTL under |)*Basic Functions \u00bb Customer Contacts \u00bb Define Configurations\n\n- Under |}Technical Settings \u00bb Prepare Processing of Clarification Worklists 5, you can adjust the functions of the clarification worklist. The relevant application object has the key DUTL. In particular, here you can define your own processing status and user commands. SAP delivers the function module FKKDUTL_EVENT_UCOMEXIT_OTHER as an\n\nexample for user commands.\n\n- If you use the function module FKK_SAMPLE_0746_TEL_ITEM as a dunning activity, you can also create a telephone list in Correspondence Dunning (compare Dunning Incoming Correspondence).\n\nDunning History\n\nIn a dunning history, the system records all dunning data for each dunned item. There you can find out about the individual dunning steps. The dunning program uses the dunning history to determine the dunning levels. In the dunning history (transaction FPM3), you can see which items have been dunned for a particular area. The functions of the dunning history are protected by the following authorization objects:\n\n- F_KKDU (Dunning in Contract Accounts Receivable and Payable)\n\n- F_KKKO_BUK (Authorization in Company Code)\n\n- F_KKKO_GSB (Authorization in Business Area)\n\nPm Wisisrrvr Mmrom /sA.. LL...\u2018 ek... \u00a32. A kk... L wt OA: LLL Re LL ' 2 OM wk. ge EM. LL LA.WRLLLOA ww.LY",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p021_b000",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    122,
+    134,
+    2465,
+    235
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "also exists as business partner in the system where FI-CA runs. CRM middleware replicates the business partner Clerk and makes the assignment to the contract account.",
+   "section_id": "doc_026_sec_097"
+  },
+  {
+   "block_id": "doc_026_p021_b001",
+   "type": "heading",
+   "page_number": 21,
+   "bbox": [
+    124,
+    318,
+    1363,
+    356
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Maintenance in Contract Accounts Receivable and Payable (FI-CA)",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_026_sec_097"
+  },
+  {
+   "block_id": "doc_026_p021_b002",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    123,
+    443,
+    2379,
+    544
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "In FI-CA, enter the required clerk in the contract accounts of your business partners on the tab page General Data in the field Clerk Responsible.",
+   "section_id": "doc_026_sec_097"
+  },
+  {
+   "block_id": "doc_026_p021_b003",
+   "type": "heading",
+   "page_number": 21,
+   "bbox": [
+    124,
+    627,
+    658,
+    665
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Maintenance in CRM System",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_026_sec_097"
+  },
+  {
+   "block_id": "doc_026_p021_b004",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    124,
+    748,
+    2399,
+    849
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "mySAP CRM portrays the clerk as a partner function using the business agreement. In Customizing for CRM you define which partner function is to be replicated in the corresponding field in the contract account.",
+   "section_id": "doc_026_sec_097"
+  },
+  {
+   "block_id": "doc_026_p021_b005",
+   "type": "heading",
+   "page_number": 21,
+   "bbox": [
+    124,
+    936,
+    919,
+    974
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Deleting Data Records No Longer Required",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_026_sec_097"
+  },
+  {
+   "block_id": "doc_026_p021_b006",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    123,
+    1057,
+    2369,
+    1213
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "You can delete old entries that are no longer required \u2014 this decreases the burden on the system. To do this, on the SAP Easy Access screen, choose: |}Periodic Processing \u00bb Delete Data \u00bb Entries in Dunning Telephone List \u00bb. See the report documentation.",
+   "section_id": "doc_026_sec_097"
+  },
+  {
+   "block_id": "doc_026_p021_b007",
+   "type": "heading",
+   "page_number": 21,
+   "bbox": [
+    123,
+    1332,
+    383,
+    1377
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_098"
+  },
+  {
+   "block_id": "doc_026_p021_b008",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    125,
+    1465,
+    1754,
+    1503
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Make the following settings in Customizing for Contract Accounts Receivable and Payable:",
+   "section_id": "doc_026_sec_098"
+  },
+  {
+   "block_id": "doc_026_p021_b009",
+   "type": "list",
+   "page_number": 21,
+   "bbox": [
+    207,
+    1582,
+    2427,
+    2081
+   ],
+   "ocr_confidence": 90.2,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Configure the dunning activities under |)}Business Transactions \u00bb Dunning Notices"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Your clerks can use customer contacts to document communication with the business partners in the system. To enable this, carry out the contact configurations for the program context SAPLFKKDUTL under |)*Basic Functions \u00bb Customer Contacts \u00bb Define Configurations"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Under |}Technical Settings \u00bb Prepare Processing of Clarification Worklists 5, you can adjust the functions of the clarification worklist. The relevant application object has the key DUTL. In particular, here you can define your own processing status and user commands. SAP delivers the function module FKKDUTL_EVENT_UCOMEXIT_OTHER as an"
+    }
+   ],
+   "section_id": "doc_026_sec_098"
+  },
+  {
+   "block_id": "doc_026_p021_b010",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    255,
+    2109,
+    779,
+    2146
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "example for user commands.",
+   "section_id": "doc_026_sec_098"
+  },
+  {
+   "block_id": "doc_026_p021_b011",
+   "type": "list",
+   "page_number": 21,
+   "bbox": [
+    207,
+    2210,
+    2460,
+    2311
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you use the function module FKK_SAMPLE_0746_TEL_ITEM as a dunning activity, you can also create a telephone list in Correspondence Dunning (compare Dunning Incoming Correspondence)."
+    }
+   ],
+   "section_id": "doc_026_sec_098"
+  },
+  {
+   "block_id": "doc_026_p021_b012",
+   "type": "heading",
+   "page_number": 21,
+   "bbox": [
+    128,
+    2461,
+    711,
+    2536
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Dunning History",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_099"
+  },
+  {
+   "block_id": "doc_026_p021_b013",
+   "type": "paragraph",
+   "page_number": 21,
+   "bbox": [
+    123,
+    2608,
+    2431,
+    2899
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "In a dunning history, the system records all dunning data for each dunned item. There you can find out about the individual dunning steps. The dunning program uses the dunning history to determine the dunning levels. In the dunning history (transaction FPM3), you can see which items have been dunned for a particular area. The functions of the dunning history are protected by the following authorization objects:",
+   "section_id": "doc_026_sec_099"
+  },
+  {
+   "block_id": "doc_026_p021_b014",
+   "type": "list",
+   "page_number": 21,
+   "bbox": [
+    207,
+    2982,
+    1424,
+    3224
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "F_KKDU (Dunning in Contract Accounts Receivable and Payable)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "F_KKKO_BUK (Authorization in Company Code)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "F_KKKO_GSB (Authorization in Business Area)"
+    }
+   ],
+   "section_id": "doc_026_sec_099"
+  },
+  {
+   "block_id": "doc_026_p021_b015",
+   "type": "fragment",
+   "page_number": 21,
+   "bbox": [
+    256,
+    3281,
+    1794,
+    3300
+   ],
+   "ocr_confidence": 27.5,
+   "flags": [
+    "low_confidence_words:23",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Pm Wisisrrvr Mmrom /sA.. LL...\u2018 ek... \u00a32. A kk... L wt OA: LLL Re LL ' 2 OM wk. ge EM. LL LA.WRLLLOA ww.LY",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_026_sec_099"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.5,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 89,
+   "page_hash": "c1ffb83c854b4db39928d016d8a4ba05a36f430390a6146fc28a68388210ddf3"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Dunning by Telephone",
+  "Key Features",
+  "Connection to mySAP CRM"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_097",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_098",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_099",
+   "role": "starts_here"
+  }
+ ]
+}

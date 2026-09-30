@@ -1,0 +1,601 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 12,
+ "source_page_hash": "9297d77fe5fc6441d61e926164b00340cfd9d0aa1fd9c91a19d7dfa2bfc3865e",
+ "is_cover_page": false,
+ "title": "Dunning Proposal",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n\n\u2014\n\nDunning Proposal Run\n\n~~\n\nDunning Proposal\n\nee\n\nDunning Activity Runs\n\n\u2014~_\n\nDunning History\n\nDunning Run\n\nResult\n\nDetermination of Items Due for Dunning with Their\nDunning Procedures and Dunning Levels\n\nConsolidation of Items in Dunning Groupings\nSpecification of Issue Date of Dunning Notices\n\nDetermination of Dunning Activities Corresponding to\nthe Dunning Levels\n\nExecution of Dunning Activities\n\nInterest Calculation on Items Due for Dunning\nCalculation and Posting of Charges\n\nCreation of Correspondence, Notes to Processing\nClerks, Entries in Telephone Lists\n\nRelease of Items to Collection Agencies\nDeactivation of Installment Plans\n\nChange of Creditworthiness\n\nSetting of Print Date\n\nRecording of Dunning Activities\n\nIn a dunning run, you have created, for example, printed material, clerk notes, charge postings, and interest postings. The system\nhas updated the dunning history and the dunning activity history.\n\nDunning Proposal Run\n\nUse\n\nThe dunning proposal run groups overdue items into dunning notices.\n\nPrerequisites\n\nYou have defined dunning procedures in the master data of the contract accounts.\n\nIf applicable, you have defined the execution variants in Customizing for Contract Accounts Receivable and Payable under |)\u00bb\nBusiness Transactions >\u00bb Dunning > Define Execution Variants for Dunning Proposal Run J and entered an installation-specific\n\nfhpApntinn madiila at avant O2NN :indar lk Dragram Enhanramantc & Dafina Ciictnmar_Cnarific Ern;pncetinn Adadislac\n",
+ "cleaned_text": "\u2014 Dunning Proposal Run\n\n~~\n\nDunning Proposal\n\nee\n\nDunning Activity Runs\n\n\u2014~_\n\nDunning History\n\nDunning Run\n\nResult\n\nDetermination of Items Due for Dunning with Their Dunning Procedures and Dunning Levels Consolidation of Items in Dunning Groupings Specification of Issue Date of Dunning Notices Determination of Dunning Activities Corresponding to the Dunning Levels\n\nExecution of Dunning Activities\n\nInterest Calculation on Items Due for Dunning\n\nCalculation and Posting of Charges\n\nCreation of Correspondence, Notes to Processing\n\nClerks, Entries in Telephone Lists\n\nRelease of Items to Collection Agencies\n\nDeactivation of Installment Plans\n\nChange of Creditworthiness\n\nSetting of Print Date\n\nRecording of Dunning Activities\n\nIn a dunning run, you have created, for example, printed material, clerk notes, charge postings, and interest postings. The system has updated the dunning history and the dunning activity history.\n\nDunning Proposal Run\n\nUse\n\nThe dunning proposal run groups overdue items into dunning notices.\n\nPrerequisites\n\nYou have defined dunning procedures in the master data of the contract accounts. If applicable, you have defined the execution variants in Customizing for Contract Accounts Receivable and Payable under |)\u00bb Business Transactions >\u00bb Dunning > Define Execution Variants for Dunning Proposal Run J and entered an installation-specific\n\nfhpApntinn madiila at avant O2NN :indar lk Dragram Enhanramantc & Dafina Ciictnmar_Cnarific Ern;pncetinn Adadislac",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p012_b000",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    118,
+    76,
+    884,
+    431
+   ],
+   "ocr_confidence": 72.4,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "\u2014 Dunning Proposal Run",
+   "section_id": "doc_026_sec_047"
+  },
+  {
+   "block_id": "doc_026_p012_b001",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    124,
+    549,
+    1159,
+    679
+   ],
+   "ocr_confidence": 7.8,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "~~",
+   "section_id": "doc_026_sec_047"
+  },
+  {
+   "block_id": "doc_026_p012_b002",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    452,
+    761,
+    871,
+    810
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Dunning Proposal",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_048"
+  },
+  {
+   "block_id": "doc_026_p012_b003",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    122,
+    931,
+    1163,
+    1061
+   ],
+   "ocr_confidence": 2.3,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "ee",
+   "section_id": "doc_026_sec_048"
+  },
+  {
+   "block_id": "doc_026_p012_b004",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    380,
+    1166,
+    902,
+    1215
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Dunning Activity Runs",
+   "section_id": "doc_026_sec_048"
+  },
+  {
+   "block_id": "doc_026_p012_b005",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    124,
+    1312,
+    1159,
+    1443
+   ],
+   "ocr_confidence": 48.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "\u2014~_",
+   "section_id": "doc_026_sec_048"
+  },
+  {
+   "block_id": "doc_026_p012_b006",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    452,
+    1760,
+    831,
+    1809
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Dunning History",
+   "section_id": "doc_026_sec_048"
+  },
+  {
+   "block_id": "doc_026_p012_b007",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    124,
+    1917,
+    333,
+    1953
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Dunning Run",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_026_sec_048"
+  },
+  {
+   "block_id": "doc_026_p012_b008",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    126,
+    2058,
+    299,
+    2104
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Result",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_049"
+  },
+  {
+   "block_id": "doc_026_p012_b009",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    1291,
+    149,
+    2447,
+    584
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Determination of Items Due for Dunning with Their Dunning Procedures and Dunning Levels Consolidation of Items in Dunning Groupings Specification of Issue Date of Dunning Notices Determination of Dunning Activities Corresponding to the Dunning Levels",
+   "section_id": "doc_026_sec_049"
+  },
+  {
+   "block_id": "doc_026_p012_b010",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    1294,
+    803,
+    1965,
+    852
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "Execution of Dunning Activities",
+   "section_id": "doc_026_sec_049"
+  },
+  {
+   "block_id": "doc_026_p012_b011",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    1421,
+    886,
+    2271,
+    926
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Interest Calculation on Items Due for Dunning",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_050"
+  },
+  {
+   "block_id": "doc_026_p012_b012",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    1420,
+    936,
+    2079,
+    976
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Calculation and Posting of Charges",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_051"
+  },
+  {
+   "block_id": "doc_026_p012_b013",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    1420,
+    986,
+    2348,
+    1027
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Creation of Correspondence, Notes to Processing",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_052"
+  },
+  {
+   "block_id": "doc_026_p012_b014",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    1420,
+    1039,
+    2041,
+    1080
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Clerks, Entries in Telephone Lists",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_053"
+  },
+  {
+   "block_id": "doc_026_p012_b015",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    1421,
+    1090,
+    2161,
+    1130
+   ],
+   "ocr_confidence": 86.9,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Release of Items to Collection Agencies",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_054"
+  },
+  {
+   "block_id": "doc_026_p012_b016",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    1421,
+    1140,
+    2030,
+    1173
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Deactivation of Installment Plans",
+   "section_id": "doc_026_sec_054"
+  },
+  {
+   "block_id": "doc_026_p012_b017",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    1420,
+    1190,
+    1938,
+    1231
+   ],
+   "ocr_confidence": 94.0,
+   "flags": [],
+   "text": "Change of Creditworthiness",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_055"
+  },
+  {
+   "block_id": "doc_026_p012_b018",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    1293,
+    1273,
+    1731,
+    1321
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Setting of Print Date",
+   "section_id": "doc_026_sec_055"
+  },
+  {
+   "block_id": "doc_026_p012_b019",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    1294,
+    1689,
+    1973,
+    1737
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Recording of Dunning Activities",
+   "level": 3,
+   "heading_confidence": "low",
+   "section_id": "doc_026_sec_055"
+  },
+  {
+   "block_id": "doc_026_p012_b020",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    124,
+    2191,
+    2446,
+    2291
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "In a dunning run, you have created, for example, printed material, clerk notes, charge postings, and interest postings. The system has updated the dunning history and the dunning activity history.",
+   "section_id": "doc_026_sec_055"
+  },
+  {
+   "block_id": "doc_026_p012_b021",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    128,
+    2441,
+    925,
+    2516
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Dunning Proposal Run",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_056"
+  },
+  {
+   "block_id": "doc_026_p012_b022",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    125,
+    2617,
+    225,
+    2662
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_057"
+  },
+  {
+   "block_id": "doc_026_p012_b023",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    122,
+    2749,
+    1380,
+    2787
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "text": "The dunning proposal run groups overdue items into dunning notices.",
+   "section_id": "doc_026_sec_057"
+  },
+  {
+   "block_id": "doc_026_p012_b024",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    126,
+    2900,
+    492,
+    2956
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "low",
+   "section_id": "doc_026_sec_057"
+  },
+  {
+   "block_id": "doc_026_p012_b025",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    123,
+    3032,
+    2432,
+    3256
+   ],
+   "ocr_confidence": 91.3,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "You have defined dunning procedures in the master data of the contract accounts. If applicable, you have defined the execution variants in Customizing for Contract Accounts Receivable and Payable under |)\u00bb Business Transactions >\u00bb Dunning > Define Execution Variants for Dunning Proposal Run J and entered an installation-specific",
+   "section_id": "doc_026_sec_057"
+  },
+  {
+   "block_id": "doc_026_p012_b026",
+   "type": "fragment",
+   "page_number": 12,
+   "bbox": [
+    122,
+    3274,
+    2161,
+    3300
+   ],
+   "ocr_confidence": 55.1,
+   "flags": [
+    "low_confidence_words:6",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "fhpApntinn madiila at avant O2NN :indar lk Dragram Enhanramantc & Dafina Ciictnmar_Cnarific Ern;pncetinn Adadislac",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_026_sec_057"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 53,
+  "body_stroke_median": 0.1147,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 89,
+   "page_hash": "9297d77fe5fc6441d61e926164b00340cfd9d0aa1fd9c91a19d7dfa2bfc3865e"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Calculation of Interest and Charges According to Fiscal Code",
+  "Process"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_047",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_048",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_049",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_050",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_051",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_052",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_053",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_054",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_055",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_056",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_057",
+   "role": "starts_here"
+  }
+ ]
+}

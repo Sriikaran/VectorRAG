@@ -1,0 +1,610 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 102,
+ "source_page_hash": "fd76cdc14f164dd80a79e4e195674147347e427bad717316b75e9608e7d15cdd",
+ "is_cover_page": false,
+ "title": "To-Date",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nPoD ID\nFrom-Date\nTo-Date\n\nEVIGRID\n\nGrid\nFrom-Date\nTo-Date\n\nLt\n\nEEDMUI\nSETTLUNIT\n\nSettlement\nUnit\n\nFrom-Date\nTo-Date\n\nCheckbox for\nSettlement\n\nEVUITHEAD\n\nCheckboxes\nfor\n\nderesulation\nand technical\nPoD\n\nEVUIHEADT\n\nText\n\nThe individual tables have the following functions:\n\nTable\n\nEUIHEAD\n\nEUITRAN\n\nEVIGRID\n\nS)\n\nEEDMUISETTLUNIT\n\nEVILZW\n\nEUIINSTLN\n\nFor more information on the role of the point of delivery in Intercompany Data Exchange (IDE), see point of delivery .\n\nApplication Examples\n\nFunction\n\nPoD Relationships\n\nEUONSTLN\n\nDefinition of the point of delivery\n\nKey for\nInstallation\n\nEVUILAW\n\nLogical\nRegister\nNumber\n\nLink between point of delivery and point of delivery ID\n\nLink between point of delivery and grid\n\nLink between point of delivery and settlement unit\n\nRequired for technical points of delivery\n\nLink between point of delivery and register\n\nRequired for deregulation points of delivery\n\nLink between point of delivery and installation\n",
+ "cleaned_text": "PoD ID From-Date To-Date\n\nEVIGRID Grid From-Date\n\nTo-Date\n\nLt\n\nEEDMUI SETTLUNIT Settlement Unit From-Date To-Date Checkbox for Settlement EVUITHEAD\n\nCheckboxes for deresulation and technical PoD\n\nEVUIHEADT\n\nText\n\nThe individual tables have the following functions:\n\nTable\n\nEUIHEAD\n\nEUITRAN\n\nEVIGRID S)\n\nEEDMUISETTLUNIT\n\nEVILZW\n\nEUIINSTLN\n\nFor more information on the role of the point of delivery in Intercompany Data Exchange (IDE), see point of delivery .\n\nApplication Examples\n\nFunction\n\nPoD Relationships\n\nEUONSTLN\n\nDefinition of the point of delivery Key for Installation\n\nEVUILAW\n\nLogical Register Number\n\nLink between point of delivery and point of delivery ID\n\nLink between point of delivery and grid\n\nLink between point of delivery and settlement unit\n\nRequired for technical points of delivery Link between point of delivery and register Required for deregulation points of delivery Link between point of delivery and installation",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p102_b000",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    383,
+    524,
+    583,
+    687
+   ],
+   "ocr_confidence": 92.1,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "PoD ID From-Date To-Date",
+   "section_id": "doc_001_sec_391"
+  },
+  {
+   "block_id": "doc_001_p102_b001",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    383,
+    926,
+    627,
+    1121
+   ],
+   "ocr_confidence": 92.8,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "EVIGRID Grid From-Date",
+   "section_id": "doc_001_sec_391"
+  },
+  {
+   "block_id": "doc_001_p102_b002",
+   "type": "heading",
+   "page_number": 102,
+   "bbox": [
+    383,
+    1158,
+    534,
+    1188
+   ],
+   "ocr_confidence": 91.8,
+   "flags": [],
+   "text": "To-Date",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_392"
+  },
+  {
+   "block_id": "doc_001_p102_b003",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    741,
+    1087,
+    783,
+    1109
+   ],
+   "ocr_confidence": 49.6,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "Lt",
+   "section_id": "doc_001_sec_392"
+  },
+  {
+   "block_id": "doc_001_p102_b004",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    383,
+    425,
+    1245,
+    1776
+   ],
+   "ocr_confidence": 85.0,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "EEDMUI SETTLUNIT Settlement Unit From-Date To-Date Checkbox for Settlement EVUITHEAD",
+   "section_id": "doc_001_sec_392"
+  },
+  {
+   "block_id": "doc_001_p102_b005",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    995,
+    610,
+    1235,
+    817
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Checkboxes for deresulation and technical PoD",
+   "section_id": "doc_001_sec_392"
+  },
+  {
+   "block_id": "doc_001_p102_b006",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    1015,
+    1195,
+    1260,
+    1225
+   ],
+   "ocr_confidence": 22.3,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "EVUIHEADT",
+   "section_id": "doc_001_sec_392"
+  },
+  {
+   "block_id": "doc_001_p102_b007",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    995,
+    1334,
+    1077,
+    1363
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Text",
+   "section_id": "doc_001_sec_392"
+  },
+  {
+   "block_id": "doc_001_p102_b008",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    122,
+    1971,
+    1021,
+    2008
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "The individual tables have the following functions:",
+   "section_id": "doc_001_sec_392"
+  },
+  {
+   "block_id": "doc_001_p102_b009",
+   "type": "heading",
+   "page_number": 102,
+   "bbox": [
+    147,
+    2118,
+    238,
+    2146
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Table",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_393"
+  },
+  {
+   "block_id": "doc_001_p102_b010",
+   "type": "heading",
+   "page_number": 102,
+   "bbox": [
+    150,
+    2223,
+    304,
+    2251
+   ],
+   "ocr_confidence": 89.2,
+   "flags": [],
+   "text": "EUIHEAD",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_394"
+  },
+  {
+   "block_id": "doc_001_p102_b011",
+   "type": "heading",
+   "page_number": 102,
+   "bbox": [
+    150,
+    2328,
+    301,
+    2356
+   ],
+   "ocr_confidence": 71.9,
+   "flags": [],
+   "text": "EUITRAN",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_395"
+  },
+  {
+   "block_id": "doc_001_p102_b012",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    150,
+    2328,
+    327,
+    2461
+   ],
+   "ocr_confidence": 38.8,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "EVIGRID S)",
+   "section_id": "doc_001_sec_395"
+  },
+  {
+   "block_id": "doc_001_p102_b013",
+   "type": "heading",
+   "page_number": 102,
+   "bbox": [
+    150,
+    2541,
+    483,
+    2569
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [],
+   "text": "EEDMUISETTLUNIT",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_396"
+  },
+  {
+   "block_id": "doc_001_p102_b014",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    150,
+    2646,
+    282,
+    2675
+   ],
+   "ocr_confidence": 58.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "EVILZW",
+   "section_id": "doc_001_sec_396"
+  },
+  {
+   "block_id": "doc_001_p102_b015",
+   "type": "heading",
+   "page_number": 102,
+   "bbox": [
+    150,
+    2847,
+    333,
+    2875
+   ],
+   "ocr_confidence": 70.6,
+   "flags": [],
+   "text": "EUIINSTLN",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_397"
+  },
+  {
+   "block_id": "doc_001_p102_b016",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    125,
+    3084,
+    2232,
+    3123
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "For more information on the role of the point of delivery in Intercompany Data Exchange (IDE), see point of delivery .",
+   "section_id": "doc_001_sec_397"
+  },
+  {
+   "block_id": "doc_001_p102_b017",
+   "type": "heading",
+   "page_number": 102,
+   "bbox": [
+    123,
+    3209,
+    525,
+    3247
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Application Examples",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_398"
+  },
+  {
+   "block_id": "doc_001_p102_b018",
+   "type": "heading",
+   "page_number": 102,
+   "bbox": [
+    1097,
+    2118,
+    1244,
+    2146
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Function",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_399"
+  },
+  {
+   "block_id": "doc_001_p102_b019",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    1727,
+    230,
+    2223,
+    291
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "text": "PoD Relationships",
+   "section_id": "doc_001_sec_399"
+  },
+  {
+   "block_id": "doc_001_p102_b020",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    1801,
+    840,
+    2058,
+    869
+   ],
+   "ocr_confidence": 58.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "EUONSTLN",
+   "section_id": "doc_001_sec_399"
+  },
+  {
+   "block_id": "doc_001_p102_b021",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    1098,
+    990,
+    1983,
+    2258
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Definition of the point of delivery Key for Installation",
+   "section_id": "doc_001_sec_399"
+  },
+  {
+   "block_id": "doc_001_p102_b022",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    1825,
+    1294,
+    2013,
+    1324
+   ],
+   "ocr_confidence": 69.2,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "EVUILAW",
+   "section_id": "doc_001_sec_399"
+  },
+  {
+   "block_id": "doc_001_p102_b023",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    1786,
+    1450,
+    1937,
+    1581
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Logical Register Number",
+   "section_id": "doc_001_sec_399"
+  },
+  {
+   "block_id": "doc_001_p102_b024",
+   "type": "heading",
+   "page_number": 102,
+   "bbox": [
+    1098,
+    2328,
+    1993,
+    2363
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Link between point of delivery and point of delivery ID",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_399"
+  },
+  {
+   "block_id": "doc_001_p102_b025",
+   "type": "heading",
+   "page_number": 102,
+   "bbox": [
+    1098,
+    2433,
+    1743,
+    2468
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Link between point of delivery and grid",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_399"
+  },
+  {
+   "block_id": "doc_001_p102_b026",
+   "type": "heading",
+   "page_number": 102,
+   "bbox": [
+    1098,
+    2541,
+    1936,
+    2576
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Link between point of delivery and settlement unit",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_399"
+  },
+  {
+   "block_id": "doc_001_p102_b027",
+   "type": "paragraph",
+   "page_number": 102,
+   "bbox": [
+    1098,
+    2646,
+    1863,
+    2977
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Required for technical points of delivery Link between point of delivery and register Required for deregulation points of delivery Link between point of delivery and installation",
+   "section_id": "doc_001_sec_399"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 50,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "fd76cdc14f164dd80a79e4e195674147347e427bad717316b75e9608e7d15cdd"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Point of Delivery (PoD)",
+  "Integration"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_391",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_392",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_393",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_394",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_395",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_396",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_397",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_398",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_399",
+   "role": "starts_here"
+  }
+ ]
+}

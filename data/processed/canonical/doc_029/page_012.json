@@ -1,0 +1,376 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_029",
+ "page_number": 12,
+ "source_page_hash": "32fcf78149c9d958abb45c824a3f50307a1339e71533eb1ef70b4bdd0ba0b172",
+ "is_cover_page": false,
+ "title": "Activities",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:19 AM\ne Internal requests or requirements \u2014 rescheduling the planned date\n\nIt is possible to change the planned disconnection date by way of the rescheduling process. For example, you might not\nhave any technicians who are available to visit the disconnection site on the original agreed date. In this case, you will need\n\nto reschedule the visit and thus, need to change the planned disconnection date.\n\nRescheduling therefore, is defined as the modification of the planned disconnection date and is typically initiated by the\nutilities provider and not by the customer.\n\nFor more information on rescheduling a planned disconnection, see Rescheduling of Disconnection and Reconnection\n\nOrders.\n\nNote that is is not possible to change either of the the disconnection dates (agreed date or planned date) if a service order has\nalready been generated.\n\nActivities\n\nDisconnection orders are usually generated in a workflow step. You can also generate them directly using the Change\nDisconnection Document transaction (from the SAP Easy Access menu, select |)+UtilitiesIndustry > CustomerService \u00bb Process\nExecution \u00bb Disconnection/Reconnection).\n\nIf you are working in an advanced metering infrastructure (AMI) environment, the system can generate the disconnection order\nautomatically during the dunning run. For more information, see Advanced Metering Infrastructure .\n\nDisconnection Entry\n\nUse\n\nDuring the disconnection entry, you inform the system when and how which devices and flat-rate installations were disconnected.\nDisconnection entry can also include confirmation of the corresponding disconnection order.\n\nIntegration\n\nWhen entering disconnections, you can:\n\ne Post charges\n\ne Enter meter reading results for disconnected devices\n\ne Change budget billing plans\n\nPrerequisites\n\nYou can maintain parameters for the disconnection entry in Customizing for the disconnection processing variant. You can for\n\nexample define whether budget billing plan change are admissible or whether disconnection charges are to be levied.\n\nCaatiinre\n",
+ "cleaned_text": "- Internal requests or requirements \u2014 rescheduling the planned date It is possible to change the planned disconnection date by way of the rescheduling process. For example, you might not have any technicians who are available to visit the disconnection site on the original agreed date. In this case, you will need\n\nto reschedule the visit and thus, need to change the planned disconnection date. Rescheduling therefore, is defined as the modification of the planned disconnection date and is typically initiated by the utilities provider and not by the customer. For more information on rescheduling a planned disconnection, see Rescheduling of Disconnection and Reconnection Orders.\n\nNote that is is not possible to change either of the the disconnection dates (agreed date or planned date) if a service order has already been generated.\n\nActivities\n\nDisconnection orders are usually generated in a workflow step. You can also generate them directly using the Change Disconnection Document transaction (from the SAP Easy Access menu, select |)+UtilitiesIndustry > CustomerService \u00bb Process Execution \u00bb Disconnection/Reconnection). If you are working in an advanced metering infrastructure (AMI) environment, the system can generate the disconnection order automatically during the dunning run. For more information, see Advanced Metering Infrastructure .\n\nDisconnection Entry\n\nUse\n\nDuring the disconnection entry, you inform the system when and how which devices and flat-rate installations were disconnected. Disconnection entry can also include confirmation of the corresponding disconnection order.\n\nIntegration\n\nWhen entering disconnections, you can:\n\n- Post charges\n\n- Enter meter reading results for disconnected devices\n\n- Change budget billing plans\n\nPrerequisites\n\nYou can maintain parameters for the disconnection entry in Customizing for the disconnection processing variant. You can for example define whether budget billing plan change are admissible or whether disconnection charges are to be levied.\n\nCaatiinre",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:19 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_029_p012_b000",
+   "type": "list",
+   "page_number": 12,
+   "bbox": [
+    207,
+    134,
+    2465,
+    336
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Internal requests or requirements \u2014 rescheduling the planned date It is possible to change the planned disconnection date by way of the rescheduling process. For example, you might not have any technicians who are available to visit the disconnection site on the original agreed date. In this case, you will need"
+    }
+   ],
+   "section_id": "doc_029_sec_046"
+  },
+  {
+   "block_id": "doc_029_p012_b001",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    254,
+    365,
+    2450,
+    723
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "to reschedule the visit and thus, need to change the planned disconnection date. Rescheduling therefore, is defined as the modification of the planned disconnection date and is typically initiated by the utilities provider and not by the customer. For more information on rescheduling a planned disconnection, see Rescheduling of Disconnection and Reconnection Orders.",
+   "section_id": "doc_029_sec_046"
+  },
+  {
+   "block_id": "doc_029_p012_b002",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    123,
+    956,
+    2406,
+    1056
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Note that is is not possible to change either of the the disconnection dates (agreed date or planned date) if a service order has already been generated.",
+   "section_id": "doc_029_sec_046"
+  },
+  {
+   "block_id": "doc_029_p012_b003",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    123,
+    1168,
+    383,
+    1213
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_047"
+  },
+  {
+   "block_id": "doc_029_p012_b004",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    123,
+    1301,
+    2459,
+    1647
+   ],
+   "ocr_confidence": 93.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Disconnection orders are usually generated in a workflow step. You can also generate them directly using the Change Disconnection Document transaction (from the SAP Easy Access menu, select |)+UtilitiesIndustry > CustomerService \u00bb Process Execution \u00bb Disconnection/Reconnection). If you are working in an advanced metering infrastructure (AMI) environment, the system can generate the disconnection order automatically during the dunning run. For more information, see Advanced Metering Infrastructure .",
+   "section_id": "doc_029_sec_047"
+  },
+  {
+   "block_id": "doc_029_p012_b005",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    128,
+    1797,
+    859,
+    1872
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Disconnection Entry",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_048"
+  },
+  {
+   "block_id": "doc_029_p012_b006",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    125,
+    1972,
+    225,
+    2018
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_049"
+  },
+  {
+   "block_id": "doc_029_p012_b007",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    125,
+    2106,
+    2466,
+    2206
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "During the disconnection entry, you inform the system when and how which devices and flat-rate installations were disconnected. Disconnection entry can also include confirmation of the corresponding disconnection order.",
+   "section_id": "doc_029_sec_049"
+  },
+  {
+   "block_id": "doc_029_p012_b008",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    127,
+    2318,
+    431,
+    2374
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_050"
+  },
+  {
+   "block_id": "doc_029_p012_b009",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    123,
+    2451,
+    842,
+    2488
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "When entering disconnections, you can:",
+   "section_id": "doc_029_sec_050"
+  },
+  {
+   "block_id": "doc_029_p012_b010",
+   "type": "list",
+   "page_number": 12,
+   "bbox": [
+    207,
+    2572,
+    1212,
+    2817
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Post charges"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Enter meter reading results for disconnected devices"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change budget billing plans"
+    }
+   ],
+   "section_id": "doc_029_sec_050"
+  },
+  {
+   "block_id": "doc_029_p012_b011",
+   "type": "heading",
+   "page_number": 12,
+   "bbox": [
+    126,
+    2929,
+    492,
+    2985
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_051"
+  },
+  {
+   "block_id": "doc_029_p012_b012",
+   "type": "paragraph",
+   "page_number": 12,
+   "bbox": [
+    123,
+    3058,
+    2414,
+    3162
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You can maintain parameters for the disconnection entry in Customizing for the disconnection processing variant. You can for example define whether budget billing plan change are admissible or whether disconnection charges are to be levied.",
+   "section_id": "doc_029_sec_051"
+  },
+  {
+   "block_id": "doc_029_p012_b013",
+   "type": "fragment",
+   "page_number": 12,
+   "bbox": [
+    126,
+    3274,
+    360,
+    3300
+   ],
+   "ocr_confidence": 23.5,
+   "flags": [
+    "low_confidence_words:1",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Caatiinre",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_029_sec_051"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Disconnection/Reconnection of a Utility Installation",
+  "source_pdf": "29.pdf",
+  "reference_pdf": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+  "category": "Disconnection & Reconnection",
+  "m2c_relevance": "Connects overdue debt/dunning to service actions while preserving the distinction between delinquency and disconnect eligibility.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "32fcf78149c9d958abb45c824a3f50307a1339e71533eb1ef70b4bdd0ba0b172"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:47Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Disconnection/Reconnection of a Utility Installation",
+  "Disconnection Order Generation",
+  "Features",
+  "Changing Disconnection Dates"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_029_sec_046",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_029_sec_047",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_048",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_049",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_050",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_051",
+   "role": "starts_here"
+  }
+ ]
+}

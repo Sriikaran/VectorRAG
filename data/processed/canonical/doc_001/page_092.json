@@ -1,0 +1,353 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 92,
+ "source_page_hash": "b1ac75db5f8f0bd00d6b6936cb28dae448dd06849c3f56afffe94bdbebbbd1c7",
+ "is_cover_page": false,
+ "title": "Change Connection Object in Premise",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nFor a premise, you can enter an owner who must pay open bills if the premise is empty (see also Owner Allocation ).\n\nChange Connection Object in Premise\n\nUse\n\nPreviously, it was not possible to change the connection object in the Change Premise transaction (ES61) once you had created\nthe premise successfully. This function supports the following business cases:\n\ne Case 1: Incorrect allocation of a customer and a device to a connection object within the initial data creation\n\nYou have allocated a customer and his/her premise to the wrong connection object (for example, in the initial data\ncreation). You only notice this error once the customer has already been billed.\n\nThere can be various reasons for the incorrect allocation:\no The customer was specified incorrectly.\no Street names and house numbers are only issued once the customer has been maintained.\no The owner\u2019s plan was incorrect.\no The development plan has been changed.\ne Case 2: Division of connection object due to change to address\nOne connection object is divided into two.\n\nFor example, a second entrance is built for a building with one entrance, or a corner house has a second entrance from a\ndifferent street.\n\n. Premise                             Previous House Number        Subsequent House Number\nPR1                                    30                                     30\nPR2                                    30                                     30\nPR3                                   30                                     31\n\nPR4                                                   30                                                      31\n",
+ "cleaned_text": "For a premise, you can enter an owner who must pay open bills if the premise is empty (see also Owner Allocation ).\n\nChange Connection Object in Premise\n\nUse\n\nPreviously, it was not possible to change the connection object in the Change Premise transaction (ES61) once you had created the premise successfully. This function supports the following business cases:\n\n- Case 1: Incorrect allocation of a customer and a device to a connection object within the initial data creation You have allocated a customer and his/her premise to the wrong connection object (for example, in the initial data creation). You only notice this error once the customer has already been billed.\n\nThere can be various reasons for the incorrect allocation:\n\n- The customer was specified incorrectly.\n\n- Street names and house numbers are only issued once the customer has been maintained.\n\n- The owner\u2019s plan was incorrect.\n\n- The development plan has been changed.\n\n- Case 2: Division of connection object due to change to address One connection object is divided into two. For example, a second entrance is built for a building with one entrance, or a corner house has a second entrance from a\n\ndifferent street.\n\n. Premise | Previous House Number | Subsequent House Number\n\nPR1 | 30 | 30\n\nPR2 | 30 | 30\n\nPR3 | 30 | 31\n\nPR4 | 30 | 31",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p092_b000",
+   "type": "paragraph",
+   "page_number": 92,
+   "bbox": [
+    125,
+    134,
+    2204,
+    172
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "For a premise, you can enter an owner who must pay open bills if the premise is empty (see also Owner Allocation ).",
+   "section_id": "doc_001_sec_354"
+  },
+  {
+   "block_id": "doc_001_p092_b001",
+   "type": "heading",
+   "page_number": 92,
+   "bbox": [
+    125,
+    321,
+    1498,
+    398
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Change Connection Object in Premise",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_355"
+  },
+  {
+   "block_id": "doc_001_p092_b002",
+   "type": "heading",
+   "page_number": 92,
+   "bbox": [
+    125,
+    498,
+    225,
+    543
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p092_b003",
+   "type": "paragraph",
+   "page_number": 92,
+   "bbox": [
+    122,
+    630,
+    2429,
+    731
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Previously, it was not possible to change the connection object in the Change Premise transaction (ES61) once you had created the premise successfully. This function supports the following business cases:",
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p092_b004",
+   "type": "list",
+   "page_number": 92,
+   "bbox": [
+    207,
+    814,
+    2318,
+    1017
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Case 1: Incorrect allocation of a customer and a device to a connection object within the initial data creation You have allocated a customer and his/her premise to the wrong connection object (for example, in the initial data creation). You only notice this error once the customer has already been billed."
+    }
+   ],
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p092_b005",
+   "type": "paragraph",
+   "page_number": 92,
+   "bbox": [
+    254,
+    1084,
+    1283,
+    1115
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "There can be various reasons for the incorrect allocation:",
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p092_b006",
+   "type": "list",
+   "page_number": 92,
+   "bbox": [
+    207,
+    1186,
+    2421,
+    1838
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "The customer was specified incorrectly."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Street names and house numbers are only issued once the customer has been maintained."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "The owner\u2019s plan was incorrect."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "The development plan has been changed."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Case 2: Division of connection object due to change to address One connection object is divided into two. For example, a second entrance is built for a building with one entrance, or a corner house has a second entrance from a"
+    }
+   ],
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p092_b007",
+   "type": "paragraph",
+   "page_number": 92,
+   "bbox": [
+    255,
+    1864,
+    532,
+    1893
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "different street.",
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p092_b008",
+   "type": "table",
+   "page_number": 92,
+   "bbox": [
+    207,
+    2026,
+    1815,
+    2478
+   ],
+   "ocr_confidence": 91.6,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 4,
+   "column_starts": [
+    207,
+    281,
+    807,
+    1336
+   ],
+   "headers": [
+    ". Premise",
+    "Previous House Number",
+    "Subsequent House Number"
+   ],
+   "rows": [
+    [
+     "PR1",
+     "30",
+     "30"
+    ],
+    [
+     "PR2",
+     "30",
+     "30"
+    ],
+    [
+     "PR3",
+     "30",
+     "31"
+    ],
+    [
+     "PR4",
+     "30",
+     "31"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     ". Premise",
+     "Previous House Number",
+     "Subsequent House Number"
+    ],
+    [
+     "PR1",
+     "30",
+     "30"
+    ],
+    [
+     "PR2",
+     "30",
+     "30"
+    ],
+    [
+     "PR3",
+     "30",
+     "31"
+    ],
+    [
+     "PR4",
+     "30",
+     "31"
+    ]
+   ],
+   "section_id": "doc_001_sec_356"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.1364,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "b1ac75db5f8f0bd00d6b6936cb28dae448dd06849c3f56afffe94bdbebbbd1c7"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Premise",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_354",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_355",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_356",
+   "role": "starts_here"
+  }
+ ]
+}

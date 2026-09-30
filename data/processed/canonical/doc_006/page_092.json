@@ -1,0 +1,360 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 92,
+ "source_page_hash": "c0b7912040e54b45881448c986edee0e053851616da7d2263ec86717ed40a0c0",
+ "is_cover_page": false,
+ "title": "Rates",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nTo enable a correct quantity determination, it must be possible to uniquely determine the gas factor between two meter readings.\nTherefore, we recommend that you only use gas procedures that uniquely determine the gas factor.\n\nThe gas procedures that meet this condition are those that are based on arithmetic/weighted average value calculation.\n\nRates\n\nVariant programs for quantity determination that are based on the input operand category QUANT can continue to be used without\nadjustment, with the exception of variant program QUANTI25. Check the variant programs used in your system to determine\n\nwhether you use them for special customer-specific solutions for quantity determination. In certain circumstances, you may need\nto adjust the respective rates or schemas.\n\nThe variant program QUANTI25 - Display Register Operand for Consumption in Interim Dimension is not compatible with the\nquantity determination procedure Quantity Determination During Meter Reading. This is because the variant can no longer\ncalculate the interim dimension if the quantity has already been determined during meter reading.\n\nEnhancements and Business Add-Ins\n\nCheck the enhancements and business add-ins implemented in your system in connection with the implementation project to\ndetermine whether they are compatible with the quantity determination procedure Quantity Determination During Meter\nReading. Due to the high flexibility of the SAP enhancement concept, these implementations are used differently in every\ncompany. This means that we cannot provide a universally valid statement regarding the compatibility of the enhancements and\nbusiness add-ins implemented in your system with the quantity determination procedure Quantity Determination During Meter\nReading. Therefore, you should analyze all enhancements and business add-ins that use meter readings and consumption values.\n\nIn the following tables you can find a selection of enhancements and business add-ins that may not be compatible with quantity\ndetermination during meter reading.\n\nIf you have implemented one of the following enhancements, check for your implementation project whether it is compatible with\nthe quantity determination procedure Quantity Determination During Meter Reading:\n\nEnhancement                                                                               Description\n\nEDMLELHR                                                                                          IS-U: Customer-specific extrapolation procedure\n\nEDMLELAH                                                                                     IS-U: Comparison of extrapolation procedure of customer <-> IS-U\n\nEDMLELHA                                                                                 IS-U: Extrapolation procedure for estimation of meter reading\nresults\n\nEDMLELHP                                                                               IS-U: Extrapolation procedure with artificial period consumption\n\nEBIAOO15                                                                                       IS-U: Backbilling customer exit\n\nThe following enhancements can no longer be taken into account if you use the quantity determination procedure Quantity\nDetermination During Meter Reading.\n\ne EDMASSES - Customer-specific assessing check\n\nSee also: Information about Assessing under Important Notes.\n\nCMAARADNNHY    Minannnwnr tr weer AAten Aripinm mavetnm, net mwmatarp preaaNiwnm vrneriilitn\n",
+ "cleaned_text": "To enable a correct quantity determination, it must be possible to uniquely determine the gas factor between two meter readings. Therefore, we recommend that you only use gas procedures that uniquely determine the gas factor. The gas procedures that meet this condition are those that are based on arithmetic/weighted average value calculation.\n\nRates\n\nVariant programs for quantity determination that are based on the input operand category QUANT can continue to be used without adjustment, with the exception of variant program QUANTI25. Check the variant programs used in your system to determine whether you use them for special customer-specific solutions for quantity determination. In certain circumstances, you may need to adjust the respective rates or schemas. The variant program QUANTI25 - Display Register Operand for Consumption in Interim Dimension is not compatible with the quantity determination procedure Quantity Determination During Meter Reading. This is because the variant can no longer calculate the interim dimension if the quantity has already been determined during meter reading.\n\nEnhancements and Business Add-Ins\n\nCheck the enhancements and business add-ins implemented in your system in connection with the implementation project to determine whether they are compatible with the quantity determination procedure Quantity Determination During Meter Reading. Due to the high flexibility of the SAP enhancement concept, these implementations are used differently in every company. This means that we cannot provide a universally valid statement regarding the compatibility of the enhancements and business add-ins implemented in your system with the quantity determination procedure Quantity Determination During Meter Reading. Therefore, you should analyze all enhancements and business add-ins that use meter readings and consumption values. In the following tables you can find a selection of enhancements and business add-ins that may not be compatible with quantity determination during meter reading. If you have implemented one of the following enhancements, check for your implementation project whether it is compatible with the quantity determination procedure Quantity Determination During Meter Reading:\n\nEnhancement | Description\n\nEDMLELHR | IS-U: Customer-specific extrapolation procedure\n\nEDMLELAH | IS-U: Comparison of extrapolation procedure of customer <-> IS-U\n\nEDMLELHA | IS-U: Extrapolation procedure for estimation of meter reading\n\nresults\n\nEDMLELHP | IS-U: Extrapolation procedure with artificial period consumption\n\nEBIAOO15 | IS-U: Backbilling customer exit\n\nThe following enhancements can no longer be taken into account if you use the quantity determination procedure Quantity Determination During Meter Reading.\n\n- EDMASSES - Customer-specific assessing check See also: Information about Assessing under Important Notes.\n\nCMAARADNNHY Minannnwnr tr weer AAten Aripinm mavetnm, net mwmatarp preaaNiwnm vrneriilitn",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p092_b000",
+   "type": "paragraph",
+   "page_number": 92,
+   "bbox": [
+    122,
+    134,
+    2462,
+    356
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "To enable a correct quantity determination, it must be possible to uniquely determine the gas factor between two meter readings. Therefore, we recommend that you only use gas procedures that uniquely determine the gas factor. The gas procedures that meet this condition are those that are based on arithmetic/weighted average value calculation.",
+   "section_id": "doc_006_sec_250"
+  },
+  {
+   "block_id": "doc_006_p092_b001",
+   "type": "heading",
+   "page_number": 92,
+   "bbox": [
+    126,
+    468,
+    280,
+    513
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Rates",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_251"
+  },
+  {
+   "block_id": "doc_006_p092_b002",
+   "type": "paragraph",
+   "page_number": 92,
+   "bbox": [
+    122,
+    602,
+    2485,
+    1085
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Variant programs for quantity determination that are based on the input operand category QUANT can continue to be used without adjustment, with the exception of variant program QUANTI25. Check the variant programs used in your system to determine whether you use them for special customer-specific solutions for quantity determination. In certain circumstances, you may need to adjust the respective rates or schemas. The variant program QUANTI25 - Display Register Operand for Consumption in Interim Dimension is not compatible with the quantity determination procedure Quantity Determination During Meter Reading. This is because the variant can no longer calculate the interim dimension if the quantity has already been determined during meter reading.",
+   "section_id": "doc_006_sec_251"
+  },
+  {
+   "block_id": "doc_006_p092_b003",
+   "type": "heading",
+   "page_number": 92,
+   "bbox": [
+    126,
+    1198,
+    1160,
+    1243
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Enhancements and Business Add-Ins",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_252"
+  },
+  {
+   "block_id": "doc_006_p092_b004",
+   "type": "paragraph",
+   "page_number": 92,
+   "bbox": [
+    122,
+    1330,
+    2460,
+    2055
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Check the enhancements and business add-ins implemented in your system in connection with the implementation project to determine whether they are compatible with the quantity determination procedure Quantity Determination During Meter Reading. Due to the high flexibility of the SAP enhancement concept, these implementations are used differently in every company. This means that we cannot provide a universally valid statement regarding the compatibility of the enhancements and business add-ins implemented in your system with the quantity determination procedure Quantity Determination During Meter Reading. Therefore, you should analyze all enhancements and business add-ins that use meter readings and consumption values. In the following tables you can find a selection of enhancements and business add-ins that may not be compatible with quantity determination during meter reading. If you have implemented one of the following enhancements, check for your implementation project whether it is compatible with the quantity determination procedure Quantity Determination During Meter Reading:",
+   "section_id": "doc_006_sec_252"
+  },
+  {
+   "block_id": "doc_006_p092_b005",
+   "type": "table",
+   "page_number": 92,
+   "bbox": [
+    149,
+    2163,
+    2447,
+    2517
+   ],
+   "ocr_confidence": 93.2,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    1332
+   ],
+   "headers": [
+    "Enhancement",
+    "Description"
+   ],
+   "rows": [
+    [
+     "EDMLELHR",
+     "IS-U: Customer-specific extrapolation procedure"
+    ],
+    [
+     "EDMLELAH",
+     "IS-U: Comparison of extrapolation procedure of customer <-> IS-U"
+    ],
+    [
+     "EDMLELHA",
+     "IS-U: Extrapolation procedure for estimation of meter reading"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Enhancement",
+     "Description"
+    ],
+    [
+     "EDMLELHR",
+     "IS-U: Customer-specific extrapolation procedure"
+    ],
+    [
+     "EDMLELAH",
+     "IS-U: Comparison of extrapolation procedure of customer <-> IS-U"
+    ],
+    [
+     "EDMLELHA",
+     "IS-U: Extrapolation procedure for estimation of meter reading"
+    ]
+   ],
+   "section_id": "doc_006_sec_252"
+  },
+  {
+   "block_id": "doc_006_p092_b006",
+   "type": "paragraph",
+   "page_number": 92,
+   "bbox": [
+    1332,
+    2538,
+    1443,
+    2566
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "results",
+   "section_id": "doc_006_sec_252"
+  },
+  {
+   "block_id": "doc_006_p092_b007",
+   "type": "table",
+   "page_number": 92,
+   "bbox": [
+    150,
+    2646,
+    2405,
+    2787
+   ],
+   "ocr_confidence": 92.0,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1333
+   ],
+   "headers": [
+    "EDMLELHP",
+    "IS-U: Extrapolation procedure with artificial period consumption"
+   ],
+   "rows": [
+    [
+     "EBIAOO15",
+     "IS-U: Backbilling customer exit"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "EDMLELHP",
+     "IS-U: Extrapolation procedure with artificial period consumption"
+    ],
+    [
+     "EBIAOO15",
+     "IS-U: Backbilling customer exit"
+    ]
+   ],
+   "section_id": "doc_006_sec_252"
+  },
+  {
+   "block_id": "doc_006_p092_b008",
+   "type": "paragraph",
+   "page_number": 92,
+   "bbox": [
+    122,
+    2894,
+    2351,
+    2998
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "The following enhancements can no longer be taken into account if you use the quantity determination procedure Quantity Determination During Meter Reading.",
+   "section_id": "doc_006_sec_252"
+  },
+  {
+   "block_id": "doc_006_p092_b009",
+   "type": "list",
+   "page_number": 92,
+   "bbox": [
+    207,
+    3081,
+    1390,
+    3222
+   ],
+   "ocr_confidence": 85.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "EDMASSES - Customer-specific assessing check See also: Information about Assessing under Important Notes."
+    }
+   ],
+   "section_id": "doc_006_sec_252"
+  },
+  {
+   "block_id": "doc_006_p092_b010",
+   "type": "fragment",
+   "page_number": 92,
+   "bbox": [
+    256,
+    3281,
+    1545,
+    3300
+   ],
+   "ocr_confidence": 21.4,
+   "flags": [
+    "low_confidence_words:10",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "CMAARADNNHY Minannnwnr tr weer AAten Aripinm mavetnm, net mwmatarp preaaNiwnm vrneriilitn",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_006_sec_252"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "c0b7912040e54b45881448c986edee0e053851616da7d2263ec86717ed40a0c0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Check Company-Specific Starting Point",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_250",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_251",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_252",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,245 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 6,
+ "source_page_hash": "344ef18dac48dce31edef6fd89d0b0244bf2667ba6ef28ea66fa0240e6ce8aae",
+ "is_cover_page": false,
+ "title": "Use",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\nUse\n\nYou can use dunning groups to process items with the same attributes together (for example, to dun them together in one dunning\nnotice).\n\nStructure\n\nThe dunning grouping defines which attributes must agree for items to be dunned together. You can use all of the fields of the open\nitem as grouping criteria (for example, business partner, contract account, currency, contract reference). You define these criteria\nin the Customizing activity Define Dunning Grouping . For example, you can create a dunning grouping using the criteria business\npartner, currency, company code, and dunning recipient . If you do not use the currency for the dunning grouping, you can also\n\ndun items with different transaction currencies together. In this case, the balances and the comparison with the limit amounts are\nrun in the local currency of the company code.\n\ni Note\n\nFor Insurance , you define the dunning grouping for the dunning variant in Customizing.\n\nThe dunning groups, which consist of the items belonging to the dunning groupings, are created in the dunning proposal run.\n\nThe system checks the days in arrears and the amount limits for each dunning grouping separately. A dunning group is only\ndunned if it contains at least one item that would trigger a dunning notice. For additional receivables such as interest and charges,\n\nin the Rules for Additional Receivables under |)Business Transactions \u00bb Additional Receivables 3 in Customizing, you can define\nthat these are not to trigger a dunning notice.\n\nIn event 0306, you can also realize a grouping by dunning levels. See the documentation of the sample function module\nFKK_SAMPLE_0306 and SAP note 403244.\n\nFor contract accounts with alternative dunning recipients, you have to enter the fields Alternative Dunning Recipient and Address\nNumber for Alternative Dunning Recipient in all groupings.\n\nIf you carry out cross-contract account dunning, the field Grouping for Dunning Notices should exist in the grouping. The\ncompany code group is a grouping field implicitly; you do not have to specify it in the grouping.\n\nIf the grouping for dunnign notices is not maintained in the contract account, the entries for the grouping SPACE apply. Make sure\nthat you also have a dunning grouping SPACE.\n\nExample\n\nA business partner is in arrears with payments. The receivables due for dunning have different currencies. You want to send the\nbusiness partner a dunning notice for each of these currencies. To do this, you have to define a dunning grouping in Customizing\n\nunder |'Business Transactions \u00bb Dunning \u00bb Define Dunning Grouping | and then assign the field WAERS to this as a grouping\ncriterion. You then have to define the grouping in the contract account of the business partner.\n\nDunning Charges\n\nDefinition\n",
+ "cleaned_text": "Use\n\nYou can use dunning groups to process items with the same attributes together (for example, to dun them together in one dunning notice).\n\nStructure\n\nThe dunning grouping defines which attributes must agree for items to be dunned together. You can use all of the fields of the open item as grouping criteria (for example, business partner, contract account, currency, contract reference). You define these criteria in the Customizing activity Define Dunning Grouping . For example, you can create a dunning grouping using the criteria business partner, currency, company code, and dunning recipient . If you do not use the currency for the dunning grouping, you can also dun items with different transaction currencies together. In this case, the balances and the comparison with the limit amounts are run in the local currency of the company code. i Note For Insurance , you define the dunning grouping for the dunning variant in Customizing.\n\nThe dunning groups, which consist of the items belonging to the dunning groupings, are created in the dunning proposal run. The system checks the days in arrears and the amount limits for each dunning grouping separately. A dunning group is only dunned if it contains at least one item that would trigger a dunning notice. For additional receivables such as interest and charges, in the Rules for Additional Receivables under |)Business Transactions \u00bb Additional Receivables 3 in Customizing, you can define that these are not to trigger a dunning notice. In event 0306, you can also realize a grouping by dunning levels. See the documentation of the sample function module FKK_SAMPLE_0306 and SAP note 403244. For contract accounts with alternative dunning recipients, you have to enter the fields Alternative Dunning Recipient and Address Number for Alternative Dunning Recipient in all groupings. If you carry out cross-contract account dunning, the field Grouping for Dunning Notices should exist in the grouping. The company code group is a grouping field implicitly; you do not have to specify it in the grouping. If the grouping for dunnign notices is not maintained in the contract account, the entries for the grouping SPACE apply. Make sure that you also have a dunning grouping SPACE.\n\nExample A business partner is in arrears with payments. The receivables due for dunning have different currencies. You want to send the business partner a dunning notice for each of these currencies. To do this, you have to define a dunning grouping in Customizing under |'Business Transactions \u00bb Dunning \u00bb Define Dunning Grouping | and then assign the field WAERS to this as a grouping criterion. You then have to define the grouping in the contract account of the business partner.\n\nDunning Charges\n\nDefinition",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p006_b000",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    125,
+    126,
+    225,
+    172
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_016"
+  },
+  {
+   "block_id": "doc_026_p006_b001",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    123,
+    259,
+    2484,
+    359
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "You can use dunning groups to process items with the same attributes together (for example, to dun them together in one dunning notice).",
+   "section_id": "doc_026_sec_016"
+  },
+  {
+   "block_id": "doc_026_p006_b002",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    125,
+    471,
+    391,
+    517
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Structure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_017"
+  },
+  {
+   "block_id": "doc_026_p006_b003",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    604,
+    2486,
+    1177
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "The dunning grouping defines which attributes must agree for items to be dunned together. You can use all of the fields of the open item as grouping criteria (for example, business partner, contract account, currency, contract reference). You define these criteria in the Customizing activity Define Dunning Grouping . For example, you can create a dunning grouping using the criteria business partner, currency, company code, and dunning recipient . If you do not use the currency for the dunning grouping, you can also dun items with different transaction currencies together. In this case, the balances and the comparison with the limit amounts are run in the local currency of the company code. i Note For Insurance , you define the dunning grouping for the dunning variant in Customizing.",
+   "section_id": "doc_026_sec_017"
+  },
+  {
+   "block_id": "doc_026_p006_b004",
+   "type": "paragraph",
+   "page_number": 6,
+   "bbox": [
+    122,
+    1298,
+    2478,
+    2386
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "The dunning groups, which consist of the items belonging to the dunning groupings, are created in the dunning proposal run. The system checks the days in arrears and the amount limits for each dunning grouping separately. A dunning group is only dunned if it contains at least one item that would trigger a dunning notice. For additional receivables such as interest and charges, in the Rules for Additional Receivables under |)Business Transactions \u00bb Additional Receivables 3 in Customizing, you can define that these are not to trigger a dunning notice. In event 0306, you can also realize a grouping by dunning levels. See the documentation of the sample function module FKK_SAMPLE_0306 and SAP note 403244. For contract accounts with alternative dunning recipients, you have to enter the fields Alternative Dunning Recipient and Address Number for Alternative Dunning Recipient in all groupings. If you carry out cross-contract account dunning, the field Grouping for Dunning Notices should exist in the grouping. The company code group is a grouping field implicitly; you do not have to specify it in the grouping. If the grouping for dunnign notices is not maintained in the contract account, the entries for the grouping SPACE apply. Make sure that you also have a dunning grouping SPACE.",
+   "section_id": "doc_026_sec_017"
+  },
+  {
+   "block_id": "doc_026_p006_b005",
+   "type": "example",
+   "page_number": 6,
+   "bbox": [
+    123,
+    2499,
+    2439,
+    2859
+   ],
+   "ocr_confidence": 93.7,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "Example A business partner is in arrears with payments. The receivables due for dunning have different currencies. You want to send the business partner a dunning notice for each of these currencies. To do this, you have to define a dunning grouping in Customizing under |'Business Transactions \u00bb Dunning \u00bb Define Dunning Grouping | and then assign the field WAERS to this as a grouping criterion. You then have to define the grouping in the contract account of the business partner.",
+   "section_id": "doc_026_sec_017"
+  },
+  {
+   "block_id": "doc_026_p006_b006",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    128,
+    3005,
+    745,
+    3081
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Dunning Charges",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_018"
+  },
+  {
+   "block_id": "doc_026_p006_b007",
+   "type": "heading",
+   "page_number": 6,
+   "bbox": [
+    126,
+    3184,
+    393,
+    3230
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_019"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "344ef18dac48dce31edef6fd89d0b0244bf2667ba6ef28ea66fa0240e6ce8aae"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Dunning Grouping",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_016",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_017",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_018",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_019",
+   "role": "starts_here"
+  }
+ ]
+}

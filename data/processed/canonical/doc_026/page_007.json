@@ -1,0 +1,317 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_026",
+ "page_number": 7,
+ "source_page_hash": "942067b17a6522dd5261082a039a82d68126086ee8fa66be16d818fb03ecb7f4",
+ "is_cover_page": false,
+ "title": "Dunning lock",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\nThe charges are calculated automatically based on a charges schedule defined in Customizing. In this schedule, you define the\ncurrency-specific and creditworthiness-specific charges scales.\n\nTo define a charges schedule, proceed as follows:\n\n1. In the Customizing activity Define Charge Types for Dunning , define charges types.\n\n2. In the Customizing activity Configure Charges Schedule for Dunning Procedure , define the required amount limits and\nrounding rules.\n\n3. In the IMG activity Configure Dunning Procedures , assign the required charges schedules to the dunning levels.\n\nWith each charges schedule you can manage charges data for up to three charges types. For each combination of charges\n\nschedule and charges types, you can create charges lots that are amount-specific, currency-specific, and creditworthiness-\nspecific. You can then use these to determine charges. You can also define a main and a subtransaction.\n\nYou can levy dunning charges as absolute amounts, or as percentages. Percentages are applied to the dunning balance. In the\nsubtransaction, you can define whether additional receivables should be considered in this balance.\n\nThe dunning activity run posts the dunning charges defined in the charges schedule for each charges type of a dunning level\n\nautomatically. From the main and subtransaction, each industry component can derive a statistics indicator that determines\nwhether the charges are posted statistically or relevant to the general ledger.\n\nThe charges documents are created in the events 0360, 0361, and 0362. See the documentation for the sample function modules\nFKK_SAMPLE_0360, FKK_SAMPLE_0361, and FKK_SAMPLE_0362.\n\nDunning lock\n\nDefinition\n\nProcessing lock that causes items due for dunning to be restricted or not dunned by the dunning programs.\n\nUse\n\nYou can lock individual items or entire contract accounts for dunning by specifying the relevant dunning lock reasons at the\nrequired level. You can also restrict the validity of a dunning lock to a specific period. If you set a dunning lock for a line item, only\nthat item is excluded from the dunning run. A dunning lock at the business partner-contract account relationship level means that\nall items posted to this contract account are not dunned until the lock has expired or has been removed. If an item has a deferral\ndate, it is not dunned until the deferral date has been exceeded.\n\nYou define dunning locks in the Customizing activity Define Dunning Lock Reasons. If you designate a dunning lock as dunnable\nand assign it to an item:\n\ne The item itself does not trigger a dunning notice; it can, however, be dunned with other items\ne The item is included in the dunning balance, but is not used for the amount limit check\ne The item does not change its dunning level.\n\nThis means that it remains at dunning level zero or retains its higher dunning level and is not included in the dunning level\n\nmE LAR Ainrminn~ mrtinnr\n",
+ "cleaned_text": "The charges are calculated automatically based on a charges schedule defined in Customizing. In this schedule, you define the currency-specific and creditworthiness-specific charges scales. To define a charges schedule, proceed as follows:\n\n1 In the Customizing activity Define Charge Types for Dunning , define charges types.\n\n2 In the Customizing activity Configure Charges Schedule for Dunning Procedure , define the required amount limits and rounding rules.\n\n3 In the IMG activity Configure Dunning Procedures , assign the required charges schedules to the dunning levels.\n\nWith each charges schedule you can manage charges data for up to three charges types. For each combination of charges schedule and charges types, you can create charges lots that are amount-specific, currency-specific, and creditworthiness-specific. You can then use these to determine charges. You can also define a main and a subtransaction. You can levy dunning charges as absolute amounts, or as percentages. Percentages are applied to the dunning balance. In the subtransaction, you can define whether additional receivables should be considered in this balance. The dunning activity run posts the dunning charges defined in the charges schedule for each charges type of a dunning level automatically. From the main and subtransaction, each industry component can derive a statistics indicator that determines whether the charges are posted statistically or relevant to the general ledger. The charges documents are created in the events 0360, 0361, and 0362. See the documentation for the sample function modules FKK_SAMPLE_0360, FKK_SAMPLE_0361, and FKK_SAMPLE_0362.\n\nDunning lock\n\nDefinition\n\nProcessing lock that causes items due for dunning to be restricted or not dunned by the dunning programs.\n\nUse\n\nYou can lock individual items or entire contract accounts for dunning by specifying the relevant dunning lock reasons at the required level. You can also restrict the validity of a dunning lock to a specific period. If you set a dunning lock for a line item, only that item is excluded from the dunning run. A dunning lock at the business partner-contract account relationship level means that all items posted to this contract account are not dunned until the lock has expired or has been removed. If an item has a deferral date, it is not dunned until the deferral date has been exceeded. You define dunning locks in the Customizing activity Define Dunning Lock Reasons. If you designate a dunning lock as dunnable and assign it to an item:\n\n- The item itself does not trigger a dunning notice; it can, however, be dunned with other items\n\n- The item is included in the dunning balance, but is not used for the amount limit check\n\n- The item does not change its dunning level. This means that it remains at dunning level zero or retains its higher dunning level and is not included in the dunning level\n\nmE LAR Ainrminn~ mrtinnr",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_026_p007_b000",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    134,
+    2407,
+    356
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "The charges are calculated automatically based on a charges schedule defined in Customizing. In this schedule, you define the currency-specific and creditworthiness-specific charges scales. To define a charges schedule, proceed as follows:",
+   "section_id": "doc_026_sec_019"
+  },
+  {
+   "block_id": "doc_026_p007_b001",
+   "type": "list",
+   "page_number": 7,
+   "bbox": [
+    211,
+    443,
+    2424,
+    747
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "In the Customizing activity Define Charge Types for Dunning , define charges types."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "In the Customizing activity Configure Charges Schedule for Dunning Procedure , define the required amount limits and rounding rules."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "In the IMG activity Configure Dunning Procedures , assign the required charges schedules to the dunning levels."
+    }
+   ],
+   "section_id": "doc_026_sec_019"
+  },
+  {
+   "block_id": "doc_026_p007_b002",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    831,
+    2471,
+    1612
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "With each charges schedule you can manage charges data for up to three charges types. For each combination of charges schedule and charges types, you can create charges lots that are amount-specific, currency-specific, and creditworthiness-specific. You can then use these to determine charges. You can also define a main and a subtransaction. You can levy dunning charges as absolute amounts, or as percentages. Percentages are applied to the dunning balance. In the subtransaction, you can define whether additional receivables should be considered in this balance. The dunning activity run posts the dunning charges defined in the charges schedule for each charges type of a dunning level automatically. From the main and subtransaction, each industry component can derive a statistics indicator that determines whether the charges are posted statistically or relevant to the general ledger. The charges documents are created in the events 0360, 0361, and 0362. See the documentation for the sample function modules FKK_SAMPLE_0360, FKK_SAMPLE_0361, and FKK_SAMPLE_0362.",
+   "section_id": "doc_026_sec_019"
+  },
+  {
+   "block_id": "doc_026_p007_b003",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    128,
+    1764,
+    594,
+    1839
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Dunning lock",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_020"
+  },
+  {
+   "block_id": "doc_026_p007_b004",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    126,
+    1939,
+    393,
+    1985
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_021"
+  },
+  {
+   "block_id": "doc_026_p007_b005",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    125,
+    2073,
+    2063,
+    2110
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Processing lock that causes items due for dunning to be restricted or not dunned by the dunning programs.",
+   "section_id": "doc_026_sec_021"
+  },
+  {
+   "block_id": "doc_026_p007_b006",
+   "type": "heading",
+   "page_number": 7,
+   "bbox": [
+    125,
+    2222,
+    225,
+    2268
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_026_sec_022"
+  },
+  {
+   "block_id": "doc_026_p007_b007",
+   "type": "paragraph",
+   "page_number": 7,
+   "bbox": [
+    122,
+    2355,
+    2467,
+    2830
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "You can lock individual items or entire contract accounts for dunning by specifying the relevant dunning lock reasons at the required level. You can also restrict the validity of a dunning lock to a specific period. If you set a dunning lock for a line item, only that item is excluded from the dunning run. A dunning lock at the business partner-contract account relationship level means that all items posted to this contract account are not dunned until the lock has expired or has been removed. If an item has a deferral date, it is not dunned until the deferral date has been exceeded. You define dunning locks in the Customizing activity Define Dunning Lock Reasons. If you designate a dunning lock as dunnable and assign it to an item:",
+   "section_id": "doc_026_sec_022"
+  },
+  {
+   "block_id": "doc_026_p007_b008",
+   "type": "list",
+   "page_number": 7,
+   "bbox": [
+    207,
+    2914,
+    2443,
+    3260
+   ],
+   "ocr_confidence": 92.3,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The item itself does not trigger a dunning notice; it can, however, be dunned with other items"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The item is included in the dunning balance, but is not used for the amount limit check"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The item does not change its dunning level. This means that it remains at dunning level zero or retains its higher dunning level and is not included in the dunning level"
+    }
+   ],
+   "section_id": "doc_026_sec_022"
+  },
+  {
+   "block_id": "doc_026_p007_b009",
+   "type": "fragment",
+   "page_number": 7,
+   "bbox": [
+    255,
+    3285,
+    636,
+    3300
+   ],
+   "ocr_confidence": 41.4,
+   "flags": [
+    "low_confidence_words:2",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "mE LAR Ainrminn~ mrtinnr",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_026_sec_022"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "FI-CA Dunning",
+  "source_pdf": "26.pdf",
+  "reference_pdf": "26_FI_CA_Dunning.pdf",
+  "category": "Dunning & Collections",
+  "m2c_relevance": "Core source for collections escalation logic within Meter-to-Cash.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "942067b17a6522dd5261082a039a82d68126086ee8fa66be16d818fb03ecb7f4"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:45Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "FI-CA Dunning",
+  "Dunning Charges",
+  "Definition"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_026_sec_019",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_026_sec_020",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_021",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_026_sec_022",
+   "role": "starts_here"
+  }
+ ]
+}

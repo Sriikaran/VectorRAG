@@ -1,0 +1,349 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 16,
+ "source_page_hash": "ae379ac1add9bc3316f244ebd84fd3ee88a3c1f4f53d661e726c0b8dd7b07d83",
+ "is_cover_page": false,
+ "title": "Move-In Reversal",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\nyou still want to create a service order/notification, then you must reset the register results using the Reset function key.\nOtherwise, the system saves the register results and a service notification/order is no longer required.\n\nMove-In Reversal\n\nUse\n\nYou use this function to reverse the allocation of a contract to an installation performed during a move-in. You require this function\nin the following cases:\n\ne The move-in was mistakenly created with an incorrect business partner.\n\ne The move-in was mistakenly created with the installations of an incorrect premise.\n\ne The business partner subsequently announces that he/she is not taking over part of the installations of a premise. In this\ncase, you reverse part of the move-in and recreate it using the relevant part of the installations.\n\nIntegration\n\nA move-out and subsequent move-in for the installations of a premise often have to be reversed in one function call. In this case,\nthe move-in must be reversed first and subsequently the move-out can be reversed.\n\nPrerequisites\n\nThe period starting with the move-in date is not permitted to have already been billed for any of the installations. If the contract for\nwhich you intend to reverse the allocation to an installation has any accounts receivable and payable documents then you must\nreverse them before you can proceed. For more information, see Move-In/Out Processing .\n\nExceptions include statistical budget billing requests, or requests for cash security deposits created during the move-in, as well as\nmove-in charges. These are dealt with automatically during move-in reversal.\n\nFeatures\n\nIn move-in reversal, contracts whose allocation to an installation is to be canceled are indicated with a deletion. The flag shows that\nthey cannot be included in joint invoicing with other contracts.\n\nMeter reading orders and meter reading results that were created during move-in are automatically deleted. This is the same as for\nbudget billing plans not posted as debit and for which no payments were made. Security deposit requests created during move-in\nare automatically reversed, provided they have not yet been paid. The system also determines the move-in charge documents that\nbelong to the move-in document and reverses them automatically.\n\nChanges levied on the business partner, contract account, and contract data during move-in are not automatically reversed in the\nmove-in reversal. However, the system resets the standard address of the move-in customer to how it was before the move-in ,\nprovided the following conditions have been met:\n\ne The SA (Standard address of move-in customer adjusted) is selected in Customizing under Define Control Parameters for\nMove-In on Document Level .\n\ne The move-in circtqmer alraadyv had a ctandard addracce hafora the move-in wac antarad in the eyvctam\n",
+ "cleaned_text": "you still want to create a service order/notification, then you must reset the register results using the Reset function key. Otherwise, the system saves the register results and a service notification/order is no longer required.\n\nMove-In Reversal\n\nUse\n\nYou use this function to reverse the allocation of a contract to an installation performed during a move-in. You require this function in the following cases:\n\n- The move-in was mistakenly created with an incorrect business partner.\n\n- The move-in was mistakenly created with the installations of an incorrect premise.\n\n- The business partner subsequently announces that he/she is not taking over part of the installations of a premise. In this case, you reverse part of the move-in and recreate it using the relevant part of the installations.\n\nIntegration\n\nA move-out and subsequent move-in for the installations of a premise often have to be reversed in one function call. In this case, the move-in must be reversed first and subsequently the move-out can be reversed.\n\nPrerequisites\n\nThe period starting with the move-in date is not permitted to have already been billed for any of the installations. If the contract for which you intend to reverse the allocation to an installation has any accounts receivable and payable documents then you must reverse them before you can proceed. For more information, see Move-In/Out Processing . Exceptions include statistical budget billing requests, or requests for cash security deposits created during the move-in, as well as move-in charges. These are dealt with automatically during move-in reversal.\n\nFeatures\n\nIn move-in reversal, contracts whose allocation to an installation is to be canceled are indicated with a deletion. The flag shows that they cannot be included in joint invoicing with other contracts. Meter reading orders and meter reading results that were created during move-in are automatically deleted. This is the same as for budget billing plans not posted as debit and for which no payments were made. Security deposit requests created during move-in are automatically reversed, provided they have not yet been paid. The system also determines the move-in charge documents that belong to the move-in document and reverses them automatically. Changes levied on the business partner, contract account, and contract data during move-in are not automatically reversed in the move-in reversal. However, the system resets the standard address of the move-in customer to how it was before the move-in , provided the following conditions have been met:\n\n- The SA (Standard address of move-in customer adjusted) is selected in Customizing under Define Control Parameters for Move-In on Document Level .\n\n- The move-in circtqmer alraadyv had a ctandard addracce hafora the move-in wac antarad in the eyvctam",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p016_b000",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    134,
+    2299,
+    235
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "you still want to create a service order/notification, then you must reset the register results using the Reset function key. Otherwise, the system saves the register results and a service notification/order is no longer required.",
+   "section_id": "doc_002_sec_058"
+  },
+  {
+   "block_id": "doc_002_p016_b001",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    128,
+    384,
+    735,
+    445
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [],
+   "text": "Move-In Reversal",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_059"
+  },
+  {
+   "block_id": "doc_002_p016_b002",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    125,
+    560,
+    225,
+    605
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_060"
+  },
+  {
+   "block_id": "doc_002_p016_b003",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    123,
+    693,
+    2472,
+    793
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "You use this function to reverse the allocation of a contract to an installation performed during a move-in. You require this function in the following cases:",
+   "section_id": "doc_002_sec_060"
+  },
+  {
+   "block_id": "doc_002_p016_b004",
+   "type": "list",
+   "page_number": 16,
+   "bbox": [
+    207,
+    877,
+    2437,
+    1184
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The move-in was mistakenly created with an incorrect business partner."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The move-in was mistakenly created with the installations of an incorrect premise."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The business partner subsequently announces that he/she is not taking over part of the installations of a premise. In this case, you reverse part of the move-in and recreate it using the relevant part of the installations."
+    }
+   ],
+   "section_id": "doc_002_sec_060"
+  },
+  {
+   "block_id": "doc_002_p016_b005",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    127,
+    1296,
+    431,
+    1353
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Integration",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_061"
+  },
+  {
+   "block_id": "doc_002_p016_b006",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    1429,
+    2433,
+    1529
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "A move-out and subsequent move-in for the installations of a premise often have to be reversed in one function call. In this case, the move-in must be reversed first and subsequently the move-out can be reversed.",
+   "section_id": "doc_002_sec_061"
+  },
+  {
+   "block_id": "doc_002_p016_b007",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    126,
+    1641,
+    492,
+    1697
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_062"
+  },
+  {
+   "block_id": "doc_002_p016_b008",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    1774,
+    2483,
+    2120
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The period starting with the move-in date is not permitted to have already been billed for any of the installations. If the contract for which you intend to reverse the allocation to an installation has any accounts receivable and payable documents then you must reverse them before you can proceed. For more information, see Move-In/Out Processing . Exceptions include statistical budget billing requests, or requests for cash security deposits created during the move-in, as well as move-in charges. These are dealt with automatically during move-in reversal.",
+   "section_id": "doc_002_sec_062"
+  },
+  {
+   "block_id": "doc_002_p016_b009",
+   "type": "heading",
+   "page_number": 16,
+   "bbox": [
+    126,
+    2233,
+    361,
+    2277
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_063"
+  },
+  {
+   "block_id": "doc_002_p016_b010",
+   "type": "paragraph",
+   "page_number": 16,
+   "bbox": [
+    122,
+    2365,
+    2488,
+    3027
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "In move-in reversal, contracts whose allocation to an installation is to be canceled are indicated with a deletion. The flag shows that they cannot be included in joint invoicing with other contracts. Meter reading orders and meter reading results that were created during move-in are automatically deleted. This is the same as for budget billing plans not posted as debit and for which no payments were made. Security deposit requests created during move-in are automatically reversed, provided they have not yet been paid. The system also determines the move-in charge documents that belong to the move-in document and reverses them automatically. Changes levied on the business partner, contract account, and contract data during move-in are not automatically reversed in the move-in reversal. However, the system resets the standard address of the move-in customer to how it was before the move-in , provided the following conditions have been met:",
+   "section_id": "doc_002_sec_063"
+  },
+  {
+   "block_id": "doc_002_p016_b011",
+   "type": "list",
+   "page_number": 16,
+   "bbox": [
+    207,
+    3110,
+    2476,
+    3300
+   ],
+   "ocr_confidence": 84.5,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The SA (Standard address of move-in customer adjusted) is selected in Customizing under Define Control Parameters for Move-In on Document Level ."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The move-in circtqmer alraadyv had a ctandard addracce hafora the move-in wac antarad in the eyvctam"
+    }
+   ],
+   "section_id": "doc_002_sec_063"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "ae379ac1add9bc3316f244ebd84fd3ee88a3c1f4f53d661e726c0b8dd7b07d83"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:32Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Service Notifications and Orders",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_058",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_002_sec_059",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_060",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_061",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_062",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_063",
+   "role": "starts_here"
+  }
+ ]
+}

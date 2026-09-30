@@ -1,0 +1,322 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 68,
+ "source_page_hash": "df44ecf9fe16f66de494d0945bd6aa1fec6eaf05254e320ac8e4fddd962c24f2",
+ "is_cover_page": false,
+ "title": "Time-of-Use Exceptions and Exception Responses",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nDefining Time-of-Use Exception Programs\n\nTime-of-Use Exceptions and Exception Responses\n\nA time-of-use exception is an activation of a TOU exception program for a specific period and is described using the following\nattributes:\n\ne Start of activation (date and time)\ne End of activation\n\ne Reference to the TOU exception program activated\n\nIn addition to the TOU exception, additional information about specific customers is required according to the activation category\nfor the TOU exception program. This information is defined as a time-of-use exception response.\n\nThe TOU exception response has the following attributes:\n\ne Logical register number\ne Reference to TOU exception\ne Response category\nThe response category can have one of the following statuses:\no Opt-in\nThe TOU exception is to be taken into account as active during billing.\no Opt-out\n\nThe TOU exception is not to be taken into account during billing.\n\nActivating a TOU exception program in billing for a contract is dependent on the interaction of the TOU exception and the TOU\nexception response. A TOU exception response can be optional or mandatory according to the activation category of the TOU\nexception program. If the user wants to make a correction at contract level, for example to deactivate a TOU exception for a\nspecific contract, they can create a TOU exception response with a suitable response category for the TOU exception in the\nsystem.\n\nCritical Peak Pricing\n\nUse\n\nCritical peak prices (Critical Peak Pricing - CPP) are billed in part by using calculation algorithms that extend beyond simply\naggregating consumption values during a TOU exception. The objective here is to offer customers a financial incentive to reduce\ntheir consumption during a TOU exception period. In addition to applying higher prices during the exception period, discounts are\nalso granted to customers who have actually successfully reduced their consumption. When using the model rebates at critical\npeak load times (Peak Time Rebate \u2014 PTR), consumption during the exception period is compared with comparable p\u00e9eriods in\n\nthe past. Past consumption is usually represented as an arithmetic average across several comparison periods.\n",
+ "cleaned_text": "Defining Time-of-Use Exception Programs\n\nTime-of-Use Exceptions and Exception Responses\n\nA time-of-use exception is an activation of a TOU exception program for a specific period and is described using the following attributes:\n\n- Start of activation (date and time)\n\n- End of activation\n\n- Reference to the TOU exception program activated\n\nIn addition to the TOU exception, additional information about specific customers is required according to the activation category for the TOU exception program. This information is defined as a time-of-use exception response. The TOU exception response has the following attributes:\n\n- Logical register number\n\n- Reference to TOU exception\n\n- Response category The response category can have one of the following statuses:\n\n- Opt-in The TOU exception is to be taken into account as active during billing.\n\n- Opt-out The TOU exception is not to be taken into account during billing.\n\nActivating a TOU exception program in billing for a contract is dependent on the interaction of the TOU exception and the TOU exception response. A TOU exception response can be optional or mandatory according to the activation category of the TOU exception program. If the user wants to make a correction at contract level, for example to deactivate a TOU exception for a specific contract, they can create a TOU exception response with a suitable response category for the TOU exception in the system.\n\nCritical Peak Pricing\n\nUse\n\nCritical peak prices (Critical Peak Pricing - CPP) are billed in part by using calculation algorithms that extend beyond simply aggregating consumption values during a TOU exception. The objective here is to offer customers a financial incentive to reduce their consumption during a TOU exception period. In addition to applying higher prices during the exception period, discounts are also granted to customers who have actually successfully reduced their consumption. When using the model rebates at critical peak load times (Peak Time Rebate \u2014 PTR), consumption during the exception period is compared with comparable p\u00e9eriods in the past. Past consumption is usually represented as an arithmetic average across several comparison periods.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p068_b000",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    125,
+    135,
+    880,
+    172
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [],
+   "text": "Defining Time-of-Use Exception Programs",
+   "section_id": "doc_011_sec_221"
+  },
+  {
+   "block_id": "doc_011_p068_b001",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    123,
+    321,
+    1934,
+    397
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Time-of-Use Exceptions and Exception Responses",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_222"
+  },
+  {
+   "block_id": "doc_011_p068_b002",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    123,
+    469,
+    2378,
+    562
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "A time-of-use exception is an activation of a TOU exception program for a specific period and is described using the following attributes:",
+   "section_id": "doc_011_sec_222"
+  },
+  {
+   "block_id": "doc_011_p068_b003",
+   "type": "list",
+   "page_number": 68,
+   "bbox": [
+    207,
+    654,
+    1169,
+    898
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Start of activation (date and time)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "End of activation"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Reference to the TOU exception program activated"
+    }
+   ],
+   "section_id": "doc_011_sec_222"
+  },
+  {
+   "block_id": "doc_011_p068_b004",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    122,
+    982,
+    2464,
+    1204
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "In addition to the TOU exception, additional information about specific customers is required according to the activation category for the TOU exception program. This information is defined as a time-of-use exception response. The TOU exception response has the following attributes:",
+   "section_id": "doc_011_sec_222"
+  },
+  {
+   "block_id": "doc_011_p068_b005",
+   "type": "list",
+   "page_number": 68,
+   "bbox": [
+    207,
+    1291,
+    1640,
+    2045
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Logical register number"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Reference to TOU exception"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Response category The response category can have one of the following statuses:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Opt-in The TOU exception is to be taken into account as active during billing."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Opt-out The TOU exception is not to be taken into account during billing."
+    }
+   ],
+   "section_id": "doc_011_sec_222"
+  },
+  {
+   "block_id": "doc_011_p068_b006",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    123,
+    2128,
+    2393,
+    2419
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Activating a TOU exception program in billing for a contract is dependent on the interaction of the TOU exception and the TOU exception response. A TOU exception response can be optional or mandatory according to the activation category of the TOU exception program. If the user wants to make a correction at contract level, for example to deactivate a TOU exception for a specific contract, they can create a TOU exception response with a suitable response category for the TOU exception in the system.",
+   "section_id": "doc_011_sec_222"
+  },
+  {
+   "block_id": "doc_011_p068_b007",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    125,
+    2568,
+    848,
+    2644
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Critical Peak Pricing",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_223"
+  },
+  {
+   "block_id": "doc_011_p068_b008",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    125,
+    2745,
+    225,
+    2790
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_224"
+  },
+  {
+   "block_id": "doc_011_p068_b009",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    122,
+    2877,
+    2460,
+    3231
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Critical peak prices (Critical Peak Pricing - CPP) are billed in part by using calculation algorithms that extend beyond simply aggregating consumption values during a TOU exception. The objective here is to offer customers a financial incentive to reduce their consumption during a TOU exception period. In addition to applying higher prices during the exception period, discounts are also granted to customers who have actually successfully reduced their consumption. When using the model rebates at critical peak load times (Peak Time Rebate \u2014 PTR), consumption during the exception period is compared with comparable p\u00e9eriods in the past. Past consumption is usually represented as an arithmetic average across several comparison periods.",
+   "section_id": "doc_011_sec_224"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "df44ecf9fe16f66de494d0945bd6aa1fec6eaf05254e320ac8e4fddd962c24f2"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Time-of-Use Exception Program",
+  "Structure",
+  "Activation Category"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_221",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_011_sec_222",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_223",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_224",
+   "role": "starts_here"
+  }
+ ]
+}

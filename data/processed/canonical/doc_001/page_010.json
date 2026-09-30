@@ -1,0 +1,259 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 10,
+ "source_page_hash": "77b167f29faef71c4db2ffb634ad97eb1a34df53432b1a7d46d1fc8e2b97f063",
+ "is_cover_page": false,
+ "title": "Note for the industry component Insurance",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nIf you only want to see which changes would be made to the contract accounts when you save, choose the Simulate Changes\npushbutton. The system highlights the fields that would be changed. To exit simulation mode, choose the Exit Simulation\npushbutton.\n\nWhen you create and delete payment data, the system determines the payment methods automatically and saves these in the\ncontract accounts affected. For more information, see the documentation for the IMG activity by choosing |)*Basic Functions\nContract Partner \u00bb Changes to Payment Transactions > Define Default Values for Payment Methods\n\nIn addition to the contract accounts, the system also displays the prepaid accounts of the business partner. Processing of prepaid\naccounts is similar to the processing of contract accounts. However, since prepaid accounts only contain payment data for\n\nincoming payments, for prepaid accounts you can only change payment data for incoming payments. You cannot make changes in\nthe future for prepaid accounts.\n\nNote for the industry component Insurance\n\nIn addition to the contract accounts, the insurance objects to which a business partner is assigned are also displayed here. The\nprocessing of the items is as described above for the processing of contract accounts. The contract account holder corresponds to\n\nthe contract partner in the industry component Insurance (FS-CD).\nNote for the industry component Public Sector Contract Accounts Receivable and Payable\n\nIn addition to the contract accounts, the system also displays the contract objects to which a business partner is assigned. The\nprocessing of the items is as described above for the processing of contract accounts.\n\nCorrespondence/Contact Group Box\n\nIf you set the Print Confirmation Letter indicator, the system automatically prints a confirmation when you save.\n\nIn Customizing for Contract Accounts Receivable and Payable under |)+Basic Functions \u00bb Contract Partner \u00bb Changes to Payment\nTransactions \u00bb Define Processing Variants >, you can make different settings for printing confirmations for a processing variant.\nRead the documentation for this Customizing activity.\n\nDepending on the settings for your processing variant, when you save, the system displays a separate window - Create Printout of\nSingle Correspondence.\n\nYou can create the confirmation manually or have it created in a mass run. For creation in a mass run, use the correspondence\ntypes 0036 and 0040.\n\nYou can also enter further data for the contact.\n\nIf you set the Display Contact indicator in the Contact group box in Customizing for Contact Accounts Receivable and Payable\n\nuncer |}Basic Functions \u00bb Contract Partner \u00bb Changes to Payment Transactions \u00bb Define Processing Variants 3, the system\ndisplays the fields for the contact in this group box. To create a contact when you save, you also have to set the Create Contact\nindicator in Customizing.\n\nThe contact is created even if the fields for the contact are not displayed.\n\nSpecial Features of Changes with Effect in the Future\n\nWhen you change payment data so that the change takes effect in the future, the system saves the data in different ways. This\n",
+ "cleaned_text": "If you only want to see which changes would be made to the contract accounts when you save, choose the Simulate Changes pushbutton. The system highlights the fields that would be changed. To exit simulation mode, choose the Exit Simulation pushbutton. When you create and delete payment data, the system determines the payment methods automatically and saves these in the contract accounts affected. For more information, see the documentation for the IMG activity by choosing |)*Basic Functions Contract Partner \u00bb Changes to Payment Transactions > Define Default Values for Payment Methods In addition to the contract accounts, the system also displays the prepaid accounts of the business partner. Processing of prepaid accounts is similar to the processing of contract accounts. However, since prepaid accounts only contain payment data for incoming payments, for prepaid accounts you can only change payment data for incoming payments. You cannot make changes in the future for prepaid accounts.\n\nNote for the industry component Insurance\n\nIn addition to the contract accounts, the insurance objects to which a business partner is assigned are also displayed here. The processing of the items is as described above for the processing of contract accounts. The contract account holder corresponds to the contract partner in the industry component Insurance (FS-CD).\n\nNote for the industry component Public Sector Contract Accounts Receivable and Payable\n\nIn addition to the contract accounts, the system also displays the contract objects to which a business partner is assigned. The processing of the items is as described above for the processing of contract accounts.\n\nCorrespondence/Contact Group Box\n\nIf you set the Print Confirmation Letter indicator, the system automatically prints a confirmation when you save. In Customizing for Contract Accounts Receivable and Payable under |)+Basic Functions \u00bb Contract Partner \u00bb Changes to Payment Transactions \u00bb Define Processing Variants >, you can make different settings for printing confirmations for a processing variant. Read the documentation for this Customizing activity. Depending on the settings for your processing variant, when you save, the system displays a separate window - Create Printout of Single Correspondence. You can create the confirmation manually or have it created in a mass run. For creation in a mass run, use the correspondence types 0036 and 0040. You can also enter further data for the contact. If you set the Display Contact indicator in the Contact group box in Customizing for Contact Accounts Receivable and Payable uncer |}Basic Functions \u00bb Contract Partner \u00bb Changes to Payment Transactions \u00bb Define Processing Variants 3, the system displays the fields for the contact in this group box. To create a contact when you save, you also have to set the Create Contact indicator in Customizing. The contact is created even if the fields for the contact are not displayed.\n\nSpecial Features of Changes with Effect in the Future\n\nWhen you change payment data so that the change takes effect in the future, the system saves the data in different ways. This",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p010_b000",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    122,
+    134,
+    2475,
+    858
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "If you only want to see which changes would be made to the contract accounts when you save, choose the Simulate Changes pushbutton. The system highlights the fields that would be changed. To exit simulation mode, choose the Exit Simulation pushbutton. When you create and delete payment data, the system determines the payment methods automatically and saves these in the contract accounts affected. For more information, see the documentation for the IMG activity by choosing |)*Basic Functions Contract Partner \u00bb Changes to Payment Transactions > Define Default Values for Payment Methods In addition to the contract accounts, the system also displays the prepaid accounts of the business partner. Processing of prepaid accounts is similar to the processing of contract accounts. However, since prepaid accounts only contain payment data for incoming payments, for prepaid accounts you can only change payment data for incoming payments. You cannot make changes in the future for prepaid accounts.",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p010_b001",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    124,
+    943,
+    933,
+    981
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Note for the industry component Insurance",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p010_b002",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    122,
+    1064,
+    2487,
+    1230
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "In addition to the contract accounts, the insurance objects to which a business partner is assigned are also displayed here. The processing of the items is as described above for the processing of contract accounts. The contract account holder corresponds to the contract partner in the industry component Insurance (FS-CD).",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p010_b003",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    124,
+    1314,
+    1809,
+    1352
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Note for the industry component Public Sector Contract Accounts Receivable and Payable",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p010_b004",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    124,
+    1435,
+    2417,
+    1536
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "In addition to the contract accounts, the system also displays the contract objects to which a business partner is assigned. The processing of the items is as described above for the processing of contract accounts.",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p010_b005",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    123,
+    1619,
+    809,
+    1657
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Correspondence/Contact Group Box",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p010_b006",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    122,
+    1744,
+    2487,
+    2955
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "If you set the Print Confirmation Letter indicator, the system automatically prints a confirmation when you save. In Customizing for Contract Accounts Receivable and Payable under |)+Basic Functions \u00bb Contract Partner \u00bb Changes to Payment Transactions \u00bb Define Processing Variants >, you can make different settings for printing confirmations for a processing variant. Read the documentation for this Customizing activity. Depending on the settings for your processing variant, when you save, the system displays a separate window - Create Printout of Single Correspondence. You can create the confirmation manually or have it created in a mass run. For creation in a mass run, use the correspondence types 0036 and 0040. You can also enter further data for the contact. If you set the Display Contact indicator in the Contact group box in Customizing for Contact Accounts Receivable and Payable uncer |}Basic Functions \u00bb Contract Partner \u00bb Changes to Payment Transactions \u00bb Define Processing Variants 3, the system displays the fields for the contact in this group box. To create a contact when you save, you also have to set the Create Contact indicator in Customizing. The contact is created even if the fields for the contact are not displayed.",
+   "section_id": "doc_001_sec_031"
+  },
+  {
+   "block_id": "doc_001_p010_b007",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    126,
+    3104,
+    2028,
+    3180
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Special Features of Changes with Effect in the Future",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_032"
+  },
+  {
+   "block_id": "doc_001_p010_b008",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    123,
+    3252,
+    2396,
+    3290
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "When you change payment data so that the change takes effect in the future, the system saves the data in different ways. This",
+   "section_id": "doc_001_sec_032"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "77b167f29faef71c4db2ffb634ad97eb1a34df53432b1a7d46d1fc8e2b97f063"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:26Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Changing Payment Data",
+  "Procedure",
+  "Contract Accounts Group Box"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_031",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_032",
+   "role": "starts_here"
+  }
+ ]
+}

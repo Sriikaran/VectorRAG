@@ -1,0 +1,419 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 68,
+ "source_page_hash": "f8444a269d9939df993ce1be28aa8af4b512536149587fd8f11e8bd1dabfa967",
+ "is_cover_page": false,
+ "title": "Contract Account",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nContract Account\n\nDefinition\n\nStructure used to bill the posting data for contracts or contract items for which the same collection/disbursement agreements\napply.\n\nContract accounts are managed on an open item basis within Contract Accounts Receivable and Payable .\n\n1 Note\n\nIn the industry component Insurance , you can decide whether accounting is to be managed on an account or open item basis.\n\nUse\n\nAlternative correspondence recipient\n\nYou can define an alternative correspondence recipient in the contract account (see Recipient and Sender Determination ).\n\nPlanned changes to the contract account\n\nYou do not have to activate contract account changes to have immediate effect, but rather you can enter a date as from which the\nchanges should become effective. This data is not written to the database but recorded in change documents. The planned\nchanges function only applies to changes to the contract account. You cannot schedule the creation of a contract account.\n\nTo activate this data, you should run program BUSPCDACT on a daily basis. This writes the scheduling to the database. You can\nuse the application object FICA to activate planned changes to the contract account.\n\nWhen you are in display mode for change documents, you can delete inconsistent data, for example, data that arises when planned\nchanges are cancelled.\n\nCheck digits in the contract account\nWhen you create a contract account, you can add a check digit to the contract account number. The prerequisites are as follows:\n\ne You add the check digit procedure using event 1051. (Sample function module FKK_SAMPLE_1051_2_ CHECKDIGITS for two\ncheck digits is supplied by SAP)\n\ne The contract account is created with internal number assignment.\n\ne Only procedures with one or two check digits are supported. The number range is configured such that it begins with a\nleading zero (check digit procedure with one check digit) or with two leading zeros (procedure with two check digits).\n\nContract account enhancements\n\nYou can make enhancements using the Business Data Toolset ( BDT) in the menu for transaction CAWM.\n\nStructure\n\nEvery contract account master record consists of general data that is the same for all business partners assigned to the contract\n",
+ "cleaned_text": "Contract Account\n\nDefinition\n\nStructure used to bill the posting data for contracts or contract items for which the same collection/disbursement agreements apply. Contract accounts are managed on an open item basis within Contract Accounts Receivable and Payable .\n\nNote In the industry component Insurance , you can decide whether accounting is to be managed on an account or open item basis.\n\nUse\n\nAlternative correspondence recipient\n\nYou can define an alternative correspondence recipient in the contract account (see Recipient and Sender Determination ).\n\nPlanned changes to the contract account\n\nYou do not have to activate contract account changes to have immediate effect, but rather you can enter a date as from which the changes should become effective. This data is not written to the database but recorded in change documents. The planned changes function only applies to changes to the contract account. You cannot schedule the creation of a contract account. To activate this data, you should run program BUSPCDACT on a daily basis. This writes the scheduling to the database. You can use the application object FICA to activate planned changes to the contract account. When you are in display mode for change documents, you can delete inconsistent data, for example, data that arises when planned changes are cancelled.\n\nCheck digits in the contract account\n\nWhen you create a contract account, you can add a check digit to the contract account number. The prerequisites are as follows:\n\n- You add the check digit procedure using event 1051. (Sample function module FKK_SAMPLE_1051_2_ CHECKDIGITS for two check digits is supplied by SAP)\n\n- The contract account is created with internal number assignment.\n\n- Only procedures with one or two check digits are supported. The number range is configured such that it begins with a leading zero (check digit procedure with one check digit) or with two leading zeros (procedure with two check digits).\n\nContract account enhancements\n\nYou can make enhancements using the Business Data Toolset ( BDT) in the menu for transaction CAWM.\n\nStructure\n\nEvery contract account master record consists of general data that is the same for all business partners assigned to the contract",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    768,
+    310,
+    805
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p068_b000",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    125,
+    130,
+    761,
+    192
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Contract Account",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_249"
+  },
+  {
+   "block_id": "doc_001_p068_b001",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    126,
+    307,
+    393,
+    353
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_250"
+  },
+  {
+   "block_id": "doc_001_p068_b002",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    123,
+    440,
+    2417,
+    662
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Structure used to bill the posting data for contracts or contract items for which the same collection/disbursement agreements apply. Contract accounts are managed on an open item basis within Contract Accounts Receivable and Payable .",
+   "section_id": "doc_001_sec_250"
+  },
+  {
+   "block_id": "doc_001_p068_b003",
+   "type": "note",
+   "page_number": 68,
+   "bbox": [
+    151,
+    768,
+    2440,
+    885
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "label": "Note",
+   "text": "Note In the industry component Insurance , you can decide whether accounting is to be managed on an account or open item basis.",
+   "section_id": "doc_001_sec_250"
+  },
+  {
+   "block_id": "doc_001_p068_b004",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    125,
+    1030,
+    225,
+    1075
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_251"
+  },
+  {
+   "block_id": "doc_001_p068_b005",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    123,
+    1163,
+    817,
+    1200
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Alternative correspondence recipient",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_252"
+  },
+  {
+   "block_id": "doc_001_p068_b006",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    123,
+    1284,
+    2344,
+    1322
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "You can define an alternative correspondence recipient in the contract account (see Recipient and Sender Determination ).",
+   "section_id": "doc_001_sec_252"
+  },
+  {
+   "block_id": "doc_001_p068_b007",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    124,
+    1409,
+    891,
+    1447
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Planned changes to the contract account",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_253"
+  },
+  {
+   "block_id": "doc_001_p068_b008",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    122,
+    1531,
+    2486,
+    2064
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You do not have to activate contract account changes to have immediate effect, but rather you can enter a date as from which the changes should become effective. This data is not written to the database but recorded in change documents. The planned changes function only applies to changes to the contract account. You cannot schedule the creation of a contract account. To activate this data, you should run program BUSPCDACT on a daily basis. This writes the scheduling to the database. You can use the application object FICA to activate planned changes to the contract account. When you are in display mode for change documents, you can delete inconsistent data, for example, data that arises when planned changes are cancelled.",
+   "section_id": "doc_001_sec_253"
+  },
+  {
+   "block_id": "doc_001_p068_b009",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    123,
+    2148,
+    800,
+    2186
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Check digits in the contract account",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_254"
+  },
+  {
+   "block_id": "doc_001_p068_b010",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    123,
+    2270,
+    2440,
+    2308
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "When you create a contract account, you can add a check digit to the contract account number. The prerequisites are as follows:",
+   "section_id": "doc_001_sec_254"
+  },
+  {
+   "block_id": "doc_001_p068_b011",
+   "type": "list",
+   "page_number": 68,
+   "bbox": [
+    207,
+    2391,
+    2488,
+    2761
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You add the check digit procedure using event 1051. (Sample function module FKK_SAMPLE_1051_2_ CHECKDIGITS for two check digits is supplied by SAP)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The contract account is created with internal number assignment."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Only procedures with one or two check digits are supported. The number range is configured such that it begins with a leading zero (check digit procedure with one check digit) or with two leading zeros (procedure with two check digits)."
+    }
+   ],
+   "section_id": "doc_001_sec_254"
+  },
+  {
+   "block_id": "doc_001_p068_b012",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    123,
+    2848,
+    735,
+    2878
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Contract account enhancements",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_255"
+  },
+  {
+   "block_id": "doc_001_p068_b013",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    123,
+    2969,
+    2024,
+    3008
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "text": "You can make enhancements using the Business Data Toolset ( BDT) in the menu for transaction CAWM.",
+   "section_id": "doc_001_sec_255"
+  },
+  {
+   "block_id": "doc_001_p068_b014",
+   "type": "heading",
+   "page_number": 68,
+   "bbox": [
+    124,
+    3118,
+    391,
+    3165
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Structure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_256"
+  },
+  {
+   "block_id": "doc_001_p068_b015",
+   "type": "paragraph",
+   "page_number": 68,
+   "bbox": [
+    125,
+    3252,
+    2451,
+    3290
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Every contract account master record consists of general data that is the same for all business partners assigned to the contract",
+   "section_id": "doc_001_sec_256"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.0889,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "f8444a269d9939df993ce1be28aa8af4b512536149587fd8f11e8bd1dabfa967"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:29Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Contract Account"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_249",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_250",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_251",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_252",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_253",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_254",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_255",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_256",
+   "role": "starts_here"
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_008",
+ "page_number": 2,
+ "source_page_hash": "f9a151a67eb152c7245a9dbb5d8135ac80a8504ec6e0514cd2865fe9672a5795",
+ "is_cover_page": false,
+ "title": "Estimation",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nEstimation\n\nPurpose\n\nThis component allows you to estimate meter reading results automatically in the case of missing meter readings or implausible\n\nconsumption.\n\nImplementation considerations\n\nThis component is optional.\n",
+ "cleaned_text": "Estimation\n\nPurpose\n\nThis component allows you to estimate meter reading results automatically in the case of missing meter readings or implausible consumption.\n\nImplementation considerations\n\nThis component is optional.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_008_p002_b000",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    128,
+    256,
+    509,
+    317
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Estimation",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_008_sec_001"
+  },
+  {
+   "block_id": "doc_008_p002_b001",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    126,
+    436,
+    352,
+    493
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Purpose",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_008_sec_002"
+  },
+  {
+   "block_id": "doc_008_p002_b002",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    566,
+    2441,
+    670
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "This component allows you to estimate meter reading results automatically in the case of missing meter readings or implausible consumption.",
+   "section_id": "doc_008_sec_002"
+  },
+  {
+   "block_id": "doc_008_p002_b003",
+   "type": "heading",
+   "page_number": 2,
+   "bbox": [
+    127,
+    783,
+    1002,
+    839
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Implementation considerations",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_008_sec_003"
+  },
+  {
+   "block_id": "doc_008_p002_b004",
+   "type": "paragraph",
+   "page_number": 2,
+   "bbox": [
+    122,
+    912,
+    623,
+    950
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "This component is optional.",
+   "section_id": "doc_008_sec_003"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 67,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Meter Reading Estimation",
+  "source_pdf": "8.pdf",
+  "reference_pdf": "08_Meter_Reading_Estimation.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Important for estimated-bill and catch-up-bill reasoning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "f9a151a67eb152c7245a9dbb5d8135ac80a8504ec6e0514cd2865fe9672a5795"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:37Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Meter Reading Estimation",
+  "Estimation"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_008_sec_001",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_008_sec_002",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_008_sec_003",
+   "role": "starts_here"
+  }
+ ]
+}

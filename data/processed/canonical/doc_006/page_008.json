@@ -1,0 +1,413 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 8,
+ "source_page_hash": "664ca727987d18c0314426f9bc1e35bf2a3d8cb9e5a10631d7a36aeca127cea6",
+ "is_cover_page": false,
+ "title": "Examples for Mixed Weighting",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nTo do so, define the following business add-ins (BAdlI)s\n\ne User-Defined Consumption per Weighting Unit (ISU BENDEF EPVG)\n\ne Determination of User-Defined Weighting Total (ISU _BENDEF_ WEIGHTING)\n\nExamples for Mixed Weighting\n\nThe following examples describe extrapolation with mixed weightings. The examples use degree day weighting which is defined\n\nwith the following values in Customizing for |}*SAP Utilities \u201cJ under |}sDevice Management > Meter Reading \u00bb Weighting\nProcedures }\n\n25\n\n20\n\n15\n\n10\n\n0\n20                     a5                   10                   10                      5                         5                       a                      10                      10                      15                      20\n\nWeighti 20\nngs\n\nDegree Day Weighting\n\nNote: Degree day weightings are absolute values without units. They only represent weightings and not measured energy\nquantities. The weighting values relate to calendar days of a year, not to months. Therefore, for the total weighting of an\nextrapolation period, each individual day has to be taken into account with the respective degree day weighting. Calculation\nexample: The total of the degree day weightings for the period January 1 to January 31 is 31 * 20 = 620. This is the result of 31 days\nwith the weighting 20.\n\ne Example\n",
+ "cleaned_text": "To do so, define the following business add-ins (BAdlI)s\n\n- User-Defined Consumption per Weighting Unit (ISU BENDEF EPVG)\n\n- Determination of User-Defined Weighting Total (ISU _BENDEF_ WEIGHTING)\n\nExamples for Mixed Weighting\n\nThe following examples describe extrapolation with mixed weightings. The examples use degree day weighting which is defined with the following values in Customizing for |}*SAP Utilities \u201cJ under |}sDevice Management > Meter Reading \u00bb Weighting\n\nProcedures }\n\n25\n\n20\n\n15\n\n10\n\n0\n\n20 | a5 | 10 | 10 | 5 | 5 | a | 10 | 10 | 15 | 20\n\nWeighti 20 ngs\n\nDegree Day Weighting Note: Degree day weightings are absolute values without units. They only represent weightings and not measured energy quantities. The weighting values relate to calendar days of a year, not to months. Therefore, for the total weighting of an extrapolation period, each individual day has to be taken into account with the respective degree day weighting. Calculation example: The total of the degree day weightings for the period January 1 to January 31 is 31 * 20 = 620. This is the result of 31 days with the weighting 20.\n\n- Example",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p008_b000",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    134,
+    1107,
+    172
+   ],
+   "ocr_confidence": 90.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "To do so, define the following business add-ins (BAdlI)s",
+   "section_id": "doc_006_sec_009"
+  },
+  {
+   "block_id": "doc_006_p008_b001",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    206,
+    253,
+    1644,
+    409
+   ],
+   "ocr_confidence": 81.3,
+   "flags": [
+    "low_confidence_words:4"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "User-Defined Consumption per Weighting Unit (ISU BENDEF EPVG)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Determination of User-Defined Weighting Total (ISU _BENDEF_ WEIGHTING)"
+    }
+   ],
+   "section_id": "doc_006_sec_009"
+  },
+  {
+   "block_id": "doc_006_p008_b002",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    128,
+    552,
+    1210,
+    627
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Examples for Mixed Weighting",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_010"
+  },
+  {
+   "block_id": "doc_006_p008_b003",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    122,
+    699,
+    2417,
+    810
+   ],
+   "ocr_confidence": 88.0,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "The following examples describe extrapolation with mixed weightings. The examples use degree day weighting which is defined with the following values in Customizing for |}*SAP Utilities \u201cJ under |}sDevice Management > Meter Reading \u00bb Weighting",
+   "section_id": "doc_006_sec_010"
+  },
+  {
+   "block_id": "doc_006_p008_b004",
+   "type": "heading",
+   "page_number": 8,
+   "bbox": [
+    124,
+    824,
+    377,
+    868
+   ],
+   "ocr_confidence": 81.2,
+   "flags": [],
+   "text": "Procedures }",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_011"
+  },
+  {
+   "block_id": "doc_006_p008_b005",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    170,
+    1000,
+    207,
+    1025
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "25",
+   "section_id": "doc_006_sec_011"
+  },
+  {
+   "block_id": "doc_006_p008_b006",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    170,
+    1227,
+    207,
+    1252
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "20",
+   "section_id": "doc_006_sec_011"
+  },
+  {
+   "block_id": "doc_006_p008_b007",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    173,
+    1452,
+    207,
+    1477
+   ],
+   "ocr_confidence": 81.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "15",
+   "section_id": "doc_006_sec_011"
+  },
+  {
+   "block_id": "doc_006_p008_b008",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    173,
+    1679,
+    207,
+    1704
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "10",
+   "section_id": "doc_006_sec_011"
+  },
+  {
+   "block_id": "doc_006_p008_b009",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    190,
+    2131,
+    207,
+    2156
+   ],
+   "ocr_confidence": 62.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "0",
+   "section_id": "doc_006_sec_011"
+  },
+  {
+   "block_id": "doc_006_p008_b010",
+   "type": "table",
+   "page_number": 8,
+   "bbox": [
+    469,
+    2322,
+    2314,
+    2354
+   ],
+   "ocr_confidence": 89.0,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 11,
+   "column_starts": [
+    469,
+    650,
+    820,
+    995,
+    1181,
+    1368,
+    1546,
+    1722,
+    1909,
+    2097,
+    2280
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "20",
+     "a5",
+     "10",
+     "10",
+     "5",
+     "5",
+     "a",
+     "10",
+     "10",
+     "15",
+     "20"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "20",
+     "a5",
+     "10",
+     "10",
+     "5",
+     "5",
+     "a",
+     "10",
+     "10",
+     "15",
+     "20"
+    ]
+   ],
+   "section_id": "doc_006_sec_011"
+  },
+  {
+   "block_id": "doc_006_p008_b011",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    146,
+    2322,
+    326,
+    2383
+   ],
+   "ocr_confidence": 86.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Weighti 20 ngs",
+   "section_id": "doc_006_sec_011"
+  },
+  {
+   "block_id": "doc_006_p008_b012",
+   "type": "paragraph",
+   "page_number": 8,
+   "bbox": [
+    123,
+    2722,
+    2476,
+    3126
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Degree Day Weighting Note: Degree day weightings are absolute values without units. They only represent weightings and not measured energy quantities. The weighting values relate to calendar days of a year, not to months. Therefore, for the total weighting of an extrapolation period, each individual day has to be taken into account with the respective degree day weighting. Calculation example: The total of the degree day weightings for the period January 1 to January 31 is 31 * 20 = 620. This is the result of 31 days with the weighting 20.",
+   "section_id": "doc_006_sec_011"
+  },
+  {
+   "block_id": "doc_006_p008_b013",
+   "type": "list",
+   "page_number": 8,
+   "bbox": [
+    151,
+    3225,
+    433,
+    3278
+   ],
+   "ocr_confidence": 48.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Example"
+    }
+   ],
+   "section_id": "doc_006_sec_011"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "664ca727987d18c0314426f9bc1e35bf2a3d8cb9e5a10631d7a36aeca127cea6"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:33Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Weighting Procedure",
+  "Features",
+  "General Weighting"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_009",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_010",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_011",
+   "role": "starts_here"
+  }
+ ]
+}

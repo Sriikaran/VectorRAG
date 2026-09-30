@@ -1,0 +1,336 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 56,
+ "source_page_hash": "38cbd64285c88427f2e63f4153793c441db18ce97614df7c16143866be56ae86",
+ "is_cover_page": false,
+ "title": "Activities",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nActivities\n\nTo simulate rate steps, access billing in the simulation mode or perform periodic billing with integrated budget billing simulation.\nYou access the transaction for individual billing simulation in the SAP menu under |}Utilities Industry \u00bb Billing \u00bb Billing Execution\nIndividual Processing \u00bb Individual Simulation \u00bb Billing\n\ni Note\n\nTo ensure simulation is as accurate as possible, note the following:\n\ne Inthe time-of-use interface, use a consumption pattern (and a synthetic profile) that best suits the customer\nconsumption situation.\n\ne Enter the period consumption for interval meters during move-in.\ne Enter a percentage minimum share that is as large as possible in the rate.\n\ne If you create a contract in a vacant status period, for example, with the owner of a rented apartment, we recommend\nthat you implement BAdI ISU_LFASTEDM_TOU_SIMULATION, method DETERMINE_CONTRACTS.\n\nMore Information\n\nFor more information about the simulation process flow, see the system documentation TOU Simulation, which you can access\nfrom a link in the description of the field Consumption Pattern (F1 Help) in the time-of-use interface.\n\nBusiness Function Utilities, Advanced Metering Infrastructure 4 (ISU AMI_4)\n\nTechnical Reference\n\nThis section describes the technical requirements for contract billing based on profile values in an MDUS system:\n\ne Business Function:\n\nThe business function Advanced Metering Infrastructure 2 (ISU _AMI_ 2) is active.\n\ne Enterprise Services for MDUS Request:\n\no UtilitiesTimeSeriesCalculationERPBulkCreateRequest Out transfers the request items to the\nMDUS system.\n\no UtilitiesTimeSeriesCalculationERPBulkCreateConfirmation In sends the results of the request\nitems back to the SAP system.\n\no UtilitiesTimeSeriesCalculationERPCancellationBulkRequest_ Out repeats the MDUS request.\nThat is, it reverses an existing request and sends a new one.\n\ne Business Add-Ins (BAdlIs):\no ISU _MDUS_ FORMULA enables additional consistency checks for the time-of-use formula.\n\no ISU MDUS_IFACE enables additional consistency checks for the time-of-use interface.\n\nTCI AARNITIC mn rmemere _._LcI.. ...Le eeLt yg. gp. ppv~ryrim@m ._._....__g \u00a2.. Lit] LI Ll...) nee ee Bw eke 8g Od ee ce ee ee\n",
+ "cleaned_text": "Activities\n\nTo simulate rate steps, access billing in the simulation mode or perform periodic billing with integrated budget billing simulation. You access the transaction for individual billing simulation in the SAP menu under |}Utilities Industry \u00bb Billing \u00bb Billing Execution Individual Processing \u00bb Individual Simulation \u00bb Billing i Note To ensure simulation is as accurate as possible, note the following:\n\n- Inthe time-of-use interface, use a consumption pattern (and a synthetic profile) that best suits the customer consumption situation.\n\n- Enter the period consumption for interval meters during move-in.\n\n- Enter a percentage minimum share that is as large as possible in the rate.\n\n- If you create a contract in a vacant status period, for example, with the owner of a rented apartment, we recommend that you implement BAdI ISU_LFASTEDM_TOU_SIMULATION, method DETERMINE_CONTRACTS.\n\nMore Information\n\nFor more information about the simulation process flow, see the system documentation TOU Simulation, which you can access from a link in the description of the field Consumption Pattern (F1 Help) in the time-of-use interface. Business Function Utilities, Advanced Metering Infrastructure 4 (ISU AMI_4)\n\nTechnical Reference\n\nThis section describes the technical requirements for contract billing based on profile values in an MDUS system:\n\n- Business Function: The business function Advanced Metering Infrastructure 2 (ISU _AMI_ 2) is active.\n\n- Enterprise Services for MDUS Request:\n\n- UtilitiesTimeSeriesCalculationERPBulkCreateRequest Out transfers the request items to the MDUS system.\n\n- UtilitiesTimeSeriesCalculationERPBulkCreateConfirmation In sends the results of the request items back to the SAP system.\n\n- UtilitiesTimeSeriesCalculationERPCancellationBulkRequest_ Out repeats the MDUS request. That is, it reverses an existing request and sends a new one.\n\n- Business Add-Ins (BAdlIs):\n\n- ISU _MDUS_ FORMULA enables additional consistency checks for the time-of-use formula.\n\n- ISU MDUS_IFACE enables additional consistency checks for the time-of-use interface.\n\nTCI AARNITIC mn rmemere _._LcI.. ...Le eeLt yg. gp. ppv~ryrim@m ._._....__g \u00a2.. Lit] LI Ll...) nee ee Bw eke 8g Od ee ce ee ee",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p056_b000",
+   "type": "heading",
+   "page_number": 56,
+   "bbox": [
+    123,
+    127,
+    383,
+    172
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_182"
+  },
+  {
+   "block_id": "doc_011_p056_b001",
+   "type": "paragraph",
+   "page_number": 56,
+   "bbox": [
+    122,
+    259,
+    2467,
+    642
+   ],
+   "ocr_confidence": 91.9,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "To simulate rate steps, access billing in the simulation mode or perform periodic billing with integrated budget billing simulation. You access the transaction for individual billing simulation in the SAP menu under |}Utilities Industry \u00bb Billing \u00bb Billing Execution Individual Processing \u00bb Individual Simulation \u00bb Billing i Note To ensure simulation is as accurate as possible, note the following:",
+   "section_id": "doc_011_sec_182"
+  },
+  {
+   "block_id": "doc_011_p056_b002",
+   "type": "list",
+   "page_number": 56,
+   "bbox": [
+    236,
+    729,
+    2383,
+    1200
+   ],
+   "ocr_confidence": 93.0,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Inthe time-of-use interface, use a consumption pattern (and a synthetic profile) that best suits the customer consumption situation."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Enter the period consumption for interval meters during move-in."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Enter a percentage minimum share that is as large as possible in the rate."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "If you create a contract in a vacant status period, for example, with the owner of a rented apartment, we recommend that you implement BAdI ISU_LFASTEDM_TOU_SIMULATION, method DETERMINE_CONTRACTS."
+    }
+   ],
+   "section_id": "doc_011_sec_182"
+  },
+  {
+   "block_id": "doc_011_p056_b003",
+   "type": "heading",
+   "page_number": 56,
+   "bbox": [
+    126,
+    1374,
+    611,
+    1420
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "More Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_183"
+  },
+  {
+   "block_id": "doc_011_p056_b004",
+   "type": "paragraph",
+   "page_number": 56,
+   "bbox": [
+    122,
+    1507,
+    2424,
+    1735
+   ],
+   "ocr_confidence": 93.9,
+   "flags": [],
+   "text": "For more information about the simulation process flow, see the system documentation TOU Simulation, which you can access from a link in the description of the field Consumption Pattern (F1 Help) in the time-of-use interface. Business Function Utilities, Advanced Metering Infrastructure 4 (ISU AMI_4)",
+   "section_id": "doc_011_sec_183"
+  },
+  {
+   "block_id": "doc_011_p056_b005",
+   "type": "heading",
+   "page_number": 56,
+   "bbox": [
+    123,
+    1882,
+    845,
+    1942
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Technical Reference",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_184"
+  },
+  {
+   "block_id": "doc_011_p056_b006",
+   "type": "paragraph",
+   "page_number": 56,
+   "bbox": [
+    122,
+    2030,
+    2166,
+    2068
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [],
+   "text": "This section describes the technical requirements for contract billing based on profile values in an MDUS system:",
+   "section_id": "doc_011_sec_184"
+  },
+  {
+   "block_id": "doc_011_p056_b007",
+   "type": "list",
+   "page_number": 56,
+   "bbox": [
+    207,
+    2152,
+    2440,
+    3217
+   ],
+   "ocr_confidence": 89.0,
+   "flags": [
+    "low_confidence_words:9"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Business Function: The business function Advanced Metering Infrastructure 2 (ISU _AMI_ 2) is active."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Enterprise Services for MDUS Request:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "UtilitiesTimeSeriesCalculationERPBulkCreateRequest Out transfers the request items to the MDUS system."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "UtilitiesTimeSeriesCalculationERPBulkCreateConfirmation In sends the results of the request items back to the SAP system."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "UtilitiesTimeSeriesCalculationERPCancellationBulkRequest_ Out repeats the MDUS request. That is, it reverses an existing request and sends a new one."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Business Add-Ins (BAdlIs):"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "ISU _MDUS_ FORMULA enables additional consistency checks for the time-of-use formula."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "ISU MDUS_IFACE enables additional consistency checks for the time-of-use interface."
+    }
+   ],
+   "section_id": "doc_011_sec_184"
+  },
+  {
+   "block_id": "doc_011_p056_b008",
+   "type": "fragment",
+   "page_number": 56,
+   "bbox": [
+    388,
+    3282,
+    2171,
+    3300
+   ],
+   "ocr_confidence": 22.5,
+   "flags": [
+    "low_confidence_words:24",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "TCI AARNITIC mn rmemere _._LcI.. ...Le eeLt yg. gp. ppv~ryrim@m ._._....__g \u00a2.. Lit] LI Ll...) nee ee Bw eke 8g Od ee ce ee ee",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_011_sec_184"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.0952,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 85,
+   "page_hash": "38cbd64285c88427f2e63f4153793c441db18ce97614df7c16143866be56ae86"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:40Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Simulation of Time-of-Use Billing",
+  "Activities"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_182",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_183",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_184",
+   "role": "starts_here"
+  }
+ ]
+}

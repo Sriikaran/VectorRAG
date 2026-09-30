@@ -1,0 +1,408 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 17,
+ "source_page_hash": "4d87452c49a4e6b8196f0cd8e3628ed1d63c43ca3c9aabbbc8f9806e5c940666",
+ "is_cover_page": false,
+ "title": "Find Payment Behaviour Summary By Debtor Party",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nFind Payment Behaviour Summary By Debtor Party\n\nDefinition\n\nTo find payment behavior information of a debtor.\n\nTechnical Data\n\nEntity Type                                         Service Operation\n\nRelease State                                      released\n\nTechnical Name                                 CreditManagementAccountERPPaymentBehaviourSummaryByDebtorPartyQueryResponse_In\nNamespace                                        http://sap.com/xi/FICA/Global2 rt.\nApplication Component                         FI-CA\n\nWeb Service Definition (Back End)           FKK_CMAPaymBehSummBDPQR\nCategory                                            SAP A2A\n\nDirection                                                inbound\n\nMode                                                    synchronous\n\nIdempotency                                          no\n\nChange/Update Behavior                         not applicable\n\nP2P Communication Enabled                  true\n\nBusiness Context and Use\n\nThis service operation queries information about the payment behavior of business partners from the system in which Contract\nAccounts Receivable and Payable (FI-CA) is running and sends the response to the Credit Management system.\n\nFeatures\n\nThe response of the Find Payment Behaviour Summary By Debtor Party service operation transfers information about business\npartners\u2019 payment behavior to the Credit Management process component.\n\nThe following data is transferred:\n\ne DebtorPartylInternallD\ne CreditSegmentinternallD\n\ne CumulatedReceivablesAmount\n",
+ "cleaned_text": "Find Payment Behaviour Summary By Debtor Party\n\nDefinition\n\nTo find payment behavior information of a debtor.\n\nTechnical Data\n\nEntity Type | Service Operation\n\nRelease State | released\n\nTechnical Name | CreditManagementAccountERPPaymentBehaviourSummaryByDebtorPartyQueryResponse_In\n\nNamespace | http://sap.com/xi/FICA/Global2 rt.\n\nApplication Component | FI-CA\n\nWeb Service Definition (Back End) | FKK_CMAPaymBehSummBDPQR\n\nCategory | SAP A2A\n\nDirection | inbound\n\nMode | synchronous\n\nIdempotency | no\n\nChange/Update Behavior | not applicable\n\nP2P Communication Enabled | true\n\nBusiness Context and Use\n\nThis service operation queries information about the payment behavior of business partners from the system in which Contract Accounts Receivable and Payable (FI-CA) is running and sends the response to the Credit Management system.\n\nFeatures\n\nThe response of the Find Payment Behaviour Summary By Debtor Party service operation transfers information about business partners\u2019 payment behavior to the Credit Management process component. The following data is transferred:\n\n- DebtorPartylInternallD\n\n- CreditSegmentinternallD\n\n- CumulatedReceivablesAmount",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p017_b000",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    128,
+    255,
+    1989,
+    331
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Find Payment Behaviour Summary By Debtor Party",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_105"
+  },
+  {
+   "block_id": "doc_018_p017_b001",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    126,
+    435,
+    393,
+    481
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_106"
+  },
+  {
+   "block_id": "doc_018_p017_b002",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    122,
+    565,
+    1018,
+    603
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "To find payment behavior information of a debtor.",
+   "section_id": "doc_018_sec_106"
+  },
+  {
+   "block_id": "doc_018_p017_b003",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    123,
+    714,
+    530,
+    760
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_107"
+  },
+  {
+   "block_id": "doc_018_p017_b004",
+   "type": "table",
+   "page_number": 17,
+   "bbox": [
+    148,
+    872,
+    2463,
+    2064
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    864
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ],
+    [
+     "Technical Name",
+     "CreditManagementAccountERPPaymentBehaviourSummaryByDebtorPartyQueryResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global2 rt."
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "FKK_CMAPaymBehSummBDPQR"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ],
+    [
+     "Technical Name",
+     "CreditManagementAccountERPPaymentBehaviourSummaryByDebtorPartyQueryResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global2 rt."
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "FKK_CMAPaymBehSummBDPQR"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "section_id": "doc_018_sec_107"
+  },
+  {
+   "block_id": "doc_018_p017_b005",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    126,
+    2209,
+    853,
+    2255
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Business Context and Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_108"
+  },
+  {
+   "block_id": "doc_018_p017_b006",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    122,
+    2339,
+    2432,
+    2442
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "This service operation queries information about the payment behavior of business partners from the system in which Contract Accounts Receivable and Payable (FI-CA) is running and sends the response to the Credit Management system.",
+   "section_id": "doc_018_sec_108"
+  },
+  {
+   "block_id": "doc_018_p017_b007",
+   "type": "heading",
+   "page_number": 17,
+   "bbox": [
+    126,
+    2555,
+    361,
+    2600
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_109"
+  },
+  {
+   "block_id": "doc_018_p017_b008",
+   "type": "paragraph",
+   "page_number": 17,
+   "bbox": [
+    122,
+    2683,
+    2459,
+    2909
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The response of the Find Payment Behaviour Summary By Debtor Party service operation transfers information about business partners\u2019 payment behavior to the Credit Management process component. The following data is transferred:",
+   "section_id": "doc_018_sec_109"
+  },
+  {
+   "block_id": "doc_018_p017_b009",
+   "type": "list",
+   "page_number": 17,
+   "bbox": [
+    206,
+    2993,
+    832,
+    3227
+   ],
+   "ocr_confidence": 76.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "DebtorPartylInternallD"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "CreditSegmentinternallD"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "CumulatedReceivablesAmount"
+    }
+   ],
+   "section_id": "doc_018_sec_109"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 66.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "4d87452c49a4e6b8196f0cd8e3628ed1d63c43ca3c9aabbbc8f9806e5c940666"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Find Payment Behaviour Summary By Debtor Party"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_105",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_106",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_107",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_108",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_109",
+   "role": "starts_here"
+  }
+ ]
+}

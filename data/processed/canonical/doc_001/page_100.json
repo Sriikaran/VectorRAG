@@ -1,0 +1,351 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 100,
+ "source_page_hash": "a76f2ae05ff253ce2805856bf3e2506c81b6086e254c34038878ebde5faf6bc3",
+ "is_cover_page": false,
+ "title": "Use",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\nUse\n\nA point of delivery can be identified by a unique key, called the point of delivery ID . This key is used for communication with\nexternal systems. It ensures that, for example, misunderstandings and incorrect data allocations can be avoided, even if a\ncustomer switches utility companies.\n\nStructure\nCommunication Types\nThere are two communication types:\n\ne Communication in the deregulated energy market\n\nThis refers to communication between different utilities in a deregulated energy market. For example a distributor may\nexchange consumption information with a supplier.\n\nee Example\n\nA distributor has measured the consumption of a point of delivery (customer\u2019s consumption in a given installation) and\nuses the point of delivery ID to send this information to the customer\u2019s supplier. The supplier then bills the customer\nbased on the consumption data.\n\ne Technical Communication\n\nRefers to communication with an automated meter reading system (AMk), for example. This type of communication is\nused in the Energy Data Management component (IS-U-EDM) for importing profile values.\n\nO,\n\n*\u00b0 Example\nAn AMR sends information on the measured load shape using the point of delivery ID (and the register code of the\nregister) to IS-U-EDM.\n\nPoint of Delivery Roles\n\nWhen you define a point of delivery, you can assign it one of the following roles:\n\ne Deregulation point of delivery\n\nWhen you create an installation, the system automatically creates a deregulation point of delivery, to which you can allocate\na point of delivery ID.\n\nIf you require a point of delivery for communication in a deregulated energy market then you must define it as a\nderegulation PoD. You can allocate a deregulation point of delivery to one or two installations. If you allocate two\ninstallations (dual contract model), ensure that the same devices (registers and so on) have been installed for billing\npurposes in both installations. A deregulation point of delivery can be allocated to one installation only. However, several\ntechnical points of delivery can be allocated to the same installation.\n\ne Technical point of delivery\nYou require a technical point of delivery in the following cases:\n\no You require a point of delivery for technical communication with systems that do not use the point of delivery ID\ncommon to the respective market.\n",
+ "cleaned_text": "Use\n\nA point of delivery can be identified by a unique key, called the point of delivery ID . This key is used for communication with external systems. It ensures that, for example, misunderstandings and incorrect data allocations can be avoided, even if a customer switches utility companies.\n\nStructure\n\nCommunication Types\n\nThere are two communication types:\n\n- Communication in the deregulated energy market This refers to communication between different utilities in a deregulated energy market. For example a distributor may exchange consumption information with a supplier. ee Example A distributor has measured the consumption of a point of delivery (customer\u2019s consumption in a given installation) and uses the point of delivery ID to send this information to the customer\u2019s supplier. The supplier then bills the customer based on the consumption data.\n\n- Technical Communication Refers to communication with an automated meter reading system (AMk), for example. This type of communication is used in the Energy Data Management component (IS-U-EDM) for importing profile values. O,\n\nExample An AMR sends information on the measured load shape using the point of delivery ID (and the register code of the register) to IS-U-EDM.\n\nPoint of Delivery Roles\n\nWhen you define a point of delivery, you can assign it one of the following roles:\n\n- Deregulation point of delivery When you create an installation, the system automatically creates a deregulation point of delivery, to which you can allocate a point of delivery ID. If you require a point of delivery for communication in a deregulated energy market then you must define it as a\n\nderegulation PoD. You can allocate a deregulation point of delivery to one or two installations. If you allocate two installations (dual contract model), ensure that the same devices (registers and so on) have been installed for billing purposes in both installations. A deregulation point of delivery can be allocated to one installation only. However, several technical points of delivery can be allocated to the same installation.\n\n- Technical point of delivery You require a technical point of delivery in the following cases:\n\n- You require a point of delivery for technical communication with systems that do not use the point of delivery ID common to the respective market.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "*\u00b0",
+   "bbox": [
+    283,
+    1829,
+    564,
+    1876
+   ],
+   "reason": "icon glyph OCR'd before 'example' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p100_b000",
+   "type": "heading",
+   "page_number": 100,
+   "bbox": [
+    125,
+    126,
+    225,
+    172
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_387"
+  },
+  {
+   "block_id": "doc_001_p100_b001",
+   "type": "paragraph",
+   "page_number": 100,
+   "bbox": [
+    123,
+    259,
+    2346,
+    422
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "A point of delivery can be identified by a unique key, called the point of delivery ID . This key is used for communication with external systems. It ensures that, for example, misunderstandings and incorrect data allocations can be avoided, even if a customer switches utility companies.",
+   "section_id": "doc_001_sec_387"
+  },
+  {
+   "block_id": "doc_001_p100_b002",
+   "type": "heading",
+   "page_number": 100,
+   "bbox": [
+    125,
+    533,
+    391,
+    579
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Structure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_388"
+  },
+  {
+   "block_id": "doc_001_p100_b003",
+   "type": "heading",
+   "page_number": 100,
+   "bbox": [
+    123,
+    667,
+    538,
+    705
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Communication Types",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_389"
+  },
+  {
+   "block_id": "doc_001_p100_b004",
+   "type": "paragraph",
+   "page_number": 100,
+   "bbox": [
+    122,
+    789,
+    783,
+    826
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "There are two communication types:",
+   "section_id": "doc_001_sec_389"
+  },
+  {
+   "block_id": "doc_001_p100_b005",
+   "type": "list",
+   "page_number": 100,
+   "bbox": [
+    207,
+    910,
+    2435,
+    1839
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Communication in the deregulated energy market This refers to communication between different utilities in a deregulated energy market. For example a distributor may exchange consumption information with a supplier. ee Example A distributor has measured the consumption of a point of delivery (customer\u2019s consumption in a given installation) and uses the point of delivery ID to send this information to the customer\u2019s supplier. The supplier then bills the customer based on the consumption data."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Technical Communication Refers to communication with an automated meter reading system (AMk), for example. This type of communication is used in the Energy Data Management component (IS-U-EDM) for importing profile values. O,"
+    }
+   ],
+   "section_id": "doc_001_sec_389"
+  },
+  {
+   "block_id": "doc_001_p100_b006",
+   "type": "example",
+   "page_number": 100,
+   "bbox": [
+    283,
+    1829,
+    2344,
+    2009
+   ],
+   "ocr_confidence": 92.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Example An AMR sends information on the measured load shape using the point of delivery ID (and the register code of the register) to IS-U-EDM.",
+   "section_id": "doc_001_sec_389"
+  },
+  {
+   "block_id": "doc_001_p100_b007",
+   "type": "heading",
+   "page_number": 100,
+   "bbox": [
+    124,
+    2129,
+    541,
+    2167
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Point of Delivery Roles",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_390"
+  },
+  {
+   "block_id": "doc_001_p100_b008",
+   "type": "paragraph",
+   "page_number": 100,
+   "bbox": [
+    123,
+    2250,
+    1546,
+    2288
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "When you define a point of delivery, you can assign it one of the following roles:",
+   "section_id": "doc_001_sec_390"
+  },
+  {
+   "block_id": "doc_001_p100_b009",
+   "type": "list",
+   "page_number": 100,
+   "bbox": [
+    207,
+    2375,
+    2488,
+    2679
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Deregulation point of delivery When you create an installation, the system automatically creates a deregulation point of delivery, to which you can allocate a point of delivery ID. If you require a point of delivery for communication in a deregulated energy market then you must define it as a"
+    }
+   ],
+   "section_id": "doc_001_sec_390"
+  },
+  {
+   "block_id": "doc_001_p100_b010",
+   "type": "paragraph",
+   "page_number": 100,
+   "bbox": [
+    254,
+    2703,
+    2420,
+    2932
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "deregulation PoD. You can allocate a deregulation point of delivery to one or two installations. If you allocate two installations (dual contract model), ensure that the same devices (registers and so on) have been installed for billing purposes in both installations. A deregulation point of delivery can be allocated to one installation only. However, several technical points of delivery can be allocated to the same installation.",
+   "section_id": "doc_001_sec_390"
+  },
+  {
+   "block_id": "doc_001_p100_b011",
+   "type": "list",
+   "page_number": 100,
+   "bbox": [
+    207,
+    2996,
+    2402,
+    3300
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Technical point of delivery You require a technical point of delivery in the following cases:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "You require a point of delivery for technical communication with systems that do not use the point of delivery ID common to the respective market."
+    }
+   ],
+   "section_id": "doc_001_sec_390"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "a76f2ae05ff253ce2805856bf3e2506c81b6086e254c34038878ebde5faf6bc3"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Point of Delivery (PoD)",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_387",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_388",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_389",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_390",
+   "role": "starts_here"
+  }
+ ]
+}

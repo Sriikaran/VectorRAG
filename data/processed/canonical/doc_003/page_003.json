@@ -1,0 +1,492 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_003",
+ "page_number": 3,
+ "source_page_hash": "5f181a9ed980030770c277db204ffd52eb97999ae1cdc91a2689be1f544471f9",
+ "is_cover_page": false,
+ "title": "Move-In Charges",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:41 AM\ne The meter readings are unavailable\n\ne The budget billing plan cannot be created, or\ne The data required to print the welcome letter is incomplete\nMove-In Charges\n\nWhen you save the move-in document, the system posts the move-in charges automatically, provided you have configured the\nsystem accordingly in Customizing under |)*Move-In/Out \u00bb Define System Parameters for Move-In and Move-Out.\n\nYou can configure the system to post the charges to a contract or contract account. You configure how the system calculates the\ncharges using the parameters Charge category and Charge schema. In this way, you can, for example, levy a move-in charge\n\nstaggered to correspond with the number of contracts.\nReduced Layouts\n\nIn Customizing, you can define reduced layouts for the configurable tab on page on the move-in screen to hide some of the data on\nthe individual tab pages. The layouts can now be stored in the special processing variants for the move-in/out. This enables agents\nto process move-ins and move-in/outs more quickly.\n\nBudget Billing\n\nA budget billing amount agreed with the customer is also taken in account if the move-in is entered by the master data generator.\nIf a budget billing plan cannot be created for a contact in move-in processing then the BudgetBillingPlansFailed event of the\nMOVEINDOC BOR object type is triggered.\n\nActivity Log\n\nIn Customizing you can configure the system to save the activity log for the move-in. You can then display it on the move-in screen.\nTo do this choose |}#Extras \u00bb Display Activity Log.\n\nActivities\nInitial Screen\n\nBased on the data you specified on the initial screen, the system automatically determines which of the following cases applies:\n\nExists before move-in                                      Is created during move-in\nBusiness partner, contract account, installation | Contract\nBusiness partner, installation                           Contract account, contract\n\nInstallation                                                       Business partner, contract account, contract\n\nMove-in date\n\nYou can change the date of a move-in after it has been created without affecting the move-out that precedes it. To do this, choose\nEdits Change Move-In Date\n",
+ "cleaned_text": "- The meter readings are unavailable\n\n- The budget billing plan cannot be created, or\n\n- The data required to print the welcome letter is incomplete\n\nMove-In Charges\n\nWhen you save the move-in document, the system posts the move-in charges automatically, provided you have configured the system accordingly in Customizing under |)*Move-In/Out \u00bb Define System Parameters for Move-In and Move-Out. You can configure the system to post the charges to a contract or contract account. You configure how the system calculates the charges using the parameters Charge category and Charge schema. In this way, you can, for example, levy a move-in charge staggered to correspond with the number of contracts.\n\nReduced Layouts\n\nIn Customizing, you can define reduced layouts for the configurable tab on page on the move-in screen to hide some of the data on the individual tab pages. The layouts can now be stored in the special processing variants for the move-in/out. This enables agents to process move-ins and move-in/outs more quickly.\n\nBudget Billing\n\nA budget billing amount agreed with the customer is also taken in account if the move-in is entered by the master data generator. If a budget billing plan cannot be created for a contact in move-in processing then the BudgetBillingPlansFailed event of the MOVEINDOC BOR object type is triggered.\n\nActivity Log\n\nIn Customizing you can configure the system to save the activity log for the move-in. You can then display it on the move-in screen. To do this choose |}#Extras \u00bb Display Activity Log.\n\nActivities\n\nInitial Screen\n\nBased on the data you specified on the initial screen, the system automatically determines which of the following cases applies:\n\nExists before move-in | Is created during move-in\n\nBusiness partner, contract account, installation | Contract\n\nBusiness partner, installation | Contract account, contract\n\nInstallation | Business partner, contract account, contract\n\nMove-in date\n\nYou can change the date of a move-in after it has been created without affecting the move-out that precedes it. To do this, choose\n\nEdits Change Move-In Date",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:41 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_003_p003_b000",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    207,
+    134,
+    1319,
+    415
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The meter readings are unavailable"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The budget billing plan cannot be created, or"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The data required to print the welcome letter is incomplete"
+    }
+   ],
+   "section_id": "doc_003_sec_008"
+  },
+  {
+   "block_id": "doc_003_p003_b001",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    124,
+    502,
+    434,
+    540
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "Move-In Charges",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_003_sec_009"
+  },
+  {
+   "block_id": "doc_003_p003_b002",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    123,
+    624,
+    2445,
+    974
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "When you save the move-in document, the system posts the move-in charges automatically, provided you have configured the system accordingly in Customizing under |)*Move-In/Out \u00bb Define System Parameters for Move-In and Move-Out. You can configure the system to post the charges to a contract or contract account. You configure how the system calculates the charges using the parameters Charge category and Charge schema. In this way, you can, for example, levy a move-in charge staggered to correspond with the number of contracts.",
+   "section_id": "doc_003_sec_009"
+  },
+  {
+   "block_id": "doc_003_p003_b003",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    124,
+    1058,
+    442,
+    1095
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Reduced Layouts",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_003_sec_010"
+  },
+  {
+   "block_id": "doc_003_p003_b004",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    1179,
+    2482,
+    1342
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "In Customizing, you can define reduced layouts for the configurable tab on page on the move-in screen to hide some of the data on the individual tab pages. The layouts can now be stored in the special processing variants for the move-in/out. This enables agents to process move-ins and move-in/outs more quickly.",
+   "section_id": "doc_003_sec_010"
+  },
+  {
+   "block_id": "doc_003_p003_b005",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    124,
+    1429,
+    384,
+    1467
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Budget Billing",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_003_sec_011"
+  },
+  {
+   "block_id": "doc_003_p003_b006",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    123,
+    1550,
+    2457,
+    1713
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "A budget billing amount agreed with the customer is also taken in account if the move-in is entered by the master data generator. If a budget billing plan cannot be created for a contact in move-in processing then the BudgetBillingPlansFailed event of the MOVEINDOC BOR object type is triggered.",
+   "section_id": "doc_003_sec_011"
+  },
+  {
+   "block_id": "doc_003_p003_b007",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    123,
+    1797,
+    342,
+    1835
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Activity Log",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_003_sec_012"
+  },
+  {
+   "block_id": "doc_003_p003_b008",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    1921,
+    2481,
+    2027
+   ],
+   "ocr_confidence": 91.7,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "In Customizing you can configure the system to save the activity log for the move-in. You can then display it on the move-in screen. To do this choose |}#Extras \u00bb Display Activity Log.",
+   "section_id": "doc_003_sec_012"
+  },
+  {
+   "block_id": "doc_003_p003_b009",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    123,
+    2134,
+    383,
+    2179
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Activities",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_003_sec_013"
+  },
+  {
+   "block_id": "doc_003_p003_b010",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    125,
+    2267,
+    366,
+    2297
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Initial Screen",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_003_sec_014"
+  },
+  {
+   "block_id": "doc_003_p003_b011",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    125,
+    2388,
+    2425,
+    2426
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Based on the data you specified on the initial screen, the system automatically determines which of the following cases applies:",
+   "section_id": "doc_003_sec_014"
+  },
+  {
+   "block_id": "doc_003_p003_b012",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    149,
+    2534,
+    1430,
+    2570
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    149,
+    993
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Exists before move-in",
+     "Is created during move-in"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Exists before move-in",
+     "Is created during move-in"
+    ]
+   ],
+   "section_id": "doc_003_sec_014"
+  },
+  {
+   "block_id": "doc_003_p003_b013",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    150,
+    2635,
+    1143,
+    2679
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [],
+   "text": "Business partner, contract account, installation | Contract",
+   "section_id": "doc_003_sec_014"
+  },
+  {
+   "block_id": "doc_003_p003_b014",
+   "type": "table",
+   "page_number": 3,
+   "bbox": [
+    150,
+    2745,
+    1765,
+    2886
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    991
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Business partner, installation",
+     "Contract account, contract"
+    ],
+    [
+     "Installation",
+     "Business partner, contract account, contract"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Business partner, installation",
+     "Contract account, contract"
+    ],
+    [
+     "Installation",
+     "Business partner, contract account, contract"
+    ]
+   ],
+   "section_id": "doc_003_sec_014"
+  },
+  {
+   "block_id": "doc_003_p003_b015",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    124,
+    2996,
+    362,
+    3026
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Move-in date",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_003_sec_015"
+  },
+  {
+   "block_id": "doc_003_p003_b016",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    123,
+    3118,
+    2455,
+    3155
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You can change the date of a move-in after it has been created without affecting the move-out that precedes it. To do this, choose",
+   "section_id": "doc_003_sec_015"
+  },
+  {
+   "block_id": "doc_003_p003_b017",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    157,
+    3180,
+    670,
+    3218
+   ],
+   "ocr_confidence": 86.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Edits Change Move-In Date",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_003_sec_016"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In Process",
+  "source_pdf": "3.pdf",
+  "reference_pdf": "03_Move_In_Process.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use for service-start reasoning and the transition from master data into billable service.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "5f181a9ed980030770c277db204ffd52eb97999ae1cdc91a2689be1f544471f9"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:32Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In Process",
+  "Move-in",
+  "Features",
+  "Move-In Documents"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_003_sec_008",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_003_sec_009",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_003_sec_010",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_003_sec_011",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_003_sec_012",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_003_sec_013",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_003_sec_014",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_003_sec_015",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_003_sec_016",
+   "role": "starts_here"
+  }
+ ]
+}

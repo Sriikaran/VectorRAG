@@ -1,0 +1,270 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 32,
+ "source_page_hash": "4105f09eced643c996c680bbe0ebc4d6090aa731888fc7b07a60b602e55f8a46",
+ "is_cover_page": false,
+ "title": "Blocking and Deleting Personal Data",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n4 = Additional environment object\n\n**) Hide Key X = yes\n\nPAI: Function module you can use to react to user actions.\n\nPBO: Function modules for reading additional data for the current object (for example, for displaying on a screen).\nProgram: Enter the program name here of the function group of the function modules mentioned above.\n\n8. In SAP Customizing choose |}Cross-Application Components > Master Data Synchronization \u00bb Synchronization Control\nSynchronization Control Activate PPO Requests for Platform Objects in the Dialog J and for the synchronization\nobject BP, set the PPO Active indicator. Choose the synchronization objects that you use in your application and that you\n\ndesignated as platform objects.\n\nBlocking and Deleting Personal Data\n\nThe processes and functions of Contract Accounts Receivable and Payable use personal data of the SAP business partner. If, from\nthe point of view of these processes and functions, there is no longer any reason to store the data (for example, for a possible tax\naudit), you can block this data from the perspective of Contract Accounts Receivable and Payable and ultimately destroy it.\n\nFor destroying personal data, use the functions of Information Lifecycle Management (ILM). Using the ILM functions, you first\nblock the personal data of business partners for whom there is no further business. Then you delete this data as soon as it is no\nlonger needed.\n\nAll archiving objects in Contract Accounts Receivable and Payable support data protection notifications (see Deletion of Personal\nData in SAP BW/4HANA and SAP BW).\n\nRelated Information\n\nData Protection\n\nBusiness Partner End Of Purpose (EoP) Check\n\nContract Accounts Receivable and Payable (FI-CA) checks whether data of business partners with the contract partner role (MKK)\nexists and whether it is still relevant for business activities or can be blocked.\n",
+ "cleaned_text": "4 = Additional environment object **) Hide Key X = yes PAI: Function module you can use to react to user actions. PBO: Function modules for reading additional data for the current object (for example, for displaying on a screen). Program: Enter the program name here of the function group of the function modules mentioned above.\n\n8 In SAP Customizing choose |}Cross-Application Components > Master Data Synchronization \u00bb Synchronization Control Synchronization Control Activate PPO Requests for Platform Objects in the Dialog J and for the synchronization\n\nobject BP, set the PPO Active indicator. Choose the synchronization objects that you use in your application and that you designated as platform objects.\n\nBlocking and Deleting Personal Data\n\nThe processes and functions of Contract Accounts Receivable and Payable use personal data of the SAP business partner. If, from the point of view of these processes and functions, there is no longer any reason to store the data (for example, for a possible tax audit), you can block this data from the perspective of Contract Accounts Receivable and Payable and ultimately destroy it. For destroying personal data, use the functions of Information Lifecycle Management (ILM). Using the ILM functions, you first block the personal data of business partners for whom there is no further business. Then you delete this data as soon as it is no longer needed. All archiving objects in Contract Accounts Receivable and Payable support data protection notifications (see Deletion of Personal Data in SAP BW/4HANA and SAP BW).\n\nRelated Information\n\nData Protection\n\nBusiness Partner End Of Purpose (EoP) Check\n\nContract Accounts Receivable and Payable (FI-CA) checks whether data of business partners with the contract partner role (MKK) exists and whether it is still relevant for business activities or can be blocked.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p032_b000",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    385,
+    134,
+    2444,
+    583
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "4 = Additional environment object **) Hide Key X = yes PAI: Function module you can use to react to user actions. PBO: Function modules for reading additional data for the current object (for example, for displaying on a screen). Program: Enter the program name here of the function group of the function modules mentioned above.",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p032_b001",
+   "type": "list",
+   "page_number": 32,
+   "bbox": [
+    211,
+    643,
+    2466,
+    752
+   ],
+   "ocr_confidence": 89.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "8",
+     "text": "In SAP Customizing choose |}Cross-Application Components > Master Data Synchronization \u00bb Synchronization Control Synchronization Control Activate PPO Requests for Platform Objects in the Dialog J and for the synchronization"
+    }
+   ],
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p032_b002",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    255,
+    774,
+    2440,
+    879
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "object BP, set the PPO Active indicator. Choose the synchronization objects that you use in your application and that you designated as platform objects.",
+   "section_id": "doc_001_sec_104"
+  },
+  {
+   "block_id": "doc_001_p032_b003",
+   "type": "heading",
+   "page_number": 32,
+   "bbox": [
+    128,
+    1025,
+    1436,
+    1101
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Blocking and Deleting Personal Data",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_105"
+  },
+  {
+   "block_id": "doc_001_p032_b004",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    122,
+    1176,
+    2468,
+    1772
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The processes and functions of Contract Accounts Receivable and Payable use personal data of the SAP business partner. If, from the point of view of these processes and functions, there is no longer any reason to store the data (for example, for a possible tax audit), you can block this data from the perspective of Contract Accounts Receivable and Payable and ultimately destroy it. For destroying personal data, use the functions of Information Lifecycle Management (ILM). Using the ILM functions, you first block the personal data of business partners for whom there is no further business. Then you delete this data as soon as it is no longer needed. All archiving objects in Contract Accounts Receivable and Payable support data protection notifications (see Deletion of Personal Data in SAP BW/4HANA and SAP BW).",
+   "section_id": "doc_001_sec_105"
+  },
+  {
+   "block_id": "doc_001_p032_b005",
+   "type": "heading",
+   "page_number": 32,
+   "bbox": [
+    126,
+    1885,
+    681,
+    1930
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Related Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_106"
+  },
+  {
+   "block_id": "doc_001_p032_b006",
+   "type": "heading",
+   "page_number": 32,
+   "bbox": [
+    125,
+    2011,
+    405,
+    2041
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Data Protection",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_107"
+  },
+  {
+   "block_id": "doc_001_p032_b007",
+   "type": "heading",
+   "page_number": 32,
+   "bbox": [
+    128,
+    2185,
+    1801,
+    2261
+   ],
+   "ocr_confidence": 95.3,
+   "flags": [],
+   "text": "Business Partner End Of Purpose (EoP) Check",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_108"
+  },
+  {
+   "block_id": "doc_001_p032_b008",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    123,
+    2338,
+    2468,
+    2432
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Contract Accounts Receivable and Payable (FI-CA) checks whether data of business partners with the contract partner role (MKK) exists and whether it is still relevant for business activities or can be blocked.",
+   "section_id": "doc_001_sec_108"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.0935,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "4105f09eced643c996c680bbe0ebc4d6090aa731888fc7b07a60b602e55f8a46"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:27Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Making Settings for the Postprocessing Office",
+  "Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_104",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_105",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_106",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_107",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_108",
+   "role": "starts_here"
+  }
+ ]
+}

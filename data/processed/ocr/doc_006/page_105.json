@@ -1,0 +1,54 @@
+{
+ "document_id": "doc_006",
+ "page_number": 105,
+ "source_pdf": "6.pdf",
+ "page_hash": "68b06c79936e2c5f390a1c5f7c5580f384069b58405aa014ab4dc2e0335a70a7",
+ "ocr_engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+ "ocr_settings": {
+  "oem": 1,
+  "psm": 3,
+  "dpi": 300,
+  "language": "eng",
+  "colorspace": "grayscale",
+  "variables": {
+   "preserve_interword_spaces": "1"
+  }
+ },
+ "render_size": [
+  2550,
+  3300
+ ],
+ "text": "9/29/26, 9:42 AM\n",
+ "character_count": 17,
+ "word_count": 3,
+ "mean_confidence": 95,
+ "word_boxes": [
+  [
+   "9/29/26,",
+   107,
+   72,
+   248,
+   104,
+   96.2
+  ],
+  [
+   "9:42",
+   264,
+   72,
+   338,
+   100,
+   94.2
+  ],
+  [
+   "AM",
+   353,
+   73,
+   403,
+   100,
+   96.9
+  ]
+ ],
+ "processed_at": "2026-09-30T09:13:23Z",
+ "duration_seconds": 0.24,
+ "complete": true
+}

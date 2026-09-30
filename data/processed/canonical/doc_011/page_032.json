@@ -1,0 +1,444 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 32,
+ "source_page_hash": "a107c2ad75baba7cfa2fa2c08dc0f4e530040d31f73d952776ee9afb37d794be",
+ "is_cover_page": false,
+ "title": "Case 3: Activation type \"Use Individually and Activate Generally\" selected",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:47 AM\nCase 3: Activation type \"Use Individually and Activate Generally\" selected\n\nDue to the activation type, you have to activate this component at RTP interface level as well as at installation level.\n\nActivation\n\n1. In the Day From and Day To fields in the RTP interface, enter the period for which you want the component to be valid.\no If you want the component to be active in this period, select the Activate field.\no If you do not want the component to be active in this period, leave the Activate field empty.\nYou can define multiple periods, whereby the component will be active in one period and inactive in the other.\n2. Choose @gTransfer.\nYour entries are then transferred to the list.\n\n3. Select an installation for which you want to execute this component in the Utilities Industry menu under |}}Technical\nMaster Data > Installation \u00bb Change\n\n4. Choose an(G)RTP interface.\n5. On the Component tab page, enter the component and the activation period then select the Activate field.\n6. Choose @pTransfer.\n\nYour entries are then transferred to the list.\n\nRepeat steps 3 to 6 for all installations for which you want this component to be executed.\n\n1 Note\n\nIn this case, you should activate the component at installation level for the duration of the special agreement. You can control\nwhen the component is actually executed by activating it at RTP interface level.\n\nThis prevents you having to activate or deactivate the component in each individual installation. You only have to make the\nrelevant settings in one place - the RTP interface.\n\nInput Parameters\nYou have the following options for the allocation of the input parameters:\n\ne You can allocate the input parameters at RTP interface level (see Option 1 in section Case 2: Activation type \"Use and\nActivate Individually\").\n\ne You can allocate the input parameters at installation level (see Option 2 in section Case 2: Activation type \"Use and\nActivate Individually\").\n\nOutput Parameters\nThe entries on the Output Parameters tab page are independent of the selected activation type.\n\n1. Double click on an output parameter to select it.\n\n9D lA tha Dae l*\u00ae Alp rrrkar finld S(Alipmhaaoe nf Dae It Daramatar\\ nanntar tha nrpmkhar nf tha paciilt nnaramatar that vars Aafinzan\n",
+ "cleaned_text": "Case 3: Activation type \"Use Individually and Activate Generally\" selected\n\nDue to the activation type, you have to activate this component at RTP interface level as well as at installation level.\n\nActivation\n\n1 In the Day From and Day To fields in the RTP interface, enter the period for which you want the component to be valid.\n\n- If you want the component to be active in this period, select the Activate field.\n\n- If you do not want the component to be active in this period, leave the Activate field empty.\n\nYou can define multiple periods, whereby the component will be active in one period and inactive in the other.\n\n2 Choose @gTransfer. Your entries are then transferred to the list.\n\n3 Select an installation for which you want to execute this component in the Utilities Industry menu under |}}Technical Master Data > Installation \u00bb Change\n\n4 Choose an(G)RTP interface.\n\n5 On the Component tab page, enter the component and the activation period then select the Activate field.\n\n6 Choose @pTransfer. Your entries are then transferred to the list.\n\nRepeat steps 3 to 6 for all installations for which you want this component to be executed.\n\nNote In this case, you should activate the component at installation level for the duration of the special agreement. You can control when the component is actually executed by activating it at RTP interface level. This prevents you having to activate or deactivate the component in each individual installation. You only have to make the relevant settings in one place - the RTP interface.\n\nInput Parameters\n\nYou have the following options for the allocation of the input parameters:\n\n- You can allocate the input parameters at RTP interface level (see Option 1 in section Case 2: Activation type \"Use and Activate Individually\").\n\n- You can allocate the input parameters at installation level (see Option 2 in section Case 2: Activation type \"Use and Activate Individually\").\n\nOutput Parameters\n\nThe entries on the Output Parameters tab page are independent of the selected activation type.\n\n1 Double click on an output parameter to select it.\n\n9D lA tha Dae l*\u00ae Alp rrrkar finld S(Alipmhaaoe nf Dae It Daramatar\\ nanntar tha nrpmkhar nf tha paciilt nnaramatar that vars Aafinzan",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  },
+  {
+   "type": "icon_glyph",
+   "subtype": "label_prefix",
+   "text": "1",
+   "bbox": [
+    151,
+    1852,
+    310,
+    1889
+   ],
+   "reason": "icon glyph OCR'd before 'note' label"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p032_b000",
+   "type": "heading",
+   "page_number": 32,
+   "bbox": [
+    123,
+    134,
+    1493,
+    172
+   ],
+   "ocr_confidence": 95.0,
+   "flags": [],
+   "text": "Case 3: Activation type \"Use Individually and Activate Generally\" selected",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_097"
+  },
+  {
+   "block_id": "doc_011_p032_b001",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    125,
+    256,
+    2197,
+    294
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Due to the activation type, you have to activate this component at RTP interface level as well as at installation level.",
+   "section_id": "doc_011_sec_097"
+  },
+  {
+   "block_id": "doc_011_p032_b002",
+   "type": "heading",
+   "page_number": 32,
+   "bbox": [
+    123,
+    378,
+    310,
+    408
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Activation",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_098"
+  },
+  {
+   "block_id": "doc_011_p032_b003",
+   "type": "list",
+   "page_number": 32,
+   "bbox": [
+    214,
+    502,
+    2382,
+    744
+   ],
+   "ocr_confidence": 92.1,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "In the Day From and Day To fields in the RTP interface, enter the period for which you want the component to be valid."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "If you want the component to be active in this period, select the Activate field."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "If you do not want the component to be active in this period, leave the Activate field empty."
+    }
+   ],
+   "section_id": "doc_011_sec_098"
+  },
+  {
+   "block_id": "doc_011_p032_b004",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    254,
+    808,
+    2223,
+    845
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You can define multiple periods, whereby the component will be active in one period and inactive in the other.",
+   "section_id": "doc_011_sec_098"
+  },
+  {
+   "block_id": "doc_011_p032_b005",
+   "type": "list",
+   "page_number": 32,
+   "bbox": [
+    211,
+    909,
+    2358,
+    1620
+   ],
+   "ocr_confidence": 92.0,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "Choose @gTransfer. Your entries are then transferred to the list."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Select an installation for which you want to execute this component in the Utilities Industry menu under |}}Technical Master Data > Installation \u00bb Change"
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "Choose an(G)RTP interface."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "On the Component tab page, enter the component and the activation period then select the Activate field."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "Choose @pTransfer. Your entries are then transferred to the list."
+    }
+   ],
+   "section_id": "doc_011_sec_098"
+  },
+  {
+   "block_id": "doc_011_p032_b006",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    125,
+    1707,
+    1746,
+    1753
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Repeat steps 3 to 6 for all installations for which you want this component to be executed.",
+   "section_id": "doc_011_sec_098"
+  },
+  {
+   "block_id": "doc_011_p032_b007",
+   "type": "note",
+   "page_number": 32,
+   "bbox": [
+    151,
+    1852,
+    2410,
+    2219
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "label": "Note",
+   "text": "Note In this case, you should activate the component at installation level for the duration of the special agreement. You can control when the component is actually executed by activating it at RTP interface level. This prevents you having to activate or deactivate the component in each individual installation. You only have to make the relevant settings in one place - the RTP interface.",
+   "section_id": "doc_011_sec_098"
+  },
+  {
+   "block_id": "doc_011_p032_b008",
+   "type": "heading",
+   "page_number": 32,
+   "bbox": [
+    125,
+    2339,
+    447,
+    2376
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Input Parameters",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_099"
+  },
+  {
+   "block_id": "doc_011_p032_b009",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    123,
+    2461,
+    1434,
+    2498
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You have the following options for the allocation of the input parameters:",
+   "section_id": "doc_011_sec_099"
+  },
+  {
+   "block_id": "doc_011_p032_b010",
+   "type": "list",
+   "page_number": 32,
+   "bbox": [
+    207,
+    2582,
+    2386,
+    2850
+   ],
+   "ocr_confidence": 92.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can allocate the input parameters at RTP interface level (see Option 1 in section Case 2: Activation type \"Use and Activate Individually\")."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You can allocate the input parameters at installation level (see Option 2 in section Case 2: Activation type \"Use and Activate Individually\")."
+    }
+   ],
+   "section_id": "doc_011_sec_099"
+  },
+  {
+   "block_id": "doc_011_p032_b011",
+   "type": "heading",
+   "page_number": 32,
+   "bbox": [
+    123,
+    2933,
+    481,
+    2971
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Output Parameters",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_011_sec_100"
+  },
+  {
+   "block_id": "doc_011_p032_b012",
+   "type": "paragraph",
+   "page_number": 32,
+   "bbox": [
+    122,
+    3055,
+    1861,
+    3093
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The entries on the Output Parameters tab page are independent of the selected activation type.",
+   "section_id": "doc_011_sec_100"
+  },
+  {
+   "block_id": "doc_011_p032_b013",
+   "type": "list",
+   "page_number": 32,
+   "bbox": [
+    214,
+    3176,
+    1124,
+    3214
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "Double click on an output parameter to select it."
+    }
+   ],
+   "section_id": "doc_011_sec_100"
+  },
+  {
+   "block_id": "doc_011_p032_b014",
+   "type": "fragment",
+   "page_number": 32,
+   "bbox": [
+    212,
+    3277,
+    2366,
+    3300
+   ],
+   "ocr_confidence": 42.7,
+   "flags": [
+    "low_confidence_words:13",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "9D lA tha Dae l*\u00ae Alp rrrkar finld S(Alipmhaaoe nf Dae It Daramatar\\ nanntar tha nrpmkhar nf tha paciilt nnaramatar that vars Aafinzan",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_011_sec_100"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "2 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 90,
+   "page_hash": "a107c2ad75baba7cfa2fa2c08dc0f4e530040d31f73d952776ee9afb37d794be"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:39Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure",
+  "Define RTP Interface",
+  "Selection of the Activation Type",
+  "Case 3: Activation type \"Use Individually and Activate Generally\" selected"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_097",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_098",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_099",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_011_sec_100",
+   "role": "starts_here"
+  }
+ ]
+}

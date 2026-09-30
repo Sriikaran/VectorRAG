@@ -1,0 +1,246 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_029",
+ "page_number": 3,
+ "source_page_hash": "e46a4c7db57df8f4af13d9a9cfe4ee46cf1603efcb8c6977cad098a7b038c08b",
+ "is_cover_page": false,
+ "title": "Process",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:19 AM\nIf you disconnect a business partner because he/she has reached the disconnection dunning level, the system changes the\ncreditworthiness of the business partner for each disconnection. To do this, go to Customizing under |}SAP Utilities 5 Customer\nService \u00bb Process Execution \u00bb Disconnection/Reconnection Define Processing Variants for Disconnection Documents 4 and\n\nmake an entry in the Creditworthiness Weighting field. The change is reversed if the disconnection that triggered it is canceled.\n\nProcess\n\nThe flow of the business process is not set by the system, but is rather controlled by workflows. There are two main workflows with\ncorresponding sub-workflows. They are as follows:\n\ne Main Workflow for Disconnection/Reconnection/Collection (ISUDISCON12)\ne Create Disconnection Order Workflow (ISUDISC12)\n\ne Confirm Disconnection Order Workflow (ISUDISCREP12)\n\ne Reverse Disconnection Workflow (ISUDISCSTORN)\n\ne Interrupt Disonnection Workflow (ISUDISCBREAK)\n\ne Terminate Workflow with Follow-Up (ISUDISCSHUT1)\n\ne Create Reconnection Order Workflow (ISUREC12)\n\ne Confirm Reconnection Order Workflow (ISURECREP12)\n\ne Main Workflow for Disconnection at Customer Request (ISUDISCON12)\n\nMain Workflow for Disconnection/Reconnection/Collection\n",
+ "cleaned_text": "If you disconnect a business partner because he/she has reached the disconnection dunning level, the system changes the creditworthiness of the business partner for each disconnection. To do this, go to Customizing under |}SAP Utilities 5 Customer Service \u00bb Process Execution \u00bb Disconnection/Reconnection Define Processing Variants for Disconnection Documents 4 and make an entry in the Creditworthiness Weighting field. The change is reversed if the disconnection that triggered it is canceled.\n\nProcess\n\nThe flow of the business process is not set by the system, but is rather controlled by workflows. There are two main workflows with corresponding sub-workflows. They are as follows:\n\n- Main Workflow for Disconnection/Reconnection/Collection (ISUDISCON12)\n\n- Create Disconnection Order Workflow (ISUDISC12)\n\n- Confirm Disconnection Order Workflow (ISUDISCREP12)\n\n- Reverse Disconnection Workflow (ISUDISCSTORN)\n\n- Interrupt Disonnection Workflow (ISUDISCBREAK)\n\n- Terminate Workflow with Follow-Up (ISUDISCSHUT1)\n\n- Create Reconnection Order Workflow (ISUREC12)\n\n- Confirm Reconnection Order Workflow (ISURECREP12)\n\n- Main Workflow for Disconnection at Customer Request (ISUDISCON12)\n\nMain Workflow for Disconnection/Reconnection/Collection",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:19 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_029_p003_b000",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    123,
+    134,
+    2471,
+    363
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [
+    "low_confidence_words:5"
+   ],
+   "text": "If you disconnect a business partner because he/she has reached the disconnection dunning level, the system changes the creditworthiness of the business partner for each disconnection. To do this, go to Customizing under |}SAP Utilities 5 Customer Service \u00bb Process Execution \u00bb Disconnection/Reconnection Define Processing Variants for Disconnection Documents 4 and make an entry in the Creditworthiness Weighting field. The change is reversed if the disconnection that triggered it is canceled.",
+   "section_id": "doc_029_sec_006"
+  },
+  {
+   "block_id": "doc_029_p003_b001",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    126,
+    476,
+    342,
+    520
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Process",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_007"
+  },
+  {
+   "block_id": "doc_029_p003_b002",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    122,
+    605,
+    2478,
+    708
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The flow of the business process is not set by the system, but is rather controlled by workflows. There are two main workflows with corresponding sub-workflows. They are as follows:",
+   "section_id": "doc_029_sec_007"
+  },
+  {
+   "block_id": "doc_029_p003_b003",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    207,
+    792,
+    1624,
+    1649
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Main Workflow for Disconnection/Reconnection/Collection (ISUDISCON12)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create Disconnection Order Workflow (ISUDISC12)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Confirm Disconnection Order Workflow (ISUDISCREP12)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Reverse Disconnection Workflow (ISUDISCSTORN)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Interrupt Disonnection Workflow (ISUDISCBREAK)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Terminate Workflow with Follow-Up (ISUDISCSHUT1)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Create Reconnection Order Workflow (ISUREC12)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Confirm Reconnection Order Workflow (ISURECREP12)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Main Workflow for Disconnection at Customer Request (ISUDISCON12)"
+    }
+   ],
+   "section_id": "doc_029_sec_007"
+  },
+  {
+   "block_id": "doc_029_p003_b004",
+   "type": "heading",
+   "page_number": 3,
+   "bbox": [
+    124,
+    1736,
+    1231,
+    1766
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "text": "Main Workflow for Disconnection/Reconnection/Collection",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_029_sec_008"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Disconnection/Reconnection of a Utility Installation",
+  "source_pdf": "29.pdf",
+  "reference_pdf": "29_Disconnection_Reconnection_of_a_Utility_Installation.pdf",
+  "category": "Disconnection & Reconnection",
+  "m2c_relevance": "Connects overdue debt/dunning to service actions while preserving the distinction between delinquency and disconnect eligibility.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "e46a4c7db57df8f4af13d9a9cfe4ee46cf1603efcb8c6977cad098a7b038c08b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:47Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Disconnection/Reconnection of a Utility Installation",
+  "Integration",
+  "Confirming Disconnection and Reconnection Order Data"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_029_sec_006",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_029_sec_007",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_029_sec_008",
+   "role": "starts_here"
+  }
+ ]
+}

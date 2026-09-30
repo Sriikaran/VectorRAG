@@ -1,0 +1,374 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_002",
+ "page_number": 13,
+ "source_page_hash": "cbe84e144f88cdf2f86aad8667c9750697b29b36ebc0c4875796c17a7076b9c0",
+ "is_cover_page": false,
+ "title": "Security Deposits",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:39 AM\nFor more information see the section on the Budget Billing Plan component.\n\nSecurity Deposits\n\nUse\n\nYou can request a security deposit in move-in processing, or, provided certain conditions have been met, adopt the security\ndeposit of an existing contract.\n\nRe-Request Security Deposit\nCustomizing Settings\n\nIn Customizing under |)}Move-In/Out Move-In 's Define Move-In Control Parameters on Contract Level \u201cyou can configure the\n\nsystem so that security deposits are requested through move-in processing.You can request a cash security deposit, or arrange a\nnon-cash security deposit with the customer.\n\ne Acash security deposit is created for each contract. In doing this, this system posts a request document for a cash security\ndeposit in FI-CA.\n\ne Anon-cash security deposit is created for all the contracts involved in the move-in, for which a non-cash deposit is to be\n\ncreated.\nEntry Options on the Move-In Screen\n\nOn the move-in screen, on the tabstrip Contract Data , enter a reason for requesting the security deposit and the amount\nrequested. Now, when you save the move-in document, the system automatically creates a security deposit. If you specified a\nreason for exempting the customer from a security deposit then one is not created. You can allocate a default value to the security\n\ndeposit reason and amount using enhancement EC500001 (determine security deposit reason and amount).\n\nFor more information see the section on Contract Accounts Receivable and Payable (FI-CA) including Security Deposits .\n\nAdopt Existing Security Deposits (Transfer)\n\nIn Customizing under Define Move-In Control Parameters on Contract Level , you can, using the Security deposits field,\nconfigure the system to transfer the security deposits of existing contracts to newly created contracts. This is done by means of\nTransfer Contracts. You can use this procedure if, for example, a business partner moves to a new premise in the supply territory,\nterminates his/her existing contracts for this reason and wishes the security deposits paid on these contracts to be adopted for\nthe new contracts. You can transfer deposits in this way if the following transfer conditions have been met:\n\ne You have entered a move-in/out in the system.\n\ne You have selected the contracts so that both the move-in and move-out documents both contain one contract for each\ndivision, and each have the same number of contracts.\n\ne In Customizing, under Define Move-In Control Parameters on Contract Level , you have defined whether the security\ndeposits of a contract can be automatically transferred.\n\ne Both the transfer contract and the new contract have been allocated to the same company code.\n",
+ "cleaned_text": "For more information see the section on the Budget Billing Plan component.\n\nSecurity Deposits\n\nUse\n\nYou can request a security deposit in move-in processing, or, provided certain conditions have been met, adopt the security deposit of an existing contract.\n\nRe-Request Security Deposit\n\nCustomizing Settings\n\nIn Customizing under |)}Move-In/Out Move-In 's Define Move-In Control Parameters on Contract Level \u201cyou can configure the system so that security deposits are requested through move-in processing.You can request a cash security deposit, or arrange a non-cash security deposit with the customer.\n\n- Acash security deposit is created for each contract. In doing this, this system posts a request document for a cash security deposit in FI-CA.\n\n- Anon-cash security deposit is created for all the contracts involved in the move-in, for which a non-cash deposit is to be created.\n\nEntry Options on the Move-In Screen\n\nOn the move-in screen, on the tabstrip Contract Data , enter a reason for requesting the security deposit and the amount requested. Now, when you save the move-in document, the system automatically creates a security deposit. If you specified a reason for exempting the customer from a security deposit then one is not created. You can allocate a default value to the security deposit reason and amount using enhancement EC500001 (determine security deposit reason and amount). For more information see the section on Contract Accounts Receivable and Payable (FI-CA) including Security Deposits .\n\nAdopt Existing Security Deposits (Transfer)\n\nIn Customizing under Define Move-In Control Parameters on Contract Level , you can, using the Security deposits field, configure the system to transfer the security deposits of existing contracts to newly created contracts. This is done by means of Transfer Contracts. You can use this procedure if, for example, a business partner moves to a new premise in the supply territory, terminates his/her existing contracts for this reason and wishes the security deposits paid on these contracts to be adopted for the new contracts. You can transfer deposits in this way if the following transfer conditions have been met:\n\n- You have entered a move-in/out in the system.\n\n- You have selected the contracts so that both the move-in and move-out documents both contain one contract for each division, and each have the same number of contracts.\n\n- In Customizing, under Define Move-In Control Parameters on Contract Level , you have defined whether the security deposits of a contract can be automatically transferred.\n\n- Both the transfer contract and the new contract have been allocated to the same company code.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:39 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_002_p013_b000",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    125,
+    135,
+    1496,
+    172
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "For more information see the section on the Budget Billing Plan component.",
+   "section_id": "doc_002_sec_044"
+  },
+  {
+   "block_id": "doc_002_p013_b001",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    125,
+    321,
+    763,
+    398
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Security Deposits",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_045"
+  },
+  {
+   "block_id": "doc_002_p013_b002",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    124,
+    470,
+    191,
+    499
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_046"
+  },
+  {
+   "block_id": "doc_002_p013_b003",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    122,
+    591,
+    2347,
+    691
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "You can request a security deposit in move-in processing, or, provided certain conditions have been met, adopt the security deposit of an existing contract.",
+   "section_id": "doc_002_sec_046"
+  },
+  {
+   "block_id": "doc_002_p013_b004",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    126,
+    803,
+    929,
+    860
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Re-Request Security Deposit",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_047"
+  },
+  {
+   "block_id": "doc_002_p013_b005",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    123,
+    936,
+    525,
+    974
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Customizing Settings",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_048"
+  },
+  {
+   "block_id": "doc_002_p013_b006",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    123,
+    1053,
+    2461,
+    1223
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "text": "In Customizing under |)}Move-In/Out Move-In 's Define Move-In Control Parameters on Contract Level \u201cyou can configure the system so that security deposits are requested through move-in processing.You can request a cash security deposit, or arrange a non-cash security deposit with the customer.",
+   "section_id": "doc_002_sec_048"
+  },
+  {
+   "block_id": "doc_002_p013_b007",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    207,
+    1307,
+    2483,
+    1567
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Acash security deposit is created for each contract. In doing this, this system posts a request document for a cash security deposit in FI-CA."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Anon-cash security deposit is created for all the contracts involved in the move-in, for which a non-cash deposit is to be created."
+    }
+   ],
+   "section_id": "doc_002_sec_048"
+  },
+  {
+   "block_id": "doc_002_p013_b008",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    124,
+    1659,
+    809,
+    1696
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [],
+   "text": "Entry Options on the Move-In Screen",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_049"
+  },
+  {
+   "block_id": "doc_002_p013_b009",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    123,
+    1780,
+    2473,
+    2130
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "On the move-in screen, on the tabstrip Contract Data , enter a reason for requesting the security deposit and the amount requested. Now, when you save the move-in document, the system automatically creates a security deposit. If you specified a reason for exempting the customer from a security deposit then one is not created. You can allocate a default value to the security deposit reason and amount using enhancement EC500001 (determine security deposit reason and amount). For more information see the section on Contract Accounts Receivable and Payable (FI-CA) including Security Deposits .",
+   "section_id": "doc_002_sec_049"
+  },
+  {
+   "block_id": "doc_002_p013_b010",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    123,
+    2241,
+    1336,
+    2299
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Adopt Existing Security Deposits (Transfer)",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_002_sec_050"
+  },
+  {
+   "block_id": "doc_002_p013_b011",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    122,
+    2375,
+    2443,
+    2662
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "In Customizing under Define Move-In Control Parameters on Contract Level , you can, using the Security deposits field, configure the system to transfer the security deposits of existing contracts to newly created contracts. This is done by means of Transfer Contracts. You can use this procedure if, for example, a business partner moves to a new premise in the supply territory, terminates his/her existing contracts for this reason and wishes the security deposits paid on these contracts to be adopted for the new contracts. You can transfer deposits in this way if the following transfer conditions have been met:",
+   "section_id": "doc_002_sec_050"
+  },
+  {
+   "block_id": "doc_002_p013_b012",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    207,
+    2750,
+    2398,
+    3221
+   ],
+   "ocr_confidence": 94.8,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You have entered a move-in/out in the system."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You have selected the contracts so that both the move-in and move-out documents both contain one contract for each division, and each have the same number of contracts."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "In Customizing, under Define Move-In Control Parameters on Contract Level , you have defined whether the security deposits of a contract can be automatically transferred."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Both the transfer contract and the new contract have been allocated to the same company code."
+    }
+   ],
+   "section_id": "doc_002_sec_050"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Move-In/Out Overview",
+  "source_pdf": "2.pdf",
+  "reference_pdf": "02_Move_In_Out_Overview.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Useful for connecting customer/service setup to billing eligibility and final billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/f4a255a5de524e3992155767996fblfd?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "cbe84e144f88cdf2f86aad8667c9750697b29b36ebc0c4875796c17a7076b9c0"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Move-In/Out Overview",
+  "Budget Billing Plan",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_002_sec_044",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_002_sec_045",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_046",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_047",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_048",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_049",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_002_sec_050",
+   "role": "starts_here"
+  }
+ ]
+}

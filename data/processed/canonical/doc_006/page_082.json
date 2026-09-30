@@ -1,0 +1,418 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 82,
+ "source_page_hash": "2d174b85bd07ecceb51918d19cdee1c5d600de8a9cb1d19a20a0efe4b083d7fc",
+ "is_cover_page": false,
+ "title": "Quantity Determination Trigger Concept",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\nQ1            Q2\n\n[PPPOE CEPR EEEP EEE eee eee)  PPE 2\n\nMR2\nMR1           Active                             MR3\n\nExample 4 - Status of Meter Reading Result Changed from \u201cActive\u201d to \u201cInactive\u201d\n\nThe change to the status of the meter reading result from Active to Inactive is handled the same way as the deletion of a meter\nreading result, which is described in the previous example. The already determined quantities Q1 and Q2 are combined into a\nsingle quantity Q during recalculation.\n\nQuantity Determination Trigger Concept\n\nDefinition\n\nIf a final quantity determination is not possible for certain meter reading results, the system automatically creates quantity\ndetermination triggers.\n\nA quantity determination trigger identifies a meter reading result without a final quantity determination and shows that quantity\ndetermination has to be calculated again for a data record in order to get the final results. The availability of a final quantity is a\nprerequisite for subsequent processes such as billing. Billing can only take place based on a final quantity.\n\nA final quantity is defined as a quantity that was determined at a time when all the parameters (for example, current calorific\nvalue) or the previous meter reading were known. The final quantity is saved to the database.\n\nReasons for Generating Quantity Determination Triggers\n\nThe system generates quantity determination triggers for the following reasons:\n\ne 01 -No Current Gas Data\n\nQuantity determination triggers with reason Q1 are usually generated as a result of missing time-specific gas values.\nThese can be billing calorific values, for example, or other values used to determine the quantity.\n\nFor more information about determining gas factors, see Customizing for Contract Billing under |Special Functions \u00bb Gas\nBilling\n\ne Q2- Previous Meter Reading Document Not Unique\nQuantity determination triggers with reason 02 are generated in the following cases:\no Ameter reading order still exists between the previous meter reading and the new meter reading.\n\no The quantity determination procedure was changed over between the previous meter reading and the current meter\nreading.\n\ne 99 - Other\n\nDue to the high flexibility of device management and meter reading, certain situations may arise when it is not be possible\n",
+ "cleaned_text": "Q1 | Q2\n\n[PPPOE CEPR EEEP EEE | eee eee) PPE 2\n\nMR2\n\nMR1 | Active | MR3\n\nExample 4 - Status of Meter Reading Result Changed from \u201cActive\u201d to \u201cInactive\u201d The change to the status of the meter reading result from Active to Inactive is handled the same way as the deletion of a meter reading result, which is described in the previous example. The already determined quantities Q1 and Q2 are combined into a single quantity Q during recalculation.\n\nQuantity Determination Trigger Concept\n\nDefinition\n\nIf a final quantity determination is not possible for certain meter reading results, the system automatically creates quantity determination triggers. A quantity determination trigger identifies a meter reading result without a final quantity determination and shows that quantity determination has to be calculated again for a data record in order to get the final results. The availability of a final quantity is a prerequisite for subsequent processes such as billing. Billing can only take place based on a final quantity. A final quantity is defined as a quantity that was determined at a time when all the parameters (for example, current calorific value) or the previous meter reading were known. The final quantity is saved to the database.\n\nReasons for Generating Quantity Determination Triggers\n\nThe system generates quantity determination triggers for the following reasons:\n\n- 01 -No Current Gas Data Quantity determination triggers with reason Q1 are usually generated as a result of missing time-specific gas values.\n\nThese can be billing calorific values, for example, or other values used to determine the quantity. For more information about determining gas factors, see Customizing for Contract Billing under |Special Functions \u00bb Gas Billing\n\n- Q2- Previous Meter Reading Document Not Unique Quantity determination triggers with reason 02 are generated in the following cases:\n\n- Ameter reading order still exists between the previous meter reading and the new meter reading.\n\n- The quantity determination procedure was changed over between the previous meter reading and the current meter reading.\n\n- 99 - Other Due to the high flexibility of device management and meter reading, certain situations may arise when it is not be possible",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p082_b000",
+   "type": "table",
+   "page_number": 82,
+   "bbox": [
+    604,
+    157,
+    1190,
+    210
+   ],
+   "ocr_confidence": 87.2,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    604,
+    1104
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Q1",
+     "Q2"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Q1",
+     "Q2"
+    ]
+   ],
+   "section_id": "doc_006_sec_222"
+  },
+  {
+   "block_id": "doc_006_p082_b001",
+   "type": "table",
+   "page_number": 82,
+   "bbox": [
+    279,
+    319,
+    1541,
+    348
+   ],
+   "ocr_confidence": 14.2,
+   "flags": [
+    "low_confidence_words:8",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    279,
+    923
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "[PPPOE CEPR EEEP EEE",
+     "eee eee) PPE 2"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "[PPPOE CEPR EEEP EEE",
+     "eee eee) PPE 2"
+    ]
+   ],
+   "section_id": "doc_006_sec_222"
+  },
+  {
+   "block_id": "doc_006_p082_b002",
+   "type": "paragraph",
+   "page_number": 82,
+   "bbox": [
+    841,
+    404,
+    979,
+    453
+   ],
+   "ocr_confidence": 90.7,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "MR2",
+   "section_id": "doc_006_sec_222"
+  },
+  {
+   "block_id": "doc_006_p082_b003",
+   "type": "table",
+   "page_number": 82,
+   "bbox": [
+    368,
+    486,
+    1453,
+    536
+   ],
+   "ocr_confidence": 90.3,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    368,
+    667,
+    1315
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR1",
+     "Active",
+     "MR3"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR1",
+     "Active",
+     "MR3"
+    ]
+   ],
+   "section_id": "doc_006_sec_222"
+  },
+  {
+   "block_id": "doc_006_p082_b004",
+   "type": "paragraph",
+   "page_number": 82,
+   "bbox": [
+    122,
+    604,
+    2420,
+    882
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Example 4 - Status of Meter Reading Result Changed from \u201cActive\u201d to \u201cInactive\u201d The change to the status of the meter reading result from Active to Inactive is handled the same way as the deletion of a meter reading result, which is described in the previous example. The already determined quantities Q1 and Q2 are combined into a single quantity Q during recalculation.",
+   "section_id": "doc_006_sec_222"
+  },
+  {
+   "block_id": "doc_006_p082_b005",
+   "type": "heading",
+   "page_number": 82,
+   "bbox": [
+    125,
+    1031,
+    1577,
+    1107
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Quantity Determination Trigger Concept",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_223"
+  },
+  {
+   "block_id": "doc_006_p082_b006",
+   "type": "heading",
+   "page_number": 82,
+   "bbox": [
+    126,
+    1207,
+    393,
+    1253
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_224"
+  },
+  {
+   "block_id": "doc_006_p082_b007",
+   "type": "paragraph",
+   "page_number": 82,
+   "bbox": [
+    122,
+    1340,
+    2438,
+    1874
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "If a final quantity determination is not possible for certain meter reading results, the system automatically creates quantity determination triggers. A quantity determination trigger identifies a meter reading result without a final quantity determination and shows that quantity determination has to be calculated again for a data record in order to get the final results. The availability of a final quantity is a prerequisite for subsequent processes such as billing. Billing can only take place based on a final quantity. A final quantity is defined as a quantity that was determined at a time when all the parameters (for example, current calorific value) or the previous meter reading were known. The final quantity is saved to the database.",
+   "section_id": "doc_006_sec_224"
+  },
+  {
+   "block_id": "doc_006_p082_b008",
+   "type": "heading",
+   "page_number": 82,
+   "bbox": [
+    124,
+    1958,
+    1176,
+    1996
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Reasons for Generating Quantity Determination Triggers",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_225"
+  },
+  {
+   "block_id": "doc_006_p082_b009",
+   "type": "paragraph",
+   "page_number": 82,
+   "bbox": [
+    122,
+    2079,
+    1568,
+    2117
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "The system generates quantity determination triggers for the following reasons:",
+   "section_id": "doc_006_sec_225"
+  },
+  {
+   "block_id": "doc_006_p082_b010",
+   "type": "list",
+   "page_number": 82,
+   "bbox": [
+    207,
+    2202,
+    2400,
+    2350
+   ],
+   "ocr_confidence": 86.0,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "01 -No Current Gas Data Quantity determination triggers with reason Q1 are usually generated as a result of missing time-specific gas values."
+    }
+   ],
+   "section_id": "doc_006_sec_225"
+  },
+  {
+   "block_id": "doc_006_p082_b011",
+   "type": "paragraph",
+   "page_number": 82,
+   "bbox": [
+    254,
+    2375,
+    2485,
+    2577
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "These can be billing calorific values, for example, or other values used to determine the quantity. For more information about determining gas factors, see Customizing for Contract Billing under |Special Functions \u00bb Gas Billing",
+   "section_id": "doc_006_sec_225"
+  },
+  {
+   "block_id": "doc_006_p082_b012",
+   "type": "list",
+   "page_number": 82,
+   "bbox": [
+    207,
+    2642,
+    2488,
+    3267
+   ],
+   "ocr_confidence": 92.6,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Q2- Previous Meter Reading Document Not Unique Quantity determination triggers with reason 02 are generated in the following cases:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Ameter reading order still exists between the previous meter reading and the new meter reading."
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "The quantity determination procedure was changed over between the previous meter reading and the current meter reading."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "99 - Other Due to the high flexibility of device management and meter reading, certain situations may arise when it is not be possible"
+    }
+   ],
+   "section_id": "doc_006_sec_225"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1194,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 92,
+   "page_hash": "2d174b85bd07ecceb51918d19cdee1c5d600de8a9cb1d19a20a0efe4b083d7fc"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Concept"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_222",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_223",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_224",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_225",
+   "role": "starts_here"
+  }
+ ]
+}

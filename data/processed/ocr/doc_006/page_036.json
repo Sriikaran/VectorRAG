@@ -1,0 +1,214 @@
+{
+ "document_id": "doc_006",
+ "page_number": 36,
+ "source_pdf": "6.pdf",
+ "page_hash": "ace484411fa5b138bec00f4a044d75ae23b8790b4bf3b13ad76843c0373ccbc8",
+ "ocr_engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+ "ocr_settings": {
+  "oem": 1,
+  "psm": 3,
+  "dpi": 300,
+  "language": "eng",
+  "colorspace": "grayscale",
+  "variables": {
+   "preserve_interword_spaces": "1"
+  }
+ },
+ "render_size": [
+  2550,
+  3300
+ ],
+ "text": "9/29/26, 9:42 AM\n\nExtrapolation period\n\nActual meter\nreading results\n\n3. Determination of the time variability\n\nTransfer of schedule records to the extrapolation period\n",
+ "character_count": 169,
+ "word_count": 23,
+ "mean_confidence": 95,
+ "word_boxes": [
+  [
+   "9/29/26,",
+   107,
+   72,
+   248,
+   103,
+   96.4
+  ],
+  [
+   "9:42",
+   264,
+   72,
+   337,
+   99,
+   93.9
+  ],
+  [
+   "AM",
+   353,
+   73,
+   403,
+   99,
+   96.7
+  ],
+  [
+   "Extrapolation",
+   1381,
+   245,
+   1731,
+   296,
+   96.7
+  ],
+  [
+   "period",
+   1755,
+   245,
+   1918,
+   296,
+   96.4
+  ],
+  [
+   "Actual",
+   1237,
+   1004,
+   1402,
+   1043,
+   96.1
+  ],
+  [
+   "meter",
+   1428,
+   1004,
+   1573,
+   1043,
+   96.6
+  ],
+  [
+   "reading",
+   1241,
+   1071,
+   1435,
+   1123,
+   96.7
+  ],
+  [
+   "results",
+   1458,
+   1071,
+   1633,
+   1111,
+   96.3
+  ],
+  [
+   "3.",
+   211,
+   1854,
+   242,
+   1884,
+   96.5
+  ],
+  [
+   "Determination",
+   256,
+   1855,
+   514,
+   1884,
+   96.5
+  ],
+  [
+   "of",
+   527,
+   1855,
+   561,
+   1884,
+   96.6
+  ],
+  [
+   "the",
+   572,
+   1855,
+   629,
+   1884,
+   96.8
+  ],
+  [
+   "time",
+   641,
+   1855,
+   720,
+   1884,
+   95.8
+  ],
+  [
+   "variability",
+   733,
+   1854,
+   909,
+   1892,
+   95.7
+  ],
+  [
+   "Transfer",
+   254,
+   1956,
+   401,
+   1986,
+   95.9
+  ],
+  [
+   "of",
+   413,
+   1956,
+   447,
+   1986,
+   95.9
+  ],
+  [
+   "schedule",
+   459,
+   1956,
+   619,
+   1986,
+   96.2
+  ],
+  [
+   "records",
+   633,
+   1956,
+   768,
+   1986,
+   94.8
+  ],
+  [
+   "to",
+   779,
+   1957,
+   814,
+   1986,
+   94.8
+  ],
+  [
+   "the",
+   826,
+   1956,
+   883,
+   1986,
+   97.0
+  ],
+  [
+   "extrapolation",
+   896,
+   1956,
+   1134,
+   1994,
+   96.1
+  ],
+  [
+   "period",
+   1149,
+   1956,
+   1261,
+   1994,
+   96.6
+  ]
+ ],
+ "processed_at": "2026-09-30T09:15:29Z",
+ "duration_seconds": 0.33,
+ "complete": true
+}

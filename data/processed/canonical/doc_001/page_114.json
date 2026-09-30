@@ -1,0 +1,393 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 114,
+ "source_page_hash": "3ad41e827700e0ab96a162b517bb0e169482c82249ba8d6dc82f30fe91de70ad",
+ "is_cover_page": false,
+ "title": "Create Deregulation Point of Delivery",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nCreate Deregulation Point of Delivery\n\nUse\n\nWhen you create an installation, the system automatically creates a deregulation point of delivery. Deregulation points of delivery\nare required for communication in the deregulated energy market.\n\nTo allocate a point of delivery ID to a deregulation point of delivery, proceed as described below.\n\nProcedure\n\n1. From the SAP Easy Access menu, choose |*Technical Master Data\u00bb Installation \u00bb Create\nMake the entries required in order to create an installation.\n\n2. The Point of Delivery group box is in the lower half of the screen is.\n\n3. Make the entries required for the point of delivery ID and enter the ID of a grid in the Grid field. Note that you must have\ndefined the grids in the Intercompany Data Exchange menu.\n\n4. When you make this entry, the system allocates a grid to the point delivery. The grid is used during the move-in to\ndetermine the default values for services, for example.\n\n5. Save your entries.\n\ni Note\n\nYou can create an additional installation for the point of delivery by entering the same point of delivery ID in the second\ninstallation. To do this, you must observe the following:\n\ne The installations must be allocated to the same premise\n\ne The installations must have different service categories\n\nRelated Information\n\nDeregulation and Market Communication\n\nCreate Technical Point of Delivery\n\nUse\n\nYou create a technical point of delivery if:\n\ne You require a point of delivery for technical communication with systems that do not use the point of delivery ID common\nto the respective market.\n\ne You require a point of delivery for technical communication with systems whose measurement systems do not conform to\nmarket requirements, such as a device that measure several points of delivery.\n",
+ "cleaned_text": "Create Deregulation Point of Delivery\n\nUse\n\nWhen you create an installation, the system automatically creates a deregulation point of delivery. Deregulation points of delivery are required for communication in the deregulated energy market. To allocate a point of delivery ID to a deregulation point of delivery, proceed as described below.\n\nProcedure\n\n1 From the SAP Easy Access menu, choose |*Technical Master Data\u00bb Installation \u00bb Create Make the entries required in order to create an installation.\n\n2 The Point of Delivery group box is in the lower half of the screen is.\n\n3 Make the entries required for the point of delivery ID and enter the ID of a grid in the Grid field. Note that you must have defined the grids in the Intercompany Data Exchange menu.\n\n4 When you make this entry, the system allocates a grid to the point delivery. The grid is used during the move-in to determine the default values for services, for example.\n\n5 Save your entries.\n\ni Note You can create an additional installation for the point of delivery by entering the same point of delivery ID in the second installation. To do this, you must observe the following:\n\n- The installations must be allocated to the same premise\n\n- The installations must have different service categories\n\nRelated Information\n\nDeregulation and Market Communication\n\nCreate Technical Point of Delivery\n\nUse\n\nYou create a technical point of delivery if:\n\n- You require a point of delivery for technical communication with systems that do not use the point of delivery ID common to the respective market.\n\n- You require a point of delivery for technical communication with systems whose measurement systems do not conform to market requirements, such as a device that measure several points of delivery.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p114_b000",
+   "type": "heading",
+   "page_number": 114,
+   "bbox": [
+    125,
+    130,
+    1462,
+    207
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Create Deregulation Point of Delivery",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_429"
+  },
+  {
+   "block_id": "doc_001_p114_b001",
+   "type": "heading",
+   "page_number": 114,
+   "bbox": [
+    125,
+    307,
+    225,
+    353
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_430"
+  },
+  {
+   "block_id": "doc_001_p114_b002",
+   "type": "paragraph",
+   "page_number": 114,
+   "bbox": [
+    122,
+    440,
+    2458,
+    662
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "When you create an installation, the system automatically creates a deregulation point of delivery. Deregulation points of delivery are required for communication in the deregulated energy market. To allocate a point of delivery ID to a deregulation point of delivery, proceed as described below.",
+   "section_id": "doc_001_sec_430"
+  },
+  {
+   "block_id": "doc_001_p114_b003",
+   "type": "heading",
+   "page_number": 114,
+   "bbox": [
+    126,
+    774,
+    409,
+    819
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Procedure",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_431"
+  },
+  {
+   "block_id": "doc_001_p114_b004",
+   "type": "list",
+   "page_number": 114,
+   "bbox": [
+    211,
+    902,
+    2411,
+    1585
+   ],
+   "ocr_confidence": 93.8,
+   "flags": [
+    "low_confidence_words:3"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "1",
+     "text": "From the SAP Easy Access menu, choose |*Technical Master Data\u00bb Installation \u00bb Create Make the entries required in order to create an installation."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "2",
+     "text": "The Point of Delivery group box is in the lower half of the screen is."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "3",
+     "text": "Make the entries required for the point of delivery ID and enter the ID of a grid in the Grid field. Note that you must have defined the grids in the Intercompany Data Exchange menu."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "4",
+     "text": "When you make this entry, the system allocates a grid to the point delivery. The grid is used during the move-in to determine the default values for services, for example."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "5",
+     "text": "Save your entries."
+    }
+   ],
+   "section_id": "doc_001_sec_431"
+  },
+  {
+   "block_id": "doc_001_p114_b005",
+   "type": "paragraph",
+   "page_number": 114,
+   "bbox": [
+    151,
+    1684,
+    2297,
+    1867
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "i Note You can create an additional installation for the point of delivery by entering the same point of delivery ID in the second installation. To do this, you must observe the following:",
+   "section_id": "doc_001_sec_431"
+  },
+  {
+   "block_id": "doc_001_p114_b006",
+   "type": "list",
+   "page_number": 114,
+   "bbox": [
+    207,
+    1988,
+    1267,
+    2127
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The installations must be allocated to the same premise"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The installations must have different service categories"
+    }
+   ],
+   "section_id": "doc_001_sec_431"
+  },
+  {
+   "block_id": "doc_001_p114_b007",
+   "type": "heading",
+   "page_number": 114,
+   "bbox": [
+    126,
+    2239,
+    681,
+    2284
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Related Information",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_432"
+  },
+  {
+   "block_id": "doc_001_p114_b008",
+   "type": "heading",
+   "page_number": 114,
+   "bbox": [
+    125,
+    2365,
+    871,
+    2403
+   ],
+   "ocr_confidence": 95.6,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Deregulation and Market Communication",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_001_sec_432"
+  },
+  {
+   "block_id": "doc_001_p114_b009",
+   "type": "heading",
+   "page_number": 114,
+   "bbox": [
+    125,
+    2539,
+    1333,
+    2615
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Create Technical Point of Delivery",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_433"
+  },
+  {
+   "block_id": "doc_001_p114_b010",
+   "type": "heading",
+   "page_number": 114,
+   "bbox": [
+    125,
+    2719,
+    225,
+    2764
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_434"
+  },
+  {
+   "block_id": "doc_001_p114_b011",
+   "type": "paragraph",
+   "page_number": 114,
+   "bbox": [
+    122,
+    2848,
+    859,
+    2886
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "You create a technical point of delivery if:",
+   "section_id": "doc_001_sec_434"
+  },
+  {
+   "block_id": "doc_001_p114_b012",
+   "type": "list",
+   "page_number": 114,
+   "bbox": [
+    207,
+    2973,
+    2457,
+    3237
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You require a point of delivery for technical communication with systems that do not use the point of delivery ID common to the respective market."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "You require a point of delivery for technical communication with systems whose measurement systems do not conform to market requirements, such as a device that measure several points of delivery."
+    }
+   ],
+   "section_id": "doc_001_sec_434"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.1304,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "3ad41e827700e0ab96a162b517bb0e169482c82249ba8d6dc82f30fe91de70ad"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:31Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Create Deregulation Point of Delivery"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_429",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_430",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_431",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_432",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_433",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_001_sec_434",
+   "role": "starts_here"
+  }
+ ]
+}

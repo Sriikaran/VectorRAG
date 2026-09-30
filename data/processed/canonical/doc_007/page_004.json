@@ -1,0 +1,152 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_007",
+ "page_number": 4,
+ "source_page_hash": "5b5db5b69363756c06562c79b04545855f980f6d9c6adede460b85507598a13a",
+ "is_cover_page": false,
+ "title": "Device Overview",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nDevice Overview\n\nTransaction EL43\n\nYou can use this transaction to get an overview of the devices of a meter reading unit.\n",
+ "cleaned_text": "Device Overview\n\nTransaction EL43\n\nYou can use this transaction to get an overview of the devices of a meter reading unit.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_007_p004_b000",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    124,
+    135,
+    428,
+    165
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Device Overview",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_007_sec_009"
+  },
+  {
+   "block_id": "doc_007_p004_b001",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    122,
+    259,
+    442,
+    292
+   ],
+   "ocr_confidence": 92.9,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Transaction EL43",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_007_sec_009"
+  },
+  {
+   "block_id": "doc_007_p004_b002",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    123,
+    384,
+    1662,
+    422
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "You can use this transaction to get an overview of the devices of a meter reading unit.",
+   "section_id": "doc_007_sec_009"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Monitoring Meter Reading Results",
+  "source_pdf": "7.pdf",
+  "reference_pdf": "07_Monitoring_Meter_Reading_Results.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Useful for exception monitoring and support/troubleshooting scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "5b5db5b69363756c06562c79b04545855f980f6d9c6adede460b85507598a13a"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:37Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Monitoring Meter Reading Results",
+  "Monitoring of Meter Reading Results",
+  "Device Overview"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_007_sec_009",
+   "role": "starts_here"
+  }
+ ]
+}

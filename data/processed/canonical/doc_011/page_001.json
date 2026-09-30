@@ -1,0 +1,196 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_011",
+ "page_number": 1,
+ "source_page_hash": "52afb05f8146a9ae1492e6472ea315c00eddc060c3b5669120c2f82ab853a4d3",
+ "is_cover_page": true,
+ "title": null,
+ "cover_area_title": "Invoicing",
+ "raw_text": "9/29/26, 9:47 AM\n\nInvoicing\n\nGenerated on: 2026-09-29 09:47:14 GMT+0000\nSAP S/4HANA | 2025 FPSO1 (Feb 2026)\nPublic\n\nOriginal content: https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-\nUS&state=PRODUCTION&version=2025.001\n\nWarning\n\nThis document has been generated from SAP Help Portal and is an incomplete version of the official SAP product documentation.\nThe information included in custom documentation may not reflect the arrangement of topics in SAP Help Portal, and may be\nmissing important aspects and/or correlations to other topics. For this reason, it is not for production use.\n\nFor more information, please visit https://help.sap.com/docs/disclaimer.\n\n",
+ "cleaned_text": "Invoicing\n\nGenerated on: 2026-09-29 09:47:14 GMT+0000\n\nSAP S/4HANA | 2025 FPSO1 (Feb 2026)\n\nPublic\n\nOriginal content: https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en- US&state=PRODUCTION&version=2025.001\n\nWarning This document has been generated from SAP Help Portal and is an incomplete version of the official SAP product documentation. The information included in custom documentation may not reflect the arrangement of topics in SAP Help Portal, and may be missing important aspects and/or correlations to other topics. For this reason, it is not for production use. For more information, please visit https://help.sap.com/docs/disclaimer.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:47 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_011_p001_b000",
+   "type": "document_title",
+   "page_number": 1,
+   "bbox": [
+    132,
+    484,
+    625,
+    597
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Invoicing",
+   "level": 1,
+   "title_kind": "cover_area_title",
+   "section_id": "doc_011_sec_000"
+  },
+  {
+   "block_id": "doc_011_p001_b001",
+   "type": "cover_meta",
+   "page_number": 1,
+   "bbox": [
+    123,
+    697,
+    1002,
+    727
+   ],
+   "ocr_confidence": 87.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "Generated on: 2026-09-29 09:47:14 GMT+0000",
+   "section_id": "doc_011_sec_000"
+  },
+  {
+   "block_id": "doc_011_p001_b002",
+   "type": "cover_meta",
+   "page_number": 1,
+   "bbox": [
+    124,
+    818,
+    849,
+    856
+   ],
+   "ocr_confidence": 89.0,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "SAP S/4HANA | 2025 FPSO1 (Feb 2026)",
+   "section_id": "doc_011_sec_000"
+  },
+  {
+   "block_id": "doc_011_p001_b003",
+   "type": "cover_meta",
+   "page_number": 1,
+   "bbox": [
+    124,
+    940,
+    236,
+    971
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Public",
+   "section_id": "doc_011_sec_000"
+  },
+  {
+   "block_id": "doc_011_p001_b004",
+   "type": "cover_meta",
+   "page_number": 1,
+   "bbox": [
+    123,
+    1061,
+    2435,
+    1155
+   ],
+   "ocr_confidence": 88.0,
+   "flags": [],
+   "text": "Original content: https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en- US&state=PRODUCTION&version=2025.001",
+   "section_id": "doc_011_sec_000"
+  },
+  {
+   "block_id": "doc_011_p001_b005",
+   "type": "note",
+   "page_number": 1,
+   "bbox": [
+    122,
+    1357,
+    2466,
+    1764
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "label": "Warning",
+   "text": "Warning This document has been generated from SAP Help Portal and is an incomplete version of the official SAP product documentation. The information included in custom documentation may not reflect the arrangement of topics in SAP Help Portal, and may be missing important aspects and/or correlations to other topics. For this reason, it is not for production use. For more information, please visit https://help.sap.com/docs/disclaimer.",
+   "section_id": "doc_011_sec_000"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "SAP Utilities Billing Procedure",
+  "source_pdf": "11.pdf",
+  "reference_pdf": "11_SAP_Utilities_Billing_Procedure.pdf",
+  "category": "Billing",
+  "m2c_relevance": "Primary business-process source for SAP Utilities billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/ed84b70c199d4470ae2e5ccb93b2e45b?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 93,
+   "page_hash": "52afb05f8146a9ae1492e6472ea315c00eddc060c3b5669120c2f82ab853a4d3"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:38Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "SAP Utilities Billing Procedure"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_011_sec_000",
+   "role": "starts_here"
+  }
+ ]
+}

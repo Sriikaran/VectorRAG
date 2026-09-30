@@ -1,0 +1,239 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_024",
+ "page_number": 3,
+ "source_page_hash": "55cb0c9ef8ec8718f2c427efd6490047db4139c59efbfad8150ea81a03869b0b",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 10:15 AM\n6. Enter values in the fields Rounding Amount and No. of Instmnts. The installment amount is calculated from the total sum\nof the original receivables, the rounding amount, and the number of installments. If you enter a rounding amount, the\nsystem automatically checks whether this amount complies with the rounding rules defined in Customizing.\n\nRegardless of whether you have the system create an installment plan proposal by entering the installment amount or by\nentering the rounding amount and number of installments, there may be a remaining amount when the individual\ninstallments are calculated. This is because the total of the individual installments must always equal the total of the\noriginal receivable (installment amount * number of installments + remaining amount = total of original receivable). In the\nRemaining Amount field, specify whether this remaining amount is to be included in the first or last installment, or ina new\n\ninstallment. If you set the Distribute indicator, the interest and charges are distributed over all of the due dates.\n\n7. Alist of selected items appears.\n\nSelect the open items that you want to include in the installment plan. The start date defines the due date of the first\ninstallment. You can assign numerical key figures in the Prio column. This enables you to influence the clearing priority of\nthe selected original items when payments are received.\n\n8. Choose Continue.\nAn Installment Plan Proposal appears, in which you can make the following changes:\no Add installments\no Delete installments\no Calculate or delete interest\no Create or delete an installment plan surcharge and/or an inflation surcharge\n\nThe prerequisite in this case is that you activated the enhancement in Customizing under |)'Business Transactions\nDeferral and Installment Plans \u00bb Activate Installment Plan Enhancement for Charges/Interest\n\no Inthe bottom right hand corner of the screen, a table appears with the most important account balances (such as\nopen amount, due amount, installment plan, credit). If you select a balance, the account balance display appears\n\nand you can see the corresponding items.\n\n9. Save the installment plan.\n",
+ "cleaned_text": "6 Enter values in the fields Rounding Amount and No. of Instmnts. The installment amount is calculated from the total sum of the original receivables, the rounding amount, and the number of installments. If you enter a rounding amount, the\n\nsystem automatically checks whether this amount complies with the rounding rules defined in Customizing. Regardless of whether you have the system create an installment plan proposal by entering the installment amount or by entering the rounding amount and number of installments, there may be a remaining amount when the individual installments are calculated. This is because the total of the individual installments must always equal the total of the original receivable (installment amount * number of installments + remaining amount = total of original receivable). In the Remaining Amount field, specify whether this remaining amount is to be included in the first or last installment, or ina new installment. If you set the Distribute indicator, the interest and charges are distributed over all of the due dates.\n\n7 Alist of selected items appears. Select the open items that you want to include in the installment plan. The start date defines the due date of the first installment. You can assign numerical key figures in the Prio column. This enables you to influence the clearing priority of\n\nthe selected original items when payments are received.\n\n8 Choose Continue. An Installment Plan Proposal appears, in which you can make the following changes:\n\n- Add installments\n\n- Delete installments\n\n- Calculate or delete interest\n\n- Create or delete an installment plan surcharge and/or an inflation surcharge The prerequisite in this case is that you activated the enhancement in Customizing under |)'Business Transactions Deferral and Installment Plans \u00bb Activate Installment Plan Enhancement for Charges/Interest\n\n- Inthe bottom right hand corner of the screen, a table appears with the most important account balances (such as open amount, due amount, installment plan, credit). If you select a balance, the account balance display appears and you can see the corresponding items.\n\n9 Save the installment plan.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 10:15 AM",
+   "bbox": [
+    107,
+    72,
+    425,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_024_p003_b000",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    211,
+    134,
+    2454,
+    235
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "6",
+     "text": "Enter values in the fields Rounding Amount and No. of Instmnts. The installment amount is calculated from the total sum of the original receivables, the rounding amount, and the number of installments. If you enter a rounding amount, the"
+    }
+   ],
+   "section_id": "doc_024_sec_006"
+  },
+  {
+   "block_id": "doc_024_p003_b001",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    254,
+    259,
+    2481,
+    718
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "system automatically checks whether this amount complies with the rounding rules defined in Customizing. Regardless of whether you have the system create an installment plan proposal by entering the installment amount or by entering the rounding amount and number of installments, there may be a remaining amount when the individual installments are calculated. This is because the total of the individual installments must always equal the total of the original receivable (installment amount * number of installments + remaining amount = total of original receivable). In the Remaining Amount field, specify whether this remaining amount is to be included in the first or last installment, or ina new installment. If you set the Distribute indicator, the interest and charges are distributed over all of the due dates.",
+   "section_id": "doc_024_sec_006"
+  },
+  {
+   "block_id": "doc_024_p003_b002",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    212,
+    782,
+    2438,
+    984
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "7",
+     "text": "Alist of selected items appears. Select the open items that you want to include in the installment plan. The start date defines the due date of the first installment. You can assign numerical key figures in the Prio column. This enables you to influence the clearing priority of"
+    }
+   ],
+   "section_id": "doc_024_sec_006"
+  },
+  {
+   "block_id": "doc_024_p003_b003",
+   "type": "paragraph",
+   "page_number": 3,
+   "bbox": [
+    254,
+    1009,
+    1269,
+    1047
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "the selected original items when payments are received.",
+   "section_id": "doc_024_sec_006"
+  },
+  {
+   "block_id": "doc_024_p003_b004",
+   "type": "list",
+   "page_number": 3,
+   "bbox": [
+    211,
+    1114,
+    2460,
+    2161
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "ordered": true,
+   "items": [
+    {
+     "level": 1,
+     "marker": null,
+     "number": "8",
+     "text": "Choose Continue. An Installment Plan Proposal appears, in which you can make the following changes:"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Add installments"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Delete installments"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Calculate or delete interest"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Create or delete an installment plan surcharge and/or an inflation surcharge The prerequisite in this case is that you activated the enhancement in Customizing under |)'Business Transactions Deferral and Installment Plans \u00bb Activate Installment Plan Enhancement for Charges/Interest"
+    },
+    {
+     "level": 2,
+     "marker": "o",
+     "number": null,
+     "text": "Inthe bottom right hand corner of the screen, a table appears with the most important account balances (such as open amount, due amount, installment plan, credit). If you select a balance, the account balance display appears and you can see the corresponding items."
+    },
+    {
+     "level": 1,
+     "marker": null,
+     "number": "9",
+     "text": "Save the installment plan."
+    }
+   ],
+   "section_id": "doc_024_sec_006"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.1087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Creating Installment Plans",
+  "source_pdf": "24.pdf",
+  "reference_pdf": "24_Creating_Installment_Plans.pdf",
+  "category": "Payment Arrangements / Installment Plans",
+  "m2c_relevance": "Useful for eligibility, setup and downstream clearing/dunning reasoning.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "55cb0c9ef8ec8718f2c427efd6490047db4139c59efbfad8150ea81a03869b0b"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:44Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Creating Installment Plans",
+  "Activities"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_024_sec_006",
+   "role": "continues"
+  }
+ ]
+}

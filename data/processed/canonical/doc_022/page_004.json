@@ -1,0 +1,310 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_022",
+ "page_number": 4,
+ "source_page_hash": "3566ae85f2c9f583f397494492ee4433a634bd6cccbfc319fe2e5185625fd390",
+ "is_cover_page": false,
+ "title": "Reversal of Payments",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:59 AM\nContract Accounts Receivable and Payable recognizes a payment from the unique transaction ID ( PaymentTransactionID ) for\neach cash desk/branch ( CashPointReferencelD / CashPointOfficeReferencelD ).\n\nTo assign payments to a day-end closing record later, specify the grouping key. The Enterprise Service for the transfer of day-end\nclosing then delivers the grouping key together with the total amount of all payments. The grouping key is unique for each cash\ndesk/branch.\n\nFor information purposes, you can specify the business partner ID ( PayerParty ) or the contract account number (\nPayerContractAccountID ) of the payer. The business partner ID is only supported as an internal business partner number (); the\n\nGUID and external business partner numbers are not supported in the standard.\n\nAt the PaymentExplanation level, you can specify the following information for the clearing control for clearing open items.\n\nType Definition                                             Name\n\nDebtorInternallD                                            Business partner number (GPART)\nContractAccountReferencelD                            Contract account number (VKONT)\nContractID                                                         Contract number (VTREF)\n\nInvoiceReferencelD                                         External reference document number (XBLNR)\nContractAccountDocumentReferencelD            Document number (OPBEL)\nPaymentFormReferencelD                              External payment form number (RFZAS)\n\nUsing the clearing amount ( ClearingAmount ), you can also assign partial amounts.\n\nIf you specify more than one item of information in a PaymentExplanation record, this is seen as a conjunction. You achieve a\ndisjunction by distributing the information over several PaymentExplanation records.\n\nYou can only use information about checks, payment cards, and postal orders for offline branches, not for agent cash desks. For\nagent cash desks, the application of the cash desk software does the communication with the credit card company, for example.\nThe settlement is direct between the agent and the credit card company. Contract Accounts Receivable and Payable therefore\n\nalways interprets payments from agent cash desks as external (cash) payments (EXT).\n\nReversal of Payments\n\nUse\n\nReversal of a payment in Contract Accounts Receivable and Payable\n\nFeatures\n\nWith the Enterprise Service CashPointPaymentReverseNotification , you can reverse payments previously sent to an offline\nbranch from a cash desk. However, a reversal is only possible until you call the Enterprise Service for day-end closing.\n\nThe Enterprise Service for the reversal supports individual and mass reversals.\n",
+ "cleaned_text": "Contract Accounts Receivable and Payable recognizes a payment from the unique transaction ID ( PaymentTransactionID ) for each cash desk/branch ( CashPointReferencelD / CashPointOfficeReferencelD ). To assign payments to a day-end closing record later, specify the grouping key. The Enterprise Service for the transfer of day-end closing then delivers the grouping key together with the total amount of all payments. The grouping key is unique for each cash desk/branch. For information purposes, you can specify the business partner ID ( PayerParty ) or the contract account number ( PayerContractAccountID ) of the payer. The business partner ID is only supported as an internal business partner number (); the GUID and external business partner numbers are not supported in the standard. At the PaymentExplanation level, you can specify the following information for the clearing control for clearing open items.\n\nType Definition | Name\n\nDebtorInternallD | Business partner number (GPART)\n\nContractAccountReferencelD | Contract account number (VKONT)\n\nContractID | Contract number (VTREF)\n\nInvoiceReferencelD | External reference document number (XBLNR)\n\nContractAccountDocumentReferencelD | Document number (OPBEL)\n\nPaymentFormReferencelD | External payment form number (RFZAS)\n\nUsing the clearing amount ( ClearingAmount ), you can also assign partial amounts. If you specify more than one item of information in a PaymentExplanation record, this is seen as a conjunction. You achieve a disjunction by distributing the information over several PaymentExplanation records. You can only use information about checks, payment cards, and postal orders for offline branches, not for agent cash desks. For agent cash desks, the application of the cash desk software does the communication with the credit card company, for example. The settlement is direct between the agent and the credit card company. Contract Accounts Receivable and Payable therefore always interprets payments from agent cash desks as external (cash) payments (EXT).\n\nReversal of Payments\n\nUse\n\nReversal of a payment in Contract Accounts Receivable and Payable\n\nFeatures\n\nWith the Enterprise Service CashPointPaymentReverseNotification , you can reverse payments previously sent to an offline branch from a cash desk. However, a reversal is only possible until you call the Enterprise Service for day-end closing. The Enterprise Service for the reversal supports individual and mass reversals.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:59 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_022_p004_b000",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    134,
+    2461,
+    856
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [],
+   "text": "Contract Accounts Receivable and Payable recognizes a payment from the unique transaction ID ( PaymentTransactionID ) for each cash desk/branch ( CashPointReferencelD / CashPointOfficeReferencelD ). To assign payments to a day-end closing record later, specify the grouping key. The Enterprise Service for the transfer of day-end closing then delivers the grouping key together with the total amount of all payments. The grouping key is unique for each cash desk/branch. For information purposes, you can specify the business partner ID ( PayerParty ) or the contract account number ( PayerContractAccountID ) of the payer. The business partner ID is only supported as an internal business partner number (); the GUID and external business partner numbers are not supported in the standard. At the PaymentExplanation level, you can specify the following information for the clearing control for clearing open items.",
+   "section_id": "doc_022_sec_029"
+  },
+  {
+   "block_id": "doc_022_p004_b001",
+   "type": "table",
+   "page_number": 4,
+   "bbox": [
+    147,
+    964,
+    1777,
+    1638
+   ],
+   "ocr_confidence": 93.3,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    147,
+    988
+   ],
+   "headers": [
+    "Type Definition",
+    "Name"
+   ],
+   "rows": [
+    [
+     "DebtorInternallD",
+     "Business partner number (GPART)"
+    ],
+    [
+     "ContractAccountReferencelD",
+     "Contract account number (VKONT)"
+    ],
+    [
+     "ContractID",
+     "Contract number (VTREF)"
+    ],
+    [
+     "InvoiceReferencelD",
+     "External reference document number (XBLNR)"
+    ],
+    [
+     "ContractAccountDocumentReferencelD",
+     "Document number (OPBEL)"
+    ],
+    [
+     "PaymentFormReferencelD",
+     "External payment form number (RFZAS)"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Type Definition",
+     "Name"
+    ],
+    [
+     "DebtorInternallD",
+     "Business partner number (GPART)"
+    ],
+    [
+     "ContractAccountReferencelD",
+     "Contract account number (VKONT)"
+    ],
+    [
+     "ContractID",
+     "Contract number (VTREF)"
+    ],
+    [
+     "InvoiceReferencelD",
+     "External reference document number (XBLNR)"
+    ],
+    [
+     "ContractAccountDocumentReferencelD",
+     "Document number (OPBEL)"
+    ],
+    [
+     "PaymentFormReferencelD",
+     "External payment form number (RFZAS)"
+    ]
+   ],
+   "section_id": "doc_022_sec_029"
+  },
+  {
+   "block_id": "doc_022_p004_b002",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    1741,
+    2437,
+    2278
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "Using the clearing amount ( ClearingAmount ), you can also assign partial amounts. If you specify more than one item of information in a PaymentExplanation record, this is seen as a conjunction. You achieve a disjunction by distributing the information over several PaymentExplanation records. You can only use information about checks, payment cards, and postal orders for offline branches, not for agent cash desks. For agent cash desks, the application of the cash desk software does the communication with the credit card company, for example. The settlement is direct between the agent and the credit card company. Contract Accounts Receivable and Payable therefore always interprets payments from agent cash desks as external (cash) payments (EXT).",
+   "section_id": "doc_022_sec_029"
+  },
+  {
+   "block_id": "doc_022_p004_b003",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    128,
+    2424,
+    901,
+    2500
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Reversal of Payments",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_030"
+  },
+  {
+   "block_id": "doc_022_p004_b004",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    125,
+    2601,
+    225,
+    2646
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_031"
+  },
+  {
+   "block_id": "doc_022_p004_b005",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    125,
+    2732,
+    1374,
+    2772
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Reversal of a payment in Contract Accounts Receivable and Payable",
+   "level": 3,
+   "heading_confidence": "low",
+   "section_id": "doc_022_sec_031"
+  },
+  {
+   "block_id": "doc_022_p004_b006",
+   "type": "heading",
+   "page_number": 4,
+   "bbox": [
+    126,
+    2883,
+    361,
+    2928
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_022_sec_032"
+  },
+  {
+   "block_id": "doc_022_p004_b007",
+   "type": "paragraph",
+   "page_number": 4,
+   "bbox": [
+    122,
+    3015,
+    2378,
+    3238
+   ],
+   "ocr_confidence": 95.7,
+   "flags": [],
+   "text": "With the Enterprise Service CashPointPaymentReverseNotification , you can reverse payments previously sent to an offline branch from a cash desk. However, a reversal is only possible until you call the Enterprise Service for day-end closing. The Enterprise Service for the reversal supports individual and mass reversals.",
+   "section_id": "doc_022_sec_032"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63,
+  "body_stroke_median": 0.1,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Processing Incoming Payments from External Cash Desks",
+  "source_pdf": "22.pdf",
+  "reference_pdf": "22_Processing_Incoming_Payments_from_External_Cash_Desks.pdf",
+  "category": "Payments & Clearing",
+  "m2c_relevance": "Relevant to real-time external payment and reversal scenarios.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/9442486404b54071b4ebeab6a16628e7?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "3566ae85f2c9f583f397494492ee4433a634bd6cccbfc319fe2e5185625fd390"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:44Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Processing Incoming Payments from External Cash Desks",
+  "Enterprise Service CashPointPaymentCreateNotification",
+  "Structure",
+  "Postal order information"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_022_sec_029",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_022_sec_030",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_031",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_022_sec_032",
+   "role": "starts_here"
+  }
+ ]
+}

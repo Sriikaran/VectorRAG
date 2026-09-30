@@ -1,0 +1,448 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 10,
+ "source_page_hash": "3b00d23087582dd01d03e95331ca2be68097348d81a6b83988ca41ffb9f16fc1",
+ "is_cover_page": false,
+ "title": "Query Debt Recovery Score By Debtor Party",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\n\nEntity Type            Service Interface\nCategory              SAP A2A\nDirection         outbound\n\nQuery Debt Recovery Score By Debtor Party\n\nDefinition\n\nRequesting the debt recovery score for a debtor\n\nTechnical Data\n\nEntity Type                                                                         Service Operation\nRelease State                                                                      not defined\n\nNotes on Release State\n\nTechnical Name                                                              CreditAgencyReportERPDebtRecoveryScoreByDebtorPartyQuery_Out\nNamespace                                                                        http://sap.com/xi/FICA/Global2 Pe\nApplication Component                                                         FI-CA\nCategory                                                                           SAP A2A\nDirection                                                                                  outbound\nMode                                                                                       asynchronous\nIdempotency                                                                      not applicable\nChange/Update Behavior                                                        not applicable\nP2P Communication Enabled                                                 no\nFeatures\n\nThe debt recovery score gives an assessment of the probability that overdue payments for a collection case assigned to a\ncollection agency can be collected. It is a separate rating value in addition to the creditworthiness rating (score) from external\ncredit agencies.\n\nThe outbound service operation Query Debt Recovery Score By Debtor Party initiates the query for the debt recovery score for\none or more specified business partners.\n\nThe debt recovery score can be used to decide whether to submit items of a business partner to an external collection agency or\nto a legal dunning system. The outbound service operation Query Debt Recovery Score By Debtor Party can be used to request\nthe debt recovery score ina preliminary step of the actual submission (for example during the release of items or during the\n\nSk a a, ee a, a Se Sh i ok i . s ae en i ea, ee, a. as es  : on ae\n",
+ "cleaned_text": "Entity Type | Service Interface\n\nCategory | SAP A2A\n\nDirection | outbound\n\nQuery Debt Recovery Score By Debtor Party\n\nDefinition\n\nRequesting the debt recovery score for a debtor\n\nTechnical Data\n\nEntity Type | Service Operation\n\nRelease State | not defined\n\nNotes on Release State\n\nTechnical Name | CreditAgencyReportERPDebtRecoveryScoreByDebtorPartyQuery_Out\n\nNamespace | http://sap.com/xi/FICA/Global2 Pe\n\nApplication Component | FI-CA\n\nCategory | SAP A2A\n\nDirection | outbound\n\nMode | asynchronous\n\nIdempotency | not applicable\n\nChange/Update Behavior | not applicable\n\nP2P Communication Enabled | no\n\nFeatures\n\nThe debt recovery score gives an assessment of the probability that overdue payments for a collection case assigned to a collection agency can be collected. It is a separate rating value in addition to the creditworthiness rating (score) from external credit agencies. The outbound service operation Query Debt Recovery Score By Debtor Party initiates the query for the debt recovery score for one or more specified business partners. The debt recovery score can be used to decide whether to submit items of a business partner to an external collection agency or to a legal dunning system. The outbound service operation Query Debt Recovery Score By Debtor Party can be used to request the debt recovery score ina preliminary step of the actual submission (for example during the release of items or during the\n\nSk a a, ee a, a Se Sh i ok i . s ae en i ea, ee, a. as es : on ae",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p010_b000",
+   "type": "table",
+   "page_number": 10,
+   "bbox": [
+    148,
+    159,
+    766,
+    398
+   ],
+   "ocr_confidence": 95.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    482
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Interface"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "outbound"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Interface"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "outbound"
+    ]
+   ],
+   "section_id": "doc_018_sec_053"
+  },
+  {
+   "block_id": "doc_018_p010_b001",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    125,
+    577,
+    1720,
+    653
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Query Debt Recovery Score By Debtor Party",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_054"
+  },
+  {
+   "block_id": "doc_018_p010_b002",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    126,
+    754,
+    393,
+    799
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_055"
+  },
+  {
+   "block_id": "doc_018_p010_b003",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    125,
+    887,
+    988,
+    924
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Requesting the debt recovery score for a debtor",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_018_sec_055"
+  },
+  {
+   "block_id": "doc_018_p010_b004",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    123,
+    1037,
+    530,
+    1082
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_056"
+  },
+  {
+   "block_id": "doc_018_p010_b005",
+   "type": "table",
+   "page_number": 10,
+   "bbox": [
+    150,
+    1194,
+    1580,
+    1328
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    150,
+    1281
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "not defined"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "not defined"
+    ]
+   ],
+   "section_id": "doc_018_sec_056"
+  },
+  {
+   "block_id": "doc_018_p010_b006",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    150,
+    1404,
+    537,
+    1433
+   ],
+   "ocr_confidence": 95.8,
+   "flags": [],
+   "text": "Notes on Release State",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_057"
+  },
+  {
+   "block_id": "doc_018_p010_b007",
+   "type": "table",
+   "page_number": 10,
+   "bbox": [
+    148,
+    1510,
+    2464,
+    2385
+   ],
+   "ocr_confidence": 92.7,
+   "flags": [
+    "low_confidence_words:1",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    1278
+   ],
+   "headers": [
+    "Technical Name",
+    "CreditAgencyReportERPDebtRecoveryScoreByDebtorPartyQuery_Out"
+   ],
+   "rows": [
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global2 Pe"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "outbound"
+    ],
+    [
+     "Mode",
+     "asynchronous"
+    ],
+    [
+     "Idempotency",
+     "not applicable"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "no"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Technical Name",
+     "CreditAgencyReportERPDebtRecoveryScoreByDebtorPartyQuery_Out"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FICA/Global2 Pe"
+    ],
+    [
+     "Application Component",
+     "FI-CA"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "outbound"
+    ],
+    [
+     "Mode",
+     "asynchronous"
+    ],
+    [
+     "Idempotency",
+     "not applicable"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "no"
+    ]
+   ],
+   "section_id": "doc_018_sec_057"
+  },
+  {
+   "block_id": "doc_018_p010_b008",
+   "type": "heading",
+   "page_number": 10,
+   "bbox": [
+    126,
+    2528,
+    361,
+    2573
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_058"
+  },
+  {
+   "block_id": "doc_018_p010_b009",
+   "type": "paragraph",
+   "page_number": 10,
+   "bbox": [
+    122,
+    2661,
+    2445,
+    3257
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The debt recovery score gives an assessment of the probability that overdue payments for a collection case assigned to a collection agency can be collected. It is a separate rating value in addition to the creditworthiness rating (score) from external credit agencies. The outbound service operation Query Debt Recovery Score By Debtor Party initiates the query for the debt recovery score for one or more specified business partners. The debt recovery score can be used to decide whether to submit items of a business partner to an external collection agency or to a legal dunning system. The outbound service operation Query Debt Recovery Score By Debtor Party can be used to request the debt recovery score ina preliminary step of the actual submission (for example during the release of items or during the",
+   "section_id": "doc_018_sec_058"
+  },
+  {
+   "block_id": "doc_018_p010_b010",
+   "type": "fragment",
+   "page_number": 10,
+   "bbox": [
+    124,
+    3281,
+    2375,
+    3300
+   ],
+   "ocr_confidence": 12.1,
+   "flags": [
+    "low_confidence_words:24",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "Sk a a, ee a, a Se Sh i ok i . s ae en i ea, ee, a. as es : on ae",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_018_sec_058"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 86,
+   "page_hash": "3b00d23087582dd01d03e95331ca2be68097348d81a6b83988ca41ffb9f16fc1"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Debt Recovery Score Processing Out"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_053",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_018_sec_054",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_055",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_056",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_057",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_058",
+   "role": "starts_here"
+  }
+ ]
+}

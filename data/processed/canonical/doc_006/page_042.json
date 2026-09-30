@@ -1,0 +1,525 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 42,
+ "source_page_hash": "789bae9e600e6d190cbea549e27094cf68e82acb36398146e50d17c8cab266ad",
+ "is_cover_page": false,
+ "title": "Street Route",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\n\ne House Number (connection object)\n\ne Device Location\n\ne Device\n\nStreet Route\n\nMR unit A           _\n\nDistrict 1\n\nDistrict 2\n\nDistrict n\n\nStreet 1\n\nStreet 2\n\nStreet n\n\nImplementation Considerations\n\nStreet Route\n\nConnection Object __\n1\n\nConnection Object\n2\n\nConnection Object\nn\n\nDevice Loc. 1:\n\nDevice Loc. 2:\n\nDevice Location n\n\nThis component is optional. You require it if you wish to optimize the meter reader\u2019s route.\n\nFeatures\n\n/\u2014         Device 1\n\n=           Device 2\n\nDevice n\n\nYou can maintain the street route for a single meter reading unit or you can create a shared street route for several meter reading\n\nunits. Before you can use a shared street route, you must allocate the meter reading units in the relevant schedule records to one\n\nanother.\n\nThe following enhancements can be used for the street route:\n\ne EDMLSORT (IS-U: Sort Meter Reading Orders for Printout and Download)\n\nYou can use this enhancement to define your own sort sequence for printing or downloading meter reading orders.\n\nMaintain Street Route for Meter Reading Unit\n\nYou can use this app to define street routes for a meter reading unit.\n\nPrerequisites\n\nInstallations with installed devices have been allocated to the meter reading unit.\n",
+ "cleaned_text": "- House Number (connection object)\n\n- Device Location\n\n- Device\n\nStreet Route\n\nMR unit A | _\n\nDistrict 1\n\nDistrict 2\n\nDistrict n Street 1 Street 2 Street n\n\nImplementation Considerations\n\nStreet Route\n\nConnection Object __ 1 Connection Object 2 Connection Object n Device Loc. 1: Device Loc. 2: Device Location n\n\nThis component is optional. You require it if you wish to optimize the meter reader\u2019s route.\n\nFeatures\n\n/\u2014 | Device 1\n\n= | Device 2\n\nDevice n\n\nYou can maintain the street route for a single meter reading unit or you can create a shared street route for several meter reading units. Before you can use a shared street route, you must allocate the meter reading units in the relevant schedule records to one another. The following enhancements can be used for the street route:\n\n- EDMLSORT (IS-U: Sort Meter Reading Orders for Printout and Download)\n\nYou can use this enhancement to define your own sort sequence for printing or downloading meter reading orders.\n\nMaintain Street Route for Meter Reading Unit\n\nYou can use this app to define street routes for a meter reading unit.\n\nPrerequisites\n\nInstallations with installed devices have been allocated to the meter reading unit.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p042_b000",
+   "type": "list",
+   "page_number": 42,
+   "bbox": [
+    207,
+    135,
+    893,
+    368
+   ],
+   "ocr_confidence": 94.6,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "House Number (connection object)"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Device Location"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Device"
+    }
+   ],
+   "section_id": "doc_006_sec_061"
+  },
+  {
+   "block_id": "doc_006_p042_b001",
+   "type": "heading",
+   "page_number": 42,
+   "bbox": [
+    123,
+    463,
+    359,
+    493
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Street Route",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_062"
+  },
+  {
+   "block_id": "doc_006_p042_b002",
+   "type": "table",
+   "page_number": 42,
+   "bbox": [
+    223,
+    902,
+    594,
+    926
+   ],
+   "ocr_confidence": 67.0,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    223,
+    462
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "MR unit A",
+     "_"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "MR unit A",
+     "_"
+    ]
+   ],
+   "section_id": "doc_006_sec_062"
+  },
+  {
+   "block_id": "doc_006_p042_b003",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    695,
+    902,
+    821,
+    926
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "District 1",
+   "section_id": "doc_006_sec_062"
+  },
+  {
+   "block_id": "doc_006_p042_b004",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    679,
+    1375,
+    808,
+    1399
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "District 2",
+   "section_id": "doc_006_sec_062"
+  },
+  {
+   "block_id": "doc_006_p042_b005",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    678,
+    1015,
+    1047,
+    1532
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "District n Street 1 Street 2 Street n",
+   "section_id": "doc_006_sec_062"
+  },
+  {
+   "block_id": "doc_006_p042_b006",
+   "type": "heading",
+   "page_number": 42,
+   "bbox": [
+    127,
+    1689,
+    1012,
+    1747
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "Implementation Considerations",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_063"
+  },
+  {
+   "block_id": "doc_006_p042_b007",
+   "type": "heading",
+   "page_number": 42,
+   "bbox": [
+    1160,
+    596,
+    1422,
+    631
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Street Route",
+   "level": 4,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_064"
+  },
+  {
+   "block_id": "doc_006_p042_b008",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    1287,
+    1073,
+    1988,
+    1385
+   ],
+   "ocr_confidence": 94.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Connection Object __ 1 Connection Object 2 Connection Object n Device Loc. 1: Device Loc. 2: Device Location n",
+   "section_id": "doc_006_sec_064"
+  },
+  {
+   "block_id": "doc_006_p042_b009",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    122,
+    1823,
+    1744,
+    1861
+   ],
+   "ocr_confidence": 95.4,
+   "flags": [],
+   "text": "This component is optional. You require it if you wish to optimize the meter reader\u2019s route.",
+   "section_id": "doc_006_sec_064"
+  },
+  {
+   "block_id": "doc_006_p042_b010",
+   "type": "heading",
+   "page_number": 42,
+   "bbox": [
+    126,
+    1972,
+    361,
+    2018
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_065"
+  },
+  {
+   "block_id": "doc_006_p042_b011",
+   "type": "table",
+   "page_number": 42,
+   "bbox": [
+    2069,
+    1240,
+    2350,
+    1362
+   ],
+   "ocr_confidence": 79.6,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    2069,
+    2226
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "/\u2014",
+     "Device 1"
+    ],
+    [
+     "=",
+     "Device 2"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "/\u2014",
+     "Device 1"
+    ],
+    [
+     "=",
+     "Device 2"
+    ]
+   ],
+   "section_id": "doc_006_sec_065"
+  },
+  {
+   "block_id": "doc_006_p042_b012",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    2225,
+    1435,
+    2350,
+    1459
+   ],
+   "ocr_confidence": 89.0,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Device n",
+   "section_id": "doc_006_sec_065"
+  },
+  {
+   "block_id": "doc_006_p042_b013",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    122,
+    2102,
+    2454,
+    2390
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "You can maintain the street route for a single meter reading unit or you can create a shared street route for several meter reading units. Before you can use a shared street route, you must allocate the meter reading units in the relevant schedule records to one another. The following enhancements can be used for the street route:",
+   "section_id": "doc_006_sec_065"
+  },
+  {
+   "block_id": "doc_006_p042_b014",
+   "type": "list",
+   "page_number": 42,
+   "bbox": [
+    207,
+    2473,
+    1579,
+    2511
+   ],
+   "ocr_confidence": 94.3,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "EDMLSORT (IS-U: Sort Meter Reading Orders for Printout and Download)"
+    }
+   ],
+   "section_id": "doc_006_sec_065"
+  },
+  {
+   "block_id": "doc_006_p042_b015",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    123,
+    2595,
+    2191,
+    2633
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "You can use this enhancement to define your own sort sequence for printing or downloading meter reading orders.",
+   "section_id": "doc_006_sec_065"
+  },
+  {
+   "block_id": "doc_006_p042_b016",
+   "type": "heading",
+   "page_number": 42,
+   "bbox": [
+    128,
+    2782,
+    1759,
+    2858
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Maintain Street Route for Meter Reading Unit",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_066"
+  },
+  {
+   "block_id": "doc_006_p042_b017",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    122,
+    2930,
+    1350,
+    2968
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "You can use this app to define street routes for a meter reading unit.",
+   "section_id": "doc_006_sec_066"
+  },
+  {
+   "block_id": "doc_006_p042_b018",
+   "type": "heading",
+   "page_number": 42,
+   "bbox": [
+    126,
+    3080,
+    492,
+    3136
+   ],
+   "ocr_confidence": 96.6,
+   "flags": [],
+   "text": "Prerequisites",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_067"
+  },
+  {
+   "block_id": "doc_006_p042_b019",
+   "type": "paragraph",
+   "page_number": 42,
+   "bbox": [
+    125,
+    3213,
+    1583,
+    3250
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Installations with installed devices have been allocated to the meter reading unit.",
+   "section_id": "doc_006_sec_067"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "789bae9e600e6d190cbea549e27094cf68e82acb36398146e50d17c8cab266ad"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:34Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Street Route",
+  "Purpose"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_061",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_006_sec_062",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_063",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_064",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_065",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_066",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_067",
+   "role": "starts_here"
+  }
+ ]
+}

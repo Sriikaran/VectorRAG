@@ -1,0 +1,420 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 111,
+ "source_page_hash": "6c2e0f2b255b7ef291178768fcb3b63d9b23694af4dea641421f84387353c711",
+ "is_cover_page": false,
+ "title": "Example 2",
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nBusiness\nPartner\n\negister\n\nInstallation\n\nWatt-Hour\n\nProfile Value Import\n\nPoDID        DE 081501\n\norecast\n\nReg.Code | Watt-Hour\nRole Cat. (*1)                                                                            egister\n\nReac.Cons. j\nRole (*1)\n\n_\n\n(*1) Optional\n(Defaultis Role Cat. <Consumption=\n\nCommunication in the deregulated energy market is still based on the deregulation point of delivery.\n\nExample 2\n\nDevice 4712, containing the registers listed below, is allocated to installation 0816:\n\nDevice 4712                    Register Code                 Interval Length\nReg 1                             Watt-hour energy           15 mins\nReg 2                           Reactive consumption | 15 mins\nReg 3                             Watt-hour energy           15 mins\n\nIn the installation, register Reg. 3 performs the same meter reading tasks as register Reg. 1. For this reason, the same register code\nis used for identification purposes.\n\nRegisters allocated to a point of delivery must have a unique meter reading task as described by the register code. In the following\ngraphic, this allocation is not unique.\n\nVL vp ne eet LARS rnnet Mevprifilanswaliinnm nf bank KnevenfLiln -~lla~AnnAt+eBA LR LAR pRaRintanvpiasrnth LAR VALAAE le mswmm vpemwirntar nrAnan ans thin Mawmerremwebinaw\u201c\n",
+ "cleaned_text": "Business Partner\n\negister Installation Watt-Hour\n\nProfile Value Import\n\nPoDID | DE 081501\n\norecast Reg.Code | Watt-Hour\n\nRole Cat. (*1) | egister\n\nReac.Cons. j Role (*1)\n\n_ (*1) Optional (Defaultis Role Cat. <Consumption=\n\nCommunication in the deregulated energy market is still based on the deregulation point of delivery.\n\nExample 2\n\nDevice 4712, containing the registers listed below, is allocated to installation 0816:\n\nDevice 4712 | Register Code | Interval Length\n\nReg 1 | Watt-hour energy | 15 mins\n\nReg 2 | Reactive consumption | 15 mins\n\nReg 3 | Watt-hour energy | 15 mins\n\nIn the installation, register Reg. 3 performs the same meter reading tasks as register Reg. 1. For this reason, the same register code is used for identification purposes. Registers allocated to a point of delivery must have a unique meter reading task as described by the register code. In the following graphic, this allocation is not unique.\n\nVL vp ne eet LARS rnnet Mevprifilanswaliinnm nf bank KnevenfLiln -~lla~AnnAt+eBA LR LAR pRaRintanvpiasrnth LAR VALAAE le mswmm vpemwirntar nrAnan ans thin Mawmerremwebinaw\u201c",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p111_b000",
+   "type": "paragraph",
+   "page_number": 111,
+   "bbox": [
+    857,
+    373,
+    1067,
+    469
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Business Partner",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p111_b001",
+   "type": "paragraph",
+   "page_number": 111,
+   "bbox": [
+    813,
+    642,
+    1855,
+    741
+   ],
+   "ocr_confidence": 90.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "egister Installation Watt-Hour",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p111_b002",
+   "type": "paragraph",
+   "page_number": 111,
+   "bbox": [
+    188,
+    894,
+    622,
+    938
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Profile Value Import",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p111_b003",
+   "type": "table",
+   "page_number": 111,
+   "bbox": [
+    188,
+    973,
+    731,
+    1027
+   ],
+   "ocr_confidence": 62.1,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    188,
+    506
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "PoDID",
+     "DE 081501"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "PoDID",
+     "DE 081501"
+    ]
+   ],
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p111_b004",
+   "type": "paragraph",
+   "page_number": 111,
+   "bbox": [
+    188,
+    1042,
+    1946,
+    1157
+   ],
+   "ocr_confidence": 86.2,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "orecast Reg.Code | Watt-Hour",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p111_b005",
+   "type": "table",
+   "page_number": 111,
+   "bbox": [
+    188,
+    1168,
+    1855,
+    1235
+   ],
+   "ocr_confidence": 92.5,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    188,
+    1687
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Role Cat. (*1)",
+     "egister"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Role Cat. (*1)",
+     "egister"
+    ]
+   ],
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p111_b006",
+   "type": "paragraph",
+   "page_number": 111,
+   "bbox": [
+    188,
+    1233,
+    1905,
+    1314
+   ],
+   "ocr_confidence": 82.6,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "Reac.Cons. j Role (*1)",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p111_b007",
+   "type": "paragraph",
+   "page_number": 111,
+   "bbox": [
+    195,
+    1427,
+    946,
+    1689
+   ],
+   "ocr_confidence": 82.9,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "text": "_ (*1) Optional (Defaultis Role Cat. <Consumption=",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p111_b008",
+   "type": "paragraph",
+   "page_number": 111,
+   "bbox": [
+    123,
+    1971,
+    1932,
+    2009
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Communication in the deregulated energy market is still based on the deregulation point of delivery.",
+   "section_id": "doc_001_sec_427"
+  },
+  {
+   "block_id": "doc_001_p111_b009",
+   "type": "heading",
+   "page_number": 111,
+   "bbox": [
+    128,
+    2154,
+    495,
+    2230
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Example 2",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_001_sec_428"
+  },
+  {
+   "block_id": "doc_001_p111_b010",
+   "type": "paragraph",
+   "page_number": 111,
+   "bbox": [
+    125,
+    2305,
+    1602,
+    2344
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Device 4712, containing the registers listed below, is allocated to installation 0816:",
+   "section_id": "doc_001_sec_428"
+  },
+  {
+   "block_id": "doc_001_p111_b011",
+   "type": "table",
+   "page_number": 111,
+   "bbox": [
+    149,
+    2452,
+    1256,
+    2803
+   ],
+   "ocr_confidence": 94.5,
+   "flags": [
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 3,
+   "column_starts": [
+    149,
+    572,
+    996
+   ],
+   "headers": [
+    "Device 4712",
+    "Register Code",
+    "Interval Length"
+   ],
+   "rows": [
+    [
+     "Reg 1",
+     "Watt-hour energy",
+     "15 mins"
+    ],
+    [
+     "Reg 2",
+     "Reactive consumption | 15 mins"
+    ],
+    [
+     "Reg 3",
+     "Watt-hour energy",
+     "15 mins"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Device 4712",
+     "Register Code",
+     "Interval Length"
+    ],
+    [
+     "Reg 1",
+     "Watt-hour energy",
+     "15 mins"
+    ],
+    [
+     "Reg 2",
+     "Reactive consumption | 15 mins"
+    ],
+    [
+     "Reg 3",
+     "Watt-hour energy",
+     "15 mins"
+    ]
+   ],
+   "section_id": "doc_001_sec_428"
+  },
+  {
+   "block_id": "doc_001_p111_b012",
+   "type": "paragraph",
+   "page_number": 111,
+   "bbox": [
+    122,
+    2914,
+    2484,
+    3198
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "In the installation, register Reg. 3 performs the same meter reading tasks as register Reg. 1. For this reason, the same register code is used for identification purposes. Registers allocated to a point of delivery must have a unique meter reading task as described by the register code. In the following graphic, this allocation is not unique.",
+   "section_id": "doc_001_sec_428"
+  },
+  {
+   "block_id": "doc_001_p111_b013",
+   "type": "fragment",
+   "page_number": 111,
+   "bbox": [
+    125,
+    3281,
+    2464,
+    3300
+   ],
+   "ocr_confidence": 27.3,
+   "flags": [
+    "low_confidence_words:19",
+    "cut_off_at_page_bottom"
+   ],
+   "text": "VL vp ne eet LARS rnnet Mevprifilanswaliinnm nf bank KnevenfLiln -~lla~AnnAt+eBA LR LAR pRaRintanvpiasrnth LAR VALAAE le mswmm vpemwirntar nrAnan ans thin Mawmerremwebinaw\u201c",
+   "fragment_reason": "line cut off at page bottom",
+   "section_id": "doc_001_sec_428"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 61.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 85,
+   "page_hash": "6c2e0f2b255b7ef291178768fcb3b63d9b23694af4dea641421f84387353c711"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Example 1"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_427",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_001_sec_428",
+   "role": "starts_here"
+  }
+ ]
+}

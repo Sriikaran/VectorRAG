@@ -1,0 +1,102 @@
+{
+ "document_id": "doc_011",
+ "page_number": 27,
+ "source_pdf": "11.pdf",
+ "page_hash": "51f20a61a377ddc390c5f1b3918d47eafd97fcbec0548a500004c8152739ec14",
+ "ocr_engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+ "ocr_settings": {
+  "oem": 1,
+  "psm": 3,
+  "dpi": 300,
+  "language": "eng",
+  "colorspace": "grayscale",
+  "variables": {
+   "preserve_interword_spaces": "1"
+  }
+ },
+ "render_size": [
+  2550,
+  3300
+ ],
+ "text": "9/29/26, 9:47 AM\n\nTime\n\nComponent\nprioritization\n\nperiods\n\nComponent\nexecution\n\n",
+ "character_count": 80,
+ "word_count": 9,
+ "mean_confidence": 95,
+ "word_boxes": [
+  [
+   "9/29/26,",
+   107,
+   72,
+   248,
+   103,
+   96.0
+  ],
+  [
+   "9:47",
+   264,
+   72,
+   338,
+   99,
+   94.9
+  ],
+  [
+   "AM",
+   353,
+   73,
+   403,
+   99,
+   96.9
+  ],
+  [
+   "Time",
+   1831,
+   369,
+   1935,
+   402,
+   96.0
+  ],
+  [
+   "Component",
+   2049,
+   516,
+   2279,
+   556,
+   96.0
+  ],
+  [
+   "prioritization",
+   2049,
+   567,
+   2299,
+   606,
+   96.2
+  ],
+  [
+   "periods",
+   2049,
+   663,
+   2200,
+   703,
+   95.6
+  ],
+  [
+   "Component",
+   2071,
+   1376,
+   2301,
+   1416,
+   95.9
+  ],
+  [
+   "execution",
+   2071,
+   1425,
+   2264,
+   1455,
+   96.6
+  ]
+ ],
+ "processed_at": "2026-09-30T09:16:23Z",
+ "duration_seconds": 0.28,
+ "complete": true
+}

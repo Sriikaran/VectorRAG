@@ -1,0 +1,320 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_006",
+ "page_number": 84,
+ "source_page_hash": "92fca81f1dda15805e3cde0d87386556ba9d98c16081bb27bde65cc2aeea0141",
+ "is_cover_page": false,
+ "title": "Use",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:42 AM\nUse\n\nIf measurement data is incomplete or implausible, it may be necessary to replace or add to this data with estimated values. Data\nsimulations and forecasts are also based on estimations. In SAP Utilities, estimation procedures are used in the following\nprocesses:\n\ne Estimate meter reading results\ne Validate meter reading results\ne Billing simulation\n\ne Budget billing plan creation\n\ne Unbilled revenue reporting\n\nThe estimation procedures used are extrapolation and interpolation. When using the quantity determination procedure Quantity\n\nDetermination During Meter Reading, both of these procedures use the quantities saved in the system for the respective base\nperiod as a basis for estimation. The system uses these quantities to calculate the quantity for the estimation period and then\ncalculates the estimated value for the meter reading.\n\nDuring extrapolation, a value is determined beyond the base period. During interpolation, a value is estimated between other\nexisting values. The base period is the period that contains all meter readings used as the basis for estimation.\n\nOne feature of the quantity determination procedure Quantity Determination During Meter Reading for the gas division is that\nthe quantity is calculated once an actual meter reading is available following one or more estimations (usually extrapolations). In\nthis case, the gas factors are determined for the most recent actual previous meter reading result. This part of the concept is\ndescribed in section Interaction - Estimation and Meter Reading.\n\nWith these differences in mind, you can read the information about the classical estimation procedures for discrete values:\nClassical Estimation Procedure\nThe aspects specifically relevant for quantity determination during meter reading are described in the following sections.\n\nDuring estimation, assumptions are made regarding the time-related distribution of the quantity on which the estimation is based.\nThis distribution is described with a weighting function y(t). The examples in the further sections are based on a linear\ndistribution of weightings in which the weighting function increases by one unit per day. In practice, you can also set up and use\nother weighting methods in the system. For more information about weighting procedures and the necessary Customizing\nsettings, see Weighting Procedures.\n\nFeatures\n\nThe following sections describe extrapolation and interpolation as estimation procedures for discrete data during the use of the\nquantity determination procedure Quantity Determination During Meter Reading.\n\nExtrapolation\n\nInterpolation\n\nThe concept for calculating the quantity once an actual meter reading result is available following one or more estimations (usually\nextrapolations) is described in the following section:\n",
+ "cleaned_text": "Use\n\nIf measurement data is incomplete or implausible, it may be necessary to replace or add to this data with estimated values. Data simulations and forecasts are also based on estimations. In SAP Utilities, estimation procedures are used in the following processes:\n\n- Estimate meter reading results\n\n- Validate meter reading results\n\n- Billing simulation\n\n- Budget billing plan creation\n\n- Unbilled revenue reporting\n\nThe estimation procedures used are extrapolation and interpolation. When using the quantity determination procedure Quantity Determination During Meter Reading, both of these procedures use the quantities saved in the system for the respective base period as a basis for estimation. The system uses these quantities to calculate the quantity for the estimation period and then calculates the estimated value for the meter reading. During extrapolation, a value is determined beyond the base period. During interpolation, a value is estimated between other existing values. The base period is the period that contains all meter readings used as the basis for estimation. One feature of the quantity determination procedure Quantity Determination During Meter Reading for the gas division is that the quantity is calculated once an actual meter reading is available following one or more estimations (usually extrapolations). In this case, the gas factors are determined for the most recent actual previous meter reading result. This part of the concept is described in section Interaction - Estimation and Meter Reading. With these differences in mind, you can read the information about the classical estimation procedures for discrete values:\n\nClassical Estimation Procedure\n\nThe aspects specifically relevant for quantity determination during meter reading are described in the following sections. During estimation, assumptions are made regarding the time-related distribution of the quantity on which the estimation is based. This distribution is described with a weighting function y(t). The examples in the further sections are based on a linear distribution of weightings in which the weighting function increases by one unit per day. In practice, you can also set up and use other weighting methods in the system. For more information about weighting procedures and the necessary Customizing settings, see Weighting Procedures.\n\nFeatures\n\nThe following sections describe extrapolation and interpolation as estimation procedures for discrete data during the use of the quantity determination procedure Quantity Determination During Meter Reading.\n\nExtrapolation\n\nInterpolation\n\nThe concept for calculating the quantity once an actual meter reading result is available following one or more estimations (usually extrapolations) is described in the following section:",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:42 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_006_p084_b000",
+   "type": "heading",
+   "page_number": 84,
+   "bbox": [
+    125,
+    126,
+    225,
+    172
+   ],
+   "ocr_confidence": 96.3,
+   "flags": [],
+   "text": "Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_229"
+  },
+  {
+   "block_id": "doc_006_p084_b001",
+   "type": "paragraph",
+   "page_number": 84,
+   "bbox": [
+    123,
+    259,
+    2441,
+    422
+   ],
+   "ocr_confidence": 95.9,
+   "flags": [],
+   "text": "If measurement data is incomplete or implausible, it may be necessary to replace or add to this data with estimated values. Data simulations and forecasts are also based on estimations. In SAP Utilities, estimation procedures are used in the following processes:",
+   "section_id": "doc_006_sec_229"
+  },
+  {
+   "block_id": "doc_006_p084_b002",
+   "type": "list",
+   "page_number": 84,
+   "bbox": [
+    207,
+    506,
+    812,
+    954
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Estimate meter reading results"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Validate meter reading results"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Billing simulation"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Budget billing plan creation"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Unbilled revenue reporting"
+    }
+   ],
+   "section_id": "doc_006_sec_229"
+  },
+  {
+   "block_id": "doc_006_p084_b003",
+   "type": "paragraph",
+   "page_number": 84,
+   "bbox": [
+    122,
+    1038,
+    2465,
+    1884
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "The estimation procedures used are extrapolation and interpolation. When using the quantity determination procedure Quantity Determination During Meter Reading, both of these procedures use the quantities saved in the system for the respective base period as a basis for estimation. The system uses these quantities to calculate the quantity for the estimation period and then calculates the estimated value for the meter reading. During extrapolation, a value is determined beyond the base period. During interpolation, a value is estimated between other existing values. The base period is the period that contains all meter readings used as the basis for estimation. One feature of the quantity determination procedure Quantity Determination During Meter Reading for the gas division is that the quantity is calculated once an actual meter reading is available following one or more estimations (usually extrapolations). In this case, the gas factors are determined for the most recent actual previous meter reading result. This part of the concept is described in section Interaction - Estimation and Meter Reading. With these differences in mind, you can read the information about the classical estimation procedures for discrete values:",
+   "section_id": "doc_006_sec_229"
+  },
+  {
+   "block_id": "doc_006_p084_b004",
+   "type": "heading",
+   "page_number": 84,
+   "bbox": [
+    123,
+    1970,
+    685,
+    2000
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Classical Estimation Procedure",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_229"
+  },
+  {
+   "block_id": "doc_006_p084_b005",
+   "type": "paragraph",
+   "page_number": 84,
+   "bbox": [
+    122,
+    2093,
+    2477,
+    2508
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The aspects specifically relevant for quantity determination during meter reading are described in the following sections. During estimation, assumptions are made regarding the time-related distribution of the quantity on which the estimation is based. This distribution is described with a weighting function y(t). The examples in the further sections are based on a linear distribution of weightings in which the weighting function increases by one unit per day. In practice, you can also set up and use other weighting methods in the system. For more information about weighting procedures and the necessary Customizing settings, see Weighting Procedures.",
+   "section_id": "doc_006_sec_229"
+  },
+  {
+   "block_id": "doc_006_p084_b006",
+   "type": "heading",
+   "page_number": 84,
+   "bbox": [
+    126,
+    2620,
+    361,
+    2665
+   ],
+   "ocr_confidence": 96.7,
+   "flags": [],
+   "text": "Features",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_006_sec_230"
+  },
+  {
+   "block_id": "doc_006_p084_b007",
+   "type": "paragraph",
+   "page_number": 84,
+   "bbox": [
+    122,
+    2753,
+    2429,
+    2853
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The following sections describe extrapolation and interpolation as estimation procedures for discrete data during the use of the quantity determination procedure Quantity Determination During Meter Reading.",
+   "section_id": "doc_006_sec_230"
+  },
+  {
+   "block_id": "doc_006_p084_b008",
+   "type": "heading",
+   "page_number": 84,
+   "bbox": [
+    125,
+    2937,
+    363,
+    2974
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Extrapolation",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_230"
+  },
+  {
+   "block_id": "doc_006_p084_b009",
+   "type": "heading",
+   "page_number": 84,
+   "bbox": [
+    125,
+    3058,
+    354,
+    3095
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [
+    "non_bold_layout_candidate:not_promoted_to_section"
+   ],
+   "text": "Interpolation",
+   "level": 4,
+   "heading_confidence": "low",
+   "section_id": "doc_006_sec_230"
+  },
+  {
+   "block_id": "doc_006_p084_b010",
+   "type": "paragraph",
+   "page_number": 84,
+   "bbox": [
+    122,
+    3180,
+    2488,
+    3283
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "The concept for calculating the quantity once an actual meter reading result is available following one or more estimations (usually extrapolations) is described in the following section:",
+   "section_id": "doc_006_sec_230"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Reading Meters",
+  "source_pdf": "6.pdf",
+  "reference_pdf": "06_Reading_Meters.pdf",
+  "category": "Device Management & Meter Reading",
+  "m2c_relevance": "Core source for teaching meter-read lifecycle and the handoff from metering to billing.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2ac7fe29a0c94cdd88fb80c2cb9f7758?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 95,
+   "page_hash": "92fca81f1dda15805e3cde0d87386556ba9d98c16081bb27bde65cc2aeea0141"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:36Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Reading Meters",
+  "Transactions",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_006_sec_229",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_006_sec_230",
+   "role": "starts_here"
+  }
+ ]
+}

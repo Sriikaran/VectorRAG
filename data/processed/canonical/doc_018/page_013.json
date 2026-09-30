@@ -1,0 +1,423 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_018",
+ "page_number": 13,
+ "source_page_hash": "8f092a12513900244bd0407e66d824007b6beda6be977531cbf2573757ef7892",
+ "is_cover_page": false,
+ "title": "Message Types",
+ "cover_area_title": null,
+ "raw_text": "9/29/26, 9:48 AM\nFor more information about the individual error categories, see the code list for the global data type LogltemCategoryCode.\n\nMessage Types\n\ne Credit Worthiness Change Information\n\nNotes on SAP Implementation\n\nThe CA-SOA-ESM-ERP-FIN component and the CREDAGYO06 business process are used to facilitate forward error handling.\n\nAfter the inbound proxy is processed, a trigger is created to change the relevant Contract Accounting master data. This trigger is\ncreated once the changes have been made to the associated Credit Management master data. The changes made to the Contract\nAccounting master data are used in mass activity transaction FPBPCU in the Contract Accounting system.You can use the\nFinancial Accounting (FI-CA) event 4603 to create your own triggers for master data change\n\nCheck Benefit Free Period\n\nDefinition\n\nTo determine whether benefit exemption exists for an insurance policy for a claim period, due to payments that have not been\nmade.\n\nTechnical Data\n\nEntity Type                                        Service Operation\n\nRelease State                                     released\n\nTechnical Name                                InsuranceContractBenefitFreePeriodBylnsuranceContractIDAndClaimPeriodQueryResponse_In\nNamespace                                       http://sap.com/xi/FS-CD/Global ri\nApplication Component                        FS-CD\n\nWeb Service Definition (Back End)          INSURANCECONTRACTBENEFITFREEPE\nCategory                                           SAP A2A\n\nDirection                                               inbound\n\nMode                                                   synchronous\n\nIdempotency                                         no\n\nChange/Update Behavior                      not applicable\n\nP2P Communication Enabled                 true\n\nBusiness Context and Use\n",
+ "cleaned_text": "For more information about the individual error categories, see the code list for the global data type LogltemCategoryCode.\n\nMessage Types\n\n- Credit Worthiness Change Information\n\nNotes on SAP Implementation\n\nThe CA-SOA-ESM-ERP-FIN component and the CREDAGYO06 business process are used to facilitate forward error handling. After the inbound proxy is processed, a trigger is created to change the relevant Contract Accounting master data. This trigger is created once the changes have been made to the associated Credit Management master data. The changes made to the Contract Accounting master data are used in mass activity transaction FPBPCU in the Contract Accounting system.You can use the Financial Accounting (FI-CA) event 4603 to create your own triggers for master data change\n\nCheck Benefit Free Period\n\nDefinition\n\nTo determine whether benefit exemption exists for an insurance policy for a claim period, due to payments that have not been made.\n\nTechnical Data\n\nEntity Type | Service Operation\n\nRelease State | released\n\nTechnical Name | InsuranceContractBenefitFreePeriodBylnsuranceContractIDAndClaimPeriodQueryResponse_In\n\nNamespace | http://sap.com/xi/FS-CD/Global ri\n\nApplication Component | FS-CD\n\nWeb Service Definition (Back End) | INSURANCECONTRACTBENEFITFREEPE\n\nCategory | SAP A2A\n\nDirection | inbound\n\nMode | synchronous\n\nIdempotency | no\n\nChange/Update Behavior | not applicable\n\nP2P Communication Enabled | true\n\nBusiness Context and Use",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/29/26, 9:48 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    103
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_018_p013_b000",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    125,
+    134,
+    2370,
+    172
+   ],
+   "ocr_confidence": 94.7,
+   "flags": [],
+   "text": "For more information about the individual error categories, see the code list for the global data type LogltemCategoryCode.",
+   "section_id": "doc_018_sec_075"
+  },
+  {
+   "block_id": "doc_018_p013_b001",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    126,
+    284,
+    543,
+    341
+   ],
+   "ocr_confidence": 96.0,
+   "flags": [],
+   "text": "Message Types",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_076"
+  },
+  {
+   "block_id": "doc_018_p013_b002",
+   "type": "list",
+   "page_number": 13,
+   "bbox": [
+    207,
+    417,
+    949,
+    455
+   ],
+   "ocr_confidence": 94.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Credit Worthiness Change Information"
+    }
+   ],
+   "section_id": "doc_018_sec_076"
+  },
+  {
+   "block_id": "doc_018_p013_b003",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    126,
+    566,
+    970,
+    623
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Notes on SAP Implementation",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_077"
+  },
+  {
+   "block_id": "doc_018_p013_b004",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    122,
+    699,
+    2468,
+    1046
+   ],
+   "ocr_confidence": 95.1,
+   "flags": [
+    "low_confidence_words:1"
+   ],
+   "text": "The CA-SOA-ESM-ERP-FIN component and the CREDAGYO06 business process are used to facilitate forward error handling. After the inbound proxy is processed, a trigger is created to change the relevant Contract Accounting master data. This trigger is created once the changes have been made to the associated Credit Management master data. The changes made to the Contract Accounting master data are used in mass activity transaction FPBPCU in the Contract Accounting system.You can use the Financial Accounting (FI-CA) event 4603 to create your own triggers for master data change",
+   "section_id": "doc_018_sec_077"
+  },
+  {
+   "block_id": "doc_018_p013_b005",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    125,
+    1195,
+    1057,
+    1256
+   ],
+   "ocr_confidence": 96.8,
+   "flags": [],
+   "text": "Check Benefit Free Period",
+   "level": 2,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_078"
+  },
+  {
+   "block_id": "doc_018_p013_b006",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    126,
+    1371,
+    393,
+    1417
+   ],
+   "ocr_confidence": 94.9,
+   "flags": [],
+   "text": "Definition",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_079"
+  },
+  {
+   "block_id": "doc_018_p013_b007",
+   "type": "paragraph",
+   "page_number": 13,
+   "bbox": [
+    122,
+    1504,
+    2393,
+    1597
+   ],
+   "ocr_confidence": 96.5,
+   "flags": [],
+   "text": "To determine whether benefit exemption exists for an insurance policy for a claim period, due to payments that have not been made.",
+   "section_id": "doc_018_sec_079"
+  },
+  {
+   "block_id": "doc_018_p013_b008",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    123,
+    1716,
+    530,
+    1762
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [],
+   "text": "Technical Data",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_080"
+  },
+  {
+   "block_id": "doc_018_p013_b009",
+   "type": "table",
+   "page_number": 13,
+   "bbox": [
+    148,
+    1874,
+    2463,
+    3066
+   ],
+   "ocr_confidence": 92.2,
+   "flags": [
+    "low_confidence_words:2",
+    "ocr_table_reconstruction:cell_split_by_x_gap",
+    "continues_from_previous_page:p12",
+    "continues_from_previous_page:p12"
+   ],
+   "columns": 2,
+   "column_starts": [
+    148,
+    854
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ],
+    [
+     "Technical Name",
+     "InsuranceContractBenefitFreePeriodBylnsuranceContractIDAndClaimPeriodQueryResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FS-CD/Global ri"
+    ],
+    [
+     "Application Component",
+     "FS-CD"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "INSURANCECONTRACTBENEFITFREEPE"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "Entity Type",
+     "Service Operation"
+    ],
+    [
+     "Release State",
+     "released"
+    ],
+    [
+     "Technical Name",
+     "InsuranceContractBenefitFreePeriodBylnsuranceContractIDAndClaimPeriodQueryResponse_In"
+    ],
+    [
+     "Namespace",
+     "http://sap.com/xi/FS-CD/Global ri"
+    ],
+    [
+     "Application Component",
+     "FS-CD"
+    ],
+    [
+     "Web Service Definition (Back End)",
+     "INSURANCECONTRACTBENEFITFREEPE"
+    ],
+    [
+     "Category",
+     "SAP A2A"
+    ],
+    [
+     "Direction",
+     "inbound"
+    ],
+    [
+     "Mode",
+     "synchronous"
+    ],
+    [
+     "Idempotency",
+     "no"
+    ],
+    [
+     "Change/Update Behavior",
+     "not applicable"
+    ],
+    [
+     "P2P Communication Enabled",
+     "true"
+    ]
+   ],
+   "section_id": "doc_018_sec_080"
+  },
+  {
+   "block_id": "doc_018_p013_b010",
+   "type": "heading",
+   "page_number": 13,
+   "bbox": [
+    126,
+    3207,
+    853,
+    3254
+   ],
+   "ocr_confidence": 96.4,
+   "flags": [],
+   "text": "Business Context and Use",
+   "level": 3,
+   "heading_confidence": "high",
+   "section_id": "doc_018_sec_081"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 62,
+  "body_stroke_median": 0.108,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Contract Account Business Object",
+  "source_pdf": "18.pdf",
+  "reference_pdf": "18_Contract_Account_Business_Object.pdf",
+  "category": "FI-CA / Contract Accounting",
+  "m2c_relevance": "Important for teaching Business Partner/Contract Account financial relationships.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e4375clcad104b2eb7d027369bd76638?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 94,
+   "page_hash": "8f092a12513900244bd0407e66d824007b6beda6be977531cbf2573757ef7892"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:43Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Contract Account Business Object",
+  "Information",
+  "Error Handling",
+  "Forward Error Handling"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_018_sec_075",
+   "role": "continues"
+  },
+  {
+   "section_id": "doc_018_sec_076",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_077",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_078",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_079",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_080",
+   "role": "starts_here"
+  },
+  {
+   "section_id": "doc_018_sec_081",
+   "role": "starts_here"
+  }
+ ]
+}

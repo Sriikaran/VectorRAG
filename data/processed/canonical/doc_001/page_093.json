@@ -1,0 +1,341 @@
+{
+ "schema_version": "1.0",
+ "document_id": "doc_001",
+ "page_number": 93,
+ "source_page_hash": "795fe7bcdb86786ab2659078a32092775e453e49dc67894f1743bd404766b4a7",
+ "is_cover_page": false,
+ "title": null,
+ "cover_area_title": null,
+ "raw_text": "9/30/26, 5:12 AM\n\nPR1        PR2\nD1          D2\n\nDL1\n\ne The following functions are required:\n\nCO\n\ne Change Allocation of Premise to Connection Object\n\nPR1\n\nPR2\n\nDL2\n\nD2\n\ne Change Allocation of Device Location to Connection Object\n\nThe Change Allocation of Connection Object to Premise/Device Location/ Device function is only possible in the following cases:\n\ne The result of checking the address of the connection objects involved against the regional structure is positive.\n\ne When changing the allocation you can only change the House Number, House Number Supplement , and Name fields in\nthe connection object. The Regional Structure Group, Political Regional Structure , and Maintenance Plant fields must\n\nnot be changed.\n\ne The regional structure data for the connection objects involved are identical (identical street or street section).\n\ne No technical installation is maintained for the premise.\n\ne Noallocation exists to a device location remaining in the old connection object, and a premise that is reallocated, and vice\n\nversa.\n\nThe address of the contract partner to which the address can be passed on during move-in, is not adjusted automatically. It must\n\nbe maintained manually later.\n\n",
+ "cleaned_text": "PR1 | PR2\n\nD1 | D2\n\nDL1\n\n- The following functions are required: CO\n\n- Change Allocation of Premise to Connection Object PR1 PR2\n\nDL2 D2\n\n- Change Allocation of Device Location to Connection Object\n\nThe Change Allocation of Connection Object to Premise/Device Location/ Device function is only possible in the following cases:\n\n- The result of checking the address of the connection objects involved against the regional structure is positive.\n\n- When changing the allocation you can only change the House Number, House Number Supplement , and Name fields in the connection object. The Regional Structure Group, Political Regional Structure , and Maintenance Plant fields must not be changed.\n\n- The regional structure data for the connection objects involved are identical (identical street or street section).\n\n- No technical installation is maintained for the premise.\n\n- Noallocation exists to a device location remaining in the old connection object, and a premise that is reallocated, and vice versa.\n\nThe address of the contract partner to which the address can be passed on during move-in, is not adjusted automatically. It must be maintained manually later.",
+ "noise_spans": [
+  {
+   "type": "nav_chrome",
+   "subtype": "print_timestamp",
+   "text": "9/30/26, 5:12 AM",
+   "bbox": [
+    107,
+    72,
+    403,
+    102
+   ],
+   "reason": "browser/print timestamp repeated on every page"
+  }
+ ],
+ "blocks": [
+  {
+   "block_id": "doc_001_p093_b000",
+   "type": "table",
+   "page_number": 93,
+   "bbox": [
+    296,
+    664,
+    739,
+    706
+   ],
+   "ocr_confidence": 88.2,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    296,
+    632
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "PR1",
+     "PR2"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "PR1",
+     "PR2"
+    ]
+   ],
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p093_b001",
+   "type": "table",
+   "page_number": 93,
+   "bbox": [
+    309,
+    887,
+    711,
+    929
+   ],
+   "ocr_confidence": 96.2,
+   "flags": [
+    "in_graphic_region",
+    "ocr_table_reconstruction:cell_split_by_x_gap"
+   ],
+   "columns": 2,
+   "column_starts": [
+    309,
+    645
+   ],
+   "headers": null,
+   "rows": [
+    [
+     "D1",
+     "D2"
+    ]
+   ],
+   "rows_ocr_order": [
+    [
+     "D1",
+     "D2"
+    ]
+   ],
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p093_b002",
+   "type": "paragraph",
+   "page_number": 93,
+   "bbox": [
+    850,
+    1183,
+    941,
+    1225
+   ],
+   "ocr_confidence": 90.1,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "DL1",
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p093_b003",
+   "type": "list",
+   "page_number": 93,
+   "bbox": [
+    207,
+    664,
+    2070,
+    2111
+   ],
+   "ocr_confidence": 89.0,
+   "flags": [
+    "low_confidence_words:1",
+    "in_graphic_region"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The following functions are required: CO"
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change Allocation of Premise to Connection Object PR1 PR2"
+    }
+   ],
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p093_b004",
+   "type": "paragraph",
+   "page_number": 93,
+   "bbox": [
+    1354,
+    887,
+    2043,
+    1225
+   ],
+   "ocr_confidence": 93.1,
+   "flags": [
+    "in_graphic_region"
+   ],
+   "text": "DL2 D2",
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p093_b005",
+   "type": "list",
+   "page_number": 93,
+   "bbox": [
+    207,
+    2174,
+    1358,
+    2213
+   ],
+   "ocr_confidence": 95.2,
+   "flags": [],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Change Allocation of Device Location to Connection Object"
+    }
+   ],
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p093_b006",
+   "type": "paragraph",
+   "page_number": 93,
+   "bbox": [
+    122,
+    2292,
+    2483,
+    2338
+   ],
+   "ocr_confidence": 85.2,
+   "flags": [
+    "low_confidence_words:2"
+   ],
+   "text": "The Change Allocation of Connection Object to Premise/Device Location/ Device function is only possible in the following cases:",
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p093_b007",
+   "type": "list",
+   "page_number": 93,
+   "bbox": [
+    207,
+    2421,
+    2452,
+    3049
+   ],
+   "ocr_confidence": 91.4,
+   "flags": [
+    "low_confidence_words:6"
+   ],
+   "ordered": false,
+   "items": [
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The result of checking the address of the connection objects involved against the regional structure is positive."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "When changing the allocation you can only change the House Number, House Number Supplement , and Name fields in the connection object. The Regional Structure Group, Political Regional Structure , and Maintenance Plant fields must not be changed."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "The regional structure data for the connection objects involved are identical (identical street or street section)."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "No technical installation is maintained for the premise."
+    },
+    {
+     "level": 1,
+     "marker": "e",
+     "number": null,
+     "text": "Noallocation exists to a device location remaining in the old connection object, and a premise that is reallocated, and vice versa."
+    }
+   ],
+   "section_id": "doc_001_sec_356"
+  },
+  {
+   "block_id": "doc_001_p093_b008",
+   "type": "paragraph",
+   "page_number": 93,
+   "bbox": [
+    122,
+    3140,
+    2452,
+    3240
+   ],
+   "ocr_confidence": 96.1,
+   "flags": [],
+   "text": "The address of the contract partner to which the address can be passed on during move-in, is not adjusted automatically. It must be maintained manually later.",
+   "section_id": "doc_001_sec_356"
+  }
+ ],
+ "detection": {
+  "line_pitch_px": 63.0,
+  "body_stroke_median": 0.087,
+  "lines_reconstructed_aligned": true,
+  "issues": [
+   "1 mechanical noise span(s) marked and excluded from cleaned_text"
+  ]
+ },
+ "metadata": {
+  "document_title": "Utilities Master Data",
+  "source_pdf": "1.pdf",
+  "reference_pdf": "01_Utilities_Master_Data.pdf",
+  "category": "Master Data & Customer Lifecycle",
+  "m2c_relevance": "Use this to establish SAP Utilities business and technical master-data relationships before teaching transactions.",
+  "source_url": "https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/e52c8ee6197147ec97dfc2eb8c46a3ad?locale=en-US&state=PRODUCTION&version=2025.001",
+  "authority": 3,
+  "authority_note": "page raw/cleaned text and blocks are OCR evidence of the authoritative SAP Help Portal source document",
+  "curation": {
+   "authority": 2,
+   "source": "corpus_inventory.json",
+   "fields": [
+    "document_title",
+    "category",
+    "m2c_relevance",
+    "source_url",
+    "reference_pdf"
+   ]
+  },
+  "ocr": {
+   "engine": "tesserocr 5.5.1 (Tesseract LSTM)",
+   "dpi": 300,
+   "mean_confidence": 91,
+   "page_hash": "795fe7bcdb86786ab2659078a32092775e453e49dc67894f1743bd404766b4a7"
+  }
+ },
+ "generated": {
+  "authority": 1,
+  "pipeline": "canonicalize.py v1.1",
+  "processed_at": "2026-09-30T10:19:30Z",
+  "config": {
+   "render_dpi": 150,
+   "render_scale": 0.5,
+   "dark_threshold": 160,
+   "stroke_bold_ratio": 1.25,
+   "stroke_bold_abs": 0.128,
+   "heading_min_bg": 253,
+   "level2_min_height": 58,
+   "level2_min_stroke": 0.1,
+   "level3_min_height": 40,
+   "heading_max_len": 95,
+   "column_gap": 60,
+   "column_align_tol": 28,
+   "graphic_bg": 252,
+   "cut_off_y": 3260,
+   "cut_off_max_h": 26,
+   "low_word_conf": 60,
+   "header_ink_factor": 1.25,
+   "para_gap_factor": 1.6,
+   "heading_gap_factor": 1.3,
+   "nav_timestamp_y": 150
+  }
+ },
+ "complete": true,
+ "section_path": [
+  "Utilities Master Data",
+  "Change Connection Object in Premise",
+  "Use"
+ ],
+ "sections_on_page": [
+  {
+   "section_id": "doc_001_sec_356",
+   "role": "continues"
+  }
+ ]
+}
