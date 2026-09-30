@@ -1,69 +1,84 @@
-# Embedding Model — Qwen3-Embedding-4B (reproducibility notes)
+# Embedding Models — reproducibility notes
 
-Target model for VectorRAG Part 5. Weights are **never** committed to Git;
-the model is downloaded automatically on first run and reused from a local
-cache that lives outside the repository.
+Current build default: **Qwen3-Embedding-0.6B via the ONNX implementation
+package `qwen3-embed` (INT8)**. Weights are **never** committed to Git.
 
-## Exact model
+## Default profile (all current embedding generation + validation)
 
-- ID: `Qwen/Qwen3-Embedding-4B`
-- Output: 2560 dimensions, normalized (unit L2), cosine similarity
-- Context: 32K tokens (chunk retrieval texts are far below this; no truncation)
-- Document embeddings: **no** instruction prefix (official guidance)
-- Query embeddings (later retrieval stage): use `TASK_INSTRUCTION` from
-  `embed_chunks.py` with the same model
+- Model (recorded name): `Qwen3-Embedding-0.6B-ONNX`
+- Package catalog id: `n24q02m/Qwen3-Embedding-0.6B-ONNX` (the qwen3-embed
+  package's Hugging Face repo for this ONNX export)
+- Backend: ONNX Runtime (`onnxruntime`), CPU-first; GPU optional via
+  `EMBEDDING_DEVICE=AUTO|CUDA` if the backend detects an accelerator
+- Quantization: **INT8 dynamic** (`onnx/model_quantized.onnx`, ~0.57GB)
+- Dimensions: **1024** (native; MRL 32–1024 supported by the model but not
+  used — do not reduce in this build)
+- Normalization: package-side unit L2 (verified by the pipeline/validator,
+  never applied twice); cosine similarity semantics
+- Context: retrieval texts are validated to fit **1024 Qwen tokens** (observed
+  max across the corpus: 806) — intentional reduction from the model's 32K
+  maximum; no silent truncation
+- License: Apache-2.0
+- Package: `qwen3-embed` 1.14.0 (`pip install qwen3-embed`, pulls
+  `onnxruntime`, `tokenizers`, `numpy`, `huggingface-hub`, `loguru`)
 
-## How it is downloaded (automatic on first run)
+### Automatic acquisition (network available)
 
-`embed_chunks.py` acquires the model in this order:
+`python3 embed_chunks.py` downloads the INT8 ONNX model from the catalog repo
+via `huggingface_hub` on first run and caches it
+(default `~/.cache/qwen3_embed`-style local cache outside Git; override with
+`EMBEDDING_CACHE_DIR`).
 
-1. **Hugging Face (preferred)** — `huggingface_hub.snapshot_download("Qwen/Qwen3-Embedding-4B")`;
-   the resolved commit SHA is pinned into every embedding record and into the
-   cache key.
-2. **ModelScope (fallback)** — official Qwen mirror via the `modelscope`
-   package (`snapshot_download("Qwen/Qwen3-Embedding-4B")`).
+Exact offline download command (any networked machine):
 
-If neither endpoint is reachable and no local cache exists, the pipeline stops
-with concrete diagnostics (exit code 2). It never fabricates embeddings and
-never silently substitutes a different model.
+    pip install "huggingface_hub" "qwen3-embed==1.14.0"
+    hf download n24q02m/Qwen3-Embedding-0.6B-ONNX
+    # or: huggingface-cli download n24q02m/Qwen3-Embedding-0.6B-ONNX
 
-## Expected local cache location
+### LOCAL MODEL PATH (restricted/offline environments)
 
-- Default: `~/.cache/huggingface` (outside the Git repository; `HF_HOME` set
-  by the pipeline if unset)
-- Override: `EMBEDDING_CACHE_DIR=/path/to/cache`
-- Pre-seeding: download once on a networked machine and copy the HF cache dir
-  (or `snapshot_download(..., local_dir=...)`) to the target host.
+Set `EMBEDDING_MODEL_PATH` to a directory laid out exactly like the repo:
 
-## Required Python / library versions
+    <EMBEDDING_MODEL_PATH>/
+        config.json                     (required)
+        tokenizer.json                  (required)
+        tokenizer_config.json           (required; carries model_max_length)
+        special_tokens_map.json         (required special-tokens map)
+        onnx/model_quantized.onnx       (required, INT8 weights, ~0.57GB)
 
-- Python ≥ 3.10
-- `transformers >= 4.51`
-- `sentence-transformers >= 2.7`
-- `torch` (CPU or CUDA build)
-- `huggingface_hub` (HF route) / `modelscope` (fallback route)
+Then run:
 
-All are available on PyPI. GPU is not required; the device is resolved
-automatically and can be forced with `EMBEDDING_DEVICE=cpu|cuda|cuda:N|mps`.
+    EMBEDDING_MODEL_PATH=/absolute/path/to/Qwen3-Embedding-0.6B-ONNX \
+    EMBEDDING_DEVICE=CPU \
+    EMBEDDING_BATCH_SIZE=2 \
+    python3 embed_chunks.py
 
-## GPU/CPU behaviour and memory
+The pipeline validates the layout, bypasses all network access
+(`specific_model_path` + `local_files_only`), loads via ONNX Runtime with
+2 CPU threads, and records `model_revision: "local"`.
 
-- `EMBEDDING_DEVICE=auto` (default): CUDA → Apple MPS → CPU.
-- Qwen3-Embedding-4B in bf16 needs **~8GB for weights alone**, plus
-  activations — plan for **≥9–12GB** of accelerator memory (GPU) or system
-  RAM (CPU). The pipeline hard-stops with exact numbers when available memory
-  is below `REQUIRED_MEMORY_GB` (9GB) and no GPU/MPS exists; it does not
-  substitute a smaller model.
-- Batch size: `EMBEDDING_BATCH_SIZE` (default: conservative auto — 16 on GPU,
-  scaled from free RAM on CPU; 4GB RAM ⇒ 1–2).
+### CPU/memory behaviour
 
-## Fallback acquisition route (HF unavailable)
+- INT8 0.6B needs ~0.6GB weights + runtime overhead: comfortably runs in
+  ~2.5–3GB RAM (the pipeline hard-stops below `REQUIRED_MIN_FREE_RAM_GB`).
+- `EMBEDDING_THREADS` (default 2) controls ONNX Runtime CPU threading.
+- `EMBEDDING_BATCH_SIZE` (default 2) is recorded; the 0.6B causal-LM ONNX
+  graph pins the effective batch to 1 (manifest records both).
 
-`pip install modelscope` then re-run `embed_chunks.py` — the pipeline falls
-back to ModelScope automatically. If that host is also unreachable (e.g. a
-PyPI-only sandbox), the only offline route is copying a cache prepared
-elsewhere (see "Pre-seeding" above). Note recorded for the VectorRAG sandbox
-as of 2026-09-30: huggingface.co, cdn-lfs.huggingface.co and modelscope.cn
-were all unreachable and the host had 3GB RAM / no GPU, so Part 5 produced no
-embeddings there; the pipeline code is the deliverable and runs unchanged in a
-capable environment.
+## Recorded environment blocker (Arena sandbox, 2026-09-30)
+
+`huggingface.co` (and cdn-lfs/modelscope) are unreachable from the sandbox
+(TLS connection closed; only PyPI is reachable), so automatic acquisition
+fails with `ConnectError: TLS/SSL connection has been closed (EOF)`. No local
+model has been supplied yet, therefore **0/453 embeddings exist in this
+environment** and `validate_embeddings.py` honestly reports BLOCKED. Supply
+the model locally (see above) or run on a networked machine to produce them.
+
+## Optional high-memory quality profile (NOT the default)
+
+- Model: `Qwen/Qwen3-Embedding-4B` — 2560-dim, bf16, ~9–12GB memory, GPU
+  recommended; run via sentence-transformers (`transformers >= 4.51`,
+  `sentence-transformers >= 2.7`). Kept documented from the previous Part 5
+  implementation (git history, `embed_chunks.py` v1); NOT used by the current
+  default pipeline. Embedding records carry `model`/`backend` so artifacts
+  from either profile are distinguishable.
